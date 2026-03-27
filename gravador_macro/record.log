@@ -1,0 +1,739 @@
+17:07:31.741 [INFO] RECORDER started. Press F8 to stop.
+17:07:31.743 [INFO] Log file: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\record.log
+17:07:31.745 [INFO] DPI awareness: PM
+17:07:35.227 [DEBUG] COM initialized in thread (hr=0)
+17:07:35.230 [DEBUG] click positions: pynput=(971,1060) win32_cursor=(971,1060)
+17:07:35.233 [INFO] Mouse click (left) at (971,1060) top_window name='' class='Shell_TrayWnd' double=False
+17:07:35.238 [INFO] Click on taskbar -> waiting foreground change then recording focus_window
+17:07:35.854 [INFO] taskbar->foreground result: name='Gerenciador de Sistemas' class='TApplication'
+17:07:35.855 [DEBUG] Recorded wait=4118ms
+17:07:35.858 [INFO] Recorded focus_window name='Gerenciador de Sistemas' class='TApplication'
+17:07:36.874 [DEBUG] click positions: pynput=(1161,185) win32_cursor=(1161,185)
+17:07:36.886 [INFO] Mouse click (left) at (1161,185) top_window name='Gerenciador de Sistemas' class='TfrmPrincipal' double=False
+17:07:37.117 [DEBUG] UIA under cursor: type='Pane' name=None class='TPanel'
+17:07:38.445 [DEBUG] base element chain:
+17:07:38.504 [DEBUG] chain[0] type='Pane' name=None class='TPanel' rect=(0, 153, 1920, 203)
+17:07:38.575 [DEBUG] chain[1] type='Window' name='Gerenciador de Sistemas' class='TfrmPrincipal' rect=(-3, -3, 1923, 1043)
+17:07:38.740 [DEBUG] chain[2] type='Pane' name='Área de Trabalho 1' class='#32769' rect=(0, 0, 1920, 1080)
+17:07:38.768 [DEBUG] pick_from_chain picked at hop=0
+17:07:38.908 [DEBUG] Recorded wait=3053ms
+17:07:38.917 [INFO] Recorded click_uia type='Pane' name=None class='TPanel' rect=(0, 153, 1920, 203) took=2025.3ms
+17:07:51.571 [DEBUG] click positions: pynput=(1616,62) win32_cursor=(1616,62)
+17:07:51.575 [INFO] Mouse click (left) at (1616,62) top_window name='Contabilidade ' class='TfrmPrincipal' double=False
+17:07:51.594 [DEBUG] UIA under cursor: type='Edit' name=None class='TEdit'
+17:07:51.622 [DEBUG] base element chain:
+17:07:51.624 [DEBUG] chain[0] type='Edit' name=None class='TEdit' rect=(1600, 47, 1640, 68)
+17:07:51.627 [DEBUG] chain[1] type='Pane' name=None class='TCRDBaseLookUp' rect=(1555, 46, 1889, 69)
+17:07:51.631 [DEBUG] chain[2] type='Pane' name=None class='TPanel' rect=(1514, 46, 1914, 114)
+17:07:51.638 [DEBUG] chain[3] type='Pane' name=None class='TfraBarraAtalhosEmpresaTrabalho' rect=(1514, 46, 1914, 114)
+17:07:51.641 [DEBUG] chain[4] type='Pane' name=None class='TGroupBox' rect=(1512, 44, 1914, 116)
+17:07:51.644 [DEBUG] chain[5] type='Pane' name=None class='TPanel' rect=(1, 44, 1914, 116)
+17:07:51.648 [DEBUG] pick_from_chain picked at hop=0
+17:07:51.675 [DEBUG] Recorded wait=12767ms
+17:07:51.676 [INFO] Recorded click_uia type='Edit' name=None class='TEdit' rect=(1600, 47, 1640, 68) took=93.1ms
+17:07:52.635 [DEBUG] Recorded wait=960ms
+17:07:52.637 [INFO] Recorded key=BACKSPACE
+17:07:52.787 [INFO] Recorded key=BACKSPACE
+17:07:54.195 [DEBUG] Recorded wait=1408ms
+17:07:54.197 [INFO] Recorded key=ENTER
+17:07:55.099 [DEBUG] Recorded wait=903ms
+17:07:55.100 [INFO] Recorded key=ENTER
+17:07:57.818 [DEBUG] Recorded wait=2720ms
+17:07:57.821 [INFO] Recorded key=DELETE
+17:07:58.122 [DEBUG] Recorded wait=304ms
+17:07:58.124 [INFO] Recorded key=ENTER
+17:08:00.660 [INFO] Stop key pressed (F8).
+17:08:00.700 [INFO] Saved macro: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\macro.json (steps=17)
+17:20:01.340 [INFO] RECORDER started. Press F8 to stop.
+17:20:01.341 [INFO] Log file: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\record.log
+17:20:01.345 [INFO] DPI awareness: PM
+17:20:05.413 [INFO] RECORDER started. Press F8 to stop.
+17:20:05.417 [INFO] Log file: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\record.log
+17:20:05.425 [INFO] DPI awareness: PM
+17:48:33.892 [INFO] RECORDER started. Pressione F8 para parar.
+17:48:33.893 [INFO] Log file: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\record.log
+17:48:33.895 [INFO] DPI awareness: PM
+17:48:33.900 [DEBUG] COM initialized (hr=1)
+17:54:03.345 [INFO] RECORDER started. Pressione F8 para parar.
+17:54:03.347 [INFO] Log file: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\record.log
+17:54:03.348 [INFO] DPI awareness: PM
+17:54:03.349 [DEBUG] COM initialized (hr=1)
+17:54:03.351 [INFO] Hooks instalados (keyboard+mouse). Pressione F8 para parar.
+17:54:05.852 [INFO] Mouse click (left) at (976,1072) top_window name='' class='Shell_TrayWnd' double=False
+17:54:05.854 [INFO] Click on taskbar -> recording focus_window (foreground)
+17:54:06.011 [DEBUG] Recorded wait=2670ms
+17:54:06.017 [INFO] Recorded focus_window name='recorder.py - gravador_macro - Visual Studio Code' class='Chrome_WidgetWin_1'
+17:54:06.623 [INFO] Mouse click (left) at (1217,174) top_window name='Gerenciador de Sistemas' class='TfrmPrincipal' double=False
+17:54:06.758 [DEBUG] pick_from_chain picked at hop=0
+17:54:06.775 [DEBUG] Recorded wait=764ms
+17:54:06.777 [INFO] Recorded click_uia type='Pane' name=None class='TPanel' rect=(0, 153, 1920, 203) took=151.9ms
+17:54:15.615 [INFO] Mouse click (left) at (1616,59) top_window name='Contabilidade ' class='TfrmPrincipal' double=False
+17:54:15.638 [DEBUG] pick_from_chain picked at hop=0
+17:54:15.685 [DEBUG] Recorded wait=8910ms
+17:54:15.687 [INFO] Recorded click_uia type='Edit' name=None class='TEdit' rect=(1600, 47, 1640, 68) took=70.3ms
+17:54:16.255 [INFO] Mouse click (left) at (1616,59) top_window name='Contabilidade ' class='TfrmPrincipal' double=False
+17:54:16.314 [DEBUG] pick_from_chain picked at hop=0
+17:54:16.345 [DEBUG] Recorded wait=660ms
+17:54:16.347 [INFO] Recorded click_uia type='Edit' name=None class='TEdit' rect=(1600, 47, 1640, 68) took=90.0ms
+17:54:17.255 [INFO] Mouse click (left) at (1619,59) top_window name='Contabilidade ' class='TfrmPrincipal' double=False
+17:54:17.318 [DEBUG] pick_from_chain picked at hop=0
+17:54:17.356 [DEBUG] Recorded wait=1011ms
+17:54:17.358 [INFO] Recorded click_uia type='Edit' name=None class='TEdit' rect=(1600, 47, 1640, 68) took=100.9ms
+17:54:18.919 [DEBUG] Recorded wait=1563ms
+17:54:19.462 [INFO] Recorded type_text len=3
+17:54:19.465 [INFO] Recorded key=ENTER
+17:54:20.215 [DEBUG] Recorded wait=749ms
+17:54:20.217 [INFO] Recorded key=ENTER
+17:54:22.054 [DEBUG] Recorded wait=1840ms
+17:54:23.206 [DEBUG] Recorded wait=1152ms
+17:54:23.207 [INFO] Recorded type_text len=1
+17:54:23.208 [INFO] Recorded key=DELETE
+17:54:23.478 [DEBUG] Recorded wait=270ms
+17:54:23.479 [INFO] Recorded key=ENTER
+17:54:26.334 [INFO] Stop key pressed (F8).
+17:54:26.351 [INFO] Saved macro: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\macro.json (steps=21)
+17:39:27.644 [INFO] RECORDER started. Pressione F8 para parar.
+17:39:27.646 [INFO] Log file: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\record.log
+17:39:27.647 [INFO] DPI awareness: PM
+17:39:27.651 [DEBUG] COM initialized (hr=1)
+17:39:27.652 [INFO] Hooks instalados (keyboard+mouse). Pressione F8 para parar.
+17:39:31.753 [INFO] Mouse click (left) at (1144,22) top_window name='Carnê Leão Web - Google Chrome' class='Chrome_WidgetWin_1' double=False
+17:39:31.971 [DEBUG] pick_from_chain picked at hop=0
+17:39:31.993 [DEBUG] Recorded wait=4367ms
+17:39:31.994 [INFO] Recorded click_uia type='Pane' name=None class='TabStrip::TabDragContextImpl' rect=(28, 0, 1474, 41) took=184.1ms
+17:39:34.240 [INFO] Mouse click (left) at (1633,221) top_window name='eCAC - Centro Virtual de Atendimento - Google Chrome' class='Chrome_WidgetWin_1' double=False
+17:39:34.273 [DEBUG] pick_from_chain picked at hop=0
+17:39:34.309 [DEBUG] Recorded wait=2316ms
+17:39:34.312 [INFO] Recorded click_uia type='Pane' name=None class='Chrome_WidgetWin_1' rect=(0, 87, 1920, 1040) took=70.0ms
+17:39:36.551 [INFO] Stop key pressed (F8).
+17:39:36.562 [INFO] Saved macro: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\macro.json (steps=4)
+10:55:27.828 [INFO] RECORDER started. Pressione F8 para parar.
+10:55:27.885 [INFO] Log file: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\record.log
+10:55:27.937 [INFO] DPI awareness: PM
+10:55:27.998 [DEBUG] COM initialized (hr=1)
+10:55:28.017 [INFO] Hooks instalados (keyboard+mouse). Pressione F8 para parar.
+10:55:28.204 [INFO] RECORDER started. Pressione F8 para parar.
+10:55:28.278 [INFO] Log file: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\record.log
+10:55:28.304 [INFO] DPI awareness: PM
+10:55:28.353 [DEBUG] COM initialized (hr=1)
+10:55:28.371 [INFO] Hooks instalados (keyboard+mouse). Pressione F8 para parar.
+10:55:35.753 [INFO] Mouse click (left) at (836,575) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+10:55:35.895 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:55:35.900 [DEBUG] Recorded wait=7772ms
+10:55:35.909 [INFO] Recorded click_win rect=(652,332,1268,748) rx=0.2987 ry=0.5841
+10:55:35.913 [INFO] Mouse click (left) at (836,575) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+10:55:36.023 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:55:36.034 [DEBUG] Recorded wait=8277ms
+10:55:36.049 [INFO] Recorded click_win rect=(652,332,1268,748) rx=0.2987 ry=0.5841
+10:55:37.521 [INFO] Mouse click (left) at (1009,688) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+10:55:37.534 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:55:37.551 [DEBUG] Recorded wait=1651ms
+10:55:37.566 [INFO] Recorded click_win rect=(652,332,1268,748) rx=0.5795 ry=0.8558
+10:55:37.571 [INFO] Mouse click (left) at (1009,688) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+10:55:37.591 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:55:37.596 [DEBUG] Recorded wait=1562ms
+10:55:37.619 [INFO] Recorded click_win rect=(652,332,1268,748) rx=0.5795 ry=0.8558
+10:55:38.521 [INFO] Mouse click (left) at (1013,721) top_window name='' class='SunAwtWindow' double=False
+10:55:38.557 [DEBUG] pick_from_chain picked at hop=0
+10:55:38.585 [DEBUG] Recorded wait=1034ms
+10:55:38.609 [INFO] Recorded click_uia type='Pane' name=None class='SunAwtWindow' rect=(942, 699, 1160, 781) took=66.7ms
+10:55:38.621 [INFO] Mouse click (left) at (1013,721) top_window name='' class='SunAwtWindow' double=False
+10:55:38.635 [DEBUG] pick_from_chain picked at hop=0
+10:55:38.668 [DEBUG] Recorded wait=1072ms
+10:55:38.678 [INFO] Recorded click_uia type='Pane' name=None class='SunAwtWindow' rect=(942, 699, 1160, 781) took=51.9ms
+10:55:39.929 [INFO] Mouse click (left) at (804,693) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+10:55:39.938 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:55:39.941 [DEBUG] Recorded wait=1356ms
+10:55:39.948 [INFO] Recorded click_win rect=(652,332,1268,748) rx=0.2468 ry=0.8678
+10:55:39.957 [INFO] Mouse click (left) at (804,693) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+10:55:39.992 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:55:40.019 [DEBUG] Recorded wait=1351ms
+10:55:40.031 [INFO] Recorded click_win rect=(652,332,1268,748) rx=0.2468 ry=0.8678
+10:55:41.137 [INFO] Mouse click (left) at (812,721) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+10:55:41.156 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:55:41.164 [DEBUG] Recorded wait=1223ms
+10:55:41.174 [INFO] Recorded click_win rect=(652,332,1268,748) rx=0.2597 ry=0.9351
+10:55:41.181 [INFO] Mouse click (left) at (812,721) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+10:55:41.192 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:55:41.198 [DEBUG] Recorded wait=1179ms
+10:55:41.201 [INFO] Recorded click_win rect=(652,332,1268,748) rx=0.2597 ry=0.9351
+10:55:41.849 [INFO] Mouse click (left) at (903,684) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+10:55:41.863 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:55:41.867 [DEBUG] Recorded wait=703ms
+10:55:41.907 [INFO] Recorded click_win rect=(652,332,1268,748) rx=0.4075 ry=0.8462
+10:55:41.922 [INFO] Mouse click (left) at (903,684) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+10:55:41.956 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:55:41.998 [DEBUG] Recorded wait=800ms
+10:55:42.006 [INFO] Recorded click_win rect=(652,332,1268,748) rx=0.4075 ry=0.8462
+10:55:51.169 [DEBUG] Recorded wait=9301ms
+10:55:51.170 [DEBUG] Recorded wait=9172ms
+10:55:51.808 [DEBUG] Recorded wait=488ms
+10:55:51.810 [DEBUG] Recorded wait=489ms
+10:55:53.984 [DEBUG] Recorded wait=1816ms
+10:55:53.986 [DEBUG] Recorded wait=1817ms
+10:55:54.968 [DEBUG] Recorded wait=600ms
+10:55:54.972 [DEBUG] Recorded wait=603ms
+10:55:56.281 [DEBUG] Recorded wait=960ms
+10:55:56.282 [DEBUG] Recorded wait=961ms
+10:55:57.400 [DEBUG] Recorded wait=1120ms
+10:55:57.402 [DEBUG] Recorded wait=1120ms
+10:56:01.105 [DEBUG] Recorded wait=3537ms
+10:56:01.110 [INFO] Recorded type_text len=14
+10:56:01.113 [INFO] Mouse click (left) at (1161,730) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+10:56:01.122 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:56:01.123 [INFO] Recorded click_win rect=(652,332,1268,748) rx=0.8263 ry=0.9567
+10:56:01.126 [DEBUG] Recorded wait=3557ms
+10:56:01.130 [INFO] Recorded type_text len=14
+10:56:01.132 [INFO] Mouse click (left) at (1161,730) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+10:56:01.141 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:56:01.142 [INFO] Recorded click_win rect=(652,332,1268,748) rx=0.8263 ry=0.9567
+10:56:07.136 [INFO] Stop key pressed (F8).
+10:56:07.138 [INFO] Stop key pressed (F8).
+10:56:07.157 [INFO] Saved macro: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\macro.json (steps=21)
+10:56:07.157 [INFO] Saved macro: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\macro.json (steps=21)
+08:18:53.939 [INFO] RECORDER started. Pressione F8 para parar.
+08:18:53.941 [INFO] Log file: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\record.log
+08:18:53.942 [INFO] DPI awareness: PM
+08:18:53.943 [DEBUG] COM initialized (hr=1)
+08:18:53.943 [INFO] Hooks instalados (keyboard+mouse). Pressione F8 para parar.
+08:18:59.393 [INFO] Mouse click (left) at (817,695) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+08:18:59.663 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:18:59.665 [DEBUG] Recorded wait=5734ms
+08:18:59.666 [INFO] Recorded click_win rect=(652,332,1268,748) rx=0.2679 ry=0.8726
+08:19:00.652 [INFO] Mouse click (left) at (811,726) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+08:19:00.665 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:19:00.666 [DEBUG] Recorded wait=1001ms
+08:19:00.668 [INFO] Recorded click_win rect=(652,332,1268,748) rx=0.2581 ry=0.9471
+08:19:01.365 [INFO] Mouse click (left) at (882,688) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+08:19:01.369 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:19:01.371 [DEBUG] Recorded wait=704ms
+08:19:01.371 [INFO] Recorded click_win rect=(652,332,1268,748) rx=0.3734 ry=0.8558
+08:19:06.941 [DEBUG] Recorded wait=5571ms
+08:19:08.197 [DEBUG] Recorded wait=264ms
+08:19:10.493 [DEBUG] Recorded wait=1456ms
+08:19:10.495 [INFO] Recorded type_text len=14
+08:19:10.497 [INFO] Recorded key=CTRL+A
+08:19:11.589 [DEBUG] Recorded wait=1092ms
+08:19:12.117 [DEBUG] Recorded wait=424ms
+08:19:13.245 [DEBUG] Recorded wait=488ms
+08:19:15.197 [DEBUG] Recorded wait=1448ms
+08:19:16.665 [DEBUG] Recorded wait=1388ms
+08:19:16.666 [INFO] Recorded type_text len=14
+08:19:16.667 [INFO] Mouse click (left) at (1170,712) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+08:19:16.670 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:19:16.671 [INFO] Recorded click_win rect=(652,332,1268,748) rx=0.8409 ry=0.9135
+08:19:18.924 [INFO] Mouse click (left) at (912,383) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+08:19:18.930 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:19:18.931 [DEBUG] Recorded wait=2260ms
+08:19:18.933 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.4531 ry=0.2901
+08:19:19.524 [INFO] Mouse click (left) at (912,401) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+08:19:19.529 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:19:19.530 [DEBUG] Recorded wait=599ms
+08:19:19.535 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.4531 ry=0.3142
+08:19:20.149 [INFO] Mouse click (left) at (926,405) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+08:19:20.160 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:19:20.162 [DEBUG] Recorded wait=632ms
+08:19:20.163 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.4668 ry=0.3195
+08:19:20.721 [INFO] Mouse click (left) at (924,425) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+08:19:20.733 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:19:20.734 [DEBUG] Recorded wait=572ms
+08:19:20.735 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.4648 ry=0.3463
+08:19:21.029 [INFO] Mouse click (left) at (938,428) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+08:19:21.037 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:19:21.038 [DEBUG] Recorded wait=304ms
+08:19:21.039 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.4785 ry=0.3503
+08:19:22.473 [INFO] Mouse click (left) at (926,479) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+08:19:22.480 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:19:22.481 [DEBUG] Recorded wait=1443ms
+08:19:22.482 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.4668 ry=0.4184
+08:19:23.217 [INFO] Mouse click (left) at (883,474) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+08:19:23.223 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:19:23.224 [DEBUG] Recorded wait=743ms
+08:19:23.225 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.4248 ry=0.4118
+08:19:27.925 [DEBUG] Recorded wait=4701ms
+08:19:28.557 [DEBUG] Recorded wait=376ms
+08:19:29.605 [DEBUG] Recorded wait=1048ms
+08:19:29.607 [INFO] Recorded type_text len=4
+08:19:29.609 [INFO] Recorded key=BACKSPACE
+08:19:30.182 [DEBUG] Recorded wait=573ms
+08:19:30.797 [DEBUG] Recorded wait=615ms
+08:19:31.949 [DEBUG] Recorded wait=744ms
+08:19:31.951 [INFO] Recorded type_text len=5
+08:19:31.953 [INFO] Recorded key=BACKSPACE
+08:19:32.485 [DEBUG] Recorded wait=532ms
+08:19:32.933 [DEBUG] Recorded wait=448ms
+08:19:32.935 [INFO] Recorded type_text len=1
+08:19:32.938 [INFO] Recorded key=TAB
+08:19:35.180 [DEBUG] Recorded wait=2242ms
+08:19:36.476 [DEBUG] Recorded wait=1104ms
+08:19:36.477 [INFO] Recorded type_text len=2
+08:19:36.478 [INFO] Recorded key=BACKSPACE
+08:19:36.645 [INFO] Recorded key=BACKSPACE
+08:19:37.365 [DEBUG] Recorded wait=720ms
+08:19:37.973 [DEBUG] Recorded wait=312ms
+08:19:39.253 [DEBUG] Recorded wait=992ms
+08:19:39.255 [INFO] Recorded type_text len=8
+08:19:39.257 [INFO] Mouse click (left) at (925,745) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+08:19:39.265 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:19:39.266 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.4658 ry=0.7741
+08:19:46.765 [INFO] Stop key pressed (F8).
+08:19:46.784 [INFO] Saved macro: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\macro.json (steps=56)
+08:35:27.925 [INFO] RECORDER started. Pressione F8 para parar.
+08:35:27.926 [INFO] Log file: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\record.log
+08:35:27.927 [INFO] DPI awareness: PM
+08:35:27.928 [DEBUG] COM initialized (hr=1)
+08:35:27.929 [INFO] Hooks instalados (keyboard+mouse). Pressione F8 para parar.
+08:35:31.718 [INFO] Mouse click (left) at (875,687) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+08:35:31.757 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:35:31.758 [DEBUG] Recorded wait=3839ms
+08:35:31.759 [INFO] Recorded click_win rect=(652,332,1268,748) rx=0.3620 ry=0.8534
+08:35:35.117 [DEBUG] Recorded wait=3359ms
+08:35:35.580 [DEBUG] Recorded wait=376ms
+08:35:36.125 [DEBUG] Recorded wait=352ms
+08:35:36.812 [DEBUG] Recorded wait=391ms
+08:35:40.112 [DEBUG] Recorded wait=2643ms
+08:35:40.115 [INFO] Recorded type_text len=14
+08:35:40.117 [INFO] Mouse click (left) at (1145,723) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+08:35:40.126 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:35:40.127 [INFO] Recorded click_win rect=(652,332,1268,748) rx=0.8003 ry=0.9399
+08:35:41.844 [INFO] Mouse click (left) at (894,377) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+08:35:41.866 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:35:41.872 [DEBUG] Recorded wait=1745ms
+08:35:41.877 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.4355 ry=0.2821
+08:35:43.233 [INFO] Mouse click (left) at (903,400) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+08:35:43.241 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:35:43.242 [DEBUG] Recorded wait=1370ms
+08:35:43.246 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.4443 ry=0.3128
+08:35:44.265 [INFO] Mouse click (left) at (908,402) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+08:35:44.273 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:35:44.274 [DEBUG] Recorded wait=1032ms
+08:35:44.277 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.4492 ry=0.3155
+08:35:45.040 [INFO] Mouse click (left) at (899,416) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+08:35:45.051 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:35:45.052 [DEBUG] Recorded wait=778ms
+08:35:45.053 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.4404 ry=0.3342
+08:35:45.421 [INFO] Mouse click (left) at (907,429) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+08:35:45.429 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:35:45.429 [DEBUG] Recorded wait=377ms
+08:35:45.431 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.4482 ry=0.3516
+08:35:47.377 [INFO] Mouse click (left) at (899,485) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+08:35:47.386 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:35:47.387 [DEBUG] Recorded wait=1958ms
+08:35:47.389 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.4404 ry=0.4265
+08:35:48.188 [INFO] Mouse click (left) at (849,458) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+08:35:48.198 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:35:48.198 [DEBUG] Recorded wait=811ms
+08:35:48.199 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.3916 ry=0.3904
+08:35:48.484 [INFO] Mouse click (left) at (839,473) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+08:35:48.491 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:35:48.492 [DEBUG] Recorded wait=294ms
+08:35:48.493 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.3818 ry=0.4104
+08:35:49.197 [DEBUG] Recorded wait=705ms
+08:35:49.797 [DEBUG] Recorded wait=280ms
+08:35:50.373 [INFO] Recorded type_text len=8
+08:35:50.375 [INFO] Recorded key=TAB
+08:35:50.724 [DEBUG] Recorded wait=349ms
+08:35:52.801 [DEBUG] Recorded wait=1269ms
+08:35:52.802 [INFO] Recorded type_text len=8
+08:35:52.804 [INFO] Mouse click (left) at (943,759) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+08:35:52.809 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:35:52.810 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.4834 ry=0.7928
+08:35:57.784 [INFO] Mouse click (left) at (684,605) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+08:35:57.789 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:35:57.791 [DEBUG] Recorded wait=4981ms
+08:35:57.791 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.2305 ry=0.5869
+08:35:59.193 [INFO] Mouse click (left) at (1008,763) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+08:35:59.203 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:35:59.204 [DEBUG] Recorded wait=1413ms
+08:35:59.205 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.5469 ry=0.7981
+08:36:02.388 [DEBUG] Recorded wait=3184ms
+08:36:02.391 [INFO] Recorded key=SPACE
+08:36:07.312 [INFO] Mouse click (left) at (682,310) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+08:36:07.319 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:36:07.319 [DEBUG] Recorded wait=4931ms
+08:36:07.320 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.2285 ry=0.1925
+08:36:11.756 [INFO] Stop key pressed (F8).
+08:36:11.773 [INFO] Saved macro: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\macro.json (steps=41)
+08:41:39.812 [INFO] RECORDER started. Pressione F8 para parar.
+08:41:39.814 [INFO] Log file: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\record.log
+08:41:39.816 [INFO] DPI awareness: PM
+08:41:39.816 [DEBUG] COM initialized (hr=1)
+08:41:39.818 [INFO] Hooks instalados (keyboard+mouse). Pressione F8 para parar.
+08:41:42.146 [INFO] Mouse click (left) at (962,690) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+08:41:42.188 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+08:41:42.190 [DEBUG] Recorded wait=2383ms
+08:41:42.191 [INFO] Recorded click_win rect=(652,332,1268,748) rx=0.5032 ry=0.8606
+08:41:42.645 [DEBUG] Recorded wait=455ms
+08:41:42.647 [INFO] Recorded key=CTRL+A
+08:41:45.548 [DEBUG] Recorded wait=2903ms
+08:41:45.549 [INFO] Recorded key=DELETE
+08:41:47.221 [INFO] Stop key pressed (F8).
+08:41:47.236 [INFO] Saved macro: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\macro.json (steps=6)
+09:21:17.433 [INFO] RECORDER started. Pressione F8 para parar.
+09:21:17.434 [INFO] Log file: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\record.log
+09:21:17.435 [INFO] DPI awareness: PM
+09:21:17.435 [DEBUG] COM initialized (hr=1)
+09:21:17.436 [INFO] Hooks instalados (keyboard+mouse). Pressione F8 para parar.
+09:21:19.592 [INFO] Mouse click (left) at (966,182) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+09:21:19.638 [DEBUG] pick_from_chain picked at hop=1
+09:21:19.642 [DEBUG] Recorded wait=2214ms
+09:21:19.644 [INFO] Recorded click_uia type='Window' name='Receitanet BX' class='SunAwtFrame' rect=(448, 166, 1472, 914) took=49.6ms
+09:21:20.764 [INFO] Mouse click (left) at (736,208) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+09:21:20.773 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+09:21:20.774 [DEBUG] Recorded wait=1132ms
+09:21:20.775 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.2812 ry=0.0561
+09:21:21.635 [INFO] Mouse click (left) at (751,222) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+09:21:21.645 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+09:21:21.645 [DEBUG] Recorded wait=871ms
+09:21:21.647 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.2959 ry=0.0749
+09:21:22.715 [INFO] Mouse click (left) at (951,380) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+09:21:22.722 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+09:21:22.723 [DEBUG] Recorded wait=1078ms
+09:21:22.724 [INFO] Recorded click_win rect=(756,296,1164,737) rx=0.4779 ry=0.1905
+09:21:23.011 [DEBUG] Recorded wait=288ms
+09:21:23.013 [INFO] Recorded key=CTRL+A
+09:21:24.235 [DEBUG] Recorded wait=1224ms
+09:21:24.237 [INFO] Recorded key=DELETE
+09:21:26.299 [DEBUG] Recorded wait=2064ms
+09:21:26.301 [INFO] Recorded key=CTRL+V
+09:21:31.123 [DEBUG] Recorded wait=4824ms
+09:21:31.125 [INFO] Recorded key=ESC
+09:21:32.744 [INFO] Mouse click (left) at (1109,710) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+09:21:32.752 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+09:21:32.753 [DEBUG] Recorded wait=1630ms
+09:21:32.754 [INFO] Recorded click_win rect=(756,296,1164,737) rx=0.8652 ry=0.9388
+09:21:38.760 [INFO] Mouse click (left) at (2698,1253) top_window name='recorder.py - INSTALACAO SISTEMA - Visual Studio Code' class='Chrome_WidgetWin_1' double=False
+09:21:38.812 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+09:21:38.813 [DEBUG] Recorded wait=6060ms
+09:21:38.815 [INFO] Recorded click_win rect=(1912,-472,3008,1464) rx=0.7172 ry=0.8910
+09:21:40.316 [INFO] Stop key pressed (F8).
+09:21:40.330 [INFO] Saved macro: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\macro.json (steps=20)
+09:26:20.225 [INFO] RECORDER started. Pressione F8 para parar.
+09:26:20.225 [INFO] Log file: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\record.log
+09:26:20.227 [INFO] DPI awareness: PM
+09:26:20.228 [DEBUG] COM initialized (hr=1)
+09:26:20.228 [INFO] Hooks instalados (keyboard+mouse). Pressione F8 para parar.
+09:26:23.193 [INFO] Mouse click (left) at (845,182) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+09:26:23.235 [DEBUG] pick_from_chain picked at hop=1
+09:26:23.239 [DEBUG] Recorded wait=3020ms
+09:26:23.241 [INFO] Recorded click_uia type='Window' name='Receitanet BX' class='SunAwtFrame' rect=(448, 166, 1472, 914) took=46.0ms
+09:26:23.971 [DEBUG] Recorded wait=732ms
+09:26:23.973 [INFO] Recorded key=ALT+F
+09:26:24.523 [DEBUG] Recorded wait=552ms
+09:26:24.525 [INFO] Recorded key=ALT+O
+09:26:25.748 [DEBUG] Recorded wait=1225ms
+09:26:25.750 [INFO] Recorded key=CTRL+A
+09:26:26.644 [DEBUG] Recorded wait=896ms
+09:26:26.646 [INFO] Recorded key=DELETE
+09:26:29.667 [DEBUG] Recorded wait=3023ms
+09:26:29.669 [INFO] Recorded key=CTRL+Z
+09:26:30.420 [DEBUG] Recorded wait=753ms
+09:26:30.422 [INFO] Recorded key=CTRL+V
+09:26:33.331 [DEBUG] Recorded wait=2911ms
+09:26:33.333 [INFO] Recorded key=ALT+S
+09:26:34.500 [DEBUG] Recorded wait=1169ms
+09:26:34.502 [INFO] Recorded key=SPACE
+09:26:38.163 [DEBUG] Recorded wait=3663ms
+09:26:38.164 [INFO] Recorded key=CTRL+T
+09:26:40.137 [INFO] Mouse click (left) at (971,689) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+09:26:40.146 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+09:26:40.147 [DEBUG] Recorded wait=1984ms
+09:26:40.149 [INFO] Recorded click_win rect=(652,332,1268,748) rx=0.5179 ry=0.8582
+09:26:40.372 [INFO] Recorded key=CTRL+A
+09:26:45.836 [DEBUG] Recorded wait=5464ms
+09:26:47.676 [DEBUG] Recorded wait=632ms
+09:26:47.678 [INFO] Recorded type_text len=8
+09:26:47.680 [INFO] Recorded key=CTRL+A
+09:26:47.875 [INFO] Recorded key=BACKSPACE
+09:26:48.044 [INFO] Recorded key=BACKSPACE
+09:26:52.868 [INFO] Mouse click (left) at (2749,1043) top_window name='recorder.py - INSTALACAO SISTEMA - Visual Studio Code' class='Chrome_WidgetWin_1' double=False
+09:26:52.918 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+09:26:52.920 [DEBUG] Recorded wait=4876ms
+09:26:52.921 [INFO] Recorded click_win rect=(1912,-472,3008,1464) rx=0.7637 ry=0.7825
+09:26:54.484 [DEBUG] Recorded wait=1564ms
+09:26:54.486 [INFO] Recorded key=F9
+09:26:54.803 [INFO] Stop key pressed (F8).
+09:26:54.817 [INFO] Saved macro: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\macro.json (steps=33)
+09:27:36.722 [INFO] RECORDER started. Pressione F8 para parar.
+09:27:36.724 [INFO] Log file: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\record.log
+09:27:36.724 [INFO] DPI awareness: PM
+09:27:36.725 [DEBUG] COM initialized (hr=1)
+09:27:36.726 [INFO] Hooks instalados (keyboard+mouse). Pressione F8 para parar.
+09:27:39.061 [INFO] Mouse click (left) at (955,177) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+09:27:39.099 [DEBUG] pick_from_chain picked at hop=1
+09:27:39.104 [DEBUG] Recorded wait=2390ms
+09:27:39.105 [INFO] Recorded click_uia type='Window' name='Receitanet BX' class='SunAwtFrame' rect=(448, 166, 1472, 914) took=42.3ms
+09:27:40.171 [DEBUG] Recorded wait=1067ms
+09:27:40.174 [INFO] Recorded key=ALT+O
+09:27:45.236 [INFO] Stop key pressed (F8).
+09:27:45.260 [INFO] Saved macro: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\macro.json (steps=4)
+09:28:09.485 [INFO] RECORDER started. Pressione F8 para parar.
+09:28:09.488 [INFO] Log file: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\record.log
+09:28:09.489 [INFO] DPI awareness: PM
+09:28:09.489 [DEBUG] COM initialized (hr=1)
+09:28:09.490 [INFO] Hooks instalados (keyboard+mouse). Pressione F8 para parar.
+09:28:11.012 [INFO] Mouse click (left) at (1189,533) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+09:28:11.049 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+09:28:11.050 [DEBUG] Recorded wait=1569ms
+09:28:11.051 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.7236 ry=0.4906
+09:28:12.947 [DEBUG] Recorded wait=1897ms
+09:28:12.949 [INFO] Recorded key=ALT+F
+09:28:13.563 [DEBUG] Recorded wait=616ms
+09:28:14.556 [DEBUG] Recorded wait=993ms
+09:28:14.558 [INFO] Recorded type_text len=1
+09:28:14.560 [INFO] Recorded key=CTRL+A
+09:28:15.707 [DEBUG] Recorded wait=1147ms
+09:28:15.710 [INFO] Recorded key=CTRL+V
+09:28:17.011 [DEBUG] Recorded wait=1304ms
+09:28:17.012 [INFO] Recorded key=ALT+S
+09:28:18.315 [DEBUG] Recorded wait=1304ms
+09:28:18.317 [INFO] Recorded key=SPACE
+09:28:19.987 [DEBUG] Recorded wait=1672ms
+09:28:19.990 [INFO] Recorded key=CTRL+T
+09:28:21.791 [INFO] Mouse click (left) at (970,684) top_window name='Receitanet BX' class='SunAwtDialog' double=False
+09:28:21.799 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+09:28:21.800 [DEBUG] Recorded wait=1813ms
+09:28:21.802 [INFO] Recorded click_win rect=(652,332,1268,748) rx=0.5162 ry=0.8462
+09:28:22.060 [DEBUG] Recorded wait=260ms
+09:28:22.062 [INFO] Recorded key=CTRL+A
+09:28:25.291 [DEBUG] Recorded wait=3231ms
+09:28:25.652 [DEBUG] Recorded wait=281ms
+09:28:26.116 [DEBUG] Recorded wait=265ms
+09:28:26.690 [DEBUG] Recorded wait=263ms
+09:28:29.739 [DEBUG] Recorded wait=2416ms
+09:28:29.741 [INFO] Recorded type_text len=14
+09:28:29.743 [INFO] Recorded key=ALT+E
+09:28:32.475 [DEBUG] Recorded wait=2732ms
+09:28:32.477 [INFO] Recorded key=CTRL+E
+09:28:34.407 [INFO] Mouse click (left) at (957,376) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+09:28:34.417 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+09:28:34.418 [DEBUG] Recorded wait=1943ms
+09:28:34.419 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.4971 ry=0.2807
+09:28:35.479 [INFO] Mouse click (left) at (930,398) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+09:28:35.486 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+09:28:35.488 [DEBUG] Recorded wait=1070ms
+09:28:35.490 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.4707 ry=0.3102
+09:28:36.007 [INFO] Mouse click (left) at (909,400) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+09:28:36.013 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+09:28:36.014 [DEBUG] Recorded wait=526ms
+09:28:36.015 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.4502 ry=0.3128
+09:28:36.716 [INFO] Mouse click (left) at (891,421) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+09:28:36.725 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+09:28:36.726 [DEBUG] Recorded wait=712ms
+09:28:36.727 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.4326 ry=0.3409
+09:28:37.126 [INFO] Mouse click (left) at (901,428) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+09:28:37.131 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+09:28:37.133 [DEBUG] Recorded wait=407ms
+09:28:37.134 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.4424 ry=0.3503
+09:28:38.379 [INFO] Mouse click (left) at (904,475) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+09:28:38.389 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+09:28:38.391 [DEBUG] Recorded wait=1258ms
+09:28:38.392 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.4453 ry=0.4131
+09:28:39.360 [INFO] Mouse click (left) at (838,472) top_window name='Receitanet BX' class='SunAwtFrame' double=False
+09:28:39.369 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+09:28:39.370 [DEBUG] Recorded wait=979ms
+09:28:39.372 [INFO] Recorded click_win rect=(448,166,1472,914) rx=0.3809 ry=0.4091
+09:28:40.642 [DEBUG] Recorded wait=1272ms
+09:28:41.258 [DEBUG] Recorded wait=255ms
+09:28:42.267 [DEBUG] Recorded wait=632ms
+09:28:42.269 [INFO] Recorded type_text len=8
+09:28:42.271 [INFO] Recorded key=TAB
+09:28:42.827 [DEBUG] Recorded wait=556ms
+09:28:43.251 [DEBUG] Recorded wait=320ms
+09:28:44.619 [DEBUG] Recorded wait=632ms
+09:28:44.621 [INFO] Recorded type_text len=8
+09:28:44.622 [INFO] Recorded key=TAB
+09:28:50.211 [DEBUG] Recorded wait=5589ms
+09:28:50.213 [INFO] Recorded key=CTRL+L
+09:29:00.427 [DEBUG] Recorded wait=10216ms
+09:29:00.430 [INFO] Recorded key=SPACE
+09:29:04.883 [DEBUG] Recorded wait=4456ms
+09:29:04.885 [INFO] Recorded key=CTRL+T
+09:29:09.683 [INFO] Stop key pressed (F8).
+09:29:09.697 [INFO] Saved macro: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\macro.json (steps=59)
+10:22:37.429 [INFO] RECORDER started. Pressione F8 para parar.
+10:22:37.435 [INFO] Log file: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\record.log
+10:22:37.437 [INFO] DPI awareness: PM
+10:22:37.439 [DEBUG] COM initialized (hr=1)
+10:22:37.449 [INFO] Hooks instalados (keyboard+mouse). Pressione F8 para parar.
+10:22:40.708 [INFO] Mouse click (left) at (774,427) top_window name='Sistema Público de Escrituração Digital - EFD Contribuições' class='SunAwtFrame' double=False
+10:22:40.844 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:22:40.846 [DEBUG] Recorded wait=3454ms
+10:22:40.847 [INFO] Recorded click_win rect=(560,220,1360,820) rx=0.2675 ry=0.3450
+10:22:41.107 [DEBUG] Recorded wait=261ms
+10:22:41.109 [INFO] Recorded key=CTRL+R
+10:22:42.468 [INFO] Mouse click (left) at (1136,536) top_window name='Visualizar recibo de transmissão' class='SunAwtDialog' double=False
+10:22:43.772 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:22:43.774 [DEBUG] Recorded wait=2667ms
+10:22:43.776 [INFO] Recorded click_win rect=(710,380,1209,660) rx=0.8537 ry=0.5571
+10:22:46.116 [INFO] Mouse click (left) at (857,418) top_window name='Arquivo da Escrituração Fiscal' class='SunAwtDialog' double=False
+10:22:46.131 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:22:46.134 [DEBUG] Recorded wait=2359ms
+10:22:46.138 [INFO] Recorded click_win rect=(645,302,1274,738) rx=0.3370 ry=0.2661
+10:22:46.276 [INFO] Mouse click (left) at (857,418) top_window name='Arquivo da Escrituração Fiscal' class='SunAwtDialog' double=True
+10:22:46.288 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:22:46.291 [INFO] Recorded click_win rect=(645,302,1274,738) rx=0.3370 ry=0.2661
+10:22:51.492 [INFO] Mouse click (left) at (1252,319) top_window name='Arquivo da Escrituração Fiscal' class='SunAwtDialog' double=False
+10:22:51.521 [DEBUG] pick_from_chain picked at hop=0
+10:22:51.571 [DEBUG] Recorded wait=5280ms
+10:22:51.573 [INFO] Recorded click_uia type='Button' name='Fechar' class=None rect=(1233, 303, 1267, 333) took=77.9ms
+10:22:53.332 [INFO] Mouse click (left) at (1172,405) top_window name='Visualizar recibo de transmissão' class='SunAwtDialog' double=False
+10:22:53.350 [DEBUG] pick_from_chain picked at hop=0
+10:22:53.382 [DEBUG] Recorded wait=1811ms
+10:22:53.386 [INFO] Recorded click_uia type='Button' name='Fechar' class=None rect=(1168, 381, 1202, 411) took=50.3ms
+10:22:55.012 [INFO] Stop key pressed (F8).
+10:22:55.030 [INFO] Saved macro: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\macro.json (steps=13)
+10:27:58.955 [INFO] RECORDER started. Pressione F8 para parar.
+10:27:58.956 [INFO] Log file: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\record.log
+10:27:58.957 [INFO] DPI awareness: PM
+10:27:58.958 [DEBUG] COM initialized (hr=1)
+10:27:58.958 [INFO] Hooks instalados (keyboard+mouse). Pressione F8 para parar.
+10:28:01.018 [INFO] Mouse click (left) at (976,486) top_window name='Sistema Público de Escrituração Digital - EFD Contribuições' class='SunAwtFrame' double=False
+10:28:01.060 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:28:01.062 [DEBUG] Recorded wait=2113ms
+10:28:01.063 [INFO] Recorded click_win rect=(560,216,1360,816) rx=0.5200 ry=0.4500
+10:28:02.658 [DEBUG] Recorded wait=1597ms
+10:28:02.660 [INFO] Recorded key=CTRL+R
+10:28:03.898 [DEBUG] Recorded wait=1240ms
+10:28:03.900 [INFO] Recorded key=SPACE
+10:28:10.738 [INFO] Mouse click (left) at (889,381) top_window name='Arquivo da Escrituração Fiscal' class='SunAwtDialog' double=False
+10:28:10.747 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:28:10.748 [DEBUG] Recorded wait=6850ms
+10:28:10.749 [INFO] Recorded click_win rect=(645,298,1274,734) rx=0.3879 ry=0.1904
+10:28:10.858 [INFO] Mouse click (left) at (889,381) top_window name='Arquivo da Escrituração Fiscal' class='SunAwtDialog' double=True
+10:28:10.870 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:28:10.871 [INFO] Recorded click_win rect=(645,298,1274,734) rx=0.3879 ry=0.1904
+10:28:11.962 [DEBUG] Recorded wait=1091ms
+10:28:11.964 [INFO] Recorded key=SPACE
+10:28:16.658 [INFO] Mouse click (left) at (808,546) top_window name='Arquivo do Recibo de Transmissão' class='SunAwtDialog' double=False
+10:28:16.667 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:28:16.667 [DEBUG] Recorded wait=4705ms
+10:28:16.668 [INFO] Recorded click_win rect=(645,298,1274,734) rx=0.2591 ry=0.5688
+10:28:17.233 [DEBUG] Recorded wait=566ms
+10:28:17.239 [INFO] Recorded key=SPACE
+10:28:18.334 [INFO] Mouse click (left) at (1214,706) top_window name='Arquivo do Recibo de Transmissão' class='SunAwtDialog' double=False
+10:28:18.343 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:28:18.345 [DEBUG] Recorded wait=1112ms
+10:28:18.346 [INFO] Recorded click_win rect=(645,298,1274,734) rx=0.9046 ry=0.9358
+10:28:19.470 [INFO] Mouse click (left) at (2566,1179) top_window name='recorder.py - INSTALACAO SISTEMA - Visual Studio Code' class='Chrome_WidgetWin_1' double=False
+10:28:19.485 [WARNING] Falling back to click_win because: RuntimeError('UIA: no window ancestor')
+10:28:19.486 [DEBUG] Recorded wait=1141ms
+10:28:19.487 [INFO] Recorded click_win rect=(1912,-472,3008,1464) rx=0.5967 ry=0.8528
+10:28:20.034 [DEBUG] Recorded wait=548ms
+10:28:20.035 [INFO] Recorded key=CTRL+C
+10:28:20.234 [INFO] Recorded key=CTRL+C
+10:28:24.386 [INFO] Mouse click (left) at (1174,396) top_window name='Visualizar recibo de transmissão' class='SunAwtDialog' double=False
+10:28:24.392 [DEBUG] pick_from_chain picked at hop=0
+10:28:24.402 [DEBUG] Recorded wait=4168ms
+10:28:24.404 [INFO] Recorded click_uia type='Button' name='Fechar' class=None rect=(1168, 377, 1202, 407) took=16.9ms
+10:28:24.918 [INFO] Mouse click (left) at (2633,69) top_window name='recorder.py - INSTALACAO SISTEMA - Visual Studio Code' class='Chrome_WidgetWin_1' double=False
+10:28:24.934 [WARNING] Falling back to click_win because: RuntimeError('UIA: no window ancestor')
+10:28:24.935 [DEBUG] Recorded wait=533ms
+10:28:24.937 [INFO] Recorded click_win rect=(1912,-472,3008,1464) rx=0.6578 ry=0.2794
+10:28:25.966 [INFO] Mouse click (left) at (2895,-413) top_window name='recorder.py - INSTALACAO SISTEMA - Visual Studio Code' class='Chrome_WidgetWin_1' double=False
+10:28:25.997 [DEBUG] pick_from_chain picked at hop=0
+10:28:26.021 [DEBUG] Recorded wait=1086ms
+10:28:26.022 [INFO] Recorded click_uia type='Button' name='Run Python File' class=None rect=(2895, -424, 2915, -405) took=55.1ms
+10:28:28.514 [INFO] Mouse click (left) at (2901,-410) top_window name='recorder.py - INSTALACAO SISTEMA - Visual Studio Code' class='Chrome_WidgetWin_1' double=False
+10:28:28.538 [DEBUG] pick_from_chain picked at hop=0
+10:28:28.562 [DEBUG] Recorded wait=2541ms
+10:28:28.563 [INFO] Recorded click_uia type='Button' name='Run Python File' class=None rect=(2895, -424, 2915, -405) took=47.0ms
+10:28:30.306 [DEBUG] Recorded wait=1744ms
+10:28:30.308 [INFO] Recorded key=CTRL+R
+10:28:33.258 [INFO] Stop key pressed (F8).
+10:28:33.278 [INFO] Saved macro: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\macro.json (steps=32)
+10:28:38.278 [INFO] RECORDER started. Pressione F8 para parar.
+10:28:38.279 [INFO] Log file: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\record.log
+10:28:38.280 [INFO] DPI awareness: PM
+10:28:38.281 [DEBUG] COM initialized (hr=1)
+10:28:38.282 [INFO] Hooks instalados (keyboard+mouse). Pressione F8 para parar.
+10:28:39.539 [INFO] Mouse click (left) at (792,495) top_window name='Sistema Público de Escrituração Digital - EFD Contribuições' class='SunAwtFrame' double=False
+10:28:39.582 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:28:39.583 [DEBUG] Recorded wait=1311ms
+10:28:39.584 [INFO] Recorded click_win rect=(560,216,1360,816) rx=0.2900 ry=0.4650
+10:28:40.034 [DEBUG] Recorded wait=451ms
+10:28:40.037 [INFO] Recorded key=CTRL+R
+10:28:41.090 [INFO] Mouse click (left) at (1109,531) top_window name='Visualizar recibo de transmissão' class='SunAwtDialog' double=False
+10:28:41.101 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:28:41.102 [DEBUG] Recorded wait=1068ms
+10:28:41.104 [INFO] Recorded click_win rect=(710,376,1209,656) rx=0.7996 ry=0.5536
+10:28:46.178 [INFO] Stop key pressed (F8).
+10:28:46.190 [INFO] Saved macro: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\macro.json (steps=6)
+10:28:48.772 [INFO] RECORDER started. Pressione F8 para parar.
+10:28:48.773 [INFO] Log file: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\record.log
+10:28:48.774 [INFO] DPI awareness: PM
+10:28:48.775 [DEBUG] COM initialized (hr=1)
+10:28:48.775 [INFO] Hooks instalados (keyboard+mouse). Pressione F8 para parar.
+10:28:50.153 [DEBUG] Recorded wait=1386ms
+10:28:50.154 [INFO] Recorded key=F9
+10:28:51.609 [DEBUG] Recorded wait=1456ms
+10:28:51.611 [INFO] Recorded key=F9
+10:28:51.930 [INFO] Stop key pressed (F8).
+10:28:51.942 [INFO] Saved macro: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\macro.json (steps=4)
+10:28:58.713 [INFO] RECORDER started. Pressione F8 para parar.
+10:28:58.714 [INFO] Log file: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\record.log
+10:28:58.715 [INFO] DPI awareness: PM
+10:28:58.716 [DEBUG] COM initialized (hr=1)
+10:28:58.717 [INFO] Hooks instalados (keyboard+mouse). Pressione F8 para parar.
+10:29:01.594 [DEBUG] Recorded wait=2888ms
+10:29:01.596 [INFO] Recorded key=ESC
+10:29:02.994 [INFO] Stop key pressed (F8).
+10:29:03.012 [INFO] Saved macro: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\macro.json (steps=2)
+10:29:34.186 [INFO] RECORDER started. Pressione F8 para parar.
+10:29:34.187 [INFO] Log file: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\record.log
+10:29:34.189 [INFO] DPI awareness: PM
+10:29:34.189 [DEBUG] COM initialized (hr=1)
+10:29:34.190 [INFO] Hooks instalados (keyboard+mouse). Pressione F8 para parar.
+10:29:35.518 [INFO] Mouse click (left) at (875,530) top_window name='Sistema Público de Escrituração Digital - EFD Contribuições' class='SunAwtFrame' double=False
+10:29:35.554 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:29:35.555 [DEBUG] Recorded wait=1377ms
+10:29:35.556 [INFO] Recorded click_win rect=(560,216,1360,816) rx=0.3937 ry=0.5233
+10:29:36.114 [DEBUG] Recorded wait=559ms
+10:29:36.115 [INFO] Recorded key=CTRL+R
+10:29:37.114 [DEBUG] Recorded wait=1000ms
+10:29:37.116 [INFO] Recorded key=SPACE
+10:29:38.455 [INFO] Mouse click (left) at (959,579) top_window name='Arquivo da Escrituração Fiscal' class='SunAwtDialog' double=False
+10:29:38.467 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:29:38.468 [DEBUG] Recorded wait=1354ms
+10:29:38.469 [INFO] Recorded click_win rect=(645,298,1274,734) rx=0.4992 ry=0.6445
+10:29:39.673 [DEBUG] Recorded wait=1205ms
+10:29:40.250 [DEBUG] Recorded wait=577ms
+10:29:40.251 [INFO] Recorded key=ENTER
+10:29:41.354 [DEBUG] Recorded wait=1104ms
+10:29:41.356 [INFO] Recorded key=SPACE
+10:29:43.497 [INFO] Mouse click (left) at (815,562) top_window name='Arquivo do Recibo de Transmissão' class='SunAwtDialog' double=False
+10:29:43.501 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:29:43.503 [DEBUG] Recorded wait=2149ms
+10:29:43.504 [INFO] Recorded click_win rect=(645,298,1274,734) rx=0.2703 ry=0.6055
+10:29:44.890 [DEBUG] Recorded wait=1387ms
+10:29:44.891 [INFO] Recorded key=ENTER
+10:29:45.786 [DEBUG] Recorded wait=896ms
+10:29:45.788 [INFO] Recorded key=SPACE
+10:29:48.722 [DEBUG] Recorded wait=2936ms
+10:29:48.724 [INFO] Recorded key=SPACE
+10:29:55.670 [INFO] Mouse click (left) at (1006,518) top_window name='Salvar' class='SunAwtDialog' double=False
+10:29:55.676 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:29:55.677 [DEBUG] Recorded wait=6955ms
+10:29:55.678 [INFO] Recorded click_win rect=(645,138,1274,574) rx=0.5739 ry=0.8716
+10:29:57.177 [DEBUG] Recorded wait=1279ms
+10:29:57.180 [INFO] Recorded type_text len=1
+10:29:57.182 [INFO] Mouse click (left) at (1784,809) top_window name='' class='ApplicationFrameWindow' double=False
+10:29:57.212 [DEBUG] pick_from_chain picked at hop=0
+10:29:57.217 [INFO] Recorded click_uia type='DataItem' name='C:\\Users\\Usuario\\Documents\\Arquivos ReceitanetBX\\Escrituração Veja mais Fixar item' class=None rect=(1575, 763, 1903, 843) took=33.3ms
+10:29:57.287 [INFO] Recorded key=CTRL+V
+10:29:58.802 [DEBUG] Recorded wait=1515ms
+10:29:59.466 [DEBUG] Recorded wait=664ms
+10:30:00.711 [DEBUG] Recorded wait=1117ms
+10:30:00.722 [INFO] Recorded type_text len=2
+10:30:00.726 [INFO] Mouse click (left) at (1703,890) top_window name='' class='ApplicationFrameWindow' double=False
+10:30:00.738 [DEBUG] pick_from_chain picked at hop=0
+10:30:00.741 [INFO] Recorded click_uia type='DataItem' name='Recibo (20161967000162) - sped contribuicoes.pdf Veja mais Fixar item' class=None rect=(1575, 851, 1903, 931) took=14.7ms
+10:30:00.813 [INFO] Recorded key=CTRL+V
+10:30:01.714 [INFO] Mouse click (left) at (1217,518) top_window name='Salvar' class='SunAwtDialog' double=False
+10:30:01.721 [WARNING] Falling back to click_win because: RuntimeError('UIA: chain could not find stable element')
+10:30:01.722 [DEBUG] Recorded wait=909ms
+10:30:01.723 [INFO] Recorded click_win rect=(645,138,1274,574) rx=0.9094 ry=0.8716
+10:30:05.466 [DEBUG] Recorded wait=3744ms
+10:30:05.476 [INFO] Recorded key=ESC
+10:30:07.931 [INFO] Stop key pressed (F8).
+10:30:07.949 [INFO] Saved macro: w:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\gravador_macro\macro.json (steps=37)

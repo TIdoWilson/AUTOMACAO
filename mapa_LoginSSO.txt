@@ -1,0 +1,129 @@
+Control Identifiers:
+
+Pane - 'Login SSO'    (L-1, T152, R899, B827)
+['Login SSO', 'Pane', 'Login SSOPane', 'Pane0', 'Pane1']
+child_window(title="Login SSO", control_type="Pane")
+   | 
+   | Pane - ''    (L449, T152, R899, B827)
+   | ['Pane2']
+   | child_window(auto_id="394740", control_type="Pane")
+   |    | 
+   |    | Pane - ''    (L449, T152, R899, B195)
+   |    | ['Pane3']
+   |    | child_window(auto_id="263884", control_type="Pane")
+   |    | 
+   |    | TabControl - ''    (L447, T176, R902, B827)
+   |    | ['TabControlLogin', 'TabControlPasso1', 'TabControl', 'TabControlPasso2', 'TabControlLoginSSO', 'TabControlFalha', 'TabControlPasso3', 'TabControlSucesso']
+   |    | child_window(auto_id="787544", control_type="Tab")
+   |    |    | 
+   |    |    | Pane - 'Login'    (L443, T172, R906, B831)
+   |    |    | ['Pane4', 'LoginPane', 'Login', 'Login0', 'Login1']
+   |    |    | child_window(title="Login", auto_id="263658", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Pane - 'pnlHeader'    (L443, T191, R906, B468)
+   |    |    |    | ['Pane5', 'pnlHeader', 'pnlHeaderPane']
+   |    |    |    | child_window(title="pnlHeader", auto_id="329174", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - 'pnlDuvidas'    (L523, T400, R831, B465)
+   |    |    |    |    | ['pnlDuvidasPane', 'Pane6', 'pnlDuvidas']
+   |    |    |    |    | child_window(title="pnlDuvidas", auto_id="263646", control_type="Pane")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Pane - 'Assista aqui o vídeo de orientação'    (L526, T443, R828, B462)
+   |    |    |    |    |    | ['Pane7', 'Assista aqui o vídeo de orientação', 'Assista aqui o vídeo de orientaçãoPane']
+   |    |    |    |    |    | child_window(title="Assista aqui o vídeo de orientação", auto_id="263662", control_type="Pane")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Hyperlink - 'Assista aqui'    (L526, T443, R594, B458)
+   |    |    |    |    |    |    | ['Hyperlink', 'Assista aqui', 'Assista aquiHyperlink', 'Hyperlink0', 'Hyperlink1']
+   |    |    |    |    |    |    | child_window(title="Assista aqui", control_type="Hyperlink")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Pane - 'Clique aqui para acessar a FAQ com o passo a passo'    (L526, T421, R828, B440)
+   |    |    |    |    |    | ['Clique aqui para acessar a FAQ com o passo a passo', 'Pane8', 'Clique aqui para acessar a FAQ com o passo a passoPane']
+   |    |    |    |    |    | child_window(title="Clique aqui para acessar a FAQ com o passo a passo", auto_id="263660", control_type="Pane")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Hyperlink - 'Clique aqui'    (L526, T421, R589, B436)
+   |    |    |    |    |    |    | ['Hyperlink2', 'Clique aqui', 'Clique aquiHyperlink']
+   |    |    |    |    |    |    | child_window(title="Clique aqui", control_type="Hyperlink")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - 'pnlCadastro'    (L523, T338, R831, B392)
+   |    |    |    |    | ['pnlCadastroPane', 'Pane9', 'pnlCadastro']
+   |    |    |    |    | child_window(title="pnlCadastro", auto_id="329212", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - 'pnlPrimeiroLogin'    (L523, T246, R831, B330)
+   |    |    |    |    | ['pnlPrimeiroLogin', 'Pane10', 'pnlPrimeiroLoginPane']
+   |    |    |    |    | child_window(title="pnlPrimeiroLogin", auto_id="263640", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Pane - 'pnlLogin'    (L451, T474, R906, B828)
+   |    |    |    | ['Pane11', 'pnlLogin', 'pnlLoginPane']
+   |    |    |    | child_window(title="pnlLogin", auto_id="525934", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L529, T517, R818, B521)
+   |    |    |    |    | ['Pane12']
+   |    |    |    |    | child_window(auto_id="329160", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L529, T575, R818, B579)
+   |    |    |    |    | ['Pane13']
+   |    |    |    |    | child_window(auto_id="329158", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L789, T554, R818, B572)
+   |    |    |    |    | ['Pane14']
+   |    |    |    |    | child_window(auto_id="657094", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L529, T497, R818, B518)
+   |    |    |    |    | ['Edit', 'Edit0', 'Edit1']
+   |    |    |    |    | child_window(auto_id="329172", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L529, T556, R783, B577)
+   |    |    |    |    | ['Edit2']
+   |    |    |    |    | child_window(auto_id="460434", control_type="Edit")
+   |    |    | 
+   |    |    | TabItem - 'Login'    (L449, T806, R491, B825)
+   |    |    | ['Login2', 'TabItem', 'LoginTabItem', 'TabItem0', 'TabItem1']
+   |    |    | child_window(title="Login", control_type="TabItem")
+   |    |    | 
+   |    |    | TabItem - 'Passo1'    (L491, T806, R539, B825)
+   |    |    | ['Passo1', 'TabItem2', 'Passo1TabItem']
+   |    |    | child_window(title="Passo1", control_type="TabItem")
+   |    |    | 
+   |    |    | TabItem - 'Passo2'    (L539, T806, R587, B825)
+   |    |    | ['Passo2TabItem', 'Passo2', 'TabItem3']
+   |    |    | child_window(title="Passo2", control_type="TabItem")
+   |    |    | 
+   |    |    | TabItem - 'Passo3'    (L587, T806, R635, B825)
+   |    |    | ['Passo3', 'TabItem4', 'Passo3TabItem']
+   |    |    | child_window(title="Passo3", control_type="TabItem")
+   |    |    | 
+   |    |    | TabItem - 'Sucesso'    (L635, T806, R690, B825)
+   |    |    | ['SucessoTabItem', 'Sucesso', 'TabItem5']
+   |    |    | child_window(title="Sucesso", control_type="TabItem")
+   |    |    | 
+   |    |    | TabItem - 'Falha'    (L690, T806, R732, B825)
+   |    |    | ['Falha', 'TabItem6', 'FalhaTabItem']
+   |    |    | child_window(title="Falha", control_type="TabItem")
+   |    |    | 
+   |    |    | TabItem - 'LoginSSO'    (L732, T806, R792, B825)
+   |    |    | ['LoginSSO', 'LoginSSOTabItem', 'TabItem7']
+   |    |    | child_window(title="LoginSSO", control_type="TabItem")
+   | 
+   | Pane - ''    (L-1, T152, R449, B827)
+   | ['Pane15']
+   | child_window(auto_id="460460", control_type="Pane")
+   |    | 
+   |    | Pane - ''    (L-1, T776, R449, B827)
+   |    | ['Pane16']
+   |    | child_window(auto_id="394742", control_type="Pane")
+   |    |    | 
+   |    |    | CheckBox - 'Emula Offline'    (L299, T778, R378, B795)
+   |    |    | ['CheckBox', 'Emula Offline', 'Emula OfflineCheckBox', 'CheckBox0', 'CheckBox1']
+   |    |    | child_window(title="Emula Offline", auto_id="263656", control_type="CheckBox")
+   |    |    | 
+   |    |    | Button - 'Voltar pro Início'    (L4, T777, R86, B795)
+   |    |    | ['Button', 'Voltar pro Início', 'Voltar pro InícioButton']
+   |    |    | child_window(title="Voltar pro Início", auto_id="591334", control_type="Button")
+   |    |    | 
+   |    |    | CheckBox - 'Emula falha na Ativação'    (L173, T778, R304, B795)
+   |    |    | ['CheckBox2', 'Emula falha na Ativação', 'Emula falha na AtivaçãoCheckBox']
+   |    |    | child_window(title="Emula falha na Ativação", auto_id="1115840", control_type="CheckBox")
+   |    |    | 
+   |    |    | CheckBox - 'Emula Timeout'    (L88, T778, R177, B795)
+   |    |    | ['CheckBox3', 'Emula Timeout', 'Emula TimeoutCheckBox']
+   |    |    | child_window(title="Emula Timeout", auto_id="1246962", control_type="CheckBox")

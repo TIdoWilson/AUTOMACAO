@@ -1,0 +1,1805 @@
+13:46:18.642 [INFO] Loaded macro steps=8
+13:46:18.642 [INFO] wait_scale=0.200 wait_cap_ms=800
+13:46:18.643 [INFO] Step 1/8: wait
+13:46:18.643 [INFO]   wait recorded=6125ms applied=800ms
+13:46:19.446 [INFO] Step 2/8: focus_window
+13:46:19.568 [DEBUG] focus_window via UIA ok in 120.3ms
+13:46:19.568 [INFO]   focused window name='replay.py - teste - Visual Studio Code' class='Chrome_WidgetWin_1' rect=(1912, -503, 3008, 1393)
+13:46:19.569 [INFO] Step 3/8: wait
+13:46:19.569 [INFO]   wait recorded=1293ms applied=258ms
+13:46:19.828 [INFO] Step 4/8: click_win
+13:46:28.159 [DEBUG] focus_window via Win32 ok in 8329.7ms
+13:46:28.161 [INFO]   click_win rect=(130, 130, 1106, 829) rx=0.2913 ry=0.1750
+13:46:28.316 [INFO] Step 5/8: wait
+13:46:28.320 [INFO]   wait recorded=550ms applied=110ms
+13:46:28.431 [INFO] Step 6/8: click_win
+13:46:36.632 [DEBUG] focus_window via Win32 ok in 8201.1ms
+13:46:36.633 [INFO]   click_win rect=(130, 130, 1106, 829) rx=0.3048 ry=0.4111
+13:46:36.745 [INFO] Step 7/8: wait
+13:46:36.745 [INFO]   wait recorded=2318ms applied=463ms
+13:46:37.210 [INFO] Step 8/8: click_win
+13:46:45.439 [DEBUG] focus_window via Win32 ok in 8229.1ms
+13:46:45.441 [INFO]   click_win rect=(130, 130, 1106, 829) rx=0.4341 ry=0.3250
+13:57:12.206 [INFO] Loaded macro steps=8 wait_scale=1.000 wait_cap_ms=None
+13:57:12.208 [INFO] Step 1/8: wait
+13:57:12.208 [INFO]   wait recorded=2384ms applied=2384ms
+13:57:14.593 [INFO] Step 2/8: focus_window
+13:57:20.789 [INFO] Loaded macro steps=8 wait_scale=1.000 wait_cap_ms=None
+13:57:20.790 [INFO] Step 1/8: wait
+13:57:20.791 [INFO]   wait recorded=2384ms applied=2384ms
+13:57:23.176 [INFO] Step 2/8: focus_window
+13:57:32.995 [INFO] Loaded macro steps=8 wait_scale=1.000 wait_cap_ms=None
+13:57:32.995 [INFO] Step 1/8: wait
+13:57:32.996 [INFO]   wait recorded=2384ms applied=2384ms
+13:57:35.381 [INFO] Step 2/8: focus_window
+14:06:21.861 [INFO] Loaded macro steps=8 wait_scale=1.000 wait_cap_ms=None
+14:06:21.862 [INFO] Step 1/8: wait
+14:06:21.863 [INFO]   wait recorded=3224ms applied=3224ms
+14:06:25.088 [INFO] Step 2/8: focus_window
+14:29:18.713 [INFO] DPI awareness: PMv2
+14:29:18.717 [INFO] Loaded macro steps=8 wait_scale=1.000 wait_cap_ms=None (dpi=PMv2)
+14:29:18.718 [INFO] Step 1/8: wait
+14:29:18.718 [INFO]   wait recorded=2864ms applied=2864ms
+14:29:21.586 [INFO] Step 2/8: focus_window
+14:29:21.674 [DEBUG] focus_window Win32 ok in 87.6ms rect=(130, 130, 1106, 829) hwnd=853162
+14:29:21.679 [INFO]   focused name='Gerenciador de Sistemas' class='TfrmPrincipal' rect=(130, 130, 1106, 829)
+14:29:21.679 [INFO] Step 3/8: wait
+14:29:21.680 [INFO]   wait recorded=2568ms applied=2568ms
+14:29:24.249 [INFO] Step 4/8: click_uia
+14:29:24.251 [DEBUG] focus_window Win32 ok in 1.3ms rect=(130, 130, 1106, 829) hwnd=853162
+14:29:24.339 [DEBUG] hit-test at (419,256) base type='Pane' name='' class='TPanel'
+14:29:24.346 [DEBUG] hit-test resolved at hop=0
+14:29:24.460 [INFO]   click_uia resolved -> clicked (420,263) elem_rect=(133, 221, 1103, 286)
+14:29:24.461 [INFO] Step 5/8: wait
+14:29:24.461 [INFO]   wait recorded=1257ms applied=1257ms
+14:29:25.718 [INFO] Step 6/8: click_uia
+14:29:25.721 [DEBUG] focus_window Win32 ok in 2.2ms rect=(130, 130, 1106, 829) hwnd=853162
+14:29:25.729 [DEBUG] hit-test at (434,398) base type='Pane' name='grdPnlEmpresas' class='TGridPanel'
+14:29:25.849 [WARNING]   click_uia not resolved -> fallback screen click (434,398)
+14:29:25.850 [INFO] Step 7/8: wait
+14:29:25.851 [INFO]   wait recorded=3164ms applied=3164ms
+14:29:29.017 [INFO] Step 8/8: click_uia
+14:29:29.205 [DEBUG] focus_window Win32 ok in 187.3ms rect=(130, 130, 1106, 829) hwnd=853162
+14:29:29.322 [DEBUG] hit-test at (538,357) base type='Pane' name='' class='TEFCDataGrid'
+14:29:29.490 [WARNING]   click_uia not resolved -> fallback screen click (538,357)
+14:38:07.109 [INFO] DPI awareness: PMv2
+14:38:07.110 [INFO] Loaded macro steps=8 wait_scale=1.000 wait_cap_ms=None (dpi=PMv2)
+14:38:07.110 [INFO] Step 1/8: wait
+14:38:07.111 [INFO]   wait recorded=2864ms applied=2864ms
+14:38:09.975 [INFO] Step 2/8: focus_window
+14:38:10.857 [DEBUG] focus_window Win32 ok in 880.9ms rect=(-8, -8, 1928, 1048) hwnd=2888332 mode=maximize
+14:38:11.018 [INFO]   focused name='Gerenciador de Sistemas' class='TfrmPrincipal' rect=(-8, -8, 1928, 1048)
+14:38:11.018 [INFO] Step 3/8: wait
+14:38:11.019 [INFO]   wait recorded=2568ms applied=2568ms
+14:38:13.588 [INFO] Step 4/8: click_uia
+14:38:14.444 [DEBUG] focus_window Win32 ok in 849.3ms rect=(-8, -8, 1928, 1048) hwnd=2888332 mode=maximize
+14:38:14.656 [DEBUG] hit-test at (566,182) base type='Window' name='Fiscal ' class='TfrmPrincipal'
+14:38:14.774 [WARNING]   click_uia not resolved -> fallback screen click (566,182)
+14:38:14.775 [INFO] Step 5/8: wait
+14:38:14.775 [INFO]   wait recorded=1257ms applied=1257ms
+14:38:16.033 [INFO] Step 6/8: click_uia
+14:38:16.901 [DEBUG] focus_window Win32 ok in 866.9ms rect=(-8, -8, 1928, 1048) hwnd=2888332 mode=maximize
+14:38:17.066 [DEBUG] hit-test at (596,397) base type='Pane' name='Importação' class='TTabSheet'
+14:38:17.198 [WARNING]   click_uia not resolved -> fallback screen click (596,397)
+14:38:17.200 [INFO] Step 7/8: wait
+14:38:17.200 [INFO]   wait recorded=3164ms applied=3164ms
+14:38:20.365 [INFO] Step 8/8: click_uia
+14:38:21.148 [DEBUG] focus_window Win32 ok in 781.4ms rect=(-8, -8, 1928, 1048) hwnd=2888332 mode=maximize
+14:38:21.339 [DEBUG] hit-test at (802,335) base type='Pane' name='' class='TFraSelecaoUploadMistoImportacaoNotas'
+14:38:21.462 [WARNING]   click_uia not resolved -> fallback screen click (802,335)
+14:38:29.467 [INFO] DPI awareness: PMv2
+14:38:29.468 [INFO] Loaded macro steps=8 wait_scale=1.000 wait_cap_ms=None (dpi=PMv2)
+14:38:29.468 [INFO] Step 1/8: wait
+14:38:29.468 [INFO]   wait recorded=2864ms applied=2864ms
+14:38:32.334 [INFO] Step 2/8: focus_window
+14:38:33.195 [DEBUG] focus_window Win32 ok in 860.2ms rect=(-8, -8, 1928, 1048) hwnd=199824 mode=maximize
+14:38:33.333 [INFO]   focused name='Gerenciador de Sistemas' class='TfrmPrincipal' rect=(-8, -8, 1928, 1048)
+14:38:33.333 [INFO] Step 3/8: wait
+14:38:33.334 [INFO]   wait recorded=2568ms applied=2568ms
+14:38:35.902 [INFO] Step 4/8: click_uia
+14:38:37.297 [DEBUG] focus_window Win32 ok in 1391.8ms rect=(-8, -8, 1928, 1048) hwnd=199824 mode=maximize
+14:38:37.453 [DEBUG] hit-test at (566,182) base type='Group' name='' class='text-token-text-primary w-full focus:outline-none [--shadow-height:45px] has-data-writing-block:pointer-events-none has-data-writing-block:-mt-(--shadow-height) has-data-writing-block:pt-(--shadow-height) [&:has([data-writing-block])>*]:pointer-events-auto scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]'
+14:38:37.601 [WARNING]   click_uia not resolved -> fallback screen click (566,182)
+14:38:37.605 [INFO] Step 5/8: wait
+14:38:37.607 [INFO]   wait recorded=1257ms applied=1257ms
+14:38:38.867 [INFO] Step 6/8: click_uia
+14:38:50.051 [INFO] DPI awareness: PMv2
+14:38:50.052 [INFO] Loaded macro steps=8 wait_scale=1.000 wait_cap_ms=None (dpi=PMv2)
+14:38:50.052 [INFO] Step 1/8: wait
+14:38:50.052 [INFO]   wait recorded=2864ms applied=2864ms
+14:38:52.917 [INFO] Step 2/8: focus_window
+14:39:09.287 [INFO] DPI awareness: PMv2
+14:39:09.287 [INFO] Loaded macro steps=8 wait_scale=1.000 wait_cap_ms=None (dpi=PMv2)
+14:39:09.287 [INFO] Step 1/8: wait
+14:39:09.288 [INFO]   wait recorded=2864ms applied=2864ms
+14:39:12.152 [INFO] Step 2/8: focus_window
+14:39:25.165 [INFO] DPI awareness: PMv2
+14:39:25.165 [INFO] Loaded macro steps=8 wait_scale=1.000 wait_cap_ms=None (dpi=PMv2)
+14:39:25.165 [INFO] Step 1/8: wait
+14:39:25.166 [INFO]   wait recorded=2864ms applied=2864ms
+14:39:28.030 [INFO] Step 2/8: focus_window
+14:39:28.199 [DEBUG] focus_window Win32 ok in 168.1ms rect=(-3, -3, 1923, 1043) hwnd=853162 mode=maximize
+14:39:28.209 [INFO]   focused name='Gerenciador de Sistemas' class='TfrmPrincipal' rect=(-3, -3, 1923, 1043)
+14:39:28.209 [INFO] Step 3/8: wait
+14:39:28.210 [INFO]   wait recorded=2568ms applied=2568ms
+14:39:30.779 [INFO] Step 4/8: click_uia
+14:39:30.859 [DEBUG] focus_window Win32 ok in 78.9ms rect=(-3, -3, 1923, 1043) hwnd=853162 mode=maximize
+14:39:30.877 [DEBUG] hit-test at (569,186) base type='Pane' name='' class='TPanel'
+14:39:30.882 [DEBUG] hit-test resolved at hop=0
+14:39:31.000 [INFO]   click_uia resolved -> clicked (569,186) elem_rect=(0, 153, 1920, 203)
+14:39:31.001 [INFO] Step 5/8: wait
+14:39:31.003 [INFO]   wait recorded=1257ms applied=1257ms
+14:39:32.261 [INFO] Step 6/8: click_uia
+14:39:32.359 [DEBUG] focus_window Win32 ok in 96.6ms rect=(-3, -3, 1923, 1043) hwnd=853162 mode=maximize
+14:39:32.424 [DEBUG] locator_tree resolved: type='Pane' name='grdPnlInicioSemIOB360' class='TGridPanel' rect=(524, 265, 1396, 582)
+14:39:32.535 [INFO]   click_uia resolved -> clicked (598,399) elem_rect=(524, 265, 1396, 582)
+14:39:32.536 [INFO] Step 7/8: wait
+14:39:32.537 [INFO]   wait recorded=3164ms applied=3164ms
+14:39:35.702 [INFO] Step 8/8: click_uia
+14:39:35.775 [DEBUG] focus_window Win32 ok in 71.8ms rect=(-3, -3, 1923, 1043) hwnd=853162 mode=maximize
+14:39:35.834 [DEBUG] locator_tree resolved: type='Pane' name='grdPnlEmpresas' class='TGridPanel' rect=(633, 265, 1286, 582)
+14:39:35.955 [INFO]   click_uia resolved -> clicked (803,337) elem_rect=(633, 265, 1286, 582)
+14:43:18.138 [INFO] DPI awareness: PMv2
+14:43:18.139 [INFO] Loaded macro steps=8 wait_scale=1.000 wait_cap_ms=None (dpi=PMv2)
+14:43:18.139 [INFO] Step 1/8: wait
+14:43:18.140 [INFO]   wait recorded=2864ms applied=2864ms
+14:43:21.004 [INFO] Step 2/8: focus_window
+14:43:22.197 [DEBUG] focus_window Win32 ok in 1191.7ms rect=(-3, -3, 1923, 1043) hwnd=853162 mode=maximize iconic=False
+14:43:22.318 [INFO]   focused name='Gerenciador de Sistemas' class='TfrmPrincipal' rect=(-3, -3, 1923, 1043)
+14:43:22.318 [INFO] Step 3/8: wait
+14:43:22.319 [INFO]   wait recorded=2568ms applied=2568ms
+14:43:24.887 [INFO] Step 4/8: click_uia
+14:43:25.979 [DEBUG] focus_window Win32 ok in 1091.2ms rect=(-3, -3, 1923, 1043) hwnd=853162 mode=maximize iconic=False
+14:43:26.122 [DEBUG] hit-test at (569,186) base type='Pane' name='' class='TPanel'
+14:43:26.125 [DEBUG] hit-test resolved at hop=0
+14:43:26.235 [INFO]   click_uia resolved -> clicked (569,186) elem_rect=(0, 153, 1920, 203)
+14:43:26.235 [INFO] Step 5/8: wait
+14:43:26.236 [INFO]   wait recorded=1257ms applied=1257ms
+14:43:27.495 [INFO] Step 6/8: click_uia
+14:43:28.661 [DEBUG] focus_window Win32 ok in 1165.1ms rect=(-3, -3, 1923, 1043) hwnd=853162 mode=maximize iconic=False
+14:43:28.794 [DEBUG] hit-test at (598,398) base type='Pane' name='grdPnlInicioSemIOB360' class='TGridPanel'
+14:43:28.801 [DEBUG] hit-test resolved at hop=0
+14:43:28.922 [INFO]   click_uia resolved -> clicked (598,399) elem_rect=(524, 265, 1396, 582)
+14:43:28.923 [INFO] Step 7/8: wait
+14:43:28.923 [INFO]   wait recorded=3164ms applied=3164ms
+14:43:32.088 [INFO] Step 8/8: click_uia
+14:43:33.180 [DEBUG] focus_window Win32 ok in 1090.5ms rect=(-3, -3, 1923, 1043) hwnd=853162 mode=maximize iconic=False
+14:43:33.323 [DEBUG] hit-test at (803,337) base type='Pane' name='grdPnlEmpresas' class='TGridPanel'
+14:43:33.330 [DEBUG] hit-test resolved at hop=0
+14:43:33.443 [INFO]   click_uia resolved -> clicked (803,337) elem_rect=(633, 265, 1286, 582)
+14:46:19.581 [INFO] DPI awareness: PMv2
+14:46:19.582 [INFO] Loaded macro steps=8 wait_scale=1.000 wait_cap_ms=None (dpi=PMv2)
+14:46:19.637 [INFO] Step 1/8: wait
+14:46:19.640 [INFO]   wait recorded=2864ms applied=2864ms
+14:46:22.506 [INFO] Step 2/8: focus_window
+14:46:46.087 [INFO] DPI awareness: PMv2
+14:46:46.087 [INFO] Loaded macro steps=8 wait_scale=1.000 wait_cap_ms=None (dpi=PMv2)
+14:46:46.088 [INFO] Step 1/8: wait
+14:46:46.088 [INFO]   wait recorded=2864ms applied=2864ms
+14:46:48.953 [INFO] Step 2/8: focus_window
+14:49:22.091 [INFO] DPI awareness: PMv2
+14:49:22.091 [INFO] Loaded macro steps=8 wait_scale=1.000 wait_cap_ms=None (dpi=PMv2)
+14:49:22.091 [INFO] Step 1/8: wait
+14:49:22.092 [INFO]   wait recorded=2864ms applied=2864ms
+14:49:24.956 [INFO] Step 2/8: focus_window
+14:49:25.707 [DEBUG] focus_window ok in 750.0ms hwnd=853162 iconic=False zoomed=True mode=maximize rect=(-3, -3, 1923, 1043)
+14:49:25.822 [INFO]   focused name='Gerenciador de Sistemas' class='TfrmPrincipal' rect=(-3, -3, 1923, 1043)
+14:49:25.823 [INFO] Step 3/8: wait
+14:49:25.823 [INFO]   wait recorded=2568ms applied=2568ms
+14:49:28.392 [INFO] Step 4/8: click_uia
+14:49:29.106 [DEBUG] focus_window ok in 712.9ms hwnd=853162 iconic=False zoomed=True mode=maximize rect=(-3, -3, 1923, 1043)
+14:49:29.218 [DEBUG] hit-test at (569,186) base type='Pane' name='' class='TPanel'
+14:49:29.221 [DEBUG] hit-test resolved at hop=0
+14:49:29.330 [INFO]   click_uia resolved -> clicked (569,186) elem_rect=(0, 153, 1920, 203)
+14:49:29.330 [INFO] Step 5/8: wait
+14:49:29.331 [INFO]   wait recorded=1257ms applied=1257ms
+14:49:30.589 [INFO] Step 6/8: click_uia
+14:49:31.217 [DEBUG] focus_window ok in 627.1ms hwnd=853162 iconic=False zoomed=True mode=maximize rect=(-3, -3, 1923, 1043)
+14:49:31.326 [DEBUG] hit-test at (598,398) base type='Pane' name='grdPnlInicioSemIOB360' class='TGridPanel'
+14:49:31.334 [DEBUG] hit-test resolved at hop=0
+14:49:31.449 [INFO]   click_uia resolved -> clicked (598,399) elem_rect=(524, 265, 1396, 582)
+14:49:31.450 [INFO] Step 7/8: wait
+14:49:31.451 [INFO]   wait recorded=3164ms applied=3164ms
+14:49:34.616 [INFO] Step 8/8: click_uia
+14:49:35.329 [DEBUG] focus_window ok in 712.3ms hwnd=853162 iconic=False zoomed=True mode=maximize rect=(-3, -3, 1923, 1043)
+14:49:35.439 [DEBUG] hit-test at (803,337) base type='Pane' name='grdPnlEmpresas' class='TGridPanel'
+14:49:35.449 [DEBUG] hit-test resolved at hop=0
+14:49:35.552 [INFO]   click_uia resolved -> clicked (803,337) elem_rect=(633, 265, 1286, 582)
+14:50:10.811 [INFO] DPI awareness: PMv2
+14:50:10.812 [INFO] Loaded macro steps=8 wait_scale=1.000 wait_cap_ms=None (dpi=PMv2)
+14:50:10.812 [INFO] Step 1/8: wait
+14:50:10.813 [INFO]   wait recorded=2864ms applied=2864ms
+14:50:13.678 [INFO] Step 2/8: focus_window
+14:50:14.493 [DEBUG] focus_window ok in 813.4ms hwnd=853162 iconic=False zoomed=True mode=maximize rect=(1917, -498, 3003, 1388)
+14:50:14.600 [INFO]   focused name='Gerenciador de Sistemas' class='TfrmPrincipal' rect=(1917, -498, 3003, 1388)
+14:50:14.600 [INFO] Step 3/8: wait
+14:50:14.601 [INFO]   wait recorded=2568ms applied=2568ms
+14:50:17.169 [INFO] Step 4/8: click_uia
+14:50:17.886 [DEBUG] focus_window ok in 716.3ms hwnd=853162 iconic=False zoomed=True mode=maximize rect=(1917, -498, 3003, 1388)
+14:50:17.999 [DEBUG] hit-test at (2239,-157) base type='Pane' name='grdPnlEmpresas' class='TGridPanel'
+14:50:18.113 [WARNING]   click_uia not resolved -> fallback screen click (2239,-157)
+14:50:18.113 [INFO] Step 5/8: wait
+14:50:18.114 [INFO]   wait recorded=1257ms applied=1257ms
+14:50:19.371 [INFO] Step 6/8: click_uia
+14:50:20.689 [DEBUG] focus_window ok in 1317.8ms hwnd=853162 iconic=False zoomed=True mode=maximize rect=(1917, -498, 3003, 1388)
+14:50:20.835 [DEBUG] hit-test at (2255,226) base type='Pane' name='Situação' class='TCRDRadioGroup'
+14:50:20.983 [WARNING]   click_uia not resolved -> fallback screen click (2255,226)
+14:50:20.984 [INFO] Step 7/8: wait
+14:50:20.985 [INFO]   wait recorded=3164ms applied=3164ms
+14:50:24.150 [INFO] Step 8/8: click_uia
+14:50:24.815 [DEBUG] focus_window ok in 664.7ms hwnd=853162 iconic=False zoomed=True mode=maximize rect=(1917, -498, 3003, 1388)
+14:50:25.065 [DEBUG] hit-test at (2371,115) base type='Window' name='Gerenciador de Sistemas' class='TfrmPrincipal'
+14:50:25.188 [WARNING]   click_uia not resolved -> fallback screen click (2371,115)
+14:50:38.763 [INFO] DPI awareness: PMv2
+14:50:38.764 [INFO] Loaded macro steps=8 wait_scale=1.000 wait_cap_ms=None (dpi=PMv2)
+14:50:38.764 [INFO] Step 1/8: wait
+14:50:38.764 [INFO]   wait recorded=2864ms applied=2864ms
+14:50:41.631 [INFO] Step 2/8: focus_window
+14:50:48.606 [DEBUG] focus_window ok in 6973.8ms hwnd=853162 iconic=False zoomed=True mode=maximize rect=(1917, -498, 3003, 1388)
+14:50:48.771 [INFO]   focused name='Gerenciador de Sistemas' class='TfrmPrincipal' rect=(1917, -498, 3003, 1388)
+14:50:48.772 [INFO] Step 3/8: wait
+14:50:48.772 [INFO]   wait recorded=2568ms applied=2568ms
+14:50:51.340 [INFO] Step 4/8: click_uia
+14:50:52.047 [DEBUG] focus_window ok in 706.2ms hwnd=853162 iconic=False zoomed=True mode=maximize rect=(1917, -498, 3003, 1388)
+14:50:52.165 [DEBUG] hit-test at (2239,-157) base type='Pane' name='grdPnlInicioSemIOB360' class='TGridPanel'
+14:50:52.281 [WARNING]   click_uia not resolved -> fallback screen click (2239,-157)
+14:50:52.282 [INFO] Step 5/8: wait
+14:50:52.282 [INFO]   wait recorded=1257ms applied=1257ms
+14:50:53.540 [INFO] Step 6/8: click_uia
+14:50:54.168 [DEBUG] focus_window ok in 626.3ms hwnd=853162 iconic=False zoomed=True mode=maximize rect=(1917, -498, 3003, 1388)
+14:50:54.286 [DEBUG] hit-test at (2255,226) base type='Window' name='Gerenciador de Sistemas' class='TfrmPrincipal'
+14:50:54.398 [WARNING]   click_uia not resolved -> fallback screen click (2255,226)
+14:50:54.399 [INFO] Step 7/8: wait
+14:50:54.400 [INFO]   wait recorded=3164ms applied=3164ms
+14:50:57.565 [INFO] Step 8/8: click_uia
+14:50:58.174 [DEBUG] focus_window ok in 608.2ms hwnd=853162 iconic=False zoomed=True mode=maximize rect=(1917, -498, 3003, 1388)
+14:50:58.321 [DEBUG] hit-test at (2371,115) base type='Window' name='Gerenciador de Sistemas' class='TfrmPrincipal'
+14:50:58.436 [WARNING]   click_uia not resolved -> fallback screen click (2371,115)
+14:58:35.014 [INFO] DPI awareness: PMv2
+14:58:35.015 [INFO] Loaded macro steps=8 wait_scale=1.000 wait_cap_ms=None (dpi=PMv2)
+14:58:35.015 [INFO] Step 1/8: wait
+14:58:35.015 [INFO]   wait recorded=2678ms applied=2678ms
+14:58:37.694 [INFO] Step 2/8: click_win
+14:58:38.553 [DEBUG] focus_window ok in 858.2ms hwnd=66020 iconic=False zoomed=False mode=maximize rect=(1920, -495, 3000, 1425)
+14:58:38.796 [INFO]   click_win at (2623,801) rect=(1920, -495, 3000, 1425) ref=client
+14:58:38.797 [INFO] Step 3/8: wait
+14:58:38.798 [INFO]   wait recorded=1061ms applied=1061ms
+14:58:39.860 [INFO] Step 4/8: click_uia
+14:58:39.961 [DEBUG] focus_window ok in 99.9ms hwnd=853162 iconic=False zoomed=True mode=maximize rect=(-3, -3, 1923, 1043)
+14:58:39.983 [DEBUG] hit-test at (227,106) base type='Pane' name='' class='TPanel'
+14:58:39.987 [DEBUG] hit-test resolved at hop=0
+14:58:40.100 [INFO]   click_uia resolved -> clicked (227,116) elem_rect=(0, 88, 1920, 153)
+14:58:40.101 [INFO] Step 5/8: wait
+14:58:40.101 [INFO]   wait recorded=721ms applied=721ms
+14:58:40.824 [INFO] Step 6/8: click_uia
+14:58:40.849 [DEBUG] focus_window ok in 24.0ms hwnd=853162 iconic=False zoomed=True mode=maximize rect=(-3, -3, 1923, 1043)
+14:58:42.657 [DEBUG] hit-test at (330,267) base type='Window' name='Gerenciador de Sistemas' class='TfrmPrincipal'
+14:58:42.766 [WARNING]   click_uia not resolved -> fallback screen click (330,267) ref=client
+14:58:42.767 [INFO] Step 7/8: wait
+14:58:42.767 [INFO]   wait recorded=808ms applied=808ms
+14:58:43.577 [INFO] Step 8/8: click_uia
+14:58:43.609 [DEBUG] focus_window ok in 30.6ms hwnd=853162 iconic=False zoomed=True mode=maximize rect=(-3, -3, 1923, 1043)
+14:58:43.687 [DEBUG] locator_tree resolved: type='Pane' name='grdPnlEmpresas' class='TGridPanel' rect=(633, 265, 1286, 582)
+14:58:43.788 [INFO]   click_uia resolved -> clicked (835,318) elem_rect=(633, 265, 1286, 582)
+15:03:01.543 [INFO] DPI awareness: PMv2
+15:03:01.544 [INFO] Loaded macro steps=8 wait_scale=1.000 wait_cap_ms=None (dpi=PMv2)
+15:03:01.544 [INFO] Step 1/8: wait
+15:03:01.544 [INFO]   wait recorded=2678ms applied=2678ms
+15:03:04.223 [INFO] Step 2/8: click_win
+15:03:04.955 [DEBUG] focus_window ok in 732.0ms hwnd=66020 iconic=False zoomed=True mode=keep rect=(1920, 1385, 3000, 1425)
+15:03:05.179 [INFO]   click_win at (2623,1412) rect=(1920, 1385, 3000, 1425) ref=client
+15:03:05.180 [INFO] Step 3/8: wait
+15:03:05.180 [INFO]   wait recorded=1061ms applied=1061ms
+15:03:06.242 [INFO] Step 4/8: click_uia
+15:03:06.260 [DEBUG] focus_window ok in 17.3ms hwnd=983772 iconic=False zoomed=True mode=keep rect=(-3, -3, 1923, 1043)
+15:03:06.287 [DEBUG] hit-test at (227,106) base type='Pane' name='' class='TPanel'
+15:03:06.292 [DEBUG] hit-test resolved at hop=0
+15:03:06.400 [INFO]   click_uia resolved -> clicked (227,116) elem_rect=(0, 88, 1920, 153)
+15:03:06.400 [INFO] Step 5/8: wait
+15:03:06.401 [INFO]   wait recorded=721ms applied=721ms
+15:03:07.123 [INFO] Step 6/8: click_uia
+15:03:07.154 [DEBUG] focus_window ok in 30.8ms hwnd=983772 iconic=False zoomed=True mode=keep rect=(-3, -3, 1923, 1043)
+15:03:07.228 [DEBUG] locator_tree resolved: type='Pane' name='grdPnlInicioSemIOB360' class='TGridPanel' rect=(524, 265, 1396, 582)
+15:03:07.330 [INFO]   click_uia resolved -> clicked (606,469) elem_rect=(524, 265, 1396, 582)
+15:03:07.331 [INFO] Step 7/8: wait
+15:03:07.332 [INFO]   wait recorded=808ms applied=808ms
+15:03:08.141 [INFO] Step 8/8: click_uia
+15:03:08.170 [DEBUG] focus_window ok in 28.5ms hwnd=983772 iconic=False zoomed=True mode=keep rect=(-3, -3, 1923, 1043)
+15:03:08.245 [DEBUG] locator_tree resolved: type='Pane' name='grdPnlEmpresas' class='TGridPanel' rect=(633, 265, 1286, 582)
+15:03:08.348 [INFO]   click_uia resolved -> clicked (835,318) elem_rect=(633, 265, 1286, 582)
+15:03:28.288 [INFO] DPI awareness: PMv2
+15:03:28.289 [INFO] Loaded macro steps=8 wait_scale=1.000 wait_cap_ms=None (dpi=PMv2)
+15:03:28.289 [INFO] Step 1/8: wait
+15:03:28.289 [INFO]   wait recorded=2678ms applied=2678ms
+15:03:30.969 [INFO] Step 2/8: click_win
+15:03:31.691 [DEBUG] focus_window ok in 721.4ms hwnd=66020 iconic=False zoomed=True mode=keep rect=(1920, 1385, 3000, 1425)
+15:03:31.907 [INFO]   click_win at (2623,1412) rect=(1920, 1385, 3000, 1425) ref=client
+15:03:31.908 [INFO] Step 3/8: wait
+15:03:31.908 [INFO]   wait recorded=1061ms applied=1061ms
+15:03:32.970 [INFO] Step 4/8: click_uia
+15:03:33.002 [DEBUG] focus_window ok in 31.4ms hwnd=983772 iconic=False zoomed=False mode=keep rect=(856, 677, 1832, 1376)
+15:03:33.026 [DEBUG] hit-test at (973,757) base type='Pane' name='' class='TPanel'
+15:03:33.030 [DEBUG] hit-test resolved at hop=0
+15:03:33.140 [INFO]   click_uia resolved -> clicked (973,731) elem_rect=(859, 703, 1829, 768)
+15:03:33.173 [INFO] Step 5/8: wait
+15:03:33.176 [INFO]   wait recorded=721ms applied=721ms
+15:03:33.899 [INFO] Step 6/8: click_uia
+15:03:33.929 [DEBUG] focus_window ok in 28.9ms hwnd=983772 iconic=False zoomed=False mode=keep rect=(856, 677, 1832, 1376)
+15:03:35.857 [DEBUG] hit-test at (1026,863) base type='Pane' name='' class='TPanel'
+15:03:35.976 [WARNING]   click_uia not resolved -> fallback screen click (1026,863) ref=client
+15:03:35.977 [INFO] Step 7/8: wait
+15:03:35.977 [INFO]   wait recorded=808ms applied=808ms
+15:03:36.786 [INFO] Step 8/8: click_uia
+15:03:36.818 [DEBUG] focus_window ok in 31.1ms hwnd=983772 iconic=False zoomed=False mode=keep rect=(856, 677, 1832, 1376)
+15:03:38.736 [DEBUG] hit-test at (1231,809) base type='Pane' name='' class='TPanel'
+15:03:38.846 [WARNING]   click_uia not resolved -> fallback screen click (1231,809) ref=client
+15:20:21.076 [INFO] DPI awareness: PM
+15:20:21.078 [INFO] Loaded macro steps=8 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+15:20:21.078 [INFO] Step 1/8: wait
+15:20:21.078 [INFO]   wait recorded=2427ms applied=2427ms
+15:20:23.506 [INFO] Step 2/8: focus_window
+15:20:23.513 [DEBUG] focus_window ok in 5.4ms hwnd=918760 iconic=False zoomed=False mode=keep rect=(960, 540, 960, 540)
+15:20:23.528 [INFO]   focused name='Gerenciador de Sistemas' class='TApplication' rect=(960, 540, 960, 540)
+15:20:23.593 [INFO] Step 3/8: wait
+15:20:23.605 [INFO]   wait recorded=969ms applied=969ms
+15:20:24.576 [INFO] Step 4/8: click_uia
+15:20:24.577 [DEBUG] focus_window ok in 0.2ms hwnd=983772 iconic=False zoomed=False mode=keep rect=(938, 702, 1914, 1401)
+15:20:24.902 [DEBUG] hit-test at (1258,820) base type='Pane' name='' class='TPanel'
+15:20:24.907 [DEBUG] hit-test resolved at hop=0 took=8.6ms
+15:20:25.020 [INFO]   click_uia resolved -> clicked (1258,820) elem_rect=(941, 793, 1911, 858)
+15:20:25.020 [INFO] Step 5/8: wait
+15:20:25.021 [INFO]   wait recorded=396ms applied=396ms
+15:20:25.418 [INFO] Step 6/8: click_uia
+15:20:25.419 [DEBUG] focus_window ok in 0.2ms hwnd=983772 iconic=False zoomed=False mode=keep rect=(938, 702, 1914, 1401)
+15:20:33.539 [DEBUG] locator_tree not found in 8025.2ms
+15:20:33.546 [DEBUG] hit-test at (1264,933) base type='Window' name='Gerenciador de Sistemas' class='TfrmPrincipal'
+15:20:33.551 [DEBUG] hit-test not resolved took=10.3ms
+15:20:33.664 [WARNING]   click_uia not resolved -> fallback screen click (1264,933)
+15:20:33.664 [INFO] Step 7/8: wait
+15:20:33.665 [INFO]   wait recorded=396ms applied=396ms
+15:20:34.062 [INFO] Step 8/8: click_uia
+15:20:34.063 [DEBUG] focus_window ok in 0.2ms hwnd=983772 iconic=False zoomed=False mode=keep rect=(938, 702, 1914, 1401)
+15:20:34.295 [DEBUG] locator_tree resolved: type='Pane' name='grdPnlEmpresas' class='TGridPanel' rect=(1099, 970, 1752, 1287) depth=3 took=139.0ms
+15:20:34.413 [INFO]   click_uia resolved -> clicked (1220,1036) elem_rect=(1099, 970, 1752, 1287)
+15:22:09.403 [INFO] DPI awareness: PM
+15:22:09.409 [INFO] Loaded macro steps=17 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+15:22:09.409 [INFO] Step 1/17: wait
+15:22:09.410 [INFO]   wait recorded=1038ms applied=1038ms
+15:22:10.449 [INFO] Step 2/17: focus_window
+15:22:10.554 [DEBUG] focus_window ok in 103.9ms hwnd=918760 iconic=True zoomed=False mode=keep rect=(-3, -3, 1923, -3)
+15:22:10.571 [INFO]   focused name='Gerenciador de Sistemas' class='TApplication' rect=(-3, -3, 1923, -3)
+15:22:10.573 [INFO] Step 3/17: wait
+15:22:10.575 [INFO]   wait recorded=1314ms applied=1314ms
+15:22:11.892 [INFO] Step 4/17: click_uia
+15:22:11.893 [DEBUG] focus_window ok in 0.2ms hwnd=983772 iconic=False zoomed=True mode=keep rect=(-3, -3, 1923, 1043)
+15:22:12.186 [DEBUG] hit-test at (937,171) base type='Pane' name='' class='TPanel'
+15:22:12.191 [DEBUG] hit-test resolved at hop=0 took=8.8ms
+15:22:12.312 [INFO]   click_uia resolved -> clicked (937,171) elem_rect=(0, 153, 1920, 203)
+15:22:12.313 [INFO] Step 5/17: wait
+15:22:12.313 [INFO]   wait recorded=11503ms applied=11503ms
+15:22:23.816 [INFO] Step 6/17: click_uia
+15:22:23.818 [DEBUG] focus_window ok in 0.3ms hwnd=3215824 iconic=False zoomed=True mode=keep rect=(-8, -8, 1928, 1048)
+15:22:24.653 [DEBUG] locator_tree resolved: type='Edit' name='' class='TEdit' rect=(1600, 47, 1640, 68) depth=10 took=679.5ms
+15:22:24.770 [INFO]   click_uia resolved -> clicked (1620,56) elem_rect=(1600, 47, 1640, 68)
+15:22:24.771 [INFO] Step 7/17: double_click_uia
+15:23:09.933 [INFO] DPI awareness: PM
+15:23:09.934 [INFO] Loaded macro steps=8 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+15:23:09.935 [INFO] Step 1/8: wait
+15:23:09.935 [INFO]   wait recorded=1435ms applied=1435ms
+15:23:11.371 [INFO] Step 2/8: click_win
+15:23:11.372 [DEBUG] focus_window ok in 0.8ms hwnd=66020 iconic=False zoomed=True mode=keep rect=(1920, 1385, 3000, 1425)
+15:23:11.491 [INFO]   click_win at (2635,1399) rect=(1920, 1385, 3000, 1425)
+15:23:11.492 [INFO] Step 3/8: wait
+15:23:11.492 [INFO]   wait recorded=1252ms applied=1252ms
+15:23:12.745 [INFO] Step 4/8: click_uia
+15:23:12.746 [DEBUG] focus_window ok in 0.2ms hwnd=983772 iconic=False zoomed=True mode=keep rect=(-3, -3, 1923, 1043)
+15:23:12.969 [DEBUG] hit-test at (216,263) base type='Window' name='Gerenciador de Sistemas' class='TfrmPrincipal'
+15:23:12.970 [DEBUG] hit-test not resolved took=6.2ms
+15:23:13.085 [WARNING]   click_uia not resolved -> fallback screen click (216,263)
+15:23:13.086 [INFO] Step 5/8: wait
+15:23:13.086 [INFO]   wait recorded=660ms applied=660ms
+15:23:13.747 [INFO] Step 6/8: click_uia
+15:23:13.747 [DEBUG] focus_window ok in 0.1ms hwnd=983772 iconic=False zoomed=True mode=keep rect=(-3, -3, 1923, 1043)
+15:23:21.876 [DEBUG] locator_tree not found in 8035.1ms
+15:23:21.882 [DEBUG] hit-test at (235,580) base type='Window' name='Gerenciador de Sistemas' class='TfrmPrincipal'
+15:23:21.887 [DEBUG] hit-test not resolved took=10.4ms
+15:23:21.995 [WARNING]   click_uia not resolved -> fallback screen click (235,580)
+15:23:21.996 [INFO] Step 7/8: wait
+15:23:21.996 [INFO]   wait recorded=522ms applied=522ms
+15:23:22.519 [INFO] Step 8/8: click_uia
+15:23:22.520 [DEBUG] focus_window ok in 0.1ms hwnd=983772 iconic=False zoomed=True mode=keep rect=(-3, -3, 1923, 1043)
+15:23:22.779 [DEBUG] locator_tree resolved: type='Pane' name='grdPnlEmpresas' class='TGridPanel' rect=(633, 265, 1286, 582) depth=3 took=169.9ms
+15:23:22.882 [INFO]   click_uia resolved -> clicked (728,326) elem_rect=(633, 265, 1286, 582)
+15:54:41.338 [INFO] DPI awareness: PM
+15:54:41.344 [INFO] Loaded macro steps=12 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+15:54:41.345 [INFO] Step 1/12: wait
+15:54:41.348 [INFO]   wait recorded=6775ms applied=6775ms
+15:54:48.124 [INFO] Step 2/12: click_uia
+15:54:48.126 [DEBUG] focus_window ok in 0.1ms hwnd=134068 iconic=False zoomed=True mode=keep rect=(-3, -3, 1923, 1035)
+15:54:48.428 [DEBUG] hit-test at (586,171) base type='Pane' name='' class='TPanel'
+15:54:48.433 [DEBUG] hit-test resolved at hop=0 took=9.6ms
+15:54:48.546 [INFO]   click_uia resolved -> clicked (586,171) elem_rect=(0, 153, 1920, 203)
+15:54:48.547 [INFO] Step 3/12: wait
+15:54:48.551 [INFO]   wait recorded=959ms applied=959ms
+15:54:49.515 [INFO] Step 4/12: click_uia
+15:54:49.517 [DEBUG] focus_window ok in 0.2ms hwnd=134068 iconic=False zoomed=True mode=keep rect=(-3, -3, 1923, 1035)
+15:54:49.723 [DEBUG] locator_tree resolved: type='Pane' name='grdPnlInicioSemIOB360' class='TGridPanel' rect=(524, 265, 1396, 582) depth=3 took=133.7ms
+15:54:49.835 [INFO]   click_uia resolved -> clicked (1030,393) elem_rect=(524, 265, 1396, 582)
+15:54:49.836 [INFO] Step 5/12: wait
+15:54:49.840 [INFO]   wait recorded=762ms applied=762ms
+15:54:50.605 [INFO] Step 6/12: click_uia
+15:54:50.606 [DEBUG] focus_window ok in 0.1ms hwnd=134068 iconic=False zoomed=True mode=keep rect=(-3, -3, 1923, 1035)
+15:54:50.803 [DEBUG] locator_tree resolved: type='Pane' name='grdPnlModulosExtras' class='TGridPanel' rect=(633, 265, 1286, 582) depth=3 took=131.0ms
+15:54:50.915 [INFO]   click_uia resolved -> clicked (1049,365) elem_rect=(633, 265, 1286, 582)
+15:54:50.917 [INFO] Step 7/12: wait
+15:54:50.919 [INFO]   wait recorded=481ms applied=481ms
+15:54:51.403 [INFO] Step 8/12: click_uia
+15:54:51.405 [DEBUG] focus_window ok in 0.1ms hwnd=134068 iconic=False zoomed=True mode=keep rect=(-3, -3, 1923, 1035)
+15:54:51.617 [DEBUG] locator_tree resolved: type='Pane' name='grdPnlModulosExtrasControleGuias' class='TGridPanel' rect=(800, 265, 1119, 582) depth=3 took=135.4ms
+15:54:51.725 [INFO]   click_uia resolved -> clicked (983,320) elem_rect=(800, 265, 1119, 582)
+15:54:51.726 [INFO] Step 9/12: wait
+15:54:51.727 [INFO]   wait recorded=1761ms applied=1761ms
+15:54:53.490 [INFO] Step 10/12: click_uia
+15:54:53.491 [DEBUG] focus_window ok in 0.1ms hwnd=5506244 iconic=False zoomed=False mode=keep rect=(307, 222, 1612, 810)
+15:54:54.339 [DEBUG] locator_tree resolved: type='Pane' name='DCTFWEB' class='TPanel' rect=(324, 255, 602, 300) depth=4 took=749.8ms
+15:54:54.446 [INFO]   click_uia resolved -> clicked (500,281) elem_rect=(324, 255, 602, 300)
+15:54:54.447 [INFO] Step 11/12: wait
+15:54:54.447 [INFO]   wait recorded=2775ms applied=2775ms
+15:54:57.229 [INFO] Step 12/12: click_uia
+15:54:57.229 [DEBUG] focus_window ok in 0.1ms hwnd=5506244 iconic=False zoomed=False mode=keep rect=(307, 222, 1612, 810)
+15:54:57.755 [DEBUG] locator_tree resolved: type='Edit' name='' class='TEdit' rect=(1075, 331, 1275, 352) depth=11 took=435.8ms
+15:54:57.859 [INFO]   click_uia resolved -> clicked (1094,342) elem_rect=(1075, 331, 1275, 352)
+16:29:17.850 [INFO] DPI awareness: PM
+16:29:17.878 [INFO] Loaded macro steps=17 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+16:29:17.879 [INFO] Step 1/17: wait
+16:29:17.882 [INFO]   wait recorded=3905ms applied=3905ms
+16:29:21.793 [INFO] Step 2/17: click_uia
+16:29:21.797 [DEBUG] focus_window ok in 2.4ms hwnd=983772 iconic=False zoomed=True mode=keep rect=(-3, -3, 1923, 1043)
+16:29:22.297 [DEBUG] hit-test at (1130,187) base type='Pane' name='' class='TPanel'
+16:29:22.306 [DEBUG] hit-test resolved at hop=0 took=13.3ms
+16:29:22.420 [INFO]   click_uia resolved -> clicked (1130,187) elem_rect=(0, 153, 1920, 203)
+16:29:22.423 [INFO] Step 3/17: wait
+16:29:22.428 [INFO]   wait recorded=9603ms applied=9603ms
+16:29:32.034 [INFO] Step 4/17: click_uia
+16:29:32.036 [DEBUG] focus_window ok in 0.2ms hwnd=5573740 iconic=False zoomed=True mode=keep rect=(-8, -8, 1928, 1048)
+16:29:33.333 [DEBUG] locator_tree resolved: type='Edit' name='' class='TEdit' rect=(1600, 47, 1640, 68) depth=10 took=1075.1ms
+16:29:33.452 [INFO]   click_uia resolved -> clicked (1613,54) elem_rect=(1600, 47, 1640, 68)
+16:29:33.455 [INFO] Step 5/17: wait
+16:29:33.456 [INFO]   wait recorded=1260ms applied=1260ms
+16:29:34.717 [INFO] Step 6/17: key
+16:33:18.090 [INFO] DPI awareness: PM
+16:33:18.103 [INFO] Loaded macro steps=17 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+16:33:18.107 [INFO] Step 1/17: wait
+16:33:18.110 [INFO]   wait recorded=3905ms applied=3905ms
+16:33:22.017 [INFO] Step 2/17: click_uia
+16:33:22.020 [DEBUG] focus_window ok in 1.7ms hwnd=983772 iconic=False zoomed=True mode=keep rect=(-3, -3, 1923, 1043)
+16:33:22.385 [DEBUG] hit-test at (1130,187) base type='Pane' name='' class='TPanel'
+16:33:22.394 [DEBUG] hit-test resolved at hop=0 took=13.2ms
+16:33:22.511 [INFO]   click_uia resolved -> clicked (1130,187) elem_rect=(0, 153, 1920, 203)
+16:33:22.512 [INFO] Step 3/17: wait
+16:33:22.530 [INFO]   wait recorded=9603ms applied=9603ms
+16:33:32.263 [INFO] DPI awareness: PM
+16:33:32.305 [INFO] Loaded macro steps=17 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+16:33:32.307 [INFO] Step 1/17: wait
+16:33:32.310 [INFO]   wait recorded=3905ms applied=3905ms
+16:33:36.222 [INFO] Step 2/17: click_uia
+16:33:36.229 [DEBUG] focus_window ok in 4.4ms hwnd=983772 iconic=False zoomed=True mode=keep rect=(-3, -3, 1923, 1043)
+16:33:36.538 [DEBUG] hit-test at (1130,187) base type='Pane' name='' class='TPanel'
+16:33:36.546 [DEBUG] hit-test resolved at hop=0 took=12.0ms
+16:33:36.656 [INFO]   click_uia resolved -> clicked (1130,187) elem_rect=(0, 153, 1920, 203)
+16:33:36.661 [INFO] Step 3/17: wait
+16:33:36.663 [INFO]   wait recorded=9603ms applied=9603ms
+16:33:46.269 [INFO] Step 4/17: click_uia
+16:33:46.271 [DEBUG] focus_window ok in 0.3ms hwnd=721218 iconic=False zoomed=True mode=keep rect=(-8, -8, 1928, 1048)
+16:33:47.425 [DEBUG] locator_tree resolved: type='Edit' name='' class='TEdit' rect=(1600, 47, 1640, 68) depth=10 took=958.8ms
+16:33:47.535 [INFO]   click_uia resolved -> clicked (1613,54) elem_rect=(1600, 47, 1640, 68)
+16:33:47.539 [INFO] Step 5/17: wait
+16:33:47.541 [INFO]   wait recorded=1260ms applied=1260ms
+16:33:48.807 [INFO] Step 6/17: key
+16:33:48.814 [INFO]   key=BACKSPACE -> backspace
+16:33:48.926 [INFO] Step 7/17: key
+16:33:48.929 [INFO]   key=BACKSPACE -> backspace
+16:33:49.032 [INFO] Step 8/17: wait
+16:33:49.033 [INFO]   wait recorded=5784ms applied=5784ms
+16:33:54.820 [INFO] Step 9/17: key
+16:33:54.823 [INFO]   key=BACKSPACE -> backspace
+16:33:54.931 [INFO] Step 10/17: wait
+16:33:54.933 [INFO]   wait recorded=2673ms applied=2673ms
+16:33:57.610 [INFO] Step 11/17: key
+16:33:57.612 [INFO]   key=ENTER -> enter
+16:33:57.726 [INFO] Step 12/17: wait
+16:33:57.728 [INFO]   wait recorded=1103ms applied=1103ms
+16:33:58.833 [INFO] Step 13/17: key
+16:33:58.834 [INFO]   key=ENTER -> enter
+16:33:58.948 [INFO] Step 14/17: wait
+16:33:58.953 [INFO]   wait recorded=2328ms applied=2328ms
+16:34:01.288 [INFO] Step 15/17: key
+16:34:01.290 [INFO]   key=DELETE -> delete
+16:34:01.397 [INFO] Step 16/17: wait
+16:34:01.399 [INFO]   wait recorded=648ms applied=648ms
+16:34:02.049 [INFO] Step 17/17: key
+16:34:02.053 [INFO]   key=ENTER -> enter
+16:57:03.199 [INFO] DPI awareness: PM
+16:57:03.228 [INFO] Loaded macro steps=21 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+16:57:03.236 [INFO] Step 1/21: wait
+16:57:03.239 [INFO]   wait recorded=1551ms applied=1551ms
+16:57:04.793 [INFO] Step 2/21: focus_window
+16:57:12.884 [DEBUG] focus_window ok in 8087.2ms hwnd=918760 iconic=True zoomed=False visible=True mode=keep rect=(-3, -3, 1923, -3)
+16:57:12.887 [INFO]   focused name='Gerenciador de Sistemas' class='TApplication' rect=(-3, -3, 1923, -3)
+16:57:12.890 [INFO] Step 3/21: wait
+16:57:12.893 [INFO]   wait recorded=1297ms applied=1297ms
+16:57:14.193 [INFO] Step 4/21: click_uia
+16:57:14.195 [DEBUG] focus_window ok in 0.3ms hwnd=983772 iconic=False zoomed=True visible=True mode=keep rect=(-3, -3, 1923, 1043)
+16:57:14.654 [DEBUG] hit-test at (1162,195) base type='Pane' name='' class='TPanel'
+16:57:14.661 [DEBUG] hit-test resolved at hop=0 took=12.7ms
+16:57:14.772 [INFO]   click_uia resolved -> clicked (1162,195) elem_rect=(0, 153, 1920, 203)
+16:57:14.776 [INFO] Step 5/21: wait
+16:57:14.782 [INFO]   wait recorded=15946ms applied=15946ms
+16:57:30.736 [INFO] Step 6/21: click_uia
+16:57:30.737 [DEBUG] focus_window ok in 0.1ms hwnd=921178 iconic=False zoomed=True visible=True mode=keep rect=(-8, -8, 1928, 1048)
+16:57:32.106 [DEBUG] locator_tree resolved: type='Edit' name='' class='TEdit' rect=(1600, 47, 1640, 68) depth=10 took=1140.9ms
+16:57:32.239 [INFO]   click_uia resolved -> clicked (1624,61) elem_rect=(1600, 47, 1640, 68)
+16:57:32.246 [INFO] Step 7/21: wait
+16:57:32.253 [INFO]   wait recorded=1015ms applied=1015ms
+16:57:33.291 [INFO] Step 8/21: key
+16:57:33.302 [INFO]   key=BACKSPACE -> backspace
+16:57:33.428 [INFO] Step 9/21: key
+16:57:33.433 [INFO]   key=BACKSPACE -> backspace
+16:57:33.537 [INFO] Step 10/21: wait
+16:57:33.555 [INFO]   wait recorded=1896ms applied=1896ms
+16:57:35.459 [INFO] Step 11/21: key
+16:57:35.462 [INFO]   key=ENTER -> enter
+16:57:35.584 [INFO] Step 12/21: wait
+16:57:35.597 [INFO]   wait recorded=872ms applied=872ms
+16:57:36.481 [INFO] Step 13/21: key
+16:57:36.483 [INFO]   key=ENTER -> enter
+16:57:36.601 [INFO] Step 14/21: wait
+16:57:36.612 [INFO]   wait recorded=2424ms applied=2424ms
+16:57:39.040 [INFO] Step 15/21: key
+16:57:39.042 [INFO]   key=ENTER -> enter
+16:57:39.150 [INFO] Step 16/21: wait
+16:57:39.168 [INFO]   wait recorded=1136ms applied=1136ms
+16:57:40.307 [INFO] Step 17/21: key
+16:57:40.317 [INFO]   key=TAB -> tab
+16:57:40.426 [INFO] Step 18/21: wait
+16:57:40.429 [INFO]   wait recorded=1184ms applied=1184ms
+16:57:41.622 [INFO] Step 19/21: key
+16:57:41.623 [INFO]   key=ENTER -> enter
+16:57:41.727 [INFO] Step 20/21: wait
+16:57:41.728 [INFO]   wait recorded=2041ms applied=2041ms
+16:57:43.779 [INFO] Step 21/21: click_win
+16:57:43.786 [DEBUG] focus_window ok in 0.1ms hwnd=921178 iconic=False zoomed=True visible=True mode=keep rect=(-8, -8, 1928, 1048)
+16:57:43.914 [INFO]   click_win at (1345,453) rect=(-8, -8, 1928, 1048)
+17:54:34.194 [INFO] DPI awareness: PM
+17:54:34.220 [INFO] Loaded macro steps=21 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+17:54:34.222 [INFO] Step 1/21 (id=1): wait
+17:54:34.223 [INFO]   wait recorded=2670ms applied=2670ms
+17:54:36.895 [INFO] Step 2/21 (id=2): focus_window
+17:56:22.355 [INFO] DPI awareness: PM
+17:56:22.424 [INFO] Loaded macro steps=21 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+17:56:22.426 [INFO] Step 1/21 (id=1): wait
+17:56:22.427 [INFO]   wait recorded=2670ms applied=2670ms
+17:56:25.100 [INFO] Step 2/21 (id=2): focus_window
+17:39:45.252 [INFO] DPI awareness: PM
+17:39:45.266 [INFO] Loaded macro steps=4 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+17:39:45.268 [INFO] Step 1/4 (id=1): wait
+17:39:45.270 [INFO]   wait recorded=4367ms applied=4367ms
+17:39:49.639 [INFO] Step 2/4 (id=2): click_uia
+17:39:49.645 [DEBUG] focus_window ok in 3.2ms hwnd=132358 iconic=False mode=keep rect=(-8, -8, 1928, 1048)
+17:39:49.955 [DEBUG] locator_tree resolved: type='Pane' name='' class='TabStrip::TabDragContextImpl' rect=(28, 0, 1474, 41) depth=7 took=67.1ms
+17:39:50.063 [INFO]   click_uia resolved -> clicked (1144,22) elem_rect=(28, 0, 1474, 41)
+17:39:50.070 [INFO] Step 3/4 (id=3): wait
+17:39:50.080 [INFO]   wait recorded=2316ms applied=2316ms
+17:39:52.405 [INFO] Step 4/4 (id=4): click_uia
+17:39:52.409 [DEBUG] focus_window ok in 0.2ms hwnd=132358 iconic=False mode=keep rect=(-8, -8, 1928, 1048)
+17:39:52.584 [DEBUG] locator_tree resolved: type='Pane' name='' class='Chrome_WidgetWin_1' rect=(0, 87, 1920, 1040) depth=7 took=166.6ms
+17:39:52.700 [INFO]   click_uia resolved -> clicked (1633,221) elem_rect=(0, 87, 1920, 1040)
+10:56:36.906 [INFO] DPI awareness: PM
+10:56:36.919 [INFO] Loaded macro steps=21 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+10:56:36.921 [INFO] Step 1/21 (id=1): wait
+10:56:36.924 [INFO]   wait recorded=7772ms applied=7772ms
+10:56:44.698 [INFO] Step 2/21 (id=2): click_win
+10:56:44.701 [DEBUG] focus_window ok in 1.0ms hwnd=2032386 iconic=False mode=keep rect=(652, 332, 1268, 748)
+10:56:44.817 [INFO]   click_win at (836,575) rect=(652, 332, 1268, 748)
+10:56:44.820 [INFO] Step 3/21 (id=3): wait
+10:56:44.822 [INFO]   wait recorded=1651ms applied=1651ms
+10:56:46.475 [INFO] Step 4/21 (id=4): click_win
+10:56:46.476 [DEBUG] focus_window ok in 0.1ms hwnd=2032386 iconic=False mode=keep rect=(652, 332, 1268, 748)
+10:56:46.598 [INFO]   click_win at (1009,688) rect=(652, 332, 1268, 748)
+10:56:46.600 [INFO] Step 5/21 (id=5): wait
+10:56:46.601 [INFO]   wait recorded=1034ms applied=1034ms
+10:56:47.637 [INFO] Step 6/21 (id=6): click_uia
+10:56:47.639 [DEBUG] focus_window ok in 0.7ms hwnd=134230 iconic=False mode=keep rect=(942, 699, 1160, 781)
+10:56:48.946 [DEBUG] hit-test at (1013,721) base type='Pane' name='' class='SunAwtWindow'
+10:56:48.956 [DEBUG] hit-test resolved at hop=0 took=16.0ms
+10:56:49.071 [INFO]   click_uia resolved -> clicked (1013,721) elem_rect=(942, 699, 1160, 781)
+10:56:49.074 [INFO] Step 7/21 (id=7): wait
+10:56:49.079 [INFO]   wait recorded=1356ms applied=1356ms
+10:56:50.460 [INFO] Step 8/21 (id=8): click_win
+10:56:50.584 [DEBUG] focus_window ok in 5.9ms hwnd=2032386 iconic=False mode=keep rect=(652, 332, 1268, 748)
+10:56:50.826 [INFO]   click_win at (804,693) rect=(652, 332, 1268, 748)
+10:56:50.894 [INFO] Step 9/21 (id=9): wait
+10:56:51.022 [INFO]   wait recorded=1223ms applied=1223ms
+10:56:52.364 [INFO] Step 10/21 (id=10): click_win
+10:56:52.431 [DEBUG] focus_window ok in 0.1ms hwnd=2032386 iconic=False mode=keep rect=(652, 332, 1268, 748)
+10:56:52.631 [INFO]   click_win at (812,721) rect=(652, 332, 1268, 748)
+10:56:52.671 [INFO] Step 11/21 (id=11): wait
+10:56:52.694 [INFO]   wait recorded=703ms applied=703ms
+10:56:53.437 [INFO] Step 12/21 (id=12): click_win
+10:56:53.481 [DEBUG] focus_window ok in 0.2ms hwnd=2032386 iconic=False mode=keep rect=(652, 332, 1268, 748)
+10:56:53.662 [INFO]   click_win at (903,684) rect=(652, 332, 1268, 748)
+10:56:53.663 [INFO] Step 13/21 (id=13): wait
+10:56:53.664 [INFO]   wait recorded=9301ms applied=9301ms
+10:57:02.968 [INFO] Step 14/21 (id=14): wait
+10:57:02.969 [INFO]   wait recorded=488ms applied=488ms
+10:57:03.459 [INFO] Step 15/21 (id=15): wait
+10:57:03.473 [INFO]   wait recorded=1816ms applied=1816ms
+10:57:05.291 [INFO] Step 16/21 (id=16): wait
+10:57:05.294 [INFO]   wait recorded=600ms applied=600ms
+10:57:05.895 [INFO] Step 17/21 (id=17): wait
+10:57:05.897 [INFO]   wait recorded=960ms applied=960ms
+10:57:06.859 [INFO] Step 18/21 (id=18): wait
+10:57:06.862 [INFO]   wait recorded=1120ms applied=1120ms
+10:57:07.983 [INFO] Step 19/21 (id=19): wait
+10:57:07.984 [INFO]   wait recorded=3537ms applied=3537ms
+10:57:27.999 [INFO] DPI awareness: PM
+10:57:28.022 [INFO] Loaded macro steps=21 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+10:57:28.025 [INFO] Step 1/21 (id=1): wait
+10:57:28.031 [INFO]   wait recorded=7772ms applied=7772ms
+10:57:35.810 [INFO] Step 2/21 (id=2): click_win
+10:57:35.818 [DEBUG] focus_window ok in 1.3ms hwnd=265388 iconic=False mode=keep rect=(652, 332, 1268, 748)
+10:57:35.995 [INFO]   click_win at (836,575) rect=(652, 332, 1268, 748)
+10:57:35.998 [INFO] Step 3/21 (id=3): wait
+10:57:36.010 [INFO]   wait recorded=1651ms applied=1651ms
+10:57:37.666 [INFO] Step 4/21 (id=4): click_win
+10:57:37.667 [DEBUG] focus_window ok in 0.1ms hwnd=265388 iconic=False mode=keep rect=(652, 332, 1268, 748)
+10:57:37.770 [INFO]   click_win at (1009,688) rect=(652, 332, 1268, 748)
+10:57:37.771 [INFO] Step 5/21 (id=5): wait
+10:57:37.772 [INFO]   wait recorded=1034ms applied=1034ms
+10:57:38.807 [INFO] Step 6/21 (id=6): click_uia
+10:57:38.810 [DEBUG] focus_window ok in 0.6ms hwnd=1837162 iconic=False mode=keep rect=(1009, 708, 1214, 726)
+10:57:39.271 [DEBUG] hit-test at (1075,712) base type='Pane' name='' class='SunAwtWindow'
+10:57:39.283 [DEBUG] hit-test resolved at hop=0 took=15.8ms
+10:57:39.397 [INFO]   click_uia resolved -> clicked (1075,712) elem_rect=(1009, 708, 1214, 726)
+10:57:39.398 [INFO] Step 7/21 (id=7): wait
+10:57:39.400 [INFO]   wait recorded=1356ms applied=1356ms
+10:57:40.758 [INFO] Step 8/21 (id=8): click_win
+10:57:40.759 [DEBUG] focus_window ok in 0.1ms hwnd=265388 iconic=False mode=keep rect=(652, 332, 1268, 748)
+10:57:40.868 [INFO]   click_win at (804,693) rect=(652, 332, 1268, 748)
+10:57:40.870 [INFO] Step 9/21 (id=9): wait
+10:57:40.871 [INFO]   wait recorded=1223ms applied=1223ms
+10:57:42.105 [INFO] Step 10/21 (id=10): click_win
+10:57:42.107 [DEBUG] focus_window ok in 0.1ms hwnd=265388 iconic=False mode=keep rect=(652, 332, 1268, 748)
+10:57:42.221 [INFO]   click_win at (812,721) rect=(652, 332, 1268, 748)
+10:57:42.224 [INFO] Step 11/21 (id=11): wait
+10:57:42.226 [INFO]   wait recorded=703ms applied=703ms
+10:57:42.931 [INFO] Step 12/21 (id=12): click_win
+10:57:42.935 [DEBUG] focus_window ok in 0.1ms hwnd=265388 iconic=False mode=keep rect=(652, 332, 1268, 748)
+10:57:43.058 [INFO]   click_win at (903,684) rect=(652, 332, 1268, 748)
+10:57:43.059 [INFO] Step 13/21 (id=13): wait
+10:57:43.061 [INFO]   wait recorded=9301ms applied=9301ms
+10:58:00.666 [INFO] DPI awareness: PM
+10:58:00.681 [INFO] Loaded macro steps=21 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+10:58:00.682 [INFO] Step 1/21 (id=1): wait
+10:58:00.683 [INFO]   wait recorded=7772ms applied=7772ms
+10:58:08.458 [INFO] Step 2/21 (id=2): click_win
+10:58:08.466 [DEBUG] focus_window ok in 1.2ms hwnd=265388 iconic=False mode=keep rect=(652, 332, 1268, 748)
+10:58:08.700 [INFO]   click_win at (836,575) rect=(652, 332, 1268, 748)
+10:58:08.703 [INFO] Step 3/21 (id=3): wait
+10:58:08.706 [INFO]   wait recorded=1651ms applied=1651ms
+10:58:10.374 [INFO] Step 4/21 (id=4): click_win
+10:58:10.375 [DEBUG] focus_window ok in 0.1ms hwnd=265388 iconic=False mode=keep rect=(652, 332, 1268, 748)
+10:58:10.497 [INFO]   click_win at (1009,688) rect=(652, 332, 1268, 748)
+10:58:10.515 [INFO] Step 5/21 (id=5): wait
+10:58:10.525 [INFO]   wait recorded=1034ms applied=1034ms
+10:58:11.563 [INFO] Step 6/21 (id=6): click_uia
+10:58:11.566 [DEBUG] focus_window ok in 0.9ms hwnd=1837162 iconic=False mode=keep rect=(1009, 708, 1214, 726)
+10:58:11.946 [DEBUG] hit-test at (1075,712) base type='Pane' name='' class='SunAwtWindow'
+10:58:11.957 [DEBUG] hit-test resolved at hop=0 took=15.7ms
+10:58:12.081 [INFO]   click_uia resolved -> clicked (1075,712) elem_rect=(1009, 708, 1214, 726)
+10:58:12.082 [INFO] Step 7/21 (id=7): wait
+10:58:12.083 [INFO]   wait recorded=1356ms applied=1356ms
+10:58:13.440 [INFO] Step 8/21 (id=8): click_win
+10:58:13.442 [DEBUG] focus_window ok in 0.1ms hwnd=265388 iconic=False mode=keep rect=(652, 332, 1268, 748)
+10:58:13.548 [INFO]   click_win at (804,693) rect=(652, 332, 1268, 748)
+10:58:13.550 [INFO] Step 9/21 (id=9): wait
+10:58:13.551 [INFO]   wait recorded=1223ms applied=1223ms
+10:58:14.776 [INFO] Step 10/21 (id=10): click_win
+10:58:14.777 [DEBUG] focus_window ok in 0.1ms hwnd=265388 iconic=False mode=keep rect=(652, 332, 1268, 748)
+10:58:14.880 [INFO]   click_win at (812,721) rect=(652, 332, 1268, 748)
+10:58:14.883 [INFO] Step 11/21 (id=11): wait
+10:58:14.885 [INFO]   wait recorded=703ms applied=703ms
+10:58:15.589 [INFO] Step 12/21 (id=12): click_win
+10:58:15.590 [DEBUG] focus_window ok in 0.1ms hwnd=265388 iconic=False mode=keep rect=(652, 332, 1268, 748)
+10:58:15.702 [INFO]   click_win at (903,684) rect=(652, 332, 1268, 748)
+10:58:15.703 [INFO] Step 13/21 (id=13): wait
+10:58:15.704 [INFO]   wait recorded=9301ms applied=9301ms
+10:58:25.007 [INFO] Step 14/21 (id=14): wait
+10:58:25.008 [INFO]   wait recorded=488ms applied=488ms
+10:58:25.499 [INFO] Step 15/21 (id=15): wait
+10:58:25.501 [INFO]   wait recorded=1816ms applied=1816ms
+10:58:27.318 [INFO] Step 16/21 (id=16): wait
+10:58:27.320 [INFO]   wait recorded=600ms applied=600ms
+10:58:27.922 [INFO] Step 17/21 (id=17): wait
+10:58:27.923 [INFO]   wait recorded=960ms applied=960ms
+10:58:28.885 [INFO] Step 18/21 (id=18): wait
+10:58:28.886 [INFO]   wait recorded=1120ms applied=1120ms
+10:58:30.007 [INFO] Step 19/21 (id=19): wait
+10:58:30.009 [INFO]   wait recorded=3537ms applied=3537ms
+10:58:33.550 [INFO] Step 20/21 (id=20): type_text
+10:58:33.551 [INFO]   type_text len=14
+10:58:33.684 [INFO] Step 21/21 (id=21): click_win
+10:58:33.688 [DEBUG] focus_window ok in 0.1ms hwnd=265388 iconic=False mode=keep rect=(652, 332, 1268, 748)
+10:58:33.813 [INFO]   click_win at (1161,730) rect=(652, 332, 1268, 748)
+08:20:17.566 [INFO] DPI awareness: PM
+08:20:17.580 [INFO] Loaded macro steps=56 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+08:20:17.581 [INFO] Step 1/56 (id=1): wait
+08:20:17.582 [INFO]   wait recorded=5734ms applied=5734ms
+08:20:23.317 [INFO] Step 2/56 (id=2): click_win
+08:20:23.320 [DEBUG] focus_window ok in 1.8ms hwnd=854786 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:20:23.433 [INFO]   click_win at (817,695) rect=(652, 332, 1268, 748)
+08:20:23.435 [INFO] Step 3/56 (id=3): wait
+08:20:23.437 [INFO]   wait recorded=1001ms applied=1001ms
+08:20:24.439 [INFO] Step 4/56 (id=4): click_win
+08:20:24.441 [DEBUG] focus_window ok in 0.1ms hwnd=854786 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:20:24.550 [INFO]   click_win at (811,726) rect=(652, 332, 1268, 748)
+08:20:24.551 [INFO] Step 5/56 (id=5): wait
+08:20:24.553 [INFO]   wait recorded=704ms applied=704ms
+08:20:25.259 [INFO] Step 6/56 (id=6): click_win
+08:20:25.261 [DEBUG] focus_window ok in 0.1ms hwnd=854786 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:20:25.366 [INFO]   click_win at (882,688) rect=(652, 332, 1268, 748)
+08:20:25.367 [INFO] Step 7/56 (id=7): wait
+08:20:25.368 [INFO]   wait recorded=5571ms applied=5571ms
+08:20:30.940 [INFO] Step 8/56 (id=8): wait
+08:20:30.942 [INFO]   wait recorded=264ms applied=264ms
+08:20:31.209 [INFO] Step 9/56 (id=9): wait
+08:20:31.211 [INFO]   wait recorded=1456ms applied=1456ms
+08:20:32.669 [INFO] Step 10/56 (id=10): type_text
+08:20:32.671 [INFO]   type_text len=14
+08:20:32.787 [INFO] Step 11/56 (id=11): key
+08:20:32.791 [INFO]   key=CTRL+A -> ctrl+a
+08:20:32.894 [INFO] Step 12/56 (id=12): wait
+08:20:32.896 [INFO]   wait recorded=1092ms applied=1092ms
+08:20:33.989 [INFO] Step 13/56 (id=13): wait
+08:20:33.997 [INFO]   wait recorded=424ms applied=424ms
+08:20:34.436 [INFO] Step 14/56 (id=14): wait
+08:20:34.438 [INFO]   wait recorded=488ms applied=488ms
+08:20:34.928 [INFO] Step 15/56 (id=15): wait
+08:20:34.930 [INFO]   wait recorded=1448ms applied=1448ms
+08:20:36.380 [INFO] Step 16/56 (id=16): wait
+08:20:36.383 [INFO]   wait recorded=1388ms applied=1388ms
+08:20:37.774 [INFO] Step 17/56 (id=17): type_text
+08:20:37.775 [INFO]   type_text len=14
+08:20:37.896 [INFO] Step 18/56 (id=18): click_win
+08:20:37.898 [DEBUG] focus_window ok in 0.1ms hwnd=854786 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:20:38.035 [INFO]   click_win at (1170,712) rect=(652, 332, 1268, 748)
+08:20:38.035 [INFO] Step 19/56 (id=19): wait
+08:20:38.036 [INFO]   wait recorded=2260ms applied=2260ms
+08:20:40.298 [INFO] Step 20/56 (id=20): click_win
+08:20:40.299 [DEBUG] focus_window ok in 0.2ms hwnd=527006 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:20:40.411 [INFO]   click_win at (912,383) rect=(448, 166, 1472, 914)
+08:20:40.412 [INFO] Step 21/56 (id=21): wait
+08:20:40.413 [INFO]   wait recorded=599ms applied=599ms
+08:20:41.014 [INFO] Step 22/56 (id=22): click_win
+08:20:41.016 [DEBUG] focus_window ok in 0.1ms hwnd=527006 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:20:41.121 [INFO]   click_win at (912,401) rect=(448, 166, 1472, 914)
+08:20:41.123 [INFO] Step 23/56 (id=23): wait
+08:20:41.124 [INFO]   wait recorded=632ms applied=632ms
+08:20:41.758 [INFO] Step 24/56 (id=24): click_win
+08:20:41.760 [DEBUG] focus_window ok in 0.1ms hwnd=527006 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:20:41.865 [INFO]   click_win at (926,405) rect=(448, 166, 1472, 914)
+08:20:41.866 [INFO] Step 25/56 (id=25): wait
+08:20:41.867 [INFO]   wait recorded=572ms applied=572ms
+08:20:42.441 [INFO] Step 26/56 (id=26): click_win
+08:20:42.443 [DEBUG] focus_window ok in 0.2ms hwnd=527006 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:20:42.548 [INFO]   click_win at (924,425) rect=(448, 166, 1472, 914)
+08:20:42.549 [INFO] Step 27/56 (id=27): wait
+08:20:42.549 [INFO]   wait recorded=304ms applied=304ms
+08:20:42.855 [INFO] Step 28/56 (id=28): click_win
+08:20:42.856 [DEBUG] focus_window ok in 0.1ms hwnd=527006 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:20:42.962 [INFO]   click_win at (938,428) rect=(448, 166, 1472, 914)
+08:20:42.963 [INFO] Step 29/56 (id=29): wait
+08:20:42.965 [INFO]   wait recorded=1443ms applied=1443ms
+08:20:44.410 [INFO] Step 30/56 (id=30): click_win
+08:20:44.412 [DEBUG] focus_window ok in 0.1ms hwnd=527006 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:20:44.517 [INFO]   click_win at (926,479) rect=(448, 166, 1472, 914)
+08:20:44.519 [INFO] Step 31/56 (id=31): wait
+08:20:44.520 [INFO]   wait recorded=743ms applied=743ms
+08:20:45.265 [INFO] Step 32/56 (id=32): click_win
+08:20:45.267 [DEBUG] focus_window ok in 0.1ms hwnd=527006 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:20:45.371 [INFO]   click_win at (883,474) rect=(448, 166, 1472, 914)
+08:20:45.373 [INFO] Step 33/56 (id=33): wait
+08:20:45.375 [INFO]   wait recorded=4701ms applied=4701ms
+08:20:50.077 [INFO] Step 34/56 (id=34): wait
+08:20:50.079 [INFO]   wait recorded=376ms applied=376ms
+08:20:50.458 [INFO] Step 35/56 (id=35): wait
+08:20:50.460 [INFO]   wait recorded=1048ms applied=1048ms
+08:20:51.510 [INFO] Step 36/56 (id=36): type_text
+08:20:51.512 [INFO]   type_text len=4
+08:20:51.623 [INFO] Step 37/56 (id=37): key
+08:20:51.624 [INFO]   key=BACKSPACE -> backspace
+08:20:51.728 [INFO] Step 38/56 (id=38): wait
+08:20:51.729 [INFO]   wait recorded=573ms applied=573ms
+08:20:52.304 [INFO] Step 39/56 (id=39): wait
+08:20:52.307 [INFO]   wait recorded=615ms applied=615ms
+08:20:52.924 [INFO] Step 40/56 (id=40): wait
+08:20:52.926 [INFO]   wait recorded=744ms applied=744ms
+08:20:53.672 [INFO] Step 41/56 (id=41): type_text
+08:20:53.674 [INFO]   type_text len=5
+08:20:53.787 [INFO] Step 42/56 (id=42): key
+08:20:53.789 [INFO]   key=BACKSPACE -> backspace
+08:20:53.892 [INFO] Step 43/56 (id=43): wait
+08:20:53.895 [INFO]   wait recorded=532ms applied=532ms
+08:20:54.429 [INFO] Step 44/56 (id=44): wait
+08:20:54.431 [INFO]   wait recorded=448ms applied=448ms
+08:20:54.881 [INFO] Step 45/56 (id=45): type_text
+08:20:54.883 [INFO]   type_text len=1
+08:20:54.988 [INFO] Step 46/56 (id=46): key
+08:20:54.989 [INFO]   key=TAB -> tab
+08:20:55.095 [INFO] Step 47/56 (id=47): wait
+08:20:55.097 [INFO]   wait recorded=2242ms applied=2242ms
+08:20:57.340 [INFO] Step 48/56 (id=48): wait
+08:20:57.342 [INFO]   wait recorded=1104ms applied=1104ms
+08:20:58.449 [INFO] Step 49/56 (id=49): type_text
+08:20:58.451 [INFO]   type_text len=2
+08:20:58.558 [INFO] Step 50/56 (id=50): key
+08:20:58.560 [INFO]   key=BACKSPACE -> backspace
+08:20:58.665 [INFO] Step 51/56 (id=51): key
+08:20:58.666 [INFO]   key=BACKSPACE -> backspace
+08:20:58.772 [INFO] Step 52/56 (id=52): wait
+08:20:58.773 [INFO]   wait recorded=720ms applied=720ms
+08:20:59.495 [INFO] Step 53/56 (id=53): wait
+08:20:59.498 [INFO]   wait recorded=312ms applied=312ms
+08:20:59.811 [INFO] Step 54/56 (id=54): wait
+08:20:59.813 [INFO]   wait recorded=992ms applied=992ms
+08:21:00.806 [INFO] Step 55/56 (id=55): type_text
+08:21:00.807 [INFO]   type_text len=8
+08:21:00.918 [INFO] Step 56/56 (id=56): click_win
+08:21:00.919 [DEBUG] focus_window ok in 0.1ms hwnd=527006 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:21:01.027 [INFO]   click_win at (925,745) rect=(448, 166, 1472, 914)
+08:38:29.177 [INFO] DPI awareness: PM
+08:38:29.188 [INFO] Loaded macro steps=41 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+08:38:29.189 [INFO] Step 1/41 (id=1): wait
+08:38:29.190 [INFO]   wait recorded=50ms applied=50ms
+08:38:29.241 [INFO] Step 2/41 (id=2): click_win
+08:38:29.243 [DEBUG] focus_window ok in 0.5ms hwnd=854686 iconic=False mode=keep rect=(732, 492, 1188, 587)
+08:38:29.365 [INFO]   click_win at (897,573) rect=(732, 492, 1188, 587)
+08:38:29.371 [INFO] Step 3/41 (id=3): wait
+08:38:29.373 [INFO]   wait recorded=50ms applied=50ms
+08:38:29.424 [INFO] Step 4/41 (id=4): wait
+08:38:29.425 [INFO]   wait recorded=50ms applied=50ms
+08:38:29.476 [INFO] Step 5/41 (id=5): wait
+08:38:29.477 [INFO]   wait recorded=50ms applied=50ms
+08:38:29.529 [INFO] Step 6/41 (id=6): wait
+08:38:29.531 [INFO]   wait recorded=50ms applied=50ms
+08:38:29.585 [INFO] Step 7/41 (id=7): wait
+08:38:29.588 [INFO]   wait recorded=50ms applied=50ms
+08:38:29.639 [INFO] Step 8/41 (id=8): type_text
+08:38:29.640 [INFO]   type_text len=14
+08:38:29.756 [INFO] Step 9/41 (id=9): click_win
+08:38:29.759 [DEBUG] focus_window ok in 1.8ms hwnd=854686 iconic=False mode=keep rect=(732, 492, 1188, 587)
+08:38:29.886 [INFO]   click_win at (1096,581) rect=(732, 492, 1188, 587)
+08:38:29.887 [INFO] Step 10/41 (id=10): wait
+08:38:29.889 [INFO]   wait recorded=50ms applied=50ms
+08:38:29.941 [INFO] Step 11/41 (id=11): click_win
+08:38:29.974 [DEBUG] focus_window ok in 31.7ms hwnd=395340 iconic=True mode=keep rect=(448, 166, 1472, 914)
+08:38:30.082 [INFO]   click_win at (894,377) rect=(448, 166, 1472, 914)
+08:38:30.084 [INFO] Step 12/41 (id=12): wait
+08:38:30.085 [INFO]   wait recorded=50ms applied=50ms
+08:38:30.137 [INFO] Step 13/41 (id=13): click_win
+08:38:30.138 [DEBUG] focus_window ok in 0.0ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:38:30.241 [INFO]   click_win at (903,400) rect=(448, 166, 1472, 914)
+08:38:30.243 [INFO] Step 14/41 (id=14): wait
+08:38:30.244 [INFO]   wait recorded=50ms applied=50ms
+08:38:30.296 [INFO] Step 15/41 (id=15): click_win
+08:38:30.298 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:38:30.401 [INFO]   click_win at (908,402) rect=(448, 166, 1472, 914)
+08:38:30.402 [INFO] Step 16/41 (id=16): wait
+08:38:30.403 [INFO]   wait recorded=50ms applied=50ms
+08:38:30.455 [INFO] Step 17/41 (id=17): click_win
+08:38:30.456 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:38:30.559 [INFO]   click_win at (899,416) rect=(448, 166, 1472, 914)
+08:38:30.561 [INFO] Step 18/41 (id=18): wait
+08:38:30.562 [INFO]   wait recorded=50ms applied=50ms
+08:38:30.614 [INFO] Step 19/41 (id=19): click_win
+08:38:30.616 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:38:30.722 [INFO]   click_win at (907,429) rect=(448, 166, 1472, 914)
+08:38:30.723 [INFO] Step 20/41 (id=20): wait
+08:38:30.725 [INFO]   wait recorded=50ms applied=50ms
+08:38:30.777 [INFO] Step 21/41 (id=21): click_win
+08:38:30.778 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:38:30.883 [INFO]   click_win at (899,485) rect=(448, 166, 1472, 914)
+08:38:30.885 [INFO] Step 22/41 (id=22): wait
+08:38:30.886 [INFO]   wait recorded=50ms applied=50ms
+08:38:30.938 [INFO] Step 23/41 (id=23): click_win
+08:38:30.940 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:38:31.042 [INFO]   click_win at (849,458) rect=(448, 166, 1472, 914)
+08:38:31.044 [INFO] Step 24/41 (id=24): wait
+08:38:31.046 [INFO]   wait recorded=50ms applied=50ms
+08:38:31.099 [INFO] Step 25/41 (id=25): click_win
+08:38:31.100 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:38:31.203 [INFO]   click_win at (839,473) rect=(448, 166, 1472, 914)
+08:38:31.204 [INFO] Step 26/41 (id=26): wait
+08:38:31.206 [INFO]   wait recorded=50ms applied=50ms
+08:38:31.258 [INFO] Step 27/41 (id=27): wait
+08:38:31.259 [INFO]   wait recorded=50ms applied=50ms
+08:38:31.312 [INFO] Step 28/41 (id=28): type_text
+08:38:31.313 [INFO]   type_text len=8
+08:38:31.422 [INFO] Step 29/41 (id=29): key
+08:38:31.424 [INFO]   key=TAB -> tab
+08:38:31.529 [INFO] Step 30/41 (id=30): wait
+08:38:31.531 [INFO]   wait recorded=50ms applied=50ms
+08:38:31.583 [INFO] Step 31/41 (id=31): wait
+08:38:31.584 [INFO]   wait recorded=50ms applied=50ms
+08:38:31.636 [INFO] Step 32/41 (id=32): type_text
+08:38:31.638 [INFO]   type_text len=8
+08:38:31.757 [INFO] Step 33/41 (id=33): click_win
+08:38:31.759 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:38:31.865 [INFO]   click_win at (943,759) rect=(448, 166, 1472, 914)
+08:38:31.867 [INFO] Step 34/41 (id=34): wait
+08:38:31.868 [INFO]   wait recorded=50ms applied=50ms
+08:38:31.920 [INFO] Step 35/41 (id=35): click_win
+08:38:31.923 [DEBUG] focus_window ok in 1.0ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:38:32.032 [INFO]   click_win at (684,605) rect=(448, 166, 1472, 914)
+08:38:32.047 [INFO] Step 36/41 (id=36): wait
+08:38:32.048 [INFO]   wait recorded=50ms applied=50ms
+08:38:32.100 [INFO] Step 37/41 (id=37): click_win
+08:38:32.110 [DEBUG] focus_window ok in 0.4ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:38:32.233 [INFO]   click_win at (1008,763) rect=(448, 166, 1472, 914)
+08:38:32.233 [INFO] Step 38/41 (id=38): wait
+08:38:32.234 [INFO]   wait recorded=50ms applied=50ms
+08:38:32.286 [INFO] Step 39/41 (id=39): key
+08:38:32.286 [INFO]   key=SPACE -> space
+08:38:32.389 [INFO] Step 40/41 (id=40): wait
+08:38:32.389 [INFO]   wait recorded=50ms applied=50ms
+08:38:32.441 [INFO] Step 41/41 (id=41): click_win
+08:38:32.442 [DEBUG] focus_window ok in 0.0ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:38:32.550 [INFO]   click_win at (682,310) rect=(448, 166, 1472, 914)
+08:39:12.607 [INFO] DPI awareness: PM
+08:39:12.615 [INFO] Loaded macro steps=41 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+08:39:12.617 [INFO] Step 1/41 (id=1): wait
+08:39:12.618 [INFO]   wait recorded=150ms applied=150ms
+08:39:12.769 [INFO] Step 2/41 (id=2): click_win
+08:39:12.773 [DEBUG] focus_window ok in 1.6ms hwnd=2165506 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:39:12.902 [INFO]   click_win at (875,687) rect=(652, 332, 1268, 748)
+08:39:12.904 [INFO] Step 3/41 (id=3): wait
+08:39:12.905 [INFO]   wait recorded=150ms applied=150ms
+08:39:13.058 [INFO] Step 4/41 (id=4): wait
+08:39:13.059 [INFO]   wait recorded=150ms applied=150ms
+08:39:13.211 [INFO] Step 5/41 (id=5): wait
+08:39:13.212 [INFO]   wait recorded=150ms applied=150ms
+08:39:13.365 [INFO] Step 6/41 (id=6): wait
+08:39:13.367 [INFO]   wait recorded=150ms applied=150ms
+08:39:13.519 [INFO] Step 7/41 (id=7): wait
+08:39:13.521 [INFO]   wait recorded=150ms applied=150ms
+08:39:13.674 [INFO] Step 8/41 (id=8): type_text
+08:39:13.675 [INFO]   type_text len=14
+08:39:13.813 [INFO] Step 9/41 (id=9): click_win
+08:39:13.817 [DEBUG] focus_window ok in 0.0ms hwnd=2165506 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:39:13.947 [INFO]   click_win at (1145,723) rect=(652, 332, 1268, 748)
+08:39:13.948 [INFO] Step 10/41 (id=10): wait
+08:39:13.949 [INFO]   wait recorded=150ms applied=150ms
+08:39:14.101 [INFO] Step 11/41 (id=11): click_win
+08:39:14.102 [DEBUG] focus_window ok in 0.5ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:39:14.213 [INFO]   click_win at (894,377) rect=(448, 166, 1472, 914)
+08:39:14.213 [INFO] Step 12/41 (id=12): wait
+08:39:14.215 [INFO]   wait recorded=150ms applied=150ms
+08:39:14.367 [INFO] Step 13/41 (id=13): click_win
+08:39:14.368 [DEBUG] focus_window ok in 0.4ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:39:14.481 [INFO]   click_win at (903,400) rect=(448, 166, 1472, 914)
+08:39:14.482 [INFO] Step 14/41 (id=14): wait
+08:39:14.483 [INFO]   wait recorded=150ms applied=150ms
+08:39:14.634 [INFO] Step 15/41 (id=15): click_win
+08:39:14.636 [DEBUG] focus_window ok in 0.3ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:39:14.747 [INFO]   click_win at (908,402) rect=(448, 166, 1472, 914)
+08:39:14.748 [INFO] Step 16/41 (id=16): wait
+08:39:14.749 [INFO]   wait recorded=150ms applied=150ms
+08:39:14.901 [INFO] Step 17/41 (id=17): click_win
+08:39:14.902 [DEBUG] focus_window ok in 0.4ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:39:15.014 [INFO]   click_win at (899,416) rect=(448, 166, 1472, 914)
+08:39:15.021 [INFO] Step 18/41 (id=18): wait
+08:39:15.037 [INFO]   wait recorded=150ms applied=150ms
+08:39:15.192 [INFO] Step 19/41 (id=19): click_win
+08:39:15.193 [DEBUG] focus_window ok in 0.4ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:39:15.297 [INFO]   click_win at (907,429) rect=(448, 166, 1472, 914)
+08:39:15.298 [INFO] Step 20/41 (id=20): wait
+08:39:15.299 [INFO]   wait recorded=150ms applied=150ms
+08:39:15.451 [INFO] Step 21/41 (id=21): click_win
+08:39:15.453 [DEBUG] focus_window ok in 1.0ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:39:15.581 [INFO]   click_win at (899,485) rect=(448, 166, 1472, 914)
+08:39:15.582 [INFO] Step 22/41 (id=22): wait
+08:39:15.583 [INFO]   wait recorded=150ms applied=150ms
+08:39:15.735 [INFO] Step 23/41 (id=23): click_win
+08:39:15.736 [DEBUG] focus_window ok in 0.4ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:39:15.847 [INFO]   click_win at (849,458) rect=(448, 166, 1472, 914)
+08:39:15.848 [INFO] Step 24/41 (id=24): wait
+08:39:15.849 [INFO]   wait recorded=150ms applied=150ms
+08:39:16.000 [INFO] Step 25/41 (id=25): click_win
+08:39:16.019 [DEBUG] focus_window ok in 0.4ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:39:16.148 [INFO]   click_win at (839,473) rect=(448, 166, 1472, 914)
+08:39:16.149 [INFO] Step 26/41 (id=26): wait
+08:39:16.150 [INFO]   wait recorded=150ms applied=150ms
+08:39:16.301 [INFO] Step 27/41 (id=27): wait
+08:39:16.303 [INFO]   wait recorded=150ms applied=150ms
+08:39:16.455 [INFO] Step 28/41 (id=28): type_text
+08:39:16.456 [INFO]   type_text len=8
+08:39:16.564 [INFO] Step 29/41 (id=29): key
+08:39:16.565 [INFO]   key=TAB -> tab
+08:39:16.667 [INFO] Step 30/41 (id=30): wait
+08:39:16.668 [INFO]   wait recorded=150ms applied=150ms
+08:39:16.821 [INFO] Step 31/41 (id=31): wait
+08:39:16.822 [INFO]   wait recorded=150ms applied=150ms
+08:39:16.974 [INFO] Step 32/41 (id=32): type_text
+08:39:16.975 [INFO]   type_text len=8
+08:39:17.084 [INFO] Step 33/41 (id=33): click_win
+08:39:17.086 [DEBUG] focus_window ok in 0.5ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:39:17.200 [INFO]   click_win at (943,759) rect=(448, 166, 1472, 914)
+08:39:17.201 [INFO] Step 34/41 (id=34): wait
+08:39:17.202 [INFO]   wait recorded=150ms applied=150ms
+08:39:17.353 [INFO] Step 35/41 (id=35): click_win
+08:39:17.360 [DEBUG] focus_window ok in 0.5ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:39:17.481 [INFO]   click_win at (684,605) rect=(448, 166, 1472, 914)
+08:39:17.482 [INFO] Step 36/41 (id=36): wait
+08:39:17.482 [INFO]   wait recorded=150ms applied=150ms
+08:39:17.634 [INFO] Step 37/41 (id=37): click_win
+08:39:17.637 [DEBUG] focus_window ok in 1.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:39:17.748 [INFO]   click_win at (1008,763) rect=(448, 166, 1472, 914)
+08:39:17.754 [INFO] Step 38/41 (id=38): wait
+08:39:17.763 [INFO]   wait recorded=150ms applied=150ms
+08:39:17.930 [INFO] Step 39/41 (id=39): key
+08:39:17.930 [INFO]   key=SPACE -> space
+08:39:18.033 [INFO] Step 40/41 (id=40): wait
+08:39:18.034 [INFO]   wait recorded=150ms applied=150ms
+08:39:18.186 [INFO] Step 41/41 (id=41): click_win
+08:39:18.187 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:39:18.300 [INFO]   click_win at (682,310) rect=(448, 166, 1472, 914)
+08:40:13.567 [INFO] DPI awareness: PM
+08:40:13.579 [INFO] Loaded macro steps=37 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+08:40:13.580 [INFO] Step 1/37 (id=1): wait
+08:40:13.580 [INFO]   wait recorded=150ms applied=150ms
+08:40:13.732 [INFO] Step 2/37 (id=2): click_win
+08:40:13.736 [DEBUG] focus_window ok in 2.0ms hwnd=723808 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:40:13.855 [INFO]   click_win at (875,687) rect=(652, 332, 1268, 748)
+08:40:13.857 [INFO] Step 3/37 (id=8): type_text
+08:40:13.858 [INFO]   type_text len=14
+08:40:13.975 [INFO] Step 4/37 (id=10): wait
+08:40:13.976 [INFO]   wait recorded=150ms applied=150ms
+08:40:14.128 [INFO] Step 5/37 (id=9): click_win
+08:40:14.129 [DEBUG] focus_window ok in 0.1ms hwnd=723808 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:40:14.248 [INFO]   click_win at (1145,723) rect=(652, 332, 1268, 748)
+08:40:14.252 [INFO] Step 6/37 (id=10): wait
+08:40:14.267 [INFO]   wait recorded=150ms applied=150ms
+08:40:14.433 [INFO] Step 7/37 (id=11): click_win
+08:40:14.434 [DEBUG] focus_window ok in 0.4ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:14.548 [INFO]   click_win at (894,377) rect=(448, 166, 1472, 914)
+08:40:14.557 [INFO] Step 8/37 (id=12): wait
+08:40:14.559 [INFO]   wait recorded=150ms applied=150ms
+08:40:14.710 [INFO] Step 9/37 (id=13): click_win
+08:40:14.715 [DEBUG] focus_window ok in 0.7ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:14.832 [INFO]   click_win at (903,400) rect=(448, 166, 1472, 914)
+08:40:14.843 [INFO] Step 10/37 (id=14): wait
+08:40:14.855 [INFO]   wait recorded=150ms applied=150ms
+08:40:15.007 [INFO] Step 11/37 (id=15): click_win
+08:40:15.008 [DEBUG] focus_window ok in 0.4ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:15.114 [INFO]   click_win at (908,402) rect=(448, 166, 1472, 914)
+08:40:15.115 [INFO] Step 12/37 (id=16): wait
+08:40:15.116 [INFO]   wait recorded=150ms applied=150ms
+08:40:15.267 [INFO] Step 13/37 (id=17): click_win
+08:40:15.277 [DEBUG] focus_window ok in 0.5ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:15.397 [INFO]   click_win at (899,416) rect=(448, 166, 1472, 914)
+08:40:15.398 [INFO] Step 14/37 (id=18): wait
+08:40:15.399 [INFO]   wait recorded=150ms applied=150ms
+08:40:15.551 [INFO] Step 15/37 (id=19): click_win
+08:40:15.553 [DEBUG] focus_window ok in 0.4ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:15.664 [INFO]   click_win at (907,429) rect=(448, 166, 1472, 914)
+08:40:15.676 [INFO] Step 16/37 (id=20): wait
+08:40:15.677 [INFO]   wait recorded=150ms applied=150ms
+08:40:15.829 [INFO] Step 17/37 (id=21): click_win
+08:40:15.830 [DEBUG] focus_window ok in 0.4ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:15.948 [INFO]   click_win at (899,485) rect=(448, 166, 1472, 914)
+08:40:15.949 [INFO] Step 18/37 (id=22): wait
+08:40:15.949 [INFO]   wait recorded=150ms applied=150ms
+08:40:16.101 [INFO] Step 19/37 (id=23): click_win
+08:40:16.102 [DEBUG] focus_window ok in 0.4ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:16.204 [INFO]   click_win at (849,458) rect=(448, 166, 1472, 914)
+08:40:16.207 [INFO] Step 20/37 (id=24): wait
+08:40:16.213 [INFO]   wait recorded=150ms applied=150ms
+08:40:16.365 [INFO] Step 21/37 (id=25): click_win
+08:40:16.366 [DEBUG] focus_window ok in 0.5ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:16.480 [INFO]   click_win at (839,473) rect=(448, 166, 1472, 914)
+08:40:16.488 [INFO] Step 22/37 (id=26): wait
+08:40:16.491 [INFO]   wait recorded=150ms applied=150ms
+08:40:16.643 [INFO] Step 23/37 (id=27): wait
+08:40:16.649 [INFO]   wait recorded=150ms applied=150ms
+08:40:16.801 [INFO] Step 24/37 (id=28): type_text
+08:40:16.803 [INFO]   type_text len=8
+08:40:16.914 [INFO] Step 25/37 (id=29): key
+08:40:16.916 [INFO]   key=TAB -> tab
+08:40:17.022 [INFO] Step 26/37 (id=30): wait
+08:40:17.024 [INFO]   wait recorded=150ms applied=150ms
+08:40:17.176 [INFO] Step 27/37 (id=31): wait
+08:40:17.178 [INFO]   wait recorded=150ms applied=150ms
+08:40:17.330 [INFO] Step 28/37 (id=32): type_text
+08:40:17.332 [INFO]   type_text len=8
+08:40:17.452 [INFO] Step 29/37 (id=33): click_win
+08:40:17.455 [DEBUG] focus_window ok in 1.0ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:17.565 [INFO]   click_win at (943,759) rect=(448, 166, 1472, 914)
+08:40:17.571 [INFO] Step 30/37 (id=34): wait
+08:40:17.576 [INFO]   wait recorded=150ms applied=150ms
+08:40:17.728 [INFO] Step 31/37 (id=35): click_win
+08:40:17.730 [DEBUG] focus_window ok in 0.7ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:17.848 [INFO]   click_win at (684,605) rect=(448, 166, 1472, 914)
+08:40:17.849 [INFO] Step 32/37 (id=36): wait
+08:40:17.851 [INFO]   wait recorded=150ms applied=150ms
+08:40:18.003 [INFO] Step 33/37 (id=37): click_win
+08:40:18.005 [DEBUG] focus_window ok in 0.7ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:18.114 [INFO]   click_win at (1008,763) rect=(448, 166, 1472, 914)
+08:40:18.115 [INFO] Step 34/37 (id=38): wait
+08:40:18.115 [INFO]   wait recorded=150ms applied=150ms
+08:40:18.267 [INFO] Step 35/37 (id=39): key
+08:40:18.268 [INFO]   key=SPACE -> space
+08:40:18.370 [INFO] Step 36/37 (id=40): wait
+08:40:18.372 [INFO]   wait recorded=150ms applied=150ms
+08:40:18.524 [INFO] Step 37/37 (id=41): click_win
+08:40:18.525 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:18.631 [INFO]   click_win at (682,310) rect=(448, 166, 1472, 914)
+08:40:35.176 [INFO] DPI awareness: PM
+08:40:35.187 [INFO] Loaded macro steps=37 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+08:40:35.188 [INFO] Step 1/37 (id=1): wait
+08:40:35.189 [INFO]   wait recorded=150ms applied=150ms
+08:40:35.340 [INFO] Step 2/37 (id=2): click_win
+08:40:35.344 [DEBUG] focus_window ok in 2.0ms hwnd=199316 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:40:35.468 [INFO]   click_win at (875,687) rect=(652, 332, 1268, 748)
+08:40:35.470 [INFO] Step 3/37 (id=8): type_text
+08:40:35.472 [INFO]   type_text len=14
+08:40:35.594 [INFO] Step 4/37 (id=10): wait
+08:40:35.595 [INFO]   wait recorded=150ms applied=150ms
+08:40:35.746 [INFO] Step 5/37 (id=9): click_win
+08:40:35.754 [DEBUG] focus_window ok in 0.0ms hwnd=199316 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:40:35.864 [INFO]   click_win at (1145,723) rect=(652, 332, 1268, 748)
+08:40:35.866 [INFO] Step 6/37 (id=10): wait
+08:40:35.867 [INFO]   wait recorded=150ms applied=150ms
+08:40:36.018 [INFO] Step 7/37 (id=11): click_win
+08:40:36.019 [DEBUG] focus_window ok in 0.5ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:36.131 [INFO]   click_win at (894,377) rect=(448, 166, 1472, 914)
+08:40:36.132 [INFO] Step 8/37 (id=12): wait
+08:40:36.132 [INFO]   wait recorded=150ms applied=150ms
+08:40:36.284 [INFO] Step 9/37 (id=13): click_win
+08:40:36.285 [DEBUG] focus_window ok in 0.6ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:36.397 [INFO]   click_win at (903,400) rect=(448, 166, 1472, 914)
+08:40:36.397 [INFO] Step 10/37 (id=14): wait
+08:40:36.412 [INFO]   wait recorded=150ms applied=150ms
+08:40:36.578 [INFO] Step 11/37 (id=15): click_win
+08:40:36.579 [DEBUG] focus_window ok in 0.5ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:36.696 [INFO]   click_win at (908,402) rect=(448, 166, 1472, 914)
+08:40:36.698 [INFO] Step 12/37 (id=16): wait
+08:40:36.699 [INFO]   wait recorded=150ms applied=150ms
+08:40:36.850 [INFO] Step 13/37 (id=17): click_win
+08:40:36.851 [DEBUG] focus_window ok in 0.4ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:36.963 [INFO]   click_win at (899,416) rect=(448, 166, 1472, 914)
+08:40:36.964 [INFO] Step 14/37 (id=18): wait
+08:40:36.965 [INFO]   wait recorded=150ms applied=150ms
+08:40:37.117 [INFO] Step 15/37 (id=19): click_win
+08:40:37.118 [DEBUG] focus_window ok in 0.5ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:37.231 [INFO]   click_win at (907,429) rect=(448, 166, 1472, 914)
+08:40:37.231 [INFO] Step 16/37 (id=20): wait
+08:40:37.233 [INFO]   wait recorded=150ms applied=150ms
+08:40:37.385 [INFO] Step 17/37 (id=21): click_win
+08:40:37.386 [DEBUG] focus_window ok in 0.7ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:37.497 [INFO]   click_win at (899,485) rect=(448, 166, 1472, 914)
+08:40:37.498 [INFO] Step 18/37 (id=22): wait
+08:40:37.499 [INFO]   wait recorded=150ms applied=150ms
+08:40:37.651 [INFO] Step 19/37 (id=23): click_win
+08:40:37.665 [DEBUG] focus_window ok in 1.0ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:37.767 [INFO]   click_win at (849,458) rect=(448, 166, 1472, 914)
+08:40:37.768 [INFO] Step 20/37 (id=24): wait
+08:40:37.770 [INFO]   wait recorded=150ms applied=150ms
+08:40:37.921 [INFO] Step 21/37 (id=25): click_win
+08:40:37.923 [DEBUG] focus_window ok in 0.9ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:38.031 [INFO]   click_win at (839,473) rect=(448, 166, 1472, 914)
+08:40:38.032 [INFO] Step 22/37 (id=26): wait
+08:40:38.033 [INFO]   wait recorded=150ms applied=150ms
+08:40:38.184 [INFO] Step 23/37 (id=27): wait
+08:40:38.184 [INFO]   wait recorded=150ms applied=150ms
+08:40:38.336 [INFO] Step 24/37 (id=28): type_text
+08:40:38.337 [INFO]   type_text len=8
+08:40:38.444 [INFO] Step 25/37 (id=29): key
+08:40:38.445 [INFO]   key=TAB -> tab
+08:40:38.548 [INFO] Step 26/37 (id=30): wait
+08:40:38.550 [INFO]   wait recorded=150ms applied=150ms
+08:40:38.702 [INFO] Step 27/37 (id=31): wait
+08:40:38.703 [INFO]   wait recorded=150ms applied=150ms
+08:40:38.855 [INFO] Step 28/37 (id=32): type_text
+08:40:38.857 [INFO]   type_text len=8
+08:40:38.968 [INFO] Step 29/37 (id=33): click_win
+08:40:38.971 [DEBUG] focus_window ok in 1.3ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:39.082 [INFO]   click_win at (943,759) rect=(448, 166, 1472, 914)
+08:40:39.086 [INFO] Step 30/37 (id=34): wait
+08:40:39.090 [INFO]   wait recorded=150ms applied=150ms
+08:40:39.242 [INFO] Step 31/37 (id=35): click_win
+08:40:39.243 [DEBUG] focus_window ok in 0.5ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:39.347 [INFO]   click_win at (684,605) rect=(448, 166, 1472, 914)
+08:40:39.348 [INFO] Step 32/37 (id=36): wait
+08:40:39.349 [INFO]   wait recorded=150ms applied=150ms
+08:40:39.500 [INFO] Step 33/37 (id=37): click_win
+08:40:39.501 [DEBUG] focus_window ok in 0.3ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:39.614 [INFO]   click_win at (1008,763) rect=(448, 166, 1472, 914)
+08:40:39.615 [INFO] Step 34/37 (id=38): wait
+08:40:39.616 [INFO]   wait recorded=150ms applied=150ms
+08:40:39.768 [INFO] Step 35/37 (id=39): key
+08:40:39.769 [INFO]   key=SPACE -> space
+08:40:39.871 [INFO] Step 36/37 (id=40): wait
+08:40:39.873 [INFO]   wait recorded=150ms applied=150ms
+08:40:40.025 [INFO] Step 37/37 (id=41): click_win
+08:40:40.028 [DEBUG] focus_window ok in 1.2ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:40:40.149 [INFO]   click_win at (682,310) rect=(448, 166, 1472, 914)
+08:42:44.939 [INFO] DPI awareness: PM
+08:44:18.157 [INFO] DPI awareness: PM
+08:44:18.167 [INFO] Loaded macro steps=40 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+08:44:18.168 [INFO] Step 1/40 (id=1): wait
+08:44:18.168 [INFO]   wait recorded=150ms applied=150ms
+08:44:18.320 [INFO] Step 2/40 (id=2): click_win
+08:44:18.323 [DEBUG] focus_window ok in 1.1ms hwnd=592374 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:44:18.433 [INFO]   click_win at (875,687) rect=(652, 332, 1268, 748)
+08:44:18.435 [INFO] Step 3/40 (id=4): key
+08:44:18.436 [INFO]   key=CTRL+A -> ctrl+a
+08:44:18.545 [INFO] Step 4/40 (id=5): wait
+08:44:18.547 [INFO]   wait recorded=150ms applied=150ms
+08:44:18.701 [INFO] Step 5/40 (id=6): key
+08:44:18.702 [INFO]   key=DELETE -> delete
+08:44:18.805 [INFO] Step 6/40 (id=8): type_text
+08:44:18.806 [INFO]   type_text len=14
+08:44:18.939 [INFO] Step 7/40 (id=10): wait
+08:44:18.940 [INFO]   wait recorded=150ms applied=150ms
+08:44:19.093 [INFO] Step 8/40 (id=9): click_win
+08:44:19.095 [DEBUG] focus_window ok in 0.1ms hwnd=592374 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:44:19.216 [INFO]   click_win at (1145,723) rect=(652, 332, 1268, 748)
+08:44:19.217 [INFO] Step 9/40 (id=10): wait
+08:44:19.218 [INFO]   wait recorded=150ms applied=150ms
+08:44:19.370 [INFO] Step 10/40 (id=11): click_win
+08:44:19.373 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:44:19.480 [INFO]   click_win at (894,377) rect=(448, 166, 1472, 914)
+08:44:19.481 [INFO] Step 11/40 (id=12): wait
+08:44:19.485 [INFO]   wait recorded=150ms applied=150ms
+08:44:19.637 [INFO] Step 12/40 (id=13): click_win
+08:44:19.638 [DEBUG] focus_window ok in 0.0ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:44:19.743 [INFO]   click_win at (903,400) rect=(448, 166, 1472, 914)
+08:44:19.744 [INFO] Step 13/40 (id=14): wait
+08:44:19.745 [INFO]   wait recorded=150ms applied=150ms
+08:44:19.897 [INFO] Step 14/40 (id=15): click_win
+08:44:19.899 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:44:20.003 [INFO]   click_win at (908,402) rect=(448, 166, 1472, 914)
+08:44:20.006 [INFO] Step 15/40 (id=16): wait
+08:44:20.009 [INFO]   wait recorded=150ms applied=150ms
+08:44:20.163 [INFO] Step 16/40 (id=17): click_win
+08:44:20.165 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:44:20.271 [INFO]   click_win at (899,416) rect=(448, 166, 1472, 914)
+08:44:20.272 [INFO] Step 17/40 (id=18): wait
+08:44:20.276 [INFO]   wait recorded=150ms applied=150ms
+08:44:20.430 [INFO] Step 18/40 (id=19): click_win
+08:44:20.436 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:44:20.541 [INFO]   click_win at (907,429) rect=(448, 166, 1472, 914)
+08:44:20.543 [INFO] Step 19/40 (id=20): wait
+08:44:20.547 [INFO]   wait recorded=150ms applied=150ms
+08:44:20.701 [INFO] Step 20/40 (id=21): click_win
+08:44:20.702 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:44:20.809 [INFO]   click_win at (899,485) rect=(448, 166, 1472, 914)
+08:44:20.811 [INFO] Step 21/40 (id=22): wait
+08:44:20.813 [INFO]   wait recorded=150ms applied=150ms
+08:44:20.966 [INFO] Step 22/40 (id=23): click_win
+08:44:20.968 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:44:21.074 [INFO]   click_win at (849,458) rect=(448, 166, 1472, 914)
+08:44:21.075 [INFO] Step 23/40 (id=24): wait
+08:44:21.077 [INFO]   wait recorded=150ms applied=150ms
+08:44:21.230 [INFO] Step 24/40 (id=25): click_win
+08:44:21.232 [DEBUG] focus_window ok in 0.2ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:44:21.338 [INFO]   click_win at (839,473) rect=(448, 166, 1472, 914)
+08:44:21.339 [INFO] Step 25/40 (id=26): wait
+08:44:21.342 [INFO]   wait recorded=150ms applied=150ms
+08:44:21.494 [INFO] Step 26/40 (id=27): wait
+08:44:21.496 [INFO]   wait recorded=150ms applied=150ms
+08:44:21.651 [INFO] Step 27/40 (id=28): type_text
+08:44:21.652 [INFO]   type_text len=8
+08:44:21.771 [INFO] Step 28/40 (id=29): key
+08:44:21.772 [INFO]   key=TAB -> tab
+08:44:21.878 [INFO] Step 29/40 (id=30): wait
+08:44:21.880 [INFO]   wait recorded=150ms applied=150ms
+08:44:22.032 [INFO] Step 30/40 (id=31): wait
+08:44:22.034 [INFO]   wait recorded=150ms applied=150ms
+08:44:22.188 [INFO] Step 31/40 (id=32): type_text
+08:44:22.189 [INFO]   type_text len=8
+08:44:22.299 [INFO] Step 32/40 (id=33): click_win
+08:44:22.300 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:44:22.415 [INFO]   click_win at (943,759) rect=(448, 166, 1472, 914)
+08:44:22.416 [INFO] Step 33/40 (id=34): wait
+08:44:22.418 [INFO]   wait recorded=150ms applied=150ms
+08:44:22.571 [INFO] Step 34/40 (id=35): click_win
+08:44:22.573 [DEBUG] focus_window ok in 1.6ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:44:22.681 [INFO]   click_win at (684,605) rect=(448, 166, 1472, 914)
+08:44:22.683 [INFO] Step 35/40 (id=36): wait
+08:44:22.699 [INFO]   wait recorded=150ms applied=150ms
+08:44:22.852 [INFO] Step 36/40 (id=37): click_win
+08:44:22.852 [DEBUG] focus_window ok in 0.5ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:44:22.963 [INFO]   click_win at (1008,763) rect=(448, 166, 1472, 914)
+08:44:22.963 [INFO] Step 37/40 (id=38): wait
+08:44:22.965 [INFO]   wait recorded=150ms applied=150ms
+08:44:23.116 [INFO] Step 38/40 (id=39): key
+08:44:23.119 [INFO]   key=SPACE -> space
+08:44:23.222 [INFO] Step 39/40 (id=40): wait
+08:44:23.223 [INFO]   wait recorded=150ms applied=150ms
+08:44:23.376 [INFO] Step 40/40 (id=41): click_win
+08:44:23.377 [DEBUG] focus_window ok in 0.2ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:44:23.499 [INFO]   click_win at (682,310) rect=(448, 166, 1472, 914)
+08:48:51.394 [INFO] DPI awareness: PM
+08:48:51.404 [INFO] Loaded macro steps=41 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+08:48:51.405 [INFO] Step 1/41 (id=1): wait
+08:48:51.407 [INFO]   wait recorded=150ms applied=150ms
+08:48:51.559 [INFO] Step 2/41 (id=2): click_win
+08:48:51.561 [DEBUG] focus_window ok in 1.2ms hwnd=3148328 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:48:51.685 [INFO]   click_win at (875,687) rect=(652, 332, 1268, 748)
+08:48:51.687 [INFO] Step 3/41 (id=4): key
+08:48:51.688 [INFO]   key=CTRL+A -> ctrl+a
+08:48:51.796 [INFO] Step 4/41 (id=5): wait
+08:48:51.797 [INFO]   wait recorded=150ms applied=150ms
+08:48:51.951 [INFO] Step 5/41 (id=6): key
+08:48:51.952 [INFO]   key=DELETE -> delete
+08:48:52.056 [INFO] Step 6/41 (id=8): type_text
+08:48:52.058 [INFO]   type_text len=14
+08:48:52.192 [INFO] Step 7/41 (id=10): wait
+08:48:52.194 [INFO]   wait recorded=150ms applied=150ms
+08:48:52.348 [INFO] Step 8/41 (id=9): click_win
+08:48:52.350 [DEBUG] focus_window ok in 0.1ms hwnd=3148328 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:48:52.465 [INFO]   click_win at (1145,723) rect=(652, 332, 1268, 748)
+08:48:52.467 [INFO] Step 9/41 (id=10): wait
+08:48:52.468 [INFO]   wait recorded=150ms applied=150ms
+08:48:52.619 [INFO] Step 10/41 (id=11): click_win
+08:48:52.621 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:48:52.732 [INFO]   click_win at (894,377) rect=(448, 166, 1472, 914)
+08:48:52.733 [INFO] Step 11/41 (id=12): wait
+08:48:52.737 [INFO]   wait recorded=150ms applied=150ms
+08:48:52.893 [INFO] Step 12/41 (id=13): click_win
+08:48:52.895 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:48:53.000 [INFO]   click_win at (903,400) rect=(448, 166, 1472, 914)
+08:48:53.001 [INFO] Step 13/41 (id=14): wait
+08:48:53.002 [INFO]   wait recorded=150ms applied=150ms
+08:48:53.154 [INFO] Step 14/41 (id=15): click_win
+08:48:53.156 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:48:53.266 [INFO]   click_win at (908,402) rect=(448, 166, 1472, 914)
+08:48:53.267 [INFO] Step 15/41 (id=16): wait
+08:48:53.268 [INFO]   wait recorded=150ms applied=150ms
+08:48:53.420 [INFO] Step 16/41 (id=17): click_win
+08:48:53.422 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:48:53.525 [INFO]   click_win at (899,416) rect=(448, 166, 1472, 914)
+08:48:53.526 [INFO] Step 17/41 (id=18): wait
+08:48:53.531 [INFO]   wait recorded=150ms applied=150ms
+08:48:53.683 [INFO] Step 18/41 (id=19): click_win
+08:48:53.684 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:48:53.788 [INFO]   click_win at (907,429) rect=(448, 166, 1472, 914)
+08:48:53.789 [INFO] Step 19/41 (id=20): wait
+08:48:53.791 [INFO]   wait recorded=150ms applied=150ms
+08:48:53.943 [INFO] Step 20/41 (id=21): click_win
+08:48:53.945 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:48:54.053 [INFO]   click_win at (899,485) rect=(448, 166, 1472, 914)
+08:48:54.055 [INFO] Step 21/41 (id=22): wait
+08:48:54.057 [INFO]   wait recorded=150ms applied=150ms
+08:48:54.209 [INFO] Step 22/41 (id=23): click_win
+08:48:54.210 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:48:54.316 [INFO]   click_win at (849,458) rect=(448, 166, 1472, 914)
+08:48:54.318 [INFO] Step 23/41 (id=24): wait
+08:48:54.322 [INFO]   wait recorded=150ms applied=150ms
+08:48:54.477 [INFO] Step 24/41 (id=25): click_win
+08:48:54.479 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:48:54.583 [INFO]   click_win at (839,473) rect=(448, 166, 1472, 914)
+08:48:54.585 [INFO] Step 25/41 (id=26): wait
+08:48:54.587 [INFO]   wait recorded=150ms applied=150ms
+08:48:54.740 [INFO] Step 26/41 (id=27): wait
+08:48:54.741 [INFO]   wait recorded=150ms applied=150ms
+08:48:54.894 [INFO] Step 27/41 (id=28): type_text
+08:48:54.895 [INFO]   type_text len=8
+08:48:55.010 [INFO] Step 28/41 (id=29): key
+08:48:55.011 [INFO]   key=TAB -> tab
+08:48:55.117 [INFO] Step 29/41 (id=30): wait
+08:48:55.118 [INFO]   wait recorded=150ms applied=150ms
+08:48:55.271 [INFO] Step 30/41 (id=31): wait
+08:48:55.272 [INFO]   wait recorded=150ms applied=150ms
+08:48:55.425 [INFO] Step 31/41 (id=32): type_text
+08:48:55.427 [INFO]   type_text len=8
+08:48:55.549 [INFO] Step 32/41 (id=39): key
+08:48:55.550 [INFO]   key=SPACE -> space
+08:48:55.657 [INFO] Step 33/41 (id=33): click_win
+08:48:55.657 [DEBUG] focus_window ok in 0.0ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:48:55.763 [INFO]   click_win at (943,759) rect=(448, 166, 1472, 914)
+08:48:55.764 [INFO] Step 34/41 (id=34): wait
+08:48:55.764 [INFO]   wait recorded=150ms applied=150ms
+08:48:55.917 [INFO] Step 35/41 (id=35): click_win
+08:48:55.920 [DEBUG] focus_window ok in 1.8ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:48:56.034 [INFO]   click_win at (684,605) rect=(448, 166, 1472, 914)
+08:48:56.035 [INFO] Step 36/41 (id=36): wait
+08:48:56.036 [INFO]   wait recorded=150ms applied=150ms
+08:48:56.188 [INFO] Step 37/41 (id=37): click_win
+08:48:56.189 [DEBUG] focus_window ok in 0.9ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:48:56.297 [INFO]   click_win at (1008,763) rect=(448, 166, 1472, 914)
+08:48:56.298 [INFO] Step 38/41 (id=38): wait
+08:48:56.299 [INFO]   wait recorded=150ms applied=150ms
+08:48:56.451 [INFO] Step 39/41 (id=39): key
+08:48:56.454 [INFO]   key=SPACE -> space
+08:48:56.600 [INFO] Step 40/41 (id=40): wait
+08:48:56.601 [INFO]   wait recorded=150ms applied=150ms
+08:48:56.753 [INFO] Step 41/41 (id=41): click_win
+08:48:56.754 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:48:56.866 [INFO]   click_win at (682,310) rect=(448, 166, 1472, 914)
+08:49:37.145 [INFO] DPI awareness: PM
+08:49:37.155 [INFO] Loaded macro steps=41 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+08:49:37.156 [INFO] Step 1/41 (id=1): wait
+08:49:37.156 [INFO]   wait recorded=150ms applied=150ms
+08:49:37.308 [INFO] Step 2/41 (id=2): click_win
+08:49:37.312 [DEBUG] focus_window ok in 2.2ms hwnd=789172 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:49:37.450 [INFO]   click_win at (875,687) rect=(652, 332, 1268, 748)
+08:49:37.451 [INFO] Step 3/41 (id=4): key
+08:49:37.453 [INFO]   key=CTRL+A -> ctrl+a
+08:49:37.560 [INFO] Step 4/41 (id=5): wait
+08:49:37.561 [INFO]   wait recorded=150ms applied=150ms
+08:49:37.712 [INFO] Step 5/41 (id=6): key
+08:49:37.714 [INFO]   key=DELETE -> delete
+08:49:37.818 [INFO] Step 6/41 (id=8): type_text
+08:49:37.820 [INFO]   type_text len=14
+08:49:37.953 [INFO] Step 7/41 (id=10): wait
+08:49:37.955 [INFO]   wait recorded=150ms applied=150ms
+08:49:38.106 [INFO] Step 8/41 (id=9): click_win
+08:49:38.107 [DEBUG] focus_window ok in 0.1ms hwnd=789172 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:49:38.215 [INFO]   click_win at (1145,723) rect=(652, 332, 1268, 748)
+08:49:38.216 [INFO] Step 9/41 (id=10): wait
+08:49:38.216 [INFO]   wait recorded=150ms applied=150ms
+08:49:38.368 [INFO] Step 10/41 (id=11): click_win
+08:49:38.370 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:49:38.481 [INFO]   click_win at (894,377) rect=(448, 166, 1472, 914)
+08:49:38.485 [INFO] Step 11/41 (id=12): wait
+08:49:38.487 [INFO]   wait recorded=150ms applied=150ms
+08:49:38.639 [INFO] Step 12/41 (id=13): click_win
+08:49:38.640 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:49:38.750 [INFO]   click_win at (903,400) rect=(448, 166, 1472, 914)
+08:49:38.751 [INFO] Step 13/41 (id=14): wait
+08:49:38.752 [INFO]   wait recorded=150ms applied=150ms
+08:49:38.904 [INFO] Step 14/41 (id=15): click_win
+08:49:38.905 [DEBUG] focus_window ok in 0.0ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:49:39.009 [INFO]   click_win at (908,402) rect=(448, 166, 1472, 914)
+08:49:39.010 [INFO] Step 15/41 (id=16): wait
+08:49:39.013 [INFO]   wait recorded=150ms applied=150ms
+08:49:39.166 [INFO] Step 16/41 (id=17): click_win
+08:49:39.168 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:49:39.272 [INFO]   click_win at (899,416) rect=(448, 166, 1472, 914)
+08:49:39.273 [INFO] Step 17/41 (id=18): wait
+08:49:39.274 [INFO]   wait recorded=150ms applied=150ms
+08:49:39.427 [INFO] Step 18/41 (id=19): click_win
+08:49:39.429 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:49:39.534 [INFO]   click_win at (907,429) rect=(448, 166, 1472, 914)
+08:49:39.535 [INFO] Step 19/41 (id=20): wait
+08:49:39.536 [INFO]   wait recorded=150ms applied=150ms
+08:49:39.689 [INFO] Step 20/41 (id=21): click_win
+08:49:39.690 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:49:39.794 [INFO]   click_win at (899,485) rect=(448, 166, 1472, 914)
+08:49:39.797 [INFO] Step 21/41 (id=22): wait
+08:49:39.801 [INFO]   wait recorded=150ms applied=150ms
+08:49:39.955 [INFO] Step 22/41 (id=23): click_win
+08:49:39.957 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:49:40.059 [INFO]   click_win at (849,458) rect=(448, 166, 1472, 914)
+08:49:40.059 [INFO] Step 23/41 (id=24): wait
+08:49:40.060 [INFO]   wait recorded=150ms applied=150ms
+08:49:40.213 [INFO] Step 24/41 (id=25): click_win
+08:49:40.214 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:49:40.318 [INFO]   click_win at (839,473) rect=(448, 166, 1472, 914)
+08:49:40.319 [INFO] Step 25/41 (id=26): wait
+08:49:40.320 [INFO]   wait recorded=150ms applied=150ms
+08:49:40.472 [INFO] Step 26/41 (id=27): wait
+08:49:40.474 [INFO]   wait recorded=150ms applied=150ms
+08:49:40.625 [INFO] Step 27/41 (id=28): type_text
+08:49:40.627 [INFO]   type_text len=8
+08:49:40.745 [INFO] Step 28/41 (id=29): key
+08:49:40.745 [INFO]   key=TAB -> tab
+08:49:40.850 [INFO] Step 29/41 (id=30): wait
+08:49:40.852 [INFO]   wait recorded=150ms applied=150ms
+08:49:41.005 [INFO] Step 30/41 (id=31): wait
+08:49:41.006 [INFO]   wait recorded=150ms applied=150ms
+08:49:41.159 [INFO] Step 31/41 (id=32): type_text
+08:49:41.161 [INFO]   type_text len=8
+08:49:41.273 [INFO] Step 32/41 (id=39): key
+08:49:41.274 [INFO]   key=TAB -> tab
+08:49:41.378 [INFO] Step 33/41 (id=33): click_win
+08:49:41.381 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:49:41.499 [INFO]   click_win at (943,759) rect=(448, 166, 1472, 914)
+08:49:41.500 [INFO] Step 34/41 (id=34): wait
+08:49:41.501 [INFO]   wait recorded=150ms applied=150ms
+08:49:41.653 [INFO] Step 35/41 (id=35): click_win
+08:49:41.658 [DEBUG] focus_window ok in 2.8ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:49:41.765 [INFO]   click_win at (684,605) rect=(448, 166, 1472, 914)
+08:49:41.766 [INFO] Step 36/41 (id=36): wait
+08:49:41.767 [INFO]   wait recorded=150ms applied=150ms
+08:49:41.919 [INFO] Step 37/41 (id=37): click_win
+08:49:41.931 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:49:42.063 [INFO]   click_win at (1008,763) rect=(448, 166, 1472, 914)
+08:49:42.065 [INFO] Step 38/41 (id=38): wait
+08:49:42.068 [INFO]   wait recorded=150ms applied=150ms
+08:49:42.219 [INFO] Step 39/41 (id=39): key
+08:49:42.221 [INFO]   key=SPACE -> space
+08:49:42.326 [INFO] Step 40/41 (id=40): wait
+08:49:42.327 [INFO]   wait recorded=150ms applied=150ms
+08:49:42.480 [INFO] Step 41/41 (id=41): click_win
+08:49:42.482 [DEBUG] focus_window ok in 1.8ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:49:42.599 [INFO]   click_win at (682,310) rect=(448, 166, 1472, 914)
+08:50:04.032 [INFO] DPI awareness: PM
+08:50:04.040 [INFO] Loaded macro steps=41 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+08:50:04.041 [INFO] Step 1/41 (id=1): wait
+08:50:04.042 [INFO]   wait recorded=150ms applied=150ms
+08:50:04.194 [INFO] Step 2/41 (id=2): click_win
+08:50:04.198 [DEBUG] focus_window ok in 3.4ms hwnd=1640542 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:50:04.323 [INFO]   click_win at (875,687) rect=(652, 332, 1268, 748)
+08:50:04.324 [INFO] Step 3/41 (id=4): key
+08:50:04.328 [INFO]   key=CTRL+A -> ctrl+a
+08:50:04.437 [INFO] Step 4/41 (id=5): wait
+08:50:04.439 [INFO]   wait recorded=150ms applied=150ms
+08:50:04.593 [INFO] Step 5/41 (id=6): key
+08:50:04.594 [INFO]   key=DELETE -> delete
+08:50:04.698 [INFO] Step 6/41 (id=8): type_text
+08:50:04.700 [INFO]   type_text len=14
+08:50:04.828 [INFO] Step 7/41 (id=10): wait
+08:50:04.829 [INFO]   wait recorded=150ms applied=150ms
+08:50:04.982 [INFO] Step 8/41 (id=9): click_win
+08:50:04.983 [DEBUG] focus_window ok in 0.1ms hwnd=1640542 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:50:05.099 [INFO]   click_win at (1145,723) rect=(652, 332, 1268, 748)
+08:50:05.100 [INFO] Step 9/41 (id=10): wait
+08:50:05.101 [INFO]   wait recorded=150ms applied=150ms
+08:50:05.252 [INFO] Step 10/41 (id=11): click_win
+08:50:05.254 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:50:05.366 [INFO]   click_win at (894,377) rect=(448, 166, 1472, 914)
+08:50:05.367 [INFO] Step 11/41 (id=12): wait
+08:50:05.369 [INFO]   wait recorded=150ms applied=150ms
+08:50:05.520 [INFO] Step 12/41 (id=13): click_win
+08:50:05.522 [DEBUG] focus_window ok in 0.2ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:50:05.627 [INFO]   click_win at (903,400) rect=(448, 166, 1472, 914)
+08:50:05.628 [INFO] Step 13/41 (id=14): wait
+08:50:05.631 [INFO]   wait recorded=150ms applied=150ms
+08:50:05.783 [INFO] Step 14/41 (id=15): click_win
+08:50:05.785 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:50:05.887 [INFO]   click_win at (908,402) rect=(448, 166, 1472, 914)
+08:50:05.889 [INFO] Step 15/41 (id=16): wait
+08:50:05.890 [INFO]   wait recorded=150ms applied=150ms
+08:50:06.042 [INFO] Step 16/41 (id=17): click_win
+08:50:06.044 [DEBUG] focus_window ok in 0.3ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:50:06.150 [INFO]   click_win at (899,416) rect=(448, 166, 1472, 914)
+08:50:06.151 [INFO] Step 17/41 (id=18): wait
+08:50:06.155 [INFO]   wait recorded=150ms applied=150ms
+08:50:06.308 [INFO] Step 18/41 (id=19): click_win
+08:50:06.310 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:50:06.417 [INFO]   click_win at (907,429) rect=(448, 166, 1472, 914)
+08:50:06.419 [INFO] Step 19/41 (id=20): wait
+08:50:06.422 [INFO]   wait recorded=150ms applied=150ms
+08:50:06.576 [INFO] Step 20/41 (id=21): click_win
+08:50:06.577 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:50:06.684 [INFO]   click_win at (899,485) rect=(448, 166, 1472, 914)
+08:50:06.685 [INFO] Step 21/41 (id=22): wait
+08:50:06.687 [INFO]   wait recorded=150ms applied=150ms
+08:50:06.840 [INFO] Step 22/41 (id=23): click_win
+08:50:06.842 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:50:06.946 [INFO]   click_win at (849,458) rect=(448, 166, 1472, 914)
+08:50:06.947 [INFO] Step 23/41 (id=24): wait
+08:50:06.949 [INFO]   wait recorded=150ms applied=150ms
+08:50:07.103 [INFO] Step 24/41 (id=25): click_win
+08:50:07.104 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:50:07.209 [INFO]   click_win at (839,473) rect=(448, 166, 1472, 914)
+08:50:07.211 [INFO] Step 25/41 (id=26): wait
+08:50:07.213 [INFO]   wait recorded=150ms applied=150ms
+08:50:07.365 [INFO] Step 26/41 (id=27): wait
+08:50:07.366 [INFO]   wait recorded=150ms applied=150ms
+08:50:07.521 [INFO] Step 27/41 (id=28): type_text
+08:50:07.523 [INFO]   type_text len=8
+08:50:07.636 [INFO] Step 28/41 (id=29): key
+08:50:07.638 [INFO]   key=TAB -> tab
+08:50:07.742 [INFO] Step 29/41 (id=30): wait
+08:50:07.744 [INFO]   wait recorded=150ms applied=150ms
+08:50:07.895 [INFO] Step 30/41 (id=31): wait
+08:50:07.897 [INFO]   wait recorded=150ms applied=150ms
+08:50:08.049 [INFO] Step 31/41 (id=32): type_text
+08:50:08.051 [INFO]   type_text len=8
+08:50:08.173 [INFO] Step 32/41 (id=39): key
+08:50:08.174 [INFO]   key=TAB -> tab
+08:50:08.277 [INFO] Step 33/41 (id=33): click_win
+08:50:08.278 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:50:08.399 [INFO]   click_win at (943,759) rect=(448, 166, 1472, 914)
+08:50:08.400 [INFO] Step 34/41 (id=34): wait
+08:50:08.402 [INFO]   wait recorded=150ms applied=150ms
+08:50:08.554 [INFO] Step 35/41 (id=35): click_win
+08:50:08.556 [DEBUG] focus_window ok in 1.3ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:50:08.665 [INFO]   click_win at (684,605) rect=(448, 166, 1472, 914)
+08:50:08.666 [INFO] Step 36/41 (id=36): wait
+08:50:08.667 [INFO]   wait recorded=150ms applied=150ms
+08:50:08.819 [INFO] Step 37/41 (id=37): click_win
+08:50:08.820 [DEBUG] focus_window ok in 0.0ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:50:08.931 [INFO]   click_win at (1008,763) rect=(448, 166, 1472, 914)
+08:50:08.933 [INFO] Step 38/41 (id=38): wait
+08:50:08.936 [INFO]   wait recorded=150ms applied=150ms
+08:50:09.087 [INFO] Step 39/41 (id=39): key
+08:50:09.089 [INFO]   key=SPACE -> space
+08:50:09.193 [INFO] Step 40/41 (id=40): wait
+08:50:09.194 [INFO]   wait recorded=150ms applied=150ms
+08:50:09.348 [INFO] Step 41/41 (id=41): click_win
+08:50:09.351 [DEBUG] focus_window ok in 1.7ms hwnd=395340 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:50:09.467 [INFO]   click_win at (682,310) rect=(448, 166, 1472, 914)
+08:51:18.124 [INFO] DPI awareness: PM
+08:51:18.132 [INFO] Loaded macro steps=41 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+08:51:18.132 [INFO] Step 1/41 (id=1): wait
+08:51:18.133 [INFO]   wait recorded=150ms applied=150ms
+08:51:18.285 [INFO] Step 2/41 (id=2): click_win
+08:51:18.289 [DEBUG] focus_window ok in 3.0ms hwnd=1116684 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:51:18.403 [INFO]   click_win at (875,687) rect=(652, 332, 1268, 748)
+08:51:18.405 [INFO] Step 3/41 (id=4): key
+08:51:18.407 [INFO]   key=CTRL+A -> ctrl+a
+08:51:18.511 [INFO] Step 4/41 (id=5): wait
+08:51:18.512 [INFO]   wait recorded=150ms applied=150ms
+08:51:18.665 [INFO] Step 5/41 (id=6): key
+08:51:18.666 [INFO]   key=DELETE -> delete
+08:51:18.769 [INFO] Step 6/41 (id=8): type_text
+08:51:18.771 [INFO]   type_text len=14
+08:51:18.898 [INFO] Step 7/41 (id=10): wait
+08:51:18.899 [INFO]   wait recorded=150ms applied=150ms
+08:51:19.053 [INFO] Step 8/41 (id=9): click_win
+08:51:19.058 [DEBUG] focus_window ok in 3.2ms hwnd=1116684 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:51:19.173 [INFO]   click_win at (1145,723) rect=(652, 332, 1268, 748)
+08:51:19.174 [INFO] Step 9/41 (id=10): wait
+08:51:19.176 [INFO]   wait recorded=150ms applied=150ms
+08:51:19.328 [INFO] Step 10/41 (id=11): click_win
+08:51:19.329 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(-8, -8, 1928, 1040)
+08:51:19.448 [INFO]   click_win at (835,287) rect=(-8, -8, 1928, 1040)
+08:51:19.449 [INFO] Step 11/41 (id=12): wait
+08:51:19.450 [INFO]   wait recorded=150ms applied=150ms
+08:51:19.601 [INFO] Step 12/41 (id=13): click_win
+08:51:19.603 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(-8, -8, 1928, 1040)
+08:51:19.708 [INFO]   click_win at (852,319) rect=(-8, -8, 1928, 1040)
+08:51:19.709 [INFO] Step 13/41 (id=14): wait
+08:51:19.711 [INFO]   wait recorded=150ms applied=150ms
+08:51:19.865 [INFO] Step 14/41 (id=15): click_win
+08:51:19.866 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(-8, -8, 1928, 1040)
+08:51:19.980 [INFO]   click_win at (861,322) rect=(-8, -8, 1928, 1040)
+08:51:19.982 [INFO] Step 15/41 (id=16): wait
+08:51:19.982 [INFO]   wait recorded=150ms applied=150ms
+08:51:20.135 [INFO] Step 16/41 (id=17): click_win
+08:51:20.137 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(-8, -8, 1928, 1040)
+08:51:20.240 [INFO]   click_win at (844,342) rect=(-8, -8, 1928, 1040)
+08:51:20.241 [INFO] Step 17/41 (id=18): wait
+08:51:20.241 [INFO]   wait recorded=150ms applied=150ms
+08:51:20.393 [INFO] Step 18/41 (id=19): click_win
+08:51:20.395 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(-8, -8, 1928, 1040)
+08:51:20.499 [INFO]   click_win at (859,360) rect=(-8, -8, 1928, 1040)
+08:51:20.502 [INFO] Step 19/41 (id=20): wait
+08:51:20.543 [INFO]   wait recorded=150ms applied=150ms
+08:51:20.727 [INFO] Step 20/41 (id=21): click_win
+08:51:20.728 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(-8, -8, 1928, 1040)
+08:51:20.849 [INFO]   click_win at (844,438) rect=(-8, -8, 1928, 1040)
+08:51:20.853 [INFO] Step 21/41 (id=22): wait
+08:51:20.856 [INFO]   wait recorded=150ms applied=150ms
+08:51:21.008 [INFO] Step 22/41 (id=23): click_win
+08:51:21.010 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(-8, -8, 1928, 1040)
+08:51:21.116 [INFO]   click_win at (750,401) rect=(-8, -8, 1928, 1040)
+08:51:21.117 [INFO] Step 23/41 (id=24): wait
+08:51:21.121 [INFO]   wait recorded=150ms applied=150ms
+08:51:21.273 [INFO] Step 24/41 (id=25): click_win
+08:51:21.274 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(-8, -8, 1928, 1040)
+08:51:21.379 [INFO]   click_win at (731,422) rect=(-8, -8, 1928, 1040)
+08:51:21.380 [INFO] Step 25/41 (id=26): wait
+08:51:21.381 [INFO]   wait recorded=150ms applied=150ms
+08:51:21.533 [INFO] Step 26/41 (id=27): wait
+08:51:21.535 [INFO]   wait recorded=150ms applied=150ms
+08:51:21.688 [INFO] Step 27/41 (id=28): type_text
+08:51:21.689 [INFO]   type_text len=8
+08:51:21.804 [INFO] Step 28/41 (id=29): key
+08:51:21.805 [INFO]   key=TAB -> tab
+08:51:21.907 [INFO] Step 29/41 (id=30): wait
+08:51:21.908 [INFO]   wait recorded=150ms applied=150ms
+08:51:22.061 [INFO] Step 30/41 (id=31): wait
+08:51:22.062 [INFO]   wait recorded=150ms applied=150ms
+08:51:22.216 [INFO] Step 31/41 (id=32): type_text
+08:51:22.217 [INFO]   type_text len=8
+08:51:22.335 [INFO] Step 32/41 (id=39): key
+08:51:22.336 [INFO]   key=TAB -> tab
+08:51:22.440 [INFO] Step 33/41 (id=33): click_win
+08:51:22.441 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(-8, -8, 1928, 1040)
+08:51:22.545 [INFO]   click_win at (927,822) rect=(-8, -8, 1928, 1040)
+08:51:22.546 [INFO] Step 34/41 (id=34): wait
+08:51:22.548 [INFO]   wait recorded=150ms applied=150ms
+08:51:22.700 [INFO] Step 35/41 (id=35): click_win
+08:51:22.702 [DEBUG] focus_window ok in 0.0ms hwnd=395340 iconic=False mode=keep rect=(-8, -8, 1928, 1040)
+08:51:22.805 [INFO]   click_win at (438,607) rect=(-8, -8, 1928, 1040)
+08:51:22.806 [INFO] Step 36/41 (id=36): wait
+08:51:22.807 [INFO]   wait recorded=150ms applied=150ms
+08:51:22.959 [INFO] Step 37/41 (id=37): click_win
+08:51:22.960 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(-8, -8, 1928, 1040)
+08:51:23.067 [INFO]   click_win at (1050,828) rect=(-8, -8, 1928, 1040)
+08:51:23.069 [INFO] Step 38/41 (id=38): wait
+08:51:23.073 [INFO]   wait recorded=150ms applied=150ms
+08:51:23.225 [INFO] Step 39/41 (id=39): key
+08:51:23.226 [INFO]   key=SPACE -> space
+08:51:23.330 [INFO] Step 40/41 (id=40): wait
+08:51:23.331 [INFO]   wait recorded=150ms applied=150ms
+08:51:23.486 [INFO] Step 41/41 (id=41): click_win
+08:51:23.487 [DEBUG] focus_window ok in 0.1ms hwnd=395340 iconic=False mode=keep rect=(-8, -8, 1928, 1040)
+08:51:23.590 [INFO]   click_win at (434,193) rect=(-8, -8, 1928, 1040)
+08:54:36.789 [INFO] DPI awareness: PM
+08:54:36.802 [INFO] Loaded macro steps=41 wait_scale=1.000 wait_cap_ms=None (dpi=PM)
+08:54:36.803 [INFO] Step 1/41 (id=1): wait
+08:54:36.805 [INFO]   wait recorded=150ms applied=150ms
+08:54:36.957 [INFO] Step 2/41 (id=2): click_win
+08:54:36.959 [DEBUG] focus_window ok in 1.4ms hwnd=592646 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:54:37.089 [INFO]   click_win at (875,687) rect=(652, 332, 1268, 748)
+08:54:37.091 [INFO] Step 3/41 (id=4): key
+08:54:37.091 [INFO]   key=CTRL+A -> ctrl+a
+08:54:37.196 [INFO] Step 4/41 (id=5): wait
+08:54:37.198 [INFO]   wait recorded=150ms applied=150ms
+08:54:37.351 [INFO] Step 5/41 (id=6): key
+08:54:37.353 [INFO]   key=DELETE -> delete
+08:54:37.461 [INFO] Step 6/41 (id=8): type_text
+08:54:37.462 [INFO]   type_text len=14
+08:54:37.602 [INFO] Step 7/41 (id=10): wait
+08:54:37.604 [INFO]   wait recorded=150ms applied=150ms
+08:54:37.758 [INFO] Step 8/41 (id=9): click_win
+08:54:37.760 [DEBUG] focus_window ok in 0.2ms hwnd=592646 iconic=False mode=keep rect=(652, 332, 1268, 748)
+08:54:37.882 [INFO]   click_win at (1145,723) rect=(652, 332, 1268, 748)
+08:54:37.883 [INFO] Step 9/41 (id=10): wait
+08:54:37.889 [INFO]   wait recorded=150ms applied=150ms
+08:54:38.041 [INFO] Step 10/41 (id=11): click_win
+08:54:38.051 [DEBUG] focus_window ok in 0.5ms hwnd=526730 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:54:38.164 [INFO]   click_win at (894,377) rect=(448, 166, 1472, 914)
+08:54:38.180 [INFO] Step 11/41 (id=12): wait
+08:54:38.208 [INFO]   wait recorded=150ms applied=150ms
+08:54:38.373 [INFO] Step 12/41 (id=13): click_win
+08:54:38.380 [DEBUG] focus_window ok in 0.2ms hwnd=526730 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:54:38.502 [INFO]   click_win at (903,400) rect=(448, 166, 1472, 914)
+08:54:38.504 [INFO] Step 13/41 (id=14): wait
+08:54:38.504 [INFO]   wait recorded=150ms applied=150ms
+08:54:38.656 [INFO] Step 14/41 (id=15): click_win
+08:54:38.657 [DEBUG] focus_window ok in 0.0ms hwnd=526730 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:54:38.763 [INFO]   click_win at (908,402) rect=(448, 166, 1472, 914)
+08:54:38.764 [INFO] Step 15/41 (id=16): wait
+08:54:38.767 [INFO]   wait recorded=150ms applied=150ms
+08:54:38.920 [INFO] Step 16/41 (id=17): click_win
+08:54:38.921 [DEBUG] focus_window ok in 0.0ms hwnd=526730 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:54:39.030 [INFO]   click_win at (899,416) rect=(448, 166, 1472, 914)
+08:54:39.044 [INFO] Step 17/41 (id=18): wait
+08:54:39.054 [INFO]   wait recorded=150ms applied=150ms
+08:54:39.207 [INFO] Step 18/41 (id=19): click_win
+08:54:39.208 [DEBUG] focus_window ok in 0.1ms hwnd=526730 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:54:39.312 [INFO]   click_win at (907,429) rect=(448, 166, 1472, 914)
+08:54:39.324 [INFO] Step 19/41 (id=20): wait
+08:54:39.340 [INFO]   wait recorded=150ms applied=150ms
+08:54:39.499 [INFO] Step 20/41 (id=21): click_win
+08:54:39.513 [DEBUG] focus_window ok in 0.1ms hwnd=526730 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:54:39.628 [INFO]   click_win at (899,485) rect=(448, 166, 1472, 914)
+08:54:39.634 [INFO] Step 21/41 (id=22): wait
+08:54:39.642 [INFO]   wait recorded=150ms applied=150ms
+08:54:39.796 [INFO] Step 22/41 (id=23): click_win
+08:54:39.802 [DEBUG] focus_window ok in 0.1ms hwnd=526730 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:54:39.910 [INFO]   click_win at (849,458) rect=(448, 166, 1472, 914)
+08:54:39.917 [INFO] Step 23/41 (id=24): wait
+08:54:39.940 [INFO]   wait recorded=150ms applied=150ms
+08:54:40.108 [INFO] Step 24/41 (id=25): click_win
+08:54:40.115 [DEBUG] focus_window ok in 0.1ms hwnd=526730 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:54:40.226 [INFO]   click_win at (839,473) rect=(448, 166, 1472, 914)
+08:54:40.227 [INFO] Step 25/41 (id=26): wait
+08:54:40.227 [INFO]   wait recorded=150ms applied=150ms
+08:54:40.379 [INFO] Step 26/41 (id=27): wait
+08:54:40.399 [INFO]   wait recorded=150ms applied=150ms
+08:54:40.576 [INFO] Step 27/41 (id=28): type_text
+08:54:40.579 [INFO]   type_text len=8
+08:54:40.693 [INFO] Step 28/41 (id=29): key
+08:54:40.697 [INFO]   key=TAB -> tab
+08:54:40.800 [INFO] Step 29/41 (id=30): wait
+08:54:40.811 [INFO]   wait recorded=150ms applied=150ms
+08:54:41.007 [INFO] Step 30/41 (id=31): wait
+08:54:41.008 [INFO]   wait recorded=150ms applied=150ms
+08:54:41.174 [INFO] Step 31/41 (id=32): type_text
+08:54:41.175 [INFO]   type_text len=8
+08:54:41.290 [INFO] Step 32/41 (id=39): key
+08:54:41.291 [INFO]   key=TAB -> tab
+08:54:41.394 [INFO] Step 33/41 (id=33): click_win
+08:54:41.395 [DEBUG] focus_window ok in 0.1ms hwnd=526730 iconic=False mode=keep rect=(448, 166, 1472, 914)
+08:54:41.502 [INFO]   click_win at (943,759) rect=(448, 166, 1472, 914)
+08:54:41.503 [INFO] Step 34/41 (id=34): wait
+08:54:41.506 [INFO]   wait recorded=15000ms applied=15000ms

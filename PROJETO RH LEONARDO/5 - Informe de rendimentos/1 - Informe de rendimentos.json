@@ -1,0 +1,71 @@
+﻿{
+    "field_empresa_sistema":  {
+                                  "x":  1636,
+                                  "y":  57
+                              },
+    "field_data_sistema":  {
+                               "x":  1660,
+                               "y":  104
+                           },
+    "field_ano_base":  {
+                           "x":  848,
+                           "y":  373
+                       },
+    "field_responsavel":  {
+                              "x":  838,
+                              "y":  399
+                          },
+    "field_classificacao":  {
+                                "x":  849,
+                                "y":  442
+                            },
+    "field_estabelecimento":  {
+                                  "y":  474,
+                                  "x":  829
+                              },
+    "field_situacao":  {
+                           "y":  527,
+                           "x":  1082
+                       },
+    "chk_dispensa_assinatura":  {
+                                    "y":  641,
+                                    "x":  830
+                                },
+    "btn_imprimir":  {
+                         "y":  379,
+                         "x":  1193
+                     },
+    "save_btn_pdf":  {
+                         "x":  564,
+                         "y":  92
+                     },
+    "save_field_diretorio":  {
+                                 "x":  938,
+                                 "y":  468
+                             },
+    "save_field_nome":  {
+                            "x":  988,
+                            "y":  492
+                        },
+    "save_chk_pdfa":  {
+                          "x":  816,
+                          "y":  569
+                      },
+    "save_chk_no_open":  {
+                             "x":  813,
+                             "y":  551
+                         },
+    "save_btn_ok":  {
+                        "x":  1178,
+                        "y":  453
+                    },
+    "btn_fechar_impressao":  {
+                                 "y":  84,
+                                 "x":  466
+                             },
+    "field_empresa":  null,
+    "btn_confirmar_estabelecimento":  {
+                                          "y":  466,
+                                          "x":  939
+                                      }
+}

@@ -1,0 +1,381 @@
+{
+  "meta": {
+    "created_at_ms": 1770035349685,
+    "version": 7,
+    "dpi_mode": "PM"
+  },
+  "steps": [
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 1
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Receitanet BX",
+        "class_name": "SunAwtFrame"
+      },
+      "point": {
+        "rx": 0.7236328125,
+        "ry": 0.49064171122994654
+      },
+      "id": 2
+    },
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 3
+    },
+    {
+      "type": "key",
+      "keys": [
+        "ALT",
+        "F"
+      ],
+      "id": 4
+    },
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 5
+    },
+    {
+      "type": "type_text",
+      "text": "o",
+      "id": 7
+    },
+    {
+      "type": "key",
+      "keys": [
+        "CTRL",
+        "A"
+      ],
+      "id": 8
+    },
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 9
+    },
+
+    "### gerar e incluir aqui o caminho: C:\\Users\\Usuario\\Documents\\Arquivos ReceitanetBX\\pasta mes-ano (referente ao mês/ano anterior)"
+
+    {
+      "type": "key",
+      "keys": [
+        "TAB"
+      ],
+      "id": 10
+    },
+
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 11
+    },
+    {
+      "type": "key",
+      "keys": [
+        "ALT",
+        "S"
+      ],
+      "id": 12
+    },
+    {
+      "type": "wait",
+      "ms": 2000,
+      "id": 13
+    },
+    {
+      "type": "key",
+      "keys": [
+        "SPACE"
+      ],
+      "id": 14
+    },
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 15
+    },
+
+    "aqui começa o loop pelas empresas do .xlsx"
+
+    {
+      "type": "key",
+      "keys": [
+        "CTRL",
+        "T"
+      ],
+      "id": 16
+    },
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 17
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Receitanet BX",
+        "class_name": "SunAwtDialog"
+      },
+      "point": {
+        "rx": 0.5162337662337663,
+        "ry": 0.8461538461538461
+      },
+      "id": 18
+    },
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 19
+    },
+    {
+      "type": "key",
+      "keys": [
+        "CTRL",
+        "A"
+      ],
+      "id": 20
+    },
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 21
+    },
+
+    "preencher aqui com o CNPJ da empresa selecionada"
+    {
+      "type": "key",
+      "keys": [
+        "TAB"
+      ],
+      "id": 26
+    },
+    {
+      "type": "key",
+      "keys": [
+        "ALT",
+        "E"
+      ],
+      "id": 27
+    },
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 28
+    },
+    {
+      "type": "key",
+      "keys": [
+        "CTRL",
+        "E"
+      ],
+      "id": 29
+    },
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 30
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Receitanet BX",
+        "class_name": "SunAwtFrame"
+      },
+      "point": {
+        "rx": 0.4970703125,
+        "ry": 0.2807486631016043
+      },
+      "id": 31
+    },
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 32
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Receitanet BX",
+        "class_name": "SunAwtFrame"
+      },
+      "point": {
+        "rx": 0.470703125,
+        "ry": 0.31016042780748665
+      },
+      "id": 33
+    },
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 34
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Receitanet BX",
+        "class_name": "SunAwtFrame"
+      },
+      "point": {
+        "rx": 0.4501953125,
+        "ry": 0.31283422459893045
+      },
+      "id": 35
+    },
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 36
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Receitanet BX",
+        "class_name": "SunAwtFrame"
+      },
+      "point": {
+        "rx": 0.4326171875,
+        "ry": 0.3409090909090909
+      },
+      "id": 37
+    },
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 38
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Receitanet BX",
+        "class_name": "SunAwtFrame"
+      },
+      "point": {
+        "rx": 0.4423828125,
+        "ry": 0.3502673796791444
+      },
+      "id": 39
+    },
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 40
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Receitanet BX",
+        "class_name": "SunAwtFrame"
+      },
+      "point": {
+        "rx": 0.4453125,
+        "ry": 0.41310160427807485
+      },
+      "id": 41
+    },
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 42
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Receitanet BX",
+        "class_name": "SunAwtFrame"
+      },
+      "point": {
+        "rx": 0.380859375,
+        "ry": 0.4090909090909091
+      },
+      "id": 43
+    },
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 44
+    },
+
+    "aqui no preenchimento do periodo buscado sera sempre o mes anterior ao corrente"
+
+    {
+      "type": "type_text",
+      "text": "01122025",
+      "id": 47
+    },
+    {
+      "type": "key",
+      "keys": [
+        "TAB"
+      ],
+      "id": 48
+    },
+    {
+      "type": "type_text",
+      "text": "31122025",
+      "id": 52
+    },
+    {
+      "type": "key",
+      "keys": [
+        "TAB"
+      ],
+      "id": 53
+    },
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 54
+    },
+    {
+      "type": "key",
+      "keys": [
+        "CTRL",
+        "L"
+      ],
+      "id": 55
+    },
+    {
+      "type": "wait",
+      "ms": 5000,
+      "id": 56
+    },
+    {
+      "type": "key",
+      "keys": [
+        "SPACE"
+      ],
+      "id": 57
+    },
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 58
+    },
+
+    "aqui encerra o loop da empresa, vai para a proxima da lista"
+    
+  ]
+}

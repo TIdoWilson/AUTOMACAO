@@ -1,0 +1,82 @@
+﻿{
+    "data_sistema":  [
+                         1660,
+                         102
+                     ],
+    "mes_ano":  [
+                    190,
+                    192
+                ],
+    "marcar_por_grupo":  [
+                             540,
+                             197
+                         ],
+    "agrupamento":  [
+                        1000,
+                        197
+                    ],
+    "selecionar":  [
+                       1660,
+                       167
+                   ],
+    "marcar_todas":  [
+                         90,
+                         282
+                     ],
+    "gerar_periodicos":  [
+                             250,
+                             287
+                         ],
+    "limpar":  [
+                   1660,
+                   197
+               ],
+    "campo_empresa":  [
+                          730,
+                          197
+                      ],
+    "aba_com_erro":  [
+                         820,
+                         337
+                     ],
+    "marcar_todas_erro":  [
+                              365,
+                              412
+                          ],
+    "reenviar":  [
+                     1410,
+                     372
+                 ],
+    "confirmar_reenviar":  [
+                               1200,
+                               487
+                           ],
+    "imprimir_inicial":  [
+                             1250,
+                             507
+                         ],
+    "grupos":  [
+                   880,
+                   487
+               ],
+    "grupos2":  [
+                    950,
+                    487
+                ],
+    "ordem_numerica":  [
+                           840,
+                           602
+                       ],
+    "imprimir_final":  [
+                           1100,
+                           477
+                       ],
+    "salvar":  [
+                   400,
+                   87
+               ],
+    "fechar_impressao":  [
+                             470,
+                             87
+                         ]
+}

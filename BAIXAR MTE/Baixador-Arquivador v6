@@ -1,0 +1,1178 @@
+import os
+import re
+import time
+import unicodedata
+import pandas as pd
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.firefox.service import Service as FirefoxService
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import (
+    TimeoutException,
+    StaleElementReferenceException,
+    NoSuchElementException,
+)
+from webdriver_manager.firefox import GeckoDriverManager
+
+
+# ================== CONFIGURACOES GERAIS ==================
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+DOWNLOAD_DIR = os.path.join(BASE_DIR, "downloads")
+LIMPOS_DIR = os.path.join(DOWNLOAD_DIR, "arquivos limpos")
+
+os.makedirs(DOWNLOAD_DIR, exist_ok=True)
+os.makedirs(LIMPOS_DIR, exist_ok=True)
+
+EXCEL_CNPJS = os.path.join(BASE_DIR, "cnpjs.xlsx")
+EXCEL_REGISTROS = os.path.join(DOWNLOAD_DIR, "registros_icr.xlsx")
+EXCEL_CNPJS_ERROS = os.path.join(DOWNLOAD_DIR, "cnpjs_com_erro.xlsx")
+EXCEL_ENTRADAS_NOVAS = os.path.join(DOWNLOAD_DIR, "entradas_novas.xlsx")
+EXCEL_CNPJS_COMPLETOS = os.path.join(DOWNLOAD_DIR, "cnpjs_completos.xlsx")
+EXCEL_CNPJS_INVALIDOS = os.path.join(DOWNLOAD_DIR, "CNPJ INVALIDOS.xlsx")
+
+URL = "https://www3.mte.gov.br/sistemas/mediador/ConsultarInstColetivo"
+
+DT_INICIO_PADRAO = "01/01/2025"
+DT_FIM_PADRAO = "31/12/2025"
+
+MAX_TENTATIVAS_CNPJ = 2
+MAX_RODADAS_CNPJS = 5
+
+TIMEOUT_PAGINA = 45
+TIMEOUT_RESULTADOS = 60  # aumentei para evitar marcar tudo como erro_pesquisa
+
+EXISTING_CODES = set()
+NOVOS_CODIGOS_EXECUCAO = set()
+
+
+# ================== HELPERS GERAIS ==================
+
+def normalizar_texto(txt: str) -> str:
+    if not txt:
+        return ""
+    txt = unicodedata.normalize("NFD", txt)
+    txt = "".join(c for c in txt if unicodedata.category(c) != "Mn")
+    return txt.lower().strip()
+
+
+def codigo_para_nome_arquivo(codigo: str) -> str:
+    """
+    Mesma lógica usada no download:
+    re.sub(r"[^\w\-]", "_", codigo)
+    """
+    return re.sub(r"[^\w\-]", "_", str(codigo))
+
+
+def registrar_cnpj_completo(cnpj: str, status_final: str, tentativas: int):
+    linha = {
+        "cnpj": str(cnpj),
+        "status_final": str(status_final),
+        "tentativas_realizadas": int(tentativas),
+    }
+
+    if os.path.exists(EXCEL_CNPJS_COMPLETOS):
+        df = pd.read_excel(EXCEL_CNPJS_COMPLETOS, dtype=str)
+    else:
+        df = pd.DataFrame(columns=["cnpj", "status_final", "tentativas_realizadas"])
+
+    df = pd.concat([df, pd.DataFrame([linha])], ignore_index=True)
+    df.drop_duplicates(subset=["cnpj"], keep="last", inplace=True)
+    df.to_excel(EXCEL_CNPJS_COMPLETOS, index=False)
+
+
+def registrar_cnpj_invalido(cnpj: str, status_final: str, tentativas: int):
+    linha = {
+        "cnpj": str(cnpj),
+        "status_final": str(status_final),
+        "tentativas_realizadas": int(tentativas),
+    }
+
+    if os.path.exists(EXCEL_CNPJS_INVALIDOS):
+        df = pd.read_excel(EXCEL_CNPJS_INVALIDOS, dtype=str)
+    else:
+        df = pd.DataFrame(columns=["cnpj", "status_final", "tentativas_realizadas"])
+
+    df = pd.concat([df, pd.DataFrame([linha])], ignore_index=True)
+    df.drop_duplicates(subset=["cnpj"], keep="last", inplace=True)
+    df.to_excel(EXCEL_CNPJS_INVALIDOS, index=False)
+
+
+# ================== DRIVER DO FIREFOX ==================
+
+def get_firefox_driver(download_path: str):
+    options = FirefoxOptions()
+    # options.add_argument("-headless")
+
+    profile = webdriver.FirefoxProfile()
+    profile.set_preference("browser.download.folderList", 2)
+    profile.set_preference("browser.download.dir", download_path)
+    profile.set_preference("browser.download.useDownloadDir", True)
+    profile.set_preference("browser.download.manager.showWhenStarting", False)
+
+    profile.set_preference(
+        "browser.helperApps.neverAsk.saveToDisk",
+        "application/pdf,application/msword,"
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    )
+    profile.set_preference("pdfjs.disabled", True)
+
+    options.profile = profile
+
+    driver = webdriver.Firefox(
+        service=FirefoxService(GeckoDriverManager().install()),
+        options=options
+    )
+
+    try:
+        driver.maximize_window()
+    except Exception:
+        pass
+
+    return driver
+
+
+# ================== ESPERAR NOVO ARQUIVO ==================
+
+def esperar_novo_arquivo(download_path: str, arquivos_antes, timeout: int = 60):
+    limite = time.time() + timeout
+    while time.time() < limite:
+        arquivos_agora = set(os.listdir(download_path))
+        novos = arquivos_agora - arquivos_antes
+
+        candidatos = []
+        for nome in novos:
+            if nome.lower().endswith(".crdownload") or nome.lower().endswith(".part"):
+                continue
+            caminho = os.path.join(download_path, nome)
+            if os.path.isfile(caminho):
+                candidatos.append(caminho)
+
+        if candidatos:
+            return max(candidatos, key=os.path.getmtime)
+
+        time.sleep(1)
+
+    return None
+
+
+# ================== DOWNLOAD + RENAME ==================
+
+def baixar_e_renomear(driver, link_element, download_path: str, codigo: str):
+    arquivos_antes = set(os.listdir(download_path))
+    main_window = driver.current_window_handle
+
+    try:
+        try:
+            link_element.click()
+        except Exception:
+            driver.execute_script("arguments[0].click();", link_element)
+
+        time.sleep(3)
+
+        caminho_novo = esperar_novo_arquivo(download_path, arquivos_antes, timeout=60)
+
+        if not caminho_novo or not os.path.exists(caminho_novo):
+            print("      Erro: novo arquivo nao encontrado.")
+            return None
+
+        _, ext = os.path.splitext(caminho_novo)
+        if not ext or ext.lower() in (".tmp", ".part"):
+            ext = ".doc"
+
+        codigo_limpo = codigo_para_nome_arquivo(codigo)
+        caminho_final = os.path.join(download_path, f"{codigo_limpo}{ext}")
+
+        if os.path.abspath(caminho_novo) == os.path.abspath(caminho_final):
+            return caminho_final
+
+        if os.path.exists(caminho_final):
+            print(f"      Arquivo {os.path.basename(caminho_final)} ja existe, pulando rename.")
+            return caminho_final
+
+        try:
+            os.rename(caminho_novo, caminho_final)
+        except FileNotFoundError:
+            print("      Erro ao renomear: arquivo sumiu.")
+            return None
+
+        return caminho_final
+
+    finally:
+        try:
+            handles_depois = set(driver.window_handles)
+            abas_extras = handles_depois - {main_window}
+            for h in abas_extras:
+                try:
+                    driver.switch_to.window(h)
+                    driver.close()
+                except Exception:
+                    pass
+            driver.switch_to.window(main_window)
+        except Exception:
+            pass
+
+
+# ================== EXTRACAO DE DADOS POR BLOCO ==================
+
+def extrair_dados_do_bloco(trs_bloco, link_element):
+    codigo = ""
+    codigo_onclick = ""
+    sindicatos = ""
+    data_inicio = ""
+    data_fim = ""
+
+    try:
+        onclick = link_element.get_attribute("onclick") or ""
+        m_on = re.search(r"fDownload\('([^']+)'", onclick)
+        if m_on:
+            codigo_onclick = m_on.group(1).strip()
+    except Exception:
+        onclick = ""
+
+    textos_sind = []
+    for tr in trs_bloco:
+        try:
+            tds = tr.find_elements(By.XPATH, ".//td[contains(@class,'textoConsulta2')]")
+        except StaleElementReferenceException:
+            raise
+        except Exception:
+            tds = []
+        for td in tds:
+            try:
+                raw = td.get_attribute("innerText") or td.text
+            except StaleElementReferenceException:
+                raise
+            except Exception:
+                raw = ""
+            if raw:
+                txt = " ".join(raw.split())
+                txt = re.sub(r"\s+e Outros$", "", txt, flags=re.IGNORECASE)
+                if txt:
+                    textos_sind.append(txt)
+
+    if textos_sind:
+        vistos = []
+        for t in textos_sind:
+            if t not in vistos:
+                vistos.append(t)
+        sindicatos = " | ".join(vistos)
+
+    bloco_texto = ""
+    for tr in trs_bloco:
+        try:
+            txt = tr.text
+        except StaleElementReferenceException:
+            raise
+        except Exception:
+            txt = ""
+        if txt:
+            bloco_texto += "\n" + txt
+
+    bloco_texto_norm = " ".join(
+        bloco_texto.replace("–", "-").replace("−", "-").split()
+    )
+
+    if bloco_texto_norm:
+        m2 = re.search(r"(\d{2}/\d{2}/\d{4})\s*-\s*(\d{2}/\d{2}/\d{4})", bloco_texto_norm)
+        if m2:
+            data_inicio, data_fim = m2.group(1), m2.group(2)
+        else:
+            datas = re.findall(r"\d{2}/\d{2}/\d{4}", bloco_texto_norm)
+            if len(datas) > 0:
+                data_inicio = datas[0]
+            if len(datas) > 1:
+                data_fim = datas[1]
+
+    codigo_registro = ""
+    if bloco_texto_norm:
+        m_reg = re.search(
+            r"Registro\s+([A-Z]{2}\d{4,}/\d{4})",
+            bloco_texto_norm,
+            flags=re.IGNORECASE,
+        )
+        if m_reg:
+            codigo_registro = m_reg.group(1).strip()
+        else:
+            all_codes = re.findall(r"\b[A-Z]{2}\d{4,}/\d{4}\b", bloco_texto_norm)
+            for c in all_codes:
+                if not c.startswith("MR"):
+                    codigo_registro = c
+                    break
+
+    tr_principal = trs_bloco[0] if trs_bloco else None
+    if tr_principal is not None:
+        try:
+            row_text = tr_principal.text.strip()
+        except StaleElementReferenceException:
+            raise
+        except Exception:
+            row_text = ""
+    else:
+        row_text = ""
+
+    if row_text:
+        if not codigo_registro:
+            row_norm = " ".join(row_text.split())
+            m_reg2 = re.search(
+                r"Registro\s+([A-Z]{2}\d{4,}/\d{4})",
+                row_norm,
+                flags=re.IGNORECASE,
+            )
+            if m_reg2:
+                codigo_registro = m_reg2.group(1).strip()
+            else:
+                all_codes2 = re.findall(r"\b[A-Z]{2}\d{4,}/\d{4}\b", row_norm)
+                for c in all_codes2:
+                    if not c.startswith("MR"):
+                        codigo_registro = c
+                        break
+
+        if not data_inicio or not data_fim:
+            datas2 = re.findall(r"\d{2}/\d{2}/\d{4}", row_text)
+            if not data_inicio and len(datas2) > 0:
+                data_inicio = datas2[0]
+            if not data_fim and len(datas2) > 1:
+                data_fim = datas2[1]
+
+        if not sindicatos:
+            linhas_texto = [t.strip() for t in row_text.splitlines() if t.strip()]
+            partes_sind = []
+            for t in linhas_texto:
+                if codigo_registro and codigo_registro in t:
+                    continue
+                if "Download" in t:
+                    continue
+                if re.fullmatch(r"\d{2}/\d{2}/\d{4}", t):
+                    continue
+                partes_sind.append(t)
+            if partes_sind:
+                sindicatos = " | ".join(partes_sind)
+
+    if codigo_registro:
+        codigo = codigo_registro
+    elif codigo_onclick:
+        codigo = codigo_onclick
+    else:
+        codigo = ""
+
+    return codigo, sindicatos, data_inicio, data_fim
+
+
+# ================== AUXILIAR: CODIGOS DA TABELA ATUAL ==================
+
+def obter_codigos_da_tabela(driver):
+    try:
+        tabela = driver.find_element(By.XPATH, "//table[.//a[contains(@onclick,'fDownload')]]")
+    except Exception:
+        return []
+
+    try:
+        links = tabela.find_elements(By.XPATH, ".//a[contains(@onclick,'fDownload')]")
+    except Exception:
+        links = []
+
+    codigos = []
+    for lk in links:
+        try:
+            onclick = lk.get_attribute("onclick") or ""
+            m = re.search(r"fDownload\('([^']+)'", onclick)
+            if m:
+                codigos.append(m.group(1).strip())
+        except StaleElementReferenceException:
+            raise
+        except Exception:
+            continue
+
+    return sorted(set(codigos))
+
+
+# ================== REGISTRAR DOWNLOAD (UM POR UM NO EXCEL) ==================
+
+def registrar_download(df_registros, codigo, sindicatos, data_inicio, data_fim):
+    global EXISTING_CODES, NOVOS_CODIGOS_EXECUCAO
+
+    codigo_str = str(codigo) if codigo is not None else ""
+    novo = {
+        "codigo": codigo_str,
+        "sindicatos": str(sindicatos) if sindicatos is not None else "",
+        "data_inicio": str(data_inicio) if data_inicio is not None else "",
+        "data_fim": str(data_fim) if data_fim is not None else "",
+    }
+
+    df_registros.loc[len(df_registros)] = novo
+    df_registros.drop_duplicates(subset=["codigo"], keep="first", inplace=True)
+
+    if codigo_str and codigo_str not in EXISTING_CODES:
+        NOVOS_CODIGOS_EXECUCAO.add(codigo_str)
+
+    return df_registros
+
+
+# ================== PROCESSAR UMA PAGINA (INTERNAL) ==================
+
+def _processar_pagina_atual_uma_vez(driver, df_registros, codigos_baixados: set):
+    time.sleep(3)
+
+    try:
+        tabela = driver.find_element(By.XPATH, "//table[.//a[contains(@onclick,'fDownload')]]")
+    except NoSuchElementException:
+        print("    Nenhuma tabela de resultados encontrada.")
+        return [], df_registros, codigos_baixados
+    except StaleElementReferenceException:
+        raise
+    except Exception:
+        print("    Erro ao localizar tabela de resultados.")
+        return [], df_registros, codigos_baixados
+
+    trs = tabela.find_elements(By.XPATH, ".//tr")
+    i = 0
+    codigos_pagina = []
+    codigos_ja_processados_na_pagina = set()
+    novos_registros_pagina = 0
+
+    while i < len(trs):
+        tr = trs[i]
+        try:
+            links = tr.find_elements(By.XPATH, ".//a[contains(@onclick,'fDownload')]")
+        except StaleElementReferenceException:
+            raise
+        except Exception:
+            links = []
+
+        if not links:
+            i += 1
+            continue
+
+        link_download = links[0]
+
+        codigo_tmp = ""
+        try:
+            onclick_tmp = link_download.get_attribute("onclick") or ""
+            m_tmp = re.search(r"fDownload\('([^']+)'", onclick_tmp)
+            if m_tmp:
+                codigo_tmp = m_tmp.group(1).strip()
+        except Exception:
+            codigo_tmp = ""
+
+        if codigo_tmp and codigo_tmp in codigos_ja_processados_na_pagina:
+            j = i + 1
+            while j < len(trs):
+                tr_next = trs[j]
+                try:
+                    links_next = tr_next.find_elements(By.XPATH, ".//a[contains(@onclick,'fDownload')]")
+                except StaleElementReferenceException:
+                    raise
+                except Exception:
+                    links_next = []
+                if links_next:
+                    break
+                j += 1
+            i = j
+            continue
+
+        bloco = [tr]
+        j = i + 1
+        while j < len(trs):
+            tr_next = trs[j]
+            try:
+                links_next = tr_next.find_elements(By.XPATH, ".//a[contains(@onclick,'fDownload')]")
+            except StaleElementReferenceException:
+                raise
+            except Exception:
+                links_next = []
+
+            if links_next:
+                break
+            bloco.append(tr_next)
+            j += 1
+
+        codigo, sindicatos, data_inicio, data_fim = extrair_dados_do_bloco(bloco, link_download)
+
+        if not codigo:
+            i = j
+            continue
+
+        codigos_ja_processados_na_pagina.add(codigo_tmp or codigo)
+        codigos_pagina.append(codigo)
+
+        if codigo in codigos_baixados:
+            i = j
+            continue
+
+        caminho_final = baixar_e_renomear(driver, link_download, LIMPOS_DIR, codigo)
+
+        if not caminho_final or not os.path.exists(caminho_final):
+            i = j
+            continue
+
+        if not sindicatos or not data_inicio or not data_fim:
+            try:
+                os.remove(caminho_final)
+            except OSError:
+                pass
+        else:
+            df_registros = registrar_download(
+                df_registros, codigo, sindicatos, data_inicio, data_fim
+            )
+            codigos_baixados.add(str(codigo))
+            novos_registros_pagina += 1
+
+        i = j
+
+    if novos_registros_pagina:
+        print(f"    {novos_registros_pagina} registro(s) novo(s) gravado(s) no Excel nesta pagina.")
+
+    return sorted(set(codigos_pagina)), df_registros, codigos_baixados
+
+
+def processar_pagina_atual(driver, df_registros, codigos_baixados: set):
+    for tentativa in range(1, 3):
+        try:
+            codigos_pagina, df_registros, codigos_baixados = _processar_pagina_atual_uma_vez(
+                driver,
+                df_registros,
+                codigos_baixados
+            )
+            return codigos_pagina, df_registros, codigos_baixados
+        except StaleElementReferenceException:
+            print("    Pagina mudou durante processamento. Tentando novamente...")
+            time.sleep(3)
+
+    print("    Nao consegui processar esta pagina (stale element persistente).")
+    return [], df_registros, codigos_baixados
+
+
+# ================== PAGINACAO PELO <h2> "Pagina X de Y" ==================
+
+def obter_paginacao_h2(driver):
+    try:
+        h2 = driver.find_element(
+            By.XPATH,
+            "//h2[contains(., 'Instrumento(s) Coletivo(s) Encontrado(s)')]"
+        )
+    except NoSuchElementException:
+        return None, None
+    except Exception:
+        return None, None
+
+    texto = h2.text or ""
+    m = re.search(r"Pagina\s+(\d+)\s+de\s+(\d+)", texto)
+    if not m:
+        return None, None
+
+    try:
+        atual = int(m.group(1))
+        total = int(m.group(2))
+        return atual, total
+    except ValueError:
+        return None, None
+
+
+# ================== DETECCAO DE "PROCESSANDO" ==================
+
+def esta_processando(driver) -> bool:
+    try:
+        imagens = driver.find_elements(
+            By.XPATH,
+            "//img[contains(@src, 'imgProcessando') "
+            "or contains(translate(@alt,'CARREGANDO','carregando'),'carregando')]"
+        )
+
+        for img in imagens:
+            try:
+                if img.is_displayed():
+                    return True
+            except Exception:
+                continue
+
+    except Exception:
+        pass
+
+    return False
+
+
+# ================== LOCALIZAR BOTAO 'PROXIMO' ==================
+
+def encontrar_botao_proximo(driver):
+    candidatos = []
+    padroes = ["proximo", "proxima", "prox", ">>", "avancar", "seguir"]
+
+    try:
+        links = driver.find_elements(By.TAG_NAME, "a")
+    except Exception:
+        links = []
+
+    for a in links:
+        try:
+            texto = (a.text or "").strip()
+            title = (a.get_attribute("title") or "").strip()
+        except Exception:
+            continue
+
+        chave = normalizar_texto(texto or title)
+        if any(p in chave for p in padroes):
+            candidatos.append(a)
+
+    try:
+        botoes = driver.find_elements(
+            By.XPATH,
+            "//button | //input[@type='submit' or @type='button']"
+        )
+    except Exception:
+        botoes = []
+
+    for b in botoes:
+        try:
+            texto = (b.text or "").strip()
+            value = (b.get_attribute("value") or "").strip()
+        except Exception:
+            continue
+
+        chave = normalizar_texto(texto or value)
+        if any(p in chave for p in padroes):
+            candidatos.append(b)
+
+    if not candidatos:
+        return None
+
+    return candidatos[-1]
+
+
+def tentar_ir_para_proxima_pagina(driver, codigos_pagina_atual) -> bool:
+    pag_atual, total_paginas = obter_paginacao_h2(driver)
+
+    if pag_atual is not None and total_paginas is not None:
+        if pag_atual >= total_paginas:
+            return False
+
+    codigos_atual_chave = sorted(set(codigos_pagina_atual))
+
+    prox_num = None
+    if pag_atual is not None and total_paginas is not None and pag_atual < total_paginas:
+        prox_num = str(pag_atual + 1)
+
+    botao = encontrar_botao_proximo(driver)
+
+    if not botao and prox_num is not None:
+        candidatos = []
+        xpaths = [
+            f"//a[normalize-space(text())='{prox_num}']",
+            f"//button[normalize-space(text())='{prox_num}']",
+            f"//input[@type='submit' or @type='button'][normalize-space(@value)='{prox_num}']",
+            f"//table[.//a[contains(@onclick,'fDownload')]]//a[normalize-space(text())='{prox_num}']",
+        ]
+        for xp in xpaths:
+            try:
+                elems = driver.find_elements(By.XPATH, xp)
+            except Exception:
+                elems = []
+            for e in elems:
+                if e.is_displayed() and e.is_enabled():
+                    candidatos.append(e)
+        if candidatos:
+            botao = candidatos[0]
+
+    if not botao:
+        return False
+
+    if not (botao.is_displayed() and botao.is_enabled()):
+        return False
+
+    try:
+        driver.execute_script("arguments[0].click();", botao)
+    except Exception:
+        try:
+            botao.click()
+        except Exception:
+            return False
+
+    limite = time.time() + TIMEOUT_PAGINA
+
+    while time.time() < limite:
+        try:
+            if esta_processando(driver):
+                time.sleep(1)
+                continue
+
+            novo_pag, novo_total = obter_paginacao_h2(driver)
+            if pag_atual is not None and novo_pag is not None and novo_pag != pag_atual:
+                return True
+
+            codigos_novos = obter_codigos_da_tabela(driver)
+            codigos_novos_chave = sorted(set(codigos_novos))
+            if codigos_novos_chave and codigos_novos_chave != codigos_atual_chave:
+                return True
+
+        except StaleElementReferenceException:
+            time.sleep(1)
+            continue
+        except Exception:
+            time.sleep(1)
+            continue
+
+        time.sleep(1)
+
+    return False
+
+
+# ================== ESPERAR RESULTADOS DA PESQUISA ==================
+
+def esperar_resultados(driver, timeout=TIMEOUT_RESULTADOS):
+    limite = time.time() + timeout
+    while time.time() < limite:
+        try:
+            if esta_processando(driver):
+                time.sleep(1)
+                continue
+
+            links = driver.find_elements(
+                By.XPATH,
+                "//table[.//a[contains(@onclick,'fDownload')]]//a[contains(@onclick,'fDownload')]"
+            )
+            if links:
+                return "tem"
+
+            zero = driver.find_elements(
+                By.XPATH,
+                "//*[contains(normalize-space(.), 'Resultado: 0 Instrumento')]"
+            )
+            if zero:
+                return "zero"
+        except StaleElementReferenceException:
+            pass
+        except Exception:
+            pass
+
+        time.sleep(1)
+
+    return "timeout"
+
+
+# ================== SINCRONIZAR EXCEL x PASTA ==================
+
+def sincronizar_registros_e_pasta(df_registros: pd.DataFrame, codigos_baixados: set):
+    """
+    - Se df_registros estiver vazio: não mexe em nada na pasta.
+    - Se tiver registros:
+        * Remove registros cujo arquivo correspondente não exista.
+        * Remove arquivos cujo nome-base não corresponda a nenhum codigo registrado.
+    """
+    try:
+        arquivos = os.listdir(LIMPOS_DIR)
+    except FileNotFoundError:
+        arquivos = []
+
+    # nomes-base de arquivos na pasta (sem extensão)
+    codigos_pasta = set()
+    for nome in arquivos:
+        caminho = os.path.join(LIMPOS_DIR, nome)
+        if not os.path.isfile(caminho):
+            continue
+        base, ext = os.path.splitext(nome)
+        if not base or not ext:
+            continue
+        codigos_pasta.add(base)
+
+    # se nao ha registros, nao sincroniza para nao sair apagando tudo
+    if df_registros.empty:
+        return df_registros, codigos_baixados
+
+    # gera chave limpa para cada codigo do Excel
+    codigos_reg = df_registros["codigo"].astype(str)
+    chaves_reg = codigos_reg.map(codigo_para_nome_arquivo)
+
+    # quais registros têm arquivo correspondente?
+    mask_keep = chaves_reg.isin(codigos_pasta)
+    removidos_registros = (~mask_keep).sum()
+    codigos_removidos = set(df_registros.loc[~mask_keep, "codigo"].astype(str))
+
+    if removidos_registros > 0:
+        df_registros = df_registros[mask_keep].reset_index(drop=True)
+        codigos_baixados = {c for c in codigos_baixados if c not in codigos_removidos}
+
+    # chaves válidas (nomes-base) após a limpeza
+    chaves_validas = set(chaves_reg[mask_keep])
+
+    removidos_arquivos = 0
+    for nome in arquivos:
+        caminho = os.path.join(LIMPOS_DIR, nome)
+        if not os.path.isfile(caminho):
+            continue
+        base, ext = os.path.splitext(nome)
+        if not base or not ext:
+            continue
+        if base not in chaves_validas:
+            try:
+                os.remove(caminho)
+                removidos_arquivos += 1
+            except OSError:
+                pass
+
+    if removidos_registros or removidos_arquivos:
+        df_registros.to_excel(EXCEL_REGISTROS, index=False)
+        print(
+            f"  Sincronizacao: {removidos_registros} registro(s) sem arquivo removido(s), "
+            f"{removidos_arquivos} arquivo(s) sem registro apagado(s)."
+        )
+
+    return df_registros, codigos_baixados
+
+
+# ================== FLUXO POR CNPJ (COM STATUS) ==================
+
+def baixar_por_cnpj(cnpj: str, df_registros: pd.DataFrame, codigos_baixados: set):
+    """
+    status possiveis:
+      - "ok"
+      - "zero"
+      - "erro_pesquisa"
+      - "erro_paginacao"
+      - "erro"
+    """
+    driver = get_firefox_driver(LIMPOS_DIR)
+    wait = WebDriverWait(driver, 60)
+    status = "ok"
+
+    try:
+        driver.get(URL)
+        time.sleep(3)
+
+        chk_cnpj = wait.until(EC.element_to_be_clickable((By.ID, "chkNRCNPJ")))
+        driver.execute_script("arguments[0].click();", chk_cnpj)
+        time.sleep(1)
+
+        driver.execute_script(f"document.getElementById('txtNRCNPJ').value = '{cnpj}';")
+        try:
+            driver.execute_script("$('#txtNRCNPJ').trigger('change');")
+        except Exception:
+            pass
+        time.sleep(1)
+
+        chk_vig = wait.until(EC.element_to_be_clickable((By.ID, "chkVigencia")))
+        driver.execute_script("arguments[0].click();", chk_vig)
+        time.sleep(1)
+
+        sel_vig = wait.until(EC.presence_of_element_located((By.ID, "cboSTVigencia")))
+        driver.execute_script("arguments[0].value = '2';", sel_vig)
+        try:
+            driver.execute_script("$('#cboSTVigencia').trigger('change');")
+        except Exception:
+            pass
+        time.sleep(1)
+
+        driver.execute_script(
+            f"document.getElementById('txtDTInicioVigencia').value='{DT_INICIO_PADRAO}';"
+        )
+        driver.execute_script(
+            f"document.getElementById('txtDTFimVigencia').value='{DT_FIM_PADRAO}';"
+        )
+        time.sleep(1)
+
+        btn_pesquisar = wait.until(EC.element_to_be_clickable((By.ID, "btnPesquisar")))
+        driver.execute_script("arguments[0].click();", btn_pesquisar)
+
+        status_busca = esperar_resultados(driver, timeout=TIMEOUT_RESULTADOS)
+        if status_busca == "zero":
+            status = "zero"
+        elif status_busca == "timeout":
+            status = "erro_pesquisa"
+        else:
+            paginas_visitadas = set()
+
+            while True:
+                pag_atual, total_paginas = obter_paginacao_h2(driver)
+                if pag_atual is None:
+                    pag_atual = len(paginas_visitadas) + 1
+
+                if pag_atual in paginas_visitadas:
+                    break
+
+                paginas_visitadas.add(pag_atual)
+
+                if total_paginas is not None:
+                    print(f"    Pagina {pag_atual} de {total_paginas}")
+                else:
+                    print(f"    Pagina {pag_atual}")
+
+                codigos_pagina, df_registros, codigos_baixados = processar_pagina_atual(
+                    driver,
+                    df_registros,
+                    codigos_baixados
+                )
+
+                if not codigos_pagina:
+                    break
+
+                if total_paginas is not None and pag_atual >= total_paginas:
+                    break
+
+                if not tentar_ir_para_proxima_pagina(driver, codigos_pagina):
+                    pag_aux, total_aux = obter_paginacao_h2(driver)
+                    if pag_aux is not None and total_aux is not None and pag_aux < total_aux:
+                        status = "erro_paginacao"
+                    break
+
+        df_registros.to_excel(EXCEL_REGISTROS, index=False)
+
+    except Exception:
+        status = "erro"
+    finally:
+        driver.quit()
+
+    return df_registros, codigos_baixados, status
+
+
+# ================== PROCESSAR LISTA DE CNPJs (UMA RODADA) ==================
+
+def processar_lista_cnpjs(lista_cnpjs, df_registros, codigos_baixados,
+                          mapa_posicoes, total_cnpjs_arquivo):
+    failed_cnpjs = []
+
+    for cnpj in lista_cnpjs:
+        df_registros, codigos_baixados = sincronizar_registros_e_pasta(df_registros, codigos_baixados)
+
+        pos = mapa_posicoes.get(cnpj, "?")
+        print(f"\n[{pos}/{total_cnpjs_arquivo}] CNPJ: {cnpj}")
+
+        last_status = None
+        statuses_tentativas = []
+
+        for tentativa in range(1, MAX_TENTATIVAS_CNPJ + 1):
+            if MAX_TENTATIVAS_CNPJ > 1:
+                print(f"  Tentativa {tentativa}/{MAX_TENTATIVAS_CNPJ}...")
+
+            df_registros, codigos_baixados, status = baixar_por_cnpj(
+                cnpj,
+                df_registros,
+                codigos_baixados
+            )
+            last_status = status
+            statuses_tentativas.append(status)
+
+            if status in ("ok", "zero"):
+                print(f"  Status final: {status}")
+                registrar_cnpj_completo(cnpj, status, tentativa)
+                break
+            else:
+                print(f"  Status: {status}")
+
+        else:
+            print("  Falha apos todas as tentativas.")
+
+            if last_status == "erro_pesquisa":
+                status_registro_final = "CNPJ ERRADO E / OU SEM RESULTADOS"
+            else:
+                status_registro_final = last_status
+
+            failed_cnpjs.append({
+                "cnpj": cnpj,
+                "status_final": last_status,
+                "tentativas_realizadas": MAX_TENTATIVAS_CNPJ
+            })
+
+            registrar_cnpj_completo(cnpj, status_registro_final, MAX_TENTATIVAS_CNPJ)
+
+            if len(statuses_tentativas) >= 2 and \
+               statuses_tentativas[-1] == "erro_pesquisa" and \
+               statuses_tentativas[-2] == "erro_pesquisa":
+                registrar_cnpj_invalido(cnpj, last_status, MAX_TENTATIVAS_CNPJ)
+
+    return df_registros, codigos_baixados, failed_cnpjs
+
+
+# ================== FILTRAR CNPJs JÁ COMPLETOS ==================
+
+def filtrar_cnpjs_completos(cnpjs_lista):
+    if not cnpjs_lista:
+        return cnpjs_lista
+
+    if not os.path.exists(EXCEL_CNPJS_COMPLETOS):
+        return cnpjs_lista
+
+    try:
+        df_comp = pd.read_excel(EXCEL_CNPJS_COMPLETOS, dtype=str)
+    except Exception:
+        print("Nao foi possivel ler cnpjs_completos.xlsx. Sem filtro de completos.")
+        return cnpjs_lista
+
+    if "cnpj" not in df_comp.columns:
+        print("cnpjs_completos.xlsx sem coluna 'cnpj'. Sem filtro de completos.")
+        return cnpjs_lista
+
+    df_comp["cnpj"] = df_comp["cnpj"].astype(str)
+
+    if "status_final" in df_comp.columns:
+        df_comp["status_final"] = df_comp["status_final"].astype(str)
+        mask_non_error = ~df_comp["status_final"].str.lower().str.startswith("erro")
+        df_ok = df_comp[mask_non_error]
+    else:
+        df_ok = df_comp
+
+    completados = set(df_ok["cnpj"].dropna().astype(str))
+    if not completados:
+        return cnpjs_lista
+
+    filtrada = [c for c in cnpjs_lista if str(c) not in completados]
+    removidos = len(cnpjs_lista) - len(filtrada)
+
+    if removidos > 0:
+        print(f"{removidos} CNPJs removidos por ja constarem como concluidos (sem erro).")
+
+    return filtrada
+
+
+# ================== ESCOLHA DA LISTA DE CNPJs ==================
+
+def carregar_lista_cnpjs():
+    print("Selecione o modo de execucao:")
+    print("  1 - Processar TODOS os CNPJs do arquivo cnpjs.xlsx")
+    print("  2 - Processar apenas CNPJs ainda NAO concluidos (filtro pelos cnpjs_completos.xlsx)")
+    opc = input("Digite 1 ou 2 e pressione Enter: ").strip()
+
+    print(f"Lendo arquivo de CNPJs original: {EXCEL_CNPJS} ...")
+    df_cnpjs = pd.read_excel(EXCEL_CNPJS)
+
+    col_cnpj = df_cnpjs.iloc[:, 0].dropna().astype(str).tolist()
+    total_cnpjs_arquivo = len(col_cnpj)
+    print(f"{total_cnpjs_arquivo} CNPJs carregados de cnpjs.xlsx.")
+
+    mapa_posicoes = {}
+    for idx, cnpj_val in enumerate(df_cnpjs.iloc[:, 0].astype(str), start=1):
+        if pd.isna(cnpj_val):
+            continue
+        cnpj_str = str(cnpj_val)
+        if cnpj_str not in mapa_posicoes:
+            mapa_posicoes[cnpj_str] = idx
+
+    cnpjs = col_cnpj
+
+    if opc == "2":
+        cnpjs_filtrados = filtrar_cnpjs_completos(cnpjs)
+        print(f"{len(cnpjs_filtrados)} CNPJs restantes apos filtro de completos.")
+        return cnpjs_filtrados, mapa_posicoes, total_cnpjs_arquivo
+    else:
+        print("Filtro de completos nao aplicado. Todos os CNPJs serao processados.")
+        return cnpjs, mapa_posicoes, total_cnpjs_arquivo
+
+
+# ================== MAIN ==================
+
+def main():
+    global EXISTING_CODES, NOVOS_CODIGOS_EXECUCAO
+
+    cnpjs, mapa_posicoes, total_cnpjs_arquivo = carregar_lista_cnpjs()
+
+    if os.path.exists(EXCEL_REGISTROS):
+        print(f"Lendo Excel de registros existente: {EXCEL_REGISTROS}")
+        try:
+            df_registros = pd.read_excel(EXCEL_REGISTROS, dtype=str)
+        except Exception as e:
+            print(f"Arquivo de registros parece estar corrompido ou invalido ({e}).")
+            backup = EXCEL_REGISTROS + ".corrompido"
+            try:
+                os.replace(EXCEL_REGISTROS, backup)
+                print(f"Arquivo antigo renomeado para: {backup}")
+            except OSError:
+                print("Nao foi possivel renomear o arquivo de registros. Prosseguindo com um novo em branco.")
+            df_registros = pd.DataFrame(columns=["codigo", "sindicatos", "data_inicio", "data_fim"])
+    else:
+        df_registros = pd.DataFrame(columns=["codigo", "sindicatos", "data_inicio", "data_fim"])
+
+    expected_cols = ["codigo", "sindicatos", "data_inicio", "data_fim"]
+    for col in expected_cols:
+        if col not in df_registros.columns:
+            df_registros[col] = ""
+
+    for col in df_registros.columns:
+        df_registros[col] = df_registros[col].astype(str)
+
+    if not df_registros.empty:
+        mask_valid = (
+            df_registros["sindicatos"].str.strip().ne("") &
+            df_registros["data_inicio"].str.strip().ne("") &
+            df_registros["data_fim"].str.strip().ne("") &
+            df_registros["codigo"].str.strip().ne("")
+        )
+        df_registros = df_registros[mask_valid].reset_index(drop=True)
+
+    if not df_registros.empty:
+        EXISTING_CODES = set(df_registros["codigo"].astype(str).tolist())
+    else:
+        EXISTING_CODES = set()
+
+    NOVOS_CODIGOS_EXECUCAO = set()
+
+    codigos_baixados = set(df_registros["codigo"].astype(str).tolist())
+    print(f"{len(codigos_baixados)} codigos ja registrados.")
+
+    lista_cnpjs_atual = cnpjs
+    falhas_final = []
+
+    for rodada in range(1, MAX_RODADAS_CNPJS + 1):
+        print(f"\n========== Rodada {rodada}/{MAX_RODADAS_CNPJS} ==========")
+
+        df_registros, codigos_baixados, failed_cnpjs = processar_lista_cnpjs(
+            lista_cnpjs_atual,
+            df_registros,
+            codigos_baixados,
+            mapa_posicoes,
+            total_cnpjs_arquivo
+        )
+
+        if not failed_cnpjs:
+            print("\nTodos os CNPJs desta rodada foram processados.")
+            falhas_final = []
+            break
+
+        falhas_final = failed_cnpjs
+
+        if rodada < MAX_RODADAS_CNPJS:
+            lista_cnpjs_atual = [
+                item["cnpj"] for item in failed_cnpjs
+                if item["status_final"] != "erro_pesquisa"
+            ]
+            print(f"{len(lista_cnpjs_atual)} CNPJs com falha reprocessavel. Proxima rodada apenas com eles.")
+            if not lista_cnpjs_atual:
+                print("Nao ha CNPJs com erro reprocessavel. Encerrando rodadas.")
+                break
+        else:
+            print(f"{len(falhas_final)} CNPJs permaneceram com falha apos todas as rodadas.")
+
+    df_registros.drop_duplicates(subset=["codigo"], keep="first", inplace=True)
+    df_registros.to_excel(EXCEL_REGISTROS, index=False)
+
+    print("\nResumo final:")
+    print(f"  Registros totais no Excel: {len(df_registros)}")
+    print(f"  Arquivo de registros: {EXCEL_REGISTROS}")
+    print(f"  Pasta de arquivos baixados: {LIMPOS_DIR}")
+
+    if falhas_final:
+        df_falhos = pd.DataFrame(
+            falhas_final,
+            columns=["cnpj", "status_final", "tentativas_realizadas"]
+        )
+        df_falhos.to_excel(EXCEL_CNPJS_ERROS, index=False)
+        print(f"  CNPJs com erro continuo salvos em: {EXCEL_CNPJS_ERROS}")
+    else:
+        if os.path.exists(EXCEL_CNPJS_ERROS):
+            os.remove(EXCEL_CNPJS_ERROS)
+
+    if NOVOS_CODIGOS_EXECUCAO:
+        df_novos = df_registros[
+            df_registros["codigo"].astype(str).isin(NOVOS_CODIGOS_EXECUCAO)
+        ].copy()
+        df_novos.to_excel(EXCEL_ENTRADAS_NOVAS, index=False)
+        print(f"  ENTRADAS NOVAS: {len(df_novos)} (arquivo: {EXCEL_ENTRADAS_NOVAS})")
+    else:
+        if os.path.exists(EXCEL_ENTRADAS_NOVAS):
+            os.remove(EXCEL_ENTRADAS_NOVAS)
+
+
+if __name__ == "__main__":
+    main()
+

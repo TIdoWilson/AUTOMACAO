@@ -1,0 +1,2620 @@
+[2026-01-30 15:30:33] Clique: clique inicial (401, 463)
+[2026-01-30 15:30:33] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-01-30 15:30:33] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 15:30:33] Diretorio destino: W:\SPEDs\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 15:30:33] Aguardando 2s: preparar a tela
+[2026-01-30 15:30:35] ALT + MPG
+[2026-01-30 15:30:36] Clique: ano calendario (766, 312)
+[2026-01-30 15:30:36] Clique: diretorio destino (948, 358)
+[2026-01-30 15:30:37] Aguardando 0.5s: pos-diretorio
+[2026-01-30 15:30:38] Clique: gerar DMPL (1060, 533)
+[2026-01-30 15:30:38] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-01-30 15:30:38] Clique: gerar registros plano referencial (737, 534)
+[2026-01-30 15:30:38] Clique: adicionar arquivos rtf (1059, 555)
+[2026-01-30 15:30:38] Clique: tipo de documento (792, 434)
+[2026-01-30 15:30:39] Clique: selecionar arquivo rtf (880, 472)
+[2026-01-30 15:30:41] Clique: aba demonstracoes contabeis (840, 287)
+[2026-01-30 15:30:41] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-01-30 15:30:41] Clique: validar (1283, 347)
+[2026-01-30 15:30:41] Clique: validar v2 (1302, 359)
+[2026-01-30 15:31:50] Clique: clique inicial (401, 463)
+[2026-01-30 15:31:50] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-01-30 15:31:50] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 15:31:50] Diretorio destino: W:\SPEDs\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 15:31:50] Aguardando 2s: preparar a tela
+[2026-01-30 15:31:52] ALT + MPG
+[2026-01-30 15:31:53] Clique: ano calendario (766, 312)
+[2026-01-30 15:31:53] Clique: diretorio destino (948, 358)
+[2026-01-30 15:31:54] Aguardando 0.5s: pos-diretorio
+[2026-01-30 15:31:55] Clique: gerar DMPL (1060, 533)
+[2026-01-30 15:31:55] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-01-30 15:31:55] Clique: gerar registros plano referencial (737, 534)
+[2026-01-30 15:31:55] Clique: adicionar arquivos rtf (1059, 555)
+[2026-01-30 15:31:55] Clique: tipo de documento (792, 434)
+[2026-01-30 15:31:56] Clique: selecionar arquivo rtf (880, 472)
+[2026-01-30 15:31:58] Clique: continuar rtf (1229, 424)
+[2026-01-30 15:31:58] Clique: aba demonstracoes contabeis (840, 287)
+[2026-01-30 15:31:58] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-01-30 15:31:58] Clique: validar (1283, 347)
+[2026-01-30 15:31:58] Clique: validar v2 (1302, 359)
+[2026-01-30 15:33:12] Clique: clique inicial (401, 463)
+[2026-01-30 15:33:12] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-01-30 15:33:12] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 15:33:12] Diretorio destino: W:\SPEDs\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 15:33:12] Aguardando 2s: preparar a tela
+[2026-01-30 15:33:14] ALT + MPG
+[2026-01-30 15:33:15] Clique: ano calendario (766, 312)
+[2026-01-30 15:33:16] Clique: diretorio destino (948, 358)
+[2026-01-30 15:33:17] Aguardando 0.5s: pos-diretorio
+[2026-01-30 15:33:17] Clique: gerar DMPL (1060, 533)
+[2026-01-30 15:33:17] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-01-30 15:33:17] Clique: gerar registros plano referencial (737, 534)
+[2026-01-30 15:33:17] Clique: adicionar arquivos rtf (1059, 555)
+[2026-01-30 15:33:18] Clique: tipo de documento (792, 434)
+[2026-01-30 15:33:18] Clique: selecionar arquivo rtf (880, 472)
+[2026-01-30 15:33:20] Clique: continuar rtf (1229, 424)
+[2026-01-30 15:33:20] Clique: aba demonstracoes contabeis (840, 287)
+[2026-01-30 15:33:20] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-01-30 15:33:20] Clique: validar (1283, 347)
+[2026-01-30 15:33:20] Clique: validar v2 (1302, 359)
+[2026-01-30 15:36:37] Clique: clique inicial (401, 463)
+[2026-01-30 15:36:37] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-01-30 15:36:37] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 15:36:37] Diretorio destino: W:\SPEDs\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 15:36:37] Aguardando 2s: preparar a tela
+[2026-01-30 15:36:39] ALT + MPG
+[2026-01-30 15:36:40] Clique: ano calendario (766, 312)
+[2026-01-30 15:36:40] Clique: diretorio destino (948, 358)
+[2026-01-30 15:36:41] Aguardando 0.5s: pos-diretorio
+[2026-01-30 15:36:42] Clique: gerar DMPL (1060, 533)
+[2026-01-30 15:36:42] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-01-30 15:36:42] Clique: gerar registros plano referencial (737, 534)
+[2026-01-30 15:36:42] Clique: adicionar arquivos rtf (1059, 555)
+[2026-01-30 15:36:43] Clique: tipo de documento (792, 434)
+[2026-01-30 15:36:43] Clique: selecionar arquivo rtf (880, 472)
+[2026-01-30 15:36:45] Clique: continuar rtf (1229, 424)
+[2026-01-30 15:36:45] Clique: aba demonstracoes contabeis (840, 287)
+[2026-01-30 15:36:45] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-01-30 15:36:45] Clique: validar (1283, 347)
+[2026-01-30 15:36:45] Clique: validar v2 (1302, 359)
+[2026-01-30 15:36:46] Aguardando aviso... restante 120s
+[2026-01-30 15:36:56] Aviso do Sistema localizado.
+[2026-01-30 15:36:56] Aviso localizado. Aguardando coordenada do OK para finalizar.
+[2026-01-30 15:36:56] Finalizado.
+[2026-01-30 15:38:15] Clique: clique inicial (401, 463)
+[2026-01-30 15:38:15] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-01-30 15:38:15] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 15:38:15] Diretorio destino: W:\SPEDs\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 15:38:15] Aguardando 2s: preparar a tela
+[2026-01-30 15:38:17] ALT + MPG
+[2026-01-30 15:38:17] Clique: ano calendario (766, 312)
+[2026-01-30 15:38:18] Clique: diretorio destino (948, 358)
+[2026-01-30 15:38:19] Aguardando 0.5s: pos-diretorio
+[2026-01-30 15:38:19] Clique: gerar DMPL (1060, 533)
+[2026-01-30 15:38:19] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-01-30 15:38:20] Clique: gerar registros plano referencial (737, 534)
+[2026-01-30 15:38:20] Clique: adicionar arquivos rtf (1059, 555)
+[2026-01-30 15:38:20] Clique: tipo de documento (792, 434)
+[2026-01-30 15:38:20] Clique: selecionar arquivo rtf (880, 472)
+[2026-01-30 15:38:22] Clique: continuar rtf (1229, 424)
+[2026-01-30 15:38:22] Clique: aba demonstracoes contabeis (840, 287)
+[2026-01-30 15:38:23] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-01-30 15:38:23] Clique: validar (1283, 347)
+[2026-01-30 15:38:23] Clique: validar v2 (1302, 359)
+[2026-01-30 15:38:23] Aguardando aviso... restante 120s
+[2026-01-30 15:38:33] Aviso do Sistema localizado.
+[2026-01-30 15:38:33] Aguardando 0.5s: fechar aviso
+[2026-01-30 15:38:34] Clique: voltar validacao (1301, 388)
+[2026-01-30 15:38:34] Aguardando coordenada do OK para finalizar.
+[2026-01-30 15:38:34] Finalizado.
+[2026-01-30 16:25:46] Clique: clique inicial (401, 463)
+[2026-01-30 16:25:46] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-01-30 16:25:46] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 16:25:46] Diretorio destino: W:\SPEDs\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 16:25:46] Aguardando 2s: preparar a tela
+[2026-01-30 16:25:49] ALT + MPG
+[2026-01-30 16:25:49] Clique: ano calendario (766, 312)
+[2026-01-30 16:25:50] Clique: diretorio destino (948, 358)
+[2026-01-30 16:25:51] Aguardando 0.5s: pos-diretorio
+[2026-01-30 16:25:51] Clique: gerar DMPL (1060, 533)
+[2026-01-30 16:25:51] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-01-30 16:25:51] Clique: gerar registros plano referencial (737, 534)
+[2026-01-30 16:25:51] Clique: adicionar arquivos rtf (1059, 555)
+[2026-01-30 16:25:52] Clique: tipo de documento (792, 434)
+[2026-01-30 16:25:52] Clique: selecionar arquivo rtf (880, 472)
+[2026-01-30 16:25:54] Clique: continuar rtf (1229, 424)
+[2026-01-30 16:25:54] Clique: aba demonstracoes contabeis (840, 287)
+[2026-01-30 16:25:54] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-01-30 16:25:55] Clique: validar (1283, 347)
+[2026-01-30 16:25:55] Clique: validar v2 (1302, 359)
+[2026-01-30 16:25:55] Aviso do Sistema ja presente. Fechando aviso.
+[2026-01-30 16:25:55] Aguardando 0.5s: fechar aviso
+[2026-01-30 16:25:55] Clique: voltar validacao (1301, 388)
+[2026-01-30 16:25:55] Aguardando coordenada do OK para finalizar.
+[2026-01-30 16:25:56] Finalizado.
+[2026-02-02 10:06:10] Clique: clique inicial (401, 463)
+[2026-02-02 10:06:10] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 10:06:10] Empresa: AGRABEL CAMINHOES LTDA
+[2026-02-02 10:06:10] Diretorio destino: W:\SPEDs\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-02-02 10:06:10] Aguardando 2s: preparar a tela
+[2026-02-02 10:06:12] DFC: sim | Simples: Normal
+[2026-02-02 10:06:12] ALT + MPG
+[2026-02-02 10:06:13] Clique: ano calendario (766, 312)
+[2026-02-02 10:06:13] Clique: diretorio destino (948, 358)
+[2026-02-02 10:06:14] Aguardando 0.5s: pos-diretorio
+[2026-02-02 10:06:15] Clique: gerar DMPL (1060, 533)
+[2026-02-02 10:06:15] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 10:06:15] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 10:06:15] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 10:06:15] Clique: tipo de documento (792, 434)
+[2026-02-02 10:06:16] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 10:06:18] Clique: adicionar rtf (1123, 466)
+[2026-02-02 10:06:18] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-02 10:06:18] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-02 10:06:20] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-02 10:06:20] Clique: continuar rtf (1229, 424)
+[2026-02-02 10:06:20] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 10:06:20] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 10:06:20] Clique: validar (1283, 347)
+[2026-02-02 10:06:20] Clique: validar v2 (1302, 359)
+[2026-02-02 10:06:20] Aguardando aviso... restante 120s
+[2026-02-02 10:06:31] Aviso do Sistema localizado.
+[2026-02-02 10:06:31] Aguardando 0.5s: fechar aviso
+[2026-02-02 10:06:31] Clique: voltar validacao (1301, 388)
+[2026-02-02 10:06:32] Aguardando coordenada do OK para finalizar.
+[2026-02-02 10:06:32] Finalizado.
+[2026-02-02 10:13:09] Clique: clique inicial (401, 463)
+[2026-02-02 10:13:09] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 10:13:09] Empresa: AGRABEL CAMINHOES LTDA
+[2026-02-02 10:13:09] Diretorio destino: W:\SPEDs\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-02-02 10:13:09] Aguardando 2s: preparar a tela
+[2026-02-02 10:13:11] DFC: sim | Simples: Normal
+[2026-02-02 10:13:11] ALT + MPG
+[2026-02-02 10:13:12] Clique: ano calendario (766, 312)
+[2026-02-02 10:13:12] Clique: diretorio destino (948, 358)
+[2026-02-02 10:13:13] Aguardando 0.5s: pos-diretorio
+[2026-02-02 10:13:14] Clique: gerar DMPL (1060, 533)
+[2026-02-02 10:13:14] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 10:13:14] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 10:13:14] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 10:13:14] Clique: tipo de documento (792, 434)
+[2026-02-02 10:13:15] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 10:13:17] Clique: adicionar rtf (1123, 466)
+[2026-02-02 10:13:17] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-02 10:13:17] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-02 10:13:19] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-02 10:13:19] Clique: continuar rtf (1229, 424)
+[2026-02-02 10:13:19] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 10:13:20] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 10:13:20] Clique: validar (1283, 347)
+[2026-02-02 10:13:20] Clique: validar v2 (1302, 359)
+[2026-02-02 10:13:20] Clique: ok validacao (1284, 293)
+[2026-02-02 10:13:20] Aviso do Sistema ja presente. Confirmando com ENTER.
+[2026-02-02 10:13:20] Aguardando 10s: aguardar 10s antes do enter
+[2026-02-02 10:13:30] Aguardando 0.5s: confirmar aviso
+[2026-02-02 10:13:31] Clique: voltar validacao (1301, 388)
+[2026-02-02 10:13:31] Aguardando coordenada do OK para finalizar.
+[2026-02-02 10:13:31] Finalizado.
+[2026-02-02 10:14:16] Clique: clique inicial (401, 463)
+[2026-02-02 10:14:16] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 10:14:16] Empresa: AGRABEL CAMINHOES LTDA
+[2026-02-02 10:14:16] Diretorio destino: W:\SPEDs\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-02-02 10:14:16] Aguardando 2s: preparar a tela
+[2026-02-02 10:14:18] DFC: sim | Simples: Normal
+[2026-02-02 10:14:18] ALT + MPG
+[2026-02-02 10:14:18] Clique: ano calendario (766, 312)
+[2026-02-02 10:14:19] Clique: diretorio destino (948, 358)
+[2026-02-02 10:14:20] Aguardando 0.5s: pos-diretorio
+[2026-02-02 10:14:20] Clique: gerar DMPL (1060, 533)
+[2026-02-02 10:14:20] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 10:14:21] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 10:14:21] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 10:14:21] Clique: tipo de documento (792, 434)
+[2026-02-02 10:14:21] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 10:14:23] Clique: adicionar rtf (1123, 466)
+[2026-02-02 10:14:23] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-02 10:14:24] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-02 10:14:25] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-02 10:14:26] Clique: continuar rtf (1229, 424)
+[2026-02-02 10:14:26] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 10:14:26] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 10:14:26] Clique: validar (1283, 347)
+[2026-02-02 10:14:26] Clique: validar v2 (1302, 359)
+[2026-02-02 10:14:26] Clique: ok validacao (1284, 293)
+[2026-02-02 10:14:26] Aguardando aviso... restante 120s
+[2026-02-02 10:14:37] Aviso do Sistema localizado.
+[2026-02-02 10:14:37] Clique: aviso: sim (857, 251)
+[2026-02-02 10:14:37] Aguardando 10s: aguardar 10s antes do enter
+[2026-02-02 10:16:54] Clique: clique inicial (401, 463)
+[2026-02-02 10:16:54] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 10:16:54] Empresa: AGRABEL CAMINHOES LTDA
+[2026-02-02 10:16:54] Diretorio destino: W:\SPEDs\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-02-02 10:16:54] Aguardando 2s: preparar a tela
+[2026-02-02 10:16:56] DFC: sim | Simples: Normal
+[2026-02-02 10:16:56] ALT + MPG
+[2026-02-02 10:16:57] Clique: ano calendario (766, 312)
+[2026-02-02 10:16:58] Clique: diretorio destino (948, 358)
+[2026-02-02 10:16:59] Aguardando 0.5s: pos-diretorio
+[2026-02-02 10:16:59] Clique: gerar DMPL (1060, 533)
+[2026-02-02 10:16:59] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 10:16:59] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 10:16:59] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 10:17:00] Clique: tipo de documento (792, 434)
+[2026-02-02 10:17:00] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 10:17:02] Clique: adicionar rtf (1123, 466)
+[2026-02-02 10:17:02] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-02 10:17:02] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-02 10:17:04] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-02 10:17:04] Clique: continuar rtf (1229, 424)
+[2026-02-02 10:17:04] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 10:17:04] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 10:17:05] Clique: validar (1283, 347)
+[2026-02-02 10:17:05] Clique: validar v2 (1302, 359)
+[2026-02-02 10:17:05] Clique: ok validacao (1284, 293)
+[2026-02-02 10:17:05] Aguardando aviso... restante 120s
+[2026-02-02 10:17:15] Aviso do Sistema localizado.
+[2026-02-02 10:17:15] Clique: aviso: sim (857, 251)
+[2026-02-02 10:17:15] Aguardando 10s: aguardar 10s antes do enter
+[2026-02-02 10:17:26] Aguardando 0.5s: confirmar aviso
+[2026-02-02 10:17:26] Clique: voltar validacao (1301, 388)
+[2026-02-02 10:17:26] Aguardando coordenada do OK para finalizar.
+[2026-02-02 10:17:26] Finalizado.
+[2026-02-02 10:20:22] Clique: clique inicial (401, 463)
+[2026-02-02 10:20:22] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 10:20:22] Empresa: NOME DA EMPRESA --pre-validar
+[2026-02-02 10:20:22] Diretorio destino: W:\SPEDs\ECD\2025\NOME DA EMPRESA --pre-validar
+[2026-02-02 10:20:22] Aguardando 2s: preparar a tela
+[2026-02-02 10:20:24] Empresa nao localizada no status: NOME DA EMPRESA --pre-validar
+[2026-02-02 10:20:33] DFC: sim | Simples: Normal
+[2026-02-02 10:20:33] ALT + MPG
+[2026-02-02 10:20:34] Clique: ano calendario (766, 312)
+[2026-02-02 10:20:34] Clique: diretorio destino (948, 358)
+[2026-02-02 10:20:35] Aguardando 0.5s: pos-diretorio
+[2026-02-02 10:20:36] Clique: gerar DMPL (1060, 533)
+[2026-02-02 10:20:36] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 10:20:36] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 10:20:36] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 10:20:37] Clique: tipo de documento (792, 434)
+[2026-02-02 10:20:37] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 10:20:39] Clique: adicionar rtf (1123, 466)
+[2026-02-02 10:20:39] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-02 10:20:39] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-02 10:20:41] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-02 10:20:42] Clique: continuar rtf (1229, 424)
+[2026-02-02 10:20:42] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 10:20:42] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 10:20:42] Modo pre-validar ativo. Encerrando antes da validacao.
+[2026-02-02 10:21:31] Empresa nao localizada no status: NOME DA EMPRESA --pre-validar
+[2026-02-02 10:21:40] Empresa nao localizada no status: NOME DA EMPRESA --pre-validar
+[2026-02-02 10:21:44] Clique: clique inicial (401, 463)
+[2026-02-02 10:21:44] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 10:21:44] Empresa: NOME DA EMPRESA --pre-validar
+[2026-02-02 10:21:44] Diretorio destino: W:\SPEDs\ECD\2025\NOME DA EMPRESA --pre-validar
+[2026-02-02 10:21:44] Aguardando 2s: preparar a tela
+[2026-02-02 10:21:46] DFC: sim | Simples: Normal
+[2026-02-02 10:21:46] ALT + MPG
+[2026-02-02 10:21:47] Clique: ano calendario (766, 312)
+[2026-02-02 10:21:47] Clique: diretorio destino (948, 358)
+[2026-02-02 10:21:48] Aguardando 0.5s: pos-diretorio
+[2026-02-02 10:21:49] Clique: gerar DMPL (1060, 533)
+[2026-02-02 10:21:49] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 10:21:49] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 10:21:49] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 10:21:50] Clique: tipo de documento (792, 434)
+[2026-02-02 10:21:50] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 10:21:52] Clique: adicionar rtf (1123, 466)
+[2026-02-02 10:21:52] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-02 10:21:52] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-02 10:21:54] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-02 10:21:55] Clique: continuar rtf (1229, 424)
+[2026-02-02 10:21:55] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 10:21:55] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 10:21:55] Modo pre-validar ativo. Encerrando antes da validacao.
+[2026-02-02 10:22:17] Empresa nao localizada no status: NOME DA EMPRESA --pre-validar
+[2026-02-02 10:22:20] Clique: clique inicial (401, 463)
+[2026-02-02 10:22:20] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 10:22:20] Empresa: NOME DA EMPRESA --pre-validar
+[2026-02-02 10:22:20] Diretorio destino: W:\SPEDs\ECD\2025\NOME DA EMPRESA --pre-validar
+[2026-02-02 10:22:20] Aguardando 2s: preparar a tela
+[2026-02-02 10:22:22] DFC: sim | Simples: Normal
+[2026-02-02 10:22:22] ALT + MPG
+[2026-02-02 10:22:23] Clique: ano calendario (766, 312)
+[2026-02-02 10:22:23] Clique: diretorio destino (948, 358)
+[2026-02-02 10:22:24] Aguardando 0.5s: pos-diretorio
+[2026-02-02 10:22:25] Clique: gerar DMPL (1060, 533)
+[2026-02-02 10:22:25] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 10:22:25] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 10:22:25] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 10:22:26] Clique: tipo de documento (792, 434)
+[2026-02-02 10:22:26] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 10:22:28] Clique: adicionar rtf (1123, 466)
+[2026-02-02 10:22:28] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-02 10:22:28] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-02 10:22:31] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-02 10:22:31] Clique: continuar rtf (1229, 424)
+[2026-02-02 10:22:31] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 10:22:31] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 10:22:31] Modo pre-validar ativo. Encerrando antes da validacao.
+[2026-02-02 10:25:32] Clique: clique inicial (401, 463)
+[2026-02-02 10:25:32] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 10:25:33] Empresa: AGRABEL CAMINHOES LTDA
+[2026-02-02 10:25:33] Diretorio destino: W:\SPEDs\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-02-02 10:25:33] Aguardando 2s: preparar a tela
+[2026-02-02 10:25:35] DFC: sim | Simples: Normal
+[2026-02-02 10:25:35] ALT + MPG
+[2026-02-02 10:25:35] Clique: ano calendario (766, 312)
+[2026-02-02 10:25:36] Clique: diretorio destino (948, 358)
+[2026-02-02 10:25:37] Aguardando 0.5s: pos-diretorio
+[2026-02-02 10:25:37] Clique: gerar DMPL (1060, 533)
+[2026-02-02 10:25:37] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 10:25:37] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 10:25:37] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 10:25:38] Clique: tipo de documento (792, 434)
+[2026-02-02 10:25:38] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 10:25:40] Clique: adicionar rtf (1123, 466)
+[2026-02-02 10:25:40] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-02 10:25:41] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-02 10:25:42] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-02 10:25:42] Clique: continuar rtf (1229, 424)
+[2026-02-02 10:25:42] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 10:25:43] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 10:25:43] Clique: validar (1283, 347)
+[2026-02-02 10:25:43] Clique: validar v2 (1302, 359)
+[2026-02-02 10:25:43] Aguardando aviso... restante 120s
+[2026-02-02 10:25:53] Aviso do Sistema localizado.
+[2026-02-02 10:25:53] Aguardando 0.5s: fechar aviso
+[2026-02-02 10:25:54] Clique: sair validacao (1301, 388)
+[2026-02-02 10:25:54] Clique: ok final (1284, 293)
+[2026-02-02 10:25:54] Segundo aviso localizado. Confirmando com ENTER.
+[2026-02-02 10:25:54] Aguardando 5s: aguardar 5s
+[2026-02-02 10:25:59] Finalizado.
+[2026-02-02 10:26:33] Clique: clique inicial (401, 463)
+[2026-02-02 10:26:33] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 10:26:33] Empresa: AGRABEL CAMINHOES LTDA
+[2026-02-02 10:26:33] Diretorio destino: W:\SPEDs\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-02-02 10:26:33] Aguardando 2s: preparar a tela
+[2026-02-02 10:26:35] DFC: sim | Simples: Normal
+[2026-02-02 10:26:35] ALT + MPG
+[2026-02-02 10:26:36] Clique: ano calendario (766, 312)
+[2026-02-02 10:26:36] Clique: diretorio destino (948, 358)
+[2026-02-02 10:26:37] Aguardando 0.5s: pos-diretorio
+[2026-02-02 10:26:38] Clique: gerar DMPL (1060, 533)
+[2026-02-02 10:26:38] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 10:26:38] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 10:26:38] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 10:26:39] Clique: tipo de documento (792, 434)
+[2026-02-02 10:26:39] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 10:26:41] Clique: adicionar rtf (1123, 466)
+[2026-02-02 10:26:41] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-02 10:26:41] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-02 10:26:43] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-02 10:26:43] Clique: continuar rtf (1229, 424)
+[2026-02-02 10:26:43] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 10:26:43] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 10:26:43] Clique: validar (1283, 347)
+[2026-02-02 10:26:43] Clique: validar v2 (1302, 359)
+[2026-02-02 10:26:44] Aguardando aviso... restante 120s
+[2026-02-02 10:26:54] Aviso do Sistema localizado.
+[2026-02-02 10:26:54] Aguardando 0.5s: fechar aviso
+[2026-02-02 10:26:55] Clique: sair validacao (1301, 388)
+[2026-02-02 10:26:55] Clique: ok final (1284, 293)
+[2026-02-02 10:26:55] Segundo aviso localizado. Confirmando com ENTER.
+[2026-02-02 10:26:55] Aguardando 5s: aguardar 5s
+[2026-02-02 10:27:00] Finalizado.
+[2026-02-02 10:30:00] Clique: clique inicial (401, 463)
+[2026-02-02 10:30:00] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 10:30:00] Empresa: AGRABEL CAMINHOES LTDA
+[2026-02-02 10:30:00] Diretorio destino: W:\SPEDs\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-02-02 10:30:00] Aguardando 2s: preparar a tela
+[2026-02-02 10:30:02] DFC: sim | Simples: Normal
+[2026-02-02 10:30:02] ALT + MPG
+[2026-02-02 10:30:03] Clique: ano calendario (766, 312)
+[2026-02-02 10:30:03] Clique: diretorio destino (948, 358)
+[2026-02-02 10:30:04] Aguardando 0.5s: pos-diretorio
+[2026-02-02 10:30:05] Clique: gerar DMPL (1060, 533)
+[2026-02-02 10:30:05] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 10:30:05] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 10:30:05] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 10:30:05] Clique: tipo de documento (792, 434)
+[2026-02-02 10:30:06] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 10:30:08] Clique: adicionar rtf (1123, 466)
+[2026-02-02 10:30:08] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-02 10:30:08] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-02 10:30:10] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-02 10:30:10] Clique: continuar rtf (1229, 424)
+[2026-02-02 10:30:10] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 10:30:10] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 10:30:10] Clique: validar (1283, 347)
+[2026-02-02 10:30:10] Clique: validar v2 (1302, 359)
+[2026-02-02 10:30:10] Aguardando aviso... restante 120s
+[2026-02-02 10:30:21] Aviso do Sistema localizado.
+[2026-02-02 10:30:21] Aguardando 0.5s: fechar aviso
+[2026-02-02 10:30:21] Clique: sair validacao (1301, 388)
+[2026-02-02 10:30:21] Clique: ok final (1284, 293)
+[2026-02-02 10:30:22] Segundo aviso localizado. Confirmando com ENTER.
+[2026-02-02 10:30:22] Aguardando 5s: aguardar 5s
+[2026-02-02 10:30:27] Finalizado.
+[2026-02-02 10:39:56] Clique: clique inicial (401, 463)
+[2026-02-02 10:39:56] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 10:39:56] Empresa: AGRABEL CAMINHOES LTDA
+[2026-02-02 10:39:56] Diretorio destino: W:\SPEDs\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-02-02 10:39:56] Aguardando 2s: preparar a tela
+[2026-02-02 10:39:58] DFC: sim | Simples: Normal
+[2026-02-02 10:39:58] ALT + MPG
+[2026-02-02 10:39:59] Clique: ano calendario (766, 312)
+[2026-02-02 10:39:59] Clique: diretorio destino (948, 358)
+[2026-02-02 10:40:00] Aguardando 0.5s: pos-diretorio
+[2026-02-02 10:40:01] Clique: gerar DMPL (1060, 533)
+[2026-02-02 10:40:01] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 10:40:01] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 10:40:01] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 10:40:01] Clique: tipo de documento (792, 434)
+[2026-02-02 10:40:01] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 10:40:04] Clique: adicionar rtf (1123, 466)
+[2026-02-02 10:40:04] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-02 10:40:04] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-02 10:40:06] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-02 10:40:06] Clique: continuar rtf (1229, 424)
+[2026-02-02 10:40:06] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 10:40:06] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 10:40:06] Clique: validar (1283, 347)
+[2026-02-02 10:40:06] Clique: validar v2 (1302, 359)
+[2026-02-02 10:40:06] Aguardando aviso... restante 120s
+[2026-02-02 10:40:17] Aviso do Sistema localizado.
+[2026-02-02 10:40:17] Aguardando 0.5s: fechar aviso
+[2026-02-02 10:40:17] Clique: sair validacao (1301, 388)
+[2026-02-02 10:40:17] Clique: ok final (1284, 293)
+[2026-02-02 10:40:18] Aguardando aviso... restante 120s
+[2026-02-02 10:41:46] Aviso do Sistema localizado.
+[2026-02-02 10:41:46] Aguardando 5s: aguardar 5s
+[2026-02-02 10:41:51] Aviso final localizado. Confirmando com ENTER.
+[2026-02-02 10:41:51] Clique: pos-aviso final (1332, 261)
+[2026-02-02 10:41:51] Finalizado.
+[2026-02-02 10:42:12] Clique: clique inicial (401, 463)
+[2026-02-02 10:42:12] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 10:42:12] Empresa: AGRABEL CAMINHOES LTDA
+[2026-02-02 10:42:12] Diretorio destino: W:\SPEDs\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-02-02 10:42:12] Aguardando 2s: preparar a tela
+[2026-02-02 10:42:14] DFC: sim | Simples: Normal
+[2026-02-02 10:42:14] ALT + MPG
+[2026-02-02 10:42:15] Clique: ano calendario (766, 312)
+[2026-02-02 10:42:15] Clique: diretorio destino (948, 358)
+[2026-02-02 10:42:16] Aguardando 0.5s: pos-diretorio
+[2026-02-02 10:42:17] Clique: gerar DMPL (1060, 533)
+[2026-02-02 10:42:17] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 10:42:17] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 10:42:17] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 10:42:17] Clique: tipo de documento (792, 434)
+[2026-02-02 10:42:18] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 10:42:20] Clique: adicionar rtf (1123, 466)
+[2026-02-02 10:42:20] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-02 10:42:20] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-02 10:42:22] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-02 10:42:22] Clique: continuar rtf (1229, 424)
+[2026-02-02 10:42:22] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 10:42:22] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 10:42:22] Clique: validar (1283, 347)
+[2026-02-02 10:42:22] Clique: validar v2 (1302, 359)
+[2026-02-02 10:42:22] Aguardando aviso... restante 300s
+[2026-02-02 10:42:33] Aviso do Sistema localizado.
+[2026-02-02 10:42:33] Aguardando 0.5s: fechar aviso
+[2026-02-02 10:42:33] Clique: sair validacao (1301, 388)
+[2026-02-02 10:42:33] Clique: ok final (1284, 293)
+[2026-02-02 10:42:34] Aguardando aviso final...
+[2026-02-02 10:44:02] Aviso do Sistema localizado.
+[2026-02-02 10:44:02] Aguardando 5s: aguardar 5s
+[2026-02-02 10:44:08] Aguardando aviso... restante 300s
+[2026-02-02 10:53:39] Clique: clique inicial (401, 463)
+[2026-02-02 10:53:39] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 10:53:39] Empresa: AGRABEL CAMINHOES LTDA
+[2026-02-02 10:53:39] Diretorio destino: W:\SPEDs\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-02-02 10:53:39] Aguardando 2s: preparar a tela
+[2026-02-02 10:53:41] DFC: sim | Simples: Normal
+[2026-02-02 10:53:41] ALT + MPG
+[2026-02-02 10:53:42] Clique: ano calendario (766, 312)
+[2026-02-02 10:53:42] Clique: diretorio destino (948, 358)
+[2026-02-02 10:53:43] Aguardando 0.5s: pos-diretorio
+[2026-02-02 10:53:44] Clique: gerar DMPL (1060, 533)
+[2026-02-02 10:53:44] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 10:53:44] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 10:53:44] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 10:53:44] Clique: tipo de documento (792, 434)
+[2026-02-02 10:53:45] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 10:53:47] Clique: adicionar rtf (1123, 466)
+[2026-02-02 10:53:47] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-02 10:53:47] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-02 10:53:49] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-02 10:53:49] Clique: continuar rtf (1229, 424)
+[2026-02-02 10:53:49] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 10:53:49] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 10:53:49] Clique: validar (1283, 347)
+[2026-02-02 10:53:49] Clique: validar v2 (1302, 359)
+[2026-02-02 10:53:49] Aguardando aviso... restante 300s
+[2026-02-02 10:54:00] Aviso do Sistema localizado.
+[2026-02-02 10:54:00] Aguardando 0.5s: fechar aviso
+[2026-02-02 10:54:00] Clique: sair validacao (1301, 388)
+[2026-02-02 10:54:00] Clique: ok final (1284, 293)
+[2026-02-02 10:54:01] Aguardando aviso final...
+[2026-02-02 10:55:29] Aviso do Sistema localizado.
+[2026-02-02 10:55:29] Aguardando 5s: aguardar 5s
+[2026-02-02 10:55:34] Clique: pos-aviso final (1332, 261)
+[2026-02-02 10:55:34] Finalizado.
+[2026-02-02 14:01:16] Clique: clique inicial (401, 463)
+[2026-02-02 14:01:16] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 14:01:16] Empresa: ABS ADMINISTRADORA DE BENS LTDA --no-dfc --simples=Normal
+[2026-02-02 14:01:16] Diretorio destino: W:\SPEDs\ECD\2025\ABS ADMINISTRADORA DE BENS LTDA --no-dfc --simples=Normal
+[2026-02-02 14:01:16] Aguardando 2s: preparar a tela
+[2026-02-02 14:01:18] DFC: nao | Simples: Normal
+[2026-02-02 14:01:18] ALT + MPG
+[2026-02-02 14:01:19] Clique: ano calendario (766, 312)
+[2026-02-02 14:01:19] Clique: diretorio destino (948, 358)
+[2026-02-02 14:01:21] Aguardando 0.5s: pos-diretorio
+[2026-02-02 14:01:21] Clique: gerar DMPL (1060, 533)
+[2026-02-02 14:01:21] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 14:01:21] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 14:01:21] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 14:01:22] Clique: tipo de documento (792, 434)
+[2026-02-02 14:01:22] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 14:01:25] Clique: adicionar rtf (1123, 466)
+[2026-02-02 14:01:25] Clique: continuar rtf (1229, 424)
+[2026-02-02 14:01:25] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 14:01:25] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 14:01:25] Clique: validar (1283, 347)
+[2026-02-02 14:01:25] Clique: validar v2 (1302, 359)
+[2026-02-02 14:01:25] Aviso do Sistema ja presente. Fechando com ENTER.
+[2026-02-02 14:01:25] Aguardando 0.5s: fechar aviso
+[2026-02-02 14:01:26] Clique: sair validacao (1301, 388)
+[2026-02-02 14:01:26] Clique: ok final (1284, 293)
+[2026-02-02 14:01:26] Aguardando aviso final...
+[2026-02-02 14:09:53] Clique: clique inicial (401, 463)
+[2026-02-02 14:09:53] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 14:09:53] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:09:53] Diretorio destino: W:\SPEDs\ECD\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:09:53] Aguardando 2s: preparar a tela
+[2026-02-02 14:09:55] DFC: nao | Simples: Normal
+[2026-02-02 14:09:55] ALT + MPG
+[2026-02-02 14:09:56] Clique: ano calendario (766, 312)
+[2026-02-02 14:09:56] Clique: diretorio destino (948, 358)
+[2026-02-02 14:09:57] Aguardando 0.5s: pos-diretorio
+[2026-02-02 14:09:58] Clique: gerar DMPL (1060, 533)
+[2026-02-02 14:09:58] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 14:09:58] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 14:09:58] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 14:09:58] Clique: tipo de documento (792, 434)
+[2026-02-02 14:09:58] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 14:10:01] Clique: adicionar rtf (1123, 466)
+[2026-02-02 14:10:01] Clique: continuar rtf (1229, 424)
+[2026-02-02 14:10:01] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 14:10:01] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 14:10:01] Clique: validar (1283, 347)
+[2026-02-02 14:10:01] Clique: validar v2 (1302, 359)
+[2026-02-02 14:10:01] Aguardando aviso... restante 300s
+[2026-02-02 14:11:45] Aguardando aviso... restante 195s
+[2026-02-02 14:11:51] Aguardando aviso... restante 190s
+[2026-02-02 14:11:56] Aguardando aviso... restante 185s
+[2026-02-02 14:12:01] Aguardando aviso... restante 180s
+[2026-02-02 14:12:06] Aguardando aviso... restante 175s
+[2026-02-02 14:13:55] Aguardando aviso... restante 65s
+[2026-02-02 14:14:01] Aguardando aviso... restante 60s
+[2026-02-02 14:14:06] Aguardando aviso... restante 55s
+[2026-02-02 14:14:11] Aguardando aviso... restante 50s
+[2026-02-02 14:14:16] Aguardando aviso... restante 45s
+[2026-02-02 14:15:03] Timeout aguardando aviso (300s).
+[2026-02-02 14:15:03] Screenshot salva: W:\SPEDs\ECD\2025\ABS ADMINISTRADORA DE BENS LTDA\erros registrados.png
+[2026-02-02 14:15:03] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-02 14:15:03] Clique: sair validacao (1301, 388)
+[2026-02-02 14:25:38] Clique: clique inicial (401, 463)
+[2026-02-02 14:25:38] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 14:25:38] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:25:38] Diretorio destino: W:\SPEDs\ECD\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:25:38] Aguardando 2s: preparar a tela
+[2026-02-02 14:25:40] DFC: nao | Simples: Normal
+[2026-02-02 14:25:40] ALT + MPG
+[2026-02-02 14:25:41] Clique: ano calendario (766, 312)
+[2026-02-02 14:25:41] Clique: diretorio destino (948, 358)
+[2026-02-02 14:25:42] Aguardando 0.5s: pos-diretorio
+[2026-02-02 14:25:43] Clique: gerar DMPL (1060, 533)
+[2026-02-02 14:25:43] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 14:25:43] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 14:25:43] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 14:25:44] Clique: tipo de documento (792, 434)
+[2026-02-02 14:25:44] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 14:25:46] Clique: adicionar rtf (1123, 466)
+[2026-02-02 14:25:46] Clique: continuar rtf (1229, 424)
+[2026-02-02 14:25:46] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 14:25:46] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 14:25:46] Clique: validar (1283, 347)
+[2026-02-02 14:25:46] Clique: validar v2 (1302, 359)
+[2026-02-02 14:25:47] Aguardando aviso... restante 300s
+[2026-02-02 14:27:03] Clique: clique inicial (401, 463)
+[2026-02-02 14:27:03] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 14:27:03] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:27:03] Diretorio destino: W:\SPEDs\ECD\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:27:03] Aguardando 2s: preparar a tela
+[2026-02-02 14:27:05] DFC: nao | Simples: Normal
+[2026-02-02 14:27:05] ALT + MPG
+[2026-02-02 14:27:06] Clique: ano calendario (766, 312)
+[2026-02-02 14:27:06] Clique: diretorio destino (948, 358)
+[2026-02-02 14:27:08] Aguardando 0.5s: pos-diretorio
+[2026-02-02 14:27:08] Clique: gerar DMPL (1060, 533)
+[2026-02-02 14:27:08] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 14:27:08] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 14:27:08] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 14:27:09] Clique: tipo de documento (792, 434)
+[2026-02-02 14:27:09] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 14:27:11] Clique: adicionar rtf (1123, 466)
+[2026-02-02 14:27:11] Clique: continuar rtf (1229, 424)
+[2026-02-02 14:27:12] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 14:27:12] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 14:27:12] Clique: validar (1283, 347)
+[2026-02-02 14:27:12] Clique: validar v2 (1302, 359)
+[2026-02-02 14:27:12] Aguardando aviso... restante 300s
+[2026-02-02 14:28:56] Aguardando aviso... restante 195s
+[2026-02-02 14:29:01] Aguardando aviso... restante 190s
+[2026-02-02 14:29:06] Aguardando aviso... restante 185s
+[2026-02-02 14:29:12] Aguardando aviso... restante 180s
+[2026-02-02 14:29:17] Aguardando aviso... restante 175s
+[2026-02-02 14:31:06] Aguardando aviso... restante 65s
+[2026-02-02 14:31:11] Aguardando aviso... restante 60s
+[2026-02-02 14:31:16] Aguardando aviso... restante 55s
+[2026-02-02 14:31:22] Aguardando aviso... restante 50s
+[2026-02-02 14:31:27] Aguardando aviso... restante 45s
+[2026-02-02 14:32:14] Timeout aguardando aviso (300s).
+[2026-02-02 14:42:49] Clique: clique inicial (401, 463)
+[2026-02-02 14:42:49] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 14:42:49] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:42:49] Diretorio destino: W:\SPEDs\ECD\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:42:49] Aguardando 2s: preparar a tela
+[2026-02-02 14:42:51] DFC: nao | Simples: Normal
+[2026-02-02 14:42:51] ALT + MPG
+[2026-02-02 14:42:52] Clique: ano calendario (766, 312)
+[2026-02-02 14:42:52] Clique: diretorio destino (948, 358)
+[2026-02-02 14:42:54] Aguardando 0.5s: pos-diretorio
+[2026-02-02 14:42:54] Clique: gerar DMPL (1060, 533)
+[2026-02-02 14:42:54] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 14:42:54] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 14:42:54] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 14:42:55] Clique: tipo de documento (792, 434)
+[2026-02-02 14:42:55] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 14:42:57] Clique: adicionar rtf (1123, 466)
+[2026-02-02 14:42:57] Clique: continuar rtf (1229, 424)
+[2026-02-02 14:42:57] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 14:42:58] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 14:42:58] Clique: validar (1283, 347)
+[2026-02-02 14:42:58] Clique: validar v2 (1302, 359)
+[2026-02-02 14:42:58] Aguardando aviso... restante 300s
+[2026-02-02 14:45:36] Clique: clique inicial (401, 463)
+[2026-02-02 14:45:36] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 14:45:36] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:45:36] Diretorio destino: W:\SPEDs\ECD\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:45:36] Aguardando 2s: preparar a tela
+[2026-02-02 14:45:38] DFC: nao | Simples: Normal
+[2026-02-02 14:45:38] ALT + MPG
+[2026-02-02 14:45:39] Clique: ano calendario (766, 312)
+[2026-02-02 14:45:39] Clique: diretorio destino (948, 358)
+[2026-02-02 14:45:41] Aguardando 0.5s: pos-diretorio
+[2026-02-02 14:45:41] Clique: gerar DMPL (1060, 533)
+[2026-02-02 14:45:41] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 14:45:41] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 14:45:41] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 14:45:42] Clique: tipo de documento (792, 434)
+[2026-02-02 14:45:42] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 14:45:44] Clique: adicionar rtf (1123, 466)
+[2026-02-02 14:45:44] Clique: continuar rtf (1229, 424)
+[2026-02-02 14:45:44] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 14:45:44] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 14:45:44] Clique: validar (1283, 347)
+[2026-02-02 14:45:45] Clique: validar v2 (1302, 359)
+[2026-02-02 14:45:45] Aguardando aviso... restante 300s
+[2026-02-02 14:47:29] Aguardando aviso... restante 195s
+[2026-02-02 14:47:34] Aguardando aviso... restante 190s
+[2026-02-02 14:47:39] Aguardando aviso... restante 185s
+[2026-02-02 14:47:44] Aguardando aviso... restante 180s
+[2026-02-02 14:47:50] Aguardando aviso... restante 175s
+[2026-02-02 14:49:39] Aguardando aviso... restante 65s
+[2026-02-02 14:49:44] Aguardando aviso... restante 60s
+[2026-02-02 14:49:49] Aguardando aviso... restante 55s
+[2026-02-02 14:49:55] Aguardando aviso... restante 50s
+[2026-02-02 14:50:00] Aguardando aviso... restante 45s
+[2026-02-02 14:50:47] Timeout aguardando aviso (300s).
+[2026-02-02 14:50:47] Screenshot salva: W:\SPEDs\ECD\2025\ABS ADMINISTRADORA DE BENS LTDA\erros registrados
+[2026-02-02 14:50:47] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-02 14:50:47] Clique: sair validacao (1301, 388)
+[2026-02-02 14:50:47] Sem aviso. Encerrando fluxo de validacao com sucesso.
+[2026-02-02 15:01:21] Clique: clique inicial (401, 463)
+[2026-02-02 15:01:21] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 15:01:21] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:01:21] Diretorio destino: W:\SPEDs\ECD\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:01:21] Aguardando 2s: preparar a tela
+[2026-02-02 15:01:23] DFC: nao | Simples: Normal
+[2026-02-02 15:01:23] ALT + MPG
+[2026-02-02 15:01:24] Clique: ano calendario (766, 312)
+[2026-02-02 15:01:24] Clique: diretorio destino (948, 358)
+[2026-02-02 15:01:26] Aguardando 0.5s: pos-diretorio
+[2026-02-02 15:01:26] Clique: gerar DMPL (1060, 533)
+[2026-02-02 15:01:26] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 15:01:26] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 15:01:26] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 15:01:27] Clique: tipo de documento (792, 434)
+[2026-02-02 15:01:27] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 15:01:29] Clique: adicionar rtf (1123, 466)
+[2026-02-02 15:01:29] Clique: continuar rtf (1229, 424)
+[2026-02-02 15:01:29] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 15:01:29] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 15:01:29] Clique: validar (1283, 347)
+[2026-02-02 15:01:29] Clique: validar v2 (1302, 359)
+[2026-02-02 15:01:30] Aguardando aviso... restante 300s
+[2026-02-02 15:03:14] Aguardando aviso... restante 195s
+[2026-02-02 15:03:19] Aguardando aviso... restante 190s
+[2026-02-02 15:03:24] Aguardando aviso... restante 185s
+[2026-02-02 15:03:29] Aguardando aviso... restante 180s
+[2026-02-02 15:03:35] Aguardando aviso... restante 175s
+[2026-02-02 15:05:24] Aguardando aviso... restante 65s
+[2026-02-02 15:05:29] Aguardando aviso... restante 60s
+[2026-02-02 15:05:34] Aguardando aviso... restante 55s
+[2026-02-02 15:05:39] Aguardando aviso... restante 50s
+[2026-02-02 15:05:45] Aguardando aviso... restante 45s
+[2026-02-02 15:06:31] Timeout aguardando aviso (300s).
+[2026-02-02 15:06:32] Screenshot salva: W:\SPEDs\ECD\2025\ABS ADMINISTRADORA DE BENS LTDA\erros registrados
+[2026-02-02 15:06:32] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-02 15:06:32] Clique: sair validacao (1301, 388)
+[2026-02-02 15:06:32] Sem aviso. Encerrando fluxo de validacao com sucesso.
+[2026-02-02 15:17:06] Clique: clique inicial (401, 463)
+[2026-02-02 15:17:07] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 15:17:07] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:17:07] Diretorio destino: W:\SPEDs\ECD\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:17:07] Aguardando 2s: preparar a tela
+[2026-02-02 15:17:09] DFC: nao | Simples: Normal
+[2026-02-02 15:17:09] ALT + MPG
+[2026-02-02 15:17:09] Clique: ano calendario (766, 312)
+[2026-02-02 15:17:10] Clique: diretorio destino (948, 358)
+[2026-02-02 15:17:11] Aguardando 0.5s: pos-diretorio
+[2026-02-02 15:17:11] Clique: gerar DMPL (1060, 533)
+[2026-02-02 15:17:11] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 15:17:12] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 15:17:12] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 15:17:12] Clique: tipo de documento (792, 434)
+[2026-02-02 15:17:12] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 15:17:14] Clique: adicionar rtf (1123, 466)
+[2026-02-02 15:17:15] Clique: continuar rtf (1229, 424)
+[2026-02-02 15:17:15] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 15:17:15] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 15:17:15] Clique: validar (1283, 347)
+[2026-02-02 15:17:15] Clique: validar v2 (1302, 359)
+[2026-02-02 15:17:15] Aguardando aviso... restante 300s
+[2026-02-02 15:18:59] Aguardando aviso... restante 195s
+[2026-02-02 15:19:04] Aguardando aviso... restante 190s
+[2026-02-02 15:19:10] Aguardando aviso... restante 185s
+[2026-02-02 15:19:15] Aguardando aviso... restante 180s
+[2026-02-02 15:19:20] Aguardando aviso... restante 175s
+[2026-02-02 15:21:09] Aguardando aviso... restante 65s
+[2026-02-02 15:21:14] Aguardando aviso... restante 60s
+[2026-02-02 15:21:20] Aguardando aviso... restante 55s
+[2026-02-02 15:21:25] Aguardando aviso... restante 50s
+[2026-02-02 15:21:30] Aguardando aviso... restante 45s
+[2026-02-02 15:22:17] Timeout aguardando aviso (300s).
+[2026-02-02 15:22:17] Screenshot salva: W:\SPEDs\ECD\2025\ABS ADMINISTRADORA DE BENS LTDA\erros registrados
+[2026-02-02 15:22:17] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-02 15:22:17] Clique: sair validacao (1301, 388)
+[2026-02-02 15:22:17] Sem aviso. Encerrando fluxo de validacao com sucesso.
+[2026-02-02 15:25:00] Clique: clique inicial (401, 463)
+[2026-02-02 15:25:00] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 15:25:00] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:25:00] Diretorio destino: W:\SPEDs\ECD\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:25:00] Aguardando 2s: preparar a tela
+[2026-02-02 15:25:02] DFC: nao | Simples: Normal
+[2026-02-02 15:25:02] ALT + MPG
+[2026-02-02 15:25:03] Clique: ano calendario (766, 312)
+[2026-02-02 15:25:03] Clique: diretorio destino (948, 358)
+[2026-02-02 15:25:05] Aguardando 0.5s: pos-diretorio
+[2026-02-02 15:25:05] Clique: gerar DMPL (1060, 533)
+[2026-02-02 15:25:05] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 15:25:05] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 15:25:05] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 15:25:06] Clique: tipo de documento (792, 434)
+[2026-02-02 15:25:06] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 15:25:08] Clique: adicionar rtf (1123, 466)
+[2026-02-02 15:25:08] Clique: continuar rtf (1229, 424)
+[2026-02-02 15:25:08] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 15:25:08] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 15:25:08] Clique: validar (1283, 347)
+[2026-02-02 15:25:09] Clique: validar v2 (1302, 359)
+[2026-02-02 15:25:09] Aguardando aviso... restante 300s
+[2026-02-02 15:26:53] Aguardando aviso... restante 195s
+[2026-02-02 15:26:58] Aguardando aviso... restante 190s
+[2026-02-02 15:27:03] Aguardando aviso... restante 185s
+[2026-02-02 15:27:08] Aguardando aviso... restante 180s
+[2026-02-02 15:27:14] Aguardando aviso... restante 175s
+[2026-02-02 15:29:03] Aguardando aviso... restante 65s
+[2026-02-02 15:29:08] Aguardando aviso... restante 60s
+[2026-02-02 15:29:13] Aguardando aviso... restante 55s
+[2026-02-02 15:29:19] Aguardando aviso... restante 50s
+[2026-02-02 15:29:24] Aguardando aviso... restante 45s
+[2026-02-02 15:30:11] Timeout aguardando aviso (300s).
+[2026-02-02 15:30:11] Screenshot salva: W:\SPEDs\ECD\2025\ABS ADMINISTRADORA DE BENS LTDA\erros registrados.png
+[2026-02-02 15:30:11] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-02 15:30:11] Clique: sair validacao (1301, 388)
+[2026-02-02 15:30:11] Sem aviso. Encerrando fluxo de validacao com sucesso.
+[2026-02-02 15:33:09] Clique: clique inicial (401, 463)
+[2026-02-02 15:33:09] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 15:33:09] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:33:09] Diretorio destino: W:\SPEDs\ECD\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:33:09] Aguardando 2s: preparar a tela
+[2026-02-02 15:33:11] DFC: nao | Simples: Normal
+[2026-02-02 15:33:11] ALT + MPG
+[2026-02-02 15:33:12] Clique: ano calendario (766, 312)
+[2026-02-02 15:33:12] Clique: diretorio destino (948, 358)
+[2026-02-02 15:33:13] Aguardando 0.5s: pos-diretorio
+[2026-02-02 15:33:14] Clique: gerar DMPL (1060, 533)
+[2026-02-02 15:33:14] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 15:33:14] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 15:33:14] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 15:33:14] Clique: tipo de documento (792, 434)
+[2026-02-02 15:33:15] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 15:33:17] Clique: adicionar rtf (1123, 466)
+[2026-02-02 15:33:17] Clique: continuar rtf (1229, 424)
+[2026-02-02 15:33:17] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 15:33:17] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 15:33:17] Clique: validar (1283, 347)
+[2026-02-02 15:33:17] Clique: validar v2 (1302, 359)
+[2026-02-02 15:33:17] Aguardando aviso... restante 300s
+[2026-02-02 15:35:02] Aguardando aviso... restante 195s
+[2026-02-02 15:35:07] Aguardando aviso... restante 190s
+[2026-02-02 15:35:12] Aguardando aviso... restante 185s
+[2026-02-02 15:35:17] Aguardando aviso... restante 180s
+[2026-02-02 15:35:22] Aguardando aviso... restante 175s
+[2026-02-02 15:37:12] Aguardando aviso... restante 65s
+[2026-02-02 15:37:17] Aguardando aviso... restante 60s
+[2026-02-02 15:37:22] Aguardando aviso... restante 55s
+[2026-02-02 15:37:27] Aguardando aviso... restante 50s
+[2026-02-02 15:37:32] Aguardando aviso... restante 45s
+[2026-02-02 15:38:19] Timeout aguardando aviso (300s).
+[2026-02-02 15:38:19] Screenshot salva: W:\SPEDs\ECD\2025\ABS ADMINISTRADORA DE BENS LTDA\erros registrados.png
+[2026-02-02 15:38:19] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-02 15:38:19] Clique: sair validacao (1301, 388)
+[2026-02-02 15:38:20] Clique: sair validacao (1301, 388)
+[2026-02-02 15:38:20] Clique: ok final (1284, 293)
+[2026-02-02 15:38:20] Aguardando aviso final...
+[2026-02-02 15:38:30] Aviso do Sistema localizado.
+[2026-02-02 15:38:30] Aguardando 5s: aguardar 5s
+[2026-02-02 15:38:35] Clique: pos-aviso final (1332, 261)
+[2026-02-02 15:38:35] Finalizado.
+[2026-02-02 15:44:43] Clique: clique inicial (401, 463)
+[2026-02-02 15:44:43] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 15:44:43] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:44:43] Diretorio destino: W:\SPEDs\ECD\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:44:43] Aguardando 2s: preparar a tela
+[2026-02-02 15:44:45] DFC: nao | Simples: Normal
+[2026-02-02 15:44:45] ALT + MPG
+[2026-02-02 15:44:46] Clique: ano calendario (766, 312)
+[2026-02-02 15:44:46] Clique: diretorio destino (948, 358)
+[2026-02-02 15:44:48] Aguardando 0.5s: pos-diretorio
+[2026-02-02 15:44:48] Clique: gerar DMPL (1060, 533)
+[2026-02-02 15:44:48] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 15:44:48] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 15:44:48] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 15:44:49] Clique: tipo de documento (792, 434)
+[2026-02-02 15:44:49] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 15:44:51] Clique: adicionar rtf (1123, 466)
+[2026-02-02 15:44:51] Clique: continuar rtf (1229, 424)
+[2026-02-02 15:44:51] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 15:44:52] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 15:44:52] Clique: validar (1283, 347)
+[2026-02-02 15:44:52] Clique: validar v2 (1302, 359)
+[2026-02-02 15:44:52] Aguardando aviso... restante 300s
+[2026-02-02 15:46:36] Aguardando aviso... restante 195s
+[2026-02-02 15:46:41] Aguardando aviso... restante 190s
+[2026-02-02 15:46:46] Aguardando aviso... restante 185s
+[2026-02-02 15:46:52] Aguardando aviso... restante 180s
+[2026-02-02 15:46:57] Aguardando aviso... restante 175s
+[2026-02-02 15:48:46] Aguardando aviso... restante 65s
+[2026-02-02 15:48:51] Aguardando aviso... restante 60s
+[2026-02-02 15:48:56] Aguardando aviso... restante 55s
+[2026-02-02 15:49:02] Aguardando aviso... restante 50s
+[2026-02-02 15:49:07] Aguardando aviso... restante 45s
+[2026-02-02 15:49:54] Timeout aguardando aviso (300s).
+[2026-02-02 15:49:54] Screenshot salva: W:\SPEDs\ECD\2025\ABS ADMINISTRADORA DE BENS LTDA\erros registrados.png
+[2026-02-02 15:49:54] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-02 15:49:54] Clique: sair validacao (1301, 388)
+[2026-02-02 15:49:54] Clique: sair validacao (1301, 388)
+[2026-02-02 15:49:54] Clique: ok final (1284, 293)
+[2026-02-02 15:49:55] Aguardando aviso final...
+[2026-02-02 15:50:05] Aviso do Sistema localizado.
+[2026-02-02 15:50:05] Aguardando 5s: aguardar 5s
+[2026-02-02 15:50:10] Clique: pos-aviso final (1332, 261)
+[2026-02-02 15:50:10] Finalizado.
+[2026-02-02 17:04:57] Clique: clique inicial (401, 463)
+[2026-02-02 17:04:57] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 17:04:57] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 17:04:57] Diretorio destino: W:\SPEDs\ECD\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 17:04:57] Aguardando 2s: preparar a tela
+[2026-02-02 17:04:59] DFC: sim | Simples: Normal
+[2026-02-02 17:04:59] ALT + MPG
+[2026-02-02 17:05:00] Clique: ano calendario (766, 312)
+[2026-02-02 17:05:00] Clique: diretorio destino (948, 358)
+[2026-02-02 17:05:01] Aguardando 0.5s: pos-diretorio
+[2026-02-02 17:05:02] Clique: gerar DMPL (1060, 533)
+[2026-02-02 17:05:02] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 17:05:02] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 17:05:02] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 17:05:03] Clique: tipo de documento (792, 434)
+[2026-02-02 17:05:03] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 17:05:05] Clique: adicionar rtf (1123, 466)
+[2026-02-02 17:05:05] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-02 17:05:05] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-02 17:05:07] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-02 17:05:08] Clique: continuar rtf (1229, 424)
+[2026-02-02 17:05:08] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 17:05:08] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 17:05:08] Clique: validar (1283, 347)
+[2026-02-02 17:05:08] Clique: validar v2 (1302, 359)
+[2026-02-02 17:05:08] Aguardando aviso... restante 300s
+[2026-02-02 17:06:52] Aguardando aviso... restante 195s
+[2026-02-02 17:06:57] Aguardando aviso... restante 190s
+[2026-02-02 17:07:03] Aguardando aviso... restante 185s
+[2026-02-02 17:07:08] Aguardando aviso... restante 180s
+[2026-02-02 17:07:13] Aguardando aviso... restante 175s
+[2026-02-02 17:09:02] Aguardando aviso... restante 65s
+[2026-02-02 17:09:07] Aguardando aviso... restante 60s
+[2026-02-02 17:09:13] Aguardando aviso... restante 55s
+[2026-02-02 17:09:18] Aguardando aviso... restante 50s
+[2026-02-02 17:09:23] Aguardando aviso... restante 45s
+[2026-02-02 17:10:10] Timeout aguardando aviso (300s).
+[2026-02-02 17:10:10] Screenshot salva: W:\SPEDs\ECD\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA\erros registrados.png
+[2026-02-02 17:10:10] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-02 17:10:10] Clique: sair validacao (1301, 388)
+[2026-02-02 17:10:10] Clique: ok final (1284, 293)
+[2026-02-02 17:10:11] Aguardando aviso final...
+[2026-02-02 17:11:54] Aviso do Sistema localizado.
+[2026-02-02 17:11:55] Aguardando 5s: aguardar 5s
+[2026-02-02 17:12:00] Finalizado.
+[2026-02-02 17:48:33] Clique: clique inicial (401, 463)
+[2026-02-02 17:48:33] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 17:48:33] Empresa: TIBAGI MOTOS LTDA
+[2026-02-02 17:48:33] Diretorio destino: W:\SPEDs\ECD\2025\TIBAGI MOTOS LTDA
+[2026-02-02 17:48:33] Aguardando 2s: preparar a tela
+[2026-02-02 17:48:35] DFC: sim | Simples: Normal
+[2026-02-02 17:48:35] ALT + MPG
+[2026-02-02 17:48:36] Clique: ano calendario (766, 312)
+[2026-02-02 17:48:36] Clique: diretorio destino (948, 358)
+[2026-02-02 17:48:37] Aguardando 0.5s: pos-diretorio
+[2026-02-02 17:48:38] Clique: gerar DMPL (1060, 533)
+[2026-02-02 17:48:38] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 17:48:38] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 17:48:38] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 17:48:38] Clique: tipo de documento (792, 434)
+[2026-02-02 17:48:38] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 17:48:40] Clique: adicionar rtf (1123, 466)
+[2026-02-02 17:48:40] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-02 17:48:41] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-02 17:48:42] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-02 17:48:42] Clique: continuar rtf (1229, 424)
+[2026-02-02 17:48:43] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 17:48:43] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 17:48:43] Clique: validar (1283, 347)
+[2026-02-02 17:48:43] Clique: validar v2 (1302, 359)
+[2026-02-02 17:48:43] Aviso do Sistema ja presente. Fechando com ENTER.
+[2026-02-02 17:48:43] Aguardando 0.5s: fechar aviso
+[2026-02-02 17:48:43] Clique: sair validacao (1301, 388)
+[2026-02-02 17:48:43] Clique: ok final (1284, 293)
+[2026-02-02 17:48:44] Aguardando aviso final...
+[2026-02-02 17:51:22] Clique: clique inicial (401, 463)
+[2026-02-02 17:51:22] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 17:51:22] Empresa: TIBAGI MOTOS LTDA
+[2026-02-02 17:51:22] Diretorio destino: W:\SPEDs\ECD\2025\TIBAGI MOTOS LTDA
+[2026-02-02 17:51:22] Aguardando 2s: preparar a tela
+[2026-02-02 17:51:24] DFC: sim | Simples: Normal
+[2026-02-02 17:51:24] ALT + MPG
+[2026-02-02 17:51:25] Clique: ano calendario (766, 312)
+[2026-02-02 17:51:25] Clique: diretorio destino (948, 358)
+[2026-02-02 17:51:26] Aguardando 0.5s: pos-diretorio
+[2026-02-02 17:51:26] Clique: gerar DMPL (1060, 533)
+[2026-02-02 17:51:27] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 17:51:27] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 17:51:27] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 17:51:27] Clique: tipo de documento (792, 434)
+[2026-02-02 17:51:27] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 17:51:29] Clique: adicionar rtf (1123, 466)
+[2026-02-02 17:51:29] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-02 17:51:30] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-02 17:51:31] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-02 17:51:31] Clique: continuar rtf (1229, 424)
+[2026-02-02 17:51:31] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 17:51:31] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 17:51:32] Clique: validar (1283, 347)
+[2026-02-02 17:51:32] Clique: validar v2 (1302, 359)
+[2026-02-02 17:51:32] Aviso do Sistema ja presente. Fechando com ENTER.
+[2026-02-02 17:51:32] Aguardando 0.5s: fechar aviso
+[2026-02-02 17:51:32] Clique: sair validacao (1301, 388)
+[2026-02-02 17:51:32] Clique: ok final (1284, 293)
+[2026-02-02 17:51:33] Aguardando aviso final...
+[2026-02-02 17:56:40] Clique: clique inicial (401, 463)
+[2026-02-02 17:56:40] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-02 17:56:40] Empresa: TIBAGI MOTOS LTDA
+[2026-02-02 17:56:40] Diretorio destino: W:\SPEDs\ECD\2025\TIBAGI MOTOS LTDA
+[2026-02-02 17:56:40] Aguardando 2s: preparar a tela
+[2026-02-02 17:56:42] DFC: sim | Simples: Normal
+[2026-02-02 17:56:42] ALT + MPG
+[2026-02-02 17:56:42] Clique: ano calendario (766, 312)
+[2026-02-02 17:56:43] Clique: diretorio destino (948, 358)
+[2026-02-02 17:56:44] Aguardando 0.5s: pos-diretorio
+[2026-02-02 17:56:44] Clique: gerar DMPL (1060, 533)
+[2026-02-02 17:56:44] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-02 17:56:44] Empresa Normal: nao clicar em plano referencial.
+[2026-02-02 17:56:44] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-02 17:56:45] Clique: tipo de documento (792, 434)
+[2026-02-02 17:56:45] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-02 17:56:47] Clique: adicionar rtf (1123, 466)
+[2026-02-02 17:56:47] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-02 17:56:47] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-02 17:56:49] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-02 17:56:49] Clique: continuar rtf (1229, 424)
+[2026-02-02 17:56:49] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-02 17:56:49] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-02 17:56:49] Clique: validar (1283, 347)
+[2026-02-02 17:56:49] Clique: validar v2 (1302, 359)
+[2026-02-02 17:56:50] Aguardando aviso... restante 300s
+[2026-02-03 07:47:32] Clique: clique inicial (401, 463)
+[2026-02-03 07:47:32] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 07:47:32] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 07:47:32] Diretorio destino: W:\SPEDs\ECD\2025\TIBAGI MOTOS LTDA
+[2026-02-03 07:47:32] Aguardando 2s: preparar a tela
+[2026-02-03 07:47:34] DFC: sim | Simples: Normal
+[2026-02-03 07:47:34] ALT + MPG
+[2026-02-03 07:47:35] Clique: ano calendario (766, 312)
+[2026-02-03 07:47:35] Clique: diretorio destino (948, 358)
+[2026-02-03 07:47:36] Aguardando 0.5s: pos-diretorio
+[2026-02-03 07:47:37] Clique: gerar DMPL (1060, 533)
+[2026-02-03 07:47:37] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 07:47:37] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 07:47:37] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 07:47:37] Clique: tipo de documento (792, 434)
+[2026-02-03 07:47:38] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 07:47:40] Clique: adicionar rtf (1123, 466)
+[2026-02-03 07:47:40] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 07:47:40] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 07:47:42] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 07:47:42] Clique: continuar rtf (1229, 424)
+[2026-02-03 07:47:42] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 07:47:42] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 07:47:42] Clique: validar (1283, 347)
+[2026-02-03 07:47:42] Clique: validar v2 (1302, 359)
+[2026-02-03 07:47:42] Aguardando aviso... restante 300s
+[2026-02-03 07:49:26] Aguardando aviso... restante 195s
+[2026-02-03 07:49:31] Aguardando aviso... restante 190s
+[2026-02-03 07:49:37] Aguardando aviso... restante 185s
+[2026-02-03 07:49:42] Aguardando aviso... restante 180s
+[2026-02-03 07:49:47] Aguardando aviso... restante 175s
+[2026-02-03 07:51:36] Aguardando aviso... restante 65s
+[2026-02-03 07:51:41] Aguardando aviso... restante 60s
+[2026-02-03 07:51:47] Aguardando aviso... restante 55s
+[2026-02-03 07:51:52] Aguardando aviso... restante 50s
+[2026-02-03 07:51:57] Aguardando aviso... restante 45s
+[2026-02-03 07:54:33] Clique: clique inicial (401, 463)
+[2026-02-03 07:54:33] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 07:54:33] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 07:54:33] Diretorio destino: W:\SPEDs\ECD\2025\TIBAGI MOTOS LTDA
+[2026-02-03 07:54:33] Aguardando 2s: preparar a tela
+[2026-02-03 07:54:35] DFC: sim | Simples: Normal
+[2026-02-03 07:54:35] ALT + MPG
+[2026-02-03 07:54:36] Clique: ano calendario (766, 312)
+[2026-02-03 07:54:36] Clique: diretorio destino (948, 358)
+[2026-02-03 07:54:37] Aguardando 0.5s: pos-diretorio
+[2026-02-03 07:54:37] Clique: gerar DMPL (1060, 533)
+[2026-02-03 07:54:37] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 07:54:37] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 07:54:37] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 07:54:38] Clique: tipo de documento (792, 434)
+[2026-02-03 07:54:38] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 07:54:40] Clique: adicionar rtf (1123, 466)
+[2026-02-03 07:54:40] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 07:54:40] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 07:54:42] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 07:54:42] Clique: continuar rtf (1229, 424)
+[2026-02-03 07:54:42] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 07:54:42] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 07:54:42] Clique: validar (1283, 347)
+[2026-02-03 07:54:42] Clique: validar v2 (1302, 359)
+[2026-02-03 07:54:43] Aguardando aviso... restante 300s
+[2026-02-03 08:02:17] Clique: clique inicial (401, 463)
+[2026-02-03 08:02:17] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 08:02:17] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 08:02:17] Diretorio destino: W:\SPEDs\ECD\2025\TIBAGI MOTOS LTDA
+[2026-02-03 08:02:17] Aguardando 2s: preparar a tela
+[2026-02-03 08:02:19] DFC: sim | Simples: Normal
+[2026-02-03 08:02:19] ALT + MPG
+[2026-02-03 08:02:20] Clique: ano calendario (766, 312)
+[2026-02-03 08:02:20] Clique: diretorio destino (948, 358)
+[2026-02-03 08:02:21] Aguardando 0.5s: pos-diretorio
+[2026-02-03 08:02:22] Clique: gerar DMPL (1060, 533)
+[2026-02-03 08:02:22] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 08:02:22] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 08:02:22] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 08:02:22] Clique: tipo de documento (792, 434)
+[2026-02-03 08:02:23] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 08:02:25] Clique: adicionar rtf (1123, 466)
+[2026-02-03 08:02:25] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 08:02:25] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 08:02:27] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 08:02:27] Clique: continuar rtf (1229, 424)
+[2026-02-03 08:02:27] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 08:02:27] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 08:02:27] Clique: validar (1283, 347)
+[2026-02-03 08:02:27] Clique: validar v2 (1302, 359)
+[2026-02-03 08:02:27] Aguardando aviso... restante 300s
+[2026-02-03 08:04:11] Aguardando aviso... restante 195s
+[2026-02-03 08:04:16] Aguardando aviso... restante 190s
+[2026-02-03 08:04:22] Aguardando aviso... restante 185s
+[2026-02-03 08:04:27] Aguardando aviso... restante 180s
+[2026-02-03 08:04:32] Aguardando aviso... restante 175s
+[2026-02-03 08:06:21] Aguardando aviso... restante 65s
+[2026-02-03 08:06:26] Aguardando aviso... restante 60s
+[2026-02-03 08:06:32] Aguardando aviso... restante 55s
+[2026-02-03 08:06:37] Aguardando aviso... restante 50s
+[2026-02-03 08:06:42] Aguardando aviso... restante 45s
+[2026-02-03 08:07:29] Timeout aguardando aviso (300s).
+[2026-02-03 08:07:29] Screenshot salva: W:\SPEDs\ECD\2025\TIBAGI MOTOS LTDA\erros registrados.png
+[2026-02-03 08:07:29] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-03 08:07:29] Clique: sair validacao (1301, 388)
+[2026-02-03 08:07:29] Clique: ok final (1284, 293)
+[2026-02-03 08:07:30] Aguardando aviso final...
+[2026-02-03 08:10:11] Aviso do Sistema localizado.
+[2026-02-03 08:10:11] Aguardando 5s: aguardar 5s
+[2026-02-03 08:10:16] Finalizado.
+[2026-02-03 08:11:41] Clique: clique inicial (401, 463)
+[2026-02-03 08:11:41] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 08:11:41] Empresa: RIO BRANCO VEICULOS LTDA
+[2026-02-03 08:11:41] Diretorio destino: W:\SPEDs\ECD\2025\RIO BRANCO VEICULOS LTDA
+[2026-02-03 08:11:41] Aguardando 2s: preparar a tela
+[2026-02-03 08:11:43] DFC: sim | Simples: Normal
+[2026-02-03 08:11:43] ALT + MPG
+[2026-02-03 08:11:43] Clique: ano calendario (766, 312)
+[2026-02-03 08:11:44] Clique: diretorio destino (948, 358)
+[2026-02-03 08:11:45] Aguardando 0.5s: pos-diretorio
+[2026-02-03 08:11:45] Clique: gerar DMPL (1060, 533)
+[2026-02-03 08:11:45] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 08:11:46] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 08:11:46] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 08:11:46] Clique: tipo de documento (792, 434)
+[2026-02-03 08:11:46] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 08:11:48] Clique: adicionar rtf (1123, 466)
+[2026-02-03 08:11:48] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 08:11:49] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 08:11:50] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 08:11:51] Clique: continuar rtf (1229, 424)
+[2026-02-03 08:11:51] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 08:11:51] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 08:11:51] Clique: validar (1283, 347)
+[2026-02-03 08:11:51] Clique: validar v2 (1302, 359)
+[2026-02-03 08:11:51] Aguardando aviso... restante 300s
+[2026-02-03 08:13:35] Aguardando aviso... restante 195s
+[2026-02-03 08:13:40] Aguardando aviso... restante 190s
+[2026-02-03 08:13:46] Aguardando aviso... restante 185s
+[2026-02-03 08:13:51] Aguardando aviso... restante 180s
+[2026-02-03 08:13:56] Aguardando aviso... restante 175s
+[2026-02-03 08:15:45] Aguardando aviso... restante 65s
+[2026-02-03 08:15:50] Aguardando aviso... restante 60s
+[2026-02-03 08:15:56] Aguardando aviso... restante 55s
+[2026-02-03 08:16:01] Aguardando aviso... restante 50s
+[2026-02-03 08:16:06] Aguardando aviso... restante 45s
+[2026-02-03 08:16:53] Timeout aguardando aviso (300s).
+[2026-02-03 08:16:53] Screenshot salva: W:\SPEDs\ECD\2025\RIO BRANCO VEICULOS LTDA\erros registrados.png
+[2026-02-03 08:16:53] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-03 08:16:53] Clique: sair validacao (1301, 388)
+[2026-02-03 08:16:53] Clique: ok final (1284, 293)
+[2026-02-03 08:16:54] Aguardando aviso final...
+[2026-02-03 08:18:17] Aviso do Sistema localizado.
+[2026-02-03 08:18:17] Aguardando 5s: aguardar 5s
+[2026-02-03 08:18:22] Finalizado.
+[2026-02-03 08:20:55] Clique: clique inicial (401, 463)
+[2026-02-03 08:20:55] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 08:20:55] Empresa: BERTOVEL FERRO E ACO LTDA
+[2026-02-03 08:20:55] Diretorio destino: W:\SPEDs\ECD\2025\BERTOVEL FERRO E ACO LTDA
+[2026-02-03 08:20:55] Aguardando 2s: preparar a tela
+[2026-02-03 08:20:57] DFC: sim | Simples: Normal
+[2026-02-03 08:20:57] ALT + MPG
+[2026-02-03 08:20:58] Clique: ano calendario (766, 312)
+[2026-02-03 08:20:58] Clique: diretorio destino (948, 358)
+[2026-02-03 08:20:59] Aguardando 0.5s: pos-diretorio
+[2026-02-03 08:21:00] Clique: gerar DMPL (1060, 533)
+[2026-02-03 08:21:00] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 08:21:00] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 08:21:00] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 08:21:00] Clique: tipo de documento (792, 434)
+[2026-02-03 08:21:00] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 08:21:02] Clique: adicionar rtf (1123, 466)
+[2026-02-03 08:21:03] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 08:21:03] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 08:21:05] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 08:21:05] Clique: continuar rtf (1229, 424)
+[2026-02-03 08:21:05] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 08:21:05] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 08:21:05] Clique: validar (1283, 347)
+[2026-02-03 08:21:05] Clique: validar v2 (1302, 359)
+[2026-02-03 08:21:05] Aguardando aviso... restante 300s
+[2026-02-03 08:22:49] Aguardando aviso... restante 195s
+[2026-02-03 08:22:55] Aguardando aviso... restante 190s
+[2026-02-03 08:23:00] Aguardando aviso... restante 185s
+[2026-02-03 08:23:05] Aguardando aviso... restante 180s
+[2026-02-03 08:23:10] Aguardando aviso... restante 175s
+[2026-02-03 08:24:59] Aguardando aviso... restante 65s
+[2026-02-03 08:25:05] Aguardando aviso... restante 60s
+[2026-02-03 08:25:10] Aguardando aviso... restante 55s
+[2026-02-03 08:25:15] Aguardando aviso... restante 50s
+[2026-02-03 08:25:20] Aguardando aviso... restante 45s
+[2026-02-03 08:26:07] Timeout aguardando aviso (300s).
+[2026-02-03 08:26:07] Screenshot salva: W:\SPEDs\ECD\2025\BERTOVEL FERRO E ACO LTDA\erros registrados.png
+[2026-02-03 08:26:07] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-03 08:26:07] Clique: sair validacao (1301, 388)
+[2026-02-03 08:26:07] Clique: ok final (1284, 293)
+[2026-02-03 08:26:08] Aguardando aviso final...
+[2026-02-03 08:33:56] Aviso do Sistema localizado.
+[2026-02-03 08:33:56] Aguardando 5s: aguardar 5s
+[2026-02-03 08:34:01] Finalizado.
+[2026-02-03 08:35:11] Clique: clique inicial (401, 463)
+[2026-02-03 08:35:11] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 08:35:11] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:35:11] Diretorio destino: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:35:11] Aguardando 2s: preparar a tela
+[2026-02-03 08:35:13] DFC: sim | Simples: Normal
+[2026-02-03 08:35:13] ALT + MPG
+[2026-02-03 08:35:14] Clique: ano calendario (766, 312)
+[2026-02-03 08:35:14] Clique: diretorio destino (948, 358)
+[2026-02-03 08:35:15] Aguardando 0.5s: pos-diretorio
+[2026-02-03 08:35:16] Clique: gerar DMPL (1060, 533)
+[2026-02-03 08:35:16] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 08:35:16] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 08:35:16] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 08:35:17] Clique: tipo de documento (792, 434)
+[2026-02-03 08:35:17] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 08:35:19] Clique: adicionar rtf (1123, 466)
+[2026-02-03 08:35:19] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 08:35:19] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 08:35:21] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 08:35:21] Clique: continuar rtf (1229, 424)
+[2026-02-03 08:35:21] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 08:35:21] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 08:35:22] Clique: validar (1283, 347)
+[2026-02-03 08:35:22] Clique: validar v2 (1302, 359)
+[2026-02-03 08:35:22] Aguardando aviso... restante 300s
+[2026-02-03 08:37:06] Aguardando aviso... restante 195s
+[2026-02-03 08:37:11] Aguardando aviso... restante 190s
+[2026-02-03 08:37:16] Aguardando aviso... restante 185s
+[2026-02-03 08:37:22] Aguardando aviso... restante 180s
+[2026-02-03 08:37:27] Aguardando aviso... restante 175s
+[2026-02-03 08:39:16] Aguardando aviso... restante 65s
+[2026-02-03 08:39:21] Aguardando aviso... restante 60s
+[2026-02-03 08:39:26] Aguardando aviso... restante 55s
+[2026-02-03 08:39:32] Aguardando aviso... restante 50s
+[2026-02-03 08:39:37] Aguardando aviso... restante 45s
+[2026-02-03 08:40:24] Timeout aguardando aviso (300s).
+[2026-02-03 08:40:24] Screenshot salva: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\erros registrados.png
+[2026-02-03 08:40:24] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-03 08:40:24] Clique: sair validacao (1301, 388)
+[2026-02-03 08:40:24] Clique: ok final (1284, 293)
+[2026-02-03 08:40:24] Segundo aviso localizado. Confirmando com ENTER.
+[2026-02-03 08:40:24] Aguardando 5s: aguardar 5s
+[2026-02-03 08:40:29] Finalizado.
+[2026-02-03 08:51:39] Clique: clique inicial (401, 463)
+[2026-02-03 08:51:39] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 08:51:39] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:51:39] Diretorio destino: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:51:39] Aguardando 2s: preparar a tela
+[2026-02-03 08:51:42] DFC: sim | Simples: Normal
+[2026-02-03 08:51:42] ALT + MPG
+[2026-02-03 08:51:42] Clique: ano calendario (766, 312)
+[2026-02-03 08:51:43] Clique: diretorio destino (948, 358)
+[2026-02-03 08:51:44] Aguardando 0.5s: pos-diretorio
+[2026-02-03 08:51:44] Clique: gerar DMPL (1060, 533)
+[2026-02-03 08:51:44] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 08:51:44] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 08:51:44] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 08:51:45] Clique: tipo de documento (792, 434)
+[2026-02-03 08:51:45] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 08:51:47] Clique: adicionar rtf (1123, 466)
+[2026-02-03 08:51:48] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 08:51:48] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 08:51:50] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 08:51:50] Clique: continuar rtf (1229, 424)
+[2026-02-03 08:51:50] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 08:51:50] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 08:51:50] Clique: validar (1283, 347)
+[2026-02-03 08:51:50] Clique: validar v2 (1302, 359)
+[2026-02-03 08:51:50] Aguardando aviso... restante 300s
+[2026-02-03 08:53:34] Aguardando aviso... restante 195s
+[2026-02-03 08:53:39] Aguardando aviso... restante 190s
+[2026-02-03 08:53:45] Aguardando aviso... restante 185s
+[2026-02-03 08:53:50] Aguardando aviso... restante 180s
+[2026-02-03 08:53:55] Aguardando aviso... restante 175s
+[2026-02-03 08:56:15] Clique: clique inicial (401, 463)
+[2026-02-03 08:56:16] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 08:56:16] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:56:16] Diretorio destino: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:56:16] Aguardando 2s: preparar a tela
+[2026-02-03 08:56:18] DFC: sim | Simples: Normal
+[2026-02-03 08:56:18] ALT + MPG
+[2026-02-03 08:56:18] Clique: ano calendario (766, 312)
+[2026-02-03 08:56:19] Clique: diretorio destino (948, 358)
+[2026-02-03 08:56:20] Aguardando 0.5s: pos-diretorio
+[2026-02-03 08:56:20] Clique: gerar DMPL (1060, 533)
+[2026-02-03 08:56:20] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 08:56:21] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 08:56:21] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 08:56:21] Clique: tipo de documento (792, 434)
+[2026-02-03 08:56:21] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 08:56:23] Clique: adicionar rtf (1123, 466)
+[2026-02-03 08:56:24] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 08:56:24] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 08:56:26] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 08:56:26] Clique: continuar rtf (1229, 424)
+[2026-02-03 08:56:26] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 08:56:26] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 08:56:26] Clique: validar (1283, 347)
+[2026-02-03 08:56:26] Clique: validar v2 (1302, 359)
+[2026-02-03 08:56:26] Aguardando aviso... restante 120s
+[2026-02-03 08:58:10] Aguardando aviso... restante 15s
+[2026-02-03 08:58:16] Aguardando aviso... restante 10s
+[2026-02-03 08:58:21] Aguardando aviso... restante 5s
+[2026-02-03 08:58:26] Aguardando aviso... restante 0s
+[2026-02-03 08:58:31] Timeout aguardando aviso (120s).
+[2026-02-03 08:58:32] Screenshot salva: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\erros registrados.png
+[2026-02-03 08:58:32] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-03 08:58:32] Clique: sair validacao (1301, 388)
+[2026-02-03 08:58:32] Clique: ok final (1284, 293)
+[2026-02-03 08:58:32] Segundo aviso localizado. Confirmando com ENTER.
+[2026-02-03 08:58:32] Aguardando 5s: aguardar 5s
+[2026-02-03 08:58:37] Finalizado.
+[2026-02-03 09:09:51] Clique: clique inicial (401, 463)
+[2026-02-03 09:09:51] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 09:09:51] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:09:51] Diretorio destino: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:09:51] Aguardando 2s: preparar a tela
+[2026-02-03 09:09:53] DFC: sim | Simples: Normal
+[2026-02-03 09:09:53] ALT + MPG
+[2026-02-03 09:09:54] Clique: ano calendario (766, 312)
+[2026-02-03 09:09:55] Clique: diretorio destino (948, 358)
+[2026-02-03 09:09:56] Aguardando 0.5s: pos-diretorio
+[2026-02-03 09:09:56] Clique: gerar DMPL (1060, 533)
+[2026-02-03 09:09:56] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 09:09:56] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 09:09:56] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 09:09:57] Clique: tipo de documento (792, 434)
+[2026-02-03 09:09:57] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 09:09:59] Clique: adicionar rtf (1123, 466)
+[2026-02-03 09:09:59] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 09:10:00] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 09:10:02] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 09:10:02] Clique: continuar rtf (1229, 424)
+[2026-02-03 09:10:02] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 09:10:02] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 09:10:02] Clique: validar (1283, 347)
+[2026-02-03 09:10:02] Clique: validar v2 (1302, 359)
+[2026-02-03 09:10:02] Aviso do Sistema ja presente. Fechando com ENTER.
+[2026-02-03 09:10:02] Aguardando 0.5s: fechar aviso
+[2026-02-03 09:10:03] Clique: sair validacao (1301, 388)
+[2026-02-03 09:10:03] Clique: ok final (1284, 293)
+[2026-02-03 09:10:03] Aguardando aviso final...
+[2026-02-03 09:21:04] Aguardando aviso final...
+[2026-02-03 09:23:03] Aguardando aviso final...
+[2026-02-03 09:25:03] Aguardando aviso final...
+[2026-02-03 09:36:04] Aguardando aviso final...
+[2026-02-03 09:38:03] Aguardando aviso final...
+[2026-02-03 09:40:03] Aguardando aviso final...
+[2026-02-03 09:48:06] Clique: clique inicial (401, 463)
+[2026-02-03 09:48:06] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 09:48:06] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:48:06] Diretorio destino: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:48:06] Aguardando 2s: preparar a tela
+[2026-02-03 09:48:08] DFC: sim | Simples: Normal
+[2026-02-03 09:48:08] ALT + MPG
+[2026-02-03 09:48:09] Clique: ano calendario (766, 312)
+[2026-02-03 09:48:09] Clique: diretorio destino (948, 358)
+[2026-02-03 09:48:11] Aguardando 0.5s: pos-diretorio
+[2026-02-03 09:48:11] Clique: gerar DMPL (1060, 533)
+[2026-02-03 09:48:11] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 09:48:11] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 09:48:11] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 09:48:12] Clique: tipo de documento (792, 434)
+[2026-02-03 09:48:12] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 09:48:14] Clique: adicionar rtf (1123, 466)
+[2026-02-03 09:48:14] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 09:48:15] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 09:48:17] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 09:48:17] Clique: continuar rtf (1229, 424)
+[2026-02-03 09:48:17] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 09:48:17] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 09:48:17] Clique: validar (1283, 347)
+[2026-02-03 09:48:17] Clique: validar v2 (1302, 359)
+[2026-02-03 09:48:17] Aguardando aviso... restante 120s
+[2026-02-03 09:50:01] Aguardando aviso... restante 15s
+[2026-02-03 09:50:06] Aguardando aviso... restante 10s
+[2026-02-03 09:50:12] Aguardando aviso... restante 5s
+[2026-02-03 09:50:17] Aguardando aviso... restante 0s
+[2026-02-03 09:50:22] Timeout aguardando aviso (120s).
+[2026-02-03 09:50:22] Screenshot salva: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\erros registrados.png
+[2026-02-03 09:50:22] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-03 09:50:22] Clique: sair validacao (1301, 388)
+[2026-02-03 09:50:22] Clique: ok final (1284, 293)
+[2026-02-03 09:50:22] Segundo aviso localizado. Confirmando com ENTER.
+[2026-02-03 09:50:22] Aguardando 5s: aguardar 5s
+[2026-02-03 09:50:27] Finalizado.
+[2026-02-03 09:55:04] Clique: clique inicial (401, 463)
+[2026-02-03 09:55:04] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 09:55:04] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:55:04] Diretorio destino: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:55:04] Aguardando 2s: preparar a tela
+[2026-02-03 09:55:06] DFC: sim | Simples: Normal
+[2026-02-03 09:55:06] ALT + MPG
+[2026-02-03 09:55:07] Clique: ano calendario (766, 312)
+[2026-02-03 09:55:07] Clique: diretorio destino (948, 358)
+[2026-02-03 09:55:08] Aguardando 0.5s: pos-diretorio
+[2026-02-03 09:55:09] Clique: gerar DMPL (1060, 533)
+[2026-02-03 09:55:09] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 09:55:09] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 09:55:09] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 09:55:10] Clique: tipo de documento (792, 434)
+[2026-02-03 09:55:10] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 09:55:12] Clique: adicionar rtf (1123, 466)
+[2026-02-03 09:55:12] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 09:55:12] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 09:55:14] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 09:55:14] Clique: continuar rtf (1229, 424)
+[2026-02-03 09:55:14] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 09:55:15] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 09:55:15] Clique: validar (1283, 347)
+[2026-02-03 09:55:15] Clique: validar v2 (1302, 359)
+[2026-02-03 09:55:15] Aguardando aviso... restante 120s
+[2026-02-03 09:56:59] Aguardando aviso... restante 15s
+[2026-02-03 09:57:04] Aguardando aviso... restante 10s
+[2026-02-03 09:57:09] Aguardando aviso... restante 5s
+[2026-02-03 09:57:15] Aguardando aviso... restante 0s
+[2026-02-03 09:57:20] Timeout aguardando aviso (120s).
+[2026-02-03 09:57:20] Screenshot salva: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\erros registrados.png
+[2026-02-03 09:57:20] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-03 09:57:20] Clique: sair validacao (1301, 388)
+[2026-02-03 09:57:20] Clique: ok final (1284, 293)
+[2026-02-03 09:57:20] Segundo aviso localizado. Confirmando com ENTER.
+[2026-02-03 09:57:20] Aguardando 5s: aguardar 5s
+[2026-02-03 09:57:25] Finalizado.
+[2026-02-03 10:03:57] Clique: clique inicial (401, 463)
+[2026-02-03 10:03:57] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 10:03:57] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 10:03:57] Diretorio destino: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 10:03:57] Aguardando 2s: preparar a tela
+[2026-02-03 10:03:59] DFC: sim | Simples: Normal
+[2026-02-03 10:03:59] ALT + MPG
+[2026-02-03 10:04:00] Clique: ano calendario (766, 312)
+[2026-02-03 10:04:00] Clique: diretorio destino (948, 358)
+[2026-02-03 10:04:01] Aguardando 0.5s: pos-diretorio
+[2026-02-03 10:04:02] Clique: gerar DMPL (1060, 533)
+[2026-02-03 10:04:02] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 10:04:02] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 10:04:02] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 10:04:03] Clique: tipo de documento (792, 434)
+[2026-02-03 10:04:03] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 10:04:05] Clique: adicionar rtf (1123, 466)
+[2026-02-03 10:04:05] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 10:04:05] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 10:04:07] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 10:04:07] Clique: continuar rtf (1229, 424)
+[2026-02-03 10:04:07] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 10:04:07] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 10:04:08] Clique: validar (1283, 347)
+[2026-02-03 10:04:08] Clique: validar v2 (1302, 359)
+[2026-02-03 10:04:08] Aguardando aviso... restante 120s
+[2026-02-03 10:05:52] Aguardando aviso... restante 15s
+[2026-02-03 10:05:57] Aguardando aviso... restante 10s
+[2026-02-03 10:06:02] Aguardando aviso... restante 5s
+[2026-02-03 10:06:08] Aguardando aviso... restante 0s
+[2026-02-03 10:06:13] Timeout aguardando aviso (120s).
+[2026-02-03 10:06:13] Screenshot salva: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\erros registrados.png
+[2026-02-03 10:06:13] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-03 10:06:13] Clique: sair validacao (1301, 388)
+[2026-02-03 10:06:13] Clique: ok final (1284, 293)
+[2026-02-03 10:06:13] Segundo aviso localizado. Confirmando com ENTER.
+[2026-02-03 10:06:13] Aguardando 5s: aguardar 5s
+[2026-02-03 10:06:18] Finalizado.
+[2026-02-03 10:14:24] Clique: clique inicial (401, 463)
+[2026-02-03 10:14:24] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 10:14:24] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 10:14:24] Diretorio destino: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 10:14:24] Aguardando 2s: preparar a tela
+[2026-02-03 10:14:26] DFC: sim | Simples: Normal
+[2026-02-03 10:14:26] ALT + MPG
+[2026-02-03 10:14:27] Clique: ano calendario (766, 312)
+[2026-02-03 10:14:27] Clique: diretorio destino (948, 358)
+[2026-02-03 10:14:29] Aguardando 0.5s: pos-diretorio
+[2026-02-03 10:14:29] Clique: gerar DMPL (1060, 533)
+[2026-02-03 10:14:29] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 10:14:29] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 10:14:29] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 10:14:30] Clique: tipo de documento (792, 434)
+[2026-02-03 10:14:30] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 10:14:32] Clique: adicionar rtf (1123, 466)
+[2026-02-03 10:14:32] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 10:14:33] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 10:14:34] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 10:14:35] Clique: continuar rtf (1229, 424)
+[2026-02-03 10:14:35] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 10:14:35] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 10:14:35] Clique: validar (1283, 347)
+[2026-02-03 10:14:35] Clique: validar v2 (1302, 359)
+[2026-02-03 10:14:35] Aguardando aviso... restante 120s
+[2026-02-03 10:16:19] Aguardando aviso... restante 15s
+[2026-02-03 10:16:24] Aguardando aviso... restante 10s
+[2026-02-03 10:16:30] Aguardando aviso... restante 5s
+[2026-02-03 10:16:35] Aguardando aviso... restante 0s
+[2026-02-03 10:16:40] Timeout aguardando aviso (120s).
+[2026-02-03 10:16:40] Screenshot salva: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\erros registrados.png
+[2026-02-03 10:16:40] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-03 10:16:40] Clique: sair validacao (1301, 388)
+[2026-02-03 10:16:40] Clique: ok final (1284, 293)
+[2026-02-03 10:16:40] Segundo aviso localizado. Confirmando com ENTER.
+[2026-02-03 10:16:40] Aguardando 5s: aguardar 5s
+[2026-02-03 10:16:45] Finalizado.
+[2026-02-03 10:24:16] Empresa vazia. Encerrando.
+[2026-02-03 10:24:36] Clique: pre-fluxo 1 (1007, 370)
+[2026-02-03 10:24:36] Clique: pre-fluxo 2 (1201, 400)
+[2026-02-03 10:24:36] Clique: pre-fluxo 3 (1262, 368)
+[2026-02-03 10:24:37] Clique: pre-fluxo 4 (582, 1079)
+[2026-02-03 10:24:37] Clique: pre-fluxo 5 (582, 1079)
+[2026-02-03 10:24:37] Clique: pre-fluxo 6 (1201, 400)
+[2026-02-03 10:24:37] Clique: pre-fluxo 7 (1262, 368)
+[2026-02-03 10:24:37] Teste pre-fluxo finalizado.
+[2026-02-03 10:24:47] Empresa nao localizada no status: TESTE
+[2026-02-03 10:24:58] Clique: pre-fluxo 1 (1007, 370)
+[2026-02-03 10:24:58] Clique: pre-fluxo 2 (1201, 400)
+[2026-02-03 10:24:58] Clique: pre-fluxo 3 (1262, 368)
+[2026-02-03 10:24:58] Clique: pre-fluxo 4 (582, 1079)
+[2026-02-03 10:24:58] Clique: pre-fluxo 5 (582, 1079)
+[2026-02-03 10:24:58] Clique: pre-fluxo 6 (1201, 400)
+[2026-02-03 10:24:58] Clique: pre-fluxo 7 (1262, 368)
+[2026-02-03 10:24:58] Teste pre-fluxo finalizado.
+[2026-02-03 10:25:56] Empresa vazia. Encerrando.
+[2026-02-03 10:26:02] Empresa nao localizada no status: A
+[2026-02-03 10:26:04] Clique: foco inicial (401, 463)
+[2026-02-03 10:26:04] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:26:04] Clique: pre-fluxo 1 (1007, 370)
+[2026-02-03 10:26:04] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:26:05] Clique: pre-fluxo 2 (1201, 400)
+[2026-02-03 10:26:05] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:26:06] Clique: pre-fluxo 3 (1262, 368)
+[2026-02-03 10:26:06] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:26:06] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:26:07] Clique: pre-fluxo 4 (582, 1079)
+[2026-02-03 10:26:07] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:26:07] Clique: pre-fluxo 5 (582, 1079)
+[2026-02-03 10:26:07] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:26:08] Clique: pre-fluxo 6 (1201, 400)
+[2026-02-03 10:26:08] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:26:08] Clique: pre-fluxo 7 (1262, 368)
+[2026-02-03 10:26:08] Teste pre-fluxo finalizado.
+[2026-02-03 10:40:02] Clique: foco inicial (401, 463)
+[2026-02-03 10:40:02] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:40:03] Clique: pre-fluxo 1 (280, 350)
+[2026-02-03 10:40:03] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:40:03] Clique: pre-fluxo 2 (188, 33)
+[2026-02-03 10:40:03] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:40:04] Clique: pre-fluxo 3 (230, 362)
+[2026-02-03 10:40:04] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:40:05] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:40:05] Clique: pre-fluxo 4 (838, 454)
+[2026-02-03 10:40:05] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:40:06] Clique: pre-fluxo 5 (833, 472)
+[2026-02-03 10:40:06] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:40:06] Clique: pre-fluxo 6 (1094, 594)
+[2026-02-03 10:40:06] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:40:07] Clique: pre-fluxo 7 (1020, 599)
+[2026-02-03 10:40:07] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:40:08] Clique: pre-fluxo 8 (1213, 403)
+[2026-02-03 10:40:08] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:40:08] Clique: pre-fluxo 9 (1262, 371)
+[2026-02-03 10:40:08] Clique: clique inicial (401, 463)
+[2026-02-03 10:40:08] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 10:40:08] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-03 10:40:08] Diretorio destino: W:\SPEDs\ECD\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-03 10:40:08] Aguardando 2s: preparar a tela
+[2026-02-03 10:40:10] DFC: sim | Simples: Normal
+[2026-02-03 10:40:10] ALT + MPG
+[2026-02-03 10:40:11] Clique: ano calendario (766, 312)
+[2026-02-03 10:40:11] Clique: diretorio destino (948, 358)
+[2026-02-03 10:40:13] Aguardando 0.5s: pos-diretorio
+[2026-02-03 10:40:13] Clique: gerar DMPL (1060, 533)
+[2026-02-03 10:40:13] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 10:40:13] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 10:40:13] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 10:40:14] Clique: tipo de documento (792, 434)
+[2026-02-03 10:40:14] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 10:40:16] Clique: adicionar rtf (1123, 466)
+[2026-02-03 10:40:17] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 10:40:17] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 10:40:19] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 10:40:19] Clique: continuar rtf (1229, 424)
+[2026-02-03 10:40:19] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 10:40:19] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 10:40:19] Clique: validar (1283, 347)
+[2026-02-03 10:40:19] Clique: validar v2 (1302, 359)
+[2026-02-03 10:40:19] Aguardando aviso... restante 120s
+[2026-02-03 10:42:03] Aguardando aviso... restante 15s
+[2026-02-03 10:42:09] Aguardando aviso... restante 10s
+[2026-02-03 10:42:14] Aguardando aviso... restante 5s
+[2026-02-03 10:42:19] Aguardando aviso... restante 0s
+[2026-02-03 10:42:24] Timeout aguardando aviso (120s).
+[2026-02-03 10:42:25] Screenshot salva: W:\SPEDs\ECD\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA\erros registrados.png
+[2026-02-03 10:42:25] ERRO registrado no status: 3 - Aviso nao apareceu na verificacao.
+[2026-02-03 10:42:25] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-03 10:42:25] Clique: sair validacao (1301, 388)
+[2026-02-03 10:42:25] Clique: ok final (1284, 293)
+[2026-02-03 10:42:25] Aguardando aviso final...
+[2026-02-03 10:44:09] Aviso do Sistema localizado.
+[2026-02-03 10:44:09] Aguardando 5s: aguardar 5s
+[2026-02-03 10:44:14] Finalizado.
+[2026-02-03 10:44:14] Clique: pos-fluxo 1 (541, 571)
+[2026-02-03 10:44:14] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:44:15] Clique: pos-fluxo 2 (173, 28)
+[2026-02-03 10:44:15] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:44:15] Clique: pos-fluxo 3 (232, 355)
+[2026-02-03 10:44:15] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:44:16] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:44:16] Clique: pos-fluxo 4 (771, 707)
+[2026-02-03 10:44:17] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:44:17] Clique: pos-fluxo 5 (796, 749)
+[2026-02-03 10:44:17] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:44:18] Clique: pos-fluxo 6 (1224, 404)
+[2026-02-03 10:44:18] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:44:18] Clique: pos-fluxo 7 (1265, 369)
+[2026-02-03 10:48:44] Clique: foco inicial (401, 463)
+[2026-02-03 10:48:44] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:48:44] Clique: pre-fluxo 1 (280, 350)
+[2026-02-03 10:48:44] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:48:45] Clique: pre-fluxo 2 (188, 33)
+[2026-02-03 10:48:45] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:48:45] Clique: pre-fluxo 3 (230, 362)
+[2026-02-03 10:48:46] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:48:46] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:48:47] Clique: pre-fluxo 4 (838, 454)
+[2026-02-03 10:48:47] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:48:47] Clique: pre-fluxo 5 (833, 472)
+[2026-02-03 10:48:47] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:48:48] Clique: pre-fluxo 6 (1094, 594)
+[2026-02-03 10:48:48] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:48:48] Clique: pre-fluxo 7 (1020, 599)
+[2026-02-03 10:48:49] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:48:49] Clique: pre-fluxo 8 (1213, 403)
+[2026-02-03 10:48:49] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:48:50] Clique: pre-fluxo 9 (1262, 371)
+[2026-02-03 10:48:50] Clique: clique inicial (401, 463)
+[2026-02-03 10:48:50] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 10:48:50] Empresa: AGRABEL CAMINHOES LTDA
+[2026-02-03 10:48:50] Diretorio destino: W:\SPEDs\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-02-03 10:48:50] Aguardando 2s: preparar a tela
+[2026-02-03 10:48:52] DFC: sim | Simples: Normal
+[2026-02-03 10:48:52] ALT + MPG
+[2026-02-03 10:48:53] Clique: ano calendario (766, 312)
+[2026-02-03 10:48:53] Clique: diretorio destino (948, 358)
+[2026-02-03 10:48:54] Aguardando 0.5s: pos-diretorio
+[2026-02-03 10:48:54] Clique: gerar DMPL (1060, 533)
+[2026-02-03 10:48:54] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 10:48:55] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 10:48:55] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 10:48:55] Clique: tipo de documento (792, 434)
+[2026-02-03 10:48:55] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 10:48:57] Clique: adicionar rtf (1123, 466)
+[2026-02-03 10:48:57] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 10:48:58] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 10:48:59] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 10:48:59] Clique: continuar rtf (1229, 424)
+[2026-02-03 10:49:00] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 10:49:00] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 10:49:00] Clique: validar (1283, 347)
+[2026-02-03 10:49:00] Clique: validar v2 (1302, 359)
+[2026-02-03 10:49:00] Aguardando aviso... restante 120s
+[2026-02-03 10:49:10] Aviso do Sistema localizado.
+[2026-02-03 10:49:10] Aguardando 0.5s: fechar aviso
+[2026-02-03 10:49:11] Clique: sair validacao (1301, 388)
+[2026-02-03 10:49:11] Clique: ok final (1284, 293)
+[2026-02-03 10:49:11] Aguardando aviso final...
+[2026-02-03 10:50:24] Aviso do Sistema localizado.
+[2026-02-03 10:50:24] Aguardando 5s: aguardar 5s
+[2026-02-03 10:50:29] Finalizado.
+[2026-02-03 10:50:29] Aguardando 0.5s: pos-aviso final
+[2026-02-03 10:50:30] Clique: pos-fluxo 1 (541, 571)
+[2026-02-03 10:50:30] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:50:30] Clique: pos-fluxo 2 (173, 28)
+[2026-02-03 10:50:30] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:50:31] Clique: pos-fluxo 3 (232, 355)
+[2026-02-03 10:50:31] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:50:32] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:50:32] Clique: pos-fluxo 4 (771, 707)
+[2026-02-03 10:50:32] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:50:33] Clique: pos-fluxo 5 (796, 749)
+[2026-02-03 10:50:33] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:50:33] Clique: pos-fluxo 6 (1224, 404)
+[2026-02-03 10:50:33] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:50:34] Clique: pos-fluxo 7 (1265, 369)
+[2026-02-03 10:52:22] Clique: foco inicial (401, 463)
+[2026-02-03 10:52:23] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:52:23] Clique: pre-fluxo 1 (280, 350)
+[2026-02-03 10:52:23] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:52:24] Clique: pre-fluxo 2 (188, 33)
+[2026-02-03 10:52:24] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:52:24] Clique: pre-fluxo 3 (230, 362)
+[2026-02-03 10:52:24] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:52:25] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:52:25] Clique: pre-fluxo 4 (838, 454)
+[2026-02-03 10:52:25] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:52:26] Clique: pre-fluxo 5 (833, 472)
+[2026-02-03 10:52:26] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:52:27] Clique: pre-fluxo 6 (1094, 594)
+[2026-02-03 10:52:27] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:52:27] Clique: pre-fluxo 7 (1020, 599)
+[2026-02-03 10:52:27] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:52:28] Clique: pre-fluxo 8 (1213, 403)
+[2026-02-03 10:52:28] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:52:28] Clique: pre-fluxo 9 (1262, 371)
+[2026-02-03 10:52:28] Clique: clique inicial (401, 463)
+[2026-02-03 10:52:28] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 10:52:28] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 10:52:28] Diretorio destino: W:\SPEDs\ECD\2025\TIBAGI MOTOS LTDA
+[2026-02-03 10:52:28] Aguardando 2s: preparar a tela
+[2026-02-03 10:52:30] DFC: sim | Simples: Normal
+[2026-02-03 10:52:30] ALT + MPG
+[2026-02-03 10:52:31] Clique: ano calendario (766, 312)
+[2026-02-03 10:52:31] Clique: diretorio destino (948, 358)
+[2026-02-03 10:52:32] Aguardando 0.5s: pos-diretorio
+[2026-02-03 10:52:33] Clique: gerar DMPL (1060, 533)
+[2026-02-03 10:52:33] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 10:52:33] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 10:52:33] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 10:52:34] Clique: tipo de documento (792, 434)
+[2026-02-03 10:52:34] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 10:52:36] Clique: adicionar rtf (1123, 466)
+[2026-02-03 10:52:36] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 10:52:36] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 10:52:38] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 10:52:38] Clique: continuar rtf (1229, 424)
+[2026-02-03 10:52:38] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 10:52:38] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 10:52:38] Clique: validar (1283, 347)
+[2026-02-03 10:52:38] Clique: validar v2 (1302, 359)
+[2026-02-03 10:52:38] Aguardando aviso... restante 120s
+[2026-02-03 10:54:22] Aguardando aviso... restante 15s
+[2026-02-03 10:54:28] Aguardando aviso... restante 10s
+[2026-02-03 10:54:33] Aguardando aviso... restante 5s
+[2026-02-03 10:54:38] Aguardando aviso... restante 0s
+[2026-02-03 10:54:43] Timeout aguardando aviso (120s).
+[2026-02-03 10:54:44] Screenshot salva: W:\SPEDs\ECD\2025\TIBAGI MOTOS LTDA\erros registrados.png
+[2026-02-03 10:54:44] ERRO registrado no status: 143 - Aviso nao apareceu na verificacao.
+[2026-02-03 10:54:44] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-03 10:54:44] Clique: sair validacao (1301, 388)
+[2026-02-03 10:54:44] Clique: ok final (1284, 293)
+[2026-02-03 10:54:44] Aguardando aviso final...
+[2026-02-03 10:57:25] Aviso do Sistema localizado.
+[2026-02-03 10:57:25] Aguardando 5s: aguardar 5s
+[2026-02-03 10:57:30] Finalizado.
+[2026-02-03 10:57:30] Aguardando 0.5s: pos-aviso final
+[2026-02-03 10:57:31] Clique: pos-fluxo 1 (541, 571)
+[2026-02-03 10:57:31] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:57:31] Clique: pos-fluxo 2 (173, 28)
+[2026-02-03 10:57:31] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:57:32] Clique: pos-fluxo 3 (232, 355)
+[2026-02-03 10:57:32] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:57:33] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:57:33] Clique: pos-fluxo 4 (771, 707)
+[2026-02-03 10:57:33] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:57:34] Clique: pos-fluxo 5 (796, 749)
+[2026-02-03 10:57:34] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:57:34] Clique: pos-fluxo 6 (1224, 404)
+[2026-02-03 10:57:34] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:57:35] Clique: pos-fluxo 7 (1265, 369)
+[2026-02-03 10:58:57] Clique: foco inicial (401, 463)
+[2026-02-03 10:58:57] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:58:58] Clique: pre-fluxo 1 (280, 350)
+[2026-02-03 10:58:58] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:58:58] Clique: pre-fluxo 2 (188, 33)
+[2026-02-03 10:58:58] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:58:59] Clique: pre-fluxo 3 (230, 362)
+[2026-02-03 10:58:59] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:59:00] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:59:00] Clique: pre-fluxo 4 (838, 454)
+[2026-02-03 10:59:00] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:59:01] Clique: pre-fluxo 5 (833, 472)
+[2026-02-03 10:59:01] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:59:01] Clique: pre-fluxo 6 (1094, 594)
+[2026-02-03 10:59:01] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:59:02] Clique: pre-fluxo 7 (1020, 599)
+[2026-02-03 10:59:02] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:59:02] Clique: pre-fluxo 8 (1213, 403)
+[2026-02-03 10:59:03] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:59:03] Clique: pre-fluxo 9 (1262, 371)
+[2026-02-03 10:59:03] Clique: clique inicial (401, 463)
+[2026-02-03 10:59:03] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 10:59:03] Empresa: RIO BRANCO VEICULOS LTDA
+[2026-02-03 10:59:03] Diretorio destino: W:\SPEDs\ECD\2025\RIO BRANCO VEICULOS LTDA
+[2026-02-03 10:59:03] Aguardando 2s: preparar a tela
+[2026-02-03 10:59:05] DFC: sim | Simples: Normal
+[2026-02-03 10:59:05] ALT + MPG
+[2026-02-03 10:59:06] Clique: ano calendario (766, 312)
+[2026-02-03 10:59:06] Clique: diretorio destino (948, 358)
+[2026-02-03 10:59:07] Aguardando 0.5s: pos-diretorio
+[2026-02-03 10:59:08] Clique: gerar DMPL (1060, 533)
+[2026-02-03 10:59:08] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 10:59:08] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 10:59:08] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 10:59:09] Clique: tipo de documento (792, 434)
+[2026-02-03 10:59:09] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 10:59:11] Clique: adicionar rtf (1123, 466)
+[2026-02-03 10:59:11] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 10:59:11] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 10:59:13] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 10:59:13] Clique: continuar rtf (1229, 424)
+[2026-02-03 10:59:13] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 10:59:13] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 10:59:13] Clique: validar (1283, 347)
+[2026-02-03 10:59:13] Clique: validar v2 (1302, 359)
+[2026-02-03 10:59:14] Aguardando aviso... restante 120s
+[2026-02-03 11:00:58] Aguardando aviso... restante 15s
+[2026-02-03 11:01:03] Aguardando aviso... restante 10s
+[2026-02-03 11:01:08] Aguardando aviso... restante 5s
+[2026-02-03 11:01:13] Aguardando aviso... restante 0s
+[2026-02-03 11:01:18] Timeout aguardando aviso (120s).
+[2026-02-03 11:01:19] Screenshot salva: W:\SPEDs\ECD\2025\RIO BRANCO VEICULOS LTDA\erros registrados.png
+[2026-02-03 11:01:19] ERRO registrado no status: 201 - Aviso nao apareceu na verificacao.
+[2026-02-03 11:01:19] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-03 11:01:19] Clique: sair validacao (1301, 388)
+[2026-02-03 11:01:19] Clique: ok final (1284, 293)
+[2026-02-03 11:01:19] Aguardando aviso final...
+[2026-02-03 11:02:42] Aviso do Sistema localizado.
+[2026-02-03 11:02:42] Aguardando 5s: aguardar 5s
+[2026-02-03 11:02:47] Finalizado.
+[2026-02-03 11:02:47] Aguardando 0.5s: pos-aviso final
+[2026-02-03 11:02:48] Clique: pos-fluxo 1 (541, 571)
+[2026-02-03 11:02:48] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:02:49] Clique: pos-fluxo 2 (173, 28)
+[2026-02-03 11:02:49] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:02:49] Clique: pos-fluxo 3 (232, 355)
+[2026-02-03 11:02:49] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:02:50] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:02:50] Clique: pos-fluxo 4 (771, 707)
+[2026-02-03 11:02:50] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:02:51] Clique: pos-fluxo 5 (796, 749)
+[2026-02-03 11:02:51] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:02:51] Clique: pos-fluxo 6 (1224, 404)
+[2026-02-03 11:02:52] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:02:52] Clique: pos-fluxo 7 (1265, 369)
+[2026-02-03 11:05:24] Clique: foco inicial (401, 463)
+[2026-02-03 11:05:24] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:05:25] Clique: pre-fluxo 1 (280, 350)
+[2026-02-03 11:05:25] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:05:25] Clique: pre-fluxo 2 (188, 33)
+[2026-02-03 11:05:25] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:05:26] Clique: pre-fluxo 3 (230, 362)
+[2026-02-03 11:05:26] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:05:26] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:05:27] Clique: pre-fluxo 4 (838, 454)
+[2026-02-03 11:05:27] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:05:28] Clique: pre-fluxo 5 (833, 472)
+[2026-02-03 11:05:28] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:05:28] Clique: pre-fluxo 6 (1094, 594)
+[2026-02-03 11:05:28] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:05:29] Clique: pre-fluxo 7 (1020, 599)
+[2026-02-03 11:05:29] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:05:29] Clique: pre-fluxo 8 (1213, 403)
+[2026-02-03 11:05:29] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:05:30] Clique: pre-fluxo 9 (1262, 371)
+[2026-02-03 11:05:30] Clique: clique inicial (401, 463)
+[2026-02-03 11:05:30] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 11:05:30] Empresa: BERTOVEL FERRO E ACO LTDA
+[2026-02-03 11:05:30] Diretorio destino: W:\SPEDs\ECD\2025\BERTOVEL FERRO E ACO LTDA
+[2026-02-03 11:05:30] Aguardando 2s: preparar a tela
+[2026-02-03 11:05:32] DFC: sim | Simples: Normal
+[2026-02-03 11:05:32] ALT + MPG
+[2026-02-03 11:05:33] Clique: ano calendario (766, 312)
+[2026-02-03 11:05:33] Clique: diretorio destino (948, 358)
+[2026-02-03 11:05:34] Aguardando 0.5s: pos-diretorio
+[2026-02-03 11:05:35] Clique: gerar DMPL (1060, 533)
+[2026-02-03 11:05:35] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 11:05:35] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 11:05:35] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 11:05:35] Clique: tipo de documento (792, 434)
+[2026-02-03 11:05:36] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 11:05:38] Clique: adicionar rtf (1123, 466)
+[2026-02-03 11:05:38] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 11:05:38] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 11:05:40] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 11:05:40] Clique: continuar rtf (1229, 424)
+[2026-02-03 11:05:40] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 11:05:40] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 11:05:40] Clique: validar (1283, 347)
+[2026-02-03 11:05:40] Clique: validar v2 (1302, 359)
+[2026-02-03 11:05:40] Aguardando aviso... restante 120s
+[2026-02-03 11:07:24] Aguardando aviso... restante 15s
+[2026-02-03 11:07:30] Aguardando aviso... restante 10s
+[2026-02-03 11:07:35] Aguardando aviso... restante 5s
+[2026-02-03 11:07:40] Aguardando aviso... restante 0s
+[2026-02-03 11:07:45] Timeout aguardando aviso (120s).
+[2026-02-03 11:07:45] Screenshot salva: W:\SPEDs\ECD\2025\BERTOVEL FERRO E ACO LTDA\erros registrados.png
+[2026-02-03 11:07:45] ERRO registrado no status: 371 - Aviso nao apareceu na verificacao.
+[2026-02-03 11:07:45] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-03 11:07:46] Clique: sair validacao (1301, 388)
+[2026-02-03 11:07:46] Clique: ok final (1284, 293)
+[2026-02-03 11:07:46] Aguardando aviso final...
+[2026-02-03 11:15:29] Aviso do Sistema localizado.
+[2026-02-03 11:15:29] Aguardando 5s: aguardar 5s
+[2026-02-03 11:15:34] Finalizado.
+[2026-02-03 11:15:34] Aguardando 0.5s: pos-aviso final
+[2026-02-03 11:15:35] Clique: pos-fluxo 1 (541, 571)
+[2026-02-03 11:15:35] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:15:35] Clique: pos-fluxo 2 (173, 28)
+[2026-02-03 11:15:35] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:15:36] Clique: pos-fluxo 3 (232, 355)
+[2026-02-03 11:15:36] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:15:36] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:15:37] Clique: pos-fluxo 4 (771, 707)
+[2026-02-03 11:15:37] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:15:37] Clique: pos-fluxo 5 (796, 749)
+[2026-02-03 11:15:38] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:15:38] Clique: pos-fluxo 6 (1224, 404)
+[2026-02-03 11:15:38] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:15:39] Clique: pos-fluxo 7 (1265, 369)
+[2026-02-03 11:15:39] ERRO registrado no status: 371 - Screenshot de erro registrada na verificacao.
+[2026-02-03 11:16:14] Clique: foco inicial (401, 463)
+[2026-02-03 11:16:14] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:16:14] Clique: pre-fluxo 1 (280, 350)
+[2026-02-03 11:16:14] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:16:15] Clique: pre-fluxo 2 (188, 33)
+[2026-02-03 11:16:15] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:16:15] Clique: pre-fluxo 3 (230, 362)
+[2026-02-03 11:16:15] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:16:16] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:16:16] Clique: pre-fluxo 4 (838, 454)
+[2026-02-03 11:16:17] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:16:17] Clique: pre-fluxo 5 (833, 472)
+[2026-02-03 11:16:17] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:16:18] Clique: pre-fluxo 6 (1094, 594)
+[2026-02-03 11:16:18] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:16:18] Clique: pre-fluxo 7 (1020, 599)
+[2026-02-03 11:16:18] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:16:19] Clique: pre-fluxo 8 (1213, 403)
+[2026-02-03 11:16:19] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:16:19] Clique: pre-fluxo 9 (1262, 371)
+[2026-02-03 11:16:19] Clique: clique inicial (401, 463)
+[2026-02-03 11:16:19] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 11:16:19] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-03 11:16:19] Diretorio destino: W:\SPEDs\ECD\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-03 11:16:19] Aguardando 2s: preparar a tela
+[2026-02-03 11:16:21] DFC: nao | Simples: Normal
+[2026-02-03 11:16:21] ALT + MPG
+[2026-02-03 11:16:22] Clique: ano calendario (766, 312)
+[2026-02-03 11:16:23] Clique: diretorio destino (948, 358)
+[2026-02-03 11:16:24] Aguardando 0.5s: pos-diretorio
+[2026-02-03 11:16:24] Clique: gerar DMPL (1060, 533)
+[2026-02-03 11:16:24] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 11:16:24] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 11:16:24] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 11:16:25] Clique: tipo de documento (792, 434)
+[2026-02-03 11:16:25] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 11:16:27] Clique: adicionar rtf (1123, 466)
+[2026-02-03 11:16:27] Clique: continuar rtf (1229, 424)
+[2026-02-03 11:16:27] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 11:16:28] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 11:16:28] Clique: validar (1283, 347)
+[2026-02-03 11:16:28] Clique: validar v2 (1302, 359)
+[2026-02-03 11:16:28] Aguardando aviso... restante 120s
+[2026-02-03 11:18:12] Aguardando aviso... restante 15s
+[2026-02-03 11:18:17] Aguardando aviso... restante 10s
+[2026-02-03 11:18:22] Aguardando aviso... restante 5s
+[2026-02-03 11:18:28] Aguardando aviso... restante 0s
+[2026-02-03 11:18:33] Timeout aguardando aviso (120s).
+[2026-02-03 11:18:33] Screenshot salva: W:\SPEDs\ECD\2025\ABS ADMINISTRADORA DE BENS LTDA\erros registrados.png
+[2026-02-03 11:18:33] ERRO registrado no status: 898 - Aviso nao apareceu na verificacao.
+[2026-02-03 11:18:33] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-03 11:18:33] Clique: sair validacao (1301, 388)
+[2026-02-03 11:18:33] Clique: ok final (1284, 293)
+[2026-02-03 11:18:34] Aguardando aviso final...
+[2026-02-03 11:18:44] Aviso do Sistema localizado.
+[2026-02-03 11:18:44] Aguardando 5s: aguardar 5s
+[2026-02-03 11:18:49] Finalizado.
+[2026-02-03 11:18:49] Aguardando 0.5s: pos-aviso final
+[2026-02-03 11:18:49] Clique: pos-fluxo 1 (541, 571)
+[2026-02-03 11:18:50] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:18:50] Clique: pos-fluxo 2 (173, 28)
+[2026-02-03 11:18:50] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:18:51] Clique: pos-fluxo 3 (232, 355)
+[2026-02-03 11:18:51] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:18:51] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:18:52] Clique: pos-fluxo 4 (771, 707)
+[2026-02-03 11:18:52] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:18:52] Clique: pos-fluxo 5 (796, 749)
+[2026-02-03 11:18:53] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:18:53] Clique: pos-fluxo 6 (1224, 404)
+[2026-02-03 11:18:53] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:18:54] Clique: pos-fluxo 7 (1265, 369)
+[2026-02-03 11:18:54] ERRO registrado no status: 898 - Screenshot de erro registrada na verificacao.
+[2026-02-03 11:20:04] Clique: foco inicial (401, 463)
+[2026-02-03 11:20:04] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:20:04] Clique: pre-fluxo 1 (280, 350)
+[2026-02-03 11:20:04] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:20:05] Clique: pre-fluxo 2 (188, 33)
+[2026-02-03 11:20:05] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:20:05] Clique: pre-fluxo 3 (230, 362)
+[2026-02-03 11:20:05] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:20:06] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:20:07] Clique: pre-fluxo 4 (838, 454)
+[2026-02-03 11:20:07] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:20:07] Clique: pre-fluxo 5 (833, 472)
+[2026-02-03 11:20:07] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:20:08] Clique: pre-fluxo 6 (1094, 594)
+[2026-02-03 11:20:08] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:20:08] Clique: pre-fluxo 7 (1020, 599)
+[2026-02-03 11:20:08] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:20:09] Clique: pre-fluxo 8 (1213, 403)
+[2026-02-03 11:20:09] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:20:09] Clique: pre-fluxo 9 (1262, 371)
+[2026-02-03 11:20:10] Clique: clique inicial (401, 463)
+[2026-02-03 11:20:10] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 11:20:10] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:20:10] Diretorio destino: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:20:10] Aguardando 2s: preparar a tela
+[2026-02-03 11:20:12] DFC: sim | Simples: Normal
+[2026-02-03 11:20:12] ALT + MPG
+[2026-02-03 11:20:12] Clique: ano calendario (766, 312)
+[2026-02-03 11:20:13] Clique: diretorio destino (948, 358)
+[2026-02-03 11:20:14] Aguardando 0.5s: pos-diretorio
+[2026-02-03 11:20:14] Clique: gerar DMPL (1060, 533)
+[2026-02-03 11:20:15] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 11:20:15] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 11:20:15] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 11:20:15] Clique: tipo de documento (792, 434)
+[2026-02-03 11:20:15] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 11:20:18] Clique: adicionar rtf (1123, 466)
+[2026-02-03 11:20:18] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 11:20:18] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 11:20:20] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 11:20:20] Clique: continuar rtf (1229, 424)
+[2026-02-03 11:20:20] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 11:20:20] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 11:20:20] Clique: validar (1283, 347)
+[2026-02-03 11:20:20] Clique: validar v2 (1302, 359)
+[2026-02-03 11:20:20] Aguardando aviso... restante 120s
+[2026-02-03 11:22:04] Aguardando aviso... restante 15s
+[2026-02-03 11:22:10] Aguardando aviso... restante 10s
+[2026-02-03 11:22:15] Aguardando aviso... restante 5s
+[2026-02-03 11:22:20] Aguardando aviso... restante 0s
+[2026-02-03 11:22:25] Timeout aguardando aviso (120s).
+[2026-02-03 11:22:26] Screenshot salva: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\erros registrados.png
+[2026-02-03 11:22:26] ERRO registrado no status: 1061 - Aviso nao apareceu na verificacao.
+[2026-02-03 11:22:26] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-03 11:22:26] Clique: sair validacao (1301, 388)
+[2026-02-03 11:22:26] Clique: ok final (1284, 293)
+[2026-02-03 11:22:26] Segundo aviso localizado. Confirmando com ENTER.
+[2026-02-03 11:22:26] Aguardando 5s: aguardar 5s
+[2026-02-03 11:22:31] Finalizado.
+[2026-02-03 11:22:31] Aguardando 0.5s: pos-aviso final
+[2026-02-03 11:22:31] Clique: pos-fluxo 1 (541, 571)
+[2026-02-03 11:22:31] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:22:32] Clique: pos-fluxo 2 (173, 28)
+[2026-02-03 11:22:32] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:22:33] Clique: pos-fluxo 3 (232, 355)
+[2026-02-03 11:22:33] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:22:33] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:22:34] Clique: pos-fluxo 4 (771, 707)
+[2026-02-03 11:22:34] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:22:34] Clique: pos-fluxo 5 (796, 749)
+[2026-02-03 11:22:34] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:22:35] Clique: pos-fluxo 6 (1224, 404)
+[2026-02-03 11:22:35] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:22:35] Clique: pos-fluxo 7 (1265, 369)
+[2026-02-03 11:22:36] ERRO registrado no status: 1061 - Screenshot de erro registrada na verificacao.
+[2026-02-03 11:24:48] Clique: foco inicial (401, 463)
+[2026-02-03 11:24:48] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:24:49] Clique: pre-fluxo 1 (280, 350)
+[2026-02-03 11:24:49] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:24:49] Clique: pre-fluxo 2 (188, 33)
+[2026-02-03 11:24:49] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:24:50] Clique: pre-fluxo 3 (230, 362)
+[2026-02-03 11:24:50] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:24:51] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:24:51] Clique: pre-fluxo 4 (838, 454)
+[2026-02-03 11:24:51] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:24:52] Clique: pre-fluxo 5 (833, 472)
+[2026-02-03 11:24:52] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:24:52] Clique: pre-fluxo 6 (1094, 594)
+[2026-02-03 11:24:52] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:24:53] Clique: pre-fluxo 7 (1020, 599)
+[2026-02-03 11:24:53] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:24:53] Clique: pre-fluxo 8 (1213, 403)
+[2026-02-03 11:24:53] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:24:54] Clique: pre-fluxo 9 (1262, 371)
+[2026-02-03 11:24:54] Clique: clique inicial (401, 463)
+[2026-02-03 11:24:54] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 11:24:54] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:24:54] Diretorio destino: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:24:54] Aguardando 2s: preparar a tela
+[2026-02-03 11:24:56] DFC: sim | Simples: Normal
+[2026-02-03 11:24:56] ALT + MPG
+[2026-02-03 11:24:57] Clique: ano calendario (766, 312)
+[2026-02-03 11:24:57] Clique: diretorio destino (948, 358)
+[2026-02-03 11:24:58] Aguardando 0.5s: pos-diretorio
+[2026-02-03 11:24:59] Clique: gerar DMPL (1060, 533)
+[2026-02-03 11:24:59] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 11:24:59] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 11:24:59] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 11:25:00] Clique: tipo de documento (792, 434)
+[2026-02-03 11:25:00] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 11:25:02] Clique: adicionar rtf (1123, 466)
+[2026-02-03 11:25:02] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 11:25:02] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 11:25:04] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 11:25:04] Clique: continuar rtf (1229, 424)
+[2026-02-03 11:25:04] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 11:25:05] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 11:25:05] Clique: validar (1283, 347)
+[2026-02-03 11:25:05] Clique: validar v2 (1302, 359)
+[2026-02-03 11:25:05] Aguardando aviso... restante 120s
+[2026-02-03 11:26:49] Aguardando aviso... restante 15s
+[2026-02-03 11:26:54] Aguardando aviso... restante 10s
+[2026-02-03 11:26:59] Aguardando aviso... restante 5s
+[2026-02-03 11:27:05] Aguardando aviso... restante 0s
+[2026-02-03 11:27:10] Timeout aguardando aviso (120s).
+[2026-02-03 11:27:10] Screenshot salva: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\erros registrados.png
+[2026-02-03 11:27:10] ERRO registrado no status: 1061 - Aviso nao apareceu na verificacao.
+[2026-02-03 11:27:10] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-03 11:27:10] Clique: sair validacao (1301, 388)
+[2026-02-03 11:27:10] Clique: ok final (1284, 293)
+[2026-02-03 11:27:10] Segundo aviso localizado. Confirmando com ENTER.
+[2026-02-03 11:27:10] Aguardando 5s: aguardar 5s
+[2026-02-03 11:27:15] Finalizado.
+[2026-02-03 11:27:15] Aguardando 0.5s: pos-aviso final
+[2026-02-03 11:27:16] Clique: pos-fluxo 1 (541, 571)
+[2026-02-03 11:27:16] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:27:16] Clique: pos-fluxo 2 (173, 28)
+[2026-02-03 11:27:17] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:27:17] Clique: pos-fluxo 3 (232, 355)
+[2026-02-03 11:27:17] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:27:18] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:27:18] Clique: pos-fluxo 4 (771, 707)
+[2026-02-03 11:27:18] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:27:19] Clique: pos-fluxo 5 (796, 749)
+[2026-02-03 11:27:19] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:27:19] Clique: pos-fluxo 6 (1224, 404)
+[2026-02-03 11:27:19] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:27:20] Clique: pos-fluxo 7 (1265, 369)
+[2026-02-03 11:27:20] ERRO registrado no status: 1061 - Screenshot de erro registrada na verificacao.
+[2026-02-03 11:28:45] Clique: foco inicial (401, 463)
+[2026-02-03 11:28:46] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:28:46] Clique: pre-fluxo 1 (280, 350)
+[2026-02-03 11:28:46] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:28:47] Clique: pre-fluxo 2 (188, 33)
+[2026-02-03 11:28:47] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:28:47] Clique: pre-fluxo 3 (230, 362)
+[2026-02-03 11:28:47] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:28:48] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:28:48] Clique: pre-fluxo 4 (838, 454)
+[2026-02-03 11:28:48] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:28:49] Clique: pre-fluxo 5 (833, 472)
+[2026-02-03 11:28:49] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:28:50] Clique: pre-fluxo 6 (1094, 594)
+[2026-02-03 11:28:50] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:28:50] Clique: pre-fluxo 7 (1020, 599)
+[2026-02-03 11:28:50] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:28:51] Clique: pre-fluxo 8 (1213, 403)
+[2026-02-03 11:28:51] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:28:51] Clique: pre-fluxo 9 (1262, 371)
+[2026-02-03 11:28:51] Clique: clique inicial (401, 463)
+[2026-02-03 11:28:51] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 11:28:51] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:28:51] Diretorio destino: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:28:51] Aguardando 2s: preparar a tela
+[2026-02-03 11:28:53] DFC: sim | Simples: Normal
+[2026-02-03 11:28:53] ALT + MPG
+[2026-02-03 11:28:54] Clique: ano calendario (766, 312)
+[2026-02-03 11:28:54] Clique: diretorio destino (948, 358)
+[2026-02-03 11:28:56] Aguardando 0.5s: pos-diretorio
+[2026-02-03 11:28:56] Clique: gerar DMPL (1060, 533)
+[2026-02-03 11:28:56] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 11:28:56] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 11:28:56] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 11:28:57] Clique: tipo de documento (792, 434)
+[2026-02-03 11:28:57] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 11:28:59] Clique: adicionar rtf (1123, 466)
+[2026-02-03 11:28:59] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 11:29:00] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 11:30:32] Clique: foco inicial (401, 463)
+[2026-02-03 11:30:32] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:30:32] Clique: pre-fluxo 1 (280, 350)
+[2026-02-03 11:30:32] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:30:33] Clique: pre-fluxo 2 (188, 33)
+[2026-02-03 11:30:33] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:30:33] Clique: pre-fluxo 3 (230, 362)
+[2026-02-03 11:30:34] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:30:34] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:30:35] Clique: pre-fluxo 4 (838, 454)
+[2026-02-03 11:30:35] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:30:35] Clique: pre-fluxo 5 (833, 472)
+[2026-02-03 11:30:35] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:30:36] Clique: pre-fluxo 6 (1094, 594)
+[2026-02-03 11:30:36] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:30:36] Clique: pre-fluxo 7 (1020, 599)
+[2026-02-03 11:30:36] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:30:37] Clique: pre-fluxo 8 (1213, 403)
+[2026-02-03 11:30:37] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:30:38] Clique: pre-fluxo 9 (1262, 371)
+[2026-02-03 11:30:38] Clique: clique inicial (401, 463)
+[2026-02-03 11:30:38] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 11:30:38] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:30:38] Diretorio destino: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:30:38] Aguardando 2s: preparar a tela
+[2026-02-03 11:30:40] DFC: sim | Simples: Normal
+[2026-02-03 11:30:40] ALT + MPG
+[2026-02-03 11:30:40] Clique: ano calendario (766, 312)
+[2026-02-03 11:30:41] Clique: diretorio destino (948, 358)
+[2026-02-03 11:30:42] Aguardando 0.5s: pos-diretorio
+[2026-02-03 11:30:42] Clique: gerar DMPL (1060, 533)
+[2026-02-03 11:30:43] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 11:30:43] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 11:30:43] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 11:30:43] Clique: tipo de documento (792, 434)
+[2026-02-03 11:30:43] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 11:30:46] Clique: adicionar rtf (1123, 466)
+[2026-02-03 11:30:46] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 11:30:46] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 11:35:11] Clique: foco inicial (401, 463)
+[2026-02-03 11:35:11] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:35:11] Clique: pre-fluxo 1 (215, 266)
+[2026-02-03 11:35:11] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:35:12] Clique: pre-fluxo 2 (187, 28)
+[2026-02-03 11:35:12] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:35:12] Clique: pre-fluxo 3 (293, 359)
+[2026-02-03 11:35:12] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:35:13] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:35:13] Clique: pre-fluxo 4 (843, 448)
+[2026-02-03 11:35:14] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:35:14] Clique: pre-fluxo 5 (813, 465)
+[2026-02-03 11:35:14] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:35:15] Clique: pre-fluxo 6 (1110, 602)
+[2026-02-03 11:35:15] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:35:15] Clique: pre-fluxo 7 (1031, 599)
+[2026-02-03 11:35:15] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:35:16] Clique: pre-fluxo 8 (1202, 404)
+[2026-02-03 11:35:16] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:35:16] Clique: pre-fluxo 9 (1258, 365)
+[2026-02-03 11:35:16] Clique: clique inicial (401, 463)
+[2026-02-03 11:35:16] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 11:35:16] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:35:16] Diretorio destino: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:35:16] Aguardando 2s: preparar a tela
+[2026-02-03 11:35:18] DFC: sim | Simples: Normal
+[2026-02-03 11:35:18] ALT + MPG
+[2026-02-03 11:35:19] Clique: ano calendario (766, 312)
+[2026-02-03 11:35:20] Clique: diretorio destino (948, 358)
+[2026-02-03 11:35:21] Aguardando 0.5s: pos-diretorio
+[2026-02-03 11:35:21] Clique: gerar DMPL (1060, 533)
+[2026-02-03 11:35:21] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 11:35:21] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 11:35:21] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 11:35:22] Clique: tipo de documento (792, 434)
+[2026-02-03 11:35:22] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 11:35:24] Clique: adicionar rtf (1123, 466)
+[2026-02-03 11:35:25] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 11:35:25] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 11:35:27] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 11:35:27] Clique: continuar rtf (1229, 424)
+[2026-02-03 11:35:27] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 11:35:27] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 11:35:27] Clique: validar (1283, 347)
+[2026-02-03 11:35:27] Clique: validar v2 (1302, 359)
+[2026-02-03 11:35:27] Aguardando aviso... restante 120s
+[2026-02-03 11:37:11] Aguardando aviso... restante 15s
+[2026-02-03 11:37:17] Aguardando aviso... restante 10s
+[2026-02-03 11:37:22] Aguardando aviso... restante 5s
+[2026-02-03 11:37:27] Aguardando aviso... restante 0s
+[2026-02-03 11:37:32] Timeout aguardando aviso (120s).
+[2026-02-03 11:37:32] Screenshot salva: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\erros registrados.png
+[2026-02-03 11:37:32] ERRO registrado no status: 1061 - Aviso nao apareceu na verificacao.
+[2026-02-03 11:37:32] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-03 11:37:32] Clique: sair validacao (1301, 388)
+[2026-02-03 11:37:33] Clique: ok final (1284, 293)
+[2026-02-03 11:37:33] Segundo aviso localizado. Confirmando com ENTER.
+[2026-02-03 11:37:33] Aguardando 5s: aguardar 5s
+[2026-02-03 11:37:38] Finalizado.
+[2026-02-03 11:37:38] Aguardando 0.5s: pos-aviso final
+[2026-02-03 11:37:38] Clique: pos-fluxo 1 (541, 571)
+[2026-02-03 11:37:38] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:37:39] Clique: pos-fluxo 2 (173, 28)
+[2026-02-03 11:37:39] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:37:39] Clique: pos-fluxo 3 (232, 355)
+[2026-02-03 11:37:40] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:37:40] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:37:41] Clique: pos-fluxo 4 (771, 707)
+[2026-02-03 11:37:41] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:37:41] Clique: pos-fluxo 5 (796, 749)
+[2026-02-03 11:37:41] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:37:42] Clique: pos-fluxo 6 (1224, 404)
+[2026-02-03 11:37:42] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:37:42] Clique: pos-fluxo 7 (1265, 369)
+[2026-02-03 11:37:42] ERRO registrado no status: 1061 - Screenshot de erro registrada na verificacao.
+[2026-02-03 13:33:37] Clique: foco inicial (401, 463)
+[2026-02-03 13:33:38] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:33:38] Clique: pre-fluxo 1 (215, 266)
+[2026-02-03 13:33:38] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:33:39] Clique: pre-fluxo 2 (187, 28)
+[2026-02-03 13:33:39] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:33:39] Clique: pre-fluxo 3 (293, 359)
+[2026-02-03 13:33:39] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:33:40] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:33:40] Clique: pre-fluxo 4 (843, 448)
+[2026-02-03 13:33:40] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:33:41] Clique: pre-fluxo 5 (813, 465)
+[2026-02-03 13:33:41] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:33:42] Clique: pre-fluxo 6 (1110, 602)
+[2026-02-03 13:33:42] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:33:42] Clique: pre-fluxo 7 (1031, 599)
+[2026-02-03 13:33:42] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:33:43] Clique: pre-fluxo 8 (1202, 404)
+[2026-02-03 13:33:43] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:33:43] Clique: pre-fluxo 9 (1258, 365)
+[2026-02-03 13:33:43] Clique: clique inicial (401, 463)
+[2026-02-03 13:33:43] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 13:33:43] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 13:33:43] Diretorio destino: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 13:33:43] Aguardando 2s: preparar a tela
+[2026-02-03 13:33:45] DFC: sim | Simples: Normal
+[2026-02-03 13:33:45] ALT + MPG
+[2026-02-03 13:33:46] Clique: ano calendario (766, 312)
+[2026-02-03 13:33:46] Clique: diretorio destino (948, 358)
+[2026-02-03 13:33:48] Aguardando 0.5s: pos-diretorio
+[2026-02-03 13:33:48] Clique: gerar DMPL (1060, 533)
+[2026-02-03 13:33:48] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 13:33:48] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 13:33:48] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 13:33:49] Clique: tipo de documento (792, 434)
+[2026-02-03 13:33:49] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 13:33:51] Clique: adicionar rtf (1123, 466)
+[2026-02-03 13:33:51] Clique: tipo de documento (DFC) (792, 434)
+[2026-02-03 13:33:52] Clique: selecionar arquivo rtf (DFC) (880, 472)
+[2026-02-03 13:33:54] Clique: adicionar rtf (DFC) (1123, 466)
+[2026-02-03 13:33:54] Clique: continuar rtf (1229, 424)
+[2026-02-03 13:33:54] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 13:33:54] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 13:33:54] Clique: validar (1283, 347)
+[2026-02-03 13:33:54] Clique: validar v2 (1302, 359)
+[2026-02-03 13:33:54] Aguardando aviso... restante 120s
+[2026-02-03 13:35:38] Aguardando aviso... restante 15s
+[2026-02-03 13:35:43] Aguardando aviso... restante 10s
+[2026-02-03 13:35:49] Aguardando aviso... restante 5s
+[2026-02-03 13:35:54] Aguardando aviso... restante 0s
+[2026-02-03 13:35:59] Timeout aguardando aviso (120s).
+[2026-02-03 13:36:00] Screenshot salva: W:\SPEDs\ECD\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\erros registrados.png
+[2026-02-03 13:36:00] ERRO registrado no status: 1061 - Aviso nao apareceu na verificacao.
+[2026-02-03 13:36:00] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-03 13:36:00] Clique: sair validacao (1301, 388)
+[2026-02-03 13:36:00] Clique: ok final (1284, 293)
+[2026-02-03 13:36:00] Aguardando 5s: aguardar 5s
+[2026-02-03 13:36:05] Clique: ok final 2 (1284, 293)
+[2026-02-03 13:36:05] Aguardando aviso final...
+[2026-02-03 13:36:47] Aviso do Sistema localizado.
+[2026-02-03 13:36:47] Aguardando 5s: aguardar 5s
+[2026-02-03 13:36:52] Finalizado.
+[2026-02-03 13:36:52] Aguardando 0.5s: pos-aviso final
+[2026-02-03 13:36:52] Clique: pos-fluxo 1 (541, 571)
+[2026-02-03 13:36:52] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:36:53] Clique: pos-fluxo 2 (173, 28)
+[2026-02-03 13:36:53] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:36:53] Clique: pos-fluxo 3 (232, 355)
+[2026-02-03 13:36:54] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:36:54] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:36:55] Clique: pos-fluxo 4 (771, 707)
+[2026-02-03 13:36:55] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:36:55] Clique: pos-fluxo 5 (796, 749)
+[2026-02-03 13:36:55] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:36:56] Clique: pos-fluxo 6 (1224, 404)
+[2026-02-03 13:36:56] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:36:56] Clique: pos-fluxo 7 (1265, 369)
+[2026-02-03 13:36:56] ERRO registrado no status: 1061 - Screenshot de erro registrada na verificacao.
+[2026-02-03 15:58:53] Clique: foco inicial (401, 463)
+[2026-02-03 15:58:53] Aguardando 0.5s: delay entre botoes
+[2026-02-03 15:58:54] Clique: pre-fluxo 1 (215, 266)
+[2026-02-03 15:58:54] Aguardando 0.5s: delay entre botoes
+[2026-02-03 15:58:54] Clique: pre-fluxo 2 (187, 28)
+[2026-02-03 15:58:54] Aguardando 0.5s: delay entre botoes
+[2026-02-03 15:58:55] Clique: pre-fluxo 3 (293, 359)
+[2026-02-03 15:58:55] Aguardando 0.5s: delay entre botoes
+[2026-02-03 15:58:56] Aguardando 0.5s: delay entre botoes
+[2026-02-03 15:58:56] Clique: pre-fluxo 4 (843, 448)
+[2026-02-03 15:58:56] Aguardando 0.5s: delay entre botoes
+[2026-02-03 15:58:57] Clique: pre-fluxo 5 (813, 465)
+[2026-02-03 15:58:57] Aguardando 0.5s: delay entre botoes
+[2026-02-03 15:58:57] Clique: pre-fluxo 6 (1110, 602)
+[2026-02-03 15:58:57] Aguardando 0.5s: delay entre botoes
+[2026-02-03 15:58:58] Clique: pre-fluxo 7 (1031, 599)
+[2026-02-03 15:58:58] Aguardando 0.5s: delay entre botoes
+[2026-02-03 15:58:58] Clique: pre-fluxo 8 (1202, 404)
+[2026-02-03 15:58:58] Aguardando 0.5s: delay entre botoes
+[2026-02-03 15:58:59] Clique: pre-fluxo 9 (1258, 365)
+[2026-02-03 15:58:59] Clique: clique inicial (401, 463)
+[2026-02-03 15:58:59] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-03 15:58:59] Empresa: BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-03 15:58:59] Diretorio destino: W:\SPEDs\ECD\2025\BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-03 15:58:59] Aguardando 2s: preparar a tela
+[2026-02-03 15:59:01] DFC: nao | Simples: Normal
+[2026-02-03 15:59:01] ALT + MPG
+[2026-02-03 15:59:02] Clique: ano calendario (766, 312)
+[2026-02-03 15:59:02] Clique: diretorio destino (948, 358)
+[2026-02-03 15:59:04] Aguardando 0.5s: pos-diretorio
+[2026-02-03 15:59:04] Clique: gerar DMPL (1060, 533)
+[2026-02-03 15:59:04] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-03 15:59:04] Empresa Normal: nao clicar em plano referencial.
+[2026-02-03 15:59:04] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-03 15:59:05] Clique: tipo de documento (792, 434)
+[2026-02-03 15:59:05] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-03 15:59:07] Clique: adicionar rtf (1123, 466)
+[2026-02-03 15:59:07] Clique: continuar rtf (1229, 424)
+[2026-02-03 15:59:07] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-03 15:59:07] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-03 15:59:08] Clique: validar (1283, 347)
+[2026-02-03 15:59:08] Clique: validar v2 (1302, 359)
+[2026-02-03 15:59:08] Aguardando aviso... restante 120s
+[2026-02-03 16:00:52] Aguardando aviso... restante 15s
+[2026-02-03 16:00:57] Aguardando aviso... restante 10s
+[2026-02-03 16:01:02] Aguardando aviso... restante 5s
+[2026-02-03 16:01:08] Aguardando aviso... restante 0s
+[2026-02-03 16:01:13] Timeout aguardando aviso (120s).
+[2026-02-03 16:01:13] Screenshot salva: W:\SPEDs\ECD\2025\BETLEN PARTICIPACOES SOCIETARIAS S/A\erros registrados.png
+[2026-02-03 16:01:13] ERRO registrado no status: 735 - Aviso nao apareceu na verificacao.
+[2026-02-03 16:01:13] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-03 16:01:13] Clique: sair validacao (1301, 388)
+[2026-02-03 16:01:13] Clique: ok final (1284, 293)
+[2026-02-03 16:01:13] Aguardando 5s: aguardar 5s
+[2026-02-03 16:01:18] Clique: ok final 2 (1284, 293)
+[2026-02-03 16:01:19] Aguardando aviso final...
+[2026-02-03 16:01:29] Aviso do Sistema localizado.
+[2026-02-03 16:01:29] Aguardando 5s: aguardar 5s
+[2026-02-03 16:01:34] Finalizado.
+[2026-02-03 16:01:34] Aguardando 0.5s: pos-aviso final
+[2026-02-03 16:01:35] Clique: pos-fluxo 1 (541, 571)
+[2026-02-03 16:01:35] Aguardando 0.5s: delay entre botoes
+[2026-02-03 16:01:35] Clique: pos-fluxo 2 (173, 28)
+[2026-02-03 16:01:35] Aguardando 0.5s: delay entre botoes
+[2026-02-03 16:01:36] Clique: pos-fluxo 3 (232, 355)
+[2026-02-03 16:01:36] Aguardando 0.5s: delay entre botoes
+[2026-02-03 16:01:36] Aguardando 0.5s: delay entre botoes
+[2026-02-03 16:01:37] Clique: pos-fluxo 4 (771, 707)
+[2026-02-03 16:01:37] Aguardando 0.5s: delay entre botoes
+[2026-02-03 16:01:38] Clique: pos-fluxo 5 (796, 749)
+[2026-02-03 16:01:38] Aguardando 0.5s: delay entre botoes
+[2026-02-03 16:01:38] Clique: pos-fluxo 6 (1224, 404)
+[2026-02-03 16:01:38] Aguardando 0.5s: delay entre botoes
+[2026-02-03 16:01:39] Clique: pos-fluxo 7 (1265, 369)
+[2026-02-03 16:01:39] ERRO registrado no status: 735 - Screenshot de erro registrada na verificacao.
+[2026-02-05 09:25:18] Clique: foco inicial (401, 463)
+[2026-02-05 09:25:18] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:25:19] Clique: pre-fluxo 1 (215, 266)
+[2026-02-05 09:25:19] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:25:19] Clique: pre-fluxo 2 (187, 28)
+[2026-02-05 09:25:19] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:25:20] Clique: pre-fluxo 3 (293, 359)
+[2026-02-05 09:25:20] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:25:21] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:25:21] Clique: pre-fluxo 4 (843, 448)
+[2026-02-05 09:25:21] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:25:22] Clique: pre-fluxo 5 (813, 465)
+[2026-02-05 09:25:22] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:25:22] Clique: pre-fluxo 6 (1110, 602)
+[2026-02-05 09:25:22] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:25:23] Clique: pre-fluxo 7 (1031, 599)
+[2026-02-05 09:25:23] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:25:23] Clique: pre-fluxo 8 (1202, 404)
+[2026-02-05 09:25:23] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:25:24] Clique: pre-fluxo 9 (1258, 365)
+[2026-02-05 09:25:24] Clique: clique inicial (401, 463)
+[2026-02-05 09:25:24] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-05 09:25:24] Empresa: BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-05 09:25:24] Diretorio destino: W:\SPEDs\ECD\2025\BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-05 09:25:24] Aguardando 2s: preparar a tela
+[2026-02-05 09:25:26] DFC: nao | Simples: Normal
+[2026-02-05 09:25:26] ALT + MPG
+[2026-02-05 09:25:27] Clique: ano calendario (766, 312)
+[2026-02-05 09:25:27] Clique: diretorio destino (948, 358)
+[2026-02-05 09:25:29] Aguardando 0.5s: pos-diretorio
+[2026-02-05 09:25:29] Clique: gerar DMPL (1060, 533)
+[2026-02-05 09:25:29] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-05 09:25:29] Empresa Normal: nao clicar em plano referencial.
+[2026-02-05 09:25:29] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-05 09:25:30] Clique: tipo de documento (792, 434)
+[2026-02-05 09:25:30] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-05 09:25:32] Clique: adicionar rtf (1123, 466)
+[2026-02-05 09:25:32] Clique: continuar rtf (1229, 424)
+[2026-02-05 09:25:32] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-05 09:25:32] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-05 09:25:33] Clique: validar (1283, 347)
+[2026-02-05 09:25:33] Clique: validar v2 (1302, 359)
+[2026-02-05 09:25:33] Aguardando aviso... restante 120s
+[2026-02-05 09:27:17] Aguardando aviso... restante 15s
+[2026-02-05 09:27:22] Aguardando aviso... restante 10s
+[2026-02-05 09:27:27] Aguardando aviso... restante 5s
+[2026-02-05 09:27:33] Aguardando aviso... restante 0s
+[2026-02-05 09:27:38] Timeout aguardando aviso (120s).
+[2026-02-05 09:27:38] Screenshot salva: W:\SPEDs\ECD\2025\BETLEN PARTICIPACOES SOCIETARIAS S/A\erros registrados.png
+[2026-02-05 09:27:38] ERRO registrado no status: 735 - Aviso nao apareceu na verificacao.
+[2026-02-05 09:27:38] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-05 09:27:38] Clique: sair validacao (1301, 388)
+[2026-02-05 09:27:38] Clique: ok final (1284, 293)
+[2026-02-05 09:27:38] Aguardando 5s: aguardar 5s
+[2026-02-05 09:27:43] Clique: ok final 2 (1284, 293)
+[2026-02-05 09:27:44] Aguardando aviso final...
+[2026-02-05 09:35:12] Clique: foco inicial (401, 463)
+[2026-02-05 09:35:12] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:35:13] Clique: pre-fluxo 1 (215, 266)
+[2026-02-05 09:35:13] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:35:13] Clique: pre-fluxo 2 (187, 28)
+[2026-02-05 09:35:13] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:35:14] Clique: pre-fluxo 3 (293, 359)
+[2026-02-05 09:35:14] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:35:15] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:35:15] Clique: pre-fluxo 4 (843, 448)
+[2026-02-05 09:35:15] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:35:16] Clique: pre-fluxo 5 (813, 465)
+[2026-02-05 09:35:16] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:35:16] Clique: pre-fluxo 6 (1110, 602)
+[2026-02-05 09:35:16] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:35:17] Clique: pre-fluxo 7 (1031, 599)
+[2026-02-05 09:35:17] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:35:17] Clique: pre-fluxo 8 (1202, 404)
+[2026-02-05 09:35:17] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:35:18] Clique: pre-fluxo 9 (1258, 365)
+[2026-02-05 09:35:18] Clique: clique inicial (401, 463)
+[2026-02-05 09:35:18] Iniciando: 4 - Escrituração Contábil Digital (ECD)
+[2026-02-05 09:35:18] Empresa: BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-05 09:35:18] Diretorio destino: W:\SPEDs\ECD\2025\BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-05 09:35:18] Aguardando 2s: preparar a tela
+[2026-02-05 09:35:20] DFC: nao | Simples: Normal
+[2026-02-05 09:35:20] ALT + MPG
+[2026-02-05 09:35:21] Clique: ano calendario (766, 312)
+[2026-02-05 09:35:21] Clique: diretorio destino (948, 358)
+[2026-02-05 09:35:23] Aguardando 0.5s: pos-diretorio
+[2026-02-05 09:35:23] Clique: gerar DMPL (1060, 533)
+[2026-02-05 09:35:23] Clique: gerar contas com saldo ou movimentacao (739, 555)
+[2026-02-05 09:35:23] Empresa Normal: nao clicar em plano referencial.
+[2026-02-05 09:35:23] Clique: adicionar arquivos rtf (1059, 555)
+[2026-02-05 09:35:24] Clique: tipo de documento (792, 434)
+[2026-02-05 09:35:24] Clique: selecionar arquivo rtf (880, 472)
+[2026-02-05 09:35:26] Clique: adicionar rtf (1123, 466)
+[2026-02-05 09:35:26] Clique: continuar rtf (1229, 424)
+[2026-02-05 09:35:26] Clique: aba demonstracoes contabeis (840, 287)
+[2026-02-05 09:35:26] Clique: gerar demonstracoes contabeis (589, 313)
+[2026-02-05 09:35:27] Clique: validar (1283, 347)
+[2026-02-05 09:35:27] Clique: validar v2 (1302, 359)
+[2026-02-05 09:35:27] Aguardando aviso... restante 120s
+[2026-02-05 09:37:11] Aguardando aviso... restante 15s
+[2026-02-05 09:37:16] Aguardando aviso... restante 10s
+[2026-02-05 09:37:21] Aguardando aviso... restante 5s
+[2026-02-05 09:37:27] Aguardando aviso... restante 0s
+[2026-02-05 09:37:32] Timeout aguardando aviso (120s).
+[2026-02-05 09:37:32] Screenshot salva: W:\SPEDs\ECD\2025\BETLEN PARTICIPACOES SOCIETARIAS S/A\erros registrados.png
+[2026-02-05 09:37:32] ERRO registrado no status: 735 - Aviso nao apareceu na verificacao.
+[2026-02-05 09:37:32] Aviso nao apareceu. Fechando validacao mesmo assim.
+[2026-02-05 09:37:32] Clique: sair validacao (1301, 388)
+[2026-02-05 09:37:32] Clique: ok final (1284, 293)
+[2026-02-05 09:37:32] Aguardando 5s: aguardar 5s
+[2026-02-05 09:37:37] Clique: ok final 2 (1284, 293)
+[2026-02-05 09:37:38] Aguardando aviso final...
+[2026-02-05 09:37:48] Aviso do Sistema localizado.
+[2026-02-05 09:37:48] Aguardando 5s: aguardar 5s
+[2026-02-05 09:37:53] Finalizado.
+[2026-02-05 09:37:53] Aguardando 0.5s: pos-aviso final
+[2026-02-05 09:37:54] Clique: pos-fluxo 1 (541, 571)
+[2026-02-05 09:37:54] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:37:54] Clique: pos-fluxo 2 (173, 28)
+[2026-02-05 09:37:54] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:37:55] Clique: pos-fluxo 3 (232, 355)
+[2026-02-05 09:37:55] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:37:55] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:37:56] Clique: pos-fluxo 4 (771, 707)
+[2026-02-05 09:37:56] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:37:56] Clique: pos-fluxo 5 (796, 749)
+[2026-02-05 09:37:57] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:37:57] Clique: pos-fluxo 6 (1224, 404)
+[2026-02-05 09:37:57] Aguardando 0.5s: delay entre botoes
+[2026-02-05 09:37:58] Clique: pos-fluxo 7 (1265, 369)
+[2026-02-05 09:37:58] ERRO registrado no status: 735 - Screenshot de erro registrada na verificacao.

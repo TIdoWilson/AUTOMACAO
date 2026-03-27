@@ -1,0 +1,40 @@
+from pywinauto import Application
+import win32api
+
+def main():
+    print("Conectando na janela 'Gerenciador de Sistemas'...")
+    app = Application(backend="uia").connect(title_re=".*Gerenciador de Sistemas.*")
+    dlg = app.window(title_re=".*Gerenciador de Sistemas.*")
+    dlg.wait("visible", timeout=30)
+
+    rect = dlg.rectangle()
+    print("\n=== DADOS DA JANELA GERENCIADOR DE SISTEMAS ===")
+    print(f"left   = {rect.left}")
+    print(f"top    = {rect.top}")
+    print(f"right  = {rect.right}")
+    print(f"bottom = {rect.bottom}")
+    print(f"largura = {rect.width()}")
+    print(f"altura  = {rect.height()}")
+
+    print("\nAgora faça o seguinte:")
+    print("1) Vá para a tela do 'Gerenciador de Sistemas'.")
+    print("2) Posicione o mouse EXATAMENTE em cima da palavra 'Fiscal'.")
+    input("3) Com o mouse já em cima de 'Fiscal', volte aqui no terminal e aperte ENTER...")
+
+    x, y = win32api.GetCursorPos()
+    print(f"\nPosição atual do mouse: x={x}, y={y}")
+
+    largura = rect.width()
+    altura = rect.height()
+
+    fator_largura = (x - rect.left) / largura
+    fator_altura = (y - rect.top) / altura
+
+    print("\n=== FATORES CALCULADOS PARA O BOTÃO 'FISCAL' (RELATIVOS À JANELA) ===")
+    print(f"FISCAL_FATOR_LARGURA = {fator_largura:.4f}")
+    print(f"FISCAL_FATOR_ALTURA  = {fator_altura:.4f}")
+
+    print("\nCopie esses valores para usar no script principal (login + Fiscal).")
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,221 @@
+import os
+import sys
+import time
+import zipfile
+import subprocess
+from datetime import datetime
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import WebDriverException
+
+# ================== CONFIGURAÇÕES ==================
+
+# Pasta onde o Download EFDs está gravando os arquivos TXT
+DIR_EFDS = r"C:\Users\Usuario\Desktop\teste"
+
+# Caminho do script de download das EFDs (já existente)
+# Se o nome do arquivo for diferente, ajuste aqui.
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+SCRIPT_DOWNLOAD_EFDS = os.path.join(BASE_DIR, "Download EFDs")
+
+# URL de login da IOB (SSO)
+URL_LOGIN_IOB = (
+    "https://sso.iob.com.br/signin/"
+    "?response_type=code"
+    "&scope="
+    "&client_id=b89f6d4c-78bb-4995-9ac7-aa5459f5cf6d"
+    "&redirect_uri=https%3A%2F%2Fapp.iob.com.br%2Fcallback%2F%3Fpath%3Dhttps%3A%2F%2Fapp.iob.com.br%2Fapp%2F"
+    "&isSignUpDisable=false"
+    "&showFAQ=false"
+    "&isSocialLoginDisable=false"
+    "&title=Com+um+s%C3%B3+acesso%2C+voc%C3%AA+se+conecta+%C3%A0+tecnologia+e+intelig%C3%AAncia+IOB"
+    "&subtitle=Que+bom+ter+voc%C3%AA+aqui%21"
+)
+
+# Seletores na tela web da IOB
+SEL_BTN_ACESSAR_PAINEL = (
+    By.CSS_SELECTOR,
+    "button[data-testid='link-status-sped']"
+)
+
+SEL_BTN_IMPORTAR_SPED = (
+    By.XPATH,
+    "//button[contains(., 'Importar Arquivo SPED')]"
+)
+
+SEL_SPAN_UPLOAD = (
+    By.XPATH,
+    "//span[contains(., 'upload')]"
+)
+
+SEL_BTN_CONFIRMAR = (
+    By.XPATH,
+    "//button[contains(., 'Confirmar')]"
+)
+
+# ================== FUNÇÕES AUXILIARES ==================
+
+
+def abrir_firefox_e_aguardar_login() -> webdriver.Firefox:
+    """
+    Abre o Firefox, navega para o login da IOB e espera você logar manualmente.
+    Retorna o driver já logado e parado na tela onde aparece 'Acessar painel'.
+    """
+    opts = FirefoxOptions()
+    # Se quiser em modo invisível, descomente:
+    # opts.add_argument("--headless")
+
+    driver = webdriver.Firefox(options=opts)
+    driver.maximize_window()
+    driver.get(URL_LOGIN_IOB)
+
+    print("\n=== ETAPA 1: LOGIN NA IOB (WEB) ===")
+    print("Firefox aberto na tela de login da IOB.")
+    print("1) Faça o login manualmente (SSO), inclusive captcha se houver.")
+    print("2) Aguarde aparecer o painel onde existe o botão 'Acessar painel'.")
+    input("3) Quando estiver logado e o painel carregado, pressione ENTER aqui no terminal para continuar... ")
+
+    return driver
+
+
+def executar_download_efds():
+    """
+    Executa o script 'Download EFDs' e espera finalizar.
+    O módulo Fiscal do sistema desktop deve estar aberto previamente.
+    """
+    print("\n=== ETAPA 2: DOWNLOAD DAS EFDS (SISTEMA DESKTOP) ===")
+    print(f"Executando script de download: {SCRIPT_DOWNLOAD_EFDS}")
+
+    if not os.path.exists(SCRIPT_DOWNLOAD_EFDS):
+        raise RuntimeError(f"Script de download EFDs não encontrado em: {SCRIPT_DOWNLOAD_EFDS}")
+
+    # Usa o mesmo interpretador Python atual (venv fazenda_nfe_0.1)
+    cmd = [sys.executable, SCRIPT_DOWNLOAD_EFDS]
+
+    result = subprocess.run(cmd)
+    if result.returncode != 0:
+        raise RuntimeError(
+            f"Script de Download EFDs terminou com código {result.returncode}."
+        )
+
+    print("Download das EFDs concluído (script finalizado).")
+
+
+def criar_zip_com_efds(dir_origem: str) -> str:
+    """
+    Cria um ZIP com todos os arquivos da pasta dir_origem (recursivo),
+    ignorando qualquer arquivo .zip já existente.
+    """
+    print("\n=== ETAPA 3: CRIAÇÃO DO ARQUIVO ZIP DAS EFDS ===")
+
+    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+    zip_path = os.path.join(dir_origem, f"EFDs_{ts}.zip")
+
+    print(f"Criando ZIP: {zip_path}")
+
+    with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
+        for root, dirs, files in os.walk(dir_origem):
+            for fname in files:
+                # ignora todos os .zip
+                if fname.lower().endswith(".zip"):
+                    continue
+
+                fpath = os.path.join(root, fname)
+                rel = os.path.relpath(fpath, dir_origem)
+                print(f"  adicionando: {fpath} -> {rel}")
+                zf.write(fpath, rel)
+
+    print("ZIP criado.")
+    return zip_path
+
+
+def acessar_painel_e_importar_sped(driver: webdriver.Firefox, zip_path: str):
+    """
+    Usa o Firefox já logado para:
+    - clicar em 'Acessar painel'
+    - clicar em 'Importar Arquivo SPED' (duas vezes)
+    - clicar em 'upload', selecionar o ZIP e confirmar.
+    """
+    print("\n=== ETAPA 4: UPLOAD DO ARQUIVO SPED NA IOB (WEB) ===")
+    wait = WebDriverWait(driver, 60)
+
+    try:
+        # 1) Clicar em "Acessar painel"
+        print("Clicando em 'Acessar painel'...")
+        btn_painel = wait.until(EC.element_to_be_clickable(SEL_BTN_ACESSAR_PAINEL))
+        btn_painel.click()
+        time.sleep(15)  # aguarda carregamento do painel
+
+        # 2) Clicar em "Importar Arquivo SPED" (1ª vez)
+        print("Clicando em 'Importar Arquivo SPED' (1ª vez)...")
+        btn_import1 = wait.until(EC.element_to_be_clickable(SEL_BTN_IMPORTAR_SPED))
+        btn_import1.click()
+        time.sleep(15)
+
+        # 3) Clicar em "Importar Arquivo SPED" (2ª vez)
+        print("Clicando em 'Importar Arquivo SPED' (2ª vez)...")
+        btn_import2 = wait.until(EC.element_to_be_clickable(SEL_BTN_IMPORTAR_SPED))
+        btn_import2.click()
+        time.sleep(15)
+
+        # 4) No modal, clicar em "upload"
+        print("Clicando em 'upload' no modal...")
+        span_upload = wait.until(EC.element_to_be_clickable(SEL_SPAN_UPLOAD))
+        span_upload.click()
+        time.sleep(2)
+
+        # 5) Enviar caminho do arquivo ZIP via <input type="file">
+        print("Procurando campo <input type='file'> para enviar o ZIP...")
+        input_file = driver.find_element(By.CSS_SELECTOR, "input[type='file']")
+        input_file.send_keys(zip_path)
+        time.sleep(10)  # aguarda upload
+
+        # 6) Clicar no botão "Confirmar"
+        print("Clicando no botão 'Confirmar'...")
+        btn_confirmar = wait.until(EC.element_to_be_clickable(SEL_BTN_CONFIRMAR))
+        btn_confirmar.click()
+
+        print("Upload enviado. Aguardando processamento no site...")
+        time.sleep(15)
+
+    except WebDriverException as e:
+        print("\nERRO AO COMUNICAR COM O FIREFOX / SELENIUM.")
+        print(f"Detalhe técnico: {e}")
+        print(
+            "\nSe a sessão caiu ou a página mudou inesperadamente:\n"
+            "- feche o Firefox;\n"
+            "- rode novamente este script desde o início.\n"
+        )
+
+
+# ================== MAIN ==================
+
+
+def main():
+    # 1) Abre Firefox e aguarda login manual na IOB web
+    driver = abrir_firefox_e_aguardar_login()
+
+    try:
+        # 2) Executa o script de Download EFDs (desktop)
+        executar_download_efds()
+
+        # 3) Cria o ZIP com os arquivos gerados
+        zip_path = criar_zip_com_efds(DIR_EFDS)
+
+        # 4) Faz o upload do ZIP no site da IOB usando o MESMO Firefox
+        acessar_painel_e_importar_sped(driver, zip_path)
+
+        print("\n=== FLUXO CONCLUÍDO: DOWNLOAD + ZIP + UPLOAD SPED ===")
+    finally:
+        # Se quiser que o Firefox fique aberto para conferir algo, comente a linha abaixo.
+        # Se quiser fechar automaticamente ao final, deixe a linha ativa.
+        # driver.quit()
+        pass
+
+
+if __name__ == "__main__":
+    main()

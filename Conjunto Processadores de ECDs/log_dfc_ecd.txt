@@ -1,0 +1,1655 @@
+[2026-01-30 14:44:31] Clique: clique inicial (401, 463)
+[2026-01-30 14:44:31] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-01-30 14:44:31] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:44:31] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:44:31] Aguardando 2s: preparar a tela
+[2026-01-30 14:44:33] Tentativa 1/2
+[2026-01-30 14:44:33] Clique: menu 1 (444, 29)
+[2026-01-30 14:44:33] Clique: menu 2 (506, 51)
+[2026-01-30 14:44:33] Clique: menu 3 (766, 417)
+[2026-01-30 14:44:34] Clique: listar saldo zero (789, 588)
+[2026-01-30 14:44:34] Clique: adicionar assinatura (790, 636)
+[2026-01-30 14:44:34] Clique: listar CNPJ (789, 652)
+[2026-01-30 14:44:34] Clique: imprimir (1174, 432)
+[2026-01-30 14:44:34] Aguardando 1s: impressao
+[2026-01-30 14:44:35] Clique: salvar (405, 87)
+[2026-01-30 14:44:35] Aguardando 5s: janela de salvar
+[2026-01-30 14:44:45] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\DFC.rtf
+[2026-01-30 14:44:45] Clique: voltar 1 (495, 81)
+[2026-01-30 14:44:45] Clique: voltar 2 (1226, 404)
+[2026-01-30 14:44:45] Aguardando 1s: pos-voltar
+[2026-01-30 14:44:46] Finalizado com sucesso.
+[2026-01-30 14:45:05] Clique: clique inicial (401, 463)
+[2026-01-30 14:45:05] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-01-30 14:45:05] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:45:05] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:45:05] Aguardando 2s: preparar a tela
+[2026-01-30 14:45:07] Tentativa 1/2
+[2026-01-30 14:45:08] Clique: menu 1 (444, 29)
+[2026-01-30 14:45:08] Clique: menu 2 (506, 51)
+[2026-01-30 14:45:08] Clique: menu 3 (766, 417)
+[2026-01-30 14:45:09] Clique: listar saldo zero (789, 588)
+[2026-01-30 14:45:09] Clique: adicionar assinatura (790, 636)
+[2026-01-30 14:45:09] Clique: listar CNPJ (789, 652)
+[2026-01-30 14:45:09] Clique: imprimir (1174, 432)
+[2026-01-30 14:45:09] Aguardando 1s: impressao
+[2026-01-30 14:45:10] Clique: salvar (405, 87)
+[2026-01-30 14:45:10] Aguardando 5s: janela de salvar
+[2026-01-30 14:45:19] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\DFC.rtf
+[2026-01-30 14:45:19] Clique: voltar 1 (495, 81)
+[2026-01-30 14:45:19] Clique: voltar 2 (1226, 404)
+[2026-01-30 14:45:20] Aguardando 1s: pos-voltar
+[2026-01-30 14:45:21] Finalizado com sucesso.
+[2026-01-30 14:46:21] Clique: clique inicial (401, 463)
+[2026-01-30 14:46:21] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-01-30 14:46:21] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:46:21] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:46:21] Aguardando 2s: preparar a tela
+[2026-01-30 14:46:23] Tentativa 1/2
+[2026-01-30 14:46:23] Clique: menu 1 (444, 29)
+[2026-01-30 14:46:23] Clique: menu 2 (506, 51)
+[2026-01-30 14:46:23] Clique: menu 3 (766, 417)
+[2026-01-30 14:46:24] Clique: listar saldo zero (789, 588)
+[2026-01-30 14:46:24] Clique: adicionar assinatura (790, 636)
+[2026-01-30 14:46:25] Clique: listar CNPJ (789, 652)
+[2026-01-30 14:46:25] Clique: imprimir (1174, 432)
+[2026-01-30 14:46:25] Aguardando 1s: impressao
+[2026-01-30 14:46:26] Clique: salvar (405, 87)
+[2026-01-30 14:46:26] Aguardando 5s: janela de salvar
+[2026-01-30 14:46:35] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\DFC.rtf
+[2026-01-30 14:46:35] Clique: voltar 1 (465, 86)
+[2026-01-30 14:46:35] Clique: voltar 2 (1226, 404)
+[2026-01-30 14:46:35] Aguardando 1s: pos-voltar
+[2026-01-30 14:46:36] Finalizado com sucesso.
+[2026-01-30 14:46:55] Clique: clique inicial (401, 463)
+[2026-01-30 14:46:55] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-01-30 14:46:56] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:46:56] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:46:56] Aguardando 2s: preparar a tela
+[2026-01-30 14:46:58] Tentativa 1/2
+[2026-01-30 14:46:58] Clique: menu 1 (444, 29)
+[2026-01-30 14:46:58] Clique: menu 2 (506, 51)
+[2026-01-30 14:46:58] Clique: menu 3 (766, 417)
+[2026-01-30 14:46:59] Clique: listar saldo zero (789, 588)
+[2026-01-30 14:46:59] Clique: adicionar assinatura (790, 636)
+[2026-01-30 14:46:59] Clique: listar CNPJ (789, 652)
+[2026-01-30 14:46:59] Clique: imprimir (1174, 432)
+[2026-01-30 14:46:59] Aguardando 1s: impressao
+[2026-01-30 14:47:00] Clique: salvar (405, 87)
+[2026-01-30 14:47:00] Aguardando 5s: janela de salvar
+[2026-01-30 14:47:09] Arquivo nao apareceu no destino; finalizando e repetindo
+[2026-01-30 14:47:09] Clique: voltar 1 (465, 86)
+[2026-01-30 14:47:09] Clique: voltar 2 (1226, 404)
+[2026-01-30 14:47:10] Aguardando 1s: pos-voltar
+[2026-01-30 14:47:11] Tentativa 2/2
+[2026-01-30 14:47:11] Clique: menu 1 (444, 29)
+[2026-01-30 14:47:11] Clique: menu 2 (506, 51)
+[2026-01-30 14:47:11] Clique: menu 3 (766, 417)
+[2026-01-30 14:47:12] Clique: listar saldo zero (789, 588)
+[2026-01-30 14:47:12] Clique: adicionar assinatura (790, 636)
+[2026-01-30 14:47:12] Clique: listar CNPJ (789, 652)
+[2026-01-30 14:47:12] Clique: imprimir (1174, 432)
+[2026-01-30 14:47:12] Aguardando 1s: impressao
+[2026-01-30 14:47:13] Clique: salvar (405, 87)
+[2026-01-30 14:47:13] Aguardando 5s: janela de salvar
+[2026-01-30 15:08:45] Clique: clique inicial (401, 463)
+[2026-01-30 15:08:45] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-01-30 15:08:45] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 15:08:45] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 15:08:45] Aguardando 2s: preparar a tela
+[2026-01-30 15:08:47] Tentativa 1/2
+[2026-01-30 15:08:47] Clique: menu 1 (444, 29)
+[2026-01-30 15:08:47] Clique: menu 2 (506, 51)
+[2026-01-30 15:08:47] Clique: menu 3 (766, 417)
+[2026-01-30 15:08:48] Clique: listar saldo zero (789, 588)
+[2026-01-30 15:08:48] Clique: adicionar assinatura (790, 636)
+[2026-01-30 15:08:48] Clique: listar CNPJ (789, 652)
+[2026-01-30 15:08:48] Clique: imprimir (1174, 432)
+[2026-01-30 15:08:48] Aguardando 1s: impressao
+[2026-01-30 15:08:50] Clique: salvar (405, 87)
+[2026-01-30 15:08:50] Aguardando 1.5s: janela de salvar
+[2026-01-30 15:08:58] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\DFC.rtf
+[2026-01-30 15:08:58] Clique: voltar 1 (465, 86)
+[2026-01-30 15:08:58] Clique: voltar 2 (1226, 404)
+[2026-01-30 15:08:58] Aguardando 1s: pos-voltar
+[2026-01-30 15:08:59] Finalizado com sucesso.
+[2026-01-30 15:09:26] Clique: clique inicial (401, 463)
+[2026-01-30 15:09:26] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-01-30 15:09:26] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 15:09:26] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 15:09:26] Aguardando 2s: preparar a tela
+[2026-01-30 15:09:28] Tentativa 1/2
+[2026-01-30 15:09:28] Clique: menu 1 (444, 29)
+[2026-01-30 15:09:28] Clique: menu 2 (506, 51)
+[2026-01-30 15:09:28] Clique: menu 3 (766, 417)
+[2026-01-30 15:09:29] Clique: listar saldo zero (789, 588)
+[2026-01-30 15:09:29] Clique: adicionar assinatura (790, 636)
+[2026-01-30 15:09:29] Clique: listar CNPJ (789, 652)
+[2026-01-30 15:09:30] Clique: imprimir (1174, 432)
+[2026-01-30 15:09:30] Aguardando 1s: impressao
+[2026-01-30 15:09:31] Clique: salvar (405, 87)
+[2026-01-30 15:09:31] Aguardando 1.5s: janela de salvar
+[2026-01-30 15:09:37] Arquivo nao apareceu no destino; finalizando e repetindo
+[2026-01-30 15:09:37] Clique: voltar 1 (465, 86)
+[2026-01-30 15:09:37] Clique: voltar 2 (1226, 404)
+[2026-01-30 15:09:37] Aguardando 1s: pos-voltar
+[2026-01-30 15:09:38] Tentativa 2/2
+[2026-01-30 15:09:38] Clique: menu 1 (444, 29)
+[2026-01-30 15:09:38] Clique: menu 2 (506, 51)
+[2026-01-30 15:09:38] Clique: menu 3 (766, 417)
+[2026-01-30 15:09:39] Clique: listar saldo zero (789, 588)
+[2026-01-30 15:09:39] Clique: adicionar assinatura (790, 636)
+[2026-01-30 15:09:39] Clique: listar CNPJ (789, 652)
+[2026-01-30 15:09:39] Clique: imprimir (1174, 432)
+[2026-01-30 15:09:39] Aguardando 1s: impressao
+[2026-01-30 15:09:40] Clique: salvar (405, 87)
+[2026-01-30 15:09:40] Aguardando 1.5s: janela de salvar
+[2026-01-30 15:09:48] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\DFC.rtf
+[2026-01-30 15:09:48] Clique: voltar 1 (465, 86)
+[2026-01-30 15:09:48] Clique: voltar 2 (1226, 404)
+[2026-01-30 15:09:48] Aguardando 1s: pos-voltar
+[2026-01-30 15:09:49] Finalizado com sucesso.
+[2026-01-30 15:10:41] Clique: clique inicial (401, 463)
+[2026-01-30 15:10:41] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-01-30 15:10:41] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 15:10:41] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 15:10:41] Aguardando 2s: preparar a tela
+[2026-01-30 15:10:43] Tentativa 1/2
+[2026-01-30 15:10:43] Clique: menu 1 (444, 29)
+[2026-01-30 15:10:43] Clique: menu 2 (506, 51)
+[2026-01-30 15:10:43] Clique: menu 3 (766, 417)
+[2026-01-30 15:10:44] Clique: listar saldo zero (789, 588)
+[2026-01-30 15:10:44] Clique: adicionar assinatura (790, 636)
+[2026-01-30 15:10:45] Clique: listar CNPJ (789, 652)
+[2026-01-30 15:10:45] Clique: imprimir (1174, 432)
+[2026-01-30 15:10:45] Aguardando 1s: impressao
+[2026-01-30 15:10:46] Clique: salvar (405, 87)
+[2026-01-30 15:10:46] Aguardando 1.5s: janela de salvar
+[2026-01-30 15:10:52] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\DFC.rtf
+[2026-01-30 15:10:52] Clique: voltar 1 (465, 86)
+[2026-01-30 15:10:52] Clique: voltar 2 (1226, 404)
+[2026-01-30 15:10:52] Aguardando 1s: pos-voltar
+[2026-01-30 15:10:53] Finalizado com sucesso.
+[2026-01-30 15:12:05] Clique: clique inicial (401, 463)
+[2026-01-30 15:12:05] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-01-30 15:12:05] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 15:12:05] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 15:12:05] Aguardando 2s: preparar a tela
+[2026-01-30 15:12:07] Tentativa 1/2
+[2026-01-30 15:12:07] Clique: menu 1 (444, 29)
+[2026-01-30 15:12:08] Clique: menu 2 (506, 51)
+[2026-01-30 15:12:08] Clique: menu 3 (766, 417)
+[2026-01-30 15:12:09] Clique: listar saldo zero (789, 588)
+[2026-01-30 15:12:09] Clique: adicionar assinatura (790, 636)
+[2026-01-30 15:12:09] Clique: listar CNPJ (789, 652)
+[2026-01-30 15:12:09] Clique: imprimir (1174, 432)
+[2026-01-30 15:12:09] Aguardando 1s: impressao
+[2026-01-30 15:12:10] Clique: salvar (405, 87)
+[2026-01-30 15:12:10] Aguardando 1.5s: janela de salvar
+[2026-01-30 15:12:16] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\DFC.rtf
+[2026-01-30 15:12:16] Clique: voltar 1 (465, 86)
+[2026-01-30 15:12:16] Clique: voltar 2 (1226, 404)
+[2026-01-30 15:12:16] Aguardando 1s: pos-voltar
+[2026-01-30 15:12:17] Finalizado com sucesso.
+[2026-01-30 15:13:53] Clique: clique inicial (401, 463)
+[2026-01-30 15:13:53] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-01-30 15:13:53] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 15:13:53] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 15:13:53] Aguardando 2s: preparar a tela
+[2026-01-30 15:13:55] Tentativa 1/2
+[2026-01-30 15:13:55] Clique: menu 1 (444, 29)
+[2026-01-30 15:13:55] Clique: menu 2 (506, 51)
+[2026-01-30 15:13:55] Clique: menu 3 (766, 417)
+[2026-01-30 15:13:56] Clique: listar saldo zero (789, 588)
+[2026-01-30 15:13:56] Clique: adicionar assinatura (790, 636)
+[2026-01-30 15:13:56] Clique: listar CNPJ (789, 652)
+[2026-01-30 15:13:56] Clique: imprimir (1174, 432)
+[2026-01-30 15:13:56] Aguardando 1s: impressao
+[2026-01-30 15:13:57] Clique: salvar (405, 87)
+[2026-01-30 15:13:57] Aguardando 1.5s: janela de salvar
+[2026-01-30 15:14:03] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\DFC.rtf
+[2026-01-30 15:14:03] Clique: voltar 1 (465, 86)
+[2026-01-30 15:14:03] Clique: voltar 2 (1226, 404)
+[2026-01-30 15:14:03] Aguardando 1s: pos-voltar
+[2026-01-30 15:14:04] Finalizado com sucesso.
+[2026-01-30 15:14:16] Clique: clique inicial (401, 463)
+[2026-01-30 15:14:16] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-01-30 15:14:16] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 15:14:16] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 15:14:16] Aguardando 2s: preparar a tela
+[2026-01-30 15:14:18] Tentativa 1/2
+[2026-01-30 15:14:18] Clique: menu 1 (444, 29)
+[2026-01-30 15:14:19] Clique: menu 2 (506, 51)
+[2026-01-30 15:14:19] Clique: menu 3 (766, 417)
+[2026-01-30 15:14:20] Clique: listar saldo zero (789, 588)
+[2026-01-30 15:14:20] Clique: adicionar assinatura (790, 636)
+[2026-01-30 15:14:20] Clique: listar CNPJ (789, 652)
+[2026-01-30 15:14:20] Clique: imprimir (1174, 432)
+[2026-01-30 15:14:20] Aguardando 1s: impressao
+[2026-01-30 15:14:21] Clique: salvar (405, 87)
+[2026-01-30 15:14:21] Aguardando 1.5s: janela de salvar
+[2026-01-30 15:14:27] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\DFC.rtf
+[2026-01-30 15:14:27] Clique: voltar 1 (465, 86)
+[2026-01-30 15:14:27] Clique: voltar 2 (1226, 404)
+[2026-01-30 15:14:27] Aguardando 1s: pos-voltar
+[2026-01-30 15:14:28] Finalizado com sucesso.
+[2026-01-30 15:14:56] Clique: clique inicial (401, 463)
+[2026-01-30 15:14:57] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-01-30 15:14:57] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 15:14:57] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 15:14:57] Aguardando 2s: preparar a tela
+[2026-01-30 15:14:59] Tentativa 1/2
+[2026-01-30 15:14:59] Clique: menu 1 (444, 29)
+[2026-01-30 15:14:59] Clique: menu 2 (506, 51)
+[2026-01-30 15:14:59] Clique: menu 3 (766, 417)
+[2026-01-30 15:15:00] Clique: listar saldo zero (789, 588)
+[2026-01-30 15:15:00] Clique: adicionar assinatura (790, 636)
+[2026-01-30 15:15:00] Clique: listar CNPJ (789, 652)
+[2026-01-30 15:15:00] Clique: imprimir (1174, 432)
+[2026-01-30 15:15:00] Aguardando 1s: impressao
+[2026-01-30 15:15:01] Clique: salvar (405, 87)
+[2026-01-30 15:15:01] Aguardando 1.5s: janela de salvar
+[2026-01-30 15:15:07] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\DFC.rtf
+[2026-01-30 15:15:07] Clique: voltar 1 (465, 86)
+[2026-01-30 15:15:07] Clique: voltar 2 (1226, 404)
+[2026-01-30 15:15:07] Aguardando 1s: pos-voltar
+[2026-01-30 15:15:08] Finalizado com sucesso.
+[2026-01-30 15:17:34] Clique: clique inicial (401, 463)
+[2026-01-30 15:17:34] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-01-30 15:17:34] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 15:17:34] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 15:17:34] Aguardando 2s: preparar a tela
+[2026-01-30 15:17:36] Tentativa 1/2
+[2026-01-30 15:17:36] Clique: menu 1 (444, 29)
+[2026-01-30 15:17:36] Clique: menu 2 (506, 51)
+[2026-01-30 15:17:36] Clique: menu 3 (766, 417)
+[2026-01-30 15:17:37] Clique: listar saldo zero (789, 588)
+[2026-01-30 15:17:37] Clique: adicionar assinatura (790, 636)
+[2026-01-30 15:17:38] Clique: listar CNPJ (789, 652)
+[2026-01-30 15:17:38] Clique: imprimir (1174, 432)
+[2026-01-30 15:17:38] Aguardando 1s: impressao
+[2026-01-30 15:17:39] Clique: salvar (405, 87)
+[2026-01-30 15:17:39] Aguardando 1.5s: janela de salvar
+[2026-01-30 15:17:44] Clique: salvar (1437, 920)
+[2026-01-30 15:17:44] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\DFC.rtf
+[2026-01-30 15:17:44] Clique: voltar 1 (465, 86)
+[2026-01-30 15:17:44] Clique: voltar 2 (1226, 404)
+[2026-01-30 15:17:44] Aguardando 1s: pos-voltar
+[2026-01-30 15:17:45] Finalizado com sucesso.
+[2026-02-02 09:52:20] Clique: clique inicial (401, 463)
+[2026-02-02 09:52:20] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 09:52:20] Empresa: AGRABEL CAMINHOES LTDA
+[2026-02-02 09:52:20] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-02-02 09:52:20] Aguardando 2s: preparar a tela
+[2026-02-02 09:52:22] Tentativa 1/2
+[2026-02-02 09:52:22] Clique: menu 1 (444, 29)
+[2026-02-02 09:52:22] Clique: menu 2 (506, 51)
+[2026-02-02 09:52:22] Clique: menu 3 (766, 417)
+[2026-02-02 09:52:23] Clique: listar saldo zero (789, 588)
+[2026-02-02 09:52:23] Clique: adicionar assinatura (790, 636)
+[2026-02-02 09:52:23] Clique: listar CNPJ (789, 652)
+[2026-02-02 09:52:23] Clique: imprimir (1174, 432)
+[2026-02-02 09:52:24] Relatorio localizado (novo child window: 17).
+[2026-02-02 09:52:24] Clique: salvar (405, 87)
+[2026-02-02 09:52:24] Aguardando 1.5s: janela de salvar
+[2026-02-02 09:52:29] Clique: salvar (1437, 920)
+[2026-02-02 09:52:29] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\DFC.rtf
+[2026-02-02 09:52:33] Clique: voltar 1 (465, 86)
+[2026-02-02 09:52:33] Clique: voltar 2 (1226, 404)
+[2026-02-02 09:52:33] Aguardando 1s: pos-voltar
+[2026-02-02 09:52:34] Finalizado com sucesso.
+[2026-02-02 16:15:01] Clique: clique inicial (401, 463)
+[2026-02-02 16:15:01] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 16:15:01] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:15:01] Diretorio destino: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:15:01] Aguardando 2s: preparar a tela
+[2026-02-02 16:15:03] Tentativa 1/2
+[2026-02-02 16:15:03] Clique: menu 1 (444, 29)
+[2026-02-02 16:15:03] Clique: menu 2 (506, 51)
+[2026-02-02 16:15:03] Clique: menu 3 (766, 417)
+[2026-02-02 16:15:04] Clique: listar saldo zero (789, 588)
+[2026-02-02 16:15:04] Clique: adicionar assinatura (790, 636)
+[2026-02-02 16:15:04] Clique: listar CNPJ (789, 652)
+[2026-02-02 16:15:04] Clique: imprimir (1174, 432)
+[2026-02-02 16:20:12] Relatorio localizado (novo child window: 1).
+[2026-02-02 16:20:12] Clique: salvar (405, 87)
+[2026-02-02 16:20:12] Aguardando 1.5s: janela de salvar
+[2026-02-02 16:20:22] Clique: salvar (1437, 920)
+[2026-02-02 16:20:22] Arquivo nao apareceu no destino; finalizando e repetindo
+[2026-02-02 16:20:22] Clique: voltar 1 (465, 86)
+[2026-02-02 16:20:23] Clique: voltar 2 (1226, 404)
+[2026-02-02 16:20:23] Aguardando 1s: pos-voltar
+[2026-02-02 16:20:24] Tentativa 2/2
+[2026-02-02 16:20:24] Clique: menu 1 (444, 29)
+[2026-02-02 16:20:24] Clique: menu 2 (506, 51)
+[2026-02-02 16:20:24] Clique: menu 3 (766, 417)
+[2026-02-02 16:20:25] Clique: listar saldo zero (789, 588)
+[2026-02-02 16:20:25] Clique: adicionar assinatura (790, 636)
+[2026-02-02 16:20:25] Clique: listar CNPJ (789, 652)
+[2026-02-02 16:20:25] Clique: imprimir (1174, 432)
+[2026-02-02 16:25:29] Clique: clique inicial (401, 463)
+[2026-02-02 16:25:29] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 16:25:29] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:25:29] Diretorio destino: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:25:29] Aguardando 2s: preparar a tela
+[2026-02-02 16:25:31] Tentativa 1/2
+[2026-02-02 16:25:31] Clique: menu 1 (444, 29)
+[2026-02-02 16:25:31] Clique: menu 2 (506, 51)
+[2026-02-02 16:25:31] Clique: menu 3 (766, 417)
+[2026-02-02 16:25:32] Clique: listar saldo zero (789, 588)
+[2026-02-02 16:25:32] Clique: adicionar assinatura (790, 636)
+[2026-02-02 16:25:32] Clique: listar CNPJ (789, 652)
+[2026-02-02 16:25:32] Clique: imprimir (1174, 432)
+[2026-02-02 16:31:57] Clique: clique inicial (401, 463)
+[2026-02-02 16:31:57] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 16:31:57] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:31:57] Diretorio destino: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:31:57] Aguardando 2s: preparar a tela
+[2026-02-02 16:31:59] Tentativa 1/2
+[2026-02-02 16:31:59] Clique: menu 1 (444, 29)
+[2026-02-02 16:31:59] Clique: menu 2 (506, 51)
+[2026-02-02 16:31:59] Clique: menu 3 (766, 417)
+[2026-02-02 16:32:00] Clique: listar saldo zero (789, 588)
+[2026-02-02 16:32:00] Clique: adicionar assinatura (790, 636)
+[2026-02-02 16:32:01] Clique: listar CNPJ (789, 652)
+[2026-02-02 16:32:01] Clique: imprimir (1174, 432)
+[2026-02-02 16:33:30] Clique: clique inicial (401, 463)
+[2026-02-02 16:33:30] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 16:33:30] Empresa: Agrabel caminhoes ltda
+[2026-02-02 16:33:30] Diretorio destino: W:\\SPEDs\\ECD\\2025\Agrabel caminhoes ltda
+[2026-02-02 16:33:30] Aguardando 2s: preparar a tela
+[2026-02-02 16:33:32] Tentativa 1/2
+[2026-02-02 16:33:32] Clique: menu 1 (444, 29)
+[2026-02-02 16:33:33] Clique: menu 2 (506, 51)
+[2026-02-02 16:33:33] Clique: menu 3 (766, 417)
+[2026-02-02 16:33:34] Clique: listar saldo zero (789, 588)
+[2026-02-02 16:33:34] Clique: adicionar assinatura (790, 636)
+[2026-02-02 16:33:34] Clique: listar CNPJ (789, 652)
+[2026-02-02 16:33:34] Clique: imprimir (1174, 432)
+[2026-02-02 16:33:34] Relatorio localizado (novo child window: 17).
+[2026-02-02 16:33:34] Clique: salvar (405, 87)
+[2026-02-02 16:33:34] Aguardando 1.5s: janela de salvar
+[2026-02-02 16:33:39] Clique: salvar (1437, 920)
+[2026-02-02 16:33:40] Arquivo salvo: W:\\SPEDs\\ECD\\2025\Agrabel caminhoes ltda\DFC.rtf
+[2026-02-02 16:38:26] Clique: clique inicial (401, 463)
+[2026-02-02 16:38:26] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 16:38:44] Empresa: TESTE
+[2026-02-02 16:38:44] Diretorio destino: W:\\SPEDs\\ECD\\2025\TESTE
+[2026-02-02 16:38:44] Aguardando 2s: preparar a tela
+[2026-02-02 16:38:46] Tentativa 1/2
+[2026-02-02 16:38:46] Clique: menu 1 (444, 29)
+[2026-02-02 16:38:46] Clique: menu 2 (506, 51)
+[2026-02-02 16:38:46] Clique: menu 3 (766, 417)
+[2026-02-02 16:38:47] Clique: listar saldo zero (789, 588)
+[2026-02-02 16:38:47] Clique: adicionar assinatura (790, 636)
+[2026-02-02 16:38:48] Clique: listar CNPJ (789, 652)
+[2026-02-02 16:38:48] Clique: imprimir (1174, 432)
+[2026-02-02 16:38:54] Clique: clique inicial (401, 463)
+[2026-02-02 16:38:54] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 16:40:03] Empresa: teste
+[2026-02-02 16:40:03] Diretorio destino: W:\\SPEDs\\ECD\\2025\teste
+[2026-02-02 16:40:03] Aguardando 2s: preparar a tela
+[2026-02-02 16:40:05] Tentativa 1/2
+[2026-02-02 16:40:05] Clique: menu 1 (444, 29)
+[2026-02-02 16:40:06] Clique: menu 2 (506, 51)
+[2026-02-02 16:40:06] Clique: menu 3 (766, 417)
+[2026-02-02 16:40:07] Clique: listar saldo zero (789, 588)
+[2026-02-02 16:40:07] Clique: adicionar assinatura (790, 636)
+[2026-02-02 16:40:07] Clique: listar CNPJ (789, 652)
+[2026-02-02 16:40:07] Clique: imprimir (1174, 432)
+[2026-02-02 16:40:23] Clique: clique inicial (401, 463)
+[2026-02-02 16:40:23] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 16:40:23] Empresa: teste
+[2026-02-02 16:40:23] Diretorio destino: W:\\SPEDs\\ECD\\2025\teste
+[2026-02-02 16:40:23] Aguardando 2s: preparar a tela
+[2026-02-02 16:40:25] Tentativa 1/2
+[2026-02-02 16:40:25] Clique: menu 1 (444, 29)
+[2026-02-02 16:40:25] Clique: menu 2 (506, 51)
+[2026-02-02 16:40:25] Clique: menu 3 (766, 417)
+[2026-02-02 16:40:26] Clique: listar saldo zero (789, 588)
+[2026-02-02 16:40:26] Clique: adicionar assinatura (790, 636)
+[2026-02-02 16:40:27] Clique: listar CNPJ (789, 652)
+[2026-02-02 16:40:27] Clique: imprimir (1174, 432)
+[2026-02-02 16:40:46] Clique: clique inicial (401, 463)
+[2026-02-02 16:40:46] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 16:40:46] Empresa: teste
+[2026-02-02 16:40:46] Diretorio destino: W:\\SPEDs\\ECD\\2025\teste
+[2026-02-02 16:40:46] Aguardando 2s: preparar a tela
+[2026-02-02 16:40:48] Tentativa 1/2
+[2026-02-02 16:40:48] Clique: menu 1 (444, 29)
+[2026-02-02 16:40:48] Clique: menu 2 (506, 51)
+[2026-02-02 16:40:48] Clique: menu 3 (766, 417)
+[2026-02-02 16:40:49] Clique: listar saldo zero (789, 588)
+[2026-02-02 16:40:49] Clique: adicionar assinatura (790, 636)
+[2026-02-02 16:40:49] Clique: listar CNPJ (789, 652)
+[2026-02-02 16:40:49] Clique: imprimir (1174, 432)
+[2026-02-02 16:41:25] Clique: clique inicial (401, 463)
+[2026-02-02 16:41:25] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 16:41:25] Empresa: teste
+[2026-02-02 16:41:25] Diretorio destino: W:\\SPEDs\\ECD\\2025\teste
+[2026-02-02 16:41:25] Aguardando 2s: preparar a tela
+[2026-02-02 16:41:27] Tentativa 1/2
+[2026-02-02 16:41:27] Clique: menu 1 (444, 29)
+[2026-02-02 16:41:27] Clique: menu 2 (506, 51)
+[2026-02-02 16:41:27] Clique: menu 3 (766, 417)
+[2026-02-02 16:41:28] Clique: listar saldo zero (789, 588)
+[2026-02-02 16:41:28] Clique: adicionar assinatura (790, 636)
+[2026-02-02 16:41:28] Clique: listar CNPJ (789, 652)
+[2026-02-02 16:41:28] Clique: imprimir (1174, 432)
+[2026-02-02 16:41:29] Relatorio localizado (novo child window: 17).
+[2026-02-02 16:41:29] Clique: salvar (405, 87)
+[2026-02-02 16:41:29] Aguardando 1.5s: janela de salvar
+[2026-02-02 16:41:34] Clique: salvar (1437, 920)
+[2026-02-02 16:41:34] Arquivo salvo: W:\\SPEDs\\ECD\\2025\teste\DFC.rtf
+[2026-02-02 16:41:36] Clique: voltar 1 (465, 86)
+[2026-02-02 16:41:36] Clique: voltar 2 (1226, 404)
+[2026-02-02 16:41:36] Aguardando 1s: pos-voltar
+[2026-02-02 16:41:37] Finalizado com sucesso.
+[2026-02-02 16:48:34] Clique: clique inicial (401, 463)
+[2026-02-02 16:48:34] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 16:48:34] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:48:34] Diretorio destino: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:48:34] Aguardando 2s: preparar a tela
+[2026-02-02 16:48:36] Tentativa 1/2
+[2026-02-02 16:48:36] Arrastar: menu 1 -> menu 2 (454, 28) -> (583, 51)
+[2026-02-02 16:48:37] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:48:37] Arrastar: menu 2 -> menu 3 (583, 51) -> (1156, 418)
+[2026-02-02 16:48:37] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:48:38] Clique: listar saldo zero (789, 588)
+[2026-02-02 16:48:38] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:48:38] Clique: adicionar assinatura (790, 636)
+[2026-02-02 16:48:38] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:48:38] Clique: listar CNPJ (789, 652)
+[2026-02-02 16:48:38] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:48:39] Clique: imprimir (1174, 432)
+[2026-02-02 16:48:39] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:49:05] Clique: clique inicial (401, 463)
+[2026-02-02 16:49:05] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 16:49:05] Empresa: teste
+[2026-02-02 16:49:05] Diretorio destino: W:\\SPEDs\\ECD\\2025\teste
+[2026-02-02 16:49:05] Aguardando 2s: preparar a tela
+[2026-02-02 16:49:07] Tentativa 1/2
+[2026-02-02 16:49:07] Arrastar: menu 1 -> menu 2 (454, 28) -> (583, 51)
+[2026-02-02 16:49:07] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:49:07] Arrastar: menu 2 -> menu 3 (583, 51) -> (1156, 418)
+[2026-02-02 16:49:07] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:49:08] Clique: listar saldo zero (789, 588)
+[2026-02-02 16:49:09] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:49:09] Clique: adicionar assinatura (790, 636)
+[2026-02-02 16:49:09] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:49:09] Clique: listar CNPJ (789, 652)
+[2026-02-02 16:49:09] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:49:09] Clique: imprimir (1174, 432)
+[2026-02-02 16:49:09] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:50:25] Clique: clique inicial (401, 463)
+[2026-02-02 16:50:26] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 16:50:26] Empresa: teste
+[2026-02-02 16:50:26] Diretorio destino: W:\\SPEDs\\ECD\\2025\teste
+[2026-02-02 16:50:26] Aguardando 2s: preparar a tela
+[2026-02-02 16:50:28] Tentativa 1/2
+[2026-02-02 16:50:28] Arrastar: menu 1 -> menu 2 (454, 38) -> (583, 61)
+[2026-02-02 16:50:28] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:50:28] Arrastar: menu 2 -> menu 3 (583, 61) -> (1156, 428)
+[2026-02-02 16:50:28] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:50:29] Clique: listar saldo zero (789, 588)
+[2026-02-02 16:50:29] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:50:30] Clique: adicionar assinatura (790, 636)
+[2026-02-02 16:50:30] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:50:30] Clique: listar CNPJ (789, 652)
+[2026-02-02 16:50:30] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:50:30] Clique: imprimir (1174, 432)
+[2026-02-02 16:50:30] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:51:47] Clique: clique inicial (401, 463)
+[2026-02-02 16:51:47] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 16:51:47] Empresa: teste
+[2026-02-02 16:51:47] Diretorio destino: W:\\SPEDs\\ECD\\2025\teste
+[2026-02-02 16:51:47] Aguardando 2s: preparar a tela
+[2026-02-02 16:51:49] Tentativa 1/2
+[2026-02-02 16:51:49] Clique: menu 1 (354, 38)
+[2026-02-02 16:51:49] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:51:49] Clique: menu 2 (483, 61)
+[2026-02-02 16:51:49] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:51:50] Clique: menu 3 (1056, 428)
+[2026-02-02 16:51:50] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:51:51] Clique: listar saldo zero (789, 588)
+[2026-02-02 16:51:51] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:51:51] Clique: adicionar assinatura (790, 636)
+[2026-02-02 16:51:51] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:51:51] Clique: listar CNPJ (789, 652)
+[2026-02-02 16:51:51] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:51:51] Clique: imprimir (1174, 432)
+[2026-02-02 16:51:51] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:52:04] Clique: clique inicial (401, 463)
+[2026-02-02 16:52:04] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 16:52:04] Empresa: teste
+[2026-02-02 16:52:04] Diretorio destino: W:\\SPEDs\\ECD\\2025\teste
+[2026-02-02 16:52:04] Aguardando 2s: preparar a tela
+[2026-02-02 16:52:06] Tentativa 1/2
+[2026-02-02 16:52:06] Clique: menu 1 (354, 38)
+[2026-02-02 16:52:06] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:52:06] Clique: menu 2 (483, 61)
+[2026-02-02 16:52:06] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:52:07] Clique: menu 3 (1056, 428)
+[2026-02-02 16:52:07] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:52:08] Clique: listar saldo zero (789, 588)
+[2026-02-02 16:52:08] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:52:08] Clique: adicionar assinatura (790, 636)
+[2026-02-02 16:52:08] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:52:08] Clique: listar CNPJ (789, 652)
+[2026-02-02 16:52:08] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:52:08] Clique: imprimir (1174, 432)
+[2026-02-02 16:52:08] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:52:37] Clique: clique inicial (401, 463)
+[2026-02-02 16:52:37] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 16:52:37] Empresa: teste
+[2026-02-02 16:52:37] Diretorio destino: W:\\SPEDs\\ECD\\2025\teste
+[2026-02-02 16:52:37] Aguardando 2s: preparar a tela
+[2026-02-02 16:52:39] Tentativa 1/2
+[2026-02-02 16:52:39] Clique: menu 1 (354, 38)
+[2026-02-02 16:52:39] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:52:39] Clique: menu 2 (483, 61)
+[2026-02-02 16:52:40] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:52:40] Clique: menu 3 (1056, 428)
+[2026-02-02 16:52:40] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:52:41] Clique: listar saldo zero (789, 588)
+[2026-02-02 16:52:41] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:52:41] Clique: adicionar assinatura (790, 636)
+[2026-02-02 16:52:41] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:52:41] Clique: listar CNPJ (789, 652)
+[2026-02-02 16:52:41] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:52:41] Clique: imprimir (1174, 432)
+[2026-02-02 16:52:41] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:52:58] Empresa vazia. Encerrando.
+[2026-02-02 16:53:01] Clique: clique inicial (401, 463)
+[2026-02-02 16:53:01] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 16:53:01] Empresa: teste
+[2026-02-02 16:53:01] Diretorio destino: W:\\SPEDs\\ECD\\2025\teste
+[2026-02-02 16:53:01] Aguardando 2s: preparar a tela
+[2026-02-02 16:53:03] Tentativa 1/2
+[2026-02-02 16:53:03] Clique: menu 1 (354, 38)
+[2026-02-02 16:53:03] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:53:03] Clique: menu 2 (483, 61)
+[2026-02-02 16:53:03] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:53:03] Clique: menu 3 (1056, 428)
+[2026-02-02 16:53:03] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:53:04] Clique: listar saldo zero (789, 588)
+[2026-02-02 16:53:04] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:53:05] Clique: adicionar assinatura (790, 636)
+[2026-02-02 16:53:05] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:53:05] Clique: listar CNPJ (789, 652)
+[2026-02-02 16:53:05] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:53:05] Clique: imprimir (1174, 432)
+[2026-02-02 16:53:05] Aguardando 0.1s: delay entre botoes
+[2026-02-02 16:54:54] Clique: clique inicial (401, 463)
+[2026-02-02 16:54:54] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 16:54:54] Empresa: teste
+[2026-02-02 16:54:54] Diretorio destino: W:\\SPEDs\\ECD\\2025\teste
+[2026-02-02 16:54:54] Aguardando 2s: preparar a tela
+[2026-02-02 16:54:56] Tentativa 1/2
+[2026-02-02 16:54:56] Clique: menu 1 (354, 38)
+[2026-02-02 16:54:57] Aguardando 0.5s: delay entre botoes
+[2026-02-02 16:54:57] Clique: menu 2 (483, 61)
+[2026-02-02 16:54:58] Aguardando 0.5s: delay entre botoes
+[2026-02-02 16:54:58] Clique: menu 3 (1056, 428)
+[2026-02-02 16:54:59] Aguardando 0.5s: delay entre botoes
+[2026-02-02 16:55:02] Clique: listar saldo zero (789, 588)
+[2026-02-02 16:55:03] Aguardando 0.5s: delay entre botoes
+[2026-02-02 16:55:03] Clique: adicionar assinatura (790, 636)
+[2026-02-02 16:55:04] Aguardando 0.5s: delay entre botoes
+[2026-02-02 16:55:04] Clique: listar CNPJ (789, 652)
+[2026-02-02 16:55:05] Aguardando 0.5s: delay entre botoes
+[2026-02-02 16:55:05] Clique: imprimir (1174, 432)
+[2026-02-02 16:57:45] Clique: clique inicial (401, 463)
+[2026-02-02 16:57:45] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 16:57:45] Empresa: teste
+[2026-02-02 16:57:45] Diretorio destino: W:\\SPEDs\\ECD\\2025\teste
+[2026-02-02 16:57:45] Aguardando 2s: preparar a tela
+[2026-02-02 16:57:47] Tentativa 1/2
+[2026-02-02 16:57:47] Clique: menu 1 (354, 38)
+[2026-02-02 16:57:48] Aguardando 0.5s: delay entre botoes
+[2026-02-02 16:57:48] Clique: menu 2 (483, 61)
+[2026-02-02 16:57:49] Aguardando 0.5s: delay entre botoes
+[2026-02-02 16:57:49] Clique: menu 3 (1056, 428)
+[2026-02-02 16:57:50] Aguardando 0.5s: delay entre botoes
+[2026-02-02 16:57:53] Clique: listar saldo zero (789, 588)
+[2026-02-02 16:57:54] Aguardando 0.5s: delay entre botoes
+[2026-02-02 16:57:54] Clique: adicionar assinatura (790, 636)
+[2026-02-02 16:57:55] Aguardando 0.5s: delay entre botoes
+[2026-02-02 16:57:55] Clique: listar CNPJ (789, 652)
+[2026-02-02 16:57:56] Aguardando 0.5s: delay entre botoes
+[2026-02-02 16:57:56] Clique: imprimir (1174, 432)
+[2026-02-02 17:01:48] Clique: clique inicial (401, 463)
+[2026-02-02 17:01:48] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 17:01:48] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 17:01:48] Diretorio destino: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 17:01:48] Aguardando 2s: preparar a tela
+[2026-02-02 17:01:50] Tentativa 1/2
+[2026-02-02 17:01:50] Clique: menu 1 (365, 33)
+[2026-02-02 17:01:51] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:01:51] Clique: menu 2 (400, 56)
+[2026-02-02 17:01:52] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:01:52] Clique: menu 3 (669, 384)
+[2026-02-02 17:01:53] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:01:56] Clique: listar saldo zero (789, 588)
+[2026-02-02 17:01:57] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:01:57] Clique: adicionar assinatura (790, 636)
+[2026-02-02 17:01:58] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:01:59] Clique: listar CNPJ (789, 652)
+[2026-02-02 17:01:59] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:02:00] Clique: imprimir (1174, 432)
+[2026-02-02 17:02:00] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:02:01] Relatorio localizado (novo child window: 21).
+[2026-02-02 17:02:01] Clique: salvar (405, 87)
+[2026-02-02 17:02:01] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:02:02] Aguardando 1.5s: janela de salvar
+[2026-02-02 17:02:10] Clique: salvar (1437, 920)
+[2026-02-02 17:02:11] Arquivo nao apareceu no destino; finalizando e repetindo
+[2026-02-02 17:02:11] Clique: voltar 1 (465, 86)
+[2026-02-02 17:02:11] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:02:12] Clique: voltar 2 (1226, 404)
+[2026-02-02 17:02:12] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:02:13] Aguardando 1s: pos-voltar
+[2026-02-02 17:02:14] Tentativa 2/2
+[2026-02-02 17:02:14] Clique: menu 1 (365, 33)
+[2026-02-02 17:02:14] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:02:15] Clique: menu 2 (400, 56)
+[2026-02-02 17:02:15] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:02:16] Clique: menu 3 (669, 384)
+[2026-02-02 17:02:16] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:04:17] Clique: clique inicial (401, 463)
+[2026-02-02 17:04:17] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 17:04:17] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 17:04:17] Diretorio destino: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 17:04:17] Aguardando 2s: preparar a tela
+[2026-02-02 17:04:19] Tentativa 1/2
+[2026-02-02 17:04:19] Clique: menu 1 (365, 33)
+[2026-02-02 17:04:20] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:04:21] Clique: menu 2 (400, 56)
+[2026-02-02 17:04:21] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:04:22] Clique: menu 3 (669, 384)
+[2026-02-02 17:04:22] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:04:26] Clique: listar saldo zero (789, 588)
+[2026-02-02 17:04:26] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:04:27] Clique: adicionar assinatura (790, 636)
+[2026-02-02 17:04:27] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:04:28] Clique: listar CNPJ (789, 652)
+[2026-02-02 17:04:28] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:04:29] Clique: imprimir (1174, 432)
+[2026-02-02 17:04:29] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:04:30] Relatorio localizado (novo child window: 21).
+[2026-02-02 17:04:30] Clique: salvar (1498, 953)
+[2026-02-02 17:04:30] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:04:31] Aguardando 1.5s: janela de salvar
+[2026-02-02 17:04:47] Clique: salvar (1437, 920)
+[2026-02-02 17:04:48] Arquivo salvo: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA\DFC.rtf
+[2026-02-02 17:04:52] Clique: voltar 1 (465, 86)
+[2026-02-02 17:04:53] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:04:53] Clique: voltar 2 (1226, 404)
+[2026-02-02 17:04:54] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:04:54] Aguardando 1s: pos-voltar
+[2026-02-02 17:04:55] Finalizado com sucesso.
+[2026-02-02 17:38:55] Clique: clique inicial (401, 463)
+[2026-02-02 17:38:56] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 17:38:56] Empresa: TIBAGI MOTOS LTDA
+[2026-02-02 17:38:56] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-02 17:38:56] Aguardando 2s: preparar a tela
+[2026-02-02 17:38:58] Tentativa 1/2
+[2026-02-02 17:38:58] Clique: menu 1 (365, 33)
+[2026-02-02 17:38:58] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:38:59] Clique: menu 2 (400, 56)
+[2026-02-02 17:38:59] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:39:00] Clique: menu 3 (669, 384)
+[2026-02-02 17:39:00] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:39:04] Clique: listar saldo zero (789, 588)
+[2026-02-02 17:39:04] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:39:05] Clique: adicionar assinatura (790, 636)
+[2026-02-02 17:39:05] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:39:06] Clique: listar CNPJ (789, 652)
+[2026-02-02 17:39:06] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:39:07] Clique: imprimir (1174, 432)
+[2026-02-02 17:39:07] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:39:08] Relatorio localizado (novo child window: 21).
+[2026-02-02 17:39:08] Clique: salvar (1498, 953)
+[2026-02-02 17:39:08] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:39:09] Aguardando 1.5s: janela de salvar
+[2026-02-02 17:39:25] Clique: salvar (1437, 920)
+[2026-02-02 17:39:26] Arquivo nao apareceu no destino; finalizando e repetindo
+[2026-02-02 17:39:26] Clique: voltar 1 (465, 86)
+[2026-02-02 17:39:26] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:39:27] Clique: voltar 2 (1226, 404)
+[2026-02-02 17:39:27] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:39:28] Aguardando 1s: pos-voltar
+[2026-02-02 17:39:29] Tentativa 2/2
+[2026-02-02 17:39:29] Clique: menu 1 (365, 33)
+[2026-02-02 17:39:29] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:39:30] Clique: menu 2 (400, 56)
+[2026-02-02 17:39:30] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:39:31] Clique: menu 3 (669, 384)
+[2026-02-02 17:39:31] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:39:35] Clique: listar saldo zero (789, 588)
+[2026-02-02 17:39:35] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:39:36] Clique: adicionar assinatura (790, 636)
+[2026-02-02 17:39:36] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:39:37] Clique: listar CNPJ (789, 652)
+[2026-02-02 17:39:37] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:39:38] Clique: imprimir (1174, 432)
+[2026-02-02 17:39:38] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:48:11] Relatorio localizado (novo child window: 1).
+[2026-02-02 17:48:11] Clique: salvar (1498, 953)
+[2026-02-02 17:48:11] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:48:12] Aguardando 1.5s: janela de salvar
+[2026-02-02 17:48:27] Clique: salvar (1437, 920)
+[2026-02-02 17:48:28] Arquivo nao apareceu no destino; finalizando e repetindo
+[2026-02-02 17:48:28] Clique: voltar 1 (465, 86)
+[2026-02-02 17:48:29] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:48:29] Clique: voltar 2 (1226, 404)
+[2026-02-02 17:48:30] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:48:30] Aguardando 1s: pos-voltar
+[2026-02-02 17:48:31] Finalizado sem sucesso. Reexecutar manualmente.
+[2026-02-02 17:50:16] Clique: clique inicial (401, 463)
+[2026-02-02 17:50:16] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 17:50:16] Empresa: TIBAGI MOTOS LTDA
+[2026-02-02 17:50:16] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-02 17:50:16] Aguardando 2s: preparar a tela
+[2026-02-02 17:50:18] Tentativa 1/2
+[2026-02-02 17:50:18] Clique: menu 1 (365, 33)
+[2026-02-02 17:50:19] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:50:19] Clique: menu 2 (400, 56)
+[2026-02-02 17:50:20] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:50:20] Clique: menu 3 (669, 384)
+[2026-02-02 17:50:21] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:50:24] Clique: listar saldo zero (789, 588)
+[2026-02-02 17:50:25] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:50:25] Clique: adicionar assinatura (790, 636)
+[2026-02-02 17:50:26] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:50:26] Clique: listar CNPJ (789, 652)
+[2026-02-02 17:50:27] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:50:27] Clique: imprimir (1174, 432)
+[2026-02-02 17:50:28] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:50:28] Relatorio localizado (novo child window: 21).
+[2026-02-02 17:50:28] Clique: salvar (1498, 953)
+[2026-02-02 17:50:29] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:50:30] Aguardando 1.5s: janela de salvar
+[2026-02-02 17:50:45] Clique: salvar (1437, 920)
+[2026-02-02 17:50:46] Arquivo nao apareceu no destino; finalizando e repetindo
+[2026-02-02 17:50:46] Clique: voltar 1 (465, 86)
+[2026-02-02 17:50:47] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:50:47] Clique: voltar 2 (1226, 404)
+[2026-02-02 17:50:48] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:50:48] Aguardando 1s: pos-voltar
+[2026-02-02 17:50:49] Tentativa 2/2
+[2026-02-02 17:50:49] Clique: menu 1 (365, 33)
+[2026-02-02 17:50:50] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:50:50] Clique: menu 2 (400, 56)
+[2026-02-02 17:50:51] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:50:51] Clique: menu 3 (669, 384)
+[2026-02-02 17:50:52] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:50:55] Clique: listar saldo zero (789, 588)
+[2026-02-02 17:50:56] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:50:57] Clique: adicionar assinatura (790, 636)
+[2026-02-02 17:50:57] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:50:58] Clique: listar CNPJ (789, 652)
+[2026-02-02 17:50:58] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:50:59] Clique: imprimir (1174, 432)
+[2026-02-02 17:50:59] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:51:00] Relatorio localizado (novo child window: 21).
+[2026-02-02 17:51:00] Clique: salvar (1498, 953)
+[2026-02-02 17:51:00] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:51:01] Aguardando 1.5s: janela de salvar
+[2026-02-02 17:51:16] Clique: salvar (1437, 920)
+[2026-02-02 17:51:17] Arquivo nao apareceu no destino; finalizando e repetindo
+[2026-02-02 17:51:17] Clique: voltar 1 (465, 86)
+[2026-02-02 17:51:18] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:51:18] Clique: voltar 2 (1226, 404)
+[2026-02-02 17:51:19] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:51:19] Aguardando 1s: pos-voltar
+[2026-02-02 17:51:20] Finalizado sem sucesso. Reexecutar manualmente.
+[2026-02-02 17:52:12] Empresa vazia. Encerrando.
+[2026-02-02 17:52:16] Empresa vazia. Encerrando.
+[2026-02-02 17:52:30] Clique: clique inicial (401, 463)
+[2026-02-02 17:52:30] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 17:52:30] Empresa: TIBAGI MOTOS LTDA
+[2026-02-02 17:52:30] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-02 17:52:30] Aguardando 2s: preparar a tela
+[2026-02-02 17:52:32] Tentativa 1/2
+[2026-02-02 17:52:32] Clique: menu 1 (365, 33)
+[2026-02-02 17:52:33] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:52:33] Clique: menu 2 (400, 56)
+[2026-02-02 17:52:34] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:52:34] Clique: menu 3 (669, 384)
+[2026-02-02 17:52:35] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:52:38] Clique: listar saldo zero (789, 588)
+[2026-02-02 17:52:39] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:52:39] Clique: adicionar assinatura (790, 636)
+[2026-02-02 17:52:40] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:52:40] Clique: listar CNPJ (789, 652)
+[2026-02-02 17:52:41] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:52:41] Clique: imprimir (1174, 432)
+[2026-02-02 17:52:42] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:52:42] Relatorio localizado (novo child window: 21).
+[2026-02-02 17:52:42] Clique: salvar (1498, 953)
+[2026-02-02 17:52:43] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:52:43] Aguardando 1.5s: janela de salvar
+[2026-02-02 17:52:59] Clique: salvar (1437, 920)
+[2026-02-02 17:56:07] Clique: clique inicial (401, 463)
+[2026-02-02 17:56:08] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-02 17:56:08] Empresa: TIBAGI MOTOS LTDA
+[2026-02-02 17:56:08] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-02 17:56:08] Aguardando 2s: preparar a tela
+[2026-02-02 17:56:10] Tentativa 1/2
+[2026-02-02 17:56:10] Clique: menu 1 (365, 33)
+[2026-02-02 17:56:11] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:56:11] Clique: menu 2 (400, 56)
+[2026-02-02 17:56:12] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:56:12] Clique: menu 3 (669, 384)
+[2026-02-02 17:56:13] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:56:16] Clique: listar saldo zero (789, 588)
+[2026-02-02 17:56:17] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:56:17] Clique: adicionar assinatura (790, 636)
+[2026-02-02 17:56:18] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:56:18] Clique: listar CNPJ (789, 652)
+[2026-02-02 17:56:19] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:56:19] Clique: imprimir (1174, 432)
+[2026-02-02 17:56:20] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:56:20] Relatorio localizado (novo child window: 21).
+[2026-02-02 17:56:20] Clique: salvar (403, 86)
+[2026-02-02 17:56:21] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:56:21] Aguardando 1.5s: janela de salvar
+[2026-02-02 17:56:29] Clique: salvar (1500, 954)
+[2026-02-02 17:56:30] Arquivo salvo: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA\DFC.rtf
+[2026-02-02 17:56:35] Clique: voltar 1 (465, 83)
+[2026-02-02 17:56:35] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:56:36] Clique: voltar 2 (1226, 404)
+[2026-02-02 17:56:36] Aguardando 0.5s: delay entre botoes
+[2026-02-02 17:56:37] Aguardando 1s: pos-voltar
+[2026-02-02 17:56:38] Finalizado com sucesso.
+[2026-02-03 07:47:00] Clique: clique inicial (401, 463)
+[2026-02-03 07:47:00] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 07:47:00] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 07:47:00] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-03 07:47:00] Aguardando 2s: preparar a tela
+[2026-02-03 07:47:02] Tentativa 1/2
+[2026-02-03 07:47:02] Clique: menu 1 (365, 33)
+[2026-02-03 07:47:03] Aguardando 0.5s: delay entre botoes
+[2026-02-03 07:47:03] Clique: menu 2 (400, 56)
+[2026-02-03 07:47:04] Aguardando 0.5s: delay entre botoes
+[2026-02-03 07:47:04] Clique: menu 3 (669, 384)
+[2026-02-03 07:47:05] Aguardando 0.5s: delay entre botoes
+[2026-02-03 07:47:09] Clique: listar saldo zero (789, 588)
+[2026-02-03 07:47:09] Aguardando 0.5s: delay entre botoes
+[2026-02-03 07:47:10] Clique: adicionar assinatura (790, 636)
+[2026-02-03 07:47:10] Aguardando 0.5s: delay entre botoes
+[2026-02-03 07:47:11] Clique: listar CNPJ (789, 652)
+[2026-02-03 07:47:11] Aguardando 0.5s: delay entre botoes
+[2026-02-03 07:47:12] Clique: imprimir (1174, 432)
+[2026-02-03 07:47:12] Aguardando 0.5s: delay entre botoes
+[2026-02-03 07:47:13] Relatorio localizado (novo child window: 21).
+[2026-02-03 07:47:13] Clique: salvar (403, 86)
+[2026-02-03 07:47:13] Aguardando 0.5s: delay entre botoes
+[2026-02-03 07:47:14] Aguardando 1.5s: janela de salvar
+[2026-02-03 07:47:22] Clique: salvar (1500, 954)
+[2026-02-03 07:47:23] Arquivo salvo: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA\DFC.rtf
+[2026-02-03 07:47:27] Clique: voltar 1 (465, 83)
+[2026-02-03 07:47:28] Aguardando 0.5s: delay entre botoes
+[2026-02-03 07:47:29] Clique: voltar 2 (1226, 404)
+[2026-02-03 07:47:29] Aguardando 0.5s: delay entre botoes
+[2026-02-03 07:47:30] Aguardando 1s: pos-voltar
+[2026-02-03 07:47:31] Finalizado com sucesso.
+[2026-02-03 07:54:01] Clique: clique inicial (401, 463)
+[2026-02-03 07:54:01] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 07:54:01] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 07:54:01] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-03 07:54:01] Aguardando 2s: preparar a tela
+[2026-02-03 07:54:03] Tentativa 1/2
+[2026-02-03 07:54:03] Clique: menu 1 (365, 33)
+[2026-02-03 07:54:04] Aguardando 0.5s: delay entre botoes
+[2026-02-03 07:54:04] Clique: menu 2 (400, 56)
+[2026-02-03 07:54:05] Aguardando 0.5s: delay entre botoes
+[2026-02-03 07:54:05] Clique: menu 3 (669, 384)
+[2026-02-03 07:54:06] Aguardando 0.5s: delay entre botoes
+[2026-02-03 07:54:09] Clique: listar saldo zero (789, 588)
+[2026-02-03 07:54:10] Aguardando 0.5s: delay entre botoes
+[2026-02-03 07:54:10] Clique: adicionar assinatura (790, 636)
+[2026-02-03 07:54:11] Aguardando 0.5s: delay entre botoes
+[2026-02-03 07:54:12] Clique: listar CNPJ (789, 652)
+[2026-02-03 07:54:12] Aguardando 0.5s: delay entre botoes
+[2026-02-03 07:54:13] Clique: imprimir (1174, 432)
+[2026-02-03 07:54:13] Aguardando 0.5s: delay entre botoes
+[2026-02-03 07:54:14] Relatorio localizado (novo child window: 21).
+[2026-02-03 07:54:14] Clique: salvar (403, 86)
+[2026-02-03 07:54:14] Aguardando 0.5s: delay entre botoes
+[2026-02-03 07:54:15] Aguardando 1.5s: janela de salvar
+[2026-02-03 07:54:22] Clique: salvar (1500, 954)
+[2026-02-03 07:54:23] Arquivo salvo: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA\DFC.rtf
+[2026-02-03 07:54:28] Clique: voltar 1 (465, 83)
+[2026-02-03 07:54:29] Aguardando 0.5s: delay entre botoes
+[2026-02-03 07:54:29] Clique: voltar 2 (1226, 404)
+[2026-02-03 07:54:30] Aguardando 0.5s: delay entre botoes
+[2026-02-03 07:54:30] Aguardando 1s: pos-voltar
+[2026-02-03 07:54:31] Finalizado com sucesso.
+[2026-02-03 08:01:44] Clique: clique inicial (401, 463)
+[2026-02-03 08:01:45] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 08:01:45] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 08:01:45] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-03 08:01:45] Aguardando 2s: preparar a tela
+[2026-02-03 08:01:47] Tentativa 1/2
+[2026-02-03 08:01:47] Clique: menu 1 (365, 33)
+[2026-02-03 08:01:47] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:01:48] Clique: menu 2 (400, 56)
+[2026-02-03 08:01:48] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:01:49] Clique: menu 3 (669, 384)
+[2026-02-03 08:01:49] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:01:53] Clique: listar saldo zero (789, 588)
+[2026-02-03 08:01:53] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:01:54] Clique: adicionar assinatura (790, 636)
+[2026-02-03 08:01:54] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:01:55] Clique: listar CNPJ (789, 652)
+[2026-02-03 08:01:55] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:01:56] Clique: imprimir (1174, 432)
+[2026-02-03 08:01:56] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:01:57] Relatorio localizado (novo child window: 21).
+[2026-02-03 08:01:57] Clique: salvar (403, 86)
+[2026-02-03 08:01:57] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:01:58] Aguardando 1.5s: janela de salvar
+[2026-02-03 08:02:02] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 08:02:02] Clique: salvar (1500, 954)
+[2026-02-03 08:02:08] Arquivo salvo: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA\DFC.rtf
+[2026-02-03 08:02:13] Clique: voltar 1 (465, 83)
+[2026-02-03 08:02:13] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:02:14] Clique: voltar 2 (1226, 404)
+[2026-02-03 08:02:14] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:02:15] Aguardando 1s: pos-voltar
+[2026-02-03 08:02:16] Finalizado com sucesso.
+[2026-02-03 08:11:07] Clique: clique inicial (401, 463)
+[2026-02-03 08:11:08] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 08:11:08] Empresa: RIO BRANCO VEICULOS LTDA
+[2026-02-03 08:11:08] Diretorio destino: W:\\SPEDs\\ECD\\2025\RIO BRANCO VEICULOS LTDA
+[2026-02-03 08:11:08] Aguardando 2s: preparar a tela
+[2026-02-03 08:11:10] Tentativa 1/2
+[2026-02-03 08:11:10] Clique: menu 1 (365, 33)
+[2026-02-03 08:11:11] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:11:11] Clique: menu 2 (400, 56)
+[2026-02-03 08:11:12] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:11:12] Clique: menu 3 (669, 384)
+[2026-02-03 08:11:13] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:11:16] Clique: listar saldo zero (789, 588)
+[2026-02-03 08:11:17] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:11:17] Clique: adicionar assinatura (790, 636)
+[2026-02-03 08:11:18] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:11:18] Clique: listar CNPJ (789, 652)
+[2026-02-03 08:11:19] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:11:19] Clique: imprimir (1174, 432)
+[2026-02-03 08:11:20] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:11:20] Relatorio localizado (novo child window: 21).
+[2026-02-03 08:11:20] Clique: salvar (403, 86)
+[2026-02-03 08:11:21] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:11:21] Aguardando 1.5s: janela de salvar
+[2026-02-03 08:11:25] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 08:11:26] Clique: salvar (1500, 954)
+[2026-02-03 08:11:31] Arquivo salvo: W:\\SPEDs\\ECD\\2025\RIO BRANCO VEICULOS LTDA\DFC.rtf
+[2026-02-03 08:11:36] Clique: voltar 1 (465, 83)
+[2026-02-03 08:11:37] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:11:37] Clique: voltar 2 (1226, 404)
+[2026-02-03 08:11:38] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:11:38] Aguardando 1s: pos-voltar
+[2026-02-03 08:11:39] Finalizado com sucesso.
+[2026-02-03 08:20:22] Clique: clique inicial (401, 463)
+[2026-02-03 08:20:22] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 08:20:22] Empresa: BERTOVEL FERRO E ACO LTDA
+[2026-02-03 08:20:22] Diretorio destino: W:\\SPEDs\\ECD\\2025\BERTOVEL FERRO E ACO LTDA
+[2026-02-03 08:20:22] Aguardando 2s: preparar a tela
+[2026-02-03 08:20:24] Tentativa 1/2
+[2026-02-03 08:20:24] Clique: menu 1 (365, 33)
+[2026-02-03 08:20:25] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:20:25] Clique: menu 2 (400, 56)
+[2026-02-03 08:20:26] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:20:26] Clique: menu 3 (669, 384)
+[2026-02-03 08:20:27] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:20:30] Clique: listar saldo zero (789, 588)
+[2026-02-03 08:20:31] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:20:31] Clique: adicionar assinatura (790, 636)
+[2026-02-03 08:20:32] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:20:32] Clique: listar CNPJ (789, 652)
+[2026-02-03 08:20:33] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:20:33] Clique: imprimir (1174, 432)
+[2026-02-03 08:20:34] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:20:35] Relatorio localizado (novo child window: 21).
+[2026-02-03 08:20:35] Clique: salvar (403, 86)
+[2026-02-03 08:20:35] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:20:36] Aguardando 1.5s: janela de salvar
+[2026-02-03 08:20:39] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 08:20:40] Clique: salvar (1500, 954)
+[2026-02-03 08:20:45] Arquivo salvo: W:\\SPEDs\\ECD\\2025\BERTOVEL FERRO E ACO LTDA\DFC.rtf
+[2026-02-03 08:20:50] Clique: voltar 1 (465, 83)
+[2026-02-03 08:20:51] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:20:51] Clique: voltar 2 (1226, 404)
+[2026-02-03 08:20:52] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:20:52] Aguardando 1s: pos-voltar
+[2026-02-03 08:20:53] Finalizado com sucesso.
+[2026-02-03 08:34:38] Clique: clique inicial (401, 463)
+[2026-02-03 08:34:38] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 08:34:38] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:34:38] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:34:38] Aguardando 2s: preparar a tela
+[2026-02-03 08:34:40] Tentativa 1/2
+[2026-02-03 08:34:40] Clique: menu 1 (365, 33)
+[2026-02-03 08:34:41] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:34:41] Clique: menu 2 (400, 56)
+[2026-02-03 08:34:42] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:34:42] Clique: menu 3 (669, 384)
+[2026-02-03 08:34:43] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:34:47] Clique: listar saldo zero (789, 588)
+[2026-02-03 08:34:47] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:34:48] Clique: adicionar assinatura (790, 636)
+[2026-02-03 08:34:48] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:34:49] Clique: listar CNPJ (789, 652)
+[2026-02-03 08:34:49] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:34:50] Clique: imprimir (1174, 432)
+[2026-02-03 08:34:50] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:34:51] Relatorio localizado (novo child window: 21).
+[2026-02-03 08:34:51] Clique: salvar (403, 86)
+[2026-02-03 08:34:51] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:34:52] Aguardando 1.5s: janela de salvar
+[2026-02-03 08:34:55] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 08:34:56] Clique: salvar (1500, 954)
+[2026-02-03 08:35:02] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\DFC.rtf
+[2026-02-03 08:35:06] Clique: voltar 1 (465, 83)
+[2026-02-03 08:35:07] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:35:07] Clique: voltar 2 (1226, 404)
+[2026-02-03 08:35:08] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:35:08] Aguardando 1s: pos-voltar
+[2026-02-03 08:35:09] Finalizado com sucesso.
+[2026-02-03 08:51:06] Clique: clique inicial (401, 463)
+[2026-02-03 08:51:07] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 08:51:07] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:51:07] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:51:07] Aguardando 2s: preparar a tela
+[2026-02-03 08:51:09] Tentativa 1/2
+[2026-02-03 08:51:09] Clique: menu 1 (365, 33)
+[2026-02-03 08:51:09] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:51:10] Clique: menu 2 (400, 56)
+[2026-02-03 08:51:10] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:51:11] Clique: menu 3 (669, 384)
+[2026-02-03 08:51:11] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:51:15] Clique: listar saldo zero (789, 588)
+[2026-02-03 08:51:15] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:51:16] Clique: adicionar assinatura (790, 636)
+[2026-02-03 08:51:16] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:51:17] Clique: listar CNPJ (789, 652)
+[2026-02-03 08:51:17] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:51:18] Clique: imprimir (1174, 432)
+[2026-02-03 08:51:19] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:51:19] Relatorio localizado (novo child window: 21).
+[2026-02-03 08:51:19] Clique: salvar (403, 86)
+[2026-02-03 08:51:20] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:51:20] Aguardando 1.5s: janela de salvar
+[2026-02-03 08:51:24] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 08:51:24] Clique: salvar (1500, 954)
+[2026-02-03 08:51:30] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\DFC.rtf
+[2026-02-03 08:51:35] Clique: voltar 1 (465, 83)
+[2026-02-03 08:51:35] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:51:36] Clique: voltar 2 (1226, 404)
+[2026-02-03 08:51:36] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:51:37] Aguardando 1s: pos-voltar
+[2026-02-03 08:51:38] Finalizado com sucesso.
+[2026-02-03 08:55:42] Clique: clique inicial (401, 463)
+[2026-02-03 08:55:43] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 08:55:43] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:55:43] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:55:43] Aguardando 2s: preparar a tela
+[2026-02-03 08:55:45] Tentativa 1/2
+[2026-02-03 08:55:45] Clique: menu 1 (365, 33)
+[2026-02-03 08:55:45] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:55:46] Clique: menu 2 (400, 56)
+[2026-02-03 08:55:46] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:55:47] Clique: menu 3 (669, 384)
+[2026-02-03 08:55:47] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:55:51] Clique: listar saldo zero (789, 588)
+[2026-02-03 08:55:51] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:55:52] Clique: adicionar assinatura (790, 636)
+[2026-02-03 08:55:52] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:55:53] Clique: listar CNPJ (789, 652)
+[2026-02-03 08:55:53] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:55:54] Clique: imprimir (1174, 432)
+[2026-02-03 08:55:55] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:55:55] Relatorio localizado (novo child window: 21).
+[2026-02-03 08:55:55] Clique: salvar (403, 86)
+[2026-02-03 08:55:56] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:55:56] Aguardando 1.5s: janela de salvar
+[2026-02-03 08:56:00] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 08:56:00] Clique: salvar (1500, 954)
+[2026-02-03 08:56:06] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\DFC.rtf
+[2026-02-03 08:56:11] Clique: voltar 1 (465, 83)
+[2026-02-03 08:56:11] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:56:12] Clique: voltar 2 (1226, 404)
+[2026-02-03 08:56:12] Aguardando 0.5s: delay entre botoes
+[2026-02-03 08:56:13] Aguardando 1s: pos-voltar
+[2026-02-03 08:56:14] Finalizado com sucesso.
+[2026-02-03 09:09:18] Clique: clique inicial (401, 463)
+[2026-02-03 09:09:19] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 09:09:19] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:09:19] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:09:19] Aguardando 2s: preparar a tela
+[2026-02-03 09:09:21] Tentativa 1/2
+[2026-02-03 09:09:21] Clique: menu 1 (365, 33)
+[2026-02-03 09:09:21] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:09:22] Clique: menu 2 (400, 56)
+[2026-02-03 09:09:22] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:09:23] Clique: menu 3 (669, 384)
+[2026-02-03 09:09:23] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:09:27] Clique: listar saldo zero (789, 588)
+[2026-02-03 09:09:27] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:09:28] Clique: adicionar assinatura (790, 636)
+[2026-02-03 09:09:28] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:09:29] Clique: listar CNPJ (789, 652)
+[2026-02-03 09:09:29] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:09:30] Clique: imprimir (1174, 432)
+[2026-02-03 09:09:30] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:09:31] Relatorio localizado (novo child window: 21).
+[2026-02-03 09:09:31] Clique: salvar (403, 86)
+[2026-02-03 09:09:31] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:09:32] Aguardando 1.5s: janela de salvar
+[2026-02-03 09:09:36] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 09:09:36] Clique: salvar (1500, 954)
+[2026-02-03 09:09:42] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\DFC.rtf
+[2026-02-03 09:09:47] Clique: voltar 1 (465, 83)
+[2026-02-03 09:09:47] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:09:48] Clique: voltar 2 (1226, 404)
+[2026-02-03 09:09:48] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:09:49] Aguardando 1s: pos-voltar
+[2026-02-03 09:09:50] Finalizado com sucesso.
+[2026-02-03 09:47:33] Clique: clique inicial (401, 463)
+[2026-02-03 09:47:34] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 09:47:34] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:47:34] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:47:34] Aguardando 2s: preparar a tela
+[2026-02-03 09:47:36] Tentativa 1/2
+[2026-02-03 09:47:36] Clique: menu 1 (365, 33)
+[2026-02-03 09:47:36] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:47:37] Clique: menu 2 (400, 56)
+[2026-02-03 09:47:37] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:47:38] Clique: menu 3 (669, 384)
+[2026-02-03 09:47:38] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:47:42] Clique: listar saldo zero (789, 588)
+[2026-02-03 09:47:42] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:47:43] Clique: adicionar assinatura (790, 636)
+[2026-02-03 09:47:43] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:47:44] Clique: listar CNPJ (789, 652)
+[2026-02-03 09:47:44] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:47:45] Clique: imprimir (1174, 432)
+[2026-02-03 09:47:45] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:47:46] Relatorio localizado (novo child window: 21).
+[2026-02-03 09:47:46] Clique: salvar (403, 86)
+[2026-02-03 09:47:47] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:47:47] Aguardando 1.5s: janela de salvar
+[2026-02-03 09:47:51] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 09:47:51] Clique: salvar (1500, 954)
+[2026-02-03 09:47:57] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\DFC.rtf
+[2026-02-03 09:48:02] Clique: voltar 1 (465, 83)
+[2026-02-03 09:48:02] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:48:03] Clique: voltar 2 (1226, 404)
+[2026-02-03 09:48:03] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:48:04] Aguardando 1s: pos-voltar
+[2026-02-03 09:48:05] Finalizado com sucesso.
+[2026-02-03 09:54:31] Clique: clique inicial (401, 463)
+[2026-02-03 09:54:32] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 09:54:32] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:54:32] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:54:32] Aguardando 2s: preparar a tela
+[2026-02-03 09:54:34] Tentativa 1/2
+[2026-02-03 09:54:34] Clique: menu 1 (365, 33)
+[2026-02-03 09:54:34] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:54:35] Clique: menu 2 (400, 56)
+[2026-02-03 09:54:35] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:54:36] Clique: menu 3 (669, 384)
+[2026-02-03 09:54:36] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:54:40] Clique: listar saldo zero (789, 588)
+[2026-02-03 09:54:40] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:54:41] Clique: adicionar assinatura (790, 636)
+[2026-02-03 09:54:41] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:54:42] Clique: listar CNPJ (789, 652)
+[2026-02-03 09:54:42] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:54:43] Clique: imprimir (1174, 432)
+[2026-02-03 09:54:43] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:54:44] Relatorio localizado (novo child window: 21).
+[2026-02-03 09:54:44] Clique: salvar (403, 86)
+[2026-02-03 09:54:44] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:54:45] Aguardando 1.5s: janela de salvar
+[2026-02-03 09:54:49] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 09:54:49] Clique: salvar (1500, 954)
+[2026-02-03 09:54:55] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\DFC.rtf
+[2026-02-03 09:54:59] Clique: voltar 1 (465, 83)
+[2026-02-03 09:55:00] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:55:01] Clique: voltar 2 (1226, 404)
+[2026-02-03 09:55:01] Aguardando 0.5s: delay entre botoes
+[2026-02-03 09:55:02] Aguardando 1s: pos-voltar
+[2026-02-03 09:55:03] Finalizado com sucesso.
+[2026-02-03 10:03:24] Clique: clique inicial (401, 463)
+[2026-02-03 10:03:24] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 10:03:24] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 10:03:24] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 10:03:24] Aguardando 2s: preparar a tela
+[2026-02-03 10:03:26] Tentativa 1/2
+[2026-02-03 10:03:26] Clique: menu 1 (365, 33)
+[2026-02-03 10:03:27] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:03:27] Clique: menu 2 (400, 56)
+[2026-02-03 10:03:28] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:03:28] Clique: menu 3 (669, 384)
+[2026-02-03 10:03:29] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:03:33] Clique: listar saldo zero (789, 588)
+[2026-02-03 10:03:33] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:03:34] Clique: adicionar assinatura (790, 636)
+[2026-02-03 10:03:34] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:03:35] Clique: listar CNPJ (789, 652)
+[2026-02-03 10:03:35] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:03:36] Clique: imprimir (1174, 432)
+[2026-02-03 10:03:36] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:03:37] Relatorio localizado (novo child window: 21).
+[2026-02-03 10:03:37] Clique: salvar (403, 86)
+[2026-02-03 10:03:37] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:03:38] Aguardando 1.5s: janela de salvar
+[2026-02-03 10:03:41] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 10:03:42] Clique: salvar (1500, 954)
+[2026-02-03 10:03:48] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\DFC.rtf
+[2026-02-03 10:03:52] Clique: voltar 1 (465, 83)
+[2026-02-03 10:03:53] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:03:53] Clique: voltar 2 (1226, 404)
+[2026-02-03 10:03:54] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:03:54] Aguardando 1s: pos-voltar
+[2026-02-03 10:03:55] Finalizado com sucesso.
+[2026-02-03 10:13:51] Clique: clique inicial (401, 463)
+[2026-02-03 10:13:52] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 10:13:52] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 10:13:52] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 10:13:52] Aguardando 2s: preparar a tela
+[2026-02-03 10:13:54] Tentativa 1/2
+[2026-02-03 10:13:54] Clique: menu 1 (365, 33)
+[2026-02-03 10:13:54] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:13:55] Clique: menu 2 (400, 56)
+[2026-02-03 10:13:55] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:13:56] Clique: menu 3 (669, 384)
+[2026-02-03 10:13:56] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:14:00] Clique: listar saldo zero (789, 588)
+[2026-02-03 10:14:00] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:14:01] Clique: adicionar assinatura (790, 636)
+[2026-02-03 10:14:01] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:14:02] Clique: listar CNPJ (789, 652)
+[2026-02-03 10:14:02] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:14:03] Clique: imprimir (1174, 432)
+[2026-02-03 10:14:03] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:14:04] Relatorio localizado (novo child window: 21).
+[2026-02-03 10:14:04] Clique: salvar (403, 86)
+[2026-02-03 10:14:04] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:14:05] Aguardando 1.5s: janela de salvar
+[2026-02-03 10:14:09] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 10:14:09] Clique: salvar (1500, 954)
+[2026-02-03 10:14:15] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\DFC.rtf
+[2026-02-03 10:14:20] Clique: voltar 1 (465, 83)
+[2026-02-03 10:14:20] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:14:21] Clique: voltar 2 (1226, 404)
+[2026-02-03 10:14:21] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:14:22] Aguardando 1s: pos-voltar
+[2026-02-03 10:14:23] Finalizado com sucesso.
+[2026-02-03 10:39:29] Clique: clique inicial (401, 463)
+[2026-02-03 10:39:29] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 10:39:29] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-03 10:39:29] Diretorio destino: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-03 10:39:29] Aguardando 2s: preparar a tela
+[2026-02-03 10:39:31] Tentativa 1/2
+[2026-02-03 10:39:31] Clique: menu 1 (365, 33)
+[2026-02-03 10:39:32] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:39:32] Clique: menu 2 (400, 56)
+[2026-02-03 10:39:33] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:39:33] Clique: menu 3 (669, 384)
+[2026-02-03 10:39:34] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:39:37] Clique: listar saldo zero (789, 588)
+[2026-02-03 10:39:38] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:39:38] Clique: adicionar assinatura (790, 636)
+[2026-02-03 10:39:39] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:39:40] Clique: listar CNPJ (789, 652)
+[2026-02-03 10:39:40] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:39:41] Clique: imprimir (1174, 432)
+[2026-02-03 10:39:41] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:39:42] Relatorio localizado (novo child window: 21).
+[2026-02-03 10:39:42] Clique: salvar (403, 86)
+[2026-02-03 10:39:42] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:39:43] Aguardando 1.5s: janela de salvar
+[2026-02-03 10:39:47] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 10:39:47] Clique: salvar (1500, 954)
+[2026-02-03 10:39:53] Arquivo salvo: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA\DFC.rtf
+[2026-02-03 10:39:58] Clique: voltar 1 (465, 83)
+[2026-02-03 10:39:58] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:39:59] Clique: voltar 2 (1226, 404)
+[2026-02-03 10:39:59] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:40:00] Aguardando 1s: pos-voltar
+[2026-02-03 10:40:01] Finalizado com sucesso.
+[2026-02-03 10:48:11] Clique: clique inicial (401, 463)
+[2026-02-03 10:48:11] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 10:48:11] Empresa: AGRABEL CAMINHOES LTDA
+[2026-02-03 10:48:11] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-02-03 10:48:11] Aguardando 2s: preparar a tela
+[2026-02-03 10:48:13] Tentativa 1/2
+[2026-02-03 10:48:13] Clique: menu 1 (365, 33)
+[2026-02-03 10:48:14] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:48:14] Clique: menu 2 (400, 56)
+[2026-02-03 10:48:15] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:48:15] Clique: menu 3 (669, 384)
+[2026-02-03 10:48:16] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:48:19] Clique: listar saldo zero (789, 588)
+[2026-02-03 10:48:20] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:48:20] Clique: adicionar assinatura (790, 636)
+[2026-02-03 10:48:21] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:48:21] Clique: listar CNPJ (789, 652)
+[2026-02-03 10:48:22] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:48:22] Clique: imprimir (1174, 432)
+[2026-02-03 10:48:23] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:48:23] Relatorio localizado (novo child window: 21).
+[2026-02-03 10:48:23] Clique: salvar (403, 86)
+[2026-02-03 10:48:24] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:48:24] Aguardando 1.5s: janela de salvar
+[2026-02-03 10:48:28] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 10:48:29] Clique: salvar (1500, 954)
+[2026-02-03 10:48:34] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\DFC.rtf
+[2026-02-03 10:48:39] Clique: voltar 1 (465, 83)
+[2026-02-03 10:48:40] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:48:40] Clique: voltar 2 (1226, 404)
+[2026-02-03 10:48:41] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:48:41] Aguardando 1s: pos-voltar
+[2026-02-03 10:48:42] Finalizado com sucesso.
+[2026-02-03 10:51:49] Clique: clique inicial (401, 463)
+[2026-02-03 10:51:50] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 10:51:50] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 10:51:50] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-03 10:51:50] Aguardando 2s: preparar a tela
+[2026-02-03 10:51:52] Tentativa 1/2
+[2026-02-03 10:51:52] Clique: menu 1 (365, 33)
+[2026-02-03 10:51:52] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:51:53] Clique: menu 2 (400, 56)
+[2026-02-03 10:51:53] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:51:54] Clique: menu 3 (669, 384)
+[2026-02-03 10:51:54] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:51:58] Clique: listar saldo zero (789, 588)
+[2026-02-03 10:51:59] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:51:59] Clique: adicionar assinatura (790, 636)
+[2026-02-03 10:52:00] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:52:00] Clique: listar CNPJ (789, 652)
+[2026-02-03 10:52:01] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:52:01] Clique: imprimir (1174, 432)
+[2026-02-03 10:52:02] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:52:02] Relatorio localizado (novo child window: 21).
+[2026-02-03 10:52:02] Clique: salvar (403, 86)
+[2026-02-03 10:52:03] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:52:03] Aguardando 1.5s: janela de salvar
+[2026-02-03 10:52:07] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 10:52:07] Clique: salvar (1500, 954)
+[2026-02-03 10:52:13] Arquivo salvo: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA\DFC.rtf
+[2026-02-03 10:52:18] Clique: voltar 1 (465, 83)
+[2026-02-03 10:52:18] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:52:19] Clique: voltar 2 (1226, 404)
+[2026-02-03 10:52:19] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:52:20] Aguardando 1s: pos-voltar
+[2026-02-03 10:52:21] Finalizado com sucesso.
+[2026-02-03 10:58:24] Clique: clique inicial (401, 463)
+[2026-02-03 10:58:25] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 10:58:25] Empresa: RIO BRANCO VEICULOS LTDA
+[2026-02-03 10:58:25] Diretorio destino: W:\\SPEDs\\ECD\\2025\RIO BRANCO VEICULOS LTDA
+[2026-02-03 10:58:25] Aguardando 2s: preparar a tela
+[2026-02-03 10:58:27] Tentativa 1/2
+[2026-02-03 10:58:27] Clique: menu 1 (365, 33)
+[2026-02-03 10:58:27] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:58:28] Clique: menu 2 (400, 56)
+[2026-02-03 10:58:28] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:58:29] Clique: menu 3 (669, 384)
+[2026-02-03 10:58:29] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:58:33] Clique: listar saldo zero (789, 588)
+[2026-02-03 10:58:33] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:58:34] Clique: adicionar assinatura (790, 636)
+[2026-02-03 10:58:34] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:58:35] Clique: listar CNPJ (789, 652)
+[2026-02-03 10:58:35] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:58:36] Clique: imprimir (1174, 432)
+[2026-02-03 10:58:36] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:58:37] Relatorio localizado (novo child window: 21).
+[2026-02-03 10:58:37] Clique: salvar (403, 86)
+[2026-02-03 10:58:37] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:58:38] Aguardando 1.5s: janela de salvar
+[2026-02-03 10:58:42] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 10:58:42] Clique: salvar (1500, 954)
+[2026-02-03 10:58:48] Arquivo salvo: W:\\SPEDs\\ECD\\2025\RIO BRANCO VEICULOS LTDA\DFC.rtf
+[2026-02-03 10:58:53] Clique: voltar 1 (465, 83)
+[2026-02-03 10:58:53] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:58:54] Clique: voltar 2 (1226, 404)
+[2026-02-03 10:58:54] Aguardando 0.5s: delay entre botoes
+[2026-02-03 10:58:55] Aguardando 1s: pos-voltar
+[2026-02-03 10:58:56] Finalizado com sucesso.
+[2026-02-03 11:04:51] Clique: clique inicial (401, 463)
+[2026-02-03 11:04:51] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 11:04:51] Empresa: BERTOVEL FERRO E ACO LTDA
+[2026-02-03 11:04:51] Diretorio destino: W:\\SPEDs\\ECD\\2025\BERTOVEL FERRO E ACO LTDA
+[2026-02-03 11:04:51] Aguardando 2s: preparar a tela
+[2026-02-03 11:04:53] Tentativa 1/2
+[2026-02-03 11:04:53] Clique: menu 1 (365, 33)
+[2026-02-03 11:04:54] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:04:54] Clique: menu 2 (400, 56)
+[2026-02-03 11:04:55] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:04:55] Clique: menu 3 (669, 384)
+[2026-02-03 11:04:56] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:05:00] Clique: listar saldo zero (789, 588)
+[2026-02-03 11:05:00] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:05:01] Clique: adicionar assinatura (790, 636)
+[2026-02-03 11:05:01] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:05:02] Clique: listar CNPJ (789, 652)
+[2026-02-03 11:05:02] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:05:03] Clique: imprimir (1174, 432)
+[2026-02-03 11:05:03] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:05:04] Relatorio localizado (novo child window: 21).
+[2026-02-03 11:05:04] Clique: salvar (403, 86)
+[2026-02-03 11:05:04] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:05:05] Aguardando 1.5s: janela de salvar
+[2026-02-03 11:05:08] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 11:05:09] Clique: salvar (1500, 954)
+[2026-02-03 11:05:15] Arquivo salvo: W:\\SPEDs\\ECD\\2025\BERTOVEL FERRO E ACO LTDA\DFC.rtf
+[2026-02-03 11:05:19] Clique: voltar 1 (465, 83)
+[2026-02-03 11:05:20] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:05:20] Clique: voltar 2 (1226, 404)
+[2026-02-03 11:05:21] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:05:21] Aguardando 1s: pos-voltar
+[2026-02-03 11:05:22] Finalizado com sucesso.
+[2026-02-03 11:19:31] Clique: clique inicial (401, 463)
+[2026-02-03 11:19:31] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 11:19:31] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:19:31] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:19:31] Aguardando 2s: preparar a tela
+[2026-02-03 11:19:33] Tentativa 1/2
+[2026-02-03 11:19:33] Clique: menu 1 (365, 33)
+[2026-02-03 11:19:34] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:19:34] Clique: menu 2 (400, 56)
+[2026-02-03 11:19:35] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:19:35] Clique: menu 3 (669, 384)
+[2026-02-03 11:19:36] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:19:39] Clique: listar saldo zero (789, 588)
+[2026-02-03 11:19:40] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:19:40] Clique: adicionar assinatura (790, 636)
+[2026-02-03 11:19:41] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:19:41] Clique: listar CNPJ (789, 652)
+[2026-02-03 11:19:42] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:19:42] Clique: imprimir (1174, 432)
+[2026-02-03 11:19:43] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:19:43] Relatorio localizado (novo child window: 21).
+[2026-02-03 11:19:43] Clique: salvar (403, 86)
+[2026-02-03 11:19:44] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:19:44] Aguardando 1.5s: janela de salvar
+[2026-02-03 11:19:48] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 11:19:49] Clique: salvar (1500, 954)
+[2026-02-03 11:19:54] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\DFC.rtf
+[2026-02-03 11:19:59] Clique: voltar 1 (465, 83)
+[2026-02-03 11:20:00] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:20:00] Clique: voltar 2 (1226, 404)
+[2026-02-03 11:20:01] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:20:01] Aguardando 1s: pos-voltar
+[2026-02-03 11:20:02] Finalizado com sucesso.
+[2026-02-03 11:24:15] Clique: clique inicial (401, 463)
+[2026-02-03 11:24:16] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 11:24:16] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:24:16] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:24:16] Aguardando 2s: preparar a tela
+[2026-02-03 11:24:18] Tentativa 1/2
+[2026-02-03 11:24:18] Clique: menu 1 (365, 33)
+[2026-02-03 11:24:18] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:24:19] Clique: menu 2 (400, 56)
+[2026-02-03 11:24:19] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:24:20] Clique: menu 3 (669, 384)
+[2026-02-03 11:24:20] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:24:24] Clique: listar saldo zero (789, 588)
+[2026-02-03 11:24:24] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:24:25] Clique: adicionar assinatura (790, 636)
+[2026-02-03 11:24:25] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:24:26] Clique: listar CNPJ (789, 652)
+[2026-02-03 11:24:26] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:24:27] Clique: imprimir (1174, 432)
+[2026-02-03 11:24:27] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:24:28] Relatorio localizado (novo child window: 21).
+[2026-02-03 11:24:28] Clique: salvar (403, 86)
+[2026-02-03 11:24:28] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:24:29] Aguardando 1.5s: janela de salvar
+[2026-02-03 11:24:33] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 11:24:33] Clique: salvar (1500, 954)
+[2026-02-03 11:24:39] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\DFC.rtf
+[2026-02-03 11:24:44] Clique: voltar 1 (465, 83)
+[2026-02-03 11:24:44] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:24:45] Clique: voltar 2 (1226, 404)
+[2026-02-03 11:24:45] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:24:46] Aguardando 1s: pos-voltar
+[2026-02-03 11:24:47] Finalizado com sucesso.
+[2026-02-03 11:28:12] Clique: clique inicial (401, 463)
+[2026-02-03 11:28:13] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 11:28:13] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:28:13] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:28:13] Aguardando 2s: preparar a tela
+[2026-02-03 11:28:15] Tentativa 1/2
+[2026-02-03 11:28:15] Clique: menu 1 (365, 33)
+[2026-02-03 11:28:15] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:28:16] Clique: menu 2 (400, 56)
+[2026-02-03 11:28:16] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:28:17] Clique: menu 3 (669, 384)
+[2026-02-03 11:28:17] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:28:21] Clique: listar saldo zero (789, 588)
+[2026-02-03 11:28:22] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:28:22] Clique: adicionar assinatura (790, 636)
+[2026-02-03 11:28:23] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:28:23] Clique: listar CNPJ (789, 652)
+[2026-02-03 11:28:24] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:28:24] Clique: imprimir (1174, 432)
+[2026-02-03 11:28:25] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:28:25] Relatorio localizado (novo child window: 21).
+[2026-02-03 11:28:25] Clique: salvar (403, 86)
+[2026-02-03 11:28:26] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:28:26] Aguardando 1.5s: janela de salvar
+[2026-02-03 11:28:30] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 11:28:30] Clique: salvar (1500, 954)
+[2026-02-03 11:28:36] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\DFC.rtf
+[2026-02-03 11:28:41] Clique: voltar 1 (465, 83)
+[2026-02-03 11:28:41] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:28:42] Clique: voltar 2 (1226, 404)
+[2026-02-03 11:28:42] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:28:43] Aguardando 1s: pos-voltar
+[2026-02-03 11:28:44] Finalizado com sucesso.
+[2026-02-03 11:29:59] Clique: clique inicial (401, 463)
+[2026-02-03 11:29:59] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 11:29:59] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:29:59] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:29:59] Aguardando 2s: preparar a tela
+[2026-02-03 11:30:01] Tentativa 1/2
+[2026-02-03 11:30:01] Clique: menu 1 (365, 33)
+[2026-02-03 11:30:02] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:30:02] Clique: menu 2 (400, 56)
+[2026-02-03 11:30:03] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:30:03] Clique: menu 3 (669, 384)
+[2026-02-03 11:30:04] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:30:07] Clique: listar saldo zero (789, 588)
+[2026-02-03 11:30:08] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:30:08] Clique: adicionar assinatura (790, 636)
+[2026-02-03 11:30:09] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:30:09] Clique: listar CNPJ (789, 652)
+[2026-02-03 11:30:10] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:30:10] Clique: imprimir (1174, 432)
+[2026-02-03 11:30:11] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:30:12] Relatorio localizado (novo child window: 21).
+[2026-02-03 11:30:12] Clique: salvar (403, 86)
+[2026-02-03 11:30:12] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:30:13] Aguardando 1.5s: janela de salvar
+[2026-02-03 11:30:16] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 11:30:17] Clique: salvar (1500, 954)
+[2026-02-03 11:30:22] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\DFC.rtf
+[2026-02-03 11:30:27] Clique: voltar 1 (465, 83)
+[2026-02-03 11:30:28] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:30:28] Clique: voltar 2 (1226, 404)
+[2026-02-03 11:30:29] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:30:29] Aguardando 1s: pos-voltar
+[2026-02-03 11:30:30] Finalizado com sucesso.
+[2026-02-03 11:34:37] Clique: clique inicial (401, 463)
+[2026-02-03 11:34:38] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 11:34:38] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:34:38] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:34:38] Aguardando 2s: preparar a tela
+[2026-02-03 11:34:40] Tentativa 1/2
+[2026-02-03 11:34:40] Clique: menu 1 (365, 33)
+[2026-02-03 11:34:40] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:34:41] Clique: menu 2 (400, 56)
+[2026-02-03 11:34:42] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:34:42] Clique: menu 3 (669, 384)
+[2026-02-03 11:34:43] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:34:46] Clique: listar saldo zero (789, 588)
+[2026-02-03 11:34:47] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:34:47] Clique: adicionar assinatura (790, 636)
+[2026-02-03 11:34:48] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:34:48] Clique: listar CNPJ (789, 652)
+[2026-02-03 11:34:49] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:34:49] Clique: imprimir (1174, 432)
+[2026-02-03 11:34:50] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:34:50] Relatorio localizado (novo child window: 21).
+[2026-02-03 11:34:50] Clique: salvar (403, 86)
+[2026-02-03 11:34:51] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:34:51] Aguardando 1.5s: janela de salvar
+[2026-02-03 11:34:55] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 11:34:55] Clique: salvar (1500, 954)
+[2026-02-03 11:35:01] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\DFC.rtf
+[2026-02-03 11:35:06] Clique: voltar 1 (465, 83)
+[2026-02-03 11:35:06] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:35:07] Clique: voltar 2 (1226, 404)
+[2026-02-03 11:35:07] Aguardando 0.5s: delay entre botoes
+[2026-02-03 11:35:08] Aguardando 1s: pos-voltar
+[2026-02-03 11:35:09] Finalizado com sucesso.
+[2026-02-03 13:33:04] Clique: clique inicial (401, 463)
+[2026-02-03 13:33:05] Iniciando: 3 - DFC - Demonstração de Fluxo de Caixa - Comparativo
+[2026-02-03 13:33:05] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 13:33:05] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 13:33:05] Aguardando 2s: preparar a tela
+[2026-02-03 13:33:07] Tentativa 1/2
+[2026-02-03 13:33:07] Clique: menu 1 (365, 33)
+[2026-02-03 13:33:07] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:33:08] Clique: menu 2 (400, 56)
+[2026-02-03 13:33:08] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:33:09] Clique: menu 3 (669, 384)
+[2026-02-03 13:33:09] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:33:13] Clique: listar saldo zero (789, 588)
+[2026-02-03 13:33:13] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:33:14] Clique: adicionar assinatura (790, 636)
+[2026-02-03 13:33:14] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:33:15] Clique: listar CNPJ (789, 652)
+[2026-02-03 13:33:15] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:33:16] Clique: imprimir (1174, 432)
+[2026-02-03 13:33:16] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:33:17] Relatorio localizado (novo child window: 21).
+[2026-02-03 13:33:17] Clique: salvar (403, 86)
+[2026-02-03 13:33:17] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:33:18] Aguardando 1.5s: janela de salvar
+[2026-02-03 13:33:22] Aguardando 0.5s: pos-enter salvar
+[2026-02-03 13:33:22] Clique: salvar (1500, 954)
+[2026-02-03 13:33:28] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\DFC.rtf
+[2026-02-03 13:33:33] Clique: voltar 1 (465, 83)
+[2026-02-03 13:33:33] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:33:34] Clique: voltar 2 (1226, 404)
+[2026-02-03 13:33:34] Aguardando 0.5s: delay entre botoes
+[2026-02-03 13:33:35] Aguardando 1s: pos-voltar
+[2026-02-03 13:33:36] Finalizado com sucesso.

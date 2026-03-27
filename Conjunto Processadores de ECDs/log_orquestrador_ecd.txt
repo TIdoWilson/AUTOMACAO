@@ -1,0 +1,2565 @@
+[2026-02-02 11:00:31] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 11:00:31] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 11:00:31] Intervalo de verificação: 600s
+[2026-02-02 11:00:31] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 11:00:31] Aguardando janela de execucao: 10768s
+[2026-02-02 13:43:27] Modo so-trocar ativo.
+[2026-02-02 13:43:27] Janela de Contabilidade focada e maximizada.
+[2026-02-02 13:43:27] Selecionando caixa de empresa.
+[2026-02-02 13:43:28] Empresa trocada: 898 - ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 13:43:36] Modo so-trocar ativo.
+[2026-02-02 13:43:36] Janela de Contabilidade focada e maximizada.
+[2026-02-02 13:43:36] Selecionando caixa de empresa.
+[2026-02-02 13:43:36] Empresa trocada: 898 - ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 13:43:44] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 13:43:44] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 13:43:44] Intervalo de verificação: 600s
+[2026-02-02 13:43:44] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 13:43:44] Aguardando janela de execucao: 975s
+[2026-02-02 13:59:59] Aguardando janela de execucao: 0s
+[2026-02-02 14:00:00] Janela de Contabilidade focada e maximizada.
+[2026-02-02 14:00:00] Selecionando caixa de empresa.
+[2026-02-02 14:00:00] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 14:00:00] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:00:00] Codigo: 898
+[2026-02-02 14:00:00] DFC: nao | Simples: Normal
+[2026-02-02 14:00:00] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:00:00] Passo 1: Trocar empresa no sistema usando o codigo: 898.
+[2026-02-02 14:00:00] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 14:00:00] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 14:00:00] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 14:00:00] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 14:00:40] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 14:00:40] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 14:00:40] Intervalo de verificação: 600s
+[2026-02-02 14:00:40] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 14:00:40] Janela de Contabilidade focada e maximizada.
+[2026-02-02 14:00:40] Selecionando caixa de empresa.
+[2026-02-02 14:00:41] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 14:00:41] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:00:41] Codigo: 898
+[2026-02-02 14:00:41] DFC: nao | Simples: Normal
+[2026-02-02 14:00:41] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:00:41] Passo 1: Trocar empresa no sistema usando o codigo: 898.
+[2026-02-02 14:00:41] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 14:00:41] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 14:00:41] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 14:00:41] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 14:00:58] Retorno do script: 0
+[2026-02-02 14:00:58] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-02 14:01:14] Retorno do script: 0
+[2026-02-02 14:01:14] DFC falso: pulando script 3.
+[2026-02-02 14:01:14] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-02 14:07:02] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 14:07:02] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 14:07:02] Intervalo de verificação: 600s
+[2026-02-02 14:07:02] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 14:07:02] Janela de Contabilidade focada e maximizada.
+[2026-02-02 14:07:02] Selecionando caixa de empresa.
+[2026-02-02 14:07:03] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 14:07:03] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:07:03] Codigo: 898
+[2026-02-02 14:07:03] DFC: nao | Simples: Normal
+[2026-02-02 14:07:03] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:07:03] Passo 1: Trocar empresa no sistema usando o codigo: 898.
+[2026-02-02 14:07:03] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 14:07:03] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 14:07:03] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 14:07:03] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 14:07:44] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 14:07:44] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 14:07:44] Intervalo de verificação: 600s
+[2026-02-02 14:07:44] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 14:07:44] Janela de Contabilidade focada e maximizada.
+[2026-02-02 14:07:44] Selecionando caixa de empresa.
+[2026-02-02 14:07:45] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 14:07:45] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:07:45] Codigo: 898
+[2026-02-02 14:07:45] DFC: nao | Simples: Normal
+[2026-02-02 14:07:45] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:07:45] Passo 1: Trocar empresa no sistema usando o codigo: 898.
+[2026-02-02 14:07:45] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 14:07:45] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 14:07:45] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 14:07:45] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 14:09:18] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 14:09:18] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 14:09:18] Intervalo de verificação: 600s
+[2026-02-02 14:09:18] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 14:09:18] Janela de Contabilidade focada e maximizada.
+[2026-02-02 14:09:18] Selecionando caixa de empresa.
+[2026-02-02 14:09:19] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 14:09:19] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:09:19] Codigo: 898
+[2026-02-02 14:09:19] DFC: nao | Simples: Normal
+[2026-02-02 14:09:19] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:09:19] Passo 1: Trocar empresa no sistema usando o codigo: 898.
+[2026-02-02 14:09:19] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 14:09:19] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 14:09:19] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 14:09:19] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 14:09:35] Retorno do script: 0
+[2026-02-02 14:09:35] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-02 14:09:51] Retorno do script: 0
+[2026-02-02 14:09:51] DFC falso: pulando script 3.
+[2026-02-02 14:09:51] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-02 14:15:03] Retorno do script: 2
+[2026-02-02 14:15:03] Falha em um ou mais scripts. Status nao sera atualizado.
+[2026-02-02 14:25:04] Janela de Contabilidade focada e maximizada.
+[2026-02-02 14:25:04] Selecionando caixa de empresa.
+[2026-02-02 14:25:04] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 14:25:04] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:25:04] Codigo: 898
+[2026-02-02 14:25:04] DFC: nao | Simples: Normal
+[2026-02-02 14:25:04] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:25:04] Passo 1: Trocar empresa no sistema usando o codigo: 898.
+[2026-02-02 14:25:04] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 14:25:04] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 14:25:04] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 14:25:04] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 14:25:21] Retorno do script: 0
+[2026-02-02 14:25:21] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-02 14:25:37] Retorno do script: 0
+[2026-02-02 14:25:37] DFC falso: pulando script 3.
+[2026-02-02 14:25:37] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-02 14:26:29] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 14:26:29] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 14:26:29] Intervalo de verificação: 600s
+[2026-02-02 14:26:29] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 14:26:30] Janela de Contabilidade focada e maximizada.
+[2026-02-02 14:26:30] Selecionando caixa de empresa.
+[2026-02-02 14:26:30] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 14:26:30] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:26:30] Codigo: 898
+[2026-02-02 14:26:30] DFC: nao | Simples: Normal
+[2026-02-02 14:26:30] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:26:30] Passo 1: Trocar empresa no sistema usando o codigo: 898.
+[2026-02-02 14:26:30] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 14:26:30] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 14:26:30] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 14:26:30] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 14:26:46] Retorno do script: 0
+[2026-02-02 14:26:46] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-02 14:27:02] Retorno do script: 0
+[2026-02-02 14:27:02] DFC falso: pulando script 3.
+[2026-02-02 14:27:02] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-02 14:32:15] Retorno do script: 1
+[2026-02-02 14:32:15] Falha em um ou mais scripts. Status nao sera atualizado.
+[2026-02-02 14:42:15] Janela de Contabilidade focada e maximizada.
+[2026-02-02 14:42:15] Selecionando caixa de empresa.
+[2026-02-02 14:42:15] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 14:42:15] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:42:15] Codigo: 898
+[2026-02-02 14:42:15] DFC: nao | Simples: Normal
+[2026-02-02 14:42:15] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:42:15] Passo 1: Trocar empresa no sistema usando o codigo: 898.
+[2026-02-02 14:42:15] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 14:42:15] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 14:42:15] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 14:42:15] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 14:42:32] Retorno do script: 0
+[2026-02-02 14:42:32] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-02 14:42:48] Retorno do script: 0
+[2026-02-02 14:42:48] DFC falso: pulando script 3.
+[2026-02-02 14:42:48] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-02 14:44:42] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 14:44:42] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 14:44:42] Intervalo de verificação: 600s
+[2026-02-02 14:44:42] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 14:44:42] Janela de Contabilidade focada e maximizada.
+[2026-02-02 14:44:42] Selecionando caixa de empresa.
+[2026-02-02 14:44:42] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 14:44:42] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:44:42] Codigo: 898
+[2026-02-02 14:44:42] DFC: nao | Simples: Normal
+[2026-02-02 14:44:42] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:44:42] Passo 1: Trocar empresa no sistema usando o codigo: 898.
+[2026-02-02 14:44:42] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 14:44:42] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 14:44:42] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 14:44:42] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 14:45:02] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 14:45:02] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 14:45:02] Intervalo de verificação: 600s
+[2026-02-02 14:45:02] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 14:45:03] Janela de Contabilidade focada e maximizada.
+[2026-02-02 14:45:03] Selecionando caixa de empresa.
+[2026-02-02 14:45:03] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 14:45:03] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:45:03] Codigo: 898
+[2026-02-02 14:45:03] DFC: nao | Simples: Normal
+[2026-02-02 14:45:03] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:45:03] Passo 1: Trocar empresa no sistema usando o codigo: 898.
+[2026-02-02 14:45:03] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 14:45:03] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 14:45:03] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 14:45:03] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 14:45:19] Retorno do script: 0
+[2026-02-02 14:45:19] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-02 14:45:35] Retorno do script: 0
+[2026-02-02 14:45:35] DFC falso: pulando script 3.
+[2026-02-02 14:45:35] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-02 14:50:47] Retorno do script: 0
+[2026-02-02 14:50:47] Nenhum arquivo TXT encontrado na pasta.
+[2026-02-02 14:50:47] Nao marcou como concluido. Verificar pasta da empresa.
+[2026-02-02 15:00:47] Janela de Contabilidade focada e maximizada.
+[2026-02-02 15:00:47] Selecionando caixa de empresa.
+[2026-02-02 15:00:47] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 15:00:47] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:00:47] Codigo: 898
+[2026-02-02 15:00:47] DFC: nao | Simples: Normal
+[2026-02-02 15:00:47] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:00:47] Passo 1: Trocar empresa no sistema usando o codigo: 898.
+[2026-02-02 15:00:47] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 15:00:47] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 15:00:47] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 15:00:47] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 15:01:04] Retorno do script: 0
+[2026-02-02 15:01:04] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-02 15:01:20] Retorno do script: 0
+[2026-02-02 15:01:20] DFC falso: pulando script 3.
+[2026-02-02 15:01:20] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-02 15:06:32] Retorno do script: 0
+[2026-02-02 15:06:32] Nenhum arquivo TXT encontrado na pasta.
+[2026-02-02 15:06:32] Nao marcou como concluido. Verificar pasta da empresa.
+[2026-02-02 15:16:32] Janela de Contabilidade focada e maximizada.
+[2026-02-02 15:16:32] Selecionando caixa de empresa.
+[2026-02-02 15:16:32] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 15:16:32] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:16:32] Codigo: 898
+[2026-02-02 15:16:32] DFC: nao | Simples: Normal
+[2026-02-02 15:16:32] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:16:32] Passo 1: Trocar empresa no sistema usando o codigo: 898.
+[2026-02-02 15:16:32] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 15:16:32] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 15:16:32] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 15:16:32] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 15:16:49] Retorno do script: 0
+[2026-02-02 15:16:49] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-02 15:17:05] Retorno do script: 0
+[2026-02-02 15:17:05] DFC falso: pulando script 3.
+[2026-02-02 15:17:05] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-02 15:22:17] Retorno do script: 0
+[2026-02-02 15:22:17] Nenhum arquivo TXT encontrado na pasta.
+[2026-02-02 15:22:17] Nao marcou como concluido. Verificar pasta da empresa.
+[2026-02-02 15:24:26] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 15:24:26] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 15:24:26] Intervalo de verificação: 600s
+[2026-02-02 15:24:26] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 15:24:26] Janela de Contabilidade focada e maximizada.
+[2026-02-02 15:24:26] Selecionando caixa de empresa.
+[2026-02-02 15:24:27] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 15:24:27] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:24:27] Codigo: 898
+[2026-02-02 15:24:27] DFC: nao | Simples: Normal
+[2026-02-02 15:24:27] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:24:27] Passo 1: Trocar empresa no sistema usando o codigo: 898.
+[2026-02-02 15:24:27] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 15:24:27] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 15:24:27] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 15:24:27] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 15:24:43] Retorno do script: 0
+[2026-02-02 15:24:43] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-02 15:24:59] Retorno do script: 0
+[2026-02-02 15:24:59] DFC falso: pulando script 3.
+[2026-02-02 15:24:59] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-02 15:30:11] Retorno do script: 0
+[2026-02-02 15:30:11] Nenhum arquivo TXT encontrado na pasta.
+[2026-02-02 15:30:11] Nao marcou como concluido. Verificar pasta da empresa.
+[2026-02-02 15:32:35] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 15:32:35] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 15:32:35] Intervalo de verificação: 600s
+[2026-02-02 15:32:35] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 15:32:35] Janela de Contabilidade focada e maximizada.
+[2026-02-02 15:32:35] Selecionando caixa de empresa.
+[2026-02-02 15:32:35] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 15:32:35] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:32:35] Codigo: 898
+[2026-02-02 15:32:35] DFC: nao | Simples: Normal
+[2026-02-02 15:32:35] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:32:35] Passo 1: Trocar empresa no sistema usando o codigo: 898.
+[2026-02-02 15:32:35] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 15:32:35] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 15:32:35] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 15:32:35] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 15:32:51] Retorno do script: 0
+[2026-02-02 15:32:51] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-02 15:33:07] Retorno do script: 0
+[2026-02-02 15:33:07] DFC falso: pulando script 3.
+[2026-02-02 15:33:07] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-02 15:38:36] Retorno do script: 0
+[2026-02-02 15:38:36] Finalizado (sem automacao de UI).
+[2026-02-02 15:43:30] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 15:43:30] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 15:43:30] Intervalo de verificação: 600s
+[2026-02-02 15:43:30] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 15:43:30] Nenhuma empresa pendente para processar.
+[2026-02-02 15:44:09] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 15:44:09] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 15:44:09] Intervalo de verificação: 600s
+[2026-02-02 15:44:09] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 15:44:09] Janela de Contabilidade focada e maximizada.
+[2026-02-02 15:44:09] Selecionando caixa de empresa.
+[2026-02-02 15:44:10] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 15:44:10] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:44:10] Codigo: 898
+[2026-02-02 15:44:10] DFC: nao | Simples: Normal
+[2026-02-02 15:44:10] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:44:10] Passo 1: Trocar empresa no sistema usando o codigo: 898.
+[2026-02-02 15:44:10] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 15:44:10] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 15:44:10] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 15:44:10] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 15:44:26] Retorno do script: 0
+[2026-02-02 15:44:26] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-02 15:44:42] Retorno do script: 0
+[2026-02-02 15:44:42] DFC falso: pulando script 3.
+[2026-02-02 15:44:42] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-02 15:50:10] Retorno do script: 0
+[2026-02-02 15:50:10] Finalizado (sem automacao de UI).
+[2026-02-02 16:00:10] Nenhuma empresa pendente para processar.
+[2026-02-02 16:10:10] Nenhuma empresa pendente para processar.
+[2026-02-02 16:11:46] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 16:11:46] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 16:11:46] Intervalo de verificação: 600s
+[2026-02-02 16:11:46] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 16:11:46] Nenhuma empresa pendente para processar.
+[2026-02-02 16:13:59] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 16:13:59] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 16:13:59] Intervalo de verificação: 600s
+[2026-02-02 16:13:59] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 16:14:00] Janela de Contabilidade focada e maximizada.
+[2026-02-02 16:14:00] Selecionando caixa de empresa.
+[2026-02-02 16:14:00] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 16:14:00] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:14:00] Codigo: 3
+[2026-02-02 16:14:00] DFC: sim | Simples: Normal
+[2026-02-02 16:14:00] Diretorio destino: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:14:00] Passo 1: Trocar empresa no sistema usando o codigo: 3.
+[2026-02-02 16:14:00] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 16:14:00] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 16:14:00] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 16:14:00] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 16:14:16] Retorno do script: 0
+[2026-02-02 16:14:16] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-02 16:15:00] Retorno do script: 0
+[2026-02-02 16:15:00] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-02 16:24:30] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 16:24:30] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 16:24:30] Intervalo de verificação: 600s
+[2026-02-02 16:24:30] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 16:24:30] Janela de Contabilidade focada e maximizada.
+[2026-02-02 16:24:30] Selecionando caixa de empresa.
+[2026-02-02 16:24:31] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 16:24:31] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:24:31] Codigo: 3
+[2026-02-02 16:24:31] DFC: sim | Simples: Normal
+[2026-02-02 16:24:31] Diretorio destino: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:24:31] Passo 1: Trocar empresa no sistema usando o codigo: 3.
+[2026-02-02 16:24:31] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 16:24:31] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 16:24:31] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 16:24:31] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 16:24:47] Retorno do script: 0
+[2026-02-02 16:24:47] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-02 16:25:27] Retorno do script: 0
+[2026-02-02 16:25:27] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-02 16:30:58] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 16:30:58] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 16:30:58] Intervalo de verificação: 600s
+[2026-02-02 16:30:58] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 16:30:58] Janela de Contabilidade focada e maximizada.
+[2026-02-02 16:30:58] Selecionando caixa de empresa.
+[2026-02-02 16:30:59] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 16:30:59] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:30:59] Codigo: 3
+[2026-02-02 16:30:59] DFC: sim | Simples: Normal
+[2026-02-02 16:30:59] Diretorio destino: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:30:59] Passo 1: Trocar empresa no sistema usando o codigo: 3.
+[2026-02-02 16:30:59] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 16:30:59] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 16:30:59] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 16:30:59] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 16:31:15] Retorno do script: 0
+[2026-02-02 16:31:15] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-02 16:31:56] Retorno do script: 0
+[2026-02-02 16:31:56] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-02 16:47:35] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 16:47:35] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 16:47:35] Intervalo de verificação: 600s
+[2026-02-02 16:47:35] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 16:47:36] Janela de Contabilidade focada e maximizada.
+[2026-02-02 16:47:36] Selecionando caixa de empresa.
+[2026-02-02 16:47:36] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 16:47:36] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:47:36] Codigo: 3
+[2026-02-02 16:47:36] DFC: sim | Simples: Normal
+[2026-02-02 16:47:36] Diretorio destino: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:47:36] Passo 1: Trocar empresa no sistema usando o codigo: 3.
+[2026-02-02 16:47:36] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 16:47:36] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 16:47:36] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 16:47:36] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 16:47:52] Retorno do script: 0
+[2026-02-02 16:47:52] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-02 16:48:32] Retorno do script: 0
+[2026-02-02 16:48:32] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-02 17:00:40] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 17:00:40] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 17:00:40] Intervalo de verificação: 600s
+[2026-02-02 17:00:40] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 17:00:40] Janela de Contabilidade focada e maximizada.
+[2026-02-02 17:00:40] Selecionando caixa de empresa.
+[2026-02-02 17:00:40] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 17:00:40] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 17:00:40] Codigo: 3
+[2026-02-02 17:00:40] DFC: sim | Simples: Normal
+[2026-02-02 17:00:40] Diretorio destino: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 17:00:40] Passo 1: Trocar empresa no sistema usando o codigo: 3.
+[2026-02-02 17:00:40] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 17:00:40] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 17:00:40] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 17:00:40] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 17:01:05] Retorno do script: 0
+[2026-02-02 17:01:05] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-02 17:01:46] Retorno do script: 0
+[2026-02-02 17:01:46] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-02 17:03:17] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 17:03:17] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 17:03:17] Intervalo de verificação: 600s
+[2026-02-02 17:03:17] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 17:03:17] Janela de Contabilidade focada e maximizada.
+[2026-02-02 17:03:17] Selecionando caixa de empresa.
+[2026-02-02 17:03:17] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 17:03:17] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 17:03:17] Codigo: 3
+[2026-02-02 17:03:17] DFC: sim | Simples: Normal
+[2026-02-02 17:03:17] Diretorio destino: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 17:03:17] Passo 1: Trocar empresa no sistema usando o codigo: 3.
+[2026-02-02 17:03:17] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 17:03:17] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 17:03:17] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 17:03:17] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 17:03:33] Retorno do script: 0
+[2026-02-02 17:03:33] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-02 17:04:15] Retorno do script: 0
+[2026-02-02 17:04:15] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-02 17:04:55] Retorno do script: 0
+[2026-02-02 17:04:55] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-02 17:12:00] Retorno do script: 0
+[2026-02-02 17:12:00] Finalizado (sem automacao de UI).
+[2026-02-02 17:12:00] Janela de Contabilidade focada e maximizada.
+[2026-02-02 17:12:00] Selecionando caixa de empresa.
+[2026-02-02 17:12:00] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 17:12:00] Empresa: VENTURA, DA LUZ E CIA LTDA
+[2026-02-02 17:12:00] Codigo: 123
+[2026-02-02 17:12:00] DFC: nao | Simples: Simples
+[2026-02-02 17:12:00] Diretorio destino: W:\\SPEDs\\ECD\\2025\VENTURA, DA LUZ E CIA LTDA
+[2026-02-02 17:12:00] Passo 1: Trocar empresa no sistema usando o codigo: 123.
+[2026-02-02 17:12:00] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 17:12:00] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 17:12:00] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 17:12:00] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 17:37:34] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 17:37:34] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 17:37:34] Intervalo de verificação: 600s
+[2026-02-02 17:37:34] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 17:37:34] Janela de Contabilidade focada e maximizada.
+[2026-02-02 17:37:34] Selecionando caixa de empresa.
+[2026-02-02 17:37:35] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 17:37:35] Empresa: TIBAGI MOTOS LTDA
+[2026-02-02 17:37:35] Codigo: 143
+[2026-02-02 17:37:35] DFC: sim | Simples: Normal
+[2026-02-02 17:37:35] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-02 17:37:35] Passo 1: Trocar empresa no sistema usando o codigo: 143.
+[2026-02-02 17:37:35] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 17:37:35] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 17:37:35] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 17:37:35] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 17:37:51] Retorno do script: 0
+[2026-02-02 17:37:51] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-02 17:38:53] Retorno do script: 0
+[2026-02-02 17:38:53] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-02 17:48:31] Retorno do script: 2
+[2026-02-02 17:48:31] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-02 17:48:57] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 17:48:57] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 17:48:57] Intervalo de verificação: 600s
+[2026-02-02 17:48:57] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 17:48:57] Janela de Contabilidade focada e maximizada.
+[2026-02-02 17:48:57] Selecionando caixa de empresa.
+[2026-02-02 17:48:58] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 17:48:58] Empresa: TIBAGI MOTOS LTDA
+[2026-02-02 17:48:58] Codigo: 143
+[2026-02-02 17:48:58] DFC: sim | Simples: Normal
+[2026-02-02 17:48:58] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-02 17:48:58] Passo 1: Trocar empresa no sistema usando o codigo: 143.
+[2026-02-02 17:48:58] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 17:48:58] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 17:48:58] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 17:48:58] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 17:49:14] Retorno do script: 0
+[2026-02-02 17:49:14] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-02 17:50:14] Retorno do script: 0
+[2026-02-02 17:50:14] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-02 17:51:20] Retorno do script: 2
+[2026-02-02 17:51:20] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-02 17:54:51] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 17:54:51] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-02 17:54:51] Intervalo de verificação: 600s
+[2026-02-02 17:54:51] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-02 17:54:51] Janela de Contabilidade focada e maximizada.
+[2026-02-02 17:54:51] Selecionando caixa de empresa.
+[2026-02-02 17:54:52] Iniciando: 0 - Orquestrador ECD
+[2026-02-02 17:54:52] Empresa: TIBAGI MOTOS LTDA
+[2026-02-02 17:54:52] Codigo: 143
+[2026-02-02 17:54:52] DFC: sim | Simples: Normal
+[2026-02-02 17:54:52] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-02 17:54:52] Passo 1: Trocar empresa no sistema usando o codigo: 143.
+[2026-02-02 17:54:52] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-02 17:54:52] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-02 17:54:52] Passo 4: Enviar dois enters para confirmar.
+[2026-02-02 17:54:52] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-02 17:55:08] Retorno do script: 0
+[2026-02-02 17:55:08] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-02 17:56:06] Retorno do script: 0
+[2026-02-02 17:56:06] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-02 17:56:38] Retorno do script: 0
+[2026-02-02 17:56:38] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 07:45:41] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 07:45:41] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-03 07:45:41] Intervalo de verificação: 600s
+[2026-02-03 07:45:41] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-03 07:45:41] Janela de Contabilidade focada e maximizada.
+[2026-02-03 07:45:41] Selecionando caixa de empresa.
+[2026-02-03 07:45:42] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 07:45:42] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 07:45:42] Codigo: 143
+[2026-02-03 07:45:42] DFC: sim | Simples: Normal
+[2026-02-03 07:45:42] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-03 07:45:42] Passo 1: Trocar empresa no sistema usando o codigo: 143.
+[2026-02-03 07:45:42] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 07:45:42] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 07:45:42] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 07:45:42] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 07:46:01] Retorno do script: 0
+[2026-02-03 07:46:01] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 07:46:58] Retorno do script: 0
+[2026-02-03 07:46:58] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 07:47:31] Retorno do script: 0
+[2026-02-03 07:47:31] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 07:52:10] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 07:52:10] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-03 07:52:10] Intervalo de verificação: 600s
+[2026-02-03 07:52:10] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-03 07:52:11] Janela de Contabilidade focada e maximizada.
+[2026-02-03 07:52:11] Selecionando caixa de empresa.
+[2026-02-03 07:52:11] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 07:52:11] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 07:52:11] Codigo: 143
+[2026-02-03 07:52:11] DFC: sim | Simples: Normal
+[2026-02-03 07:52:11] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-03 07:52:11] Passo 1: Trocar empresa no sistema usando o codigo: 143.
+[2026-02-03 07:52:11] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 07:52:11] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 07:52:11] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 07:52:11] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 07:52:44] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 07:52:44] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-03 07:52:44] Intervalo de verificação: 600s
+[2026-02-03 07:52:44] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-03 07:52:45] Janela de Contabilidade focada e maximizada.
+[2026-02-03 07:52:45] Selecionando caixa de empresa.
+[2026-02-03 07:52:45] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 07:52:45] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 07:52:45] Codigo: 143
+[2026-02-03 07:52:45] DFC: sim | Simples: Normal
+[2026-02-03 07:52:45] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-03 07:52:45] Passo 1: Trocar empresa no sistema usando o codigo: 143.
+[2026-02-03 07:52:45] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 07:52:45] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 07:52:45] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 07:52:45] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 07:53:01] Retorno do script: 0
+[2026-02-03 07:53:01] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 07:53:59] Retorno do script: 0
+[2026-02-03 07:53:59] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 07:54:31] Retorno do script: 0
+[2026-02-03 07:54:31] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 08:00:27] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 08:00:27] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-03 08:00:27] Intervalo de verificação: 600s
+[2026-02-03 08:00:27] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-03 08:00:27] Janela de Contabilidade focada e maximizada.
+[2026-02-03 08:00:27] Selecionando caixa de empresa.
+[2026-02-03 08:00:28] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 08:00:28] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 08:00:28] Codigo: 143
+[2026-02-03 08:00:28] DFC: sim | Simples: Normal
+[2026-02-03 08:00:28] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-03 08:00:28] Passo 1: Trocar empresa no sistema usando o codigo: 143.
+[2026-02-03 08:00:28] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 08:00:28] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 08:00:28] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 08:00:28] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 08:00:44] Retorno do script: 0
+[2026-02-03 08:00:44] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 08:01:42] Retorno do script: 0
+[2026-02-03 08:01:42] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 08:02:16] Retorno do script: 0
+[2026-02-03 08:02:16] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 08:10:16] Retorno do script: 0
+[2026-02-03 08:10:16] Finalizado (sem automacao de UI).
+[2026-02-03 08:10:16] Janela de Contabilidade focada e maximizada.
+[2026-02-03 08:10:16] Selecionando caixa de empresa.
+[2026-02-03 08:10:16] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 08:10:16] Empresa: RIO BRANCO VEICULOS LTDA
+[2026-02-03 08:10:16] Codigo: 201
+[2026-02-03 08:10:16] DFC: sim | Simples: Normal
+[2026-02-03 08:10:16] Diretorio destino: W:\\SPEDs\\ECD\\2025\RIO BRANCO VEICULOS LTDA
+[2026-02-03 08:10:16] Passo 1: Trocar empresa no sistema usando o codigo: 201.
+[2026-02-03 08:10:16] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 08:10:16] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 08:10:16] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 08:10:16] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 08:10:33] Retorno do script: 0
+[2026-02-03 08:10:33] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 08:11:06] Retorno do script: 0
+[2026-02-03 08:11:06] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 08:11:39] Retorno do script: 0
+[2026-02-03 08:11:39] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 08:18:22] Retorno do script: 0
+[2026-02-03 08:18:22] Finalizado (sem automacao de UI).
+[2026-02-03 08:18:22] Janela de Contabilidade focada e maximizada.
+[2026-02-03 08:18:22] Selecionando caixa de empresa.
+[2026-02-03 08:18:22] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 08:18:22] Empresa: BERTOVEL FERRO E ACO LTDA
+[2026-02-03 08:18:22] Codigo: 371
+[2026-02-03 08:18:22] DFC: sim | Simples: Normal
+[2026-02-03 08:18:22] Diretorio destino: W:\\SPEDs\\ECD\\2025\BERTOVEL FERRO E ACO LTDA
+[2026-02-03 08:18:22] Passo 1: Trocar empresa no sistema usando o codigo: 371.
+[2026-02-03 08:18:22] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 08:18:22] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 08:18:22] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 08:18:22] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 08:18:39] Retorno do script: 0
+[2026-02-03 08:18:39] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 08:20:20] Retorno do script: 0
+[2026-02-03 08:20:20] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 08:20:53] Retorno do script: 0
+[2026-02-03 08:20:53] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 08:34:01] Retorno do script: 0
+[2026-02-03 08:34:01] Finalizado (sem automacao de UI).
+[2026-02-03 08:34:01] Janela de Contabilidade focada e maximizada.
+[2026-02-03 08:34:01] Selecionando caixa de empresa.
+[2026-02-03 08:34:01] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 08:34:01] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:34:01] Codigo: 1061
+[2026-02-03 08:34:01] DFC: sim | Simples: Normal
+[2026-02-03 08:34:01] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:34:01] Passo 1: Trocar empresa no sistema usando o codigo: 1061.
+[2026-02-03 08:34:01] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 08:34:01] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 08:34:01] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 08:34:01] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 08:34:18] Retorno do script: 0
+[2026-02-03 08:34:18] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 08:34:36] Retorno do script: 0
+[2026-02-03 08:34:36] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 08:35:09] Retorno do script: 0
+[2026-02-03 08:35:09] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 08:40:29] Retorno do script: 0
+[2026-02-03 08:40:29] Nenhum arquivo TXT encontrado na pasta.
+[2026-02-03 08:40:29] Nao marcou como concluido. Verificar pasta da empresa.
+[2026-02-03 08:50:29] Janela de Contabilidade focada e maximizada.
+[2026-02-03 08:50:29] Selecionando caixa de empresa.
+[2026-02-03 08:50:30] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 08:50:30] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:50:30] Codigo: 1061
+[2026-02-03 08:50:30] DFC: sim | Simples: Normal
+[2026-02-03 08:50:30] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:50:30] Passo 1: Trocar empresa no sistema usando o codigo: 1061.
+[2026-02-03 08:50:30] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 08:50:30] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 08:50:30] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 08:50:30] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 08:50:47] Retorno do script: 0
+[2026-02-03 08:50:47] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 08:51:05] Retorno do script: 0
+[2026-02-03 08:51:05] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 08:51:38] Retorno do script: 0
+[2026-02-03 08:51:38] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 08:55:06] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 08:55:06] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-03 08:55:06] Intervalo de verificação: 600s
+[2026-02-03 08:55:06] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-03 08:55:06] Janela de Contabilidade focada e maximizada.
+[2026-02-03 08:55:06] Selecionando caixa de empresa.
+[2026-02-03 08:55:07] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 08:55:07] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:55:07] Codigo: 1061
+[2026-02-03 08:55:07] DFC: sim | Simples: Normal
+[2026-02-03 08:55:07] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:55:07] Passo 1: Trocar empresa no sistema usando o codigo: 1061.
+[2026-02-03 08:55:07] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 08:55:07] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 08:55:07] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 08:55:07] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 08:55:23] Retorno do script: 0
+[2026-02-03 08:55:23] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 08:55:41] Retorno do script: 0
+[2026-02-03 08:55:41] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 08:56:14] Retorno do script: 0
+[2026-02-03 08:56:14] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 08:58:37] Retorno do script: 0
+[2026-02-03 08:58:37] Nenhum arquivo TXT encontrado na pasta.
+[2026-02-03 08:58:37] Nao marcou como concluido. Verificar pasta da empresa.
+[2026-02-03 09:08:37] Janela de Contabilidade focada e maximizada.
+[2026-02-03 09:08:37] Selecionando caixa de empresa.
+[2026-02-03 09:08:38] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 09:08:38] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:08:38] Codigo: 1061
+[2026-02-03 09:08:38] DFC: sim | Simples: Normal
+[2026-02-03 09:08:38] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:08:38] Passo 1: Trocar empresa no sistema usando o codigo: 1061.
+[2026-02-03 09:08:38] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 09:08:38] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 09:08:38] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 09:08:38] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 09:08:54] Retorno do script: 0
+[2026-02-03 09:08:54] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 09:09:12] Retorno do script: 0
+[2026-02-03 09:09:13] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 09:09:50] Retorno do script: 0
+[2026-02-03 09:09:50] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 09:46:57] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 09:46:57] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-03 09:46:57] Intervalo de verificação: 600s
+[2026-02-03 09:46:57] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-03 09:46:57] Janela de Contabilidade focada e maximizada.
+[2026-02-03 09:46:57] Selecionando caixa de empresa.
+[2026-02-03 09:46:58] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 09:46:58] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:46:58] Codigo: 1061
+[2026-02-03 09:46:58] DFC: sim | Simples: Normal
+[2026-02-03 09:46:58] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:46:58] Passo 1: Trocar empresa no sistema usando o codigo: 1061.
+[2026-02-03 09:46:58] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 09:46:58] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 09:46:58] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 09:46:58] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 09:47:14] Retorno do script: 0
+[2026-02-03 09:47:14] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 09:47:32] Retorno do script: 0
+[2026-02-03 09:47:32] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 09:48:05] Retorno do script: 0
+[2026-02-03 09:48:05] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 09:50:28] Retorno do script: 0
+[2026-02-03 09:50:28] Nenhum arquivo TXT encontrado na pasta.
+[2026-02-03 09:50:28] Nao marcou como concluido. Verificar pasta da empresa.
+[2026-02-03 09:53:55] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 09:53:55] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-03 09:53:55] Intervalo de verificação: 600s
+[2026-02-03 09:53:55] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-03 09:53:56] Janela de Contabilidade focada e maximizada.
+[2026-02-03 09:53:56] Selecionando caixa de empresa.
+[2026-02-03 09:53:56] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 09:53:56] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:53:56] Codigo: 1061
+[2026-02-03 09:53:56] DFC: sim | Simples: Normal
+[2026-02-03 09:53:56] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:53:56] Passo 1: Trocar empresa no sistema usando o codigo: 1061.
+[2026-02-03 09:53:56] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 09:53:56] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 09:53:56] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 09:53:56] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 09:54:12] Retorno do script: 0
+[2026-02-03 09:54:12] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 09:54:30] Retorno do script: 0
+[2026-02-03 09:54:30] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 09:55:03] Retorno do script: 0
+[2026-02-03 09:55:03] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 09:57:25] Retorno do script: 0
+[2026-02-03 09:57:25] Nenhum arquivo TXT encontrado na pasta.
+[2026-02-03 09:57:25] Nao marcou como concluido. Verificar pasta da empresa.
+[2026-02-03 10:02:48] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 10:02:48] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-03 10:02:48] Intervalo de verificação: 600s
+[2026-02-03 10:02:48] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-03 10:02:48] Janela de Contabilidade focada e maximizada.
+[2026-02-03 10:02:48] Selecionando caixa de empresa.
+[2026-02-03 10:02:48] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 10:02:48] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 10:02:48] Codigo: 1061
+[2026-02-03 10:02:48] DFC: sim | Simples: Normal
+[2026-02-03 10:02:48] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 10:02:48] Passo 1: Trocar empresa no sistema usando o codigo: 1061.
+[2026-02-03 10:02:48] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 10:02:48] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 10:02:48] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 10:02:48] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 10:03:05] Retorno do script: 0
+[2026-02-03 10:03:05] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 10:03:22] Retorno do script: 0
+[2026-02-03 10:03:22] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 10:03:55] Retorno do script: 0
+[2026-02-03 10:03:55] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 10:06:18] Retorno do script: 0
+[2026-02-03 10:06:18] Nenhum arquivo TXT encontrado na pasta.
+[2026-02-03 10:06:18] Nao marcou como concluido. Verificar pasta da empresa.
+[2026-02-03 10:13:15] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 10:13:15] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-03 10:13:15] Intervalo de verificação: 600s
+[2026-02-03 10:13:15] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-03 10:13:15] Janela de Contabilidade focada e maximizada.
+[2026-02-03 10:13:15] Selecionando caixa de empresa.
+[2026-02-03 10:13:16] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 10:13:16] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 10:13:16] Codigo: 1061
+[2026-02-03 10:13:16] DFC: sim | Simples: Normal
+[2026-02-03 10:13:16] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 10:13:16] Passo 1: Trocar empresa no sistema usando o codigo: 1061.
+[2026-02-03 10:13:16] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 10:13:16] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 10:13:16] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 10:13:16] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 10:13:32] Retorno do script: 0
+[2026-02-03 10:13:32] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 10:13:50] Retorno do script: 0
+[2026-02-03 10:13:50] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 10:14:23] Retorno do script: 0
+[2026-02-03 10:14:23] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 10:16:46] Retorno do script: 0
+[2026-02-03 10:16:46] Nenhum arquivo TXT encontrado na pasta.
+[2026-02-03 10:16:46] Nao marcou como concluido. Verificar pasta da empresa.
+[2026-02-03 10:35:30] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 10:35:30] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-03 10:35:30] Intervalo de verificação: 600s
+[2026-02-03 10:35:30] Janelas: 00:00-11:00 e 14:00-18:00
+[2026-02-03 10:35:30] Nenhuma empresa pendente para processar.
+[2026-02-03 10:38:30] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 10:38:30] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-03 10:38:30] Intervalo de verificação: 15s
+[2026-02-03 10:38:30] Janelas: 08:00-11:45 e 13:30-17:50
+[2026-02-03 10:38:30] Janela de Contabilidade focada e maximizada.
+[2026-02-03 10:38:30] Selecionando caixa de empresa.
+[2026-02-03 10:38:31] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 10:38:31] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-03 10:38:31] Codigo: 3
+[2026-02-03 10:38:31] DFC: sim | Simples: Normal
+[2026-02-03 10:38:31] Diretorio destino: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-03 10:38:31] Passo 1: Trocar empresa no sistema usando o codigo: 3.
+[2026-02-03 10:38:31] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 10:38:31] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 10:38:31] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 10:38:31] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 10:38:47] Retorno do script: 0
+[2026-02-03 10:38:47] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 10:39:27] Retorno do script: 0
+[2026-02-03 10:39:27] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 10:40:01] Retorno do script: 0
+[2026-02-03 10:40:01] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 10:44:18] Retorno do script: 0
+[2026-02-03 10:44:18] Finalizado (sem automacao de UI).
+[2026-02-03 10:44:19] Janela de Contabilidade focada e maximizada.
+[2026-02-03 10:44:19] Selecionando caixa de empresa.
+[2026-02-03 10:44:19] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 10:44:19] Empresa: AGRABEL CAMINHOES LTDA
+[2026-02-03 10:44:19] Codigo: 77
+[2026-02-03 10:44:19] DFC: sim | Simples: Normal
+[2026-02-03 10:44:19] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-02-03 10:44:19] Passo 1: Trocar empresa no sistema usando o codigo: 77.
+[2026-02-03 10:44:19] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 10:44:19] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 10:44:19] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 10:44:19] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 10:47:17] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 10:47:17] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-03 10:47:17] Intervalo de verificação: 15s
+[2026-02-03 10:47:17] Janelas: 08:00-11:45 e 13:30-17:50
+[2026-02-03 10:47:18] Janela de Contabilidade focada e maximizada.
+[2026-02-03 10:47:18] Selecionando caixa de empresa.
+[2026-02-03 10:47:18] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 10:47:18] Empresa: AGRABEL CAMINHOES LTDA
+[2026-02-03 10:47:18] Codigo: 77
+[2026-02-03 10:47:18] DFC: sim | Simples: Normal
+[2026-02-03 10:47:18] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-02-03 10:47:18] Passo 1: Trocar empresa no sistema usando o codigo: 77.
+[2026-02-03 10:47:18] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 10:47:18] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 10:47:18] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 10:47:18] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 10:47:35] Retorno do script: 0
+[2026-02-03 10:47:35] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 10:48:09] Retorno do script: 0
+[2026-02-03 10:48:09] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 10:48:42] Retorno do script: 0
+[2026-02-03 10:48:42] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 10:50:34] Retorno do script: 0
+[2026-02-03 10:50:34] Finalizado (sem automacao de UI).
+[2026-02-03 10:50:34] Janela de Contabilidade focada e maximizada.
+[2026-02-03 10:50:34] Selecionando caixa de empresa.
+[2026-02-03 10:50:34] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 10:50:34] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 10:50:34] Codigo: 143
+[2026-02-03 10:50:34] DFC: sim | Simples: Normal
+[2026-02-03 10:50:34] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-03 10:50:34] Passo 1: Trocar empresa no sistema usando o codigo: 143.
+[2026-02-03 10:50:34] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 10:50:34] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 10:50:34] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 10:50:34] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 10:50:51] Retorno do script: 0
+[2026-02-03 10:50:51] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 10:51:48] Retorno do script: 0
+[2026-02-03 10:51:48] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 10:52:21] Retorno do script: 0
+[2026-02-03 10:52:21] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 10:57:35] Retorno do script: 0
+[2026-02-03 10:57:35] Finalizado (sem automacao de UI).
+[2026-02-03 10:57:35] Janela de Contabilidade focada e maximizada.
+[2026-02-03 10:57:35] Selecionando caixa de empresa.
+[2026-02-03 10:57:36] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 10:57:36] Empresa: RIO BRANCO VEICULOS LTDA
+[2026-02-03 10:57:36] Codigo: 201
+[2026-02-03 10:57:36] DFC: sim | Simples: Normal
+[2026-02-03 10:57:36] Diretorio destino: W:\\SPEDs\\ECD\\2025\RIO BRANCO VEICULOS LTDA
+[2026-02-03 10:57:36] Passo 1: Trocar empresa no sistema usando o codigo: 201.
+[2026-02-03 10:57:36] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 10:57:36] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 10:57:36] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 10:57:36] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 10:57:52] Retorno do script: 0
+[2026-02-03 10:57:52] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 10:58:22] Retorno do script: 0
+[2026-02-03 10:58:22] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 10:58:56] Retorno do script: 0
+[2026-02-03 10:58:56] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 11:02:52] Retorno do script: 0
+[2026-02-03 11:02:52] Finalizado (sem automacao de UI).
+[2026-02-03 11:02:52] Janela de Contabilidade focada e maximizada.
+[2026-02-03 11:02:52] Selecionando caixa de empresa.
+[2026-02-03 11:02:53] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 11:02:53] Empresa: BERTOVEL FERRO E ACO LTDA
+[2026-02-03 11:02:53] Codigo: 371
+[2026-02-03 11:02:53] DFC: sim | Simples: Normal
+[2026-02-03 11:02:53] Diretorio destino: W:\\SPEDs\\ECD\\2025\BERTOVEL FERRO E ACO LTDA
+[2026-02-03 11:02:53] Passo 1: Trocar empresa no sistema usando o codigo: 371.
+[2026-02-03 11:02:53] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 11:02:53] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 11:02:53] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 11:02:53] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 11:03:10] Retorno do script: 0
+[2026-02-03 11:03:10] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 11:04:49] Retorno do script: 0
+[2026-02-03 11:04:49] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 11:05:23] Retorno do script: 0
+[2026-02-03 11:05:23] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 11:15:39] Retorno do script: 0
+[2026-02-03 11:15:39] Finalizado (sem automacao de UI).
+[2026-02-03 11:15:39] Janela de Contabilidade focada e maximizada.
+[2026-02-03 11:15:39] Selecionando caixa de empresa.
+[2026-02-03 11:15:39] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 11:15:39] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-03 11:15:39] Codigo: 898
+[2026-02-03 11:15:39] DFC: nao | Simples: Normal
+[2026-02-03 11:15:39] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-03 11:15:39] Passo 1: Trocar empresa no sistema usando o codigo: 898.
+[2026-02-03 11:15:39] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 11:15:39] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 11:15:39] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 11:15:39] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 11:15:56] Retorno do script: 0
+[2026-02-03 11:15:56] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 11:16:12] Retorno do script: 0
+[2026-02-03 11:16:12] DFC falso: pulando script 3.
+[2026-02-03 11:16:12] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 11:18:54] Retorno do script: 0
+[2026-02-03 11:18:54] Finalizado (sem automacao de UI).
+[2026-02-03 11:18:54] Janela de Contabilidade focada e maximizada.
+[2026-02-03 11:18:54] Selecionando caixa de empresa.
+[2026-02-03 11:18:54] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 11:18:54] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:18:54] Codigo: 1061
+[2026-02-03 11:18:54] DFC: sim | Simples: Normal
+[2026-02-03 11:18:54] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:18:54] Passo 1: Trocar empresa no sistema usando o codigo: 1061.
+[2026-02-03 11:18:54] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 11:18:54] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 11:18:54] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 11:18:54] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 11:19:11] Retorno do script: 0
+[2026-02-03 11:19:11] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 11:19:29] Retorno do script: 0
+[2026-02-03 11:19:29] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 11:20:02] Retorno do script: 0
+[2026-02-03 11:20:02] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 11:22:36] Retorno do script: 0
+[2026-02-03 11:22:36] Nenhum arquivo TXT encontrado na pasta.
+[2026-02-03 11:22:36] Nao marcou como concluido. Verificar pasta da empresa.
+[2026-02-03 11:22:51] Janela de Contabilidade focada e maximizada.
+[2026-02-03 11:22:51] Selecionando caixa de empresa.
+[2026-02-03 11:22:51] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 11:22:51] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:22:51] Codigo: 1061
+[2026-02-03 11:22:51] DFC: sim | Simples: Normal
+[2026-02-03 11:22:51] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:22:51] Passo 1: Trocar empresa no sistema usando o codigo: 1061.
+[2026-02-03 11:22:51] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 11:22:51] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 11:22:51] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 11:22:51] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 11:23:08] Retorno do script: 0
+[2026-02-03 11:23:08] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 11:23:39] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 11:23:39] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-03 11:23:39] Intervalo de verificação: 15s
+[2026-02-03 11:23:39] Janelas: 08:00-11:45 e 13:30-17:50
+[2026-02-03 11:23:39] Janela de Contabilidade focada e maximizada.
+[2026-02-03 11:23:39] Selecionando caixa de empresa.
+[2026-02-03 11:23:40] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 11:23:40] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:23:40] Codigo: 1061
+[2026-02-03 11:23:40] DFC: sim | Simples: Normal
+[2026-02-03 11:23:40] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:23:40] Passo 1: Trocar empresa no sistema usando o codigo: 1061.
+[2026-02-03 11:23:40] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 11:23:40] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 11:23:40] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 11:23:40] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 11:23:56] Retorno do script: 0
+[2026-02-03 11:23:56] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 11:24:13] Retorno do script: 0
+[2026-02-03 11:24:13] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 11:24:47] Retorno do script: 0
+[2026-02-03 11:24:47] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 11:27:20] Retorno do script: 0
+[2026-02-03 11:27:20] Nenhum arquivo TXT encontrado na pasta.
+[2026-02-03 11:27:20] Nao marcou como concluido. Verificar pasta da empresa.
+[2026-02-03 11:27:35] Janela de Contabilidade focada e maximizada.
+[2026-02-03 11:27:35] Selecionando caixa de empresa.
+[2026-02-03 11:27:36] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 11:27:36] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:27:36] Codigo: 1061
+[2026-02-03 11:27:36] DFC: sim | Simples: Normal
+[2026-02-03 11:27:36] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:27:36] Passo 1: Trocar empresa no sistema usando o codigo: 1061.
+[2026-02-03 11:27:36] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 11:27:36] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 11:27:36] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 11:27:36] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 11:27:53] Retorno do script: 0
+[2026-02-03 11:27:53] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 11:28:11] Retorno do script: 0
+[2026-02-03 11:28:11] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 11:28:44] Retorno do script: 0
+[2026-02-03 11:28:44] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 11:29:22] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 11:29:22] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-03 11:29:22] Intervalo de verificação: 15s
+[2026-02-03 11:29:22] Janelas: 08:00-11:45 e 13:30-17:50
+[2026-02-03 11:29:22] Janela de Contabilidade focada e maximizada.
+[2026-02-03 11:29:22] Selecionando caixa de empresa.
+[2026-02-03 11:29:23] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 11:29:23] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:29:23] Codigo: 1061
+[2026-02-03 11:29:23] DFC: sim | Simples: Normal
+[2026-02-03 11:29:23] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:29:23] Passo 1: Trocar empresa no sistema usando o codigo: 1061.
+[2026-02-03 11:29:23] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 11:29:23] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 11:29:23] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 11:29:23] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 11:29:39] Retorno do script: 0
+[2026-02-03 11:29:39] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 11:29:57] Retorno do script: 0
+[2026-02-03 11:29:57] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 11:30:30] Retorno do script: 0
+[2026-02-03 11:30:30] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 11:34:01] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 11:34:01] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-03 11:34:01] Intervalo de verificação: 15s
+[2026-02-03 11:34:01] Janelas: 08:00-11:45 e 13:30-17:50
+[2026-02-03 11:34:01] Janela de Contabilidade focada e maximizada.
+[2026-02-03 11:34:01] Selecionando caixa de empresa.
+[2026-02-03 11:34:02] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 11:34:02] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:34:02] Codigo: 1061
+[2026-02-03 11:34:02] DFC: sim | Simples: Normal
+[2026-02-03 11:34:02] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:34:02] Passo 1: Trocar empresa no sistema usando o codigo: 1061.
+[2026-02-03 11:34:02] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 11:34:02] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 11:34:02] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 11:34:02] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 11:34:18] Retorno do script: 0
+[2026-02-03 11:34:18] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 11:34:36] Retorno do script: 0
+[2026-02-03 11:34:36] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 11:35:09] Retorno do script: 0
+[2026-02-03 11:35:09] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 11:37:43] Retorno do script: 0
+[2026-02-03 11:37:43] Nenhum arquivo TXT encontrado na pasta.
+[2026-02-03 11:37:43] Nao marcou como concluido. Verificar pasta da empresa.
+[2026-02-03 11:46:52] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 11:46:52] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-03 11:46:52] Intervalo de verificação: 15s
+[2026-02-03 11:46:52] Janelas: 08:00-11:45 e 13:30-17:50
+[2026-02-03 11:46:52] Aguardando janela de execucao: 6187s
+[2026-02-03 13:29:59] Aguardando janela de execucao: 0s
+[2026-02-03 13:30:00] Janela de Contabilidade focada e maximizada.
+[2026-02-03 13:30:00] Selecionando caixa de empresa.
+[2026-02-03 13:30:00] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 13:30:00] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 13:30:00] Codigo: 1061
+[2026-02-03 13:30:00] DFC: sim | Simples: Normal
+[2026-02-03 13:30:00] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 13:30:00] Passo 1: Trocar empresa no sistema usando o codigo: 1061.
+[2026-02-03 13:30:00] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 13:30:00] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 13:30:00] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 13:30:00] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 13:30:53] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 13:30:53] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-03 13:30:53] Intervalo de verificação: 15s
+[2026-02-03 13:30:53] Janelas: 08:00-11:45 e 13:30-17:50
+[2026-02-03 13:30:54] Janela de Contabilidade focada e maximizada.
+[2026-02-03 13:30:54] Selecionando caixa de empresa.
+[2026-02-03 13:30:54] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 13:30:54] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 13:30:54] Codigo: 1061
+[2026-02-03 13:30:54] DFC: sim | Simples: Normal
+[2026-02-03 13:30:54] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 13:30:54] Passo 1: Trocar empresa no sistema usando o codigo: 1061.
+[2026-02-03 13:30:54] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 13:30:54] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 13:30:54] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 13:30:54] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 13:32:26] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 13:32:26] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-03 13:32:26] Intervalo de verificação: 15s
+[2026-02-03 13:32:26] Janelas: 08:00-11:45 e 13:30-17:50
+[2026-02-03 13:32:26] Janela de Contabilidade focada e maximizada.
+[2026-02-03 13:32:26] Selecionando caixa de empresa.
+[2026-02-03 13:32:27] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 13:32:27] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 13:32:27] Codigo: 1061
+[2026-02-03 13:32:27] DFC: sim | Simples: Normal
+[2026-02-03 13:32:27] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 13:32:27] Passo 1: Trocar empresa no sistema usando o codigo: 1061.
+[2026-02-03 13:32:27] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 13:32:27] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 13:32:27] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 13:32:27] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 13:32:45] Retorno do script: 0
+[2026-02-03 13:32:45] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 13:33:03] Retorno do script: 0
+[2026-02-03 13:33:03] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\3 - DFC - Demonstração de Fluxo de Caixa - Comparativo.py
+[2026-02-03 13:33:36] Retorno do script: 0
+[2026-02-03 13:33:36] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 13:36:56] Retorno do script: 0
+[2026-02-03 13:36:57] Finalizado (sem automacao de UI).
+[2026-02-03 13:37:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:37:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:37:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:37:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:38:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:38:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:38:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:38:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:39:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:39:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:39:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:39:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:40:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:40:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:40:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:40:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:41:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:41:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:41:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:41:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:42:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:42:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:42:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:42:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:43:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:43:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:43:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:43:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:44:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:44:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:44:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:44:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:45:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:45:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:45:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:45:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:46:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:46:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:46:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:46:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:47:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:47:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:47:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:47:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:48:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:48:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:48:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:48:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:49:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:49:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:49:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:49:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:50:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:50:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:50:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:50:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:51:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:51:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:51:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:51:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:52:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:52:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:52:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:52:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:53:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:53:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:53:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:53:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:54:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:54:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:54:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:54:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:55:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:55:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:55:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:55:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:56:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:56:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:56:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:56:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:57:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:57:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:57:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:57:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:58:12] Nenhuma empresa pendente para processar.
+[2026-02-03 13:58:27] Nenhuma empresa pendente para processar.
+[2026-02-03 13:58:42] Nenhuma empresa pendente para processar.
+[2026-02-03 13:58:57] Nenhuma empresa pendente para processar.
+[2026-02-03 13:59:13] Nenhuma empresa pendente para processar.
+[2026-02-03 13:59:28] Nenhuma empresa pendente para processar.
+[2026-02-03 13:59:43] Nenhuma empresa pendente para processar.
+[2026-02-03 13:59:58] Nenhuma empresa pendente para processar.
+[2026-02-03 14:00:13] Nenhuma empresa pendente para processar.
+[2026-02-03 14:00:28] Nenhuma empresa pendente para processar.
+[2026-02-03 14:00:43] Nenhuma empresa pendente para processar.
+[2026-02-03 14:00:58] Nenhuma empresa pendente para processar.
+[2026-02-03 14:01:13] Nenhuma empresa pendente para processar.
+[2026-02-03 14:01:28] Nenhuma empresa pendente para processar.
+[2026-02-03 14:01:43] Nenhuma empresa pendente para processar.
+[2026-02-03 14:01:58] Nenhuma empresa pendente para processar.
+[2026-02-03 14:02:13] Nenhuma empresa pendente para processar.
+[2026-02-03 14:02:28] Nenhuma empresa pendente para processar.
+[2026-02-03 14:02:43] Nenhuma empresa pendente para processar.
+[2026-02-03 14:02:58] Nenhuma empresa pendente para processar.
+[2026-02-03 14:03:13] Nenhuma empresa pendente para processar.
+[2026-02-03 14:03:28] Nenhuma empresa pendente para processar.
+[2026-02-03 14:03:43] Nenhuma empresa pendente para processar.
+[2026-02-03 14:03:58] Nenhuma empresa pendente para processar.
+[2026-02-03 14:04:13] Nenhuma empresa pendente para processar.
+[2026-02-03 14:04:28] Nenhuma empresa pendente para processar.
+[2026-02-03 14:04:43] Nenhuma empresa pendente para processar.
+[2026-02-03 14:04:58] Nenhuma empresa pendente para processar.
+[2026-02-03 14:05:13] Nenhuma empresa pendente para processar.
+[2026-02-03 14:05:28] Nenhuma empresa pendente para processar.
+[2026-02-03 14:05:43] Nenhuma empresa pendente para processar.
+[2026-02-03 14:05:58] Nenhuma empresa pendente para processar.
+[2026-02-03 14:06:13] Nenhuma empresa pendente para processar.
+[2026-02-03 14:06:28] Nenhuma empresa pendente para processar.
+[2026-02-03 14:06:43] Nenhuma empresa pendente para processar.
+[2026-02-03 14:06:58] Nenhuma empresa pendente para processar.
+[2026-02-03 14:07:13] Nenhuma empresa pendente para processar.
+[2026-02-03 14:07:28] Nenhuma empresa pendente para processar.
+[2026-02-03 14:07:43] Nenhuma empresa pendente para processar.
+[2026-02-03 14:07:58] Nenhuma empresa pendente para processar.
+[2026-02-03 14:08:13] Nenhuma empresa pendente para processar.
+[2026-02-03 14:08:28] Nenhuma empresa pendente para processar.
+[2026-02-03 14:08:43] Nenhuma empresa pendente para processar.
+[2026-02-03 14:08:58] Nenhuma empresa pendente para processar.
+[2026-02-03 14:09:13] Nenhuma empresa pendente para processar.
+[2026-02-03 14:09:28] Nenhuma empresa pendente para processar.
+[2026-02-03 14:09:43] Nenhuma empresa pendente para processar.
+[2026-02-03 14:09:58] Nenhuma empresa pendente para processar.
+[2026-02-03 14:10:13] Nenhuma empresa pendente para processar.
+[2026-02-03 14:10:28] Nenhuma empresa pendente para processar.
+[2026-02-03 14:10:43] Nenhuma empresa pendente para processar.
+[2026-02-03 14:10:58] Nenhuma empresa pendente para processar.
+[2026-02-03 14:11:13] Nenhuma empresa pendente para processar.
+[2026-02-03 14:11:28] Nenhuma empresa pendente para processar.
+[2026-02-03 14:11:43] Nenhuma empresa pendente para processar.
+[2026-02-03 14:11:58] Nenhuma empresa pendente para processar.
+[2026-02-03 14:12:13] Nenhuma empresa pendente para processar.
+[2026-02-03 14:12:28] Nenhuma empresa pendente para processar.
+[2026-02-03 14:12:43] Nenhuma empresa pendente para processar.
+[2026-02-03 14:12:58] Nenhuma empresa pendente para processar.
+[2026-02-03 14:13:13] Nenhuma empresa pendente para processar.
+[2026-02-03 14:13:28] Nenhuma empresa pendente para processar.
+[2026-02-03 14:13:43] Nenhuma empresa pendente para processar.
+[2026-02-03 14:13:58] Nenhuma empresa pendente para processar.
+[2026-02-03 14:14:13] Nenhuma empresa pendente para processar.
+[2026-02-03 14:14:28] Nenhuma empresa pendente para processar.
+[2026-02-03 14:14:43] Nenhuma empresa pendente para processar.
+[2026-02-03 14:14:58] Nenhuma empresa pendente para processar.
+[2026-02-03 14:15:13] Nenhuma empresa pendente para processar.
+[2026-02-03 14:15:28] Nenhuma empresa pendente para processar.
+[2026-02-03 14:15:43] Nenhuma empresa pendente para processar.
+[2026-02-03 14:15:58] Nenhuma empresa pendente para processar.
+[2026-02-03 14:16:13] Nenhuma empresa pendente para processar.
+[2026-02-03 14:16:28] Nenhuma empresa pendente para processar.
+[2026-02-03 14:16:43] Nenhuma empresa pendente para processar.
+[2026-02-03 14:16:58] Nenhuma empresa pendente para processar.
+[2026-02-03 14:17:13] Nenhuma empresa pendente para processar.
+[2026-02-03 14:17:28] Nenhuma empresa pendente para processar.
+[2026-02-03 14:17:43] Nenhuma empresa pendente para processar.
+[2026-02-03 14:17:58] Nenhuma empresa pendente para processar.
+[2026-02-03 14:18:13] Nenhuma empresa pendente para processar.
+[2026-02-03 14:18:28] Nenhuma empresa pendente para processar.
+[2026-02-03 14:18:43] Nenhuma empresa pendente para processar.
+[2026-02-03 14:18:58] Nenhuma empresa pendente para processar.
+[2026-02-03 14:19:13] Nenhuma empresa pendente para processar.
+[2026-02-03 14:19:28] Nenhuma empresa pendente para processar.
+[2026-02-03 14:19:43] Nenhuma empresa pendente para processar.
+[2026-02-03 14:19:58] Nenhuma empresa pendente para processar.
+[2026-02-03 14:20:13] Nenhuma empresa pendente para processar.
+[2026-02-03 14:20:28] Nenhuma empresa pendente para processar.
+[2026-02-03 14:20:43] Nenhuma empresa pendente para processar.
+[2026-02-03 14:20:59] Nenhuma empresa pendente para processar.
+[2026-02-03 14:21:14] Nenhuma empresa pendente para processar.
+[2026-02-03 14:21:29] Nenhuma empresa pendente para processar.
+[2026-02-03 14:21:44] Nenhuma empresa pendente para processar.
+[2026-02-03 14:21:59] Nenhuma empresa pendente para processar.
+[2026-02-03 14:22:14] Nenhuma empresa pendente para processar.
+[2026-02-03 14:22:29] Nenhuma empresa pendente para processar.
+[2026-02-03 14:22:44] Nenhuma empresa pendente para processar.
+[2026-02-03 14:22:59] Nenhuma empresa pendente para processar.
+[2026-02-03 14:23:14] Nenhuma empresa pendente para processar.
+[2026-02-03 14:23:29] Nenhuma empresa pendente para processar.
+[2026-02-03 14:23:44] Nenhuma empresa pendente para processar.
+[2026-02-03 14:23:59] Nenhuma empresa pendente para processar.
+[2026-02-03 14:24:14] Nenhuma empresa pendente para processar.
+[2026-02-03 14:24:29] Nenhuma empresa pendente para processar.
+[2026-02-03 14:24:44] Nenhuma empresa pendente para processar.
+[2026-02-03 14:24:59] Nenhuma empresa pendente para processar.
+[2026-02-03 14:25:14] Nenhuma empresa pendente para processar.
+[2026-02-03 14:25:29] Nenhuma empresa pendente para processar.
+[2026-02-03 14:25:44] Nenhuma empresa pendente para processar.
+[2026-02-03 14:25:59] Nenhuma empresa pendente para processar.
+[2026-02-03 14:26:14] Nenhuma empresa pendente para processar.
+[2026-02-03 14:26:29] Nenhuma empresa pendente para processar.
+[2026-02-03 14:26:44] Nenhuma empresa pendente para processar.
+[2026-02-03 14:26:59] Nenhuma empresa pendente para processar.
+[2026-02-03 14:27:14] Nenhuma empresa pendente para processar.
+[2026-02-03 14:27:29] Nenhuma empresa pendente para processar.
+[2026-02-03 14:27:44] Nenhuma empresa pendente para processar.
+[2026-02-03 14:27:59] Nenhuma empresa pendente para processar.
+[2026-02-03 14:28:14] Nenhuma empresa pendente para processar.
+[2026-02-03 14:28:29] Nenhuma empresa pendente para processar.
+[2026-02-03 14:28:44] Nenhuma empresa pendente para processar.
+[2026-02-03 14:28:59] Nenhuma empresa pendente para processar.
+[2026-02-03 14:29:14] Nenhuma empresa pendente para processar.
+[2026-02-03 14:29:29] Nenhuma empresa pendente para processar.
+[2026-02-03 14:29:44] Nenhuma empresa pendente para processar.
+[2026-02-03 14:29:59] Nenhuma empresa pendente para processar.
+[2026-02-03 14:30:14] Nenhuma empresa pendente para processar.
+[2026-02-03 14:30:29] Nenhuma empresa pendente para processar.
+[2026-02-03 14:30:44] Nenhuma empresa pendente para processar.
+[2026-02-03 14:30:59] Nenhuma empresa pendente para processar.
+[2026-02-03 14:31:14] Nenhuma empresa pendente para processar.
+[2026-02-03 14:31:29] Nenhuma empresa pendente para processar.
+[2026-02-03 14:31:44] Nenhuma empresa pendente para processar.
+[2026-02-03 14:31:59] Nenhuma empresa pendente para processar.
+[2026-02-03 14:32:14] Nenhuma empresa pendente para processar.
+[2026-02-03 14:32:29] Nenhuma empresa pendente para processar.
+[2026-02-03 14:32:44] Nenhuma empresa pendente para processar.
+[2026-02-03 14:32:59] Nenhuma empresa pendente para processar.
+[2026-02-03 14:33:14] Nenhuma empresa pendente para processar.
+[2026-02-03 14:33:29] Nenhuma empresa pendente para processar.
+[2026-02-03 14:33:44] Nenhuma empresa pendente para processar.
+[2026-02-03 14:33:59] Nenhuma empresa pendente para processar.
+[2026-02-03 14:34:14] Nenhuma empresa pendente para processar.
+[2026-02-03 14:34:29] Nenhuma empresa pendente para processar.
+[2026-02-03 14:34:44] Nenhuma empresa pendente para processar.
+[2026-02-03 14:34:59] Nenhuma empresa pendente para processar.
+[2026-02-03 14:35:14] Nenhuma empresa pendente para processar.
+[2026-02-03 14:35:29] Nenhuma empresa pendente para processar.
+[2026-02-03 14:35:44] Nenhuma empresa pendente para processar.
+[2026-02-03 14:35:59] Nenhuma empresa pendente para processar.
+[2026-02-03 14:36:14] Nenhuma empresa pendente para processar.
+[2026-02-03 14:36:29] Nenhuma empresa pendente para processar.
+[2026-02-03 14:36:44] Nenhuma empresa pendente para processar.
+[2026-02-03 14:36:59] Nenhuma empresa pendente para processar.
+[2026-02-03 15:57:54] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 15:57:54] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-03 15:57:54] Intervalo de verificação: 15s
+[2026-02-03 15:57:54] Janelas: 08:00-11:45 e 13:30-17:50
+[2026-02-03 15:57:54] Janela de Contabilidade focada e maximizada.
+[2026-02-03 15:57:54] Selecionando caixa de empresa.
+[2026-02-03 15:57:54] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 15:57:54] Empresa: BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-03 15:57:54] Codigo: 735
+[2026-02-03 15:57:54] DFC: nao | Simples: Normal
+[2026-02-03 15:57:54] Diretorio destino: W:\\SPEDs\\ECD\\2025\BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-03 15:57:54] Passo 1: Trocar empresa no sistema usando o codigo: 735.
+[2026-02-03 15:57:54] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 15:57:54] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 15:57:54] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 15:57:54] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 15:58:17] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 15:58:17] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-03 15:58:17] Intervalo de verificação: 15s
+[2026-02-03 15:58:17] Janelas: 08:00-11:45 e 13:30-17:50
+[2026-02-03 15:58:18] Janela de Contabilidade focada e maximizada.
+[2026-02-03 15:58:18] Selecionando caixa de empresa.
+[2026-02-03 15:58:18] Iniciando: 0 - Orquestrador ECD
+[2026-02-03 15:58:18] Empresa: BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-03 15:58:18] Codigo: 735
+[2026-02-03 15:58:18] DFC: nao | Simples: Normal
+[2026-02-03 15:58:18] Diretorio destino: W:\\SPEDs\\ECD\\2025\BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-03 15:58:18] Passo 1: Trocar empresa no sistema usando o codigo: 735.
+[2026-02-03 15:58:18] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-03 15:58:18] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-03 15:58:18] Passo 4: Enviar dois enters para confirmar.
+[2026-02-03 15:58:18] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-03 15:58:35] Retorno do script: 0
+[2026-02-03 15:58:35] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-03 15:58:52] Retorno do script: 0
+[2026-02-03 15:58:52] DFC falso: pulando script 3.
+[2026-02-03 15:58:52] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-03 16:01:39] Retorno do script: 0
+[2026-02-03 16:01:39] Finalizado (sem automacao de UI).
+[2026-02-03 16:01:54] Nenhuma empresa pendente para processar.
+[2026-02-03 16:02:09] Nenhuma empresa pendente para processar.
+[2026-02-03 16:02:24] Nenhuma empresa pendente para processar.
+[2026-02-03 16:02:39] Nenhuma empresa pendente para processar.
+[2026-02-03 16:02:54] Nenhuma empresa pendente para processar.
+[2026-02-03 16:03:09] Nenhuma empresa pendente para processar.
+[2026-02-03 16:03:24] Nenhuma empresa pendente para processar.
+[2026-02-03 16:03:39] Nenhuma empresa pendente para processar.
+[2026-02-03 16:03:54] Nenhuma empresa pendente para processar.
+[2026-02-03 16:04:09] Nenhuma empresa pendente para processar.
+[2026-02-03 16:04:24] Nenhuma empresa pendente para processar.
+[2026-02-03 16:04:39] Nenhuma empresa pendente para processar.
+[2026-02-03 16:04:54] Nenhuma empresa pendente para processar.
+[2026-02-03 16:05:09] Nenhuma empresa pendente para processar.
+[2026-02-03 16:05:24] Nenhuma empresa pendente para processar.
+[2026-02-03 16:05:39] Nenhuma empresa pendente para processar.
+[2026-02-03 16:05:54] Nenhuma empresa pendente para processar.
+[2026-02-03 16:06:09] Nenhuma empresa pendente para processar.
+[2026-02-03 16:06:24] Nenhuma empresa pendente para processar.
+[2026-02-03 16:06:39] Nenhuma empresa pendente para processar.
+[2026-02-03 16:06:54] Nenhuma empresa pendente para processar.
+[2026-02-03 16:07:09] Nenhuma empresa pendente para processar.
+[2026-02-03 16:07:24] Nenhuma empresa pendente para processar.
+[2026-02-03 16:07:39] Nenhuma empresa pendente para processar.
+[2026-02-03 16:07:54] Nenhuma empresa pendente para processar.
+[2026-02-03 16:08:09] Nenhuma empresa pendente para processar.
+[2026-02-03 16:08:24] Nenhuma empresa pendente para processar.
+[2026-02-03 16:08:39] Nenhuma empresa pendente para processar.
+[2026-02-03 16:08:54] Nenhuma empresa pendente para processar.
+[2026-02-03 16:09:09] Nenhuma empresa pendente para processar.
+[2026-02-03 16:09:24] Nenhuma empresa pendente para processar.
+[2026-02-03 16:09:39] Nenhuma empresa pendente para processar.
+[2026-02-03 16:09:54] Nenhuma empresa pendente para processar.
+[2026-02-03 16:10:09] Nenhuma empresa pendente para processar.
+[2026-02-03 16:10:24] Nenhuma empresa pendente para processar.
+[2026-02-03 16:10:39] Nenhuma empresa pendente para processar.
+[2026-02-03 16:10:54] Nenhuma empresa pendente para processar.
+[2026-02-03 16:11:09] Nenhuma empresa pendente para processar.
+[2026-02-03 16:11:24] Nenhuma empresa pendente para processar.
+[2026-02-03 16:11:39] Nenhuma empresa pendente para processar.
+[2026-02-03 16:11:54] Nenhuma empresa pendente para processar.
+[2026-02-03 16:12:09] Nenhuma empresa pendente para processar.
+[2026-02-03 16:12:24] Nenhuma empresa pendente para processar.
+[2026-02-03 16:12:39] Nenhuma empresa pendente para processar.
+[2026-02-03 16:12:54] Nenhuma empresa pendente para processar.
+[2026-02-03 16:13:09] Nenhuma empresa pendente para processar.
+[2026-02-03 16:13:24] Nenhuma empresa pendente para processar.
+[2026-02-03 16:13:39] Nenhuma empresa pendente para processar.
+[2026-02-03 16:13:54] Nenhuma empresa pendente para processar.
+[2026-02-03 16:14:09] Nenhuma empresa pendente para processar.
+[2026-02-03 16:14:24] Nenhuma empresa pendente para processar.
+[2026-02-03 16:14:39] Nenhuma empresa pendente para processar.
+[2026-02-03 16:14:54] Nenhuma empresa pendente para processar.
+[2026-02-03 16:15:09] Nenhuma empresa pendente para processar.
+[2026-02-03 16:15:24] Nenhuma empresa pendente para processar.
+[2026-02-03 16:15:39] Nenhuma empresa pendente para processar.
+[2026-02-03 16:15:54] Nenhuma empresa pendente para processar.
+[2026-02-03 16:16:09] Nenhuma empresa pendente para processar.
+[2026-02-03 16:16:24] Nenhuma empresa pendente para processar.
+[2026-02-03 16:16:39] Nenhuma empresa pendente para processar.
+[2026-02-03 16:16:54] Nenhuma empresa pendente para processar.
+[2026-02-03 16:17:09] Nenhuma empresa pendente para processar.
+[2026-02-03 16:17:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:17:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:17:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:18:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:18:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:18:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:18:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:19:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:19:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:19:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:19:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:20:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:20:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:20:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:20:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:21:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:21:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:21:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:21:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:22:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:22:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:22:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:22:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:23:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:23:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:23:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:23:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:24:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:24:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:24:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:24:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:25:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:25:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:25:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:25:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:26:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:26:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:26:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:26:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:27:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:27:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:27:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:27:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:28:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:28:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:28:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:28:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:29:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:29:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:29:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:29:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:30:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:30:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:30:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:30:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:31:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:31:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:31:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:31:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:32:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:32:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:32:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:32:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:33:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:33:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:33:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:33:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:34:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:34:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:34:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:34:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:35:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:35:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:35:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:35:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:36:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:36:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:36:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:36:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:37:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:37:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:37:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:37:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:38:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:38:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:38:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:38:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:39:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:39:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:39:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:39:55] Nenhuma empresa pendente para processar.
+[2026-02-03 16:40:10] Nenhuma empresa pendente para processar.
+[2026-02-03 16:40:25] Nenhuma empresa pendente para processar.
+[2026-02-03 16:40:40] Nenhuma empresa pendente para processar.
+[2026-02-03 16:40:56] Nenhuma empresa pendente para processar.
+[2026-02-03 16:41:11] Nenhuma empresa pendente para processar.
+[2026-02-03 16:41:26] Nenhuma empresa pendente para processar.
+[2026-02-03 16:41:41] Nenhuma empresa pendente para processar.
+[2026-02-03 16:41:56] Nenhuma empresa pendente para processar.
+[2026-02-03 16:42:11] Nenhuma empresa pendente para processar.
+[2026-02-03 16:42:26] Nenhuma empresa pendente para processar.
+[2026-02-03 16:42:41] Nenhuma empresa pendente para processar.
+[2026-02-03 16:42:56] Nenhuma empresa pendente para processar.
+[2026-02-03 16:43:11] Nenhuma empresa pendente para processar.
+[2026-02-03 16:43:26] Nenhuma empresa pendente para processar.
+[2026-02-03 16:43:41] Nenhuma empresa pendente para processar.
+[2026-02-03 16:43:56] Nenhuma empresa pendente para processar.
+[2026-02-03 16:44:11] Nenhuma empresa pendente para processar.
+[2026-02-03 16:44:26] Nenhuma empresa pendente para processar.
+[2026-02-03 16:44:41] Nenhuma empresa pendente para processar.
+[2026-02-03 16:44:56] Nenhuma empresa pendente para processar.
+[2026-02-03 16:45:11] Nenhuma empresa pendente para processar.
+[2026-02-03 16:45:26] Nenhuma empresa pendente para processar.
+[2026-02-03 16:45:41] Nenhuma empresa pendente para processar.
+[2026-02-03 16:45:56] Nenhuma empresa pendente para processar.
+[2026-02-03 16:46:11] Nenhuma empresa pendente para processar.
+[2026-02-03 16:46:26] Nenhuma empresa pendente para processar.
+[2026-02-03 16:46:41] Nenhuma empresa pendente para processar.
+[2026-02-03 16:46:56] Nenhuma empresa pendente para processar.
+[2026-02-03 16:47:11] Nenhuma empresa pendente para processar.
+[2026-02-03 16:47:26] Nenhuma empresa pendente para processar.
+[2026-02-03 16:47:41] Nenhuma empresa pendente para processar.
+[2026-02-03 16:47:56] Nenhuma empresa pendente para processar.
+[2026-02-03 16:48:11] Nenhuma empresa pendente para processar.
+[2026-02-03 16:48:26] Nenhuma empresa pendente para processar.
+[2026-02-03 16:48:41] Nenhuma empresa pendente para processar.
+[2026-02-03 16:48:56] Nenhuma empresa pendente para processar.
+[2026-02-03 16:49:11] Nenhuma empresa pendente para processar.
+[2026-02-03 16:49:26] Nenhuma empresa pendente para processar.
+[2026-02-03 16:49:41] Nenhuma empresa pendente para processar.
+[2026-02-03 16:49:56] Nenhuma empresa pendente para processar.
+[2026-02-03 16:50:11] Nenhuma empresa pendente para processar.
+[2026-02-03 16:50:26] Nenhuma empresa pendente para processar.
+[2026-02-03 16:50:41] Nenhuma empresa pendente para processar.
+[2026-02-03 16:50:56] Nenhuma empresa pendente para processar.
+[2026-02-03 16:51:11] Nenhuma empresa pendente para processar.
+[2026-02-03 16:51:26] Nenhuma empresa pendente para processar.
+[2026-02-03 16:51:41] Nenhuma empresa pendente para processar.
+[2026-02-03 16:51:56] Nenhuma empresa pendente para processar.
+[2026-02-03 16:52:11] Nenhuma empresa pendente para processar.
+[2026-02-03 16:52:26] Nenhuma empresa pendente para processar.
+[2026-02-03 16:52:41] Nenhuma empresa pendente para processar.
+[2026-02-03 16:52:56] Nenhuma empresa pendente para processar.
+[2026-02-03 16:53:11] Nenhuma empresa pendente para processar.
+[2026-02-03 16:53:26] Nenhuma empresa pendente para processar.
+[2026-02-03 16:53:41] Nenhuma empresa pendente para processar.
+[2026-02-03 16:53:56] Nenhuma empresa pendente para processar.
+[2026-02-03 16:54:11] Nenhuma empresa pendente para processar.
+[2026-02-03 16:54:26] Nenhuma empresa pendente para processar.
+[2026-02-03 16:54:41] Nenhuma empresa pendente para processar.
+[2026-02-03 16:54:56] Nenhuma empresa pendente para processar.
+[2026-02-03 16:55:11] Nenhuma empresa pendente para processar.
+[2026-02-03 16:55:26] Nenhuma empresa pendente para processar.
+[2026-02-03 16:55:41] Nenhuma empresa pendente para processar.
+[2026-02-03 16:55:56] Nenhuma empresa pendente para processar.
+[2026-02-03 16:56:11] Nenhuma empresa pendente para processar.
+[2026-02-03 16:56:26] Nenhuma empresa pendente para processar.
+[2026-02-03 16:56:41] Nenhuma empresa pendente para processar.
+[2026-02-03 16:56:56] Nenhuma empresa pendente para processar.
+[2026-02-03 16:57:11] Nenhuma empresa pendente para processar.
+[2026-02-03 16:57:26] Nenhuma empresa pendente para processar.
+[2026-02-03 16:57:41] Nenhuma empresa pendente para processar.
+[2026-02-03 16:57:56] Nenhuma empresa pendente para processar.
+[2026-02-03 16:58:11] Nenhuma empresa pendente para processar.
+[2026-02-03 16:58:26] Nenhuma empresa pendente para processar.
+[2026-02-03 16:58:41] Nenhuma empresa pendente para processar.
+[2026-02-03 16:58:56] Nenhuma empresa pendente para processar.
+[2026-02-03 16:59:11] Nenhuma empresa pendente para processar.
+[2026-02-03 16:59:26] Nenhuma empresa pendente para processar.
+[2026-02-03 16:59:41] Nenhuma empresa pendente para processar.
+[2026-02-03 16:59:56] Nenhuma empresa pendente para processar.
+[2026-02-03 17:00:11] Nenhuma empresa pendente para processar.
+[2026-02-03 17:00:26] Nenhuma empresa pendente para processar.
+[2026-02-03 17:00:41] Nenhuma empresa pendente para processar.
+[2026-02-03 17:00:56] Nenhuma empresa pendente para processar.
+[2026-02-03 17:01:11] Nenhuma empresa pendente para processar.
+[2026-02-03 17:01:26] Nenhuma empresa pendente para processar.
+[2026-02-03 17:01:41] Nenhuma empresa pendente para processar.
+[2026-02-03 17:01:56] Nenhuma empresa pendente para processar.
+[2026-02-03 17:02:11] Nenhuma empresa pendente para processar.
+[2026-02-03 17:02:26] Nenhuma empresa pendente para processar.
+[2026-02-03 17:02:41] Nenhuma empresa pendente para processar.
+[2026-02-03 17:02:56] Nenhuma empresa pendente para processar.
+[2026-02-03 17:03:11] Nenhuma empresa pendente para processar.
+[2026-02-03 17:03:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:03:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:03:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:04:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:04:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:04:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:04:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:05:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:05:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:05:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:05:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:06:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:06:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:06:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:06:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:07:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:07:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:07:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:07:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:08:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:08:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:08:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:08:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:09:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:09:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:09:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:09:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:10:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:10:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:10:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:10:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:11:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:11:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:11:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:11:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:12:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:12:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:12:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:12:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:13:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:13:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:13:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:13:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:14:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:14:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:14:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:14:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:15:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:15:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:15:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:15:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:16:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:16:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:16:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:16:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:17:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:17:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:17:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:17:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:18:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:18:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:18:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:18:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:19:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:19:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:19:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:19:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:20:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:20:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:20:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:20:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:21:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:21:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:21:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:21:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:22:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:22:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:22:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:22:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:23:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:23:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:23:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:23:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:24:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:24:27] Nenhuma empresa pendente para processar.
+[2026-02-03 17:24:42] Nenhuma empresa pendente para processar.
+[2026-02-03 17:24:57] Nenhuma empresa pendente para processar.
+[2026-02-03 17:25:12] Nenhuma empresa pendente para processar.
+[2026-02-03 17:25:28] Nenhuma empresa pendente para processar.
+[2026-02-03 17:25:43] Nenhuma empresa pendente para processar.
+[2026-02-03 17:25:58] Nenhuma empresa pendente para processar.
+[2026-02-03 17:26:13] Nenhuma empresa pendente para processar.
+[2026-02-03 17:26:28] Nenhuma empresa pendente para processar.
+[2026-02-03 17:26:43] Nenhuma empresa pendente para processar.
+[2026-02-03 17:26:58] Nenhuma empresa pendente para processar.
+[2026-02-03 17:27:13] Nenhuma empresa pendente para processar.
+[2026-02-03 17:27:28] Nenhuma empresa pendente para processar.
+[2026-02-03 17:27:43] Nenhuma empresa pendente para processar.
+[2026-02-03 17:27:58] Nenhuma empresa pendente para processar.
+[2026-02-03 17:28:13] Nenhuma empresa pendente para processar.
+[2026-02-03 17:28:28] Nenhuma empresa pendente para processar.
+[2026-02-03 17:28:43] Nenhuma empresa pendente para processar.
+[2026-02-03 17:28:58] Nenhuma empresa pendente para processar.
+[2026-02-03 17:29:13] Nenhuma empresa pendente para processar.
+[2026-02-03 17:29:28] Nenhuma empresa pendente para processar.
+[2026-02-03 17:29:43] Nenhuma empresa pendente para processar.
+[2026-02-04 07:46:25] Iniciando: 0 - Orquestrador ECD
+[2026-02-04 07:46:25] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-04 07:46:25] Intervalo de verificação: 15s
+[2026-02-04 07:46:25] Janelas: 08:00-11:45 e 13:30-17:50
+[2026-02-04 07:46:25] Aguardando janela de execucao: 814s
+[2026-02-04 08:00:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:00:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:00:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:00:45] Nenhuma empresa pendente para processar.
+[2026-02-04 08:01:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:01:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:01:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:01:45] Nenhuma empresa pendente para processar.
+[2026-02-04 08:02:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:02:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:02:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:02:45] Nenhuma empresa pendente para processar.
+[2026-02-04 08:03:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:03:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:03:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:03:45] Nenhuma empresa pendente para processar.
+[2026-02-04 08:04:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:04:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:04:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:04:45] Nenhuma empresa pendente para processar.
+[2026-02-04 08:05:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:05:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:05:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:05:45] Nenhuma empresa pendente para processar.
+[2026-02-04 08:06:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:06:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:06:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:06:45] Nenhuma empresa pendente para processar.
+[2026-02-04 08:07:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:07:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:07:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:07:45] Nenhuma empresa pendente para processar.
+[2026-02-04 08:08:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:08:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:08:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:08:45] Nenhuma empresa pendente para processar.
+[2026-02-04 08:09:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:09:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:09:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:09:45] Nenhuma empresa pendente para processar.
+[2026-02-04 08:10:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:10:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:10:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:10:45] Nenhuma empresa pendente para processar.
+[2026-02-04 08:11:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:11:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:11:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:11:45] Nenhuma empresa pendente para processar.
+[2026-02-04 08:12:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:12:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:12:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:12:45] Nenhuma empresa pendente para processar.
+[2026-02-04 08:13:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:13:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:13:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:13:45] Nenhuma empresa pendente para processar.
+[2026-02-04 08:14:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:14:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:14:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:14:45] Nenhuma empresa pendente para processar.
+[2026-02-04 08:15:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:15:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:15:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:15:45] Nenhuma empresa pendente para processar.
+[2026-02-04 08:16:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:16:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:16:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:16:45] Nenhuma empresa pendente para processar.
+[2026-02-04 08:17:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:17:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:17:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:17:45] Nenhuma empresa pendente para processar.
+[2026-02-04 08:18:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:18:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:18:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:18:45] Nenhuma empresa pendente para processar.
+[2026-02-04 08:19:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:19:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:19:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:19:45] Nenhuma empresa pendente para processar.
+[2026-02-04 08:20:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:20:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:20:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:20:45] Nenhuma empresa pendente para processar.
+[2026-02-04 08:21:00] Nenhuma empresa pendente para processar.
+[2026-02-04 08:21:15] Nenhuma empresa pendente para processar.
+[2026-02-04 08:21:30] Nenhuma empresa pendente para processar.
+[2026-02-04 08:21:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:22:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:22:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:22:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:22:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:23:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:23:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:23:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:23:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:24:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:24:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:24:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:24:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:25:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:25:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:25:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:25:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:26:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:26:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:26:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:26:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:27:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:27:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:27:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:27:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:28:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:28:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:28:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:28:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:29:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:29:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:29:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:29:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:30:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:30:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:30:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:30:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:31:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:31:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:31:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:31:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:32:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:32:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:32:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:32:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:33:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:33:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:33:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:33:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:34:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:34:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:34:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:34:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:35:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:35:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:35:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:35:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:36:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:36:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:36:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:36:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:37:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:37:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:37:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:37:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:38:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:38:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:38:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:38:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:39:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:39:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:39:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:39:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:40:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:40:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:40:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:40:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:41:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:41:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:41:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:41:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:42:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:42:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:42:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:42:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:43:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:43:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:43:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:43:46] Nenhuma empresa pendente para processar.
+[2026-02-04 08:44:01] Nenhuma empresa pendente para processar.
+[2026-02-04 08:44:16] Nenhuma empresa pendente para processar.
+[2026-02-04 08:44:31] Nenhuma empresa pendente para processar.
+[2026-02-04 08:44:47] Nenhuma empresa pendente para processar.
+[2026-02-04 08:45:02] Nenhuma empresa pendente para processar.
+[2026-02-04 08:45:17] Nenhuma empresa pendente para processar.
+[2026-02-04 08:45:32] Nenhuma empresa pendente para processar.
+[2026-02-04 08:45:47] Nenhuma empresa pendente para processar.
+[2026-02-04 08:46:02] Nenhuma empresa pendente para processar.
+[2026-02-04 08:46:17] Nenhuma empresa pendente para processar.
+[2026-02-04 08:46:32] Nenhuma empresa pendente para processar.
+[2026-02-04 08:46:47] Nenhuma empresa pendente para processar.
+[2026-02-04 08:47:02] Nenhuma empresa pendente para processar.
+[2026-02-04 08:47:17] Nenhuma empresa pendente para processar.
+[2026-02-04 08:47:32] Nenhuma empresa pendente para processar.
+[2026-02-04 08:47:47] Nenhuma empresa pendente para processar.
+[2026-02-04 08:48:02] Nenhuma empresa pendente para processar.
+[2026-02-04 08:48:17] Nenhuma empresa pendente para processar.
+[2026-02-04 08:48:32] Nenhuma empresa pendente para processar.
+[2026-02-04 08:48:47] Nenhuma empresa pendente para processar.
+[2026-02-04 08:49:02] Nenhuma empresa pendente para processar.
+[2026-02-04 08:49:17] Nenhuma empresa pendente para processar.
+[2026-02-04 08:49:32] Nenhuma empresa pendente para processar.
+[2026-02-04 08:49:47] Nenhuma empresa pendente para processar.
+[2026-02-04 08:50:02] Nenhuma empresa pendente para processar.
+[2026-02-04 08:50:17] Nenhuma empresa pendente para processar.
+[2026-02-04 08:50:32] Nenhuma empresa pendente para processar.
+[2026-02-04 08:50:47] Nenhuma empresa pendente para processar.
+[2026-02-04 08:51:02] Nenhuma empresa pendente para processar.
+[2026-02-04 08:51:17] Nenhuma empresa pendente para processar.
+[2026-02-04 08:51:32] Nenhuma empresa pendente para processar.
+[2026-02-04 08:51:47] Nenhuma empresa pendente para processar.
+[2026-02-04 08:52:02] Nenhuma empresa pendente para processar.
+[2026-02-04 08:52:17] Nenhuma empresa pendente para processar.
+[2026-02-04 08:52:32] Nenhuma empresa pendente para processar.
+[2026-02-04 08:52:47] Nenhuma empresa pendente para processar.
+[2026-02-04 08:53:02] Nenhuma empresa pendente para processar.
+[2026-02-04 08:53:17] Nenhuma empresa pendente para processar.
+[2026-02-04 08:53:32] Nenhuma empresa pendente para processar.
+[2026-02-04 08:53:47] Nenhuma empresa pendente para processar.
+[2026-02-04 08:54:02] Nenhuma empresa pendente para processar.
+[2026-02-04 08:54:17] Nenhuma empresa pendente para processar.
+[2026-02-04 08:54:32] Nenhuma empresa pendente para processar.
+[2026-02-04 08:54:47] Nenhuma empresa pendente para processar.
+[2026-02-04 08:55:02] Nenhuma empresa pendente para processar.
+[2026-02-04 08:55:17] Nenhuma empresa pendente para processar.
+[2026-02-04 08:55:32] Nenhuma empresa pendente para processar.
+[2026-02-04 08:55:47] Nenhuma empresa pendente para processar.
+[2026-02-04 08:56:02] Nenhuma empresa pendente para processar.
+[2026-02-04 08:56:17] Nenhuma empresa pendente para processar.
+[2026-02-04 08:56:32] Nenhuma empresa pendente para processar.
+[2026-02-04 08:56:47] Nenhuma empresa pendente para processar.
+[2026-02-04 08:57:02] Nenhuma empresa pendente para processar.
+[2026-02-04 08:57:17] Nenhuma empresa pendente para processar.
+[2026-02-04 08:57:32] Nenhuma empresa pendente para processar.
+[2026-02-04 08:57:47] Nenhuma empresa pendente para processar.
+[2026-02-04 08:58:02] Nenhuma empresa pendente para processar.
+[2026-02-04 08:58:17] Nenhuma empresa pendente para processar.
+[2026-02-04 08:58:32] Nenhuma empresa pendente para processar.
+[2026-02-04 08:58:47] Nenhuma empresa pendente para processar.
+[2026-02-04 08:59:02] Nenhuma empresa pendente para processar.
+[2026-02-04 08:59:17] Nenhuma empresa pendente para processar.
+[2026-02-04 08:59:32] Nenhuma empresa pendente para processar.
+[2026-02-04 08:59:47] Nenhuma empresa pendente para processar.
+[2026-02-04 09:00:02] Nenhuma empresa pendente para processar.
+[2026-02-04 09:00:17] Nenhuma empresa pendente para processar.
+[2026-02-04 09:00:32] Nenhuma empresa pendente para processar.
+[2026-02-04 09:00:47] Nenhuma empresa pendente para processar.
+[2026-02-04 09:01:02] Nenhuma empresa pendente para processar.
+[2026-02-04 09:01:17] Nenhuma empresa pendente para processar.
+[2026-02-04 09:01:32] Nenhuma empresa pendente para processar.
+[2026-02-04 09:01:47] Nenhuma empresa pendente para processar.
+[2026-02-04 09:02:02] Nenhuma empresa pendente para processar.
+[2026-02-04 09:02:17] Nenhuma empresa pendente para processar.
+[2026-02-04 09:02:32] Nenhuma empresa pendente para processar.
+[2026-02-04 09:02:47] Nenhuma empresa pendente para processar.
+[2026-02-04 09:03:02] Nenhuma empresa pendente para processar.
+[2026-02-04 09:03:17] Nenhuma empresa pendente para processar.
+[2026-02-04 09:03:32] Nenhuma empresa pendente para processar.
+[2026-02-04 09:03:47] Nenhuma empresa pendente para processar.
+[2026-02-04 09:04:02] Nenhuma empresa pendente para processar.
+[2026-02-04 09:04:17] Nenhuma empresa pendente para processar.
+[2026-02-04 09:04:32] Nenhuma empresa pendente para processar.
+[2026-02-04 09:04:47] Nenhuma empresa pendente para processar.
+[2026-02-04 09:05:02] Nenhuma empresa pendente para processar.
+[2026-02-04 09:05:17] Nenhuma empresa pendente para processar.
+[2026-02-04 09:05:32] Nenhuma empresa pendente para processar.
+[2026-02-04 09:05:47] Nenhuma empresa pendente para processar.
+[2026-02-04 09:06:02] Nenhuma empresa pendente para processar.
+[2026-02-04 09:06:17] Nenhuma empresa pendente para processar.
+[2026-02-04 09:06:32] Nenhuma empresa pendente para processar.
+[2026-02-04 09:06:47] Nenhuma empresa pendente para processar.
+[2026-02-04 09:07:02] Nenhuma empresa pendente para processar.
+[2026-02-04 09:07:17] Nenhuma empresa pendente para processar.
+[2026-02-04 09:07:32] Nenhuma empresa pendente para processar.
+[2026-02-04 09:07:47] Nenhuma empresa pendente para processar.
+[2026-02-04 09:08:02] Nenhuma empresa pendente para processar.
+[2026-02-04 09:08:17] Nenhuma empresa pendente para processar.
+[2026-02-04 09:08:32] Nenhuma empresa pendente para processar.
+[2026-02-04 09:08:47] Nenhuma empresa pendente para processar.
+[2026-02-04 09:09:02] Nenhuma empresa pendente para processar.
+[2026-02-04 09:09:17] Nenhuma empresa pendente para processar.
+[2026-02-04 09:09:33] Nenhuma empresa pendente para processar.
+[2026-02-04 09:09:48] Nenhuma empresa pendente para processar.
+[2026-02-04 09:10:03] Nenhuma empresa pendente para processar.
+[2026-02-04 09:10:18] Nenhuma empresa pendente para processar.
+[2026-02-04 09:10:33] Nenhuma empresa pendente para processar.
+[2026-02-04 09:10:48] Nenhuma empresa pendente para processar.
+[2026-02-04 09:11:03] Nenhuma empresa pendente para processar.
+[2026-02-04 09:11:18] Nenhuma empresa pendente para processar.
+[2026-02-04 09:11:33] Nenhuma empresa pendente para processar.
+[2026-02-04 09:11:48] Nenhuma empresa pendente para processar.
+[2026-02-04 10:15:41] Iniciando: 0 - Orquestrador ECD
+[2026-02-04 10:15:41] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-04 10:15:41] Intervalo de verificação: 15s
+[2026-02-04 10:15:41] Janelas: 08:00-11:45 e 13:30-17:50
+[2026-02-04 10:15:41] Nenhuma empresa pendente para processar.
+[2026-02-04 10:15:56] Nenhuma empresa pendente para processar.
+[2026-02-04 10:16:11] Nenhuma empresa pendente para processar.
+[2026-02-04 10:16:26] Nenhuma empresa pendente para processar.
+[2026-02-04 10:16:41] Nenhuma empresa pendente para processar.
+[2026-02-04 10:16:56] Nenhuma empresa pendente para processar.
+[2026-02-04 10:17:11] Nenhuma empresa pendente para processar.
+[2026-02-04 10:17:26] Nenhuma empresa pendente para processar.
+[2026-02-04 10:17:41] Nenhuma empresa pendente para processar.
+[2026-02-04 10:17:56] Nenhuma empresa pendente para processar.
+[2026-02-04 10:18:11] Nenhuma empresa pendente para processar.
+[2026-02-04 10:18:26] Nenhuma empresa pendente para processar.
+[2026-02-04 10:18:41] Nenhuma empresa pendente para processar.
+[2026-02-04 10:18:56] Nenhuma empresa pendente para processar.
+[2026-02-04 10:19:11] Nenhuma empresa pendente para processar.
+[2026-02-04 10:19:26] Nenhuma empresa pendente para processar.
+[2026-02-04 10:19:41] Nenhuma empresa pendente para processar.
+[2026-02-04 10:19:56] Nenhuma empresa pendente para processar.
+[2026-02-04 10:20:11] Nenhuma empresa pendente para processar.
+[2026-02-04 10:20:26] Nenhuma empresa pendente para processar.
+[2026-02-04 10:20:41] Nenhuma empresa pendente para processar.
+[2026-02-04 10:20:56] Nenhuma empresa pendente para processar.
+[2026-02-04 10:21:11] Nenhuma empresa pendente para processar.
+[2026-02-04 10:21:26] Nenhuma empresa pendente para processar.
+[2026-02-04 10:21:41] Nenhuma empresa pendente para processar.
+[2026-02-04 10:21:56] Nenhuma empresa pendente para processar.
+[2026-02-04 10:22:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:22:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:22:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:22:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:23:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:23:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:23:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:23:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:24:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:24:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:24:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:24:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:25:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:25:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:25:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:25:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:26:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:26:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:26:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:26:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:27:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:27:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:27:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:27:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:28:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:28:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:28:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:28:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:29:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:29:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:29:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:29:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:30:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:30:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:30:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:30:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:31:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:31:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:31:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:31:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:32:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:32:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:32:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:32:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:33:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:33:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:33:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:33:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:34:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:34:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:34:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:34:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:35:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:35:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:35:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:35:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:36:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:36:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:36:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:36:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:37:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:37:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:37:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:37:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:38:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:38:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:38:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:38:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:39:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:39:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:39:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:39:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:40:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:40:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:40:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:40:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:41:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:41:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:41:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:41:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:42:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:42:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:42:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:42:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:43:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:43:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:43:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:43:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:44:12] Nenhuma empresa pendente para processar.
+[2026-02-04 10:44:27] Nenhuma empresa pendente para processar.
+[2026-02-04 10:44:42] Nenhuma empresa pendente para processar.
+[2026-02-04 10:44:57] Nenhuma empresa pendente para processar.
+[2026-02-04 10:45:13] Nenhuma empresa pendente para processar.
+[2026-02-04 10:45:28] Nenhuma empresa pendente para processar.
+[2026-02-04 10:45:43] Nenhuma empresa pendente para processar.
+[2026-02-04 10:45:58] Nenhuma empresa pendente para processar.
+[2026-02-04 10:46:13] Nenhuma empresa pendente para processar.
+[2026-02-04 10:46:28] Nenhuma empresa pendente para processar.
+[2026-02-04 10:46:43] Nenhuma empresa pendente para processar.
+[2026-02-04 10:46:58] Nenhuma empresa pendente para processar.
+[2026-02-04 10:47:13] Nenhuma empresa pendente para processar.
+[2026-02-04 10:47:28] Nenhuma empresa pendente para processar.
+[2026-02-04 10:47:43] Nenhuma empresa pendente para processar.
+[2026-02-04 10:47:58] Nenhuma empresa pendente para processar.
+[2026-02-04 10:48:13] Nenhuma empresa pendente para processar.
+[2026-02-04 10:48:28] Nenhuma empresa pendente para processar.
+[2026-02-04 10:48:43] Nenhuma empresa pendente para processar.
+[2026-02-04 10:48:58] Nenhuma empresa pendente para processar.
+[2026-02-04 10:49:13] Nenhuma empresa pendente para processar.
+[2026-02-04 10:49:28] Nenhuma empresa pendente para processar.
+[2026-02-04 10:49:43] Nenhuma empresa pendente para processar.
+[2026-02-04 10:49:58] Nenhuma empresa pendente para processar.
+[2026-02-04 10:50:13] Nenhuma empresa pendente para processar.
+[2026-02-04 10:50:28] Nenhuma empresa pendente para processar.
+[2026-02-04 10:50:43] Nenhuma empresa pendente para processar.
+[2026-02-04 10:50:58] Nenhuma empresa pendente para processar.
+[2026-02-04 10:51:13] Nenhuma empresa pendente para processar.
+[2026-02-04 10:51:28] Nenhuma empresa pendente para processar.
+[2026-02-04 10:51:43] Nenhuma empresa pendente para processar.
+[2026-02-04 10:51:58] Nenhuma empresa pendente para processar.
+[2026-02-04 10:52:13] Nenhuma empresa pendente para processar.
+[2026-02-04 10:52:28] Nenhuma empresa pendente para processar.
+[2026-02-04 10:52:43] Nenhuma empresa pendente para processar.
+[2026-02-04 10:52:58] Nenhuma empresa pendente para processar.
+[2026-02-04 10:53:13] Nenhuma empresa pendente para processar.
+[2026-02-04 10:53:28] Nenhuma empresa pendente para processar.
+[2026-02-04 10:53:43] Nenhuma empresa pendente para processar.
+[2026-02-04 10:53:58] Nenhuma empresa pendente para processar.
+[2026-02-04 10:54:13] Nenhuma empresa pendente para processar.
+[2026-02-04 10:54:28] Nenhuma empresa pendente para processar.
+[2026-02-04 10:54:43] Nenhuma empresa pendente para processar.
+[2026-02-04 10:54:58] Nenhuma empresa pendente para processar.
+[2026-02-04 10:55:13] Nenhuma empresa pendente para processar.
+[2026-02-04 10:55:28] Nenhuma empresa pendente para processar.
+[2026-02-04 10:55:43] Nenhuma empresa pendente para processar.
+[2026-02-04 10:55:58] Nenhuma empresa pendente para processar.
+[2026-02-04 10:56:13] Nenhuma empresa pendente para processar.
+[2026-02-04 10:56:28] Nenhuma empresa pendente para processar.
+[2026-02-04 10:56:43] Nenhuma empresa pendente para processar.
+[2026-02-04 10:56:58] Nenhuma empresa pendente para processar.
+[2026-02-04 10:57:13] Nenhuma empresa pendente para processar.
+[2026-02-04 10:57:28] Nenhuma empresa pendente para processar.
+[2026-02-04 10:57:43] Nenhuma empresa pendente para processar.
+[2026-02-04 10:57:58] Nenhuma empresa pendente para processar.
+[2026-02-04 10:58:13] Nenhuma empresa pendente para processar.
+[2026-02-04 10:58:28] Nenhuma empresa pendente para processar.
+[2026-02-04 10:58:43] Nenhuma empresa pendente para processar.
+[2026-02-04 10:58:58] Nenhuma empresa pendente para processar.
+[2026-02-04 10:59:13] Nenhuma empresa pendente para processar.
+[2026-02-04 10:59:28] Nenhuma empresa pendente para processar.
+[2026-02-04 10:59:43] Nenhuma empresa pendente para processar.
+[2026-02-04 10:59:58] Nenhuma empresa pendente para processar.
+[2026-02-04 11:00:13] Nenhuma empresa pendente para processar.
+[2026-02-04 11:00:28] Nenhuma empresa pendente para processar.
+[2026-02-04 11:00:43] Nenhuma empresa pendente para processar.
+[2026-02-04 11:00:58] Nenhuma empresa pendente para processar.
+[2026-02-04 11:01:13] Nenhuma empresa pendente para processar.
+[2026-02-04 11:01:28] Nenhuma empresa pendente para processar.
+[2026-02-04 11:01:43] Nenhuma empresa pendente para processar.
+[2026-02-04 11:01:58] Nenhuma empresa pendente para processar.
+[2026-02-04 11:02:13] Nenhuma empresa pendente para processar.
+[2026-02-04 11:02:28] Nenhuma empresa pendente para processar.
+[2026-02-04 11:02:43] Nenhuma empresa pendente para processar.
+[2026-02-04 11:02:58] Nenhuma empresa pendente para processar.
+[2026-02-04 11:03:13] Nenhuma empresa pendente para processar.
+[2026-02-04 11:03:28] Nenhuma empresa pendente para processar.
+[2026-02-04 11:03:43] Nenhuma empresa pendente para processar.
+[2026-02-04 11:03:58] Nenhuma empresa pendente para processar.
+[2026-02-04 11:04:13] Nenhuma empresa pendente para processar.
+[2026-02-04 11:04:28] Nenhuma empresa pendente para processar.
+[2026-02-04 11:04:43] Nenhuma empresa pendente para processar.
+[2026-02-04 11:04:58] Nenhuma empresa pendente para processar.
+[2026-02-04 11:05:13] Nenhuma empresa pendente para processar.
+[2026-02-04 11:05:28] Nenhuma empresa pendente para processar.
+[2026-02-04 11:05:43] Nenhuma empresa pendente para processar.
+[2026-02-04 11:05:58] Nenhuma empresa pendente para processar.
+[2026-02-04 11:06:13] Nenhuma empresa pendente para processar.
+[2026-02-04 11:06:28] Nenhuma empresa pendente para processar.
+[2026-02-04 11:06:43] Nenhuma empresa pendente para processar.
+[2026-02-04 11:06:58] Nenhuma empresa pendente para processar.
+[2026-02-04 11:07:13] Nenhuma empresa pendente para processar.
+[2026-02-04 11:07:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:07:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:07:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:08:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:08:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:08:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:08:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:09:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:09:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:09:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:09:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:10:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:10:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:10:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:10:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:11:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:11:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:11:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:11:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:12:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:12:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:12:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:12:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:13:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:13:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:13:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:13:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:14:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:14:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:14:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:14:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:15:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:15:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:15:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:15:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:16:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:16:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:16:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:16:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:17:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:17:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:17:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:17:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:18:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:18:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:18:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:18:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:19:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:19:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:19:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:19:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:20:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:20:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:20:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:20:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:21:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:21:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:21:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:21:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:22:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:22:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:22:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:22:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:23:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:23:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:23:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:23:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:24:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:24:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:24:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:24:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:25:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:25:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:25:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:25:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:26:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:26:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:26:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:26:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:27:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:27:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:27:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:27:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:28:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:28:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:28:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:28:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:29:14] Nenhuma empresa pendente para processar.
+[2026-02-04 11:29:29] Nenhuma empresa pendente para processar.
+[2026-02-04 11:29:44] Nenhuma empresa pendente para processar.
+[2026-02-04 11:29:59] Nenhuma empresa pendente para processar.
+[2026-02-04 11:30:15] Nenhuma empresa pendente para processar.
+[2026-02-04 11:30:30] Nenhuma empresa pendente para processar.
+[2026-02-04 11:30:45] Nenhuma empresa pendente para processar.
+[2026-02-04 11:31:00] Nenhuma empresa pendente para processar.
+[2026-02-04 11:31:15] Nenhuma empresa pendente para processar.
+[2026-02-04 11:31:30] Nenhuma empresa pendente para processar.
+[2026-02-04 11:31:45] Nenhuma empresa pendente para processar.
+[2026-02-04 11:32:00] Nenhuma empresa pendente para processar.
+[2026-02-04 11:32:15] Nenhuma empresa pendente para processar.
+[2026-02-04 11:32:30] Nenhuma empresa pendente para processar.
+[2026-02-04 11:32:45] Nenhuma empresa pendente para processar.
+[2026-02-04 11:33:00] Nenhuma empresa pendente para processar.
+[2026-02-04 11:33:15] Nenhuma empresa pendente para processar.
+[2026-02-04 11:33:30] Nenhuma empresa pendente para processar.
+[2026-02-04 11:33:45] Nenhuma empresa pendente para processar.
+[2026-02-04 11:34:00] Nenhuma empresa pendente para processar.
+[2026-02-04 11:34:15] Nenhuma empresa pendente para processar.
+[2026-02-05 09:21:48] Iniciando: 0 - Orquestrador ECD
+[2026-02-05 09:21:48] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-05 09:21:48] Intervalo de verificação: 15s
+[2026-02-05 09:21:48] Janelas: 08:00-11:45 e 13:30-17:50
+[2026-02-05 09:21:48] Nenhuma empresa pendente para processar.
+[2026-02-05 09:22:03] Nenhuma empresa pendente para processar.
+[2026-02-05 09:22:18] Nenhuma empresa pendente para processar.
+[2026-02-05 09:22:33] Nenhuma empresa pendente para processar.
+[2026-02-05 09:22:48] Nenhuma empresa pendente para processar.
+[2026-02-05 09:23:03] Nenhuma empresa pendente para processar.
+[2026-02-05 09:23:10] Iniciando: 0 - Orquestrador ECD
+[2026-02-05 09:23:10] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-05 09:23:10] Intervalo de verificação: 15s
+[2026-02-05 09:23:10] Janelas: 08:00-11:45 e 13:30-17:50
+[2026-02-05 09:23:10] Nenhuma empresa pendente para processar.
+[2026-02-05 09:23:25] Nenhuma empresa pendente para processar.
+[2026-02-05 09:23:40] Nenhuma empresa pendente para processar.
+[2026-02-05 09:23:55] Nenhuma empresa pendente para processar.
+[2026-02-05 09:24:10] Nenhuma empresa pendente para processar.
+[2026-02-05 09:24:25] Nenhuma empresa pendente para processar.
+[2026-02-05 09:24:40] Janela de Contabilidade focada e maximizada.
+[2026-02-05 09:24:40] Selecionando caixa de empresa.
+[2026-02-05 09:24:41] Iniciando: 0 - Orquestrador ECD
+[2026-02-05 09:24:41] Empresa: BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-05 09:24:41] Codigo: 735
+[2026-02-05 09:24:41] DFC: nao | Simples: Normal
+[2026-02-05 09:24:41] Diretorio destino: W:\\SPEDs\\ECD\\2025\BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-05 09:24:41] Passo 1: Trocar empresa no sistema usando o codigo: 735.
+[2026-02-05 09:24:41] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-05 09:24:41] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-05 09:24:41] Passo 4: Enviar dois enters para confirmar.
+[2026-02-05 09:24:41] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-05 09:25:00] Retorno do script: 0
+[2026-02-05 09:25:00] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-05 09:25:17] Retorno do script: 0
+[2026-02-05 09:25:17] DFC falso: pulando script 3.
+[2026-02-05 09:25:17] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-05 09:34:37] Iniciando: 0 - Orquestrador ECD
+[2026-02-05 09:34:37] Arquivo de status: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\central-utils\\data\\ecd-status\\ecd_status.json
+[2026-02-05 09:34:37] Intervalo de verificação: 15s
+[2026-02-05 09:34:37] Janelas: 08:00-11:45 e 13:30-17:50
+[2026-02-05 09:34:38] Janela de Contabilidade focada e maximizada.
+[2026-02-05 09:34:38] Selecionando caixa de empresa.
+[2026-02-05 09:34:38] Iniciando: 0 - Orquestrador ECD
+[2026-02-05 09:34:38] Empresa: BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-05 09:34:38] Codigo: 735
+[2026-02-05 09:34:38] DFC: nao | Simples: Normal
+[2026-02-05 09:34:38] Diretorio destino: W:\\SPEDs\\ECD\\2025\BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-05 09:34:38] Passo 1: Trocar empresa no sistema usando o codigo: 735.
+[2026-02-05 09:34:38] Passo 2: Ir ate a aba 'contabil'.
+[2026-02-05 09:34:38] Passo 3: Selecionar a area da empresa, enviar 5 backspaces e digitar a empresa atual.
+[2026-02-05 09:34:38] Passo 4: Enviar dois enters para confirmar.
+[2026-02-05 09:34:38] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\1 - Relatório de Notas Explicativas ECD.py
+[2026-02-05 09:34:54] Retorno do script: 0
+[2026-02-05 09:34:54] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\2- Apuração das Demonstrações Contábeis para o SPED - ECD.py
+[2026-02-05 09:35:11] Retorno do script: 0
+[2026-02-05 09:35:11] DFC falso: pulando script 3.
+[2026-02-05 09:35:11] Executando: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Conjunto Processadores de ECDs\4 - Escrituração Contábil Digital (ECD).py
+[2026-02-05 09:37:58] Retorno do script: 0
+[2026-02-05 09:37:58] Finalizado (sem automacao de UI).
+[2026-02-05 09:38:13] Nenhuma empresa pendente para processar.
+[2026-02-05 09:38:28] Nenhuma empresa pendente para processar.
+[2026-02-05 09:38:43] Nenhuma empresa pendente para processar.
+[2026-02-05 09:38:58] Nenhuma empresa pendente para processar.
+[2026-02-05 09:39:13] Nenhuma empresa pendente para processar.
+[2026-02-05 09:39:28] Nenhuma empresa pendente para processar.
+[2026-02-05 09:39:43] Nenhuma empresa pendente para processar.
+[2026-02-05 09:39:58] Nenhuma empresa pendente para processar.
+[2026-02-05 09:40:13] Nenhuma empresa pendente para processar.
+[2026-02-05 09:40:28] Nenhuma empresa pendente para processar.
+[2026-02-05 09:40:43] Nenhuma empresa pendente para processar.
+[2026-02-05 09:40:58] Nenhuma empresa pendente para processar.
+[2026-02-05 09:41:13] Nenhuma empresa pendente para processar.
+[2026-02-05 09:41:28] Nenhuma empresa pendente para processar.
+[2026-02-05 09:41:43] Nenhuma empresa pendente para processar.
+[2026-02-05 09:41:58] Nenhuma empresa pendente para processar.
+[2026-02-05 09:42:13] Nenhuma empresa pendente para processar.
+[2026-02-05 09:42:28] Nenhuma empresa pendente para processar.
+[2026-02-05 09:42:43] Nenhuma empresa pendente para processar.
+[2026-02-05 09:42:58] Nenhuma empresa pendente para processar.
+[2026-02-05 09:43:13] Nenhuma empresa pendente para processar.
+[2026-02-05 09:43:28] Nenhuma empresa pendente para processar.
+[2026-02-05 09:43:43] Nenhuma empresa pendente para processar.
+[2026-02-05 09:43:58] Nenhuma empresa pendente para processar.
+[2026-02-05 09:44:13] Nenhuma empresa pendente para processar.
+[2026-02-05 09:44:28] Nenhuma empresa pendente para processar.
+[2026-02-05 09:44:43] Nenhuma empresa pendente para processar.
+[2026-02-05 09:44:58] Nenhuma empresa pendente para processar.
+[2026-02-05 09:45:13] Nenhuma empresa pendente para processar.
+[2026-02-05 09:45:28] Nenhuma empresa pendente para processar.
+[2026-02-05 09:45:43] Nenhuma empresa pendente para processar.
+[2026-02-05 09:45:58] Nenhuma empresa pendente para processar.
+[2026-02-05 09:46:13] Nenhuma empresa pendente para processar.
+[2026-02-05 09:46:28] Nenhuma empresa pendente para processar.
+[2026-02-05 09:46:43] Nenhuma empresa pendente para processar.
+[2026-02-05 09:46:58] Nenhuma empresa pendente para processar.
+[2026-02-05 09:47:13] Nenhuma empresa pendente para processar.
+[2026-02-05 09:47:28] Nenhuma empresa pendente para processar.
+[2026-02-05 09:47:43] Nenhuma empresa pendente para processar.
+[2026-02-05 09:47:58] Nenhuma empresa pendente para processar.
+[2026-02-05 09:48:13] Nenhuma empresa pendente para processar.
+[2026-02-05 09:48:28] Nenhuma empresa pendente para processar.
+[2026-02-05 09:48:43] Nenhuma empresa pendente para processar.
+[2026-02-05 09:48:58] Nenhuma empresa pendente para processar.
+[2026-02-05 09:49:13] Nenhuma empresa pendente para processar.
+[2026-02-05 09:49:28] Nenhuma empresa pendente para processar.
+[2026-02-05 09:49:43] Nenhuma empresa pendente para processar.
+[2026-02-05 09:49:58] Nenhuma empresa pendente para processar.
+[2026-02-05 09:50:13] Nenhuma empresa pendente para processar.
+[2026-02-05 09:50:28] Nenhuma empresa pendente para processar.
+[2026-02-05 09:50:43] Nenhuma empresa pendente para processar.
+[2026-02-05 09:50:58] Nenhuma empresa pendente para processar.
+[2026-02-05 09:51:13] Nenhuma empresa pendente para processar.
+[2026-02-05 09:51:28] Nenhuma empresa pendente para processar.
+[2026-02-05 09:51:43] Nenhuma empresa pendente para processar.
+[2026-02-05 09:51:58] Nenhuma empresa pendente para processar.
+[2026-02-05 09:52:13] Nenhuma empresa pendente para processar.
+[2026-02-05 09:52:28] Nenhuma empresa pendente para processar.
+[2026-02-05 09:52:43] Nenhuma empresa pendente para processar.
+[2026-02-05 09:52:58] Nenhuma empresa pendente para processar.
+[2026-02-05 09:53:13] Nenhuma empresa pendente para processar.
+[2026-02-05 09:53:28] Nenhuma empresa pendente para processar.
+[2026-02-05 09:53:44] Nenhuma empresa pendente para processar.
+[2026-02-05 09:53:59] Nenhuma empresa pendente para processar.
+[2026-02-05 09:54:14] Nenhuma empresa pendente para processar.
+[2026-02-05 09:54:29] Nenhuma empresa pendente para processar.
+[2026-02-05 09:54:44] Nenhuma empresa pendente para processar.
+[2026-02-05 09:54:59] Nenhuma empresa pendente para processar.
+[2026-02-05 09:55:14] Nenhuma empresa pendente para processar.
+[2026-02-05 09:55:29] Nenhuma empresa pendente para processar.
+[2026-02-05 09:55:44] Nenhuma empresa pendente para processar.
+[2026-02-05 09:55:59] Nenhuma empresa pendente para processar.
+[2026-02-05 09:56:14] Nenhuma empresa pendente para processar.
+[2026-02-05 09:56:29] Nenhuma empresa pendente para processar.
+[2026-02-05 09:56:44] Nenhuma empresa pendente para processar.
+[2026-02-05 09:56:59] Nenhuma empresa pendente para processar.
+[2026-02-05 09:57:14] Nenhuma empresa pendente para processar.
+[2026-02-05 09:57:29] Nenhuma empresa pendente para processar.
+[2026-02-05 09:57:44] Nenhuma empresa pendente para processar.
+[2026-02-05 09:57:59] Nenhuma empresa pendente para processar.
+[2026-02-05 09:58:14] Nenhuma empresa pendente para processar.
+[2026-02-05 09:58:29] Nenhuma empresa pendente para processar.
+[2026-02-05 09:58:44] Nenhuma empresa pendente para processar.
+[2026-02-05 09:58:59] Nenhuma empresa pendente para processar.
+[2026-02-05 09:59:14] Nenhuma empresa pendente para processar.
+[2026-02-05 09:59:29] Nenhuma empresa pendente para processar.
+[2026-02-05 09:59:44] Nenhuma empresa pendente para processar.
+[2026-02-05 09:59:59] Nenhuma empresa pendente para processar.
+[2026-02-05 10:00:14] Nenhuma empresa pendente para processar.
+[2026-02-05 10:00:29] Nenhuma empresa pendente para processar.
+[2026-02-05 10:00:44] Nenhuma empresa pendente para processar.
+[2026-02-05 10:00:59] Nenhuma empresa pendente para processar.
+[2026-02-05 10:01:14] Nenhuma empresa pendente para processar.
+[2026-02-05 10:01:29] Nenhuma empresa pendente para processar.
+[2026-02-05 10:01:44] Nenhuma empresa pendente para processar.
+[2026-02-05 10:01:59] Nenhuma empresa pendente para processar.
+[2026-02-05 10:02:14] Nenhuma empresa pendente para processar.
+[2026-02-05 10:02:29] Nenhuma empresa pendente para processar.
+[2026-02-05 10:02:44] Nenhuma empresa pendente para processar.
+[2026-02-05 10:02:59] Nenhuma empresa pendente para processar.
+[2026-02-05 10:03:14] Nenhuma empresa pendente para processar.

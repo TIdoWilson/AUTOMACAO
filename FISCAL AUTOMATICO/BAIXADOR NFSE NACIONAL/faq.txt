@@ -1,0 +1,8 @@
+chrome 9222 - apenas utilitario, não precisa rodar
+
+script 1 - pede as datas que serão buscadas
+script 2 - pega automaticamente o mes anterior ao corrente
+
+ambos mudam apenas as datas
+
+rodar o script, escolher o certificado e esperar fechar o chrome

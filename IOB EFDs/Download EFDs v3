@@ -1,0 +1,482 @@
+from pywinauto import Desktop, Application
+from datetime import datetime
+import time
+import os
+
+# =========================
+# CONFIGURAÇÕES
+# =========================
+
+# Raiz dos SPEDs (ajuste aqui se mudar a estrutura)
+BASE_SPEDS = r"W:\SPEDs\EFD CONTRIBUIÇÕES"
+
+# Valor usado no campo "Gerar por" (pode mudar aqui quando quiser)
+GERAR_POR_VALOR = "1"
+
+# Mapeamento por índice (ordem vertical dos campos Edit)
+# Índices baseados na tela:
+# 0 = Processamento
+# 1 = Mês/Ano
+# 2 = Período (de)
+# 3 = Período (até)
+# 4 = Gerar por
+# 5 = Grupo
+# 6 = Diretório Destino
+# 7 = E-mail
+IDX_PROCESSAMENTO = 0
+IDX_MES_ANO      = 1
+IDX_GERAR_POR    = 4
+IDX_GRUPO        = 5
+IDX_DIRETORIO    = 6
+
+BOTAO_GERAR_TITLE = "Gerar"
+
+CLASSE_FISCAL = "TfrmPrincipal"
+CLASSE_EFD    = "TfrmGeracaoMultiEmpresaSped"
+
+
+# =========================
+# JANELA FISCAL / EFD
+# =========================
+
+def localizar_janela_fiscal(timeout=30):
+    """
+    Localiza a janela do módulo Fiscal (classe TfrmPrincipal) com
+    'Fiscal' no título, usando backend UIA.
+    """
+    print("Procurando a janela do módulo Fiscal...")
+
+    end_time = time.time() + timeout
+    ja_listou = False
+
+    while time.time() < end_time:
+        fiscal = None
+        for w in Desktop(backend="uia").windows():
+            try:
+                titulo = w.window_text()
+                classe = w.element_info.class_name
+            except Exception:
+                continue
+
+            if classe == CLASSE_FISCAL and "Fiscal" in (titulo or ""):
+                fiscal = w
+                break
+
+        if fiscal is not None:
+            print(f"✔ Janela do módulo Fiscal encontrada: '{fiscal.window_text()}'")
+            return fiscal
+
+        if not ja_listou:
+            print("  (ainda não achei, listando algumas janelas para debug...)")
+            for w in Desktop(backend="uia").windows():
+                try:
+                    print(f"  - janela encontrada: '{w.window_text()}' (classe={w.element_info.class_name})")
+                except Exception:
+                    continue
+            ja_listou = True
+
+        time.sleep(1)
+
+    raise RuntimeError("Não consegui localizar a janela do módulo Fiscal (classe TfrmPrincipal).")
+
+
+def eh_janela_efd(win):
+    """Heurística para identificar a janela 'Geração das EFDs'."""
+    try:
+        classe = win.element_info.class_name
+    except Exception:
+        classe = None
+    try:
+        titulo = win.window_text()
+    except Exception:
+        titulo = ""
+    try:
+        ct = win.element_info.control_type
+    except Exception:
+        ct = None
+
+    if ct not in ("Window", "Pane"):
+        return False
+
+    if classe == CLASSE_EFD:
+        return True
+
+    if titulo and "Geração das EFDs" in titulo:
+        return True
+
+    return False
+
+
+def achar_janela_efd(fiscal=None):
+    """Procura a tela de EFD primeiro como filha do Fiscal, depois como top-level."""
+    if fiscal is not None:
+        try:
+            for d in fiscal.descendants():
+                if eh_janela_efd(d):
+                    return d
+        except Exception:
+            pass
+
+    try:
+        for w in Desktop(backend="uia").windows():
+            if eh_janela_efd(w):
+                return w
+    except Exception:
+        pass
+
+    return None
+
+
+def abrir_tela_efd():
+    """
+    Abre a tela 'Geração das EFDs' navegando pelo menu do módulo Fiscal,
+    usando o backend win32 (menu_select), sem intervenção manual.
+    """
+    fiscal_uia = localizar_janela_fiscal()
+    handle = fiscal_uia.handle
+
+    print("Conectando no módulo Fiscal via backend win32 para acionar o menu...")
+    app_win32 = Application(backend="win32").connect(handle=handle)
+    fiscal_win32 = app_win32.window(handle=handle)
+
+    caminhos_menu = [
+        "Módulos->Geração de Arquivos->SPED->Processamento Agrupado->Geração das EFDs",
+        "Módulos->Geracao de Arquivos->SPED->Processamento Agrupado->Geração das EFDs",
+        "Modulos->Geração de Arquivos->SPED->Processamento Agrupado->Geração das EFDs",
+    ]
+
+    executado = False
+    ultimo_erro = None
+
+    for caminho in caminhos_menu:
+        try:
+            print(f"Tentando abrir menu: {caminho}")
+            fiscal_win32.set_focus()
+            fiscal_win32.menu_select(caminho)
+            executado = True
+            print("✔ Comando de menu enviado com sucesso.")
+            break
+        except Exception as e:
+            print(f"  - Falha ao usar menu_select('{caminho}'): {e}")
+            ultimo_erro = e
+
+    if not executado:
+        raise RuntimeError(
+            f"Não consegui acionar o menu para abrir 'Geração das EFDs'. "
+            f"Último erro: {ultimo_erro}"
+        )
+
+    print("Aguardando a janela 'Geração das EFDs' aparecer...")
+    end_time = time.time() + 30
+    efd = None
+
+    while time.time() < end_time:
+        efd = achar_janela_efd(fiscal_uia)
+        if efd is not None:
+            break
+        time.sleep(1)
+
+    if efd is None:
+        raise RuntimeError("Não consegui localizar a janela 'Geração das EFDs' após usar o menu.")
+
+    if hasattr(efd, "wait"):
+        efd.wait("visible", timeout=10)
+
+    print("✔ Janela 'Geração das EFDs' localizada!")
+    return efd
+
+
+# =========================
+# MAPEAR E PREENCHER CAMPOS
+# =========================
+
+def obter_edits_ordenados(efd):
+    """Lista todos os Edit da tela, ordenados por (top, left)."""
+    edits = []
+    for d in efd.descendants():
+        try:
+            if d.element_info.control_type == "Edit":
+                edits.append(d)
+        except Exception:
+            continue
+
+    if not edits:
+        raise RuntimeError("Não encontrei nenhum campo Edit na tela de EFD.")
+
+    edits_ordenados = sorted(
+        edits,
+        key=lambda d: (getattr(d.element_info.rectangle, "top", 0),
+                       getattr(d.element_info.rectangle, "left", 0))
+    )
+
+    print("\nEncontrados campos Edit (em ordem vertical):")
+    for i, ed in enumerate(edits_ordenados):
+        try:
+            aid = ed.element_info.automation_id
+            txt = ed.window_text()
+            print(f"   [{i}] Edit auto_id={aid} text='{txt}'")
+        except Exception:
+            print(f"   [{i}] Edit (sem info legível)")
+
+    return edits_ordenados
+
+
+def pegar_edit_por_indice(edits, idx, nome):
+    if idx < len(edits):
+        ed = edits[idx]
+        try:
+            aid = ed.element_info.automation_id
+            print(f"[OK] Campo '{nome}' = Edit índice {idx} (auto_id={aid})")
+        except Exception:
+            print(f"[OK] Campo '{nome}' = Edit índice {idx}")
+        return ed
+    else:
+        print(f"[AVISO] Índice {idx} para '{nome}' está fora do número de campos ({len(edits)}).")
+        return None
+
+
+def preencher_campos_efd(efd, mes_ano, dir_destino):
+    """
+    Preenche Processamento, Mês/Ano, Gerar por, Grupo e Diretório
+    usando índices fixos na ordem dos Edits.
+    """
+    edits = obter_edits_ordenados(efd)
+
+    campo_processamento = pegar_edit_por_indice(edits, IDX_PROCESSAMENTO, "Processamento")
+    campo_mes_ano      = pegar_edit_por_indice(edits, IDX_MES_ANO,      "Mês/Ano")
+    campo_gerar_por    = pegar_edit_por_indice(edits, IDX_GERAR_POR,    "Gerar por")
+    campo_grupo        = pegar_edit_por_indice(edits, IDX_GRUPO,        "Grupo")
+    campo_diretorio    = pegar_edit_por_indice(edits, IDX_DIRETORIO,    "Diretório Destino")
+
+    print("\nPreenchendo campos...")
+
+    # Processamento = "1"
+    if campo_processamento is not None:
+        print("  - Preenchendo campo 'Processamento' com '1'...")
+        campo_processamento.set_focus()
+        time.sleep(0.2)
+        campo_processamento.type_keys("^a{BACKSPACE}")
+        campo_processamento.type_keys("2")
+    else:
+        print("[AVISO] Campo 'Processamento' não encontrado.")
+
+    # Mês/Ano
+    if campo_mes_ano is not None:
+        print(f"  - Preenchendo campo 'Mês/Ano' com '{mes_ano}'...")
+        campo_mes_ano.set_focus()
+        time.sleep(0.2)
+        campo_mes_ano.type_keys("^a{BACKSPACE}")
+        campo_mes_ano.type_keys(mes_ano, with_spaces=True)
+    else:
+        print("[AVISO] Campo 'Mês/Ano' não encontrado.")
+
+    # Gerar por
+    if campo_gerar_por is not None:
+        print(f"  - Preenchendo campo 'Gerar por' com '{GERAR_POR_VALOR}'...")
+        campo_gerar_por.set_focus()
+        time.sleep(0.2)
+        campo_gerar_por.type_keys("^a{BACKSPACE}")
+        campo_gerar_por.type_keys(GERAR_POR_VALOR)
+    else:
+        print("[AVISO] Campo 'Gerar por' não encontrado.")
+
+    # Grupo = "32"
+    if campo_grupo is not None:
+        print("  - Preenchendo campo 'Grupo' com '32'...")
+        campo_grupo.set_focus()
+        time.sleep(0.2)
+        campo_grupo.type_keys("^a{BACKSPACE}")
+        campo_grupo.type_keys("32")
+    else:
+        print("[AVISO] Campo 'Grupo' não encontrado.")
+
+    # Diretório Destino
+    if campo_diretorio is not None:
+        print(f"  - Preenchendo campo 'Diretório Destino' com '{dir_destino}'...")
+        campo_diretorio.set_focus()
+        time.sleep(0.2)
+        campo_diretorio.type_keys("^a{BACKSPACE}")
+        campo_diretorio.type_keys(dir_destino, with_spaces=True)
+    else:
+        print("[AVISO] Campo 'Diretório Destino' não encontrado.")
+
+
+# =========================
+# BOTÃO GERAR E ESPERA
+# =========================
+
+def clicar_gerar(efd):
+    """
+    Localiza e clica no botão 'Gerar'.
+    """
+    print("\nProcurando o botão 'Gerar'...")
+
+    botao = None
+    for d in efd.descendants():
+        try:
+            if d.element_info.control_type == "Button" and d.window_text() == BOTAO_GERAR_TITLE:
+                botao = d
+                break
+        except Exception:
+            continue
+
+    if botao is None:
+        print("❌ Não localizei o botão 'Gerar' pelo título. Listando botões para debug:")
+        for d in efd.descendants():
+            try:
+                ct = d.element_info.control_type
+                if ct == "Button":
+                    print(f"   - Botão: text='{d.window_text()}'  auto_id={d.element_info.automation_id}")
+            except Exception:
+                continue
+        raise RuntimeError("Botão 'Gerar' não encontrado.")
+
+    print("Clicando no botão 'Gerar'...")
+    botao.click_input()
+    return botao
+
+
+def esperar_conclusao_geracao(botao_gerar, timeout_total=120*60):
+    """
+    Usa o estado do botão 'Gerar' como indicador de andamento.
+    """
+    print("\nMonitorando o botão 'Gerar' para detectar conclusão da geração...")
+
+    t0 = time.time()
+
+    print("Aguardando o botão 'Gerar' ficar desabilitado (até 2 minutos)...")
+    desabilitou = False
+    while time.time() - t0 < 120:
+        try:
+            if not botao_gerar.is_enabled():
+                desabilitou = True
+                print("✔ Botão 'Gerar' foi desabilitado (processamento iniciado).")
+                break
+        except Exception as e:
+            print(f"Erro ao checar estado do botão 'Gerar' (fase desabilitar): {e}")
+            break
+
+        time.sleep(0.5)
+
+    if not desabilitou:
+        print("O botão 'Gerar' não foi desabilitado nesse intervalo.")
+        print("Não será usado como indicador de conclusão. Prosseguindo assim mesmo.")
+        return
+
+    print("Aguardando o botão 'Gerar' ficar habilitado novamente (até 120 minutos)...")
+    while time.time() - t0 < timeout_total:
+        try:
+            if botao_gerar.is_enabled():
+                print("✔ Botão 'Gerar' voltou a ficar habilitado. Geração concluída.")
+                return
+        except Exception as e:
+            print(f"Erro ao checar estado do botão 'Gerar' (fase habilitar): {e}")
+            break
+
+        time.sleep(5)
+
+    print("Tempo máximo de espera atingido ao monitorar o botão 'Gerar'. Prosseguindo assim mesmo.")
+
+
+# =========================
+# MONITORAR ARQUIVOS
+# =========================
+
+def listar_arquivos_txt(pasta):
+    try:
+        return [f for f in os.listdir(pasta) if f.lower().endswith(".txt")]
+    except Exception:
+        return []
+
+
+def aguardar_sem_novos_arquivos(pasta, segundos_sem_novos=240, intervalo_check=5):
+    """
+    Monitora a pasta de destino e espera até ficar 'segundos_sem_novos' sem
+    aparecimento de arquivos novos.
+    """
+    print(f"\nMonitorando a pasta '{pasta}' para novos arquivos TXT...")
+
+    conhecidos = set(listar_arquivos_txt(pasta))
+    print(f"Arquivos existentes inicialmente ({len(conhecidos)}): {sorted(conhecidos)}")
+
+    t_ultimo_novo = time.time()
+
+    while True:
+        atuais = set(listar_arquivos_txt(pasta))
+        novos = atuais - conhecidos
+
+        if novos:
+            print(f"Novos arquivos detectados: {sorted(novos)}")
+            conhecidos |= novos
+            t_ultimo_novo = time.time()
+
+        if time.time() - t_ultimo_novo >= segundos_sem_novos:
+            print(f"✔ Nenhum arquivo novo por {segundos_sem_novos} segundos. Considerando a geração concluída.")
+            break
+
+        time.sleep(intervalo_check)
+
+
+# =========================
+# MES/ANO + PASTA
+# =========================
+
+def calcular_mes_ano_e_pasta():
+    """
+    Retorna (mes_ano_str, pasta_destino) e cria a pasta se nao existir.
+    """
+    hoje = datetime.today()
+    mes = hoje.month
+    ano = hoje.year
+
+    if mes == 1:
+        mes_ref = 12
+        ano_ref = ano - 1
+    else:
+        mes_ref = mes - 1
+        ano_ref = ano
+
+    mes_ano_str = f"{mes_ref:02d}/{ano_ref}"
+    pasta_ano = str(ano_ref)
+    pasta_mes_ano = f"{mes_ref:02d}.{ano_ref}"
+
+    pasta_destino = os.path.join(BASE_SPEDS, pasta_ano, pasta_mes_ano, "AUTOMATIZADO")
+    os.makedirs(pasta_destino, exist_ok=True)
+
+    return mes_ano_str, pasta_destino
+
+
+# =========================
+# MAIN
+# =========================
+
+def main():
+    mes_ano, pasta_destino = calcular_mes_ano_e_pasta()
+    print(f"Mês/Ano detectado automaticamente (mês anterior): {mes_ano}")
+    print(f"Pasta destino calculada: {pasta_destino}")
+
+    efd = abrir_tela_efd()
+
+    preencher_campos_efd(efd, mes_ano, pasta_destino)
+
+    botao_gerar = clicar_gerar(efd)
+
+    print("\nProcesso de geração iniciado automaticamente.")
+
+    esperar_conclusao_geracao(botao_gerar)
+
+    aguardar_sem_novos_arquivos(pasta_destino, segundos_sem_novos=240, intervalo_check=5)
+
+    try:
+        fiscal = Desktop(backend="uia").window(class_name=CLASSE_FISCAL)
+        if fiscal.exists() and fiscal.is_visible():
+            print("Fechando módulo Fiscal...")
+            fiscal.close()
+    except Exception as e:
+        print(f"Não foi possível fechar o módulo Fiscal automaticamente: {e}")
+
+    print("SINAL_EFDS_CONCLUIDO")
+
+
+if __name__ == "__main__":
+    main()

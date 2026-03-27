@@ -1,0 +1,1713 @@
+[2026-01-30 10:50:33] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-01-30 10:50:33] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 10:50:33] Diretorio base esperado: W:\\SPEDs\\ECF\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 10:50:33] Aguardando 2s: preparar a tela
+[2026-01-30 10:50:35] ALT + MPA
+[2026-01-30 10:50:36] Clique: gerar saldo anterior (771, 525)
+[2026-01-30 10:50:36] Clique: excluir demonstracoes ja geradas (772, 537)
+[2026-01-30 10:50:36] Clique: ok (1172, 419)
+[2026-01-30 10:50:36] Aguardando 120s: processamento
+[2026-01-30 10:51:38] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-01-30 10:51:38] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 10:51:38] Diretorio base esperado: W:\\SPEDs\\ECF\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 10:51:38] Aguardando 2s: preparar a tela
+[2026-01-30 10:51:40] ALT + MPA
+[2026-01-30 10:51:41] Aguardando 0.1s: delay apos bind
+[2026-01-30 10:51:41] Clique: gerar saldo anterior (771, 525)
+[2026-01-30 10:51:42] Aguardando 0.01s: delay entre cliques
+[2026-01-30 10:51:42] Clique: excluir demonstracoes ja geradas (772, 537)
+[2026-01-30 10:51:42] Aguardando 0.01s: delay entre cliques
+[2026-01-30 10:51:42] Clique: ok (1172, 419)
+[2026-01-30 10:51:42] Aguardando 120s: processamento
+[2026-01-30 10:52:00] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-01-30 10:52:00] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 10:52:00] Diretorio base esperado: W:\\SPEDs\\ECF\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 10:52:00] Aguardando 2s: preparar a tela
+[2026-01-30 10:52:02] ALT + MPA
+[2026-01-30 10:52:03] Aguardando 0.1s: delay apos bind
+[2026-01-30 10:52:03] Clique: gerar saldo anterior (771, 525)
+[2026-01-30 10:52:03] Aguardando 0.01s: delay entre cliques
+[2026-01-30 10:52:03] Clique: excluir demonstracoes ja geradas (772, 537)
+[2026-01-30 10:52:03] Aguardando 0.01s: delay entre cliques
+[2026-01-30 10:52:03] Clique: ok (1172, 419)
+[2026-01-30 10:52:03] Aguardando 120s: processamento
+[2026-01-30 10:54:03] Clique: pos-processo 1 (1042, 598)
+[2026-01-30 10:54:03] Aguardando 0.01s: delay entre cliques
+[2026-01-30 10:54:03] Clique: pos-processo 2 (1218, 382)
+[2026-01-30 10:54:03] Aguardando 1s: finalizacao
+[2026-01-30 10:54:04] Finalizado.
+[2026-01-30 11:24:41] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-01-30 11:24:41] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 11:24:41] Diretorio base esperado: W:\\SPEDs\\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 11:24:41] Aguardando 2s: preparar a tela
+[2026-01-30 11:24:43] ALT + MPA
+[2026-01-30 11:24:49] Checkbox 'Gerar Saldo Anterior' (TCRDCheckBox2) nao localizado/legivel.
+[2026-01-30 11:24:54] Checkbox 'Excluir Demonstracoes' (TCRDCheckBox3) nao localizado/legivel.
+[2026-01-30 11:24:59] Checkbox 'Mensal' (TCRDCheckBox7) nao localizado/legivel.
+[2026-01-30 11:25:04] Checkbox 'Anual' (TCRDCheckBox5) nao localizado/legivel.
+[2026-01-30 11:25:05] Aguardando 0.1s: delay apos bind
+[2026-01-30 11:25:05] Clique: ok (1172, 419)
+[2026-01-30 11:25:05] Aguardando 120s: processamento
+[2026-01-30 11:27:05] Clique: pos-processo 1 (1042, 598)
+[2026-01-30 11:27:05] Aguardando 0.01s: delay entre cliques
+[2026-01-30 11:27:05] Clique: pos-processo 2 (1218, 382)
+[2026-01-30 11:27:05] Aguardando 1s: finalizacao
+[2026-01-30 11:27:06] Finalizado.
+[2026-01-30 11:32:52] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-01-30 11:32:52] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 11:32:52] Diretorio base esperado: W:\\SPEDs\\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 11:32:52] Aguardando 2s: preparar a tela
+[2026-01-30 11:32:54] ALT + MPA
+[2026-01-30 11:32:55] Checkbox 'Gerar Saldo Anterior' (TCRDCheckBox2) nao localizado/legivel.
+[2026-01-30 11:32:56] Checkbox 'Excluir Demonstracoes' (TCRDCheckBox3) nao localizado/legivel.
+[2026-01-30 11:32:56] Checkbox 'Mensal' (TCRDCheckBox7) nao localizado/legivel.
+[2026-01-30 11:32:56] Checkbox 'Anual' (TCRDCheckBox5) nao localizado/legivel.
+[2026-01-30 11:32:57] Aguardando 0.1s: delay apos bind
+[2026-01-30 11:32:57] Clique: ok (1172, 419)
+[2026-01-30 11:37:57] Timeout aguardando aviso (300s).
+[2026-01-30 11:37:57] Clique: pos-processo 1 (1042, 598)
+[2026-01-30 11:37:57] Aguardando 0.01s: delay entre cliques
+[2026-01-30 11:37:57] Clique: pos-processo 2 (1218, 382)
+[2026-01-30 11:37:57] Aguardando 1s: finalizacao
+[2026-01-30 11:37:58] Finalizado.
+[2026-01-30 11:40:43] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-01-30 11:40:43] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 11:40:43] Diretorio base esperado: W:\\SPEDs\\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 11:40:43] Aguardando 2s: preparar a tela
+[2026-01-30 11:40:45] ALT + MPA
+[2026-01-30 11:40:46] Checkbox 'Gerar Saldo Anterior' (TCRDCheckBox2) nao localizado/legivel.
+[2026-01-30 11:40:46] Checkboxes detectados: CRDMenuPersonalizado | Barra de Atalhos | 28/01/2026 | 1 | 77 | Acesso Rápido | Avisos | IOB Plataforma Contábil | IOB Plataforma Contábil   | Acesso Rápido |   Acesso Rápido
+[2026-01-30 11:40:46] Checkbox 'Excluir Demonstracoes' (TCRDCheckBox3) nao localizado/legivel.
+[2026-01-30 11:40:46] Checkboxes detectados: CRDMenuPersonalizado | Barra de Atalhos | 28/01/2026 | 1 | 77 | Acesso Rápido | Avisos | IOB Plataforma Contábil | IOB Plataforma Contábil   | Acesso Rápido |   Acesso Rápido
+[2026-01-30 11:40:46] Checkbox 'Mensal' (TCRDCheckBox7) nao localizado/legivel.
+[2026-01-30 11:40:46] Checkboxes detectados: CRDMenuPersonalizado | Barra de Atalhos | 28/01/2026 | 1 | 77 | Acesso Rápido | Avisos | IOB Plataforma Contábil | IOB Plataforma Contábil   | Acesso Rápido |   Acesso Rápido
+[2026-01-30 11:40:46] Checkbox 'Anual' (TCRDCheckBox5) nao localizado/legivel.
+[2026-01-30 11:40:46] Checkboxes detectados: CRDMenuPersonalizado | Barra de Atalhos | 28/01/2026 | 1 | 77 | Acesso Rápido | Avisos | IOB Plataforma Contábil | IOB Plataforma Contábil   | Acesso Rápido |   Acesso Rápido
+[2026-01-30 11:40:47] Aguardando 0.1s: delay apos bind
+[2026-01-30 11:40:47] Clique: ok (1172, 419)
+[2026-01-30 11:40:58] Empresa vazia. Encerrando.
+[2026-01-30 11:41:05] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-01-30 11:41:05] Empresa: A
+[2026-01-30 11:41:05] Diretorio base esperado: W:\\SPEDs\\ECD\2025\A
+[2026-01-30 11:41:05] Aguardando 2s: preparar a tela
+[2026-01-30 11:41:07] ALT + MPA
+[2026-01-30 11:41:08] Checkbox 'Gerar Saldo Anterior' (TCRDCheckBox2) nao localizado/legivel.
+[2026-01-30 11:41:08] Checkboxes detectados: CRDMenuPersonalizado | Apuração das Demonstrações Contábeis para o SPED | &Sair | &Ajuda | &Cancelar | &OK | Abertura da Empresa Diferente de Janeiro no Ano Anterior | Gerar Saldo Anterior (Saldo de Balanço) | Excluir Demonstrações já Geradas nesse Exercício | Geração do Balanço Patrimonial / DRE | Semestral | Anual | Trimestral | Mensal | Gerar Contas com Saldo Zero |  Menu Interativo | Barra de Atalhos | 28/01/2026 | 1 | 77 | Acesso Rápido | Avisos | IOB Plataforma Contábil | IOB Plataforma Contábil   | Acesso Rápido |   Acesso Rápido
+[2026-01-30 11:41:08] Checkbox 'Excluir Demonstracoes' (TCRDCheckBox3) nao localizado/legivel.
+[2026-01-30 11:41:08] Checkboxes detectados: CRDMenuPersonalizado | Apuração das Demonstrações Contábeis para o SPED | &Sair | &Ajuda | &Cancelar | &OK | Abertura da Empresa Diferente de Janeiro no Ano Anterior | Gerar Saldo Anterior (Saldo de Balanço) | Excluir Demonstrações já Geradas nesse Exercício | Geração do Balanço Patrimonial / DRE | Semestral | Anual | Trimestral | Mensal | Gerar Contas com Saldo Zero |  Menu Interativo | Barra de Atalhos | 28/01/2026 | 1 | 77 | Acesso Rápido | Avisos | IOB Plataforma Contábil | IOB Plataforma Contábil   | Acesso Rápido |   Acesso Rápido
+[2026-01-30 11:41:08] Checkbox 'Mensal' ja esta desmarcado.
+[2026-01-30 11:41:08] Ajustando checkbox 'Anual' para marcado.
+[2026-01-30 11:41:09] Aguardando 0.1s: delay apos bind
+[2026-01-30 11:41:09] Clique: ok (1172, 419)
+[2026-01-30 11:44:37] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-01-30 11:44:37] Empresa: agaga
+[2026-01-30 11:44:37] Diretorio base esperado: W:\\SPEDs\\ECD\2025\agaga
+[2026-01-30 11:44:37] Aguardando 2s: preparar a tela
+[2026-01-30 11:44:39] ALT + MPA
+[2026-01-30 11:44:41] Checkbox 'Gerar Saldo Anterior' (TCRDCheckBox2) nao localizado/legivel.
+[2026-01-30 11:44:41] Checkboxes detectados: Windows.UI.Composition.DesktopWindowContentBridge='DesktopWindowXamlSource'
+[2026-01-30 11:44:41] Checkbox 'Excluir Demonstracoes' (TCRDCheckBox3) nao localizado/legivel.
+[2026-01-30 11:44:41] Checkboxes detectados: Windows.UI.Composition.DesktopWindowContentBridge='DesktopWindowXamlSource'
+[2026-01-30 11:44:41] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-01-30 11:44:41] Ajustando checkbox 'Mensal' para desmarcado.
+[2026-01-30 11:44:41] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-01-30 11:44:41] Ajustando checkbox 'Anual' para marcado.
+[2026-01-30 11:44:42] Aguardando 0.1s: delay apos bind
+[2026-01-30 11:44:42] Clique: ok (1172, 419)
+[2026-01-30 11:45:16] Aviso do Sistema localizado.
+[2026-01-30 11:45:16] Clique: pos-processo 1 (1042, 598)
+[2026-01-30 11:45:16] Aguardando 0.01s: delay entre cliques
+[2026-01-30 11:45:16] Clique: pos-processo 2 (1218, 382)
+[2026-01-30 11:45:17] Aguardando 1s: finalizacao
+[2026-01-30 11:45:18] Finalizado.
+[2026-01-30 11:46:40] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-01-30 11:46:40] Empresa: caca
+[2026-01-30 11:46:40] Diretorio base esperado: W:\\SPEDs\\ECD\2025\caca
+[2026-01-30 11:46:40] Aguardando 2s: preparar a tela
+[2026-01-30 11:46:42] ALT + MPA
+[2026-01-30 11:46:43] Checkbox 'Gerar Saldo Anterior' (TCRDCheckBox2) nao localizado/legivel.
+[2026-01-30 11:46:43] Checkbox 'Excluir Demonstracoes' (TCRDCheckBox3) nao localizado/legivel.
+[2026-01-30 11:46:43] Checkbox 'Mensal' (TCRDCheckBox7) nao localizado/legivel.
+[2026-01-30 11:46:43] Checkbox 'Anual' (TCRDCheckBox5) nao localizado/legivel.
+[2026-01-30 11:46:43] Aguardando 0.1s: delay apos bind
+[2026-01-30 11:46:44] Clique: ok (1172, 419)
+[2026-01-30 11:51:44] Timeout aguardando aviso (300s).
+[2026-01-30 11:51:44] Clique: pos-processo 1 (1042, 598)
+[2026-01-30 11:51:44] Aguardando 0.01s: delay entre cliques
+[2026-01-30 11:51:44] Clique: pos-processo 2 (1218, 382)
+[2026-01-30 11:51:44] Aguardando 1s: finalizacao
+[2026-01-30 11:51:45] Finalizado.
+[2026-01-30 11:52:56] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-01-30 11:52:56] Empresa: caca
+[2026-01-30 11:52:56] Diretorio base esperado: W:\\SPEDs\\ECD\2025\caca
+[2026-01-30 11:52:56] Aguardando 2s: preparar a tela
+[2026-01-30 11:52:58] ALT + MPA
+[2026-01-30 11:53:00] Checkbox 'Gerar Saldo Anterior' (TCRDCheckBox2) nao localizado/legivel.
+[2026-01-30 11:53:00] Checkbox 'Excluir Demonstracoes' (TCRDCheckBox3) nao localizado/legivel.
+[2026-01-30 11:53:00] Checkbox 'Mensal' (TCRDCheckBox7) nao localizado/legivel.
+[2026-01-30 11:53:00] Checkbox 'Anual' (TCRDCheckBox5) nao localizado/legivel.
+[2026-01-30 11:53:00] Aguardando 0.1s: delay apos bind
+[2026-01-30 11:53:00] Clique: ok (1172, 419)
+[2026-01-30 11:58:01] Timeout aguardando aviso (300s).
+[2026-01-30 11:58:01] Clique: pos-processo 1 (1042, 598)
+[2026-01-30 11:58:01] Aguardando 0.01s: delay entre cliques
+[2026-01-30 11:58:01] Clique: pos-processo 2 (1218, 382)
+[2026-01-30 11:58:01] Aguardando 1s: finalizacao
+[2026-01-30 11:58:02] Finalizado.
+[2026-01-30 13:34:35] Clique: clique inicial (1000, 8000)
+[2026-01-30 13:34:35] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-01-30 13:34:36] Empresa: --sem-ok
+[2026-01-30 13:34:36] Diretorio base esperado: W:\\SPEDs\\ECD\2025\--sem-ok
+[2026-01-30 13:34:36] Aguardando 2s: preparar a tela
+[2026-01-30 13:34:38] ALT + MPA
+[2026-01-30 13:34:39] Checkbox 'Gerar Saldo Anterior' (TCRDCheckBox2) nao localizado/legivel.
+[2026-01-30 13:34:39] Checkbox 'Excluir Demonstracoes' (TCRDCheckBox3) nao localizado/legivel.
+[2026-01-30 13:34:39] Checkbox 'Mensal' (TCRDCheckBox7) nao localizado/legivel.
+[2026-01-30 13:34:40] Checkbox 'Anual' (TCRDCheckBox5) nao localizado/legivel.
+[2026-01-30 13:34:40] Modo sem OK ativo. Encerrando antes do clique no OK.
+[2026-01-30 13:34:50] Clique: clique inicial (1000, 8000)
+[2026-01-30 13:34:50] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-01-30 13:34:50] Empresa: --sem-ok
+[2026-01-30 13:34:50] Diretorio base esperado: W:\\SPEDs\\ECD\2025\--sem-ok
+[2026-01-30 13:34:50] Aguardando 2s: preparar a tela
+[2026-01-30 13:34:52] ALT + MPA
+[2026-01-30 13:34:54] Checkbox 'Gerar Saldo Anterior' (TCRDCheckBox2) nao localizado/legivel.
+[2026-01-30 13:34:54] Checkbox 'Excluir Demonstracoes' (TCRDCheckBox3) nao localizado/legivel.
+[2026-01-30 13:34:54] Checkbox 'Mensal' (TCRDCheckBox7) nao localizado/legivel.
+[2026-01-30 13:34:54] Checkbox 'Anual' (TCRDCheckBox5) nao localizado/legivel.
+[2026-01-30 13:34:54] Modo sem OK ativo. Encerrando antes do clique no OK.
+[2026-01-30 13:36:25] Clique: clique inicial (401, 463)
+[2026-01-30 13:36:25] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-01-30 13:36:25] Empresa: --sem-ok
+[2026-01-30 13:36:25] Diretorio base esperado: W:\\SPEDs\\ECD\2025\--sem-ok
+[2026-01-30 13:36:25] Aguardando 2s: preparar a tela
+[2026-01-30 13:36:27] ALT + MPA
+[2026-01-30 13:36:28] Checkbox 'Gerar Saldo Anterior' (TCRDCheckBox2) nao localizado/legivel.
+[2026-01-30 13:36:28] Checkbox 'Excluir Demonstracoes' (TCRDCheckBox3) nao localizado/legivel.
+[2026-01-30 13:36:28] Checkbox 'Mensal' (TCRDCheckBox7) nao localizado/legivel.
+[2026-01-30 13:36:28] Checkbox 'Anual' (TCRDCheckBox5) nao localizado/legivel.
+[2026-01-30 13:36:29] Modo sem OK ativo. Encerrando antes do clique no OK.
+[2026-01-30 13:38:13] Clique: clique inicial (401, 463)
+[2026-01-30 13:38:13] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-01-30 13:38:13] Empresa: --sem-ok
+[2026-01-30 13:38:13] Diretorio base esperado: W:\\SPEDs\\ECD\2025\--sem-ok
+[2026-01-30 13:38:13] Aguardando 2s: preparar a tela
+[2026-01-30 13:38:16] ALT + MPA
+[2026-01-30 13:38:17] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-01-30 13:38:17] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-01-30 13:38:17] Checkbox 'Excluir Demonstracoes' (TCRDCheckBox3) nao localizado/legivel.
+[2026-01-30 13:38:17] Checkboxes detectados: TCRDCheckBox='Abertura da Empresa Diferente de Janeiro no Ano Anterior' | TCRDCheckBox='Gerar Saldo Anterior (Saldo de Balanço)' | TCRDCheckBox='Excluir Demonstrações já Geradas nesse Exercício' | TCRDCheckBox='Semestral' | TCRDCheckBox='Anual' | TCRDCheckBox='Trimestral' | TCRDCheckBox='Mensal' | TCRDCheckBox='Gerar Contas com Saldo Zero'
+[2026-01-30 13:38:17] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-01-30 13:38:17] Ajustando checkbox 'Mensal' para desmarcado.
+[2026-01-30 13:38:18] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-01-30 13:38:18] Ajustando checkbox 'Anual' para marcado.
+[2026-01-30 13:38:18] Modo sem OK ativo. Encerrando antes do clique no OK.
+[2026-01-30 13:39:06] Clique: clique inicial (401, 463)
+[2026-01-30 13:39:06] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-01-30 13:39:06] Empresa: --sem-ok
+[2026-01-30 13:39:06] Diretorio base esperado: W:\\SPEDs\\ECD\2025\--sem-ok
+[2026-01-30 13:39:06] Aguardando 2s: preparar a tela
+[2026-01-30 13:39:08] ALT + MPA
+[2026-01-30 13:39:09] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-01-30 13:39:09] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-01-30 13:39:10] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-01-30 13:39:10] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-01-30 13:39:10] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-01-30 13:39:10] Ajustando checkbox 'Mensal' para desmarcado.
+[2026-01-30 13:39:11] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-01-30 13:39:11] Ajustando checkbox 'Anual' para marcado.
+[2026-01-30 13:39:11] Modo sem OK ativo. Encerrando antes do clique no OK.
+[2026-01-30 13:41:23] Clique: clique inicial (401, 463)
+[2026-01-30 13:41:23] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-01-30 13:41:23] Empresa: caca
+[2026-01-30 13:41:23] Diretorio base esperado: W:\\SPEDs\\ECD\2025\caca
+[2026-01-30 13:41:23] Aguardando 2s: preparar a tela
+[2026-01-30 13:41:25] ALT + MPA
+[2026-01-30 13:41:27] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-01-30 13:41:27] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-01-30 13:41:27] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-01-30 13:41:27] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-01-30 13:41:27] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-01-30 13:41:27] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-01-30 13:41:27] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-01-30 13:41:27] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-01-30 13:41:27] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-01-30 13:41:27] Ajustando checkbox 'Mensal' para desmarcado.
+[2026-01-30 13:41:28] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-01-30 13:41:28] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-01-30 13:41:28] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-01-30 13:41:28] Checkbox 'Semestral' ja esta desmarcado.
+[2026-01-30 13:41:28] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-01-30 13:41:28] Ajustando checkbox 'Anual' para marcado.
+[2026-01-30 13:41:28] Aguardando 0.1s: delay apos bind
+[2026-01-30 13:41:29] Clique: ok (1172, 419)
+[2026-01-30 13:42:00] Aviso do Sistema localizado.
+[2026-01-30 13:42:00] Clique: pos-processo 1 (1042, 598)
+[2026-01-30 13:42:01] Aguardando 0.01s: delay entre cliques
+[2026-01-30 13:42:01] Clique: pos-processo 2 (1218, 382)
+[2026-01-30 13:42:01] Aguardando 1s: finalizacao
+[2026-01-30 13:42:02] Finalizado.
+[2026-02-02 14:01:00] Clique: clique inicial (401, 463)
+[2026-02-02 14:01:00] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-02 14:01:00] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:01:00] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:01:00] Aguardando 2s: preparar a tela
+[2026-02-02 14:01:02] ALT + MPA
+[2026-02-02 14:01:03] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-02 14:01:03] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-02 14:01:03] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-02 14:01:03] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-02 14:01:04] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-02 14:01:04] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-02 14:01:04] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-02 14:01:04] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-02 14:01:04] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-02 14:01:04] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-02 14:01:04] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-02 14:01:04] Ajustando checkbox 'Trimestral' para desmarcado.
+[2026-02-02 14:01:04] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-02 14:01:04] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-02 14:01:04] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-02 14:01:04] Ajustando checkbox 'Anual' para marcado.
+[2026-02-02 14:01:04] Aguardando 0.1s: delay apos bind
+[2026-02-02 14:01:04] Clique: ok (1172, 419)
+[2026-02-02 14:01:13] Aviso do Sistema localizado.
+[2026-02-02 14:01:13] Clique: pos-processo 1 (1042, 598)
+[2026-02-02 14:01:13] Aguardando 0.01s: delay entre cliques
+[2026-02-02 14:01:13] Clique: pos-processo 2 (1218, 382)
+[2026-02-02 14:01:13] Aguardando 1s: finalizacao
+[2026-02-02 14:01:14] Finalizado.
+[2026-02-02 14:09:36] Clique: clique inicial (401, 463)
+[2026-02-02 14:09:37] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-02 14:09:37] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:09:37] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:09:37] Aguardando 2s: preparar a tela
+[2026-02-02 14:09:39] ALT + MPA
+[2026-02-02 14:09:40] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-02 14:09:40] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-02 14:09:40] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-02 14:09:40] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-02 14:09:41] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-02 14:09:41] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-02 14:09:41] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-02 14:09:41] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-02 14:09:41] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-02 14:09:41] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-02 14:09:41] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-02 14:09:41] Ajustando checkbox 'Trimestral' para desmarcado.
+[2026-02-02 14:09:41] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-02 14:09:41] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-02 14:09:41] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-02 14:09:41] Ajustando checkbox 'Anual' para marcado.
+[2026-02-02 14:09:41] Aguardando 0.1s: delay apos bind
+[2026-02-02 14:09:41] Clique: ok (1172, 419)
+[2026-02-02 14:09:50] Aviso do Sistema localizado.
+[2026-02-02 14:09:50] Clique: pos-processo 1 (1042, 598)
+[2026-02-02 14:09:50] Aguardando 0.01s: delay entre cliques
+[2026-02-02 14:09:50] Clique: pos-processo 2 (1218, 382)
+[2026-02-02 14:09:50] Aguardando 1s: finalizacao
+[2026-02-02 14:09:51] Finalizado.
+[2026-02-02 14:25:22] Clique: clique inicial (401, 463)
+[2026-02-02 14:25:22] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-02 14:25:22] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:25:22] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:25:22] Aguardando 2s: preparar a tela
+[2026-02-02 14:25:24] ALT + MPA
+[2026-02-02 14:25:26] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-02 14:25:26] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-02 14:25:26] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-02 14:25:26] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-02 14:25:26] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-02 14:25:26] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-02 14:25:26] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-02 14:25:26] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-02 14:25:26] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-02 14:25:26] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-02 14:25:26] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-02 14:25:26] Ajustando checkbox 'Trimestral' para desmarcado.
+[2026-02-02 14:25:26] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-02 14:25:26] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-02 14:25:26] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-02 14:25:26] Ajustando checkbox 'Anual' para marcado.
+[2026-02-02 14:25:26] Aguardando 0.1s: delay apos bind
+[2026-02-02 14:25:26] Clique: ok (1172, 419)
+[2026-02-02 14:25:35] Aviso do Sistema localizado.
+[2026-02-02 14:25:35] Clique: pos-processo 1 (1042, 598)
+[2026-02-02 14:25:35] Aguardando 0.01s: delay entre cliques
+[2026-02-02 14:25:35] Clique: pos-processo 2 (1218, 382)
+[2026-02-02 14:25:36] Aguardando 1s: finalizacao
+[2026-02-02 14:25:37] Finalizado.
+[2026-02-02 14:26:47] Clique: clique inicial (401, 463)
+[2026-02-02 14:26:47] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-02 14:26:47] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:26:47] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:26:47] Aguardando 2s: preparar a tela
+[2026-02-02 14:26:49] ALT + MPA
+[2026-02-02 14:26:51] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-02 14:26:51] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-02 14:26:51] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-02 14:26:51] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-02 14:26:51] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-02 14:26:51] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-02 14:26:51] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-02 14:26:51] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-02 14:26:51] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-02 14:26:51] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-02 14:26:51] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-02 14:26:51] Ajustando checkbox 'Trimestral' para desmarcado.
+[2026-02-02 14:26:52] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-02 14:26:52] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-02 14:26:52] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-02 14:26:52] Ajustando checkbox 'Anual' para marcado.
+[2026-02-02 14:26:52] Aguardando 0.1s: delay apos bind
+[2026-02-02 14:26:52] Clique: ok (1172, 419)
+[2026-02-02 14:27:01] Aviso do Sistema localizado.
+[2026-02-02 14:27:01] Clique: pos-processo 1 (1042, 598)
+[2026-02-02 14:27:01] Aguardando 0.01s: delay entre cliques
+[2026-02-02 14:27:01] Clique: pos-processo 2 (1218, 382)
+[2026-02-02 14:27:01] Aguardando 1s: finalizacao
+[2026-02-02 14:27:02] Finalizado.
+[2026-02-02 14:42:33] Clique: clique inicial (401, 463)
+[2026-02-02 14:42:33] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-02 14:42:33] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:42:33] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:42:33] Aguardando 2s: preparar a tela
+[2026-02-02 14:42:35] ALT + MPA
+[2026-02-02 14:42:37] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-02 14:42:37] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-02 14:42:37] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-02 14:42:37] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-02 14:42:37] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-02 14:42:37] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-02 14:42:37] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-02 14:42:37] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-02 14:42:37] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-02 14:42:37] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-02 14:42:37] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-02 14:42:37] Ajustando checkbox 'Trimestral' para desmarcado.
+[2026-02-02 14:42:38] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-02 14:42:38] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-02 14:42:38] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-02 14:42:38] Ajustando checkbox 'Anual' para marcado.
+[2026-02-02 14:42:38] Aguardando 0.1s: delay apos bind
+[2026-02-02 14:42:38] Clique: ok (1172, 419)
+[2026-02-02 14:42:47] Aviso do Sistema localizado.
+[2026-02-02 14:42:47] Clique: pos-processo 1 (1042, 598)
+[2026-02-02 14:42:47] Aguardando 0.01s: delay entre cliques
+[2026-02-02 14:42:47] Clique: pos-processo 2 (1218, 382)
+[2026-02-02 14:42:47] Aguardando 1s: finalizacao
+[2026-02-02 14:42:48] Finalizado.
+[2026-02-02 14:45:20] Clique: clique inicial (401, 463)
+[2026-02-02 14:45:20] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-02 14:45:20] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:45:20] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:45:20] Aguardando 2s: preparar a tela
+[2026-02-02 14:45:22] ALT + MPA
+[2026-02-02 14:45:24] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-02 14:45:24] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-02 14:45:24] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-02 14:45:24] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-02 14:45:24] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-02 14:45:24] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-02 14:45:24] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-02 14:45:24] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-02 14:45:24] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-02 14:45:24] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-02 14:45:24] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-02 14:45:24] Ajustando checkbox 'Trimestral' para desmarcado.
+[2026-02-02 14:45:24] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-02 14:45:24] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-02 14:45:24] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-02 14:45:24] Ajustando checkbox 'Anual' para marcado.
+[2026-02-02 14:45:25] Aguardando 0.1s: delay apos bind
+[2026-02-02 14:45:25] Clique: ok (1172, 419)
+[2026-02-02 14:45:33] Aviso do Sistema localizado.
+[2026-02-02 14:45:34] Clique: pos-processo 1 (1042, 598)
+[2026-02-02 14:45:34] Aguardando 0.01s: delay entre cliques
+[2026-02-02 14:45:34] Clique: pos-processo 2 (1218, 382)
+[2026-02-02 14:45:34] Aguardando 1s: finalizacao
+[2026-02-02 14:45:35] Finalizado.
+[2026-02-02 15:01:05] Clique: clique inicial (401, 463)
+[2026-02-02 15:01:05] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-02 15:01:05] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:01:05] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:01:05] Aguardando 2s: preparar a tela
+[2026-02-02 15:01:07] ALT + MPA
+[2026-02-02 15:01:09] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-02 15:01:09] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-02 15:01:09] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-02 15:01:09] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-02 15:01:09] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-02 15:01:09] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-02 15:01:09] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-02 15:01:09] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-02 15:01:09] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-02 15:01:09] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-02 15:01:09] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-02 15:01:09] Ajustando checkbox 'Trimestral' para desmarcado.
+[2026-02-02 15:01:10] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-02 15:01:10] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-02 15:01:10] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-02 15:01:10] Ajustando checkbox 'Anual' para marcado.
+[2026-02-02 15:01:10] Aguardando 0.1s: delay apos bind
+[2026-02-02 15:01:10] Clique: ok (1172, 419)
+[2026-02-02 15:01:18] Aviso do Sistema localizado.
+[2026-02-02 15:01:19] Clique: pos-processo 1 (1042, 598)
+[2026-02-02 15:01:19] Aguardando 0.01s: delay entre cliques
+[2026-02-02 15:01:19] Clique: pos-processo 2 (1218, 382)
+[2026-02-02 15:01:19] Aguardando 1s: finalizacao
+[2026-02-02 15:01:20] Finalizado.
+[2026-02-02 15:16:51] Clique: clique inicial (401, 463)
+[2026-02-02 15:16:51] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-02 15:16:51] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:16:51] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:16:51] Aguardando 2s: preparar a tela
+[2026-02-02 15:16:53] ALT + MPA
+[2026-02-02 15:16:54] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-02 15:16:54] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-02 15:16:54] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-02 15:16:54] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-02 15:16:55] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-02 15:16:55] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-02 15:16:55] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-02 15:16:55] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-02 15:16:55] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-02 15:16:55] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-02 15:16:55] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-02 15:16:55] Ajustando checkbox 'Trimestral' para desmarcado.
+[2026-02-02 15:16:55] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-02 15:16:55] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-02 15:16:55] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-02 15:16:55] Ajustando checkbox 'Anual' para marcado.
+[2026-02-02 15:16:55] Aguardando 0.1s: delay apos bind
+[2026-02-02 15:16:55] Clique: ok (1172, 419)
+[2026-02-02 15:17:04] Aviso do Sistema localizado.
+[2026-02-02 15:17:04] Clique: pos-processo 1 (1042, 598)
+[2026-02-02 15:17:04] Aguardando 0.01s: delay entre cliques
+[2026-02-02 15:17:04] Clique: pos-processo 2 (1218, 382)
+[2026-02-02 15:17:04] Aguardando 1s: finalizacao
+[2026-02-02 15:17:05] Finalizado.
+[2026-02-02 15:24:44] Clique: clique inicial (401, 463)
+[2026-02-02 15:24:44] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-02 15:24:44] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:24:44] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:24:44] Aguardando 2s: preparar a tela
+[2026-02-02 15:24:46] ALT + MPA
+[2026-02-02 15:24:48] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-02 15:24:48] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-02 15:24:48] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-02 15:24:48] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-02 15:24:48] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-02 15:24:48] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-02 15:24:48] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-02 15:24:48] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-02 15:24:48] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-02 15:24:48] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-02 15:24:48] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-02 15:24:48] Ajustando checkbox 'Trimestral' para desmarcado.
+[2026-02-02 15:24:48] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-02 15:24:48] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-02 15:24:48] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-02 15:24:48] Ajustando checkbox 'Anual' para marcado.
+[2026-02-02 15:24:48] Aguardando 0.1s: delay apos bind
+[2026-02-02 15:24:48] Clique: ok (1172, 419)
+[2026-02-02 15:24:57] Aviso do Sistema localizado.
+[2026-02-02 15:24:57] Clique: pos-processo 1 (1042, 598)
+[2026-02-02 15:24:57] Aguardando 0.01s: delay entre cliques
+[2026-02-02 15:24:58] Clique: pos-processo 2 (1218, 382)
+[2026-02-02 15:24:58] Aguardando 1s: finalizacao
+[2026-02-02 15:24:59] Finalizado.
+[2026-02-02 15:32:53] Clique: clique inicial (401, 463)
+[2026-02-02 15:32:53] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-02 15:32:53] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:32:53] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:32:53] Aguardando 2s: preparar a tela
+[2026-02-02 15:32:55] ALT + MPA
+[2026-02-02 15:32:57] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-02 15:32:57] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-02 15:32:57] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-02 15:32:57] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-02 15:32:57] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-02 15:32:57] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-02 15:32:57] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-02 15:32:57] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-02 15:32:57] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-02 15:32:57] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-02 15:32:57] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-02 15:32:57] Ajustando checkbox 'Trimestral' para desmarcado.
+[2026-02-02 15:32:57] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-02 15:32:57] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-02 15:32:57] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-02 15:32:57] Ajustando checkbox 'Anual' para marcado.
+[2026-02-02 15:32:57] Aguardando 0.1s: delay apos bind
+[2026-02-02 15:32:57] Clique: ok (1172, 419)
+[2026-02-02 15:33:06] Aviso do Sistema localizado.
+[2026-02-02 15:33:06] Clique: pos-processo 1 (1042, 598)
+[2026-02-02 15:33:06] Aguardando 0.01s: delay entre cliques
+[2026-02-02 15:33:06] Clique: pos-processo 2 (1218, 382)
+[2026-02-02 15:33:06] Aguardando 1s: finalizacao
+[2026-02-02 15:33:07] Finalizado.
+[2026-02-02 15:44:27] Clique: clique inicial (401, 463)
+[2026-02-02 15:44:27] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-02 15:44:27] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:44:27] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:44:27] Aguardando 2s: preparar a tela
+[2026-02-02 15:44:29] ALT + MPA
+[2026-02-02 15:44:31] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-02 15:44:31] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-02 15:44:31] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-02 15:44:31] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-02 15:44:31] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-02 15:44:31] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-02 15:44:31] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-02 15:44:31] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-02 15:44:31] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-02 15:44:31] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-02 15:44:31] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-02 15:44:31] Ajustando checkbox 'Trimestral' para desmarcado.
+[2026-02-02 15:44:31] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-02 15:44:31] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-02 15:44:31] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-02 15:44:31] Ajustando checkbox 'Anual' para marcado.
+[2026-02-02 15:44:32] Aguardando 0.1s: delay apos bind
+[2026-02-02 15:44:32] Clique: ok (1172, 419)
+[2026-02-02 15:44:40] Aviso do Sistema localizado.
+[2026-02-02 15:44:41] Clique: pos-processo 1 (1042, 598)
+[2026-02-02 15:44:41] Aguardando 0.01s: delay entre cliques
+[2026-02-02 15:44:41] Clique: pos-processo 2 (1218, 382)
+[2026-02-02 15:44:41] Aguardando 1s: finalizacao
+[2026-02-02 15:44:42] Finalizado.
+[2026-02-02 16:14:18] Clique: clique inicial (401, 463)
+[2026-02-02 16:14:18] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-02 16:14:18] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:14:18] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:14:18] Aguardando 2s: preparar a tela
+[2026-02-02 16:14:20] ALT + MPA
+[2026-02-02 16:14:22] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-02 16:14:22] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-02 16:14:22] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-02 16:14:22] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-02 16:14:22] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-02 16:14:22] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-02 16:14:22] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-02 16:14:22] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-02 16:14:22] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-02 16:14:22] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-02 16:14:22] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-02 16:14:22] Ajustando checkbox 'Trimestral' para desmarcado.
+[2026-02-02 16:14:22] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-02 16:14:22] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-02 16:14:22] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-02 16:14:22] Ajustando checkbox 'Anual' para marcado.
+[2026-02-02 16:14:22] Aguardando 0.1s: delay apos bind
+[2026-02-02 16:14:22] Clique: ok (1172, 419)
+[2026-02-02 16:14:58] Aviso do Sistema localizado.
+[2026-02-02 16:14:58] Clique: pos-processo 1 (1042, 598)
+[2026-02-02 16:14:58] Aguardando 0.01s: delay entre cliques
+[2026-02-02 16:14:58] Clique: pos-processo 2 (1218, 382)
+[2026-02-02 16:14:58] Aguardando 1s: finalizacao
+[2026-02-02 16:14:59] Finalizado.
+[2026-02-02 16:24:48] Clique: clique inicial (401, 463)
+[2026-02-02 16:24:48] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-02 16:24:48] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:24:48] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:24:48] Aguardando 2s: preparar a tela
+[2026-02-02 16:24:50] ALT + MPA
+[2026-02-02 16:24:52] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-02 16:24:52] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-02 16:24:52] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-02 16:24:52] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-02 16:24:52] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-02 16:24:52] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-02 16:24:52] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-02 16:24:52] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-02 16:24:52] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-02 16:24:52] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-02 16:24:52] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-02 16:24:52] Ajustando checkbox 'Trimestral' para desmarcado.
+[2026-02-02 16:24:52] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-02 16:24:52] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-02 16:24:52] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-02 16:24:52] Ajustando checkbox 'Anual' para marcado.
+[2026-02-02 16:24:53] Aguardando 0.1s: delay apos bind
+[2026-02-02 16:24:53] Clique: ok (1172, 419)
+[2026-02-02 16:25:26] Aviso do Sistema localizado.
+[2026-02-02 16:25:26] Clique: pos-processo 1 (1042, 598)
+[2026-02-02 16:25:26] Aguardando 0.01s: delay entre cliques
+[2026-02-02 16:25:26] Clique: pos-processo 2 (1218, 382)
+[2026-02-02 16:25:26] Aguardando 1s: finalizacao
+[2026-02-02 16:25:27] Finalizado.
+[2026-02-02 16:31:16] Clique: clique inicial (401, 463)
+[2026-02-02 16:31:17] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-02 16:31:17] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:31:17] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:31:17] Aguardando 2s: preparar a tela
+[2026-02-02 16:31:19] ALT + MPA
+[2026-02-02 16:31:20] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-02 16:31:20] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-02 16:31:20] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-02 16:31:20] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-02 16:31:21] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-02 16:31:21] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-02 16:31:21] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-02 16:31:21] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-02 16:31:21] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-02 16:31:21] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-02 16:31:21] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-02 16:31:21] Ajustando checkbox 'Trimestral' para desmarcado.
+[2026-02-02 16:31:21] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-02 16:31:21] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-02 16:31:21] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-02 16:31:21] Ajustando checkbox 'Anual' para marcado.
+[2026-02-02 16:31:21] Aguardando 0.1s: delay apos bind
+[2026-02-02 16:31:21] Clique: ok (1172, 419)
+[2026-02-02 16:31:54] Aviso do Sistema localizado.
+[2026-02-02 16:31:54] Clique: pos-processo 1 (1042, 598)
+[2026-02-02 16:31:54] Aguardando 0.01s: delay entre cliques
+[2026-02-02 16:31:54] Clique: pos-processo 2 (1218, 382)
+[2026-02-02 16:31:55] Aguardando 1s: finalizacao
+[2026-02-02 16:31:56] Finalizado.
+[2026-02-02 16:47:54] Clique: clique inicial (401, 463)
+[2026-02-02 16:47:54] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-02 16:47:54] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:47:54] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:47:54] Aguardando 2s: preparar a tela
+[2026-02-02 16:47:56] ALT + MPA
+[2026-02-02 16:47:57] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-02 16:47:57] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-02 16:47:57] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-02 16:47:57] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-02 16:47:58] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-02 16:47:58] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-02 16:47:58] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-02 16:47:58] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-02 16:47:58] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-02 16:47:58] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-02 16:47:58] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-02 16:47:58] Ajustando checkbox 'Trimestral' para desmarcado.
+[2026-02-02 16:47:58] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-02 16:47:58] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-02 16:47:58] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-02 16:47:58] Ajustando checkbox 'Anual' para marcado.
+[2026-02-02 16:47:58] Aguardando 0.1s: delay apos bind
+[2026-02-02 16:47:58] Clique: ok (1172, 419)
+[2026-02-02 16:48:31] Aviso do Sistema localizado.
+[2026-02-02 16:48:31] Clique: pos-processo 1 (1042, 598)
+[2026-02-02 16:48:31] Aguardando 0.01s: delay entre cliques
+[2026-02-02 16:48:31] Clique: pos-processo 2 (1218, 382)
+[2026-02-02 16:48:31] Aguardando 1s: finalizacao
+[2026-02-02 16:48:32] Finalizado.
+[2026-02-02 17:01:07] Clique: clique inicial (401, 463)
+[2026-02-02 17:01:07] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-02 17:01:07] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 17:01:07] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 17:01:07] Aguardando 2s: preparar a tela
+[2026-02-02 17:01:09] ALT + MPA
+[2026-02-02 17:01:10] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-02 17:01:10] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-02 17:01:10] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-02 17:01:10] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-02 17:01:11] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-02 17:01:11] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-02 17:01:11] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-02 17:01:11] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-02 17:01:11] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-02 17:01:11] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-02 17:01:11] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-02 17:01:11] Ajustando checkbox 'Trimestral' para desmarcado.
+[2026-02-02 17:01:11] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-02 17:01:11] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-02 17:01:11] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-02 17:01:11] Ajustando checkbox 'Anual' para marcado.
+[2026-02-02 17:01:11] Aguardando 0.1s: delay apos bind
+[2026-02-02 17:01:11] Clique: ok (1172, 419)
+[2026-02-02 17:01:45] Aviso do Sistema localizado.
+[2026-02-02 17:01:45] Clique: pos-processo 1 (1042, 598)
+[2026-02-02 17:01:45] Aguardando 0.01s: delay entre cliques
+[2026-02-02 17:01:45] Clique: pos-processo 2 (1218, 382)
+[2026-02-02 17:01:45] Aguardando 1s: finalizacao
+[2026-02-02 17:01:46] Finalizado.
+[2026-02-02 17:03:35] Clique: clique inicial (401, 463)
+[2026-02-02 17:03:35] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-02 17:03:35] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 17:03:35] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 17:03:35] Aguardando 2s: preparar a tela
+[2026-02-02 17:03:37] ALT + MPA
+[2026-02-02 17:03:39] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-02 17:03:39] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-02 17:03:39] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-02 17:03:39] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-02 17:03:39] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-02 17:03:39] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-02 17:03:39] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-02 17:03:39] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-02 17:03:39] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-02 17:03:39] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-02 17:03:39] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-02 17:03:39] Ajustando checkbox 'Trimestral' para desmarcado.
+[2026-02-02 17:03:39] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-02 17:03:39] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-02 17:03:39] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-02 17:03:39] Ajustando checkbox 'Anual' para marcado.
+[2026-02-02 17:03:39] Aguardando 0.1s: delay apos bind
+[2026-02-02 17:03:39] Clique: ok (1172, 419)
+[2026-02-02 17:04:14] Aviso do Sistema localizado.
+[2026-02-02 17:04:14] Clique: pos-processo 1 (1042, 598)
+[2026-02-02 17:04:14] Aguardando 0.01s: delay entre cliques
+[2026-02-02 17:04:14] Clique: pos-processo 2 (1218, 382)
+[2026-02-02 17:04:14] Aguardando 1s: finalizacao
+[2026-02-02 17:04:15] Finalizado.
+[2026-02-02 17:37:53] Clique: clique inicial (401, 463)
+[2026-02-02 17:37:53] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-02 17:37:53] Empresa: TIBAGI MOTOS LTDA
+[2026-02-02 17:37:53] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-02 17:37:53] Aguardando 2s: preparar a tela
+[2026-02-02 17:37:55] ALT + MPA
+[2026-02-02 17:37:56] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-02 17:37:56] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-02 17:37:56] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-02 17:37:56] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-02 17:37:57] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-02 17:37:57] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-02 17:37:57] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-02 17:37:57] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-02 17:37:57] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-02 17:37:57] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-02 17:37:57] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-02 17:37:57] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-02 17:37:57] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-02 17:37:57] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-02 17:37:57] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-02 17:37:57] Ajustando checkbox 'Anual' para marcado.
+[2026-02-02 17:37:57] Aguardando 0.1s: delay apos bind
+[2026-02-02 17:37:57] Clique: ok (1172, 419)
+[2026-02-02 17:38:52] Aviso do Sistema localizado.
+[2026-02-02 17:38:52] Clique: pos-processo 1 (1042, 598)
+[2026-02-02 17:38:52] Aguardando 0.01s: delay entre cliques
+[2026-02-02 17:38:52] Clique: pos-processo 2 (1218, 382)
+[2026-02-02 17:38:52] Aguardando 1s: finalizacao
+[2026-02-02 17:38:53] Finalizado.
+[2026-02-02 17:49:15] Clique: clique inicial (401, 463)
+[2026-02-02 17:49:15] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-02 17:49:15] Empresa: TIBAGI MOTOS LTDA
+[2026-02-02 17:49:15] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-02 17:49:15] Aguardando 2s: preparar a tela
+[2026-02-02 17:49:17] ALT + MPA
+[2026-02-02 17:49:19] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-02 17:49:19] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-02 17:49:19] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-02 17:49:19] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-02 17:49:19] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-02 17:49:19] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-02 17:49:19] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-02 17:49:19] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-02 17:49:19] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-02 17:49:19] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-02 17:49:19] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-02 17:49:19] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-02 17:49:19] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-02 17:49:19] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-02 17:49:19] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-02 17:49:19] Ajustando checkbox 'Anual' para marcado.
+[2026-02-02 17:49:19] Aguardando 0.1s: delay apos bind
+[2026-02-02 17:49:19] Clique: ok (1172, 419)
+[2026-02-02 17:50:13] Aviso do Sistema localizado.
+[2026-02-02 17:50:13] Clique: pos-processo 1 (1042, 598)
+[2026-02-02 17:50:13] Aguardando 0.01s: delay entre cliques
+[2026-02-02 17:50:13] Clique: pos-processo 2 (1218, 382)
+[2026-02-02 17:50:13] Aguardando 1s: finalizacao
+[2026-02-02 17:50:14] Finalizado.
+[2026-02-02 17:55:09] Clique: clique inicial (401, 463)
+[2026-02-02 17:55:09] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-02 17:55:09] Empresa: TIBAGI MOTOS LTDA
+[2026-02-02 17:55:09] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-02 17:55:09] Aguardando 2s: preparar a tela
+[2026-02-02 17:55:11] ALT + MPA
+[2026-02-02 17:55:13] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-02 17:55:13] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-02 17:55:13] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-02 17:55:13] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-02 17:55:13] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-02 17:55:13] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-02 17:55:13] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-02 17:55:13] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-02 17:55:13] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-02 17:55:13] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-02 17:55:13] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-02 17:55:13] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-02 17:55:13] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-02 17:55:13] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-02 17:55:13] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-02 17:55:13] Ajustando checkbox 'Anual' para marcado.
+[2026-02-02 17:55:13] Aguardando 0.1s: delay apos bind
+[2026-02-02 17:55:13] Clique: ok (1172, 419)
+[2026-02-02 17:56:04] Aviso do Sistema localizado.
+[2026-02-02 17:56:05] Clique: pos-processo 1 (1042, 598)
+[2026-02-02 17:56:05] Aguardando 0.01s: delay entre cliques
+[2026-02-02 17:56:05] Clique: pos-processo 2 (1218, 382)
+[2026-02-02 17:56:05] Aguardando 1s: finalizacao
+[2026-02-02 17:56:06] Finalizado.
+[2026-02-03 07:46:02] Clique: clique inicial (401, 463)
+[2026-02-03 07:46:03] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 07:46:03] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 07:46:03] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-03 07:46:03] Aguardando 2s: preparar a tela
+[2026-02-03 07:46:05] ALT + MPA
+[2026-02-03 07:46:06] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 07:46:06] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 07:46:06] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 07:46:06] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 07:46:06] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 07:46:06] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 07:46:06] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 07:46:06] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 07:46:06] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 07:46:07] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-03 07:46:07] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 07:46:07] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 07:46:07] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 07:46:07] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 07:46:07] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 07:46:07] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 07:46:07] Aguardando 0.1s: delay apos bind
+[2026-02-03 07:46:07] Clique: ok (1172, 419)
+[2026-02-03 07:46:57] Aviso do Sistema localizado.
+[2026-02-03 07:46:57] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 07:46:57] Aguardando 0.01s: delay entre cliques
+[2026-02-03 07:46:57] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 07:46:57] Aguardando 1s: finalizacao
+[2026-02-03 07:46:58] Finalizado.
+[2026-02-03 07:53:03] Clique: clique inicial (401, 463)
+[2026-02-03 07:53:03] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 07:53:03] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 07:53:03] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-03 07:53:03] Aguardando 2s: preparar a tela
+[2026-02-03 07:53:05] ALT + MPA
+[2026-02-03 07:53:07] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 07:53:07] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 07:53:07] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 07:53:07] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 07:53:07] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 07:53:07] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 07:53:07] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 07:53:07] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 07:53:07] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 07:53:07] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-03 07:53:07] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 07:53:07] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 07:53:07] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 07:53:07] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 07:53:07] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 07:53:07] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 07:53:07] Aguardando 0.1s: delay apos bind
+[2026-02-03 07:53:07] Clique: ok (1172, 419)
+[2026-02-03 07:53:58] Aviso do Sistema localizado.
+[2026-02-03 07:53:58] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 07:53:58] Aguardando 0.01s: delay entre cliques
+[2026-02-03 07:53:58] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 07:53:58] Aguardando 1s: finalizacao
+[2026-02-03 07:53:59] Finalizado.
+[2026-02-03 08:00:46] Clique: clique inicial (401, 463)
+[2026-02-03 08:00:46] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 08:00:46] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 08:00:46] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-03 08:00:46] Aguardando 2s: preparar a tela
+[2026-02-03 08:00:48] ALT + MPA
+[2026-02-03 08:00:49] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 08:00:49] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 08:00:49] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 08:00:49] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 08:00:50] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 08:00:50] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 08:00:50] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 08:00:50] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 08:00:50] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 08:00:50] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-03 08:00:50] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 08:00:50] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 08:00:50] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 08:00:50] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 08:00:50] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 08:00:50] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 08:00:50] Aguardando 0.1s: delay apos bind
+[2026-02-03 08:00:50] Clique: ok (1172, 419)
+[2026-02-03 08:01:41] Aviso do Sistema localizado.
+[2026-02-03 08:01:41] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 08:01:41] Aguardando 0.01s: delay entre cliques
+[2026-02-03 08:01:41] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 08:01:41] Aguardando 1s: finalizacao
+[2026-02-03 08:01:42] Finalizado.
+[2026-02-03 08:10:35] Clique: clique inicial (401, 463)
+[2026-02-03 08:10:35] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 08:10:35] Empresa: RIO BRANCO VEICULOS LTDA
+[2026-02-03 08:10:35] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\RIO BRANCO VEICULOS LTDA
+[2026-02-03 08:10:35] Aguardando 2s: preparar a tela
+[2026-02-03 08:10:37] ALT + MPA
+[2026-02-03 08:10:39] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 08:10:39] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 08:10:39] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 08:10:39] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 08:10:39] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 08:10:39] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 08:10:39] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 08:10:39] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 08:10:39] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 08:10:39] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-03 08:10:39] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 08:10:39] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 08:10:39] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 08:10:39] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 08:10:39] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 08:10:39] Checkbox 'Anual' ja esta marcado.
+[2026-02-03 08:10:39] Aguardando 0.1s: delay apos bind
+[2026-02-03 08:10:39] Clique: ok (1172, 419)
+[2026-02-03 08:11:04] Aviso do Sistema localizado.
+[2026-02-03 08:11:05] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 08:11:05] Aguardando 0.01s: delay entre cliques
+[2026-02-03 08:11:05] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 08:11:05] Aguardando 1s: finalizacao
+[2026-02-03 08:11:06] Finalizado.
+[2026-02-03 08:18:41] Clique: clique inicial (401, 463)
+[2026-02-03 08:18:41] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 08:18:41] Empresa: BERTOVEL FERRO E ACO LTDA
+[2026-02-03 08:18:41] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\BERTOVEL FERRO E ACO LTDA
+[2026-02-03 08:18:41] Aguardando 2s: preparar a tela
+[2026-02-03 08:18:43] ALT + MPA
+[2026-02-03 08:18:44] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 08:18:44] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 08:18:44] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 08:18:44] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 08:18:45] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 08:18:45] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 08:18:45] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 08:18:45] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 08:18:45] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 08:18:45] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-03 08:18:45] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 08:18:45] Ajustando checkbox 'Trimestral' para desmarcado.
+[2026-02-03 08:18:45] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 08:18:45] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 08:18:45] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 08:18:45] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 08:18:45] Aguardando 0.1s: delay apos bind
+[2026-02-03 08:18:45] Clique: ok (1172, 419)
+[2026-02-03 08:20:19] Aviso do Sistema localizado.
+[2026-02-03 08:20:19] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 08:20:19] Aguardando 0.01s: delay entre cliques
+[2026-02-03 08:20:19] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 08:20:19] Aguardando 1s: finalizacao
+[2026-02-03 08:20:20] Finalizado.
+[2026-02-03 08:34:20] Clique: clique inicial (401, 463)
+[2026-02-03 08:34:20] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 08:34:20] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:34:20] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:34:20] Aguardando 2s: preparar a tela
+[2026-02-03 08:34:22] ALT + MPA
+[2026-02-03 08:34:23] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 08:34:23] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 08:34:24] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 08:34:24] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 08:34:24] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 08:34:24] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 08:34:24] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 08:34:24] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 08:34:24] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 08:34:24] Ajustando checkbox 'Mensal' para desmarcado.
+[2026-02-03 08:34:24] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 08:34:24] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 08:34:24] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 08:34:24] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 08:34:24] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 08:34:24] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 08:34:24] Aguardando 0.1s: delay apos bind
+[2026-02-03 08:34:24] Clique: ok (1172, 419)
+[2026-02-03 08:34:35] Aviso do Sistema localizado.
+[2026-02-03 08:34:35] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 08:34:35] Aguardando 0.01s: delay entre cliques
+[2026-02-03 08:34:35] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 08:34:35] Aguardando 1s: finalizacao
+[2026-02-03 08:34:36] Finalizado.
+[2026-02-03 08:50:48] Clique: clique inicial (401, 463)
+[2026-02-03 08:50:48] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 08:50:48] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:50:48] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:50:48] Aguardando 2s: preparar a tela
+[2026-02-03 08:50:50] ALT + MPA
+[2026-02-03 08:50:52] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 08:50:52] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 08:50:52] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 08:50:52] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 08:50:52] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 08:50:52] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 08:50:52] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 08:50:52] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 08:50:52] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 08:50:52] Ajustando checkbox 'Mensal' para desmarcado.
+[2026-02-03 08:50:52] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 08:50:52] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 08:50:52] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 08:50:52] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 08:50:52] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 08:50:52] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 08:50:53] Aguardando 0.1s: delay apos bind
+[2026-02-03 08:50:53] Clique: ok (1172, 419)
+[2026-02-03 08:51:03] Aviso do Sistema localizado.
+[2026-02-03 08:51:03] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 08:51:03] Aguardando 0.01s: delay entre cliques
+[2026-02-03 08:51:03] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 08:51:04] Aguardando 1s: finalizacao
+[2026-02-03 08:51:05] Finalizado.
+[2026-02-03 08:55:24] Clique: clique inicial (401, 463)
+[2026-02-03 08:55:24] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 08:55:24] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:55:24] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:55:24] Aguardando 2s: preparar a tela
+[2026-02-03 08:55:26] ALT + MPA
+[2026-02-03 08:55:28] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 08:55:28] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 08:55:28] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 08:55:28] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 08:55:28] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 08:55:28] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 08:55:28] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 08:55:28] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 08:55:28] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 08:55:28] Ajustando checkbox 'Mensal' para desmarcado.
+[2026-02-03 08:55:28] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 08:55:28] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 08:55:28] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 08:55:28] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 08:55:28] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 08:55:28] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 08:55:29] Aguardando 0.1s: delay apos bind
+[2026-02-03 08:55:29] Clique: ok (1172, 419)
+[2026-02-03 08:55:39] Aviso do Sistema localizado.
+[2026-02-03 08:55:39] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 08:55:39] Aguardando 0.01s: delay entre cliques
+[2026-02-03 08:55:39] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 08:55:40] Aguardando 1s: finalizacao
+[2026-02-03 08:55:41] Finalizado.
+[2026-02-03 09:08:56] Clique: clique inicial (401, 463)
+[2026-02-03 09:08:56] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 09:08:56] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:08:56] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:08:56] Aguardando 2s: preparar a tela
+[2026-02-03 09:08:58] ALT + MPA
+[2026-02-03 09:09:00] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 09:09:00] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 09:09:00] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 09:09:00] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 09:09:00] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 09:09:00] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 09:09:00] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 09:09:00] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 09:09:00] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 09:09:00] Ajustando checkbox 'Mensal' para desmarcado.
+[2026-02-03 09:09:00] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 09:09:00] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 09:09:00] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 09:09:00] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 09:09:00] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 09:09:00] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 09:09:00] Aguardando 0.1s: delay apos bind
+[2026-02-03 09:09:00] Clique: ok (1172, 419)
+[2026-02-03 09:09:11] Aviso do Sistema localizado.
+[2026-02-03 09:09:11] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 09:09:11] Aguardando 0.01s: delay entre cliques
+[2026-02-03 09:09:11] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 09:09:11] Aguardando 1s: finalizacao
+[2026-02-03 09:09:12] Finalizado.
+[2026-02-03 09:47:15] Clique: clique inicial (401, 463)
+[2026-02-03 09:47:15] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 09:47:15] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:47:15] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:47:15] Aguardando 2s: preparar a tela
+[2026-02-03 09:47:17] ALT + MPA
+[2026-02-03 09:47:19] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 09:47:19] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 09:47:19] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 09:47:19] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 09:47:19] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 09:47:19] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 09:47:19] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 09:47:19] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 09:47:19] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 09:47:19] Ajustando checkbox 'Mensal' para desmarcado.
+[2026-02-03 09:47:19] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 09:47:19] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 09:47:20] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 09:47:20] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 09:47:20] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 09:47:20] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 09:47:20] Aguardando 0.1s: delay apos bind
+[2026-02-03 09:47:20] Clique: ok (1172, 419)
+[2026-02-03 09:47:30] Aviso do Sistema localizado.
+[2026-02-03 09:47:30] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 09:47:31] Aguardando 0.01s: delay entre cliques
+[2026-02-03 09:47:31] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 09:47:31] Aguardando 1s: finalizacao
+[2026-02-03 09:47:32] Finalizado.
+[2026-02-03 09:54:13] Clique: clique inicial (401, 463)
+[2026-02-03 09:54:13] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 09:54:13] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:54:13] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:54:13] Aguardando 2s: preparar a tela
+[2026-02-03 09:54:15] ALT + MPA
+[2026-02-03 09:54:17] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 09:54:17] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 09:54:17] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 09:54:17] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 09:54:17] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 09:54:17] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 09:54:17] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 09:54:17] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 09:54:17] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 09:54:17] Ajustando checkbox 'Mensal' para desmarcado.
+[2026-02-03 09:54:18] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 09:54:18] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 09:54:18] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 09:54:18] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 09:54:18] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 09:54:18] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 09:54:18] Aguardando 0.1s: delay apos bind
+[2026-02-03 09:54:18] Clique: ok (1172, 419)
+[2026-02-03 09:54:28] Aviso do Sistema localizado.
+[2026-02-03 09:54:28] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 09:54:28] Aguardando 0.01s: delay entre cliques
+[2026-02-03 09:54:28] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 09:54:28] Aguardando 1s: finalizacao
+[2026-02-03 09:54:29] Finalizado.
+[2026-02-03 10:03:06] Clique: clique inicial (401, 463)
+[2026-02-03 10:03:06] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 10:03:06] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 10:03:06] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 10:03:06] Aguardando 2s: preparar a tela
+[2026-02-03 10:03:08] ALT + MPA
+[2026-02-03 10:03:10] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 10:03:10] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 10:03:10] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 10:03:10] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 10:03:10] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 10:03:10] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 10:03:10] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 10:03:10] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 10:03:10] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 10:03:10] Ajustando checkbox 'Mensal' para desmarcado.
+[2026-02-03 10:03:10] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 10:03:10] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 10:03:10] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 10:03:10] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 10:03:10] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 10:03:10] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 10:03:10] Aguardando 0.1s: delay apos bind
+[2026-02-03 10:03:10] Clique: ok (1172, 419)
+[2026-02-03 10:03:21] Aviso do Sistema localizado.
+[2026-02-03 10:03:21] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 10:03:21] Aguardando 0.01s: delay entre cliques
+[2026-02-03 10:03:21] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 10:03:21] Aguardando 1s: finalizacao
+[2026-02-03 10:03:22] Finalizado.
+[2026-02-03 10:13:33] Clique: clique inicial (401, 463)
+[2026-02-03 10:13:33] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 10:13:33] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 10:13:33] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 10:13:33] Aguardando 2s: preparar a tela
+[2026-02-03 10:13:35] ALT + MPA
+[2026-02-03 10:13:37] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 10:13:37] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 10:13:37] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 10:13:37] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 10:13:37] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 10:13:37] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 10:13:37] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 10:13:37] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 10:13:37] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 10:13:37] Ajustando checkbox 'Mensal' para desmarcado.
+[2026-02-03 10:13:37] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 10:13:37] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 10:13:37] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 10:13:37] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 10:13:37] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 10:13:37] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 10:13:37] Aguardando 0.1s: delay apos bind
+[2026-02-03 10:13:37] Clique: ok (1172, 419)
+[2026-02-03 10:13:48] Aviso do Sistema localizado.
+[2026-02-03 10:13:48] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 10:13:48] Aguardando 0.01s: delay entre cliques
+[2026-02-03 10:13:48] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 10:13:49] Aguardando 1s: finalizacao
+[2026-02-03 10:13:50] Finalizado.
+[2026-02-03 10:38:48] Clique: clique inicial (401, 463)
+[2026-02-03 10:38:48] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 10:38:48] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-03 10:38:48] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-03 10:38:48] Aguardando 2s: preparar a tela
+[2026-02-03 10:38:50] ALT + MPA
+[2026-02-03 10:38:52] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 10:38:52] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 10:38:52] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 10:38:52] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 10:38:52] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 10:38:52] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 10:38:52] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 10:38:52] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 10:38:52] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 10:38:52] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-03 10:38:52] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 10:38:52] Ajustando checkbox 'Trimestral' para desmarcado.
+[2026-02-03 10:38:52] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 10:38:52] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 10:38:52] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 10:38:52] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 10:38:52] Aguardando 0.1s: delay apos bind
+[2026-02-03 10:38:52] Clique: ok (1172, 419)
+[2026-02-03 10:39:26] Aviso do Sistema localizado.
+[2026-02-03 10:39:26] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 10:39:26] Aguardando 0.01s: delay entre cliques
+[2026-02-03 10:39:26] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 10:39:26] Aguardando 1s: finalizacao
+[2026-02-03 10:39:27] Finalizado.
+[2026-02-03 10:47:36] Clique: clique inicial (401, 463)
+[2026-02-03 10:47:37] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 10:47:37] Empresa: AGRABEL CAMINHOES LTDA
+[2026-02-03 10:47:37] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-02-03 10:47:37] Aguardando 2s: preparar a tela
+[2026-02-03 10:47:39] ALT + MPA
+[2026-02-03 10:47:40] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 10:47:40] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 10:47:40] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 10:47:40] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 10:47:40] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 10:47:40] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 10:47:40] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 10:47:40] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 10:47:40] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 10:47:40] Ajustando checkbox 'Mensal' para desmarcado.
+[2026-02-03 10:47:41] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 10:47:41] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 10:47:41] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 10:47:41] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 10:47:41] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 10:47:41] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 10:47:41] Aguardando 0.1s: delay apos bind
+[2026-02-03 10:47:41] Clique: ok (1172, 419)
+[2026-02-03 10:48:08] Aviso do Sistema localizado.
+[2026-02-03 10:48:08] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 10:48:08] Aguardando 0.01s: delay entre cliques
+[2026-02-03 10:48:08] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 10:48:08] Aguardando 1s: finalizacao
+[2026-02-03 10:48:09] Finalizado.
+[2026-02-03 10:50:53] Clique: clique inicial (401, 463)
+[2026-02-03 10:50:53] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 10:50:53] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 10:50:53] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-03 10:50:53] Aguardando 2s: preparar a tela
+[2026-02-03 10:50:55] ALT + MPA
+[2026-02-03 10:50:56] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 10:50:56] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 10:50:57] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 10:50:57] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 10:50:57] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 10:50:57] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 10:50:57] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 10:50:57] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 10:50:57] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 10:50:57] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-03 10:50:57] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 10:50:57] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 10:50:57] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 10:50:57] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 10:50:57] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 10:50:57] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 10:50:57] Aguardando 0.1s: delay apos bind
+[2026-02-03 10:50:57] Clique: ok (1172, 419)
+[2026-02-03 10:51:46] Aviso do Sistema localizado.
+[2026-02-03 10:51:46] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 10:51:46] Aguardando 0.01s: delay entre cliques
+[2026-02-03 10:51:46] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 10:51:47] Aguardando 1s: finalizacao
+[2026-02-03 10:51:48] Finalizado.
+[2026-02-03 10:57:54] Clique: clique inicial (401, 463)
+[2026-02-03 10:57:54] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 10:57:54] Empresa: RIO BRANCO VEICULOS LTDA
+[2026-02-03 10:57:54] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\RIO BRANCO VEICULOS LTDA
+[2026-02-03 10:57:54] Aguardando 2s: preparar a tela
+[2026-02-03 10:57:56] ALT + MPA
+[2026-02-03 10:57:58] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 10:57:58] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 10:57:58] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 10:57:58] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 10:57:58] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 10:57:58] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 10:57:58] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 10:57:58] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 10:57:58] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 10:57:58] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-03 10:57:58] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 10:57:58] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 10:57:58] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 10:57:58] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 10:57:58] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 10:57:58] Checkbox 'Anual' ja esta marcado.
+[2026-02-03 10:57:58] Aguardando 0.1s: delay apos bind
+[2026-02-03 10:57:58] Clique: ok (1172, 419)
+[2026-02-03 10:58:21] Aviso do Sistema localizado.
+[2026-02-03 10:58:21] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 10:58:21] Aguardando 0.01s: delay entre cliques
+[2026-02-03 10:58:21] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 10:58:21] Aguardando 1s: finalizacao
+[2026-02-03 10:58:22] Finalizado.
+[2026-02-03 11:03:11] Clique: clique inicial (401, 463)
+[2026-02-03 11:03:11] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 11:03:11] Empresa: BERTOVEL FERRO E ACO LTDA
+[2026-02-03 11:03:11] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\BERTOVEL FERRO E ACO LTDA
+[2026-02-03 11:03:11] Aguardando 2s: preparar a tela
+[2026-02-03 11:03:13] ALT + MPA
+[2026-02-03 11:03:15] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 11:03:15] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 11:03:15] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 11:03:15] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 11:03:15] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 11:03:15] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 11:03:15] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 11:03:15] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 11:03:15] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 11:03:15] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-03 11:03:15] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 11:03:15] Ajustando checkbox 'Trimestral' para desmarcado.
+[2026-02-03 11:03:16] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 11:03:16] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 11:03:16] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 11:03:16] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 11:03:16] Aguardando 0.1s: delay apos bind
+[2026-02-03 11:03:16] Clique: ok (1172, 419)
+[2026-02-03 11:04:48] Aviso do Sistema localizado.
+[2026-02-03 11:04:48] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 11:04:48] Aguardando 0.01s: delay entre cliques
+[2026-02-03 11:04:48] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 11:04:48] Aguardando 1s: finalizacao
+[2026-02-03 11:04:49] Finalizado.
+[2026-02-03 11:15:57] Clique: clique inicial (401, 463)
+[2026-02-03 11:15:57] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 11:15:57] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-03 11:15:57] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-03 11:15:57] Aguardando 2s: preparar a tela
+[2026-02-03 11:15:59] ALT + MPA
+[2026-02-03 11:16:01] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 11:16:01] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 11:16:01] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 11:16:01] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 11:16:01] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 11:16:01] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 11:16:01] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 11:16:01] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 11:16:01] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 11:16:01] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-03 11:16:01] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 11:16:01] Ajustando checkbox 'Trimestral' para desmarcado.
+[2026-02-03 11:16:02] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 11:16:02] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 11:16:02] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 11:16:02] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 11:16:02] Aguardando 0.1s: delay apos bind
+[2026-02-03 11:16:02] Clique: ok (1172, 419)
+[2026-02-03 11:16:11] Aviso do Sistema localizado.
+[2026-02-03 11:16:11] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 11:16:11] Aguardando 0.01s: delay entre cliques
+[2026-02-03 11:16:11] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 11:16:11] Aguardando 1s: finalizacao
+[2026-02-03 11:16:12] Finalizado.
+[2026-02-03 11:19:13] Clique: clique inicial (401, 463)
+[2026-02-03 11:19:13] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 11:19:13] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:19:13] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:19:13] Aguardando 2s: preparar a tela
+[2026-02-03 11:19:15] ALT + MPA
+[2026-02-03 11:19:16] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 11:19:16] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 11:19:16] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 11:19:16] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 11:19:17] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 11:19:17] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 11:19:17] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 11:19:17] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 11:19:17] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 11:19:17] Ajustando checkbox 'Mensal' para desmarcado.
+[2026-02-03 11:19:17] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 11:19:17] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 11:19:17] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 11:19:17] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 11:19:17] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 11:19:17] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 11:19:17] Aguardando 0.1s: delay apos bind
+[2026-02-03 11:19:17] Clique: ok (1172, 419)
+[2026-02-03 11:19:28] Aviso do Sistema localizado.
+[2026-02-03 11:19:28] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 11:19:28] Aguardando 0.01s: delay entre cliques
+[2026-02-03 11:19:28] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 11:19:28] Aguardando 1s: finalizacao
+[2026-02-03 11:19:29] Finalizado.
+[2026-02-03 11:23:09] Clique: clique inicial (401, 463)
+[2026-02-03 11:23:10] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 11:23:10] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:23:10] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:23:10] Aguardando 2s: preparar a tela
+[2026-02-03 11:23:12] ALT + MPA
+[2026-02-03 11:23:13] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 11:23:13] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 11:23:13] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 11:23:13] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 11:23:13] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 11:23:13] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 11:23:13] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 11:23:13] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 11:23:14] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 11:23:14] Ajustando checkbox 'Mensal' para desmarcado.
+[2026-02-03 11:23:14] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 11:23:14] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 11:23:14] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 11:23:14] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 11:23:14] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 11:23:14] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 11:23:14] Aguardando 0.1s: delay apos bind
+[2026-02-03 11:23:14] Clique: ok (1172, 419)
+[2026-02-03 11:23:57] Clique: clique inicial (401, 463)
+[2026-02-03 11:23:57] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 11:23:57] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:23:57] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:23:57] Aguardando 2s: preparar a tela
+[2026-02-03 11:23:59] ALT + MPA
+[2026-02-03 11:24:01] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 11:24:01] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 11:24:01] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 11:24:01] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 11:24:01] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 11:24:01] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 11:24:01] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 11:24:01] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 11:24:01] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 11:24:01] Ajustando checkbox 'Mensal' para desmarcado.
+[2026-02-03 11:24:01] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 11:24:01] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 11:24:01] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 11:24:01] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 11:24:01] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 11:24:01] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 11:24:02] Aguardando 0.1s: delay apos bind
+[2026-02-03 11:24:02] Clique: ok (1172, 419)
+[2026-02-03 11:24:12] Aviso do Sistema localizado.
+[2026-02-03 11:24:12] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 11:24:12] Aguardando 0.01s: delay entre cliques
+[2026-02-03 11:24:12] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 11:24:12] Aguardando 1s: finalizacao
+[2026-02-03 11:24:13] Finalizado.
+[2026-02-03 11:27:54] Clique: clique inicial (401, 463)
+[2026-02-03 11:27:54] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 11:27:54] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:27:54] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:27:54] Aguardando 2s: preparar a tela
+[2026-02-03 11:27:56] ALT + MPA
+[2026-02-03 11:27:58] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 11:27:58] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 11:27:58] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 11:27:58] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 11:27:58] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 11:27:58] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 11:27:58] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 11:27:58] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 11:27:58] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 11:27:58] Ajustando checkbox 'Mensal' para desmarcado.
+[2026-02-03 11:27:58] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 11:27:58] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 11:27:58] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 11:27:58] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 11:27:58] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 11:27:58] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 11:27:59] Aguardando 0.1s: delay apos bind
+[2026-02-03 11:27:59] Clique: ok (1172, 419)
+[2026-02-03 11:28:09] Aviso do Sistema localizado.
+[2026-02-03 11:28:09] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 11:28:10] Aguardando 0.01s: delay entre cliques
+[2026-02-03 11:28:10] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 11:28:10] Aguardando 1s: finalizacao
+[2026-02-03 11:28:11] Finalizado.
+[2026-02-03 11:29:41] Clique: clique inicial (401, 463)
+[2026-02-03 11:29:41] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 11:29:41] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:29:41] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:29:41] Aguardando 2s: preparar a tela
+[2026-02-03 11:29:43] ALT + MPA
+[2026-02-03 11:29:44] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 11:29:44] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 11:29:44] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 11:29:44] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 11:29:45] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 11:29:45] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 11:29:45] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 11:29:45] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 11:29:45] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 11:29:45] Ajustando checkbox 'Mensal' para desmarcado.
+[2026-02-03 11:29:45] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 11:29:45] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 11:29:45] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 11:29:45] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 11:29:45] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 11:29:45] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 11:29:45] Aguardando 0.1s: delay apos bind
+[2026-02-03 11:29:45] Clique: ok (1172, 419)
+[2026-02-03 11:29:56] Aviso do Sistema localizado.
+[2026-02-03 11:29:56] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 11:29:56] Aguardando 0.01s: delay entre cliques
+[2026-02-03 11:29:56] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 11:29:56] Aguardando 1s: finalizacao
+[2026-02-03 11:29:57] Finalizado.
+[2026-02-03 11:34:20] Clique: clique inicial (401, 463)
+[2026-02-03 11:34:20] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 11:34:20] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:34:20] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:34:20] Aguardando 2s: preparar a tela
+[2026-02-03 11:34:22] ALT + MPA
+[2026-02-03 11:34:23] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 11:34:23] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 11:34:23] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 11:34:23] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 11:34:24] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 11:34:24] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 11:34:24] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 11:34:24] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 11:34:24] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 11:34:24] Ajustando checkbox 'Mensal' para desmarcado.
+[2026-02-03 11:34:24] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 11:34:24] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 11:34:24] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 11:34:24] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 11:34:24] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 11:34:24] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 11:34:24] Aguardando 0.1s: delay apos bind
+[2026-02-03 11:34:24] Clique: ok (1172, 419)
+[2026-02-03 11:34:35] Aviso do Sistema localizado.
+[2026-02-03 11:34:35] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 11:34:35] Aguardando 0.01s: delay entre cliques
+[2026-02-03 11:34:35] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 11:34:35] Aguardando 1s: finalizacao
+[2026-02-03 11:34:36] Finalizado.
+[2026-02-03 13:32:46] Clique: clique inicial (401, 463)
+[2026-02-03 13:32:46] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 13:32:46] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 13:32:46] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 13:32:46] Aguardando 2s: preparar a tela
+[2026-02-03 13:32:48] ALT + MPA
+[2026-02-03 13:32:50] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 13:32:50] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 13:32:50] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 13:32:50] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 13:32:50] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 13:32:50] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 13:32:50] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 13:32:50] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 13:32:50] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 13:32:50] Ajustando checkbox 'Mensal' para desmarcado.
+[2026-02-03 13:32:50] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 13:32:50] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 13:32:50] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 13:32:50] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 13:32:50] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 13:32:50] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 13:32:50] Aguardando 0.1s: delay apos bind
+[2026-02-03 13:32:51] Clique: ok (1172, 419)
+[2026-02-03 13:33:01] Aviso do Sistema localizado.
+[2026-02-03 13:33:01] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 13:33:01] Aguardando 0.01s: delay entre cliques
+[2026-02-03 13:33:01] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 13:33:01] Aguardando 1s: finalizacao
+[2026-02-03 13:33:02] Finalizado.
+[2026-02-03 15:58:37] Clique: clique inicial (401, 463)
+[2026-02-03 15:58:37] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-03 15:58:37] Empresa: BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-03 15:58:37] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-03 15:58:37] Aguardando 2s: preparar a tela
+[2026-02-03 15:58:39] ALT + MPA
+[2026-02-03 15:58:41] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-03 15:58:41] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-03 15:58:41] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-03 15:58:41] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-03 15:58:41] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-03 15:58:41] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-03 15:58:41] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-03 15:58:41] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-03 15:58:41] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-03 15:58:41] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-03 15:58:41] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-03 15:58:41] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-03 15:58:41] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-03 15:58:41] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-03 15:58:41] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-03 15:58:41] Ajustando checkbox 'Anual' para marcado.
+[2026-02-03 15:58:41] Aguardando 0.1s: delay apos bind
+[2026-02-03 15:58:41] Clique: ok (1172, 419)
+[2026-02-03 15:58:50] Aviso do Sistema localizado.
+[2026-02-03 15:58:50] Clique: pos-processo 1 (1042, 598)
+[2026-02-03 15:58:51] Aguardando 0.01s: delay entre cliques
+[2026-02-03 15:58:51] Clique: pos-processo 2 (1218, 382)
+[2026-02-03 15:58:51] Aguardando 1s: finalizacao
+[2026-02-03 15:58:52] Finalizado.
+[2026-02-05 09:25:02] Clique: clique inicial (401, 463)
+[2026-02-05 09:25:02] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-05 09:25:02] Empresa: BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-05 09:25:02] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-05 09:25:02] Aguardando 2s: preparar a tela
+[2026-02-05 09:25:04] ALT + MPA
+[2026-02-05 09:25:06] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-05 09:25:06] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-05 09:25:06] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-05 09:25:06] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-05 09:25:06] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-05 09:25:06] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-05 09:25:06] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-05 09:25:06] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-05 09:25:06] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-05 09:25:06] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-05 09:25:06] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-05 09:25:06] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-05 09:25:06] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-05 09:25:06] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-05 09:25:06] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-05 09:25:06] Ajustando checkbox 'Anual' para marcado.
+[2026-02-05 09:25:06] Aguardando 0.1s: delay apos bind
+[2026-02-05 09:25:06] Clique: ok (1172, 419)
+[2026-02-05 09:25:15] Aviso do Sistema localizado.
+[2026-02-05 09:25:15] Clique: pos-processo 1 (1042, 598)
+[2026-02-05 09:25:15] Aguardando 0.01s: delay entre cliques
+[2026-02-05 09:25:15] Clique: pos-processo 2 (1218, 382)
+[2026-02-05 09:25:15] Aguardando 1s: finalizacao
+[2026-02-05 09:25:16] Finalizado.
+[2026-02-05 09:34:56] Clique: clique inicial (401, 463)
+[2026-02-05 09:34:56] Iniciando: 2 - Apuração das Demonstrações Contábeis para o SPED - ECD
+[2026-02-05 09:34:56] Empresa: BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-05 09:34:56] Diretorio base esperado: W:\\SPEDs\\ECD\\2025\BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-05 09:34:56] Aguardando 2s: preparar a tela
+[2026-02-05 09:34:58] ALT + MPA
+[2026-02-05 09:34:59] Checkbox por texto localizado: 'Gerar Saldo Anterior (Saldo de Balanço)' (TCRDCheckBox)
+[2026-02-05 09:34:59] Ajustando checkbox 'Gerar Saldo Anterior' para marcado.
+[2026-02-05 09:35:00] Checkbox por texto localizado: 'Excluir Demonstrações já Geradas nesse Exercício' (TCRDCheckBox)
+[2026-02-05 09:35:00] Ajustando checkbox 'Excluir Demonstrações já Geradas nesse Exercício' para marcado.
+[2026-02-05 09:35:00] Checkbox por texto localizado: 'Gerar Contas com Saldo Zero' (TCRDCheckBox)
+[2026-02-05 09:35:00] Checkbox 'Gerar Contas com Saldo Zero' ja esta desmarcado.
+[2026-02-05 09:35:00] Checkbox por texto localizado: 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' (TCRDCheckBox)
+[2026-02-05 09:35:00] Checkbox 'Abertura da Empresa Diferente de Janeiro no Ano Anterior' ja esta desmarcado.
+[2026-02-05 09:35:00] Checkbox por texto localizado: 'Mensal' (TCRDCheckBox)
+[2026-02-05 09:35:00] Checkbox 'Mensal' ja esta desmarcado.
+[2026-02-05 09:35:00] Checkbox por texto localizado: 'Trimestral' (TCRDCheckBox)
+[2026-02-05 09:35:00] Checkbox 'Trimestral' ja esta desmarcado.
+[2026-02-05 09:35:00] Checkbox por texto localizado: 'Semestral' (TCRDCheckBox)
+[2026-02-05 09:35:00] Checkbox 'Semestral' ja esta desmarcado.
+[2026-02-05 09:35:00] Checkbox por texto localizado: 'Anual' (TCRDCheckBox)
+[2026-02-05 09:35:00] Ajustando checkbox 'Anual' para marcado.
+[2026-02-05 09:35:00] Aguardando 0.1s: delay apos bind
+[2026-02-05 09:35:00] Clique: ok (1172, 419)
+[2026-02-05 09:35:09] Aviso do Sistema localizado.
+[2026-02-05 09:35:09] Clique: pos-processo 1 (1042, 598)
+[2026-02-05 09:35:09] Aguardando 0.01s: delay entre cliques
+[2026-02-05 09:35:09] Clique: pos-processo 2 (1218, 382)
+[2026-02-05 09:35:10] Aguardando 1s: finalizacao
+[2026-02-05 09:35:11] Finalizado.

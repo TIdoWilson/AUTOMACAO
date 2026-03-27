@@ -1,0 +1,1674 @@
+[2026-01-30 14:10:43] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 14:10:43] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:10:43] Diretorio destino: W:\\SPEDs\\ECF\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:10:43] Aguardando 2s: preparar a tela
+[2026-01-30 14:10:45] Tentativa 1/2
+[2026-01-30 14:10:45] ALT + RNX
+[2026-01-30 14:10:46] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:10:46] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:10:46] Clique: imprimir (1161, 464)
+[2026-01-30 14:10:46] Aguardando 30s: impressao
+[2026-01-30 14:11:37] Clique: clique inicial (401, 463)
+[2026-01-30 14:11:38] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 14:11:38] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:11:38] Diretorio destino: W:\\SPEDs\\ECF\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:11:38] Aguardando 2s: preparar a tela
+[2026-01-30 14:11:40] Tentativa 1/2
+[2026-01-30 14:11:40] ALT + RNX
+[2026-01-30 14:11:41] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:11:41] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:11:41] Clique: imprimir (1161, 464)
+[2026-01-30 14:11:41] Aguardando 30s: impressao
+[2026-01-30 14:12:32] Clique: clique inicial (401, 463)
+[2026-01-30 14:12:32] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 14:12:32] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:12:32] Diretorio destino: W:\\SPEDs\\ECF\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:12:32] Aguardando 2s: preparar a tela
+[2026-01-30 14:12:34] Tentativa 1/2
+[2026-01-30 14:12:34] ALT + RNX
+[2026-01-30 14:12:35] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:12:35] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:12:36] Clique: imprimir (1161, 464)
+[2026-01-30 14:12:36] Aguardando 10s: impressao
+[2026-01-30 14:12:46] Clique: salvar (405, 87)
+[2026-01-30 14:12:46] Aguardando 5s: janela de salvar
+[2026-01-30 14:12:53] Arquivo nao apareceu no destino; continuando para retorno e nova tentativa
+[2026-01-30 14:12:53] Clique: voltar 1 (495, 81)
+[2026-01-30 14:12:53] Clique: voltar 2 (1214, 438)
+[2026-01-30 14:12:53] Aguardando 3s: pos-voltar
+[2026-01-30 14:15:19] Clique: clique inicial (401, 463)
+[2026-01-30 14:15:19] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 14:15:19] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:15:19] Diretorio destino: W:\\SPEDs\\ECF\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:15:19] Aguardando 2s: preparar a tela
+[2026-01-30 14:15:21] Tentativa 1/2
+[2026-01-30 14:15:21] ALT + RNX
+[2026-01-30 14:15:22] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:15:22] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:15:22] Clique: imprimir (1161, 464)
+[2026-01-30 14:15:22] Aguardando 10s: impressao
+[2026-01-30 14:15:32] Clique: salvar (405, 87)
+[2026-01-30 14:15:32] Aguardando 5s: janela de salvar
+[2026-01-30 14:15:41] Arquivo nao apareceu no destino; continuando para retorno e nova tentativa
+[2026-01-30 14:15:41] Clique: voltar 1 (495, 81)
+[2026-01-30 14:15:41] Clique: voltar 2 (1214, 438)
+[2026-01-30 14:15:41] Aguardando 3s: pos-voltar
+[2026-01-30 14:15:44] Tentativa 2/2
+[2026-01-30 14:15:44] ALT + RNX
+[2026-01-30 14:15:45] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:15:45] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:15:45] Clique: imprimir (1161, 464)
+[2026-01-30 14:15:45] Aguardando 10s: impressao
+[2026-01-30 14:16:41] Clique: clique inicial (401, 463)
+[2026-01-30 14:16:41] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 14:16:41] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:16:41] Diretorio destino: W:\\SPEDs\\ECF\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:16:42] Aguardando 2s: preparar a tela
+[2026-01-30 14:16:44] Tentativa 1/2
+[2026-01-30 14:16:44] ALT + RNX
+[2026-01-30 14:16:45] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:16:45] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:16:45] Clique: imprimir (1161, 464)
+[2026-01-30 14:16:45] Aguardando 3s: impressao
+[2026-01-30 14:16:48] Clique: salvar (405, 87)
+[2026-01-30 14:16:48] Aguardando 1.5s: janela de salvar
+[2026-01-30 14:16:53] Arquivo nao apareceu no destino; continuando para retorno e nova tentativa
+[2026-01-30 14:16:53] Clique: voltar 1 (495, 81)
+[2026-01-30 14:16:53] Clique: voltar 2 (1214, 438)
+[2026-01-30 14:16:53] Aguardando 3s: pos-voltar
+[2026-01-30 14:16:56] Tentativa 2/2
+[2026-01-30 14:16:56] ALT + RNX
+[2026-01-30 14:16:57] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:16:57] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:16:57] Clique: imprimir (1161, 464)
+[2026-01-30 14:16:57] Aguardando 3s: impressao
+[2026-01-30 14:19:28] Empresa vazia. Encerrando.
+[2026-01-30 14:19:42] Clique: clique inicial (401, 463)
+[2026-01-30 14:19:42] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 14:19:42] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:19:42] Diretorio destino: W:\\SPEDs\\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:19:42] Aguardando 2s: preparar a tela
+[2026-01-30 14:19:44] Tentativa 1/2
+[2026-01-30 14:19:44] ALT + RNX
+[2026-01-30 14:19:45] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:19:45] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:19:46] Clique: imprimir (1161, 464)
+[2026-01-30 14:19:46] Aguardando 1s: impressao
+[2026-01-30 14:19:47] Clique: salvar (405, 87)
+[2026-01-30 14:19:47] Aguardando 1.5s: janela de salvar
+[2026-01-30 14:19:51] Arquivo nao apareceu no destino; continuando para retorno e nova tentativa
+[2026-01-30 14:19:52] Clique: voltar 1 (495, 81)
+[2026-01-30 14:19:52] Clique: voltar 2 (1214, 438)
+[2026-01-30 14:19:52] Aguardando 3s: pos-voltar
+[2026-01-30 14:19:55] Tentativa 2/2
+[2026-01-30 14:19:55] ALT + RNX
+[2026-01-30 14:19:56] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:19:56] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:19:56] Clique: imprimir (1161, 464)
+[2026-01-30 14:19:56] Aguardando 1s: impressao
+[2026-01-30 14:19:57] Clique: salvar (405, 87)
+[2026-01-30 14:19:57] Aguardando 1.5s: janela de salvar
+[2026-01-30 14:20:02] Arquivo nao apareceu no destino; continuando para retorno e nova tentativa
+[2026-01-30 14:20:02] Clique: voltar 1 (495, 81)
+[2026-01-30 14:20:02] Clique: voltar 2 (1214, 438)
+[2026-01-30 14:20:02] Aguardando 3s: pos-voltar
+[2026-01-30 14:21:37] Clique: clique inicial (401, 463)
+[2026-01-30 14:21:37] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 14:21:37] Empresa: --AGRABEL CAMINHOES LTDA
+[2026-01-30 14:21:37] Diretorio destino: W:\\SPEDs\\ECD\2025\--AGRABEL CAMINHOES LTDA
+[2026-01-30 14:21:37] Aguardando 2s: preparar a tela
+[2026-01-30 14:21:39] Tentativa 1/2
+[2026-01-30 14:21:39] ALT + RNX
+[2026-01-30 14:21:40] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:21:40] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:21:40] Clique: imprimir (1161, 464)
+[2026-01-30 14:21:40] Aguardando 1s: impressao
+[2026-01-30 14:21:41] Clique: salvar (405, 87)
+[2026-01-30 14:21:41] Aguardando 1.5s: janela de salvar
+[2026-01-30 14:21:46] Arquivo nao apareceu no destino; continuando para retorno e nova tentativa
+[2026-01-30 14:21:46] Clique: voltar 1 (495, 81)
+[2026-01-30 14:21:46] Clique: voltar 2 (1214, 438)
+[2026-01-30 14:21:47] Aguardando 3s: pos-voltar
+[2026-01-30 14:22:59] Clique: clique inicial (401, 463)
+[2026-01-30 14:22:59] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 14:22:59] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:22:59] Diretorio destino: W:\\SPEDs\\ECD\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:22:59] Aguardando 2s: preparar a tela
+[2026-01-30 14:23:01] Tentativa 1/2
+[2026-01-30 14:23:01] ALT + RNX
+[2026-01-30 14:23:02] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:23:02] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:23:02] Clique: imprimir (1161, 464)
+[2026-01-30 14:23:02] Aguardando 1s: impressao
+[2026-01-30 14:23:03] Clique: salvar (405, 87)
+[2026-01-30 14:23:03] Aguardando 1.5s: janela de salvar
+[2026-01-30 14:23:08] Arquivo nao apareceu no destino; continuando para retorno e nova tentativa
+[2026-01-30 14:23:08] Clique: voltar 1 (495, 81)
+[2026-01-30 14:23:08] Clique: voltar 2 (1214, 438)
+[2026-01-30 14:23:08] Aguardando 3s: pos-voltar
+[2026-01-30 14:24:58] Clique: clique inicial (401, 463)
+[2026-01-30 14:24:58] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 14:24:58] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:24:58] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:24:58] Aguardando 2s: preparar a tela
+[2026-01-30 14:25:00] Tentativa 1/2
+[2026-01-30 14:25:00] ALT + RNX
+[2026-01-30 14:25:01] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:25:01] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:25:01] Clique: imprimir (1161, 464)
+[2026-01-30 14:25:01] Aguardando 1s: impressao
+[2026-01-30 14:25:02] Clique: salvar (405, 87)
+[2026-01-30 14:25:02] Aguardando 1.5s: janela de salvar
+[2026-01-30 14:25:07] Arquivo nao apareceu no destino; continuando para retorno e nova tentativa
+[2026-01-30 14:25:07] Clique: voltar 1 (495, 81)
+[2026-01-30 14:25:07] Clique: voltar 2 (1214, 438)
+[2026-01-30 14:25:07] Aguardando 3s: pos-voltar
+[2026-01-30 14:27:01] Clique: clique inicial (401, 463)
+[2026-01-30 14:27:01] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 14:27:01] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:27:01] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:27:01] Aguardando 2s: preparar a tela
+[2026-01-30 14:27:03] Tentativa 1/2
+[2026-01-30 14:27:03] ALT + RNX
+[2026-01-30 14:27:04] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:27:04] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:27:04] Clique: imprimir (1161, 464)
+[2026-01-30 14:27:04] Aguardando 1s: impressao
+[2026-01-30 14:27:05] Clique: salvar (405, 87)
+[2026-01-30 14:27:05] Aguardando 1.5s: janela de salvar
+[2026-01-30 14:27:09] Arquivo nao apareceu no destino; continuando para retorno e nova tentativa
+[2026-01-30 14:27:09] Clique: voltar 1 (495, 81)
+[2026-01-30 14:27:09] Clique: voltar 2 (1214, 438)
+[2026-01-30 14:27:09] Aguardando 3s: pos-voltar
+[2026-01-30 14:28:48] Clique: clique inicial (401, 463)
+[2026-01-30 14:28:48] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 14:28:48] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:28:48] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:28:48] Aguardando 2s: preparar a tela
+[2026-01-30 14:28:50] Tentativa 1/2
+[2026-01-30 14:28:50] ALT + RNX
+[2026-01-30 14:28:51] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:28:51] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:28:51] Clique: imprimir (1161, 464)
+[2026-01-30 14:28:51] Aguardando 1s: impressao
+[2026-01-30 14:28:52] Clique: salvar (405, 87)
+[2026-01-30 14:28:52] Aguardando 1.5s: janela de salvar
+[2026-01-30 14:28:56] Arquivo nao apareceu no destino; continuando para retorno e nova tentativa
+[2026-01-30 14:28:56] Clique: voltar 1 (495, 81)
+[2026-01-30 14:28:56] Clique: voltar 2 (1214, 438)
+[2026-01-30 14:28:56] Aguardando 3s: pos-voltar
+[2026-01-30 14:30:33] Clique: clique inicial (401, 463)
+[2026-01-30 14:30:33] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 14:30:33] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:30:33] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:30:33] Aguardando 2s: preparar a tela
+[2026-01-30 14:30:35] Tentativa 1/2
+[2026-01-30 14:30:35] ALT + RNX
+[2026-01-30 14:30:36] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:30:36] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:30:36] Clique: imprimir (1161, 464)
+[2026-01-30 14:30:36] Aguardando 1s: impressao
+[2026-01-30 14:30:37] Clique: salvar (405, 87)
+[2026-01-30 14:30:37] Aguardando 1.5s: janela de salvar
+[2026-01-30 14:30:41] Arquivo nao apareceu no destino; continuando para retorno e nova tentativa
+[2026-01-30 14:30:41] Clique: voltar 1 (495, 81)
+[2026-01-30 14:30:41] Clique: voltar 2 (1214, 438)
+[2026-01-30 14:30:41] Aguardando 3s: pos-voltar
+[2026-01-30 14:30:44] Tentativa 2/2
+[2026-01-30 14:30:44] ALT + RNX
+[2026-01-30 14:30:45] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:30:45] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:30:45] Clique: imprimir (1161, 464)
+[2026-01-30 14:30:45] Aguardando 1s: impressao
+[2026-01-30 14:30:46] Clique: salvar (405, 87)
+[2026-01-30 14:30:47] Aguardando 1.5s: janela de salvar
+[2026-01-30 14:30:51] Arquivo nao apareceu no destino; continuando para retorno e nova tentativa
+[2026-01-30 14:30:51] Clique: voltar 1 (495, 81)
+[2026-01-30 14:30:51] Clique: voltar 2 (1214, 438)
+[2026-01-30 14:30:51] Aguardando 3s: pos-voltar
+[2026-01-30 14:34:25] Clique: clique inicial (401, 463)
+[2026-01-30 14:34:25] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 14:34:25] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:34:25] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:34:25] Aguardando 2s: preparar a tela
+[2026-01-30 14:34:27] Tentativa 1/2
+[2026-01-30 14:34:27] ALT + RNX
+[2026-01-30 14:34:28] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:34:28] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:34:28] Clique: imprimir (1161, 464)
+[2026-01-30 14:34:29] Aguardando 1s: impressao
+[2026-01-30 14:34:30] Clique: salvar (405, 87)
+[2026-01-30 14:34:30] Aguardando 1.5s: janela de salvar
+[2026-01-30 14:34:34] Arquivo nao apareceu no destino; continuando para retorno e nova tentativa
+[2026-01-30 14:34:34] Clique: voltar 1 (495, 81)
+[2026-01-30 14:34:34] Clique: voltar 2 (1214, 438)
+[2026-01-30 14:34:34] Aguardando 3s: pos-voltar
+[2026-01-30 14:35:22] Clique: clique inicial (401, 463)
+[2026-01-30 14:35:22] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 14:35:22] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:35:22] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:35:22] Aguardando 2s: preparar a tela
+[2026-01-30 14:35:24] Tentativa 1/2
+[2026-01-30 14:35:24] ALT + RNX
+[2026-01-30 14:35:25] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:35:25] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:35:25] Clique: imprimir (1161, 464)
+[2026-01-30 14:35:25] Aguardando 1s: impressao
+[2026-01-30 14:35:26] Clique: salvar (405, 87)
+[2026-01-30 14:35:26] Aguardando 1.5s: janela de salvar
+[2026-01-30 14:35:31] Arquivo nao apareceu no destino; continuando para retorno e nova tentativa
+[2026-01-30 14:35:31] Clique: voltar 1 (495, 81)
+[2026-01-30 14:35:31] Clique: voltar 2 (1214, 438)
+[2026-01-30 14:35:31] Aguardando 3s: pos-voltar
+[2026-01-30 14:35:34] Tentativa 2/2
+[2026-01-30 14:35:34] ALT + RNX
+[2026-01-30 14:35:35] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:35:35] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:35:35] Clique: imprimir (1161, 464)
+[2026-01-30 14:35:35] Aguardando 1s: impressao
+[2026-01-30 14:35:37] Clique: salvar (405, 87)
+[2026-01-30 14:35:37] Aguardando 1.5s: janela de salvar
+[2026-01-30 14:37:24] Clique: clique inicial (401, 463)
+[2026-01-30 14:37:24] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 14:37:24] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:37:24] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:37:24] Aguardando 2s: preparar a tela
+[2026-01-30 14:37:26] Tentativa 1/2
+[2026-01-30 14:37:26] ALT + RNX
+[2026-01-30 14:37:27] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:37:27] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:37:27] Clique: imprimir (1161, 464)
+[2026-01-30 14:37:27] Aguardando 1s: impressao
+[2026-01-30 14:37:28] Clique: salvar (405, 87)
+[2026-01-30 14:37:29] Aguardando 1.5s: janela de salvar
+[2026-01-30 14:37:33] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\Nota_explicativa.rtf
+[2026-01-30 14:37:33] Clique: voltar 1 (495, 81)
+[2026-01-30 14:37:33] Clique: voltar 2 (1214, 438)
+[2026-01-30 14:37:34] Aguardando 3s: pos-voltar
+[2026-01-30 14:37:37] Finalizado com sucesso.
+[2026-01-30 14:38:00] Clique: clique inicial (401, 463)
+[2026-01-30 14:38:00] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 14:38:00] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:38:00] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:38:00] Aguardando 2s: preparar a tela
+[2026-01-30 14:38:02] Tentativa 1/2
+[2026-01-30 14:38:02] ALT + RNX
+[2026-01-30 14:38:03] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:38:03] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:38:03] Clique: imprimir (1161, 464)
+[2026-01-30 14:38:03] Aguardando 1s: impressao
+[2026-01-30 14:38:04] Clique: salvar (405, 87)
+[2026-01-30 14:38:04] Aguardando 1.5s: janela de salvar
+[2026-01-30 14:38:09] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\Nota_explicativa.rtf
+[2026-01-30 14:38:09] Clique: voltar 1 (495, 81)
+[2026-01-30 14:38:09] Clique: voltar 2 (1214, 438)
+[2026-01-30 14:38:09] Aguardando 3s: pos-voltar
+[2026-01-30 14:38:12] Finalizado com sucesso.
+[2026-01-30 14:40:37] Clique: clique inicial (401, 463)
+[2026-01-30 14:40:37] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 14:40:37] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:40:37] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:40:37] Aguardando 2s: preparar a tela
+[2026-01-30 14:40:40] Tentativa 1/2
+[2026-01-30 14:40:40] ALT + RNX
+[2026-01-30 14:40:41] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:40:41] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:40:41] Clique: imprimir (1161, 464)
+[2026-01-30 14:40:41] Aguardando 1s: impressao
+[2026-01-30 14:40:42] Clique: salvar (405, 87)
+[2026-01-30 14:40:42] Aguardando 1.5s: janela de salvar
+[2026-01-30 14:40:48] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\Nota_explicativa.rtf
+[2026-01-30 14:40:48] Clique: voltar 1 (495, 81)
+[2026-01-30 14:40:48] Clique: voltar 2 (1214, 438)
+[2026-01-30 14:40:48] Aguardando 1s: pos-voltar
+[2026-01-30 14:40:49] Finalizado com sucesso.
+[2026-01-30 14:41:07] Clique: clique inicial (401, 463)
+[2026-01-30 14:41:07] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 14:41:07] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:41:07] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:41:07] Aguardando 2s: preparar a tela
+[2026-01-30 14:41:09] Tentativa 1/2
+[2026-01-30 14:41:09] ALT + RNX
+[2026-01-30 14:41:10] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:41:10] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:41:10] Clique: imprimir (1161, 464)
+[2026-01-30 14:41:10] Aguardando 1s: impressao
+[2026-01-30 14:41:11] Clique: salvar (405, 87)
+[2026-01-30 14:41:11] Aguardando 1.5s: janela de salvar
+[2026-01-30 14:41:17] Arquivo nao apareceu no destino; continuando para retorno e nova tentativa
+[2026-01-30 14:41:17] Clique: voltar 1 (495, 81)
+[2026-01-30 14:41:17] Clique: voltar 2 (1214, 438)
+[2026-01-30 14:41:17] Aguardando 1s: pos-voltar
+[2026-01-30 14:41:18] Tentativa 2/2
+[2026-01-30 14:41:18] ALT + RNX
+[2026-01-30 14:41:19] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:41:19] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:41:19] Clique: imprimir (1161, 464)
+[2026-01-30 14:41:20] Aguardando 1s: impressao
+[2026-01-30 14:41:21] Clique: salvar (405, 87)
+[2026-01-30 14:41:21] Aguardando 1.5s: janela de salvar
+[2026-01-30 14:41:28] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\Nota_explicativa.rtf
+[2026-01-30 14:41:28] Clique: voltar 1 (495, 81)
+[2026-01-30 14:41:28] Clique: voltar 2 (1214, 438)
+[2026-01-30 14:41:28] Aguardando 1s: pos-voltar
+[2026-01-30 14:41:29] Finalizado com sucesso.
+[2026-01-30 14:43:08] Clique: clique inicial (401, 463)
+[2026-01-30 14:43:08] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 14:43:08] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 14:43:08] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 14:43:08] Aguardando 2s: preparar a tela
+[2026-01-30 14:43:10] Tentativa 1/2
+[2026-01-30 14:43:10] ALT + RNX
+[2026-01-30 14:43:11] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 14:43:11] Clique: listar CNPJ (791, 585)
+[2026-01-30 14:43:11] Clique: imprimir (1161, 464)
+[2026-01-30 14:43:11] Aguardando 1s: impressao
+[2026-01-30 14:43:12] Clique: salvar (405, 87)
+[2026-01-30 14:43:12] Aguardando 1.5s: janela de salvar
+[2026-01-30 14:43:18] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\Nota_explicativa.rtf
+[2026-01-30 14:43:18] Clique: voltar 1 (495, 81)
+[2026-01-30 14:43:18] Clique: voltar 2 (1214, 438)
+[2026-01-30 14:43:18] Aguardando 1s: pos-voltar
+[2026-01-30 14:43:19] Finalizado com sucesso.
+[2026-01-30 16:21:18] Clique: clique inicial (401, 463)
+[2026-01-30 16:21:18] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 16:21:18] Empresa: agrabel caminhoes ltda
+[2026-01-30 16:21:18] Diretorio destino: W:\\SPEDs\\ECD\\2025\agrabel caminhoes ltda
+[2026-01-30 16:21:18] Aguardando 2s: preparar a tela
+[2026-01-30 16:21:20] Tentativa 1/2
+[2026-01-30 16:21:20] ALT + RNX
+[2026-01-30 16:21:21] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 16:21:21] Clique: listar CNPJ (791, 585)
+[2026-01-30 16:21:21] Clique: imprimir (1161, 464)
+[2026-01-30 16:27:54] Clique: clique inicial (401, 463)
+[2026-01-30 16:27:54] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 16:27:54] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 16:27:54] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 16:27:54] Aguardando 2s: preparar a tela
+[2026-01-30 16:27:56] Tentativa 1/2
+[2026-01-30 16:27:56] ALT + RNX
+[2026-01-30 16:27:57] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 16:27:57] Clique: listar CNPJ (791, 585)
+[2026-01-30 16:27:57] Clique: imprimir (1161, 464)
+[2026-01-30 16:29:38] Clique: clique inicial (401, 463)
+[2026-01-30 16:29:38] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 16:29:38] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 16:29:38] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 16:29:38] Aguardando 2s: preparar a tela
+[2026-01-30 16:29:40] Tentativa 1/2
+[2026-01-30 16:29:40] ALT + RNX
+[2026-01-30 16:29:41] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 16:29:42] Clique: listar CNPJ (791, 585)
+[2026-01-30 16:29:42] Clique: imprimir (1161, 464)
+[2026-01-30 16:37:02] Clique: clique inicial (401, 463)
+[2026-01-30 16:37:02] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 16:37:02] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 16:37:02] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 16:37:02] Aguardando 2s: preparar a tela
+[2026-01-30 16:37:04] Tentativa 1/2
+[2026-01-30 16:37:04] ALT + RNX
+[2026-01-30 16:37:05] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 16:37:05] Clique: listar CNPJ (791, 585)
+[2026-01-30 16:37:05] Clique: imprimir (1161, 464)
+[2026-01-30 16:38:47] Clique: clique inicial (401, 463)
+[2026-01-30 16:38:47] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 16:38:47] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 16:38:47] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 16:38:47] Aguardando 2s: preparar a tela
+[2026-01-30 16:38:49] Tentativa 1/2
+[2026-01-30 16:38:49] ALT + RNX
+[2026-01-30 16:38:50] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 16:38:51] Clique: listar CNPJ (791, 585)
+[2026-01-30 16:38:51] Clique: imprimir (1161, 464)
+[2026-01-30 16:42:40] Clique: clique inicial (401, 463)
+[2026-01-30 16:42:40] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 16:42:40] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 16:42:40] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 16:42:40] Aguardando 2s: preparar a tela
+[2026-01-30 16:42:42] Tentativa 1/2
+[2026-01-30 16:42:42] ALT + RNX
+[2026-01-30 16:42:43] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 16:42:43] Clique: listar CNPJ (791, 585)
+[2026-01-30 16:42:43] Clique: imprimir (1161, 464)
+[2026-01-30 16:53:29] Clique: clique inicial (401, 463)
+[2026-01-30 16:53:29] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 16:53:29] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 16:53:29] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 16:53:29] Aguardando 2s: preparar a tela
+[2026-01-30 16:53:31] Tentativa 1/2
+[2026-01-30 16:53:31] ALT + RNX
+[2026-01-30 16:53:32] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 16:53:32] Clique: listar CNPJ (791, 585)
+[2026-01-30 16:53:32] Clique: imprimir (1161, 464)
+[2026-01-30 17:12:51] Clique: clique inicial (401, 463)
+[2026-01-30 17:12:51] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 17:12:51] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 17:12:51] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 17:12:51] Aguardando 2s: preparar a tela
+[2026-01-30 17:12:53] Tentativa 1/2
+[2026-01-30 17:12:53] ALT + RNX
+[2026-01-30 17:12:54] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 17:12:54] Clique: listar CNPJ (791, 585)
+[2026-01-30 17:12:54] Clique: imprimir (1161, 464)
+[2026-01-30 17:17:38] Clique: clique inicial (401, 463)
+[2026-01-30 17:17:38] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 17:17:39] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 17:17:39] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 17:17:39] Aguardando 2s: preparar a tela
+[2026-01-30 17:17:41] Tentativa 1/2
+[2026-01-30 17:17:41] ALT + RNX
+[2026-01-30 17:17:42] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 17:17:42] Clique: listar CNPJ (791, 585)
+[2026-01-30 17:17:42] Clique: imprimir (1161, 464)
+[2026-01-30 17:17:42] Relatorio localizado (novo child window: 18).
+[2026-01-30 17:17:42] Clique: salvar (405, 87)
+[2026-01-30 17:17:42] Aguardando 1.5s: janela de salvar
+[2026-01-30 17:17:47] Clique: salvar (1437, 920)
+[2026-01-30 17:17:47] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\Nota_explicativa.rtf
+[2026-01-30 17:20:01] Clique: clique inicial (401, 463)
+[2026-01-30 17:20:01] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 17:20:01] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 17:20:02] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 17:20:02] Aguardando 2s: preparar a tela
+[2026-01-30 17:20:04] Tentativa 1/2
+[2026-01-30 17:20:04] ALT + RNX
+[2026-01-30 17:20:05] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 17:20:05] Clique: listar CNPJ (791, 585)
+[2026-01-30 17:20:05] Clique: imprimir (1161, 464)
+[2026-01-30 17:20:05] Relatorio localizado (novo child window: 18).
+[2026-01-30 17:20:05] Clique: salvar (405, 87)
+[2026-01-30 17:20:05] Aguardando 1.5s: janela de salvar
+[2026-01-30 17:20:10] Clique: salvar (1437, 920)
+[2026-01-30 17:20:10] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\Nota_explicativa.rtf
+[2026-01-30 17:20:16] Clique: voltar 1 (495, 81)
+[2026-01-30 17:20:16] Clique: voltar 2 (1214, 438)
+[2026-01-30 17:20:16] Aguardando 1s: pos-voltar
+[2026-01-30 17:20:17] Finalizado com sucesso.
+[2026-01-30 17:27:31] Clique: clique inicial (401, 463)
+[2026-01-30 17:27:32] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 17:27:32] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 17:27:32] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 17:27:32] Aguardando 2s: preparar a tela
+[2026-01-30 17:27:34] Tentativa 1/2
+[2026-01-30 17:27:34] ALT + RNX
+[2026-01-30 17:27:35] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 17:27:35] Clique: listar CNPJ (791, 585)
+[2026-01-30 17:27:35] Clique: imprimir (1161, 464)
+[2026-01-30 17:27:35] Relatorio localizado (novo child window: 18).
+[2026-01-30 17:27:35] Clique: salvar (405, 87)
+[2026-01-30 17:27:35] Aguardando 1.5s: janela de salvar
+[2026-01-30 17:27:40] Clique: salvar (1437, 920)
+[2026-01-30 17:27:40] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\Nota_explicativa.rtf
+[2026-01-30 17:27:45] Clique: voltar 1 (495, 81)
+[2026-01-30 17:27:45] Clique: voltar 2 (1214, 438)
+[2026-01-30 17:27:45] Aguardando 1s: pos-voltar
+[2026-01-30 17:27:46] Finalizado com sucesso.
+[2026-01-30 17:28:12] Clique: clique inicial (401, 463)
+[2026-01-30 17:28:12] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 17:28:12] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 17:28:12] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 17:28:12] Aguardando 2s: preparar a tela
+[2026-01-30 17:28:14] Tentativa 1/2
+[2026-01-30 17:28:14] ALT + RNX
+[2026-01-30 17:28:15] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 17:28:15] Clique: listar CNPJ (791, 585)
+[2026-01-30 17:28:15] Clique: imprimir (1161, 464)
+[2026-01-30 17:28:15] Relatorio localizado (novo child window: 18).
+[2026-01-30 17:28:15] Clique: salvar (405, 87)
+[2026-01-30 17:28:16] Aguardando 1.5s: janela de salvar
+[2026-01-30 17:28:20] Clique: salvar (1437, 920)
+[2026-01-30 17:28:21] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\Nota_explicativa.rtf
+[2026-01-30 17:28:27] Clique: voltar 1 (495, 81)
+[2026-01-30 17:28:27] Clique: voltar 2 (1214, 438)
+[2026-01-30 17:28:27] Aguardando 1s: pos-voltar
+[2026-01-30 17:28:28] Finalizado com sucesso.
+[2026-01-30 17:32:37] Clique: clique inicial (401, 463)
+[2026-01-30 17:32:37] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 17:32:37] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 17:32:37] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 17:32:37] Aguardando 2s: preparar a tela
+[2026-01-30 17:32:39] Tentativa 1/2
+[2026-01-30 17:32:39] ALT + RNX
+[2026-01-30 17:32:40] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 17:32:40] Clique: listar CNPJ (791, 585)
+[2026-01-30 17:32:40] Clique: imprimir (1161, 464)
+[2026-01-30 17:32:40] Relatorio localizado (novo child window: 18).
+[2026-01-30 17:32:40] Clique: salvar (405, 87)
+[2026-01-30 17:32:40] Aguardando 1.5s: janela de salvar
+[2026-01-30 17:32:45] Clique: salvar (1437, 920)
+[2026-01-30 17:32:46] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\Nota_explicativa.rtf
+[2026-01-30 17:34:06] Clique: clique inicial (401, 463)
+[2026-01-30 17:34:06] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 17:34:06] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 17:34:06] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 17:34:06] Aguardando 2s: preparar a tela
+[2026-01-30 17:34:08] Tentativa 1/2
+[2026-01-30 17:34:08] ALT + RNX
+[2026-01-30 17:34:09] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 17:34:09] Clique: listar CNPJ (791, 585)
+[2026-01-30 17:34:09] Clique: imprimir (1161, 464)
+[2026-01-30 17:34:09] Relatorio localizado (novo child window: 18).
+[2026-01-30 17:34:09] Clique: salvar (405, 87)
+[2026-01-30 17:34:10] Aguardando 1.5s: janela de salvar
+[2026-01-30 17:34:16] Clique: salvar (1437, 920)
+[2026-01-30 17:34:17] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\Nota_explicativa.rtf
+[2026-01-30 17:34:23] Clique: voltar 1 (495, 81)
+[2026-01-30 17:34:23] Clique: voltar 2 (1214, 438)
+[2026-01-30 17:34:23] Aguardando 1s: pos-voltar
+[2026-01-30 17:34:24] Finalizado com sucesso.
+[2026-01-30 17:39:21] Clique: clique inicial (401, 463)
+[2026-01-30 17:39:21] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 17:39:21] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 17:39:21] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 17:39:21] Aguardando 2s: preparar a tela
+[2026-01-30 17:39:23] Tentativa 1/2
+[2026-01-30 17:39:23] ALT + RNX
+[2026-01-30 17:39:24] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 17:39:24] Clique: listar CNPJ (791, 585)
+[2026-01-30 17:39:24] Clique: imprimir (1161, 464)
+[2026-01-30 17:39:24] Relatorio localizado (novo child window: 18).
+[2026-01-30 17:39:24] Clique: salvar (405, 87)
+[2026-01-30 17:39:25] Aguardando 1.5s: janela de salvar
+[2026-01-30 17:39:29] Clique: salvar (1437, 920)
+[2026-01-30 17:39:30] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\Nota_explicativa.rtf
+[2026-01-30 17:40:49] Clique: clique inicial (401, 463)
+[2026-01-30 17:40:49] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 17:40:49] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 17:40:49] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 17:40:49] Aguardando 2s: preparar a tela
+[2026-01-30 17:40:51] Tentativa 1/2
+[2026-01-30 17:40:51] ALT + RNX
+[2026-01-30 17:40:52] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 17:40:53] Clique: listar CNPJ (791, 585)
+[2026-01-30 17:40:53] Clique: imprimir (1161, 464)
+[2026-01-30 17:40:53] Relatorio localizado (novo child window: 18).
+[2026-01-30 17:40:53] Clique: salvar (405, 87)
+[2026-01-30 17:40:53] Aguardando 1.5s: janela de salvar
+[2026-01-30 17:40:58] Clique: salvar (1437, 920)
+[2026-01-30 17:40:58] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\Nota_explicativa.rtf
+[2026-01-30 17:41:03] Clique: voltar 1 (495, 81)
+[2026-01-30 17:41:03] Clique: voltar 2 (1214, 438)
+[2026-01-30 17:41:03] Aguardando 1s: pos-voltar
+[2026-01-30 17:41:04] Finalizado com sucesso.
+[2026-01-30 17:51:31] Clique: clique inicial (401, 463)
+[2026-01-30 17:51:32] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 17:51:32] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 17:51:32] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 17:51:32] Aguardando 2s: preparar a tela
+[2026-01-30 17:51:34] Tentativa 1/2
+[2026-01-30 17:51:34] ALT + RNX
+[2026-01-30 17:51:35] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 17:51:35] Clique: listar CNPJ (791, 585)
+[2026-01-30 17:51:35] Clique: imprimir (1161, 464)
+[2026-01-30 17:51:35] Relatorio localizado (novo child window: 18).
+[2026-01-30 17:51:35] Clique: salvar (405, 87)
+[2026-01-30 17:51:35] Aguardando 1.5s: janela de salvar
+[2026-01-30 17:51:40] Clique: salvar (1437, 920)
+[2026-01-30 17:51:40] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\Nota_explicativa.rtf
+[2026-01-30 17:52:31] Clique: clique inicial (401, 463)
+[2026-01-30 17:52:31] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-01-30 17:52:31] Empresa: AGRABEL CAMINHOES LTDA
+[2026-01-30 17:52:31] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-01-30 17:52:31] Aguardando 2s: preparar a tela
+[2026-01-30 17:52:33] Tentativa 1/2
+[2026-01-30 17:52:33] ALT + RNX
+[2026-01-30 17:52:34] Clique: listar dados para assinatura (792, 570)
+[2026-01-30 17:52:34] Clique: listar CNPJ (791, 585)
+[2026-01-30 17:52:34] Clique: imprimir (1161, 464)
+[2026-01-30 17:52:34] Relatorio localizado (novo child window: 18).
+[2026-01-30 17:52:34] Clique: salvar (405, 87)
+[2026-01-30 17:52:34] Aguardando 1.5s: janela de salvar
+[2026-01-30 17:52:39] Clique: salvar (1437, 920)
+[2026-01-30 17:52:40] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\Nota_explicativa.rtf
+[2026-01-30 17:52:44] Clique: voltar 1 (495, 81)
+[2026-01-30 17:52:44] Clique: voltar 2 (1214, 438)
+[2026-01-30 17:52:45] Aguardando 1s: pos-voltar
+[2026-01-30 17:52:46] Finalizado com sucesso.
+[2026-02-02 09:51:35] Clique: clique inicial (401, 463)
+[2026-02-02 09:51:35] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 09:51:35] Empresa: AGRABEL CAMINHOES LTDA
+[2026-02-02 09:51:35] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-02-02 09:51:35] Aguardando 2s: preparar a tela
+[2026-02-02 09:51:37] Tentativa 1/2
+[2026-02-02 09:51:37] ALT + RNX
+[2026-02-02 09:51:38] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 09:51:38] Clique: listar CNPJ (791, 585)
+[2026-02-02 09:51:38] Clique: imprimir (1161, 464)
+[2026-02-02 09:51:38] Relatorio localizado (novo child window: 18).
+[2026-02-02 09:51:39] Clique: salvar (405, 87)
+[2026-02-02 09:51:39] Aguardando 1.5s: janela de salvar
+[2026-02-02 09:51:43] Clique: salvar (1437, 920)
+[2026-02-02 09:51:44] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\Nota_explicativa.rtf
+[2026-02-02 09:51:48] Clique: voltar 1 (495, 81)
+[2026-02-02 09:51:48] Clique: voltar 2 (1214, 438)
+[2026-02-02 09:51:48] Aguardando 1s: pos-voltar
+[2026-02-02 09:51:49] Finalizado com sucesso.
+[2026-02-02 14:00:02] Clique: clique inicial (401, 463)
+[2026-02-02 14:00:02] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 14:00:02] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:00:02] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:00:02] Aguardando 2s: preparar a tela
+[2026-02-02 14:00:04] Tentativa 1/2
+[2026-02-02 14:00:04] ALT + RNX
+[2026-02-02 14:00:05] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 14:00:05] Clique: listar CNPJ (791, 585)
+[2026-02-02 14:00:05] Clique: imprimir (1161, 464)
+[2026-02-02 14:00:06] Relatorio localizado (novo child window: 18).
+[2026-02-02 14:00:06] Clique: salvar (405, 87)
+[2026-02-02 14:00:06] Aguardando 1.5s: janela de salvar
+[2026-02-02 14:00:10] Clique: salvar (1437, 920)
+[2026-02-02 14:00:11] Arquivo nao apareceu no destino; continuando para retorno e nova tentativa
+[2026-02-02 14:00:11] Clique: voltar 1 (495, 81)
+[2026-02-02 14:00:11] Clique: voltar 2 (1214, 438)
+[2026-02-02 14:00:11] Aguardando 1s: pos-voltar
+[2026-02-02 14:00:12] Tentativa 2/2
+[2026-02-02 14:00:12] ALT + RNX
+[2026-02-02 14:00:13] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 14:00:13] Clique: listar CNPJ (791, 585)
+[2026-02-02 14:00:13] Clique: imprimir (1161, 464)
+[2026-02-02 14:00:42] Clique: clique inicial (401, 463)
+[2026-02-02 14:00:42] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 14:00:42] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:00:42] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:00:42] Aguardando 2s: preparar a tela
+[2026-02-02 14:00:44] Tentativa 1/2
+[2026-02-02 14:00:44] ALT + RNX
+[2026-02-02 14:00:45] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 14:00:45] Clique: listar CNPJ (791, 585)
+[2026-02-02 14:00:45] Clique: imprimir (1161, 464)
+[2026-02-02 14:00:45] Relatorio localizado (novo child window: 18).
+[2026-02-02 14:00:45] Clique: salvar (405, 87)
+[2026-02-02 14:00:45] Aguardando 1.5s: janela de salvar
+[2026-02-02 14:00:50] Clique: salvar (1437, 920)
+[2026-02-02 14:00:50] Arquivo salvo: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA\Nota_explicativa.rtf
+[2026-02-02 14:00:57] Clique: voltar 1 (495, 81)
+[2026-02-02 14:00:57] Clique: voltar 2 (1214, 438)
+[2026-02-02 14:00:57] Aguardando 1s: pos-voltar
+[2026-02-02 14:00:58] Finalizado com sucesso.
+[2026-02-02 14:07:03] Clique: clique inicial (401, 463)
+[2026-02-02 14:07:04] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 14:07:04] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:07:04] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:07:04] Aguardando 2s: preparar a tela
+[2026-02-02 14:07:06] Tentativa 1/2
+[2026-02-02 14:07:06] ALT + RNX
+[2026-02-02 14:07:07] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 14:07:07] Clique: listar CNPJ (791, 585)
+[2026-02-02 14:07:07] Clique: imprimir (1161, 464)
+[2026-02-02 14:07:07] Relatorio localizado (novo child window: 18).
+[2026-02-02 14:07:07] Clique: salvar (405, 87)
+[2026-02-02 14:07:07] Aguardando 1.5s: janela de salvar
+[2026-02-02 14:07:12] Clique: salvar (1437, 920)
+[2026-02-02 14:07:12] Arquivo nao apareceu no destino; continuando para retorno e nova tentativa
+[2026-02-02 14:07:12] Clique: voltar 1 (495, 81)
+[2026-02-02 14:07:12] Clique: voltar 2 (1214, 438)
+[2026-02-02 14:07:12] Aguardando 1s: pos-voltar
+[2026-02-02 14:07:13] Tentativa 2/2
+[2026-02-02 14:07:13] ALT + RNX
+[2026-02-02 14:07:14] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 14:07:14] Clique: listar CNPJ (791, 585)
+[2026-02-02 14:07:14] Clique: imprimir (1161, 464)
+[2026-02-02 14:07:46] Clique: clique inicial (401, 463)
+[2026-02-02 14:07:46] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 14:07:46] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:07:46] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:07:46] Aguardando 2s: preparar a tela
+[2026-02-02 14:07:48] Tentativa 1/2
+[2026-02-02 14:07:48] ALT + RNX
+[2026-02-02 14:07:49] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 14:07:49] Clique: listar CNPJ (791, 585)
+[2026-02-02 14:07:49] Clique: imprimir (1161, 464)
+[2026-02-02 14:07:49] Relatorio localizado (novo child window: 18).
+[2026-02-02 14:07:49] Clique: salvar (405, 87)
+[2026-02-02 14:07:50] Aguardando 1.5s: janela de salvar
+[2026-02-02 14:07:54] Clique: salvar (1437, 920)
+[2026-02-02 14:07:55] Arquivo nao apareceu no destino; continuando para retorno e nova tentativa
+[2026-02-02 14:07:55] Clique: voltar 1 (495, 81)
+[2026-02-02 14:07:55] Clique: voltar 2 (1214, 438)
+[2026-02-02 14:07:55] Aguardando 1s: pos-voltar
+[2026-02-02 14:07:56] Tentativa 2/2
+[2026-02-02 14:07:56] ALT + RNX
+[2026-02-02 14:07:57] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 14:07:57] Clique: listar CNPJ (791, 585)
+[2026-02-02 14:07:57] Clique: imprimir (1161, 464)
+[2026-02-02 14:09:20] Clique: clique inicial (401, 463)
+[2026-02-02 14:09:20] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 14:09:20] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:09:20] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:09:20] Aguardando 2s: preparar a tela
+[2026-02-02 14:09:22] Tentativa 1/2
+[2026-02-02 14:09:22] ALT + RNX
+[2026-02-02 14:09:23] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 14:09:23] Clique: listar CNPJ (791, 585)
+[2026-02-02 14:09:23] Clique: imprimir (1161, 464)
+[2026-02-02 14:09:23] Relatorio localizado (novo child window: 18).
+[2026-02-02 14:09:23] Clique: salvar (405, 87)
+[2026-02-02 14:09:23] Aguardando 1.5s: janela de salvar
+[2026-02-02 14:09:29] Arquivo salvo: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA\Nota_explicativa.rtf
+[2026-02-02 14:09:34] Clique: voltar 1 (495, 81)
+[2026-02-02 14:09:34] Clique: voltar 2 (1214, 438)
+[2026-02-02 14:09:34] Aguardando 1s: pos-voltar
+[2026-02-02 14:09:35] Finalizado com sucesso.
+[2026-02-02 14:25:06] Clique: clique inicial (401, 463)
+[2026-02-02 14:25:06] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 14:25:06] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:25:06] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:25:06] Aguardando 2s: preparar a tela
+[2026-02-02 14:25:08] Tentativa 1/2
+[2026-02-02 14:25:08] ALT + RNX
+[2026-02-02 14:25:09] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 14:25:09] Clique: listar CNPJ (791, 585)
+[2026-02-02 14:25:09] Clique: imprimir (1161, 464)
+[2026-02-02 14:25:09] Relatorio localizado (novo child window: 18).
+[2026-02-02 14:25:09] Clique: salvar (405, 87)
+[2026-02-02 14:25:09] Aguardando 1.5s: janela de salvar
+[2026-02-02 14:25:15] Arquivo salvo: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA\Nota_explicativa.rtf
+[2026-02-02 14:25:19] Clique: voltar 1 (495, 81)
+[2026-02-02 14:25:20] Clique: voltar 2 (1214, 438)
+[2026-02-02 14:25:20] Aguardando 1s: pos-voltar
+[2026-02-02 14:25:21] Finalizado com sucesso.
+[2026-02-02 14:26:31] Clique: clique inicial (401, 463)
+[2026-02-02 14:26:31] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 14:26:31] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:26:31] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:26:31] Aguardando 2s: preparar a tela
+[2026-02-02 14:26:33] Tentativa 1/2
+[2026-02-02 14:26:33] ALT + RNX
+[2026-02-02 14:26:34] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 14:26:34] Clique: listar CNPJ (791, 585)
+[2026-02-02 14:26:34] Clique: imprimir (1161, 464)
+[2026-02-02 14:26:35] Relatorio localizado (novo child window: 18).
+[2026-02-02 14:26:35] Clique: salvar (405, 87)
+[2026-02-02 14:26:35] Aguardando 1.5s: janela de salvar
+[2026-02-02 14:26:40] Arquivo salvo: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA\Nota_explicativa.rtf
+[2026-02-02 14:26:45] Clique: voltar 1 (495, 81)
+[2026-02-02 14:26:45] Clique: voltar 2 (1214, 438)
+[2026-02-02 14:26:45] Aguardando 1s: pos-voltar
+[2026-02-02 14:26:46] Finalizado com sucesso.
+[2026-02-02 14:42:17] Clique: clique inicial (401, 463)
+[2026-02-02 14:42:17] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 14:42:17] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:42:17] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:42:17] Aguardando 2s: preparar a tela
+[2026-02-02 14:42:19] Tentativa 1/2
+[2026-02-02 14:42:19] ALT + RNX
+[2026-02-02 14:42:20] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 14:42:20] Clique: listar CNPJ (791, 585)
+[2026-02-02 14:42:20] Clique: imprimir (1161, 464)
+[2026-02-02 14:42:21] Relatorio localizado (novo child window: 18).
+[2026-02-02 14:42:21] Clique: salvar (405, 87)
+[2026-02-02 14:42:21] Aguardando 1.5s: janela de salvar
+[2026-02-02 14:42:26] Arquivo salvo: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA\Nota_explicativa.rtf
+[2026-02-02 14:42:31] Clique: voltar 1 (495, 81)
+[2026-02-02 14:42:31] Clique: voltar 2 (1214, 438)
+[2026-02-02 14:42:31] Aguardando 1s: pos-voltar
+[2026-02-02 14:42:32] Finalizado com sucesso.
+[2026-02-02 14:44:43] Clique: clique inicial (401, 463)
+[2026-02-02 14:44:43] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 14:44:43] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:44:43] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:44:43] Aguardando 2s: preparar a tela
+[2026-02-02 14:44:45] Tentativa 1/2
+[2026-02-02 14:44:45] ALT + RNX
+[2026-02-02 14:44:46] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 14:44:46] Clique: listar CNPJ (791, 585)
+[2026-02-02 14:44:46] Clique: imprimir (1161, 464)
+[2026-02-02 14:45:04] Clique: clique inicial (401, 463)
+[2026-02-02 14:45:04] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 14:45:04] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:45:04] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 14:45:04] Aguardando 2s: preparar a tela
+[2026-02-02 14:45:06] Tentativa 1/2
+[2026-02-02 14:45:06] ALT + RNX
+[2026-02-02 14:45:07] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 14:45:07] Clique: listar CNPJ (791, 585)
+[2026-02-02 14:45:07] Clique: imprimir (1161, 464)
+[2026-02-02 14:45:07] Relatorio localizado (novo child window: 18).
+[2026-02-02 14:45:07] Clique: salvar (405, 87)
+[2026-02-02 14:45:07] Aguardando 1.5s: janela de salvar
+[2026-02-02 14:45:13] Arquivo salvo: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA\Nota_explicativa.rtf
+[2026-02-02 14:45:18] Clique: voltar 1 (495, 81)
+[2026-02-02 14:45:18] Clique: voltar 2 (1214, 438)
+[2026-02-02 14:45:18] Aguardando 1s: pos-voltar
+[2026-02-02 14:45:19] Finalizado com sucesso.
+[2026-02-02 15:00:49] Clique: clique inicial (401, 463)
+[2026-02-02 15:00:49] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 15:00:49] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:00:49] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:00:49] Aguardando 2s: preparar a tela
+[2026-02-02 15:00:51] Tentativa 1/2
+[2026-02-02 15:00:51] ALT + RNX
+[2026-02-02 15:00:52] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 15:00:52] Clique: listar CNPJ (791, 585)
+[2026-02-02 15:00:52] Clique: imprimir (1161, 464)
+[2026-02-02 15:00:53] Relatorio localizado (novo child window: 18).
+[2026-02-02 15:00:53] Clique: salvar (405, 87)
+[2026-02-02 15:00:53] Aguardando 1.5s: janela de salvar
+[2026-02-02 15:00:58] Arquivo salvo: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA\Nota_explicativa.rtf
+[2026-02-02 15:01:03] Clique: voltar 1 (495, 81)
+[2026-02-02 15:01:03] Clique: voltar 2 (1214, 438)
+[2026-02-02 15:01:03] Aguardando 1s: pos-voltar
+[2026-02-02 15:01:04] Finalizado com sucesso.
+[2026-02-02 15:16:34] Clique: clique inicial (401, 463)
+[2026-02-02 15:16:34] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 15:16:34] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:16:34] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:16:34] Aguardando 2s: preparar a tela
+[2026-02-02 15:16:36] Tentativa 1/2
+[2026-02-02 15:16:36] ALT + RNX
+[2026-02-02 15:16:37] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 15:16:37] Clique: listar CNPJ (791, 585)
+[2026-02-02 15:16:37] Clique: imprimir (1161, 464)
+[2026-02-02 15:16:38] Relatorio localizado (novo child window: 18).
+[2026-02-02 15:16:38] Clique: salvar (405, 87)
+[2026-02-02 15:16:38] Aguardando 1.5s: janela de salvar
+[2026-02-02 15:16:43] Arquivo salvo: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA\Nota_explicativa.rtf
+[2026-02-02 15:16:48] Clique: voltar 1 (495, 81)
+[2026-02-02 15:16:48] Clique: voltar 2 (1214, 438)
+[2026-02-02 15:16:48] Aguardando 1s: pos-voltar
+[2026-02-02 15:16:49] Finalizado com sucesso.
+[2026-02-02 15:24:27] Clique: clique inicial (401, 463)
+[2026-02-02 15:24:28] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 15:24:28] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:24:28] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:24:28] Aguardando 2s: preparar a tela
+[2026-02-02 15:24:30] Tentativa 1/2
+[2026-02-02 15:24:30] ALT + RNX
+[2026-02-02 15:24:31] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 15:24:31] Clique: listar CNPJ (791, 585)
+[2026-02-02 15:24:31] Clique: imprimir (1161, 464)
+[2026-02-02 15:24:31] Relatorio localizado (novo child window: 18).
+[2026-02-02 15:24:31] Clique: salvar (405, 87)
+[2026-02-02 15:24:31] Aguardando 1.5s: janela de salvar
+[2026-02-02 15:24:37] Arquivo salvo: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA\Nota_explicativa.rtf
+[2026-02-02 15:24:41] Clique: voltar 1 (495, 81)
+[2026-02-02 15:24:41] Clique: voltar 2 (1214, 438)
+[2026-02-02 15:24:42] Aguardando 1s: pos-voltar
+[2026-02-02 15:24:43] Finalizado com sucesso.
+[2026-02-02 15:32:36] Clique: clique inicial (401, 463)
+[2026-02-02 15:32:36] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 15:32:36] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:32:36] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:32:36] Aguardando 2s: preparar a tela
+[2026-02-02 15:32:38] Tentativa 1/2
+[2026-02-02 15:32:38] ALT + RNX
+[2026-02-02 15:32:39] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 15:32:39] Clique: listar CNPJ (791, 585)
+[2026-02-02 15:32:39] Clique: imprimir (1161, 464)
+[2026-02-02 15:32:40] Relatorio localizado (novo child window: 18).
+[2026-02-02 15:32:40] Clique: salvar (405, 87)
+[2026-02-02 15:32:40] Aguardando 1.5s: janela de salvar
+[2026-02-02 15:32:45] Arquivo salvo: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA\Nota_explicativa.rtf
+[2026-02-02 15:32:50] Clique: voltar 1 (495, 81)
+[2026-02-02 15:32:50] Clique: voltar 2 (1214, 438)
+[2026-02-02 15:32:50] Aguardando 1s: pos-voltar
+[2026-02-02 15:32:51] Finalizado com sucesso.
+[2026-02-02 15:44:10] Clique: clique inicial (401, 463)
+[2026-02-02 15:44:11] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 15:44:11] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:44:11] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-02 15:44:11] Aguardando 2s: preparar a tela
+[2026-02-02 15:44:13] Tentativa 1/2
+[2026-02-02 15:44:13] ALT + RNX
+[2026-02-02 15:44:14] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 15:44:14] Clique: listar CNPJ (791, 585)
+[2026-02-02 15:44:14] Clique: imprimir (1161, 464)
+[2026-02-02 15:44:14] Relatorio localizado (novo child window: 18).
+[2026-02-02 15:44:14] Clique: salvar (405, 87)
+[2026-02-02 15:44:14] Aguardando 1.5s: janela de salvar
+[2026-02-02 15:44:20] Arquivo salvo: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA\Nota_explicativa.rtf
+[2026-02-02 15:44:24] Clique: voltar 1 (495, 81)
+[2026-02-02 15:44:25] Clique: voltar 2 (1214, 438)
+[2026-02-02 15:44:25] Aguardando 1s: pos-voltar
+[2026-02-02 15:44:26] Finalizado com sucesso.
+[2026-02-02 16:14:01] Clique: clique inicial (401, 463)
+[2026-02-02 16:14:01] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 16:14:01] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:14:01] Diretorio destino: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:14:01] Aguardando 2s: preparar a tela
+[2026-02-02 16:14:03] Tentativa 1/2
+[2026-02-02 16:14:03] ALT + RNX
+[2026-02-02 16:14:04] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 16:14:04] Clique: listar CNPJ (791, 585)
+[2026-02-02 16:14:04] Clique: imprimir (1161, 464)
+[2026-02-02 16:14:05] Relatorio localizado (novo child window: 18).
+[2026-02-02 16:14:05] Clique: salvar (405, 87)
+[2026-02-02 16:14:05] Aguardando 1.5s: janela de salvar
+[2026-02-02 16:14:10] Arquivo salvo: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA\Nota_explicativa.rtf
+[2026-02-02 16:14:15] Clique: voltar 1 (495, 81)
+[2026-02-02 16:14:15] Clique: voltar 2 (1214, 438)
+[2026-02-02 16:14:15] Aguardando 1s: pos-voltar
+[2026-02-02 16:14:16] Finalizado com sucesso.
+[2026-02-02 16:24:31] Clique: clique inicial (401, 463)
+[2026-02-02 16:24:32] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 16:24:32] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:24:32] Diretorio destino: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:24:32] Aguardando 2s: preparar a tela
+[2026-02-02 16:24:34] Tentativa 1/2
+[2026-02-02 16:24:34] ALT + RNX
+[2026-02-02 16:24:35] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 16:24:35] Clique: listar CNPJ (791, 585)
+[2026-02-02 16:24:35] Clique: imprimir (1161, 464)
+[2026-02-02 16:24:35] Relatorio localizado (novo child window: 18).
+[2026-02-02 16:24:35] Clique: salvar (405, 87)
+[2026-02-02 16:24:35] Aguardando 1.5s: janela de salvar
+[2026-02-02 16:24:41] Arquivo salvo: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA\Nota_explicativa.rtf
+[2026-02-02 16:24:45] Clique: voltar 1 (495, 81)
+[2026-02-02 16:24:45] Clique: voltar 2 (1214, 438)
+[2026-02-02 16:24:46] Aguardando 1s: pos-voltar
+[2026-02-02 16:24:47] Finalizado com sucesso.
+[2026-02-02 16:31:00] Clique: clique inicial (401, 463)
+[2026-02-02 16:31:00] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 16:31:00] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:31:00] Diretorio destino: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:31:00] Aguardando 2s: preparar a tela
+[2026-02-02 16:31:02] Tentativa 1/2
+[2026-02-02 16:31:02] ALT + RNX
+[2026-02-02 16:31:03] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 16:31:03] Clique: listar CNPJ (791, 585)
+[2026-02-02 16:31:03] Clique: imprimir (1161, 464)
+[2026-02-02 16:31:03] Relatorio localizado (novo child window: 18).
+[2026-02-02 16:31:03] Clique: salvar (405, 87)
+[2026-02-02 16:31:03] Aguardando 1.5s: janela de salvar
+[2026-02-02 16:31:09] Arquivo salvo: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA\Nota_explicativa.rtf
+[2026-02-02 16:31:14] Clique: voltar 1 (495, 81)
+[2026-02-02 16:31:14] Clique: voltar 2 (1214, 438)
+[2026-02-02 16:31:14] Aguardando 1s: pos-voltar
+[2026-02-02 16:31:15] Finalizado com sucesso.
+[2026-02-02 16:47:37] Clique: clique inicial (401, 463)
+[2026-02-02 16:47:37] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 16:47:37] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:47:37] Diretorio destino: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 16:47:37] Aguardando 2s: preparar a tela
+[2026-02-02 16:47:39] Tentativa 1/2
+[2026-02-02 16:47:39] ALT + RNX
+[2026-02-02 16:47:40] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 16:47:40] Clique: listar CNPJ (791, 585)
+[2026-02-02 16:47:40] Clique: imprimir (1161, 464)
+[2026-02-02 16:47:40] Relatorio localizado (novo child window: 18).
+[2026-02-02 16:47:40] Clique: salvar (405, 87)
+[2026-02-02 16:47:41] Aguardando 1.5s: janela de salvar
+[2026-02-02 16:47:46] Arquivo salvo: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA\Nota_explicativa.rtf
+[2026-02-02 16:47:51] Clique: voltar 1 (495, 81)
+[2026-02-02 16:47:51] Clique: voltar 2 (1214, 438)
+[2026-02-02 16:47:51] Aguardando 1s: pos-voltar
+[2026-02-02 16:47:52] Finalizado com sucesso.
+[2026-02-02 17:00:41] Clique: clique inicial (401, 463)
+[2026-02-02 17:00:41] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 17:00:41] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 17:00:41] Diretorio destino: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 17:00:41] Aguardando 2s: preparar a tela
+[2026-02-02 17:00:43] Tentativa 1/2
+[2026-02-02 17:00:43] ALT + RNX
+[2026-02-02 17:00:44] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 17:00:44] Clique: listar CNPJ (791, 585)
+[2026-02-02 17:00:44] Clique: imprimir (1161, 464)
+[2026-02-02 17:00:45] Relatorio localizado (novo child window: 18).
+[2026-02-02 17:00:45] Clique: salvar (405, 87)
+[2026-02-02 17:00:45] Aguardando 1.5s: janela de salvar
+[2026-02-02 17:00:50] Arquivo salvo: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA\Nota_explicativa.rtf
+[2026-02-02 17:01:04] Clique: voltar 1 (495, 81)
+[2026-02-02 17:01:04] Clique: voltar 2 (1214, 438)
+[2026-02-02 17:01:04] Aguardando 1s: pos-voltar
+[2026-02-02 17:01:05] Finalizado com sucesso.
+[2026-02-02 17:03:18] Clique: clique inicial (401, 463)
+[2026-02-02 17:03:18] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 17:03:18] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 17:03:18] Diretorio destino: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-02 17:03:18] Aguardando 2s: preparar a tela
+[2026-02-02 17:03:20] Tentativa 1/2
+[2026-02-02 17:03:20] ALT + RNX
+[2026-02-02 17:03:21] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 17:03:21] Clique: listar CNPJ (791, 585)
+[2026-02-02 17:03:21] Clique: imprimir (1161, 464)
+[2026-02-02 17:03:22] Relatorio localizado (novo child window: 18).
+[2026-02-02 17:03:22] Clique: salvar (405, 87)
+[2026-02-02 17:03:22] Aguardando 1.5s: janela de salvar
+[2026-02-02 17:03:27] Arquivo salvo: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA\Nota_explicativa.rtf
+[2026-02-02 17:03:32] Clique: voltar 1 (495, 81)
+[2026-02-02 17:03:32] Clique: voltar 2 (1214, 438)
+[2026-02-02 17:03:32] Aguardando 1s: pos-voltar
+[2026-02-02 17:03:33] Finalizado com sucesso.
+[2026-02-02 17:12:02] Clique: clique inicial (401, 463)
+[2026-02-02 17:12:02] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 17:12:02] Empresa: VENTURA, DA LUZ E CIA LTDA
+[2026-02-02 17:12:02] Diretorio destino: W:\\SPEDs\\ECD\\2025\VENTURA, DA LUZ E CIA LTDA
+[2026-02-02 17:12:02] Aguardando 2s: preparar a tela
+[2026-02-02 17:12:04] Tentativa 1/2
+[2026-02-02 17:12:04] ALT + RNX
+[2026-02-02 17:12:05] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 17:12:05] Clique: listar CNPJ (791, 585)
+[2026-02-02 17:12:05] Clique: imprimir (1161, 464)
+[2026-02-02 17:37:36] Clique: clique inicial (401, 463)
+[2026-02-02 17:37:36] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 17:37:36] Empresa: TIBAGI MOTOS LTDA
+[2026-02-02 17:37:36] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-02 17:37:36] Aguardando 2s: preparar a tela
+[2026-02-02 17:37:38] Tentativa 1/2
+[2026-02-02 17:37:38] ALT + RNX
+[2026-02-02 17:37:39] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 17:37:39] Clique: listar CNPJ (791, 585)
+[2026-02-02 17:37:39] Clique: imprimir (1161, 464)
+[2026-02-02 17:37:39] Relatorio localizado (novo child window: 18).
+[2026-02-02 17:37:39] Clique: salvar (405, 87)
+[2026-02-02 17:37:40] Aguardando 1.5s: janela de salvar
+[2026-02-02 17:37:45] Arquivo salvo: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA\Nota_explicativa.rtf
+[2026-02-02 17:37:50] Clique: voltar 1 (495, 81)
+[2026-02-02 17:37:50] Clique: voltar 2 (1214, 438)
+[2026-02-02 17:37:50] Aguardando 1s: pos-voltar
+[2026-02-02 17:37:51] Finalizado com sucesso.
+[2026-02-02 17:48:59] Clique: clique inicial (401, 463)
+[2026-02-02 17:48:59] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 17:48:59] Empresa: TIBAGI MOTOS LTDA
+[2026-02-02 17:48:59] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-02 17:48:59] Aguardando 2s: preparar a tela
+[2026-02-02 17:49:01] Tentativa 1/2
+[2026-02-02 17:49:01] ALT + RNX
+[2026-02-02 17:49:02] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 17:49:02] Clique: listar CNPJ (791, 585)
+[2026-02-02 17:49:02] Clique: imprimir (1161, 464)
+[2026-02-02 17:49:02] Relatorio localizado (novo child window: 18).
+[2026-02-02 17:49:02] Clique: salvar (405, 87)
+[2026-02-02 17:49:02] Aguardando 1.5s: janela de salvar
+[2026-02-02 17:49:08] Arquivo salvo: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA\Nota_explicativa.rtf
+[2026-02-02 17:49:13] Clique: voltar 1 (495, 81)
+[2026-02-02 17:49:13] Clique: voltar 2 (1214, 438)
+[2026-02-02 17:49:13] Aguardando 1s: pos-voltar
+[2026-02-02 17:49:14] Finalizado com sucesso.
+[2026-02-02 17:54:53] Clique: clique inicial (401, 463)
+[2026-02-02 17:54:53] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-02 17:54:53] Empresa: TIBAGI MOTOS LTDA
+[2026-02-02 17:54:53] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-02 17:54:53] Aguardando 2s: preparar a tela
+[2026-02-02 17:54:55] Tentativa 1/2
+[2026-02-02 17:54:55] ALT + RNX
+[2026-02-02 17:54:56] Clique: listar dados para assinatura (792, 570)
+[2026-02-02 17:54:56] Clique: listar CNPJ (791, 585)
+[2026-02-02 17:54:56] Clique: imprimir (1161, 464)
+[2026-02-02 17:54:56] Relatorio localizado (novo child window: 18).
+[2026-02-02 17:54:56] Clique: salvar (405, 87)
+[2026-02-02 17:54:56] Aguardando 1.5s: janela de salvar
+[2026-02-02 17:55:02] Arquivo salvo: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA\Nota_explicativa.rtf
+[2026-02-02 17:55:06] Clique: voltar 1 (495, 81)
+[2026-02-02 17:55:07] Clique: voltar 2 (1214, 438)
+[2026-02-02 17:55:07] Aguardando 1s: pos-voltar
+[2026-02-02 17:55:08] Finalizado com sucesso.
+[2026-02-03 07:45:42] Clique: clique inicial (401, 463)
+[2026-02-03 07:45:43] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 07:45:43] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 07:45:43] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-03 07:45:43] Aguardando 2s: preparar a tela
+[2026-02-03 07:45:45] Tentativa 1/2
+[2026-02-03 07:45:45] ALT + RNX
+[2026-02-03 07:45:46] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 07:45:46] Clique: listar CNPJ (791, 585)
+[2026-02-03 07:45:46] Clique: imprimir (1161, 464)
+[2026-02-03 07:45:49] Relatorio localizado (novo child window: 22).
+[2026-02-03 07:45:49] Clique: salvar (405, 87)
+[2026-02-03 07:45:49] Aguardando 1.5s: janela de salvar
+[2026-02-03 07:45:55] Arquivo salvo: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA\Nota_explicativa.rtf
+[2026-02-03 07:46:00] Clique: voltar 1 (495, 81)
+[2026-02-03 07:46:00] Clique: voltar 2 (1214, 438)
+[2026-02-03 07:46:00] Aguardando 1s: pos-voltar
+[2026-02-03 07:46:01] Finalizado com sucesso.
+[2026-02-03 07:52:12] Clique: clique inicial (401, 463)
+[2026-02-03 07:52:12] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 07:52:12] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 07:52:12] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-03 07:52:12] Aguardando 2s: preparar a tela
+[2026-02-03 07:52:14] Tentativa 1/2
+[2026-02-03 07:52:14] ALT + RNX
+[2026-02-03 07:52:15] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 07:52:15] Clique: listar CNPJ (791, 585)
+[2026-02-03 07:52:15] Clique: imprimir (1161, 464)
+[2026-02-03 07:52:16] Relatorio localizado (novo child window: 18).
+[2026-02-03 07:52:16] Clique: salvar (405, 87)
+[2026-02-03 07:52:16] Aguardando 1.5s: janela de salvar
+[2026-02-03 07:52:21] Arquivo salvo: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA\Nota_explicativa.rtf
+[2026-02-03 07:52:46] Clique: clique inicial (401, 463)
+[2026-02-03 07:52:46] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 07:52:46] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 07:52:46] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-03 07:52:46] Aguardando 2s: preparar a tela
+[2026-02-03 07:52:48] Tentativa 1/2
+[2026-02-03 07:52:48] ALT + RNX
+[2026-02-03 07:52:49] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 07:52:49] Clique: listar CNPJ (791, 585)
+[2026-02-03 07:52:49] Clique: imprimir (1161, 464)
+[2026-02-03 07:52:50] Relatorio localizado (novo child window: 18).
+[2026-02-03 07:52:50] Clique: salvar (405, 87)
+[2026-02-03 07:52:50] Aguardando 1.5s: janela de salvar
+[2026-02-03 07:52:55] Arquivo salvo: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA\Nota_explicativa.rtf
+[2026-02-03 07:53:00] Clique: voltar 1 (495, 81)
+[2026-02-03 07:53:00] Clique: voltar 2 (1214, 438)
+[2026-02-03 07:53:00] Aguardando 1s: pos-voltar
+[2026-02-03 07:53:01] Finalizado com sucesso.
+[2026-02-03 08:00:29] Clique: clique inicial (401, 463)
+[2026-02-03 08:00:29] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 08:00:29] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 08:00:29] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-03 08:00:29] Aguardando 2s: preparar a tela
+[2026-02-03 08:00:31] Tentativa 1/2
+[2026-02-03 08:00:31] ALT + RNX
+[2026-02-03 08:00:32] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 08:00:32] Clique: listar CNPJ (791, 585)
+[2026-02-03 08:00:32] Clique: imprimir (1161, 464)
+[2026-02-03 08:00:32] Relatorio localizado (novo child window: 18).
+[2026-02-03 08:00:32] Clique: salvar (405, 87)
+[2026-02-03 08:00:32] Aguardando 1.5s: janela de salvar
+[2026-02-03 08:00:38] Arquivo salvo: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA\Nota_explicativa.rtf
+[2026-02-03 08:00:43] Clique: voltar 1 (495, 81)
+[2026-02-03 08:00:43] Clique: voltar 2 (1214, 438)
+[2026-02-03 08:00:43] Aguardando 1s: pos-voltar
+[2026-02-03 08:00:44] Finalizado com sucesso.
+[2026-02-03 08:10:18] Clique: clique inicial (401, 463)
+[2026-02-03 08:10:18] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 08:10:18] Empresa: RIO BRANCO VEICULOS LTDA
+[2026-02-03 08:10:18] Diretorio destino: W:\\SPEDs\\ECD\\2025\RIO BRANCO VEICULOS LTDA
+[2026-02-03 08:10:18] Aguardando 2s: preparar a tela
+[2026-02-03 08:10:20] Tentativa 1/2
+[2026-02-03 08:10:20] ALT + RNX
+[2026-02-03 08:10:21] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 08:10:21] Clique: listar CNPJ (791, 585)
+[2026-02-03 08:10:21] Clique: imprimir (1161, 464)
+[2026-02-03 08:10:22] Relatorio localizado (novo child window: 18).
+[2026-02-03 08:10:22] Clique: salvar (405, 87)
+[2026-02-03 08:10:22] Aguardando 1.5s: janela de salvar
+[2026-02-03 08:10:27] Arquivo salvo: W:\\SPEDs\\ECD\\2025\RIO BRANCO VEICULOS LTDA\Nota_explicativa.rtf
+[2026-02-03 08:10:32] Clique: voltar 1 (495, 81)
+[2026-02-03 08:10:32] Clique: voltar 2 (1214, 438)
+[2026-02-03 08:10:32] Aguardando 1s: pos-voltar
+[2026-02-03 08:10:33] Finalizado com sucesso.
+[2026-02-03 08:18:24] Clique: clique inicial (401, 463)
+[2026-02-03 08:18:24] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 08:18:24] Empresa: BERTOVEL FERRO E ACO LTDA
+[2026-02-03 08:18:24] Diretorio destino: W:\\SPEDs\\ECD\\2025\BERTOVEL FERRO E ACO LTDA
+[2026-02-03 08:18:24] Aguardando 2s: preparar a tela
+[2026-02-03 08:18:26] Tentativa 1/2
+[2026-02-03 08:18:26] ALT + RNX
+[2026-02-03 08:18:27] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 08:18:27] Clique: listar CNPJ (791, 585)
+[2026-02-03 08:18:27] Clique: imprimir (1161, 464)
+[2026-02-03 08:18:28] Relatorio localizado (novo child window: 18).
+[2026-02-03 08:18:28] Clique: salvar (405, 87)
+[2026-02-03 08:18:28] Aguardando 1.5s: janela de salvar
+[2026-02-03 08:18:33] Arquivo salvo: W:\\SPEDs\\ECD\\2025\BERTOVEL FERRO E ACO LTDA\Nota_explicativa.rtf
+[2026-02-03 08:18:38] Clique: voltar 1 (495, 81)
+[2026-02-03 08:18:38] Clique: voltar 2 (1214, 438)
+[2026-02-03 08:18:38] Aguardando 1s: pos-voltar
+[2026-02-03 08:18:39] Finalizado com sucesso.
+[2026-02-03 08:34:03] Clique: clique inicial (401, 463)
+[2026-02-03 08:34:03] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 08:34:03] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:34:03] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:34:03] Aguardando 2s: preparar a tela
+[2026-02-03 08:34:05] Tentativa 1/2
+[2026-02-03 08:34:05] ALT + RNX
+[2026-02-03 08:34:06] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 08:34:06] Clique: listar CNPJ (791, 585)
+[2026-02-03 08:34:06] Clique: imprimir (1161, 464)
+[2026-02-03 08:34:07] Relatorio localizado (novo child window: 18).
+[2026-02-03 08:34:07] Clique: salvar (405, 87)
+[2026-02-03 08:34:07] Aguardando 1.5s: janela de salvar
+[2026-02-03 08:34:12] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\Nota_explicativa.rtf
+[2026-02-03 08:34:17] Clique: voltar 1 (495, 81)
+[2026-02-03 08:34:17] Clique: voltar 2 (1214, 438)
+[2026-02-03 08:34:17] Aguardando 1s: pos-voltar
+[2026-02-03 08:34:18] Finalizado com sucesso.
+[2026-02-03 08:50:31] Clique: clique inicial (401, 463)
+[2026-02-03 08:50:32] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 08:50:32] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:50:32] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:50:32] Aguardando 2s: preparar a tela
+[2026-02-03 08:50:34] Tentativa 1/2
+[2026-02-03 08:50:34] ALT + RNX
+[2026-02-03 08:50:35] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 08:50:35] Clique: listar CNPJ (791, 585)
+[2026-02-03 08:50:35] Clique: imprimir (1161, 464)
+[2026-02-03 08:50:35] Relatorio localizado (novo child window: 18).
+[2026-02-03 08:50:35] Clique: salvar (405, 87)
+[2026-02-03 08:50:35] Aguardando 1.5s: janela de salvar
+[2026-02-03 08:50:41] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\Nota_explicativa.rtf
+[2026-02-03 08:50:45] Clique: voltar 1 (495, 81)
+[2026-02-03 08:50:45] Clique: voltar 2 (1214, 438)
+[2026-02-03 08:50:46] Aguardando 1s: pos-voltar
+[2026-02-03 08:50:47] Finalizado com sucesso.
+[2026-02-03 08:55:07] Clique: clique inicial (401, 463)
+[2026-02-03 08:55:08] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 08:55:08] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:55:08] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 08:55:08] Aguardando 2s: preparar a tela
+[2026-02-03 08:55:10] Tentativa 1/2
+[2026-02-03 08:55:10] ALT + RNX
+[2026-02-03 08:55:11] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 08:55:11] Clique: listar CNPJ (791, 585)
+[2026-02-03 08:55:11] Clique: imprimir (1161, 464)
+[2026-02-03 08:55:11] Relatorio localizado (novo child window: 18).
+[2026-02-03 08:55:11] Clique: salvar (405, 87)
+[2026-02-03 08:55:11] Aguardando 1.5s: janela de salvar
+[2026-02-03 08:55:17] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\Nota_explicativa.rtf
+[2026-02-03 08:55:22] Clique: voltar 1 (495, 81)
+[2026-02-03 08:55:22] Clique: voltar 2 (1214, 438)
+[2026-02-03 08:55:22] Aguardando 1s: pos-voltar
+[2026-02-03 08:55:23] Finalizado com sucesso.
+[2026-02-03 09:08:39] Clique: clique inicial (401, 463)
+[2026-02-03 09:08:39] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 09:08:39] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:08:39] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:08:39] Aguardando 2s: preparar a tela
+[2026-02-03 09:08:41] Tentativa 1/2
+[2026-02-03 09:08:41] ALT + RNX
+[2026-02-03 09:08:42] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 09:08:42] Clique: listar CNPJ (791, 585)
+[2026-02-03 09:08:43] Clique: imprimir (1161, 464)
+[2026-02-03 09:08:43] Relatorio localizado (novo child window: 18).
+[2026-02-03 09:08:43] Clique: salvar (405, 87)
+[2026-02-03 09:08:43] Aguardando 1.5s: janela de salvar
+[2026-02-03 09:08:49] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\Nota_explicativa.rtf
+[2026-02-03 09:08:53] Clique: voltar 1 (495, 81)
+[2026-02-03 09:08:53] Clique: voltar 2 (1214, 438)
+[2026-02-03 09:08:53] Aguardando 1s: pos-voltar
+[2026-02-03 09:08:54] Finalizado com sucesso.
+[2026-02-03 09:46:59] Clique: clique inicial (401, 463)
+[2026-02-03 09:46:59] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 09:46:59] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:46:59] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:46:59] Aguardando 2s: preparar a tela
+[2026-02-03 09:47:01] Tentativa 1/2
+[2026-02-03 09:47:01] ALT + RNX
+[2026-02-03 09:47:02] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 09:47:02] Clique: listar CNPJ (791, 585)
+[2026-02-03 09:47:02] Clique: imprimir (1161, 464)
+[2026-02-03 09:47:02] Relatorio localizado (novo child window: 18).
+[2026-02-03 09:47:02] Clique: salvar (405, 87)
+[2026-02-03 09:47:02] Aguardando 1.5s: janela de salvar
+[2026-02-03 09:47:08] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\Nota_explicativa.rtf
+[2026-02-03 09:47:13] Clique: voltar 1 (495, 81)
+[2026-02-03 09:47:13] Clique: voltar 2 (1214, 438)
+[2026-02-03 09:47:13] Aguardando 1s: pos-voltar
+[2026-02-03 09:47:14] Finalizado com sucesso.
+[2026-02-03 09:53:57] Clique: clique inicial (401, 463)
+[2026-02-03 09:53:57] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 09:53:57] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:53:57] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 09:53:57] Aguardando 2s: preparar a tela
+[2026-02-03 09:53:59] Tentativa 1/2
+[2026-02-03 09:53:59] ALT + RNX
+[2026-02-03 09:54:00] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 09:54:00] Clique: listar CNPJ (791, 585)
+[2026-02-03 09:54:00] Clique: imprimir (1161, 464)
+[2026-02-03 09:54:00] Relatorio localizado (novo child window: 18).
+[2026-02-03 09:54:00] Clique: salvar (405, 87)
+[2026-02-03 09:54:01] Aguardando 1.5s: janela de salvar
+[2026-02-03 09:54:06] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\Nota_explicativa.rtf
+[2026-02-03 09:54:11] Clique: voltar 1 (495, 81)
+[2026-02-03 09:54:11] Clique: voltar 2 (1214, 438)
+[2026-02-03 09:54:11] Aguardando 1s: pos-voltar
+[2026-02-03 09:54:12] Finalizado com sucesso.
+[2026-02-03 10:02:49] Clique: clique inicial (401, 463)
+[2026-02-03 10:02:49] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 10:02:49] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 10:02:49] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 10:02:49] Aguardando 2s: preparar a tela
+[2026-02-03 10:02:51] Tentativa 1/2
+[2026-02-03 10:02:51] ALT + RNX
+[2026-02-03 10:02:52] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 10:02:52] Clique: listar CNPJ (791, 585)
+[2026-02-03 10:02:53] Clique: imprimir (1161, 464)
+[2026-02-03 10:02:53] Relatorio localizado (novo child window: 18).
+[2026-02-03 10:02:53] Clique: salvar (405, 87)
+[2026-02-03 10:02:53] Aguardando 1.5s: janela de salvar
+[2026-02-03 10:02:58] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\Nota_explicativa.rtf
+[2026-02-03 10:03:03] Clique: voltar 1 (495, 81)
+[2026-02-03 10:03:03] Clique: voltar 2 (1214, 438)
+[2026-02-03 10:03:03] Aguardando 1s: pos-voltar
+[2026-02-03 10:03:04] Finalizado com sucesso.
+[2026-02-03 10:13:16] Clique: clique inicial (401, 463)
+[2026-02-03 10:13:17] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 10:13:17] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 10:13:17] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 10:13:17] Aguardando 2s: preparar a tela
+[2026-02-03 10:13:19] Tentativa 1/2
+[2026-02-03 10:13:19] ALT + RNX
+[2026-02-03 10:13:20] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 10:13:20] Clique: listar CNPJ (791, 585)
+[2026-02-03 10:13:20] Clique: imprimir (1161, 464)
+[2026-02-03 10:13:20] Relatorio localizado (novo child window: 18).
+[2026-02-03 10:13:20] Clique: salvar (405, 87)
+[2026-02-03 10:13:20] Aguardando 1.5s: janela de salvar
+[2026-02-03 10:13:26] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\Nota_explicativa.rtf
+[2026-02-03 10:13:30] Clique: voltar 1 (495, 81)
+[2026-02-03 10:13:30] Clique: voltar 2 (1214, 438)
+[2026-02-03 10:13:31] Aguardando 1s: pos-voltar
+[2026-02-03 10:13:32] Finalizado com sucesso.
+[2026-02-03 10:38:31] Clique: clique inicial (401, 463)
+[2026-02-03 10:38:31] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 10:38:31] Empresa: MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-03 10:38:31] Diretorio destino: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA
+[2026-02-03 10:38:31] Aguardando 2s: preparar a tela
+[2026-02-03 10:38:33] Tentativa 1/2
+[2026-02-03 10:38:33] ALT + RNX
+[2026-02-03 10:38:34] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 10:38:35] Clique: listar CNPJ (791, 585)
+[2026-02-03 10:38:35] Clique: imprimir (1161, 464)
+[2026-02-03 10:38:35] Relatorio localizado (novo child window: 18).
+[2026-02-03 10:38:35] Clique: salvar (405, 87)
+[2026-02-03 10:38:35] Aguardando 1.5s: janela de salvar
+[2026-02-03 10:38:41] Arquivo salvo: W:\\SPEDs\\ECD\\2025\MOTOACAO MOTOCICLETAS E NAUTICA LTDA\Nota_explicativa.rtf
+[2026-02-03 10:38:45] Clique: voltar 1 (495, 81)
+[2026-02-03 10:38:45] Clique: voltar 2 (1214, 438)
+[2026-02-03 10:38:45] Aguardando 1s: pos-voltar
+[2026-02-03 10:38:46] Finalizado com sucesso.
+[2026-02-03 10:44:21] Clique: clique inicial (401, 463)
+[2026-02-03 10:44:21] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 10:44:21] Empresa: AGRABEL CAMINHOES LTDA
+[2026-02-03 10:44:21] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-02-03 10:44:21] Aguardando 2s: preparar a tela
+[2026-02-03 10:44:23] Tentativa 1/2
+[2026-02-03 10:44:23] ALT + RNX
+[2026-02-03 10:44:24] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 10:44:24] Clique: listar CNPJ (791, 585)
+[2026-02-03 10:44:24] Clique: imprimir (1161, 464)
+[2026-02-03 10:44:24] Relatorio localizado (novo child window: 18).
+[2026-02-03 10:44:24] Clique: salvar (405, 87)
+[2026-02-03 10:44:24] Aguardando 1.5s: janela de salvar
+[2026-02-03 10:47:19] Clique: clique inicial (401, 463)
+[2026-02-03 10:47:19] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 10:47:19] Empresa: AGRABEL CAMINHOES LTDA
+[2026-02-03 10:47:19] Diretorio destino: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA
+[2026-02-03 10:47:19] Aguardando 2s: preparar a tela
+[2026-02-03 10:47:21] Tentativa 1/2
+[2026-02-03 10:47:21] ALT + RNX
+[2026-02-03 10:47:22] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 10:47:22] Clique: listar CNPJ (791, 585)
+[2026-02-03 10:47:22] Clique: imprimir (1161, 464)
+[2026-02-03 10:47:23] Relatorio localizado (novo child window: 18).
+[2026-02-03 10:47:23] Clique: salvar (405, 87)
+[2026-02-03 10:47:23] Aguardando 1.5s: janela de salvar
+[2026-02-03 10:47:28] Arquivo salvo: W:\\SPEDs\\ECD\\2025\AGRABEL CAMINHOES LTDA\Nota_explicativa.rtf
+[2026-02-03 10:47:34] Clique: voltar 1 (495, 81)
+[2026-02-03 10:47:34] Clique: voltar 2 (1214, 438)
+[2026-02-03 10:47:34] Aguardando 1s: pos-voltar
+[2026-02-03 10:47:35] Finalizado com sucesso.
+[2026-02-03 10:50:36] Clique: clique inicial (401, 463)
+[2026-02-03 10:50:36] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 10:50:36] Empresa: TIBAGI MOTOS LTDA
+[2026-02-03 10:50:36] Diretorio destino: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA
+[2026-02-03 10:50:36] Aguardando 2s: preparar a tela
+[2026-02-03 10:50:38] Tentativa 1/2
+[2026-02-03 10:50:38] ALT + RNX
+[2026-02-03 10:50:39] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 10:50:39] Clique: listar CNPJ (791, 585)
+[2026-02-03 10:50:39] Clique: imprimir (1161, 464)
+[2026-02-03 10:50:40] Relatorio localizado (novo child window: 18).
+[2026-02-03 10:50:40] Clique: salvar (405, 87)
+[2026-02-03 10:50:40] Aguardando 1.5s: janela de salvar
+[2026-02-03 10:50:45] Arquivo salvo: W:\\SPEDs\\ECD\\2025\TIBAGI MOTOS LTDA\Nota_explicativa.rtf
+[2026-02-03 10:50:50] Clique: voltar 1 (495, 81)
+[2026-02-03 10:50:50] Clique: voltar 2 (1214, 438)
+[2026-02-03 10:50:50] Aguardando 1s: pos-voltar
+[2026-02-03 10:50:51] Finalizado com sucesso.
+[2026-02-03 10:57:37] Clique: clique inicial (401, 463)
+[2026-02-03 10:57:37] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 10:57:37] Empresa: RIO BRANCO VEICULOS LTDA
+[2026-02-03 10:57:37] Diretorio destino: W:\\SPEDs\\ECD\\2025\RIO BRANCO VEICULOS LTDA
+[2026-02-03 10:57:37] Aguardando 2s: preparar a tela
+[2026-02-03 10:57:39] Tentativa 1/2
+[2026-02-03 10:57:39] ALT + RNX
+[2026-02-03 10:57:40] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 10:57:40] Clique: listar CNPJ (791, 585)
+[2026-02-03 10:57:40] Clique: imprimir (1161, 464)
+[2026-02-03 10:57:41] Relatorio localizado (novo child window: 18).
+[2026-02-03 10:57:41] Clique: salvar (405, 87)
+[2026-02-03 10:57:41] Aguardando 1.5s: janela de salvar
+[2026-02-03 10:57:46] Arquivo salvo: W:\\SPEDs\\ECD\\2025\RIO BRANCO VEICULOS LTDA\Nota_explicativa.rtf
+[2026-02-03 10:57:51] Clique: voltar 1 (495, 81)
+[2026-02-03 10:57:51] Clique: voltar 2 (1214, 438)
+[2026-02-03 10:57:51] Aguardando 1s: pos-voltar
+[2026-02-03 10:57:52] Finalizado com sucesso.
+[2026-02-03 11:02:55] Clique: clique inicial (401, 463)
+[2026-02-03 11:02:55] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 11:02:55] Empresa: BERTOVEL FERRO E ACO LTDA
+[2026-02-03 11:02:55] Diretorio destino: W:\\SPEDs\\ECD\\2025\BERTOVEL FERRO E ACO LTDA
+[2026-02-03 11:02:55] Aguardando 2s: preparar a tela
+[2026-02-03 11:02:57] Tentativa 1/2
+[2026-02-03 11:02:57] ALT + RNX
+[2026-02-03 11:02:58] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 11:02:58] Clique: listar CNPJ (791, 585)
+[2026-02-03 11:02:58] Clique: imprimir (1161, 464)
+[2026-02-03 11:02:58] Relatorio localizado (novo child window: 18).
+[2026-02-03 11:02:58] Clique: salvar (405, 87)
+[2026-02-03 11:02:58] Aguardando 1.5s: janela de salvar
+[2026-02-03 11:03:04] Arquivo salvo: W:\\SPEDs\\ECD\\2025\BERTOVEL FERRO E ACO LTDA\Nota_explicativa.rtf
+[2026-02-03 11:03:09] Clique: voltar 1 (495, 81)
+[2026-02-03 11:03:09] Clique: voltar 2 (1214, 438)
+[2026-02-03 11:03:09] Aguardando 1s: pos-voltar
+[2026-02-03 11:03:10] Finalizado com sucesso.
+[2026-02-03 11:15:41] Clique: clique inicial (401, 463)
+[2026-02-03 11:15:41] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 11:15:41] Empresa: ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-03 11:15:41] Diretorio destino: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA
+[2026-02-03 11:15:41] Aguardando 2s: preparar a tela
+[2026-02-03 11:15:43] Tentativa 1/2
+[2026-02-03 11:15:43] ALT + RNX
+[2026-02-03 11:15:44] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 11:15:44] Clique: listar CNPJ (791, 585)
+[2026-02-03 11:15:44] Clique: imprimir (1161, 464)
+[2026-02-03 11:15:44] Relatorio localizado (novo child window: 18).
+[2026-02-03 11:15:44] Clique: salvar (405, 87)
+[2026-02-03 11:15:44] Aguardando 1.5s: janela de salvar
+[2026-02-03 11:15:50] Arquivo salvo: W:\\SPEDs\\ECD\\2025\ABS ADMINISTRADORA DE BENS LTDA\Nota_explicativa.rtf
+[2026-02-03 11:15:55] Clique: voltar 1 (495, 81)
+[2026-02-03 11:15:55] Clique: voltar 2 (1214, 438)
+[2026-02-03 11:15:55] Aguardando 1s: pos-voltar
+[2026-02-03 11:15:56] Finalizado com sucesso.
+[2026-02-03 11:18:56] Clique: clique inicial (401, 463)
+[2026-02-03 11:18:56] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 11:18:56] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:18:56] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:18:56] Aguardando 2s: preparar a tela
+[2026-02-03 11:18:58] Tentativa 1/2
+[2026-02-03 11:18:58] ALT + RNX
+[2026-02-03 11:18:59] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 11:18:59] Clique: listar CNPJ (791, 585)
+[2026-02-03 11:18:59] Clique: imprimir (1161, 464)
+[2026-02-03 11:18:59] Relatorio localizado (novo child window: 18).
+[2026-02-03 11:18:59] Clique: salvar (405, 87)
+[2026-02-03 11:18:59] Aguardando 1.5s: janela de salvar
+[2026-02-03 11:19:05] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\Nota_explicativa.rtf
+[2026-02-03 11:19:10] Clique: voltar 1 (495, 81)
+[2026-02-03 11:19:10] Clique: voltar 2 (1214, 438)
+[2026-02-03 11:19:10] Aguardando 1s: pos-voltar
+[2026-02-03 11:19:11] Finalizado com sucesso.
+[2026-02-03 11:22:53] Clique: clique inicial (401, 463)
+[2026-02-03 11:22:53] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 11:22:53] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:22:53] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:22:53] Aguardando 2s: preparar a tela
+[2026-02-03 11:22:55] Tentativa 1/2
+[2026-02-03 11:22:55] ALT + RNX
+[2026-02-03 11:22:56] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 11:22:56] Clique: listar CNPJ (791, 585)
+[2026-02-03 11:22:56] Clique: imprimir (1161, 464)
+[2026-02-03 11:22:56] Relatorio localizado (novo child window: 18).
+[2026-02-03 11:22:56] Clique: salvar (405, 87)
+[2026-02-03 11:22:56] Aguardando 1.5s: janela de salvar
+[2026-02-03 11:23:02] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\Nota_explicativa.rtf
+[2026-02-03 11:23:07] Clique: voltar 1 (495, 81)
+[2026-02-03 11:23:07] Clique: voltar 2 (1214, 438)
+[2026-02-03 11:23:07] Aguardando 1s: pos-voltar
+[2026-02-03 11:23:08] Finalizado com sucesso.
+[2026-02-03 11:23:41] Clique: clique inicial (401, 463)
+[2026-02-03 11:23:41] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 11:23:41] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:23:41] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:23:41] Aguardando 2s: preparar a tela
+[2026-02-03 11:23:43] Tentativa 1/2
+[2026-02-03 11:23:43] ALT + RNX
+[2026-02-03 11:23:44] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 11:23:44] Clique: listar CNPJ (791, 585)
+[2026-02-03 11:23:44] Clique: imprimir (1161, 464)
+[2026-02-03 11:23:44] Relatorio localizado (novo child window: 18).
+[2026-02-03 11:23:44] Clique: salvar (405, 87)
+[2026-02-03 11:23:44] Aguardando 1.5s: janela de salvar
+[2026-02-03 11:23:50] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\Nota_explicativa.rtf
+[2026-02-03 11:23:55] Clique: voltar 1 (495, 81)
+[2026-02-03 11:23:55] Clique: voltar 2 (1214, 438)
+[2026-02-03 11:23:55] Aguardando 1s: pos-voltar
+[2026-02-03 11:23:56] Finalizado com sucesso.
+[2026-02-03 11:27:38] Clique: clique inicial (401, 463)
+[2026-02-03 11:27:38] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 11:27:38] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:27:38] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:27:38] Aguardando 2s: preparar a tela
+[2026-02-03 11:27:40] Tentativa 1/2
+[2026-02-03 11:27:40] ALT + RNX
+[2026-02-03 11:27:41] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 11:27:41] Clique: listar CNPJ (791, 585)
+[2026-02-03 11:27:41] Clique: imprimir (1161, 464)
+[2026-02-03 11:27:41] Relatorio localizado (novo child window: 18).
+[2026-02-03 11:27:41] Clique: salvar (405, 87)
+[2026-02-03 11:27:41] Aguardando 1.5s: janela de salvar
+[2026-02-03 11:27:47] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\Nota_explicativa.rtf
+[2026-02-03 11:27:51] Clique: voltar 1 (495, 81)
+[2026-02-03 11:27:52] Clique: voltar 2 (1214, 438)
+[2026-02-03 11:27:52] Aguardando 1s: pos-voltar
+[2026-02-03 11:27:53] Finalizado com sucesso.
+[2026-02-03 11:29:24] Clique: clique inicial (401, 463)
+[2026-02-03 11:29:24] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 11:29:24] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:29:24] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:29:24] Aguardando 2s: preparar a tela
+[2026-02-03 11:29:26] Tentativa 1/2
+[2026-02-03 11:29:26] ALT + RNX
+[2026-02-03 11:29:27] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 11:29:27] Clique: listar CNPJ (791, 585)
+[2026-02-03 11:29:27] Clique: imprimir (1161, 464)
+[2026-02-03 11:29:27] Relatorio localizado (novo child window: 18).
+[2026-02-03 11:29:27] Clique: salvar (405, 87)
+[2026-02-03 11:29:27] Aguardando 1.5s: janela de salvar
+[2026-02-03 11:29:33] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\Nota_explicativa.rtf
+[2026-02-03 11:29:38] Clique: voltar 1 (495, 81)
+[2026-02-03 11:29:38] Clique: voltar 2 (1214, 438)
+[2026-02-03 11:29:38] Aguardando 1s: pos-voltar
+[2026-02-03 11:29:39] Finalizado com sucesso.
+[2026-02-03 11:34:03] Clique: clique inicial (401, 463)
+[2026-02-03 11:34:03] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 11:34:03] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:34:03] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 11:34:03] Aguardando 2s: preparar a tela
+[2026-02-03 11:34:05] Tentativa 1/2
+[2026-02-03 11:34:05] ALT + RNX
+[2026-02-03 11:34:06] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 11:34:06] Clique: listar CNPJ (791, 585)
+[2026-02-03 11:34:06] Clique: imprimir (1161, 464)
+[2026-02-03 11:34:06] Relatorio localizado (novo child window: 18).
+[2026-02-03 11:34:06] Clique: salvar (405, 87)
+[2026-02-03 11:34:06] Aguardando 1.5s: janela de salvar
+[2026-02-03 11:34:12] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\Nota_explicativa.rtf
+[2026-02-03 11:34:17] Clique: voltar 1 (495, 81)
+[2026-02-03 11:34:17] Clique: voltar 2 (1214, 438)
+[2026-02-03 11:34:17] Aguardando 1s: pos-voltar
+[2026-02-03 11:34:18] Finalizado com sucesso.
+[2026-02-03 13:30:02] Clique: clique inicial (401, 463)
+[2026-02-03 13:30:02] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 13:30:02] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 13:30:02] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 13:30:02] Aguardando 2s: preparar a tela
+[2026-02-03 13:30:04] Tentativa 1/2
+[2026-02-03 13:30:04] ALT + RNX
+[2026-02-03 13:30:05] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 13:30:05] Clique: listar CNPJ (791, 585)
+[2026-02-03 13:30:05] Clique: imprimir (1161, 464)
+[2026-02-03 13:30:55] Clique: clique inicial (401, 463)
+[2026-02-03 13:30:55] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 13:30:55] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 13:30:55] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 13:30:55] Aguardando 2s: preparar a tela
+[2026-02-03 13:30:57] Tentativa 1/2
+[2026-02-03 13:30:57] ALT + RNX
+[2026-02-03 13:30:58] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 13:30:58] Clique: listar CNPJ (791, 585)
+[2026-02-03 13:30:58] Clique: imprimir (1161, 464)
+[2026-02-03 13:32:28] Clique: clique inicial (401, 463)
+[2026-02-03 13:32:28] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 13:32:28] Empresa: VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 13:32:28] Diretorio destino: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA
+[2026-02-03 13:32:28] Aguardando 2s: preparar a tela
+[2026-02-03 13:32:30] Tentativa 1/2
+[2026-02-03 13:32:30] ALT + RNX
+[2026-02-03 13:32:31] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 13:32:31] Clique: listar CNPJ (791, 585)
+[2026-02-03 13:32:31] Clique: imprimir (1161, 464)
+[2026-02-03 13:32:32] Relatorio localizado (novo child window: 18).
+[2026-02-03 13:32:32] Clique: salvar (405, 87)
+[2026-02-03 13:32:32] Aguardando 1.5s: janela de salvar
+[2026-02-03 13:32:37] Arquivo salvo: W:\\SPEDs\\ECD\\2025\VOLTRIX MATERIAIS ELETRICOS LTDA\Nota_explicativa.rtf
+[2026-02-03 13:32:43] Clique: voltar 1 (495, 81)
+[2026-02-03 13:32:43] Clique: voltar 2 (1214, 438)
+[2026-02-03 13:32:43] Aguardando 1s: pos-voltar
+[2026-02-03 13:32:44] Finalizado com sucesso.
+[2026-02-03 15:57:55] Clique: clique inicial (401, 463)
+[2026-02-03 15:57:55] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 15:57:55] Empresa: BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-03 15:57:55] Diretorio destino: W:\\SPEDs\\ECD\\2025\BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-03 15:57:55] Aguardando 2s: preparar a tela
+[2026-02-03 15:57:57] Tentativa 1/2
+[2026-02-03 15:57:57] ALT + RNX
+[2026-02-03 15:57:58] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 15:57:58] Clique: listar CNPJ (791, 585)
+[2026-02-03 15:57:58] Clique: imprimir (1161, 464)
+[2026-02-03 15:58:19] Clique: clique inicial (401, 463)
+[2026-02-03 15:58:19] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-03 15:58:19] Empresa: BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-03 15:58:19] Diretorio destino: W:\\SPEDs\\ECD\\2025\BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-03 15:58:19] Aguardando 2s: preparar a tela
+[2026-02-03 15:58:21] Tentativa 1/2
+[2026-02-03 15:58:21] ALT + RNX
+[2026-02-03 15:58:22] Clique: listar dados para assinatura (792, 570)
+[2026-02-03 15:58:22] Clique: listar CNPJ (791, 585)
+[2026-02-03 15:58:22] Clique: imprimir (1161, 464)
+[2026-02-03 15:58:23] Relatorio localizado (novo child window: 18).
+[2026-02-03 15:58:23] Clique: salvar (405, 87)
+[2026-02-03 15:58:23] Aguardando 1.5s: janela de salvar
+[2026-02-03 15:58:28] Arquivo salvo: W:\\SPEDs\\ECD\\2025\BETLEN PARTICIPACOES SOCIETARIAS S/A\Nota_explicativa.rtf
+[2026-02-03 15:58:34] Clique: voltar 1 (495, 81)
+[2026-02-03 15:58:34] Clique: voltar 2 (1214, 438)
+[2026-02-03 15:58:34] Aguardando 1s: pos-voltar
+[2026-02-03 15:58:35] Finalizado com sucesso.
+[2026-02-05 09:24:42] Clique: clique inicial (401, 463)
+[2026-02-05 09:24:42] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-05 09:24:42] Empresa: BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-05 09:24:42] Diretorio destino: W:\\SPEDs\\ECD\\2025\BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-05 09:24:42] Aguardando 2s: preparar a tela
+[2026-02-05 09:24:44] Tentativa 1/2
+[2026-02-05 09:24:44] ALT + RNX
+[2026-02-05 09:24:45] Clique: listar dados para assinatura (792, 570)
+[2026-02-05 09:24:45] Clique: listar CNPJ (791, 585)
+[2026-02-05 09:24:45] Clique: imprimir (1161, 464)
+[2026-02-05 09:24:46] Relatorio localizado (novo child window: 18).
+[2026-02-05 09:24:46] Clique: salvar (405, 87)
+[2026-02-05 09:24:46] Aguardando 1.5s: janela de salvar
+[2026-02-05 09:24:52] Arquivo salvo: W:\\SPEDs\\ECD\\2025\BETLEN PARTICIPACOES SOCIETARIAS S/A\Nota_explicativa.rtf
+[2026-02-05 09:24:59] Clique: voltar 1 (495, 81)
+[2026-02-05 09:24:59] Clique: voltar 2 (1214, 438)
+[2026-02-05 09:24:59] Aguardando 1s: pos-voltar
+[2026-02-05 09:25:00] Finalizado com sucesso.
+[2026-02-05 09:34:39] Clique: clique inicial (401, 463)
+[2026-02-05 09:34:39] Iniciando: 1 - Relatório de Notas Explicativas ECD
+[2026-02-05 09:34:39] Empresa: BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-05 09:34:39] Diretorio destino: W:\\SPEDs\\ECD\\2025\BETLEN PARTICIPACOES SOCIETARIAS S/A
+[2026-02-05 09:34:39] Aguardando 2s: preparar a tela
+[2026-02-05 09:34:41] Tentativa 1/2
+[2026-02-05 09:34:41] ALT + RNX
+[2026-02-05 09:34:42] Clique: listar dados para assinatura (792, 570)
+[2026-02-05 09:34:42] Clique: listar CNPJ (791, 585)
+[2026-02-05 09:34:42] Clique: imprimir (1161, 464)
+[2026-02-05 09:34:43] Relatorio localizado (novo child window: 18).
+[2026-02-05 09:34:43] Clique: salvar (405, 87)
+[2026-02-05 09:34:43] Aguardando 1.5s: janela de salvar
+[2026-02-05 09:34:48] Arquivo salvo: W:\\SPEDs\\ECD\\2025\BETLEN PARTICIPACOES SOCIETARIAS S/A\Nota_explicativa.rtf
+[2026-02-05 09:34:53] Clique: voltar 1 (495, 81)
+[2026-02-05 09:34:53] Clique: voltar 2 (1214, 438)
+[2026-02-05 09:34:53] Aguardando 1s: pos-voltar
+[2026-02-05 09:34:54] Finalizado com sucesso.

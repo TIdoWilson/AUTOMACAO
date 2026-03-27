@@ -1,0 +1,86 @@
+{
+  "empresa": {
+    "x": 1613,
+    "y": 56,
+    "anchor": "main",
+    "dx": 1621,
+    "dy": 64
+  },
+  "estab": {
+    "x": 772,
+    "y": 316,
+    "anchor": "dre",
+    "dx": 113,
+    "dy": 43
+  },
+  "mes_ini": {
+    "x": 792,
+    "y": 332,
+    "anchor": "dre",
+    "dx": 133,
+    "dy": 59
+  },
+  "mes_fim": {
+    "x": 856,
+    "y": 336,
+    "anchor": "dre",
+    "dx": 197,
+    "dy": 63
+  },
+  "grau": {
+    "x": 779,
+    "y": 358,
+    "anchor": "dre",
+    "dx": 120,
+    "dy": 85
+  },
+  "data_emissao": {
+    "x": 813,
+    "y": 402,
+    "anchor": "dre",
+    "dx": 154,
+    "dy": 129
+  },
+  "btn_imprimir": {
+    "x": 1187,
+    "y": 320,
+    "anchor": "dre",
+    "dx": 528,
+    "dy": 47
+  },
+  "ckb_classificacao": {
+    "x": 948,
+    "y": 473,
+    "anchor": "dre",
+    "dx": 289,
+    "dy": 200
+  },
+  "ckb_saldo_zero": {
+    "x": 749,
+    "y": 491,
+    "anchor": "dre",
+    "dx": 90,
+    "dy": 218
+  },
+  "ckb_cnpj": {
+    "x": 705,
+    "y": 575,
+    "anchor": "dre",
+    "dx": 46,
+    "dy": 302
+  },
+  "btn_salvar_excel": {
+    "x": 434,
+    "y": 81,
+    "anchor": "report",
+    "dx": 442,
+    "dy": 89
+  },
+  "fechar_impressao": {
+    "x": 495,
+    "y": 85,
+    "anchor": "report",
+    "dx": 503,
+    "dy": 93
+  }
+}

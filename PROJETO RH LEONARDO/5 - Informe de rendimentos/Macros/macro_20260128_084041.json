@@ -1,0 +1,2475 @@
+{
+  "meta": {
+    "created_at_ms": 1769600441674,
+    "version": 7,
+    "dpi_mode": "PM"
+  },
+  "steps": [
+    {
+      "type": "wait",
+      "ms": 2384,
+      "id": 1
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Folha de Pagamento ",
+          "class_name": "TfrmPrincipal"
+        },
+        "locator": {
+          "control_type": "Edit",
+          "name": null,
+          "class_name": "TEdit",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Window",
+              "name": "Barra de Atalhos",
+              "class_name": "TfrmBarraSuperior"
+            },
+            {
+              "control_type": "Pane",
+              "name": "Espaço de trabalho",
+              "class_name": "MDIClient"
+            },
+            {
+              "control_type": "Window",
+              "name": "Folha de Pagamento ",
+              "class_name": "TfrmPrincipal"
+            },
+            {
+              "control_type": "Window",
+              "name": "Barra de Atalhos",
+              "class_name": "TfrmBarraSuperior"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.75,
+        "ry": 0.6190476190476191
+      },
+      "window_point": {
+        "rx": 0.8460743801652892,
+        "ry": 0.06439393939393939
+      },
+      "id": 2
+    },
+    {
+      "type": "wait",
+      "ms": 1368,
+      "id": 3
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 4
+    },
+    {
+      "type": "wait",
+      "ms": 312,
+      "id": 5
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 6
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 7
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 8
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 9
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 10
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 11
+    },
+    {
+      "type": "wait",
+      "ms": 297,
+      "id": 12
+    },
+    {
+      "type": "wait",
+      "ms": 641,
+      "id": 13
+    },
+    {
+      "type": "type_text",
+      "text": "177",
+      "id": 14
+    },
+    {
+      "type": "key",
+      "keys": [
+        "ENTER"
+      ],
+      "id": 15
+    },
+    {
+      "type": "wait",
+      "ms": 390,
+      "id": 16
+    },
+    {
+      "type": "key",
+      "keys": [
+        "ENTER"
+      ],
+      "id": 17
+    },
+    {
+      "type": "key",
+      "keys": [
+        "ENTER"
+      ],
+      "id": 18
+    },
+    {
+      "type": "wait",
+      "ms": 311,
+      "id": 19
+    },
+    {
+      "type": "key",
+      "keys": [
+        "ENTER"
+      ],
+      "id": 20
+    },
+    {
+      "type": "wait",
+      "ms": 1571,
+      "id": 21
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Folha de Pagamento ",
+          "class_name": "TfrmPrincipal"
+        },
+        "locator": {
+          "control_type": "Pane",
+          "name": null,
+          "class_name": "TPanel",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Window",
+              "name": "Barra de Atalhos",
+              "class_name": "TfrmBarraSuperior"
+            },
+            {
+              "control_type": "Pane",
+              "name": "Espaço de trabalho",
+              "class_name": "MDIClient"
+            },
+            {
+              "control_type": "Window",
+              "name": "Folha de Pagamento ",
+              "class_name": "TfrmPrincipal"
+            },
+            {
+              "control_type": "Window",
+              "name": "Barra de Atalhos",
+              "class_name": "TfrmBarraSuperior"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.3825,
+        "ry": 0.7794117647058824
+      },
+      "window_point": {
+        "rx": 0.8651859504132231,
+        "ry": 0.10132575757575757
+      },
+      "id": 22
+    },
+    {
+      "type": "wait",
+      "ms": 421,
+      "id": 23
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Folha de Pagamento ",
+          "class_name": "TfrmPrincipal"
+        },
+        "locator": {
+          "control_type": "Pane",
+          "name": null,
+          "class_name": "TPanel",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Window",
+              "name": "Barra de Atalhos",
+              "class_name": "TfrmBarraSuperior"
+            },
+            {
+              "control_type": "Pane",
+              "name": "Espaço de trabalho",
+              "class_name": "MDIClient"
+            },
+            {
+              "control_type": "Window",
+              "name": "Folha de Pagamento ",
+              "class_name": "TfrmPrincipal"
+            },
+            {
+              "control_type": "Window",
+              "name": "Barra de Atalhos",
+              "class_name": "TfrmBarraSuperior"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.3825,
+        "ry": 0.7794117647058824
+      },
+      "window_point": {
+        "rx": 0.8651859504132231,
+        "ry": 0.10132575757575757
+      },
+      "id": 24
+    },
+    {
+      "type": "wait",
+      "ms": 418,
+      "id": 25
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Folha de Pagamento ",
+          "class_name": "TfrmPrincipal"
+        },
+        "locator": {
+          "control_type": "Edit",
+          "name": null,
+          "class_name": "TCRDEdit",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Window",
+              "name": "Barra de Atalhos",
+              "class_name": "TfrmBarraSuperior"
+            },
+            {
+              "control_type": "Pane",
+              "name": "Espaço de trabalho",
+              "class_name": "MDIClient"
+            },
+            {
+              "control_type": "Window",
+              "name": "Folha de Pagamento ",
+              "class_name": "TfrmPrincipal"
+            },
+            {
+              "control_type": "Window",
+              "name": "Barra de Atalhos",
+              "class_name": "TfrmBarraSuperior"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.9104477611940298,
+        "ry": 0.42857142857142855
+      },
+      "window_point": {
+        "rx": 0.8620867768595041,
+        "ry": 0.10416666666666667
+      },
+      "id": 26
+    },
+    {
+      "type": "wait",
+      "ms": 750,
+      "id": 27
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 28
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 29
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 30
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 31
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 32
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 33
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 34
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 35
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 36
+    },
+    {
+      "type": "wait",
+      "ms": 430,
+      "id": 37
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 38
+    },
+    {
+      "type": "wait",
+      "ms": 1732,
+      "id": 39
+    },
+    {
+      "type": "wait",
+      "ms": 539,
+      "id": 40
+    },
+    {
+      "type": "wait",
+      "ms": 661,
+      "id": 41
+    },
+    {
+      "type": "type_text",
+      "text": "10102026",
+      "id": 42
+    },
+    {
+      "type": "key",
+      "keys": [
+        "ENTER"
+      ],
+      "id": 43
+    },
+    {
+      "type": "wait",
+      "ms": 751,
+      "id": 44
+    },
+    {
+      "type": "key",
+      "keys": [
+        "ENTER"
+      ],
+      "id": 45
+    },
+    {
+      "type": "wait",
+      "ms": 2388,
+      "id": 46
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Folha de Pagamento ",
+        "class_name": "TfrmPrincipal"
+      },
+      "point": {
+        "rx": 0.059400826446280995,
+        "ry": 0.03977272727272727
+      },
+      "id": 47
+    },
+    {
+      "type": "wait",
+      "ms": 2836,
+      "id": 48
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "",
+          "class_name": "#32768"
+        },
+        "locator": {
+          "control_type": "Pane",
+          "name": null,
+          "class_name": "#32768",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Window",
+              "name": "Folha de Pagamento ",
+              "class_name": "TfrmPrincipal"
+            },
+            {
+              "control_type": "Window",
+              "name": "Folha de Pagamento ",
+              "class_name": "TfrmPrincipal"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.5032467532467533,
+        "ry": 0.7507042253521127
+      },
+      "window_point": {
+        "rx": 0.5032467532467533,
+        "ry": 0.7507042253521127
+      },
+      "id": 49
+    },
+    {
+      "type": "wait",
+      "ms": 1370,
+      "id": 50
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "",
+          "class_name": "#32768"
+        },
+        "locator": {
+          "control_type": "Pane",
+          "name": null,
+          "class_name": "#32768",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Window",
+              "name": "Folha de Pagamento ",
+              "class_name": "TfrmPrincipal"
+            },
+            {
+              "control_type": "Window",
+              "name": "Folha de Pagamento ",
+              "class_name": "TfrmPrincipal"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.4249084249084249,
+        "ry": 0.855072463768116
+      },
+      "window_point": {
+        "rx": 0.4249084249084249,
+        "ry": 0.855072463768116
+      },
+      "id": 51
+    },
+    {
+      "type": "wait",
+      "ms": 3927,
+      "id": 52
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Folha de Pagamento ",
+          "class_name": "TfrmPrincipal"
+        },
+        "locator": {
+          "control_type": "Edit",
+          "name": null,
+          "class_name": "TCRDEdit",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Window",
+              "name": "Informe de Rendimentos de Funcionários",
+              "class_name": "TfrmInformeRendimentosFuncionarios"
+            },
+            {
+              "control_type": "Pane",
+              "name": "Espaço de trabalho",
+              "class_name": "MDIClient"
+            },
+            {
+              "control_type": "Window",
+              "name": "Folha de Pagamento ",
+              "class_name": "TfrmPrincipal"
+            },
+            {
+              "control_type": "Window",
+              "name": "Informe de Rendimentos de Funcionários",
+              "class_name": "TfrmInformeRendimentosFuncionarios"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.8235294117647058,
+        "ry": 0.8571428571428571
+      },
+      "window_point": {
+        "rx": 0.44266528925619836,
+        "ry": 0.3787878787878788
+      },
+      "id": 53
+    },
+    {
+      "type": "wait",
+      "ms": 389,
+      "id": 54
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 55
+    },
+    {
+      "type": "wait",
+      "ms": 254,
+      "id": 56
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 57
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 58
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 59
+    },
+    {
+      "type": "wait",
+      "ms": 814,
+      "id": 60
+    },
+    {
+      "type": "wait",
+      "ms": 1285,
+      "id": 61
+    },
+    {
+      "type": "type_text",
+      "text": "2025",
+      "id": 62
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Folha de Pagamento ",
+          "class_name": "TfrmPrincipal"
+        },
+        "locator": {
+          "control_type": "Edit",
+          "name": null,
+          "class_name": "TEdit",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Window",
+              "name": "Informe de Rendimentos de Funcionários",
+              "class_name": "TfrmInformeRendimentosFuncionarios"
+            },
+            {
+              "control_type": "Pane",
+              "name": "Espaço de trabalho",
+              "class_name": "MDIClient"
+            },
+            {
+              "control_type": "Window",
+              "name": "Folha de Pagamento ",
+              "class_name": "TfrmPrincipal"
+            },
+            {
+              "control_type": "Window",
+              "name": "Informe de Rendimentos de Funcionários",
+              "class_name": "TfrmInformeRendimentosFuncionarios"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.45454545454545453,
+        "ry": 0.2857142857142857
+      },
+      "window_point": {
+        "rx": 0.4359504132231405,
+        "ry": 0.38825757575757575
+      },
+      "id": 63
+    },
+    {
+      "type": "wait",
+      "ms": 1978,
+      "id": 64
+    },
+    {
+      "type": "wait",
+      "ms": 389,
+      "id": 65
+    },
+    {
+      "type": "type_text",
+      "text": "1",
+      "id": 66
+    },
+    {
+      "type": "key",
+      "keys": [
+        "ENTER"
+      ],
+      "id": 67
+    },
+    {
+      "type": "wait",
+      "ms": 430,
+      "id": 68
+    },
+    {
+      "type": "key",
+      "keys": [
+        "ENTER"
+      ],
+      "id": 69
+    },
+    {
+      "type": "wait",
+      "ms": 1460,
+      "id": 70
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Folha de Pagamento ",
+          "class_name": "TfrmPrincipal"
+        },
+        "locator": {
+          "control_type": "Edit",
+          "name": null,
+          "class_name": "TEdit",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Window",
+              "name": "Informe de Rendimentos de Funcionários",
+              "class_name": "TfrmInformeRendimentosFuncionarios"
+            },
+            {
+              "control_type": "Pane",
+              "name": "Espaço de trabalho",
+              "class_name": "MDIClient"
+            },
+            {
+              "control_type": "Window",
+              "name": "Folha de Pagamento ",
+              "class_name": "TfrmPrincipal"
+            },
+            {
+              "control_type": "Window",
+              "name": "Informe de Rendimentos de Funcionários",
+              "class_name": "TfrmInformeRendimentosFuncionarios"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.36363636363636365,
+        "ry": 0.23809523809523808
+      },
+      "window_point": {
+        "rx": 0.434400826446281,
+        "ry": 0.4289772727272727
+      },
+      "id": 71
+    },
+    {
+      "type": "wait",
+      "ms": 917,
+      "id": 72
+    },
+    {
+      "type": "wait",
+      "ms": 328,
+      "id": 73
+    },
+    {
+      "type": "type_text",
+      "text": "1",
+      "id": 74
+    },
+    {
+      "type": "key",
+      "keys": [
+        "ENTER"
+      ],
+      "id": 75
+    },
+    {
+      "type": "wait",
+      "ms": 1974,
+      "id": 76
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Folha de Pagamento ",
+          "class_name": "TfrmPrincipal"
+        },
+        "locator": {
+          "control_type": "CheckBox",
+          "name": "Dispensa de assinatura",
+          "class_name": "TCRDCheckBox",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Window",
+              "name": "Informe de Rendimentos de Funcionários",
+              "class_name": "TfrmInformeRendimentosFuncionarios"
+            },
+            {
+              "control_type": "Pane",
+              "name": "Espaço de trabalho",
+              "class_name": "MDIClient"
+            },
+            {
+              "control_type": "Window",
+              "name": "Folha de Pagamento ",
+              "class_name": "TfrmPrincipal"
+            },
+            {
+              "control_type": "Window",
+              "name": "Informe de Rendimentos de Funcionários",
+              "class_name": "TfrmInformeRendimentosFuncionarios"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.13454545454545455,
+        "ry": 0.9411764705882353
+      },
+      "window_point": {
+        "rx": 0.446797520661157,
+        "ry": 0.6221590909090909
+      },
+      "id": 77
+    },
+    {
+      "type": "wait",
+      "ms": 1463,
+      "id": 78
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Folha de Pagamento ",
+          "class_name": "TfrmPrincipal"
+        },
+        "locator": {
+          "control_type": "RadioButton",
+          "name": "Geral",
+          "class_name": "TCRDRadioButton",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Pane",
+              "name": "Situação",
+              "class_name": "TGroupBox"
+            },
+            {
+              "control_type": "Window",
+              "name": "Informe de Rendimentos de Funcionários",
+              "class_name": "TfrmInformeRendimentosFuncionarios"
+            },
+            {
+              "control_type": "Pane",
+              "name": "Espaço de trabalho",
+              "class_name": "MDIClient"
+            },
+            {
+              "control_type": "Window",
+              "name": "Folha de Pagamento ",
+              "class_name": "TfrmPrincipal"
+            },
+            {
+              "control_type": "Window",
+              "name": "Informe de Rendimentos de Funcionários",
+              "class_name": "TfrmInformeRendimentosFuncionarios"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.1875,
+        "ry": 0.7647058823529411
+      },
+      "window_point": {
+        "rx": 0.5650826446280992,
+        "ry": 0.5113636363636364
+      },
+      "id": 79
+    },
+    {
+      "type": "wait",
+      "ms": 1603,
+      "id": 80
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Folha de Pagamento ",
+          "class_name": "TfrmPrincipal"
+        },
+        "locator": {
+          "control_type": "Edit",
+          "name": null,
+          "class_name": "TEdit",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Window",
+              "name": "Informe de Rendimentos de Funcionários",
+              "class_name": "TfrmInformeRendimentosFuncionarios"
+            },
+            {
+              "control_type": "Pane",
+              "name": "Espaço de trabalho",
+              "class_name": "MDIClient"
+            },
+            {
+              "control_type": "Window",
+              "name": "Folha de Pagamento ",
+              "class_name": "TfrmPrincipal"
+            },
+            {
+              "control_type": "Window",
+              "name": "Informe de Rendimentos de Funcionários",
+              "class_name": "TfrmInformeRendimentosFuncionarios"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.5434782608695652,
+        "ry": 0.5238095238095238
+      },
+      "window_point": {
+        "rx": 0.44111570247933884,
+        "ry": 0.45549242424242425
+      },
+      "id": 81
+    },
+    {
+      "type": "wait",
+      "ms": 955,
+      "id": 82
+    },
+    {
+      "type": "wait",
+      "ms": 472,
+      "id": 83
+    },
+    {
+      "type": "type_text",
+      "text": "1",
+      "id": 84
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Folha de Pagamento ",
+          "class_name": "TfrmPrincipal"
+        },
+        "locator": {
+          "control_type": "Edit",
+          "name": null,
+          "class_name": "TEdit",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Window",
+              "name": "Informe de Rendimentos de Funcionários",
+              "class_name": "TfrmInformeRendimentosFuncionarios"
+            },
+            {
+              "control_type": "Pane",
+              "name": "Espaço de trabalho",
+              "class_name": "MDIClient"
+            },
+            {
+              "control_type": "Window",
+              "name": "Folha de Pagamento ",
+              "class_name": "TfrmPrincipal"
+            },
+            {
+              "control_type": "Window",
+              "name": "Informe de Rendimentos de Funcionários",
+              "class_name": "TfrmInformeRendimentosFuncionarios"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.45652173913043476,
+        "ry": 0.6190476190476191
+      },
+      "window_point": {
+        "rx": 0.47985537190082644,
+        "ry": 0.45738636363636365
+      },
+      "id": 85
+    },
+    {
+      "type": "wait",
+      "ms": 1609,
+      "id": 86
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Folha de Pagamento ",
+          "class_name": "TfrmPrincipal"
+        },
+        "locator": {
+          "control_type": "Button",
+          "name": "Imprimir",
+          "class_name": "TCRDPopupButton",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Window",
+              "name": "Informe de Rendimentos de Funcionários",
+              "class_name": "TfrmInformeRendimentosFuncionarios"
+            },
+            {
+              "control_type": "Pane",
+              "name": "Espaço de trabalho",
+              "class_name": "MDIClient"
+            },
+            {
+              "control_type": "Window",
+              "name": "Folha de Pagamento ",
+              "class_name": "TfrmPrincipal"
+            },
+            {
+              "control_type": "Window",
+              "name": "Informe de Rendimentos de Funcionários",
+              "class_name": "TfrmInformeRendimentosFuncionarios"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.13333333333333333,
+        "ry": 0.48
+      },
+      "window_point": {
+        "rx": 0.6115702479338843,
+        "ry": 0.3712121212121212
+      },
+      "id": 87
+    },
+    {
+      "type": "wait",
+      "ms": 9625,
+      "id": 88
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Folha de Pagamento ",
+          "class_name": "TfrmPrincipal"
+        },
+        "locator": {
+          "control_type": "Button",
+          "name": null,
+          "class_name": "TBitBtn",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Pane",
+              "name": "Espaço de trabalho",
+              "class_name": "MDIClient"
+            },
+            {
+              "control_type": "Window",
+              "name": "Folha de Pagamento ",
+              "class_name": "TfrmPrincipal"
+            },
+            {
+              "control_type": "Window",
+              "name": null,
+              "class_name": "TForm"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.43333333333333335,
+        "ry": 0.72
+      },
+      "window_point": {
+        "rx": 0.29390495867768596,
+        "ry": 0.09659090909090909
+      },
+      "id": 89
+    },
+    {
+      "type": "wait",
+      "ms": 3041,
+      "id": 90
+    },
+    {
+      "type": "wait",
+      "ms": 973,
+      "id": 91
+    },
+    {
+      "type": "wait",
+      "ms": 703,
+      "id": 92
+    },
+    {
+      "type": "wait",
+      "ms": 425,
+      "id": 93
+    },
+    {
+      "type": "wait",
+      "ms": 347,
+      "id": 94
+    },
+    {
+      "type": "wait",
+      "ms": 333,
+      "id": 95
+    },
+    {
+      "type": "wait",
+      "ms": 330,
+      "id": 96
+    },
+    {
+      "type": "wait",
+      "ms": 866,
+      "id": 97
+    },
+    {
+      "type": "wait",
+      "ms": 625,
+      "id": 98
+    },
+    {
+      "type": "wait",
+      "ms": 1872,
+      "id": 99
+    },
+    {
+      "type": "wait",
+      "ms": 571,
+      "id": 100
+    },
+    {
+      "type": "type_text",
+      "text": "\\\\192.0.0.251\\arquivos\\documentos",
+      "id": 101
+    },
+    {
+      "type": "key",
+      "keys": [
+        "SPACE"
+      ],
+      "id": 102
+    },
+    {
+      "type": "wait",
+      "ms": 452,
+      "id": 103
+    },
+    {
+      "type": "wait",
+      "ms": 905,
+      "id": 104
+    },
+    {
+      "type": "wait",
+      "ms": 671,
+      "id": 105
+    },
+    {
+      "type": "wait",
+      "ms": 350,
+      "id": 106
+    },
+    {
+      "type": "type_text",
+      "text": "escritorio\\instalacao",
+      "id": 107
+    },
+    {
+      "type": "key",
+      "keys": [
+        "SPACE"
+      ],
+      "id": 108
+    },
+    {
+      "type": "wait",
+      "ms": 645,
+      "id": 109
+    },
+    {
+      "type": "wait",
+      "ms": 910,
+      "id": 110
+    },
+    {
+      "type": "wait",
+      "ms": 344,
+      "id": 111
+    },
+    {
+      "type": "type_text",
+      "text": "sistema\\python\\projeto",
+      "id": 112
+    },
+    {
+      "type": "key",
+      "keys": [
+        "SPACE"
+      ],
+      "id": 113
+    },
+    {
+      "type": "wait",
+      "ms": 322,
+      "id": 114
+    },
+    {
+      "type": "type_text",
+      "text": "h",
+      "id": 115
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 116
+    },
+    {
+      "type": "wait",
+      "ms": 633,
+      "id": 117
+    },
+    {
+      "type": "type_text",
+      "text": "rh",
+      "id": 118
+    },
+    {
+      "type": "key",
+      "keys": [
+        "SPACE"
+      ],
+      "id": 119
+    },
+    {
+      "type": "wait",
+      "ms": 926,
+      "id": 120
+    },
+    {
+      "type": "wait",
+      "ms": 375,
+      "id": 121
+    },
+    {
+      "type": "wait",
+      "ms": 728,
+      "id": 122
+    },
+    {
+      "type": "wait",
+      "ms": 844,
+      "id": 123
+    },
+    {
+      "type": "wait",
+      "ms": 374,
+      "id": 124
+    },
+    {
+      "type": "type_text",
+      "text": "leonardo\\5",
+      "id": 125
+    },
+    {
+      "type": "key",
+      "keys": [
+        "SPACE"
+      ],
+      "id": 126
+    },
+    {
+      "type": "wait",
+      "ms": 688,
+      "id": 127
+    },
+    {
+      "type": "type_text",
+      "text": "-",
+      "id": 128
+    },
+    {
+      "type": "key",
+      "keys": [
+        "SPACE"
+      ],
+      "id": 129
+    },
+    {
+      "type": "type_text",
+      "text": "informe",
+      "id": 130
+    },
+    {
+      "type": "key",
+      "keys": [
+        "SPACE"
+      ],
+      "id": 131
+    },
+    {
+      "type": "type_text",
+      "text": "de",
+      "id": 132
+    },
+    {
+      "type": "key",
+      "keys": [
+        "SPACE"
+      ],
+      "id": 133
+    },
+    {
+      "type": "wait",
+      "ms": 830,
+      "id": 134
+    },
+    {
+      "type": "wait",
+      "ms": 450,
+      "id": 135
+    },
+    {
+      "type": "wait",
+      "ms": 630,
+      "id": 136
+    },
+    {
+      "type": "wait",
+      "ms": 734,
+      "id": 137
+    },
+    {
+      "type": "wait",
+      "ms": 498,
+      "id": 138
+    },
+    {
+      "type": "wait",
+      "ms": 4573,
+      "id": 139
+    },
+    {
+      "type": "type_text",
+      "text": "rendimentos\\relatorios\\2026",
+      "id": 140
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Salvar Relatório em PDF",
+          "class_name": "TfrmConfRelPDF"
+        },
+        "locator": {
+          "control_type": "Edit",
+          "name": null,
+          "class_name": "TCRDEdit",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Pane",
+              "name": "Salvar Arquivo em:",
+              "class_name": "TGroupBox"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.656,
+        "ry": 0.2857142857142857
+      },
+      "window_point": {
+        "rx": 0.5251798561151079,
+        "ry": 0.3155893536121673
+      },
+      "id": 141
+    },
+    {
+      "type": "wait",
+      "ms": 1229,
+      "id": 142
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Aviso do Sistema",
+          "class_name": "#32770"
+        },
+        "locator": {
+          "control_type": "Button",
+          "name": "OK",
+          "class_name": "Button",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Window",
+              "name": "Aviso do Sistema",
+              "class_name": "#32770"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            },
+            {
+              "control_type": "Window",
+              "name": "Aviso do Sistema",
+              "class_name": "#32770"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.28,
+        "ry": 0.0
+      },
+      "window_point": {
+        "rx": 0.813953488372093,
+        "ry": 0.7869822485207101
+      },
+      "id": 143
+    },
+    {
+      "type": "wait",
+      "ms": 826,
+      "id": 144
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Salvar Relatório em PDF",
+          "class_name": "TfrmConfRelPDF"
+        },
+        "locator": {
+          "control_type": "Edit",
+          "name": null,
+          "class_name": "TCRDEdit",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Pane",
+              "name": "Salvar Arquivo em:",
+              "class_name": "TGroupBox"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.656,
+        "ry": 0.14285714285714285
+      },
+      "window_point": {
+        "rx": 0.5251798561151079,
+        "ry": 0.22053231939163498
+      },
+      "id": 145
+    },
+    {
+      "type": "wait",
+      "ms": 438,
+      "id": 146
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Salvar Relatório em PDF",
+          "class_name": "TfrmConfRelPDF"
+        },
+        "locator": {
+          "control_type": "Edit",
+          "name": null,
+          "class_name": "TCRDEdit",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Pane",
+              "name": "Salvar Arquivo em:",
+              "class_name": "TGroupBox"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.704,
+        "ry": 0.42857142857142855
+      },
+      "window_point": {
+        "rx": 0.5467625899280576,
+        "ry": 0.24334600760456274
+      },
+      "id": 147
+    },
+    {
+      "type": "wait",
+      "ms": 1857,
+      "id": 148
+    },
+    {
+      "type": "wait",
+      "ms": 673,
+      "id": 149
+    },
+    {
+      "type": "type_text",
+      "text": "p",
+      "id": 150
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 151
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 152
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 153
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 154
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 155
+    },
+    {
+      "type": "wait",
+      "ms": 1563,
+      "id": 156
+    },
+    {
+      "type": "wait",
+      "ms": 344,
+      "id": 157
+    },
+    {
+      "type": "wait",
+      "ms": 375,
+      "id": 158
+    },
+    {
+      "type": "type_text",
+      "text": "tp",
+      "id": 159
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 160
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 161
+    },
+    {
+      "type": "wait",
+      "ms": 316,
+      "id": 162
+    },
+    {
+      "type": "type_text",
+      "text": "p",
+      "id": 163
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 164
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 165
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 166
+    },
+    {
+      "type": "wait",
+      "ms": 339,
+      "id": 167
+    },
+    {
+      "type": "key",
+      "keys": [
+        "BACKSPACE"
+      ],
+      "id": 168
+    },
+    {
+      "type": "wait",
+      "ms": 1140,
+      "id": 169
+    },
+    {
+      "type": "wait",
+      "ms": 2287,
+      "id": 170
+    },
+    {
+      "type": "type_text",
+      "text": "o",
+      "id": 171
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Salvar Relatório em PDF",
+          "class_name": "TfrmConfRelPDF"
+        },
+        "locator": {
+          "control_type": "Pane",
+          "name": "Salvar Arquivo em:",
+          "class_name": "TGroupBox",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.6078886310904872,
+        "ry": 0.37575757575757573
+      },
+      "window_point": {
+        "rx": 0.5,
+        "ry": 0.3726235741444867
+      },
+      "id": 172
+    },
+    {
+      "type": "wait",
+      "ms": 359,
+      "id": 173
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Salvar Relatório em PDF",
+          "class_name": "TfrmConfRelPDF"
+        },
+        "locator": {
+          "control_type": "Edit",
+          "name": null,
+          "class_name": "TCRDEdit",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Pane",
+              "name": "Salvar Arquivo em:",
+              "class_name": "TGroupBox"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.696,
+        "ry": 0.47619047619047616
+      },
+      "window_point": {
+        "rx": 0.5431654676258992,
+        "ry": 0.33079847908745247
+      },
+      "id": 174
+    },
+    {
+      "type": "wait",
+      "ms": 730,
+      "id": 175
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Aviso do Sistema",
+          "class_name": "#32770"
+        },
+        "locator": {
+          "control_type": "Button",
+          "name": "OK",
+          "class_name": "Button",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Window",
+              "name": "Aviso do Sistema",
+              "class_name": "#32770"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            },
+            {
+              "control_type": "Window",
+              "name": "Aviso do Sistema",
+              "class_name": "#32770"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.7066666666666667,
+        "ry": 0.21739130434782608
+      },
+      "window_point": {
+        "rx": 0.896640826873385,
+        "ry": 0.8165680473372781
+      },
+      "id": 176
+    },
+    {
+      "type": "wait",
+      "ms": 2916,
+      "id": 177
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Salvar Relatório em PDF",
+          "class_name": "TfrmConfRelPDF"
+        },
+        "locator": {
+          "control_type": "Pane",
+          "name": null,
+          "class_name": "TPanel",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Pane",
+              "name": "Salvar Arquivo em:",
+              "class_name": "TGroupBox"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.24,
+        "ry": 0.6153846153846154
+      },
+      "window_point": {
+        "rx": 0.697841726618705,
+        "ry": 0.2661596958174905
+      },
+      "id": 178
+    },
+    {
+      "type": "wait",
+      "ms": 1479,
+      "id": 179
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Seleção de Diretório",
+          "class_name": "#32770"
+        },
+        "locator": {
+          "control_type": "ToolBar",
+          "name": "Endereço: W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\python\\PROJETO RH LEONARDO\\4 - 1ª PARTE\\FOLHAS\\14",
+          "class_name": "ToolbarWindow32",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Window",
+              "name": "Seleção de Diretório",
+              "class_name": "#32770"
+            },
+            {
+              "control_type": "Window",
+              "name": "Seleção de Diretório",
+              "class_name": "#32770"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.775438596491228,
+        "ry": 0.7272727272727273
+      },
+      "window_point": {
+        "rx": 0.5802083333333333,
+        "ry": 0.09814814814814815
+      },
+      "id": 180
+    },
+    {
+      "type": "wait",
+      "ms": 484,
+      "id": 181
+    },
+    {
+      "type": "key",
+      "keys": [
+        "CTRL",
+        "V"
+      ],
+      "id": 182
+    },
+    {
+      "type": "wait",
+      "ms": 874,
+      "id": 183
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Seleção de Diretório",
+          "class_name": "#32770"
+        },
+        "locator": {
+          "control_type": "Button",
+          "name": "Selecionar pasta",
+          "class_name": "Button",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Window",
+              "name": "Seleção de Diretório",
+              "class_name": "#32770"
+            },
+            {
+              "control_type": "Window",
+              "name": "Seleção de Diretório",
+              "class_name": "#32770"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.72,
+        "ry": 0.6153846153846154
+      },
+      "window_point": {
+        "rx": 0.8333333333333334,
+        "ry": 0.9444444444444444
+      },
+      "id": 184
+    },
+    {
+      "type": "wait",
+      "ms": 1239,
+      "id": 185
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Salvar Relatório em PDF",
+          "class_name": "TfrmConfRelPDF"
+        },
+        "locator": {
+          "control_type": "Edit",
+          "name": null,
+          "class_name": "TCRDEdit",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Pane",
+              "name": "Salvar Arquivo em:",
+              "class_name": "TGroupBox"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.66,
+        "ry": 0.6666666666666666
+      },
+      "window_point": {
+        "rx": 0.5269784172661871,
+        "ry": 0.34600760456273766
+      },
+      "id": 186
+    },
+    {
+      "type": "wait",
+      "ms": 468,
+      "id": 187
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Salvar Relatório em PDF",
+          "class_name": "TfrmConfRelPDF"
+        },
+        "locator": {
+          "control_type": "Edit",
+          "name": null,
+          "class_name": "TCRDEdit",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Pane",
+              "name": "Salvar Arquivo em:",
+              "class_name": "TGroupBox"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.66,
+        "ry": 0.6666666666666666
+      },
+      "window_point": {
+        "rx": 0.5269784172661871,
+        "ry": 0.34600760456273766
+      },
+      "id": 188
+    },
+    {
+      "type": "double_click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Salvar Relatório em PDF",
+          "class_name": "TfrmConfRelPDF"
+        },
+        "locator": {
+          "control_type": "Edit",
+          "name": null,
+          "class_name": "TCRDEdit",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Pane",
+              "name": "Salvar Arquivo em:",
+              "class_name": "TGroupBox"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.66,
+        "ry": 0.6666666666666666
+      },
+      "window_point": {
+        "rx": 0.5269784172661871,
+        "ry": 0.34600760456273766
+      },
+      "id": 189
+    },
+    {
+      "type": "wait",
+      "ms": 470,
+      "id": 190
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Salvar Relatório em PDF",
+          "class_name": "TfrmConfRelPDF"
+        },
+        "locator": {
+          "control_type": "Edit",
+          "name": null,
+          "class_name": "TCRDEdit",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Pane",
+              "name": "Salvar Arquivo em:",
+              "class_name": "TGroupBox"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.66,
+        "ry": 0.6666666666666666
+      },
+      "window_point": {
+        "rx": 0.5269784172661871,
+        "ry": 0.34600760456273766
+      },
+      "id": 191
+    },
+    {
+      "type": "wait",
+      "ms": 1324,
+      "id": 192
+    },
+    {
+      "type": "type_text",
+      "text": "teste",
+      "id": 193
+    },
+    {
+      "type": "key",
+      "keys": [
+        "SPACE"
+      ],
+      "id": 194
+    },
+    {
+      "type": "wait",
+      "ms": 1556,
+      "id": 195
+    },
+    {
+      "type": "type_text",
+      "text": "nome",
+      "id": 196
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Salvar Relatório em PDF",
+          "class_name": "TfrmConfRelPDF"
+        },
+        "locator": {
+          "control_type": "CheckBox",
+          "name": "Depois de Salvar, Abrir o Documento com o Programa Padrão",
+          "class_name": "TCRDCheckBox",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Pane",
+              "name": "Salvar Arquivo em:",
+              "class_name": "TGroupBox"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.1178343949044586,
+        "ry": 0.7058823529411765
+      },
+      "window_point": {
+        "rx": 0.29676258992805754,
+        "ry": 0.5741444866920152
+      },
+      "id": 197
+    },
+    {
+      "type": "wait",
+      "ms": 686,
+      "id": 198
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Salvar Relatório em PDF",
+          "class_name": "TfrmConfRelPDF"
+        },
+        "locator": {
+          "control_type": "CheckBox",
+          "name": "Salvar Relatório em PDF/A",
+          "class_name": "TCRDCheckBox",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Pane",
+              "name": "Salvar Arquivo em:",
+              "class_name": "TGroupBox"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.18789808917197454,
+        "ry": 0.23529411764705882
+      },
+      "window_point": {
+        "rx": 0.3363309352517986,
+        "ry": 0.6045627376425855
+      },
+      "id": 199
+    },
+    {
+      "type": "wait",
+      "ms": 908,
+      "id": 200
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Salvar Relatório em PDF",
+          "class_name": "TfrmConfRelPDF"
+        },
+        "locator": {
+          "control_type": "Button",
+          "name": "OK",
+          "class_name": "TCRDCommandButton",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.6533333333333333,
+        "ry": 0.52
+      },
+      "window_point": {
+        "rx": 0.935251798561151,
+        "ry": 0.17870722433460076
+      },
+      "id": 201
+    },
+    {
+      "type": "wait",
+      "ms": 4828,
+      "id": 202
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Aviso do Sistema",
+          "class_name": "#32770"
+        },
+        "locator": {
+          "control_type": "Button",
+          "name": "OK",
+          "class_name": "Button",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Window",
+              "name": "Aviso do Sistema",
+              "class_name": "#32770"
+            },
+            {
+              "control_type": "Window",
+              "name": "Salvar Relatório em PDF",
+              "class_name": "TfrmConfRelPDF"
+            },
+            {
+              "control_type": "Window",
+              "name": "Aviso do Sistema",
+              "class_name": "#32770"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.48,
+        "ry": 0.4782608695652174
+      },
+      "window_point": {
+        "rx": 0.8556962025316456,
+        "ry": 0.8397435897435898
+      },
+      "id": 203
+    },
+    {
+      "type": "wait",
+      "ms": 1682,
+      "id": 204
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "Folha de Pagamento ",
+          "class_name": "TfrmPrincipal"
+        },
+        "locator": {
+          "control_type": "Button",
+          "name": null,
+          "class_name": "TBitBtn",
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "Pane",
+              "name": "Espaço de trabalho",
+              "class_name": "MDIClient"
+            },
+            {
+              "control_type": "Window",
+              "name": "Folha de Pagamento ",
+              "class_name": "TfrmPrincipal"
+            },
+            {
+              "control_type": "Window",
+              "name": null,
+              "class_name": "TForm"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.2,
+        "ry": 0.24
+      },
+      "window_point": {
+        "rx": 0.24070247933884298,
+        "ry": 0.08522727272727272
+      },
+      "id": 205
+    }
+  ]
+}

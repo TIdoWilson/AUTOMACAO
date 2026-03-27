@@ -1,0 +1,122 @@
+{
+    "ws": {
+        "endpoint_url": "http://localhost:2443/services/ReceitanetBX",
+        "timeout_sec": 30,
+        "verify_tls": false,
+        "soap": {
+            "namespace": "http://ws.apache.org/axis2",
+            "prefix": "ns",
+            "entrada_param": "entrada",
+            "cdata_entrada": true,
+            "use_soap_action": true,
+            "soap_action_prefix": "urn:"
+        }
+    },
+    "job": {
+        "xml_mode": "doc",
+        "sistema_default": "1",
+        "systems": {
+            "7": {
+                "perfil": "Procurador",
+                "sistema": "SPED ContribuiÃ§Ãµes",
+                "tipoarquivo": "EscrituraÃ§Ã£o",
+                "tipopesquisa": "exercicio",
+                "campos": [
+                    {
+                        "nome": "dataInicio",
+                        "valor": "{{dataInicio}}"
+                    },
+                    {
+                        "nome": "dataFim",
+                        "valor": "{{dataFim}}"
+                    }
+                ]
+            },
+            "1": {
+                "perfil": "Procurador",
+                "sistema": "SPED ContÃ¡bil",
+                "tipoarquivo": "EscrituraÃ§Ã£o",
+                "tipopesquisa": "ExercÃ­cio",
+                "campos": [
+                    {
+                        "nome": "Data Inicial",
+                        "valor": "{{dataInicio}}"
+                    },
+                    {
+                        "nome": "Data Final",
+                        "valor": "{{dataFim}}"
+                    }
+                ]
+            },
+            "20": {
+                "perfil": "Procurador",
+                "sistema": "SPED ECF",
+                "tipoarquivo": "EscrituraÃ§Ã£o",
+                "tipopesquisa": "exercicio",
+                "campos": [
+                    {
+                        "nome": "dataInicio",
+                        "valor": "{{dataInicio}}"
+                    },
+                    {
+                        "nome": "dataFim",
+                        "valor": "{{dataFim}}"
+                    }
+                ]
+            },
+            "2": {
+                "perfil": "Procurador",
+                "sistema": "SPED Fiscal - EFD ICMS IPI",
+                "tipoarquivo": "EscrituraÃ§Ã£o",
+                "tipopesquisa": "por CNPJ/IE e PerÃ­odo (Contribuinte)",
+                "campos": [
+                    {
+                        "nome": "CNPJ Estabelecimento",
+                        "valor": "{{cnpjEstabelecimento}}"
+                    },
+                    {
+                        "nome": "InscriÃ§Ã£o Estadual",
+                        "valor": "{{ie}}"
+                    },
+                    {
+                        "nome": "OpÃ§Ã£o Todos Estabelecimentos",
+                        "valor": "{{opcaoTodosEstabelecimentos}}"
+                    },
+                    {
+                        "nome": "Somente Ativas",
+                        "valor": "{{somenteAtivas}}"
+                    },
+                    {
+                        "nome": "Data Inicial",
+                        "valor": "{{dataInicio}}"
+                    },
+                    {
+                        "nome": "Data Final",
+                        "valor": "{{dataFim}}"
+                    }
+                ]
+            }
+        },
+        "efd_icms_ipi": {
+            "enabled": false,
+            "campo_todos_estabelecimentos": "Buscar Arquivos de Todos os Estabelecimentos",
+            "campo_ultimo_transmitido": "Ãšltimo arquivo transmitido",
+            "campo_cnpj_estabelecimento": "CNPJ do Estabelecimento",
+            "campo_inscricao_estadual": "InscriÃ§Ã£o Estadual",
+            "marcar_todos_estabelecimentos_quando_matriz": true,
+            "ultimo_transmitido_valor": "F"
+        }
+    },
+    "polling": {
+        "interval_sec": 5,
+        "interval_processando_sec": 5,
+        "interval_disponivel_sec": 0,
+        "timeout_sec": 1200
+    },
+    "io": {
+        "input_xlsx": "W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\python\\RECEITANET\\cnpjs.xlsx",
+        "output_dir": "W:\\DOCUMENTOS ESCRITORIO\\INSTALACAO SISTEMA\\python\\RECEITANET\\saida",
+        "copy_downloaded_files": true
+    }
+}
+

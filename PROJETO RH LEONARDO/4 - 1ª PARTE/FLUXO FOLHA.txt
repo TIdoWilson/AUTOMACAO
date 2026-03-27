@@ -1,0 +1,127 @@
+MÓDULOS>PROCESSAMENTO AGRUPADO
+PROCESSAMENTO 2
+GERAR POR 1
+GRUPO 6, 13, 14 (um de cada vez, naõ todos ao mesm tempo)
+MARCAR TODAS CALC FOL MENSAL, APUR. TRIBUTOS E HOLERITE
+DESMARCAR TODAS REL. FOLHA
+PARÂMETROS>RELATÓRIOS MENSAIS
+DIRETÓRIO
+PROCESSAR (5 min CADA, com função de apertar enter para pular a espera)
+REPETIR PARA TODOS OS GRUPOS
+CONVERTER PARA PDFa
+RENOMEAR PARA {{NOME DA EMPRESA}} - FOLHA
+MANDA PARA A PASTA AUTOMAIZADO 1ª PARTE ORGANIZADO POR MÊS E ANO ATUAL E GRUPO (6, 13, 14)
+
+Para que o pagamento de pró-labore também seja processado junto com a folha mensal, basta deixar marcada a opção “Calcular pró-labore para diretores” nos parâmetros do cadastro de empresa (Parâmetros\ Folha de Pagamento\ Processamentos Agrupados).
+
+------------------------------------------------------------------------------------------------------------
+
+ALT E M G
+POR GRUPO
+AGRUPAMENTO 6;13;14
+MARCAR TODAS>GERAR PERIÓDICOS
+ESPERAR 1 HORA
+CONFERE UMA POR UMA POR ERROS IGUAL AO OUTRO SCRIPT
+
+------------------------------------------------------------------------------------------------------------
+
+ALT E F
+AGRUPADO
+AGRUPAMENTO 6;13;14
+CONSULTA
+ESPERAR
+POSSUI REMUNERAÇÃO, POSSUI PAG. DE REMUNERAÇÃO, TRANS. AUT. DCTFWEB, SITUAÇÃO > MARCAR TODAS COLUNA
+FECHAMENTO DESMARCAR TODAS COLUNA
+GERAR
+ESPERAR
+
+------------------------------------------------------------------------------------------------------------
+GERENCIADOR DE SISTEMAS
+MÓDULOS EXTRAS
+CONTROLE DE GUIAS
+PAINEL DE CONTROLE DE GUIAS
+AGRUPAMENTO 6 13 14 (UM DE CADA VEZ)
+SELECIONAR
+MARCA TUDO
+CONSULTA
+ESPERAR
+MARCA TUDO
+EMITIR
+MARCA TUDO
+COMPARTILHAR
+SETA PRA BAIXO X2
+ENTER
+SALVAR NA PASTA RESPECTIVA
+
+ENVIAR PARA PASTA AUTOMATIZADA FORMATADO COM {{NOME EMPRESA}} - DARF
+
+------------------------------------------------------------------------------------------------------------
+GERENCIADOR DE SISTEMAS
+MÓDULOS EXTRAS
+CONTROLE DE GUIAS	
+PAINEL DE CONTROLE DE GUIAS
+FGTS
+MÊS/ANO {{ATUAL}}
+AGRUPAMENTO 6 13 14 (UM DE CADA VEZ)
+MESMA COISA QUE O DE CIMA
+
+------------------------------------------------------------------------------------------------------------
+MÓDULOS>PROCESSAMENTO AGRUPADO
+PROCESSAMENTO 10
+MÊS/ANO ATUAL
+GRUPO 6 13 14 UM DE CADA VEZ
+MARCAR RECIBO FORNECIMENTO VR
+DESMARCAR TODOS VT, RELAÇÃO VR, RELÇÃO COMPRA VR
+PARÂMETROS
+FORNECIMENTO DE VT E VR
+EMITIR 2 RECIBOS POR FUNCIONÁRIO
+SALVAR COMO: {{NMR EMPRESA}} VALE REFEIÇÃO {{MÊS/ANO}}
+
+------------------------------------------------------------------------------------------------------------
+PROCESSAMENTO AGRUPADO
+PROCESSAMENTO 2
+GERAR POR 1
+GRUPO 3
+MARCAR TODAS: CALC FOL MENSAL ; HOLERITE
+DESMARCAR TODAS: APUR TRIBUTOS; GUIAS; REL. FOLHA
+PARÂMETROS
+RELATÓRIO MENSAIS
+SALVAR ARQUIVOS POR EMPRESA EM: "W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\PROJETO RH LEONARDO\4 - 1ª PARTE\PROCESSAMENTO DOMÉSTICAS"
+
+https://www.esocial.gov.br/portal/Home/Index?trocarPerfil=true LOGAR E ESPERAR
+PRENCHE COM CPF EMPREGADOR - VERIFICAR
+SIMPLIFICADO
+FOLHA DE PAGAMENTO
+APERTAR OK NO AVISO DE ATENÇÃO
+ENCERRAR FOLHA
+CONFIRMAR
+EMITIR GUIA
+
+------------------------------------------------------------------------------------------------------------
+preencher empresa baseada no excel
+data do sistema = último dia do mês atual
+abrir aba do fornecimento do vale refeição
+fornecimento de vale refeição apertar ok
+esperar 5 seg, fechar janelinha por coordenada, sem fallback nem nada do tipo
+abrir janela de recibo
+preencher recibo com 1 e emitir 2
+clicar em imprimir
+salvar como pdf
+VR - {{NOME EMPREGADOR}} (PEGUE O NOME PELO EXCEL APONTADO PARA DOMÉSTICAS)
+Salvar no diretório particular para formatação/realocação futura
+clicar em ok
+repetir o ciclo para todas as empresas marcadas com VR na coluna que vai ser especificada depois
+dar um sinal de OK quando tiver feito todas as empresas
+
+------------------------------------------------------------------------------------------------------------
+mudar empresa para primeira/próxima do excel providenciado
+Data do sistema = 1 mês pra frente do atual, último dia do mês
+módulos>vale transporte> fornecimento de vales
+clicar OK
+Recibo VT
+Classificação = 1
+marcar Emitir 2 recibos por Funcionário
+imprimir
+salvar como pdf
+salvar no caminho que vai ser especificado depois com o nome "VT - {{nome empregador}}
+dar um sinal de OK quando tiver salvo todos os VTs necessários

@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "created_at_ms": 1770039007934,
+    "version": 7,
+    "dpi_mode": "PM"
+  },
+  "steps": [
+    {
+      "type": "wait",
+      "ms": 150,
+      "id": 1
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Sistema Público de Escrituração Digital - EFD Contribuições",
+        "class_name": "SunAwtFrame"
+      },
+      "point": {
+        "rx": 0.39375,
+        "ry": 0.5233333333333333
+      },
+      "id": 2
+    },
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 3
+    },
+    {
+      "type": "key",
+      "keys": [
+        "CTRL",
+        "R"
+      ],
+      "id": 4
+    },
+    {
+      "type": "wait",
+      "ms": 150,
+      "id": 5
+    },
+    {
+      "type": "key",
+      "keys": [
+        "SPACE"
+      ],
+      "id": 6
+    },
+    {
+      "type": "wait",
+      "ms": 150,
+      "id": 7
+    },
+
+  "preencher com o caminho do sped.txt selecionado"
+
+    {
+      "type": "key",
+      "keys": [
+        "ENTER"
+      ],
+      "id": 11
+    },
+    {
+      "type": "wait",
+      "ms": 150,
+      "id": 12
+    },
+    {
+      "type": "key",
+      "keys": [
+        "SPACE"
+      ],
+      "id": 13
+    },
+    {
+      "type": "wait",
+      "ms": 150,
+      "id": 14
+    },
+
+  "preencher com o caminho do sped.rec selecionado"
+
+    {
+      "type": "wait",
+      "ms": 150,
+      "id": 16
+    },
+    {
+      "type": "key",
+      "keys": [
+        "ENTER"
+      ],
+      "id": 17
+    },
+    {
+      "type": "wait",
+      "ms": 50,
+      "id": 18
+    },
+    {
+      "type": "key",
+      "keys": [
+        "SPACE"
+      ],
+      "id": 19
+    },
+    {
+      "type": "wait",
+      "ms": 150,
+      "id": 20
+    },
+    {
+      "type": "key",
+      "keys": [
+        "SPACE"
+      ],
+      "id": 21
+    },
+    {
+      "type": "wait",
+      "ms": 150,
+      "id": 22
+    },
+
+  "preencher com o caminho dos arquivos originais + Recibo sped contribuicoes CNPJ"
+
+    {
+      "type": "wait",
+      "ms": 150,
+      "id": 36
+    },
+    {
+      "type": "key",
+      "keys": [
+        "ESC"
+      ],
+      "id": 37
+    }
+  ]
+}

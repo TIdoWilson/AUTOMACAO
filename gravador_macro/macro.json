@@ -1,0 +1,358 @@
+{
+  "meta": {
+    "created_at_ms": 1770039007934,
+    "version": 7,
+    "dpi_mode": "PM"
+  },
+  "steps": [
+    {
+      "type": "wait",
+      "ms": 1377,
+      "id": 1
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Sistema Público de Escrituração Digital - EFD Contribuições",
+        "class_name": "SunAwtFrame"
+      },
+      "point": {
+        "rx": 0.39375,
+        "ry": 0.5233333333333333
+      },
+      "id": 2
+    },
+    {
+      "type": "wait",
+      "ms": 559,
+      "id": 3
+    },
+    {
+      "type": "key",
+      "keys": [
+        "CTRL",
+        "R"
+      ],
+      "id": 4
+    },
+    {
+      "type": "wait",
+      "ms": 1000,
+      "id": 5
+    },
+    {
+      "type": "key",
+      "keys": [
+        "SPACE"
+      ],
+      "id": 6
+    },
+    {
+      "type": "wait",
+      "ms": 1354,
+      "id": 7
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Arquivo da Escrituração Fiscal",
+        "class_name": "SunAwtDialog"
+      },
+      "point": {
+        "rx": 0.49920508744038156,
+        "ry": 0.6444954128440367
+      },
+      "id": 8
+    },
+    {
+      "type": "wait",
+      "ms": 1205,
+      "id": 9
+    },
+    {
+      "type": "wait",
+      "ms": 577,
+      "id": 10
+    },
+    {
+      "type": "key",
+      "keys": [
+        "ENTER"
+      ],
+      "id": 11
+    },
+    {
+      "type": "wait",
+      "ms": 1104,
+      "id": 12
+    },
+    {
+      "type": "key",
+      "keys": [
+        "SPACE"
+      ],
+      "id": 13
+    },
+    {
+      "type": "wait",
+      "ms": 2149,
+      "id": 14
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Arquivo do Recibo de Transmissão",
+        "class_name": "SunAwtDialog"
+      },
+      "point": {
+        "rx": 0.2702702702702703,
+        "ry": 0.6055045871559633
+      },
+      "id": 15
+    },
+    {
+      "type": "wait",
+      "ms": 1387,
+      "id": 16
+    },
+    {
+      "type": "key",
+      "keys": [
+        "ENTER"
+      ],
+      "id": 17
+    },
+    {
+      "type": "wait",
+      "ms": 896,
+      "id": 18
+    },
+    {
+      "type": "key",
+      "keys": [
+        "SPACE"
+      ],
+      "id": 19
+    },
+    {
+      "type": "wait",
+      "ms": 2936,
+      "id": 20
+    },
+    {
+      "type": "key",
+      "keys": [
+        "SPACE"
+      ],
+      "id": 21
+    },
+    {
+      "type": "wait",
+      "ms": 6955,
+      "id": 22
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Salvar",
+        "class_name": "SunAwtDialog"
+      },
+      "point": {
+        "rx": 0.5739268680445151,
+        "ry": 0.8715596330275229
+      },
+      "id": 23
+    },
+    {
+      "type": "wait",
+      "ms": 1279,
+      "id": 24
+    },
+    {
+      "type": "type_text",
+      "text": "v",
+      "id": 25
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "",
+          "class_name": "ApplicationFrameWindow"
+        },
+        "locator": {
+          "control_type": "DataItem",
+          "name": "C:\\Users\\Usuario\\Documents\\Arquivos ReceitanetBX\\Escrituração Veja mais Fixar item",
+          "class_name": null,
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "DataItem",
+              "name": "C:\\Users\\Usuario\\Documents\\Arquivos ReceitanetBX\\Escrituração",
+              "class_name": null
+            },
+            {
+              "control_type": "List",
+              "name": "Área de Transferência",
+              "class_name": null
+            },
+            {
+              "control_type": "ListItem",
+              "name": "Área de Transferência Limpar todos, exceto os itens fixados Área de Transferência",
+              "class_name": null
+            },
+            {
+              "control_type": "Pane",
+              "name": "Emoji e mais menu",
+              "class_name": null
+            },
+            {
+              "control_type": "Window",
+              "name": "Experiência de Entrada do Windows",
+              "class_name": "Windows.UI.Core.CoreWindow"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.6371951219512195,
+        "ry": 0.575
+      },
+      "window_point": {
+        "rx": 0.625,
+        "ry": 0.455
+      },
+      "id": 26
+    },
+    {
+      "type": "key",
+      "keys": [
+        "CTRL",
+        "V"
+      ],
+      "id": 27
+    },
+    {
+      "type": "wait",
+      "ms": 1515,
+      "id": 28
+    },
+    {
+      "type": "wait",
+      "ms": 664,
+      "id": 29
+    },
+    {
+      "type": "wait",
+      "ms": 1117,
+      "id": 30
+    },
+    {
+      "type": "type_text",
+      "text": "\\v",
+      "id": 31
+    },
+    {
+      "type": "click_uia",
+      "button": "left",
+      "timeout_ms": 8000,
+      "target": {
+        "window": {
+          "name": "",
+          "class_name": "ApplicationFrameWindow"
+        },
+        "locator": {
+          "control_type": "DataItem",
+          "name": "Recibo (20161967000162) - sped contribuicoes.pdf Veja mais Fixar item",
+          "class_name": null,
+          "search_depth": 40,
+          "ancestors": [
+            {
+              "control_type": "DataItem",
+              "name": "Recibo (20161967000162) - sped contribuicoes.pdf",
+              "class_name": null
+            },
+            {
+              "control_type": "List",
+              "name": "Área de Transferência",
+              "class_name": null
+            },
+            {
+              "control_type": "ListItem",
+              "name": "Área de Transferência Limpar todos, exceto os itens fixados Área de Transferência",
+              "class_name": null
+            },
+            {
+              "control_type": "Pane",
+              "name": "Emoji e mais menu",
+              "class_name": null
+            },
+            {
+              "control_type": "Window",
+              "name": "Experiência de Entrada do Windows",
+              "class_name": "Windows.UI.Core.CoreWindow"
+            }
+          ]
+        }
+      },
+      "point": {
+        "rx": 0.3902439024390244,
+        "ry": 0.4875
+      },
+      "window_point": {
+        "rx": 0.4,
+        "ry": 0.6575
+      },
+      "id": 32
+    },
+    {
+      "type": "key",
+      "keys": [
+        "CTRL",
+        "V"
+      ],
+      "id": 33
+    },
+    {
+      "type": "wait",
+      "ms": 909,
+      "id": 34
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Salvar",
+        "class_name": "SunAwtDialog"
+      },
+      "point": {
+        "rx": 0.9093799682034976,
+        "ry": 0.8715596330275229
+      },
+      "id": 35
+    },
+    {
+      "type": "wait",
+      "ms": 3744,
+      "id": 36
+    },
+    {
+      "type": "key",
+      "keys": [
+        "ESC"
+      ],
+      "id": 37
+    }
+  ]
+}

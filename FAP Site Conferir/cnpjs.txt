@@ -1,0 +1,1 @@
+# Coloque um CNPJ por linha (aceita 8 ou 14 digitos).\n# Opcional: CNPJ;NOME\n12345678;Empresa Exemplo LTDA\n

@@ -1,0 +1,521 @@
+# -*- coding: utf-8 -*-
+"""
+IOB_FULL V2
+- Abre Firefox e faz login na IOB (preenche usuário/senha, você resolve o captcha).
+- Pergunta se deve rodar o "Download EFDs v3" ou só usar os arquivos já existentes.
+- Remove arquivos TXT duplicados na pasta (incluindo os com sufixo (1), (2), etc.).
+- Cria um ZIP com as EFDs (.TXT da pasta base).
+- Navega: menu (bolinhas) > Tributária > Automação SPED > Importar Arquivo SPED > upload > Confirmar.
+"""
+
+import os
+import sys
+import time
+import zipfile
+from datetime import datetime
+import subprocess
+import re  # <<< ADICIONADO: para tratar nomes com (1), (2), etc.
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import (
+    TimeoutException,
+    WebDriverException,
+)
+
+# =============== CONFIGURAÇÕES GERAIS ===============
+
+# Caminho base do script (para .env e download)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+ENV_PATH = os.path.join(BASE_DIR, ".env")
+
+def carregar_env(path):
+    # Carrega .env local se existir (na pasta do script).
+    if not os.path.isfile(path):
+        return
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("#") or "=" not in line:
+                    continue
+                key, value = line.split("=", 1)
+                key = key.strip()
+                value = value.strip()
+                if len(value) >= 2 and value[0] == value[-1] and value[0] in ("'", '"'):
+                    value = value[1:-1]
+                if key and key not in os.environ:
+                    os.environ[key] = value
+    except OSError:
+        pass
+
+carregar_env(ENV_PATH)
+
+# Login da IOB Web (defina IOB_USUARIO/IOB_SENHA no ambiente)
+IOB_USUARIO = os.getenv("IOB_USUARIO", "").strip()
+IOB_SENHA = os.getenv("IOB_SENHA", "").strip()
+
+URL_LOGIN_IOB = "https://sso.iob.com.br/signin/?response_type=code&scope=&client_id=b89f6d4c-78bb-4995-9ac7-aa5459f5cf6d&redirect_uri=https%3A%2F%2Fapp.iob.com.br%2Fcallback%2F%3Fpath%3Dhttps%3A%2F%2Fapp.iob.com.br%2Fapp%2F&isSignUpDisable=false&showFAQ=false&isSocialLoginDisable=false"  # coloque aqui a URL correta da tela de login/sso que você já usa
+
+# Raiz onde ficarão as pastas de SPED (MESMA do Download EFDs v3)
+BASE_SPEDS = r"W:\SPEDs\EFD CONTRIBUIÇÕES"
+
+# Caminho do script de download das EFDs (na mesma pasta deste arquivo)
+SCRIPT_DOWNLOAD_EFDS = os.path.join(BASE_DIR, "Download EFDs v3")  # ajuste se o nome mudar
+if not os.path.isfile(SCRIPT_DOWNLOAD_EFDS):
+    script_py = SCRIPT_DOWNLOAD_EFDS + ".py"
+    if os.path.isfile(script_py):
+        SCRIPT_DOWNLOAD_EFDS = script_py
+
+# =============== FUNÇÃO: MÊS/ANO + PASTA EFDs ===============
+
+def calcular_mes_ano_e_pasta():
+    """
+    Retorna (mes_ano_str, pasta_efds), onde:
+      mes_ano_str  = 'MM/AAAA' do mês anterior ao atual
+      pasta_efds   = W:\SPEDs\EFD CONTRIBUIÇÕES\AAAA\MM.AAAA\AUTOMATIZADO
+    Cria a pasta se não existir.
+    """
+    hoje = datetime.today()
+    mes = hoje.month
+    ano = hoje.year
+
+    if mes == 1:
+        mes_ref = 12
+        ano_ref = ano - 1
+    else:
+        mes_ref = mes - 1
+        ano_ref = ano
+
+    mes_ano_str = f"{mes_ref:02d}/{ano_ref}"
+    pasta_ano = str(ano_ref)
+    pasta_mes_ano = f"{mes_ref:02d}.{ano_ref}"
+
+    pasta_efds = os.path.join(BASE_SPEDS, pasta_ano, pasta_mes_ano, "AUTOMATIZADO")
+    os.makedirs(pasta_efds, exist_ok=True)
+
+    return mes_ano_str, pasta_efds
+
+
+# =============== SELETORES (WEB) ===============
+
+SEL_BTN_MENU_DOTS = (
+    By.CSS_SELECTOR,
+    "svg.iconify--material-symbols-light"
+)
+
+SEL_MENU_ITEM_TRIBUTARIA = (
+    By.CSS_SELECTOR,
+    "li[data-testid='menu-item-tributaria']"
+)
+
+SEL_CARD_AUTOMACAO_SPED = (
+    By.XPATH,
+    "//p[normalize-space(.)='Automação SPED']"
+)
+
+SEL_BTN_IMPORTAR_SPED = (
+    By.XPATH,
+    "//button[contains(., 'Importar Arquivo SPED')]"
+)
+
+SEL_SPAN_UPLOAD = (
+    By.XPATH,
+    "//span[normalize-space(.)='upload']"
+)
+
+SEL_BTN_CONFIRMAR = (
+    By.XPATH,
+    "//button[contains(normalize-space(.), 'Confirmar')]"
+)
+
+
+# =============== LOGIN IOB ===============
+
+def tentar_preencher_login_iob(driver):
+    placeholders = {"SEU_LOGIN_AQUI", "SUA_SENHA_AQUI", "prencher", "preencher"}
+    if not IOB_USUARIO or IOB_USUARIO in placeholders:
+        print("[INFO] IOB_USUARIO não configurado. Defina IOB_USUARIO no ambiente ou faça login manual.")
+        return
+    if not IOB_SENHA or IOB_SENHA in placeholders:
+        print("[INFO] IOB_SENHA não configurada. Defina IOB_SENHA no ambiente ou faça login manual.")
+        return
+
+    wait = WebDriverWait(driver, 30)
+
+    candidatos_usuario = [
+        (By.ID, "username"),
+        (By.NAME, "username"),
+        (By.CSS_SELECTOR, "input#username"),
+        (By.CSS_SELECTOR, "input[name='username']"),
+        (By.CSS_SELECTOR, "input[type='email']"),
+        (By.CSS_SELECTOR, "input[type='text']"),
+    ]
+
+    candidatos_senha = [
+        (By.ID, "password"),
+        (By.NAME, "password"),
+        (By.CSS_SELECTOR, "input#password"),
+        (By.CSS_SELECTOR, "input[name='password']"),
+        (By.CSS_SELECTOR, "input[type='password']"),
+    ]
+
+    campo_usuario = None
+    campo_senha = None
+
+    for by_u, sel_u in candidatos_usuario:
+        try:
+            campo_usuario = wait.until(
+                EC.presence_of_element_located((by_u, sel_u))
+            )
+            if campo_usuario:
+                break
+        except TimeoutException:
+            continue
+
+    for by_s, sel_s in candidatos_senha:
+        try:
+            campo_senha = wait.until(
+                EC.presence_of_element_located((by_s, sel_s))
+            )
+            if campo_senha:
+                break
+        except TimeoutException:
+            continue
+
+    if not campo_usuario or not campo_senha:
+        print("[AVISO] Não foi possível localizar automaticamente os campos de login.")
+        print("        Faça o login manualmente na tela do navegador.")
+        return
+
+    try:
+        campo_usuario.clear()
+        campo_usuario.send_keys(IOB_USUARIO)
+
+        campo_senha.clear()
+        campo_senha.send_keys(IOB_SENHA)
+
+        print("[OK] Campos de usuário e senha preenchidos. Resolva o captcha (se houver) e clique em Entrar.")
+    except Exception as e:
+        print(f"[ERRO] Falha ao preencher login automaticamente: {e}")
+        print("       Faça o login manualmente na tela do navegador.")
+
+
+def abrir_firefox_e_aguardar_login():
+    print("[INFO] Abrindo Firefox...")
+    opts = FirefoxOptions()
+
+    try:
+        driver = webdriver.Firefox(options=opts)
+    except WebDriverException as e:
+        print("[ERRO] Não foi possível iniciar o Firefox. Verifique o geckodriver/Firefox instalados:")
+        print(e)
+        sys.exit(1)
+
+    driver.maximize_window()
+    driver.get(URL_LOGIN_IOB)
+
+    print("[INFO] Firefox aberto na tela de login da IOB.")
+    tentar_preencher_login_iob(driver)
+
+    input("\nQuando estiver logado e a tela principal/painel estiver carregada, pressione ENTER aqui no console para continuar... ")
+    time.sleep(3)
+
+    return driver
+
+
+# =============== DOWNLOAD EFDs ===============
+
+def executar_download_efds():
+    print("\n[INFO] Executando script de download das EFDs...")
+    print("       Caminho:", SCRIPT_DOWNLOAD_EFDS)
+
+    if not os.path.isfile(SCRIPT_DOWNLOAD_EFDS):
+        raise RuntimeError(f"[ERRO] Script de download EFDs não encontrado: {SCRIPT_DOWNLOAD_EFDS}")
+
+    cmd = [sys.executable, SCRIPT_DOWNLOAD_EFDS]
+    result = subprocess.run(cmd)
+
+    if result.returncode != 0:
+        raise RuntimeError(f"[ERRO] Script de download EFDs terminou com código != 0 (ret={result.returncode})")
+
+    print("[OK] Script de download EFDs finalizado.")
+
+
+# =============== LIMPAR ARQUIVOS TXT DUPLICADOS ===============
+
+def limpar_arquivos_duplicados(dir_origem: str):
+    """
+    Remove arquivos .TXT duplicados na pasta base, incluindo os que têm sufixo
+    ' (1)', ' (2)', etc., antes da extensão.
+
+    Exemplo de grupo tratado como duplicado:
+      - EMPRESA123.TXT
+      - EMPRESA123 (1).TXT
+      - EMPRESA123 (2).TXT
+
+    Mantém o arquivo mais RECENTE (maior mtime) e remove os demais.
+    """
+    print("\n[INFO] Verificando arquivos TXT duplicados para limpeza...")
+    if not os.path.isdir(dir_origem):
+        raise RuntimeError(f"[ERRO] Pasta de EFDs não encontrada: {dir_origem}")
+
+    registros = []
+    for fname in os.listdir(dir_origem):
+        fpath = os.path.join(dir_origem, fname)
+        if not os.path.isfile(fpath):
+            continue
+        if not fname.lower().endswith(".txt"):
+            continue
+
+        base, ext = os.path.splitext(fname)
+        # Remove sufixo " (n)" no final do nome, se existir
+        base_normalizada = re.sub(r" \(\d+\)$", "", base).lower()
+
+        try:
+            mtime = os.path.getmtime(fpath)
+        except OSError:
+            mtime = 0
+
+        registros.append({
+            "fname": fname,
+            "path": fpath,
+            "base_norm": base_normalizada,
+            "mtime": mtime,
+        })
+
+    if not registros:
+        print("[INFO] Nenhum arquivo .TXT encontrado na pasta. Nada para limpar.")
+        return
+
+    grupos = {}
+    for reg in registros:
+        grupos.setdefault(reg["base_norm"], []).append(reg)
+
+    total_deletados = 0
+
+    for base_norm, lista in grupos.items():
+        if len(lista) <= 1:
+            continue  # não há duplicados neste grupo
+
+        # Ordena por mtime desc (mais recente primeiro)
+        lista_ordenada = sorted(lista, key=lambda x: x["mtime"], reverse=True)
+        manter = lista_ordenada[0]
+        duplicados = lista_ordenada[1:]
+
+        print(f"[INFO] Base '{base_norm}': mantendo '{manter['fname']}' e removendo {len(duplicados)} duplicado(s).")
+
+        for item in duplicados:
+            try:
+                os.remove(item["path"])
+                print(f"       - Deletado: {item['fname']}")
+                total_deletados += 1
+            except Exception as e:
+                print(f"       [AVISO] Não foi possível deletar {item['fname']}: {e}")
+
+    if total_deletados == 0:
+        print("[INFO] Nenhum duplicado encontrado para deletar.")
+    else:
+        print(f"[OK] {total_deletados} arquivo(s) duplicado(s) removidos.")
+
+
+# =============== ZIPAR ARQUIVOS ===============
+
+def criar_zip_com_efds(dir_origem: str) -> str:
+    """
+    Cria um ZIP com os arquivos .TXT da PASTA BASE dir_origem (apenas).
+    Ignora subpastas e outros tipos de arquivo.
+    """
+    if not os.path.isdir(dir_origem):
+        raise RuntimeError(f"[ERRO] Pasta de EFDs não encontrada: {dir_origem}")
+
+    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+    zip_path = os.path.join(dir_origem, f"EFDs_{ts}.zip")
+
+    print("\n[INFO] Criando ZIP com as EFDs (apenas .TXT da pasta base)...")
+    print("       Origem:", dir_origem)
+    print("       ZIP   :", zip_path)
+
+    arquivos_adicionados = 0
+
+    with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
+        for fname in os.listdir(dir_origem):
+            fpath = os.path.join(dir_origem, fname)
+            if not os.path.isfile(fpath):
+                continue
+            if not fname.lower().endswith(".txt"):
+                continue
+            zf.write(fpath, fname)
+            arquivos_adicionados += 1
+
+    if arquivos_adicionados == 0:
+        print("[AVISO] Nenhum arquivo .TXT encontrado na pasta base para adicionar ao ZIP.")
+    else:
+        print(f"[OK] {arquivos_adicionados} arquivo(s) .TXT adicionados ao ZIP.")
+
+    return zip_path
+
+
+# =============== NAVEGAÇÃO NA IOB ===============
+
+def clicar_menu_bolinhas(driver, wait):
+    try:
+        btn_menu = wait.until(EC.element_to_be_clickable(SEL_BTN_MENU_DOTS))
+        btn_menu.click()
+        print("[OK] Menu (bolinhas) clicado pelo seletor principal.")
+        return
+    except TimeoutException:
+        print("[AVISO] Seletor principal do menu não encontrado. Tentando fallback...")
+
+    try:
+        alt_sel = (By.XPATH, "//svg[contains(@class, 'iconify--material-symbols-light')]")
+        btn_menu = wait.until(EC.element_to_be_clickable(alt_sel))
+        btn_menu.click()
+        print("[OK] Menu (bolinhas) clicado pelo seletor alternativo (XPATH).")
+        return
+    except TimeoutException:
+        print("[AVISO] Seletor alternativo (XPATH) também não funcionou. Tentando inspeção manual.")
+
+    try:
+        icons = driver.find_elements(By.CSS_SELECTOR, "svg.iconify--material-symbols-light")
+        print(f"[DEBUG] Encontrados {len(icons)} SVG(s) com class 'iconify--material-symbols-light'.")
+        for idx, el in enumerate(icons):
+            try:
+                if el.is_displayed():
+                    el.click()
+                    print(f"[OK] Menu (bolinhas) clicado manualmente no SVG índice {idx}.")
+                    return
+            except Exception:
+                continue
+    except Exception as e:
+        print(f"[DEBUG] Erro ao listar ícones de menu: {e}")
+
+    raise RuntimeError("[ERRO] Não foi possível localizar o botão do menu (ícone de bolinhas).")
+
+
+def navegar_para_automacao_sped(driver):
+    print("\n[INFO] Navegando para Tributária > Automação SPED...")
+    wait = WebDriverWait(driver, 30)
+
+    clicar_menu_bolinhas(driver, wait)
+    time.sleep(1)
+
+    try:
+        item_tributaria = wait.until(EC.element_to_be_clickable(SEL_MENU_ITEM_TRIBUTARIA))
+        item_tributaria.click()
+        time.sleep(2)
+        print("[OK] Item 'Tributária' clicado.")
+    except TimeoutException:
+        raise RuntimeError("[ERRO] Não foi possível localizar o item de menu 'Tributária'.")
+
+    try:
+        card_aut_sped = wait.until(EC.element_to_be_clickable(SEL_CARD_AUTOMACAO_SPED))
+        card_aut_sped.click()
+        time.sleep(5)
+        print("[OK] Card 'Automação SPED' clicado.")
+    except TimeoutException:
+        raise RuntimeError("[ERRO] Não foi possível localizar 'Automação SPED'.")
+
+
+def acessar_painel_e_importar_sped(driver: webdriver.Firefox, zip_path: str):
+    wait = WebDriverWait(driver, 60)
+
+    navegar_para_automacao_sped(driver)
+
+    print("\n[INFO] Clicando em 'Importar Arquivo SPED'...")
+    try:
+        btn_import = wait.until(EC.element_to_be_clickable(SEL_BTN_IMPORTAR_SPED))
+        btn_import.click()
+        time.sleep(3)
+        print("[OK] Botão 'Importar Arquivo SPED' clicado.")
+    except TimeoutException:
+        raise RuntimeError("[ERRO] Não foi possível localizar o botão 'Importar Arquivo SPED'.")
+
+    print("[INFO] Clicando em 'upload'...")
+    try:
+        span_upload = wait.until(EC.element_to_be_clickable(SEL_SPAN_UPLOAD))
+        span_upload.click()
+        time.sleep(4)  # aguarda abrir seletor de arquivo
+        print("[OK] Texto 'upload' clicado.")
+    except TimeoutException:
+        raise RuntimeError("[ERRO] Não foi possível localizar o texto 'upload'.")
+
+    print(f"[INFO] Enviando arquivo ZIP: {zip_path}")
+    try:
+        input_file = wait.until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, "input[type='file']"))
+        )
+        input_file.send_keys(zip_path)
+        time.sleep(5)
+        print("[OK] Caminho do ZIP enviado ao input de arquivo.")
+    except TimeoutException:
+        raise RuntimeError("[ERRO] Não foi possível localizar o campo de upload (input[type='file']).")
+
+    print("[INFO] Clicando em 'Confirmar' para concluir o upload...")
+    try:
+        btn_conf = wait.until(EC.element_to_be_clickable(SEL_BTN_CONFIRMAR))
+        btn_conf.click()
+        time.sleep(5)
+        print("[OK] Botão 'Confirmar' clicado. Upload do SPED concluído (veja o status na tela da IOB).")
+    except TimeoutException:
+        raise RuntimeError("[ERRO] Não foi possível localizar o botão 'Confirmar'.")
+
+
+# =============== MAIN ===============
+
+def main():
+    print("====================================================")
+    print("       ROBÔ IOB - DOWNLOAD EFDs + UPLOAD SPED       ")
+    print("====================================================\n")
+
+    driver = None
+
+    try:
+        driver = abrir_firefox_e_aguardar_login()
+
+        mes_ano, pasta_efds = calcular_mes_ano_e_pasta()
+        print(f"\n[MÊS/ANO] {mes_ano}")
+        print(f"[PASTA EFDs] {pasta_efds}")
+
+        print("\nEscolha o fluxo:")
+        print("  1 - Executar 'Download EFDs v3' ANTES e depois zipar/enviar.")
+        print("  2 - NÃO executar 'Download EFDs v3'; só zipar/enviar o que já existe na pasta.")
+        opcao = input("\nDigite 1 ou 2 (padrão = 1): ").strip()
+
+        executar_download = (opcao != "2")
+
+        if executar_download:
+            executar_download_efds()
+        else:
+            print("\n[INFO] Pulando a etapa de download. Usando apenas os arquivos já existentes em:")
+            print("       ", pasta_efds)
+
+        # <<< NOVO: limpar duplicados ANTES de compactar >>>
+        limpar_arquivos_duplicados(pasta_efds)
+
+        zip_path = criar_zip_com_efds(pasta_efds)
+
+        acessar_painel_e_importar_sped(driver, zip_path)
+
+        print("\n[FINALIZADO] Processo completo (ZIP gerado e enviado para Automação SPED).")
+        print("             Acompanhe o processamento diretamente na tela da IOB.")
+
+    except Exception as e:
+        print("\n[ERRO FATAL] Ocorreu um erro durante a execução:")
+        print(e)
+        print("\nVerifique as mensagens acima (principalmente de seletores / elementos não encontrados).")
+
+    finally:
+        if driver is not None:
+            try:
+                driver.quit()
+            except Exception:
+                pass
+
+
+if __name__ == "__main__":
+    main()

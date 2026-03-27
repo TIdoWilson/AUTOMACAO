@@ -1,0 +1,423 @@
+{
+  "meta": {
+    "created_at_ms": 1770035349685,
+    "version": 7,
+    "dpi_mode": "PM"
+  },
+  "steps": [
+    {
+      "type": "wait",
+      "ms": 1569,
+      "id": 1
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Receitanet BX",
+        "class_name": "SunAwtFrame"
+      },
+      "point": {
+        "rx": 0.7236328125,
+        "ry": 0.49064171122994654
+      },
+      "id": 2
+    },
+    {
+      "type": "wait",
+      "ms": 1897,
+      "id": 3
+    },
+    {
+      "type": "key",
+      "keys": [
+        "ALT",
+        "F"
+      ],
+      "id": 4
+    },
+    {
+      "type": "wait",
+      "ms": 616,
+      "id": 5
+    },
+    {
+      "type": "wait",
+      "ms": 993,
+      "id": 6
+    },
+    {
+      "type": "type_text",
+      "text": "o",
+      "id": 7
+    },
+    {
+      "type": "key",
+      "keys": [
+        "CTRL",
+        "A"
+      ],
+      "id": 8
+    },
+    {
+      "type": "wait",
+      "ms": 1147,
+      "id": 9
+    },
+    {
+      "type": "key",
+      "keys": [
+        "CTRL",
+        "V"
+      ],
+      "id": 10
+    },
+    {
+      "type": "wait",
+      "ms": 1304,
+      "id": 11
+    },
+    {
+      "type": "key",
+      "keys": [
+        "ALT",
+        "S"
+      ],
+      "id": 12
+    },
+    {
+      "type": "wait",
+      "ms": 1304,
+      "id": 13
+    },
+    {
+      "type": "key",
+      "keys": [
+        "SPACE"
+      ],
+      "id": 14
+    },
+    {
+      "type": "wait",
+      "ms": 1672,
+      "id": 15
+    },
+    {
+      "type": "key",
+      "keys": [
+        "CTRL",
+        "T"
+      ],
+      "id": 16
+    },
+    {
+      "type": "wait",
+      "ms": 1813,
+      "id": 17
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Receitanet BX",
+        "class_name": "SunAwtDialog"
+      },
+      "point": {
+        "rx": 0.5162337662337663,
+        "ry": 0.8461538461538461
+      },
+      "id": 18
+    },
+    {
+      "type": "wait",
+      "ms": 260,
+      "id": 19
+    },
+    {
+      "type": "key",
+      "keys": [
+        "CTRL",
+        "A"
+      ],
+      "id": 20
+    },
+    {
+      "type": "wait",
+      "ms": 3231,
+      "id": 21
+    },
+    {
+      "type": "wait",
+      "ms": 281,
+      "id": 22
+    },
+    {
+      "type": "wait",
+      "ms": 265,
+      "id": 23
+    },
+    {
+      "type": "wait",
+      "ms": 263,
+      "id": 24
+    },
+    {
+      "type": "wait",
+      "ms": 2416,
+      "id": 25
+    },
+    {
+      "type": "type_text",
+      "text": "20161967000162",
+      "id": 26
+    },
+    {
+      "type": "key",
+      "keys": [
+        "ALT",
+        "E"
+      ],
+      "id": 27
+    },
+    {
+      "type": "wait",
+      "ms": 2732,
+      "id": 28
+    },
+    {
+      "type": "key",
+      "keys": [
+        "CTRL",
+        "E"
+      ],
+      "id": 29
+    },
+    {
+      "type": "wait",
+      "ms": 1943,
+      "id": 30
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Receitanet BX",
+        "class_name": "SunAwtFrame"
+      },
+      "point": {
+        "rx": 0.4970703125,
+        "ry": 0.2807486631016043
+      },
+      "id": 31
+    },
+    {
+      "type": "wait",
+      "ms": 1070,
+      "id": 32
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Receitanet BX",
+        "class_name": "SunAwtFrame"
+      },
+      "point": {
+        "rx": 0.470703125,
+        "ry": 0.31016042780748665
+      },
+      "id": 33
+    },
+    {
+      "type": "wait",
+      "ms": 526,
+      "id": 34
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Receitanet BX",
+        "class_name": "SunAwtFrame"
+      },
+      "point": {
+        "rx": 0.4501953125,
+        "ry": 0.31283422459893045
+      },
+      "id": 35
+    },
+    {
+      "type": "wait",
+      "ms": 712,
+      "id": 36
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Receitanet BX",
+        "class_name": "SunAwtFrame"
+      },
+      "point": {
+        "rx": 0.4326171875,
+        "ry": 0.3409090909090909
+      },
+      "id": 37
+    },
+    {
+      "type": "wait",
+      "ms": 407,
+      "id": 38
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Receitanet BX",
+        "class_name": "SunAwtFrame"
+      },
+      "point": {
+        "rx": 0.4423828125,
+        "ry": 0.3502673796791444
+      },
+      "id": 39
+    },
+    {
+      "type": "wait",
+      "ms": 1258,
+      "id": 40
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Receitanet BX",
+        "class_name": "SunAwtFrame"
+      },
+      "point": {
+        "rx": 0.4453125,
+        "ry": 0.41310160427807485
+      },
+      "id": 41
+    },
+    {
+      "type": "wait",
+      "ms": 979,
+      "id": 42
+    },
+    {
+      "type": "click_win",
+      "button": "left",
+      "timeout_ms": 8000,
+      "window": {
+        "name": "Receitanet BX",
+        "class_name": "SunAwtFrame"
+      },
+      "point": {
+        "rx": 0.380859375,
+        "ry": 0.4090909090909091
+      },
+      "id": 43
+    },
+    {
+      "type": "wait",
+      "ms": 1272,
+      "id": 44
+    },
+    {
+      "type": "wait",
+      "ms": 255,
+      "id": 45
+    },
+    {
+      "type": "wait",
+      "ms": 632,
+      "id": 46
+    },
+    {
+      "type": "type_text",
+      "text": "01122025",
+      "id": 47
+    },
+    {
+      "type": "key",
+      "keys": [
+        "TAB"
+      ],
+      "id": 48
+    },
+    {
+      "type": "wait",
+      "ms": 556,
+      "id": 49
+    },
+    {
+      "type": "wait",
+      "ms": 320,
+      "id": 50
+    },
+    {
+      "type": "wait",
+      "ms": 632,
+      "id": 51
+    },
+    {
+      "type": "type_text",
+      "text": "31122025",
+      "id": 52
+    },
+    {
+      "type": "key",
+      "keys": [
+        "TAB"
+      ],
+      "id": 53
+    },
+    {
+      "type": "wait",
+      "ms": 5589,
+      "id": 54
+    },
+    {
+      "type": "key",
+      "keys": [
+        "CTRL",
+        "L"
+      ],
+      "id": 55
+    },
+    {
+      "type": "wait",
+      "ms": 10216,
+      "id": 56
+    },
+    {
+      "type": "key",
+      "keys": [
+        "SPACE"
+      ],
+      "id": 57
+    },
+    {
+      "type": "wait",
+      "ms": 4456,
+      "id": 58
+    },
+    {
+      "type": "key",
+      "keys": [
+        "CTRL",
+        "T"
+      ],
+      "id": 59
+    }
+  ]
+}

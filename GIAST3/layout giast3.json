@@ -1,0 +1,110 @@
+{
+  "GIA_ST": {
+    "registro_principal_A0": {
+      "id_registro": {"valor": "A0", "tipo": "A", "tamanho": 2},
+      "fixo": {"valor": "GST", "tipo": "A", "tamanho": 3},
+      "versao": {"valor": "03", "tipo": "A", "tamanho": 2},
+      "periodo_referencia": {"tipo": "N", "tamanho": 6, "formato": "MMAAAA"},
+      "inscricao_estadual": {"tipo": "A", "tamanho": 14},
+      "gia_sem_movimento": {"tipo": "S/N", "tamanho": 1},
+      "substituicao_gia": {"tipo": "S/N", "tamanho": 1},
+
+      "vencimentos_icms_st": [
+        {"data": {"tipo": "D", "formato": "AAAAMMDD"}, "valor": {"tipo": "N", "tamanho": 15}},
+        {"data": {"tipo": "D", "formato": "AAAAMMDD"}, "valor": {"tipo": "N", "tamanho": 15}},
+        {"data": {"tipo": "D", "formato": "AAAAMMDD"}, "valor": {"tipo": "N", "tamanho": 15}},
+        {"data": {"tipo": "D", "formato": "AAAAMMDD"}, "valor": {"tipo": "N", "tamanho": 15}},
+        {"data": {"tipo": "D", "formato": "AAAAMMDD"}, "valor": {"tipo": "N", "tamanho": 15}},
+        {"data": {"tipo": "D", "formato": "AAAAMMDD"}, "valor": {"tipo": "N", "tamanho": 15}}
+      ],
+
+      "uf_favorecida": {"tipo": "A", "tamanho": 2},
+
+      "valores": {
+        "valor_produtos": {"tipo": "N", "tamanho": 15},
+        "valor_ipi": {"tipo": "N", "tamanho": 15},
+        "despesas_acessorias": {"tipo": "N", "tamanho": 15},
+        "base_icms_proprio": {"tipo": "N", "tamanho": 15},
+        "icms_proprio": {"tipo": "N", "tamanho": 15},
+        "base_icms_st": {"tipo": "N", "tamanho": 15},
+        "icms_retido_st": {"tipo": "N", "tamanho": 15},
+        "icms_devolucoes": {"tipo": "N", "tamanho": 15},
+        "icms_ressarcimentos": {"tipo": "N", "tamanho": 15},
+        "credito_periodo_anterior": {"tipo": "N", "tamanho": 15},
+        "pagamentos_antecipados": {"tipo": "N", "tamanho": 15},
+        "icms_st_devido": {"tipo": "N", "tamanho": 15},
+        "repasse_refinarias": {"tipo": "N", "tamanho": 15},
+        "credito_periodo_seguinte": {"tipo": "N", "tamanho": 15},
+        "total_icms_st_recolher": {"tipo": "N", "tamanho": 15}
+      },
+
+      "declarante": {
+        "cnpj": {"tipo": "N", "tamanho": 14},
+        "nome": {"tipo": "A", "tamanho": 46},
+        "cpf": {"tipo": "N", "tamanho": 11},
+        "cargo": {"tipo": "A", "tamanho": 30},
+        "telefone": {
+          "ddd": {"tipo": "N", "tamanho": 4},
+          "numero": {"tipo": "N", "tamanho": 9}
+        },
+        "fax": {
+          "ddd": {"tipo": "N", "tamanho": 4},
+          "numero": {"tipo": "N", "tamanho": 9}
+        },
+        "email": {"tipo": "A", "tamanho": 80},
+        "local": {"tipo": "A", "tamanho": 30},
+        "data": {"tipo": "D", "formato": "AAAAMMDD"}
+      },
+
+      "informacoes_complementares": [
+        {"linha": 1, "tamanho": 65},
+        {"linha": 2, "tamanho": 60},
+        {"linha": 3, "tamanho": 60}
+      ],
+
+      "flags": {
+        "distribuidor_combustivel_trr": {"tipo": "S/N"},
+        "transferencias_uf_favorecida": {"tipo": "S/N"}
+      },
+
+      "contadores_anexos": {
+        "total_anexo_I": {"tipo": "N", "tamanho": 6},
+        "total_anexo_II": {"tipo": "N", "tamanho": 6},
+        "total_anexo_III": {"tipo": "N", "tamanho": 6}
+      }
+    },
+
+    "registro_anexo_I_A1": {
+      "id_registro": "A1",
+      "numero_nota_fiscal": {"tipo": "N", "tamanho": 13},
+      "serie_nota_fiscal": {"tipo": "A", "tamanho": 3},
+      "inscricao_estadual": {"tipo": "A", "tamanho": 14},
+      "data_emissao": {"tipo": "D", "formato": "AAAAMMDD"},
+      "valor_icms_st_devolucao": {"tipo": "N", "tamanho": 15}
+    },
+
+    "registro_anexo_II_A2": {
+      "id_registro": "A2",
+      "numero_nota_fiscal": {"tipo": "N", "tamanho": 13},
+      "serie_nota_fiscal": {"tipo": "A", "tamanho": 3},
+      "inscricao_estadual": {"tipo": "A", "tamanho": 14},
+      "data_emissao": {"tipo": "D", "formato": "AAAAMMDD"},
+      "valor_icms_st_ressarcimento": {"tipo": "N", "tamanho": 15}
+    },
+
+    "registro_anexo_III_A3": {
+      "id_registro": "A3",
+      "inscricao_estadual": {"tipo": "A", "tamanho": 14},
+      "base_calculo": {"tipo": "N", "tamanho": 15},
+      "valor_icms_destacado": {"tipo": "N", "tamanho": 15}
+    },
+
+    "registro_anexo_EC_87_15_A4": {
+      "id_registro": "A4",
+      "data_vencimento_icms_destino": {"tipo": "D", "formato": "AAAAMMDD"},
+      "valor_icms": {"tipo": "N", "tamanho": 15},
+      "data_vencimento_fcp": {"tipo": "D", "formato": "AAAAMMDD"},
+      "valor_icms_fcp": {"tipo": "N", "tamanho": 15}
+    }
+  }
+}

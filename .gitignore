@@ -1,0 +1,109 @@
+*.pyc
+*.db
+*.csv
+*.xlsx
+CONTA_TRANSITORIA/_assistido.log
+python backup.zip
+prints/SEM PROCURACAO/1a LINHA DISTRIBUIDORA DE BATERIAS LTDA - 36.381.557-0001-67.png
+prints/SEM PROCURACAO/A. GALUPO LTDA - 07.235.870-0001-99.png
+prints/SEM PROCURACAO/ACOS BELTRAO LTDA - 08.804.518-0001-90.png
+prints/SEM PROCURACAO/BERNADINA PITOL ZARDO LTDA - 81.552.911-0002-04.png
+prints/SEM PROCURACAO/BOM TRAGO COMERCIO DE BEBIDAS LTDA - 55.804.764-0001-21.png
+prints/SEM PROCURACAO/DELRODO EMPREENDIMENTOS IMOBILIARIOS LTDA - 75.930.891-0001-84.png
+prints/SEM PROCURACAO/ESCRITORIO DE ADVOCACIA SANTOS & LONGO - 08.886.811-0001-43.png
+prints/SEM PROCURACAO/H2 HOLDING DE INSTITUICOES NAO FINANCEIRAS LTDA - 39.919.389-0001-09.png
+prints/SEM PROCURACAO/INSTITUTO DE MEDICINA DO SUDOESTE DO PARANA LTDA - 01.504.862-0001-14.png
+prints/SEM PROCURACAO/MATOS LOPES ADMINISTRADORA DE BENS LTDA - 34.168.455-0001-32.png
+prints/SEM PROCURACAO/PATRICIA BERCKEMBROCK WAGNER 04780439965 - 28.144.314-0001-87.png
+prints/SEM PROCURACAO/PITOKA CONFECCOES LTDA ME - 06.043.982-0001-85.png
+prints/SEM PROCURACAO/WERBRAN DISTRIBUIDORA DE MEDICAMENTOS LTDA - 04.372.020-0001-44.png
+prints/SEM PROCURACAO/WILSON M. LOPES CONTABILIDADE LTDA - 07.053.914-0001-60.png
+PORTAL DO EMPREENDEDOR/TESTE - Copia (2).py
+PORTAL DO EMPREENDEDOR/TESTE - Copia.py
+PORTAL DO EMPREENDEDOR/TESTE.py
+POWER BI/BERNA/TESTE.py
+PORTAL DO EMPREENDEDOR/TESTE - Copia (2).py
+PORTAL DO EMPREENDEDOR/TESTE - Copia.py
+PORTAL DO EMPREENDEDOR/TESTE.py
+*.png
+/downloads
+/downloads_canceladas_substituidas
+*.pdf
+ALEATORIOS/extratos_consolidados_log.txt
+@AutomationLog.txt
+dre/DRE_EMPRESA_3_advanced_dashboard.html
+dre/DRE_EMPRESA_4_advanced_dashboard.html
+dre/DRE_EXEMPLO_2_advanced_dashboard.html
+dre/DRE_EXEMPLO_advanced_dashboard.html
+dre/requirements.txt
+IMPORTADOR_NFSE/relatorio_janelas_fiscal.txt
+.launcher_logs/-m/20250903_171852.log
+/.launcher_logs
+/RECIBOS AUTOMACAO SPED/chrome_profile_9222
+/matheusteste/chrome_profile_9222
+/.venv312
+/chrome_profile_pw
+/matheusteste
+/RECIBOS AUTOMACAO SPED/chrome_user_data_1761562894
+/BUSCADOR DE NOTAS/perfil_firefox_cert_esnfs
+/fazenda_nfe_0.1
+/ConsultaNotasFsist
+BUSCADOR DE NOTAS/Busca_Notas.py
+BUSCADOR DE NOTAS/Busca_Notas_2.0.py
+BUSCADOR DE NOTAS/Busca_Notas_3.0.py
+/BAIXAR MTE/downloads
+BAIXAR MTE/Baixador-Arquivador v1
+BAIXAR MTE/Baixador-Arquivador v2
+BAIXAR MTE/Baixador-Arquivador v3
+BAIXAR MTE/Baixador-Arquivador v4
+BAIXAR MTE/Baixador-Arquivador v5
+/PROJETO FSIST/NFE
+/.venv
+/auto_ata/.venv
+/auto_ata/build
+/ECAC leitor/_debug_ecac
+/Gerador Senhas Site (Leonardo)
+/auto_ata
+auto_ata.zip
+ECAC leitor/abrir chrome.bat
+/auto_ata (vers atualizada no site)/.venv/Lib/site-packages/docx
+/auto_ata (vers atualizada no site)/.venv/Lib/site-packages
+/auto_ata (vers atualizada no site)/.venv
+/auto_ata (vers atualizada no site)
+/Baixador notas prefeitura bloco + separador imbutido
+/DMED Gerar-Organizar-Formatar/arquivos base
+/FAP Site Conferir/venv_fap
+/IOB Tesseract teste/Tesseract V2/Lib
+/PROJETO RH LEONARDO/4 - 1ª PARTE/.venv
+/ReceitaNET versão servidor/saida/debug
+/Venvs Exclusivos Servidor/iob_recorder_teste/Lib
+/Venvs Exclusivos Servidor/dmed_gerar_organizar_formatar/Lib
+/Venv_Leonardo/Venv_leov1/Lib
+/Recorder V2/Chrome_Profiles/79792/optimization_guide_model_store
+/Recorder V2/Chrome_Profiles/79792/GrShaderCache
+/Recorder V2/Chrome_Profiles/79792/Default/WebStorage/1/IndexedDB
+/Recorder V2/Chrome_Profiles/79792
+/Venvs Exclusivos Servidor/iob_recorder_teste/Scripts
+/Venvs Exclusivos Servidor/dmed_gerar_organizar_formatar/Scripts
+/Venv_Leonardo/Venv_leov1/Scripts
+/Venv_Leonardo
+/RECEITANET/speds 122025 e 012026 cpf cnpj
+/RECEITANET/speds 122025 e 012026 cnpj
+/RECEITANET/saida
+/ReceitaNET versão servidor/speds 122025 e 012026 cpf cnpj
+/ReceitaNET versão servidor/speds 122025 e 012026 cnpj
+/ReceitaNET versão servidor/speds 122025 e 012026 cnpj
+/ReceitaNET versão servidor/saida
+/IOB Tesseract teste/Tesseract V2/Scripts
+/IOB Tesseract teste/Excels Limpos
+tareffa_log.txt
+/Venvs Exclusivos Servidor
+/IOB Tesseract teste/Tesseract V2/Include
+/Combinar SPEDs Matriz + Filiais/Combinados
+/FAP Site Conferir/downloads
+FiscalAutomationSuite/.env
+IOB EFDs/.env
+Integra Contabil/arquivos/api_teste/guias_parcelamento/guias_parcelamento.zip
+IOB EFDs/IOB_EFD_AUTOMACAO.log
+RH/relatorios_pdf/relatorios_pdf.rar
+RH/Senha Tareffa.txt

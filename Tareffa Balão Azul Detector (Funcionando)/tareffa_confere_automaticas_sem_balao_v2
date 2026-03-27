@@ -1,0 +1,938 @@
+import os
+import re
+import unicodedata
+from collections import defaultdict
+from datetime import datetime, timedelta
+
+import pandas as pd
+from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
+
+# =====================================================
+# CONFIGURAÇÕES GERAIS
+# =====================================================
+
+# Credenciais Tareffa (usuário de robôs)
+TAREFFA_EMAIL = "robos@wilsonlopes.com.br"   # e-mail usado para login no Tareffa
+TAREFFA_SENHA = "Robos@123"                  # senha do usuário de robôs
+
+# URL base do Tareffa (ajuste se precisar)
+TAREFFA_URL_BASE = "https://app.tareffa.com.br"
+
+# Caminho do CSV com base de serviços
+CAMINHO_CSV_SERVICOS = r"W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Tareffa Balão Azul Detector\Exportação de Serviços.csv"
+
+# Pasta de saída para relatórios
+PASTA_SAIDA = r"W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Tareffa Balão Azul Detector"
+
+# Nome do arquivo de inconsistências enxuto
+NOME_ARQ_INCONSISTENCIAS = "tareffa_inconsistencias_auto_sem_balao_v9.3.xlsx"
+
+# Nome do arquivo de controle dos dias
+NOME_ARQ_DIAS_PROCESSADOS = "Dias conferidos com data e hora.xlsx"
+
+# Ícones
+ICONE_BOTAO_BALOES = "ph.phosphor-icon.ph-balloon"
+ICONE_BOTAO_FILTRAR = "ph.phosphor-icon.ph-funnel"
+ICONE_VERDE_CONFIRMACAO = "ph.phosphor-icon.ph-check-circle"
+
+# =====================================================
+# FUNÇÕES AUXILIARES
+# =====================================================
+
+
+def remover_acentos(texto):
+    if not isinstance(texto, str):
+        return texto
+    nfkd = unicodedata.normalize("NFKD", texto)
+    return "".join(c for c in nfkd if not unicodedata.combining(c))
+
+
+def normalizar_texto(texto):
+    if not isinstance(texto, str):
+        return ""
+    texto = remover_acentos(texto)
+    texto = texto.upper()
+    texto = re.sub(r"\s+", " ", texto)
+    return texto.strip()
+
+
+def carregar_base_servicos(caminho_csv):
+    """
+    Carrega o CSV de serviços e cria um dicionário:
+      base_servicos[(depto_normalizado, servico_normalizado)] = {
+         'Departamento': ...,
+         'Servico': ...,
+      }
+
+    Faz detecção automática das colunas (Departamento / Serviço),
+    mesmo que venham com acento ou nomes maiores.
+    """
+    # tenta UTF-8, se der erro cai pra Latin-1 (Windows)
+    try:
+        df = pd.read_csv(caminho_csv, sep=";", dtype=str, encoding="utf-8").fillna("")
+    except UnicodeDecodeError:
+        df = pd.read_csv(caminho_csv, sep=";", dtype=str, encoding="latin1").fillna("")
+
+    if df.empty:
+        escrever_log("CSV de serviços está vazio.")
+        return {}
+
+    # normaliza nomes de coluna para localizar Departamento / Serviço
+    colunas_norm = {}
+    for col in df.columns:
+        # remove acentos, joga pra maiúsculo, tira espaços e _
+        norm = remover_acentos(str(col)).upper()
+        norm = norm.replace(" ", "").replace("_", "")
+        colunas_norm[col] = norm
+
+    def achar_col(alvo_substring):
+        alvo_substring = alvo_substring.upper()
+        for col, norm in colunas_norm.items():
+            if alvo_substring in norm:
+                return col
+        return None
+
+    col_depto = achar_col("DEPARTAMENTO")
+    col_serv = achar_col("SERVICO")  # pega "SERVIÇO" também, pois removi acento
+
+    if not col_serv:
+        escrever_log(
+            f"Não achei coluna de Serviço no CSV. Colunas encontradas: {list(df.columns)}"
+        )
+        return {}
+
+    if not col_depto:
+        escrever_log(
+            "Não achei coluna de Departamento no CSV. "
+            "Vou carregar só por Serviço (Departamento vazio)."
+        )
+
+    base = {}
+    for _, row in df.iterrows():
+        serv_original = row.get(col_serv, "")
+        serv_norm = normalizar_texto(serv_original)
+
+        if not serv_norm:
+            continue
+
+        if col_depto:
+            depto_original = row.get(col_depto, "")
+            depto_norm = normalizar_texto(depto_original)
+        else:
+            depto_original = ""
+            depto_norm = ""
+
+        # chave usa depto_norm + serv_norm
+        base[(depto_norm, serv_norm)] = {
+            "Departamento": depto_original,
+            "Servico": serv_original,
+        }
+
+    escrever_log(f"Base de serviços carregada a partir do CSV: {len(base)} combinações depto/serviço.")
+    return base
+
+
+def ler_arquivo_controle_dias(caminho):
+    """
+    Lê (ou cria) arquivo de controle de dias.
+    Colunas: Data, Status, Ultima_execucao, Observacao
+    """
+    if os.path.exists(caminho):
+        df = pd.read_excel(caminho, dtype=str)
+        colunas_minimas = ["Data", "Status", "Ultima_execucao", "Observacao"]
+        for col in colunas_minimas:
+            if col not in df.columns:
+                df[col] = ""
+    else:
+        df = pd.DataFrame(columns=["Data", "Status", "Ultima_execucao", "Observacao"])
+    return df
+
+
+def escrever_log(mensagem):
+    """
+    Log simples no console com timestamp.
+    """
+    agora = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    print(f"[{agora}] {mensagem}")
+
+
+def formatar_data_brasileira(data_obj):
+    try:
+        return data_obj.strftime("%d/%m/%Y")
+    except Exception:
+        return ""
+
+
+def gerar_lista_datas_para_verificar(dias_atras=15):
+    hoje = datetime.now().date()
+    datas = []
+    for i in range(1, dias_atras + 1):
+        dia = hoje - timedelta(days=i)
+        datas.append(dia)
+    return datas
+
+
+def atualizar_controle_para_datas(df_controle, lista_datas):
+    datas_str = {d.strftime("%Y-%m-%d") for d in lista_datas}
+    existentes = set(df_controle["Data"].astype(str))
+    novas = datas_str - existentes
+
+    novas_linhas = []
+    for ds in sorted(novas):
+        novas_linhas.append(
+            {
+                "Data": ds,
+                "Status": "NAO_INICIADO",  # ou EM_ANDAMENTO, CONCLUIDO, COM_INCONSISTENCIA
+                "Ultima_execucao": "",
+                "Observacao": "",
+            }
+        )
+
+    if novas_linhas:
+        df_controle = pd.concat([df_controle, pd.DataFrame(novas_linhas)], ignore_index=True)
+    return df_controle
+
+
+def marcar_dia_status(df_controle, data_str, status, observacao=""):
+    """
+    Atualiza status de um dia no DF de controle e devolve o DF alterado.
+    """
+    mask = df_controle["Data"].astype(str) == data_str
+    agora_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    if mask.any():
+        df_controle.loc[mask, "Status"] = status
+        df_controle.loc[mask, "Ultima_execucao"] = agora_str
+        if observacao:
+            df_controle.loc[mask, "Observacao"] = observacao
+    else:
+        # Se não existir, adiciona linha
+        nova_linha = {
+            "Data": data_str,
+            "Status": status,
+            "Ultima_execucao": agora_str,
+            "Observacao": observacao,
+        }
+        df_controle = pd.concat([df_controle, pd.DataFrame([nova_linha])], ignore_index=True)
+    return df_controle
+
+
+def extrair_campos_auxiliares(texto_linha: str, celulas: list):
+    # Garante que tudo seja string
+    celulas_str = [str(c) if c is not None else "" for c in (celulas or [])]
+
+    combined = " | ".join(celulas_str)
+    if texto_linha:
+        combined = combined + " | " + str(texto_linha)
+
+    # Datas DD/MM/AAAA
+    datas = re.findall(r"\b\d{2}/\d{2}/\d{4}\b", combined)
+    data_principal = datas[0] if datas else ""
+    outras_datas = "; ".join(datas[1:]) if len(datas) > 1 else ""
+
+    # Competências MM/AAAA
+    competencias = re.findall(r"\b\d{2}/\d{4}\b", combined)
+    competencia = competencias[0] if competencias else ""
+
+    # Documento – primeiro tenta formatado, depois só dígitos (11 ou 14)
+    cnpjs = re.findall(r"\b\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}\b", combined)
+    cpfs = re.findall(r"\b\d{3}\.\d{3}\.\d{3}-\d{2}\b", combined)
+
+    if cnpjs:
+        documento = cnpjs[0]
+    elif cpfs:
+        documento = cpfs[0]
+    else:
+        # CNPJ/CPF só com dígitos (11 ou 14 dígitos)
+        numeros_docs = re.findall(r"\b\d{14}\b|\b\d{11}\b", combined)
+        documento = numeros_docs[0] if numeros_docs else ""
+
+    # Responsável – qualquer letra entre parênteses (U, T, C, R, etc.)
+    responsavel = ""
+    for c in celulas_str:
+        if re.search(r"\([A-Z]\)", c):
+            responsavel = c.strip()
+            break
+
+    # Título: maior pedaço de texto relevante
+    candidatos_titulo = []
+    for c in celulas_str:
+        s = c.strip()
+        if not s:
+            continue
+        if re.search(r"\bBx\.?\s*Autom\b", s, re.I):
+            continue
+        if re.search(r"\bBx\.?\s*Manual\b", s, re.I):
+            continue
+        if re.fullmatch(r"\d+\s*/\s*\d+", s):
+            continue
+        if s in datas or s in competencias:
+            continue
+        candidatos_titulo.append(s)
+
+    if candidatos_titulo:
+        titulo = max(candidatos_titulo, key=len)
+    else:
+        titulo = celulas_str[0].strip() if celulas_str else ""
+
+    primeira_celula = celulas_str[0] if celulas_str else ""
+
+    return {
+        "data_principal": data_principal,
+        "outras_datas": outras_datas,
+        "competencia": competencia,
+        "documento": documento,
+        "responsavel": responsavel,
+        "titulo": titulo,
+        "primeira_celula": primeira_celula,
+    }
+
+
+def salvar_dias_processados(df_dias, caminho_saida: str):
+    df_dias.to_excel(caminho_saida, index=False)
+    print(f"Dias processados atualizados em: {caminho_saida}")
+
+
+def salvar_excel_inconsistencias(inconsistencias, caminho_saida: str):
+    """
+    Salva:
+      - Arquivo principal (tareffa_inconsistencias_auto_sem_balao_v9.3.xlsx) BEM ENXUTO,
+        focado em campos que ajudam a localizar no Tareffa.
+    """
+    if not inconsistencias:
+        print("Nenhuma inconsistência detalhada para salvar ainda.")
+        return
+
+    df_full = pd.DataFrame(inconsistencias)
+
+    # Garante colunas mínimas usadas na montagem
+    for col in [
+        "Dia_verificado",
+        "Departamento (CSV)",
+        "Servico (CSV)",
+        "Linha completa (site)",
+        "Data principal (linha Tareffa)",
+        "Competencia detectada",
+        "Documento detectado (CNPJ/CPF)",
+        "Responsavel (linha Tareffa)",
+        "Titulo detectado (linha Tareffa)",
+    ]:
+        if col not in df_full.columns:
+            df_full[col] = ""
+
+    # TENTAR priorizar só os serviços casados com CSV,
+    # MAS se não tiver nenhum, usa TODAS as linhas (para não zerar o arquivo).
+    df_main = df_full.copy()
+    if "Servico_casado_com_CSV" in df_full.columns:
+        mask_casado = df_full["Servico_casado_com_CSV"] == True
+        if mask_casado.any():
+            df_main = df_full[mask_casado].copy()
+        else:
+            print(
+                "Nenhuma inconsitência casada com serviço do CSV; "
+                "usando TODAS as linhas para não gerar planilha vazia."
+            )
+
+    if df_main.empty:
+        print("Nenhuma inconsistência para salvar no arquivo principal.")
+        pd.DataFrame(
+            columns=[
+                "Dia_verificado",
+                "Departamento (CSV)",
+                "Servico (CSV)",
+                "Data principal (linha Tareffa)",
+                "Competencia detectada",
+                "Documento detectado (CNPJ/CPF)",
+                "Titulo detectado (linha Tareffa)",
+                "Responsavel (linha Tareffa)",
+                "Chave_localizacao_Tareffa",
+            ]
+        ).to_excel(caminho_saida, index=False)
+        print(f"Arquivo de inconsistências (conciso) salvo/atualizado (vazio): {caminho_saida}")
+        return
+
+    # Ajusta o título para ficar só "número - nome da empresa"
+    def extrair_empresa_de_titulo(t):
+        if not isinstance(t, str):
+            return t
+        partes = [p.strip() for p in t.split(" - ") if p.strip()]
+        # Ex.: "FGTS -  - 55 - DELRODO ..." -> partes = ["FGTS", "55", "DELRODO ..."]
+        if len(partes) >= 2:
+            num = partes[-2]
+            nome = partes[-1]
+            return f"{num} - {nome}"
+        return t
+
+    df_main["Titulo detectado (linha Tareffa)"] = df_main["Titulo detectado (linha Tareffa)"].apply(
+        extrair_empresa_de_titulo
+    )
+
+    # Cria uma chave de busca mais amigável
+    def montar_chave(row):
+        partes = []
+        if row["Data principal (linha Tareffa)"]:
+            partes.append(str(row["Data principal (linha Tareffa)"]))
+        if row["Competencia detectada"]:
+            partes.append(str(row["Competencia detectada"]))
+        if row["Documento detectado (CNPJ/CPF)"]:
+            partes.append(str(row["Documento detectado (CNPJ/CPF)"]))
+        if row["Titulo detectado (linha Tareffa)"]:
+            partes.append(str(row["Titulo detectado (linha Tareffa)"]))
+        if row["Responsavel (linha Tareffa)"]:
+            partes.append(str(row["Responsavel (linha Tareffa)"]))
+        if not partes and row["Linha completa (site)"]:
+            partes.append(str(row["Linha completa (site)"])[:200])
+        return " | ".join(partes)
+
+    df_main["Chave_localizacao_Tareffa"] = df_main.apply(montar_chave, axis=1)
+
+    colunas_main = [
+        "Dia_verificado",
+        "Departamento (CSV)",
+        "Servico (CSV)",
+        "Data principal (linha Tareffa)",
+        "Competencia detectada",
+        "Documento detectado (CNPJ/CPF)",
+        "Titulo detectado (linha Tareffa)",
+        "Responsavel (linha Tareffa)",
+        "Chave_localizacao_Tareffa",
+    ]
+
+    df_main = df_main[colunas_main]
+
+    # Remove duplicados por dia/depto/serviço/chave
+    df_main = df_main.drop_duplicates(
+        subset=[
+            "Dia_verificado",
+            "Departamento (CSV)",
+            "Servico (CSV)",
+            "Chave_localizacao_Tareffa",
+        ]
+    )
+
+    df_main.to_excel(caminho_saida, index=False)
+    print(f"Arquivo de inconsistências (conciso) salvo/atualizado: {caminho_saida}")
+
+
+# =====================================================
+# CONFIRMAÇÃO MODO MINIMALISTA
+# =====================================================
+
+
+def confirmar_modo_minimalista(page):
+    """
+    Garante que estamos no modo minimalista.
+    Se um botão "Minimalista" aparecer, clica nele.
+    Caso já esteja no modo minimalista, segue em frente.
+    """
+    try:
+        page.wait_for_timeout(1000)
+        btn_minimalista = page.locator("button:has-text('Minimalista')")
+        if btn_minimalista.count() > 0:
+            btn_minimalista.first.click()
+            page.wait_for_timeout(1000)
+            escrever_log("Entrando no modo minimalista.")
+    except PlaywrightTimeoutError:
+        escrever_log("Timeout tentando confirmar modo minimalista (segue mesmo assim).")
+    except Exception as e:
+        escrever_log(f"Erro ao tentar confirmar modo minimalista: {e}")
+
+
+# =====================================================
+# LOGIN E NAVEGAÇÃO BÁSICA
+# =====================================================
+
+def localizar_primeiro_campo(page, seletores, timeout_por_seletor=8000):
+    """
+    Tenta vários seletores até achar um campo.
+    Evita estourar Timeout esperando um único seletor.
+    """
+    for sel in seletores:
+        try:
+            campo = page.wait_for_selector(sel, timeout=timeout_por_seletor)
+            if campo:
+                escrever_log(f"Campo encontrado: {sel}")
+                return campo
+        except PlaywrightTimeoutError:
+            continue
+    return None
+
+
+def fazer_login(page):
+    escrever_log("Iniciando login no Tareffa...")
+
+    # Vai direto para /tasks; se não estiver logado, ele redireciona pro OAuth
+    try:
+        page.goto(f"{TAREFFA_URL_BASE}/tasks", wait_until="load", timeout=60000)
+    except PlaywrightTimeoutError:
+        # fallback antigo
+        page.goto(f"{TAREFFA_URL_BASE}/login", wait_until="load")
+
+    page.wait_for_load_state("networkidle")
+
+    seletores_email = [
+        'input[name="email"]',
+        'input[type="email"]',
+        'input[name="username"]',
+        'input[placeholder*="email" i]',
+        'input[placeholder*="e-mail" i]',
+        'input[placeholder*="usuário" i]',
+        'input[placeholder*="usuario" i]',
+    ]
+
+    seletores_senha = [
+        'input[name="password"]',
+        'input[type="password"]',
+        'input[placeholder*="senha" i]',
+        'input[placeholder*="password" i]',
+    ]
+
+    campo_email = localizar_primeiro_campo(page, seletores_email)
+    if not campo_email:
+        escrever_log("Não consegui localizar campo de e-mail/usuário na tela de login.")
+        return
+
+    campo_email.fill(TAREFFA_EMAIL)
+
+    campo_senha = localizar_primeiro_campo(page, seletores_senha)
+    if not campo_senha:
+        escrever_log("Não consegui localizar campo de senha na tela de login.")
+        return
+
+    campo_senha.fill(TAREFFA_SENHA)
+
+    botoes_login = [
+        "button[type='submit']",
+        "button:has-text('Entrar')",
+        "button:has-text('Acessar')",
+        "button:has-text('Login')",
+        "button:has-text('Continuar')",
+        "button:has-text('Continuar com e-mail')",
+    ]
+
+    clicou = False
+    for sel in botoes_login:
+        btn = page.locator(sel)
+        if btn.count() > 0:
+            escrever_log(f"Clicando no botão de login: {sel}")
+            btn.first.click()
+            clicou = True
+            break
+
+    if not clicou:
+        escrever_log("Não encontrei botão de login para clicar.")
+        return
+
+    try:
+        page.wait_for_url(re.compile(r".*/tasks"), timeout=60000)
+        escrever_log("Login realizado com sucesso.")
+    except PlaywrightTimeoutError:
+        escrever_log("Não foi possível confirmar o login (timeout). Verifique visualmente se entrou.")
+
+    page.wait_for_timeout(3000)
+    confirmar_modo_minimalista(page)
+
+
+def ir_para_lista_servicos(page):
+    """
+    Garante que estamos na tela/lista de serviços onde o robô deve atuar.
+    (Essa função pode ser customizada conforme a navegação do Tareffa.)
+    """
+    try:
+        page.goto(f"{TAREFFA_URL_BASE}/tasks", wait_until="networkidle")
+        page.wait_for_timeout(3000)
+        confirmar_modo_minimalista(page)
+        escrever_log("Navegação para lista de serviços concluída.")
+    except Exception as e:
+        escrever_log(f"Erro ao tentar navegar para lista de serviços: {e}")
+
+
+# =====================================================
+# FILTROS ESPECÍFICOS DE SERVIÇOS
+# =====================================================
+
+
+def aplicar_filtros_iniciais(page):
+    """
+    Se for necessário aplicar filtros iniciais (por exemplo, "Somente serviços pendentes"),
+    faça aqui. Caso não seja necessário, basta deixar como está.
+    """
+    escrever_log("Aplicando filtros iniciais (se houver).")
+    try:
+        # Exemplo: clicar em algum botão "Filtros" e selecionar opções.
+        # Ajustar conforme o layout real.
+        pass
+    except Exception as e:
+        escrever_log(f"Erro ao aplicar filtros iniciais: {e}")
+
+
+def limpar_filtro_data(page):
+    """
+    Limpa filtros de data ou reseta para um estado neutro antes de aplicar novo dia.
+    """
+    try:
+        escrever_log("Limpando filtro de data (se houver).")
+        # Ajuste conforme a UI real: exemplo de clicar em 'Limpar filtros'.
+        # page.click("button:has-text('Limpar filtros')")
+        page.wait_for_timeout(1000)
+    except Exception as e:
+        escrever_log(f"Erro ao limpar filtro de data: {e}")
+
+
+def aplicar_filtro_data(page, data_brasil_str):
+    """
+    Aplica um filtro de data específico (no formato DD/MM/AAAA) na UI do Tareffa.
+    """
+    try:
+        escrever_log(f"Aplicando filtro de data: {data_brasil_str}")
+        # Exemplo genérico: clique no campo de data e digite
+        # Ajuste seletor conforme a tela
+        campo_data = page.locator("input[placeholder*='Data']").first
+        campo_data.click()
+        campo_data.fill("")
+        campo_data.type(data_brasil_str)
+        page.keyboard.press("Enter")
+        page.wait_for_timeout(2000)
+    except Exception as e:
+        escrever_log(f"Erro ao aplicar filtro de data {data_brasil_str}: {e}")
+
+
+def limpar_filtro_servico(page):
+    """
+    Limpa o campo de filtro de serviço (se existente) para evitar que fique preso
+    em um serviço anterior.
+    """
+    try:
+        escrever_log("Limpando filtro de serviço (se houver).")
+        # Exemplo genérico: encontrar input de busca de serviço e apagar texto
+        campo_servico = page.locator("input[placeholder*='Serviço']").first
+        if campo_servico.count() > 0:
+            campo_servico.click()
+            page.keyboard.press("Control+A")
+            page.keyboard.press("Delete")
+            page.wait_for_timeout(1000)
+    except Exception as e:
+        escrever_log(f"Erro ao limpar filtro de serviço: {e}")
+
+
+# =====================================================
+# LEITURA DA LISTA (LINHAS, BALÃO AZUL, ETC.)
+# =====================================================
+
+
+def carregar_todos_registros_lista(page):
+    """
+    Faz scroll na lista até carregar todos os registros visíveis naquele filtro.
+    Retorna:
+      - lista_rows: lista de dicts representando cada linha
+      - linhas_incons_depto: lista de detalhes de inconsistência por departamento/serviço
+      - fim_confirmado: bool se chegou ao final da lista de forma confiável
+    """
+    escrever_log("Carregando todos os registros da lista...")
+    linhas = []
+    linhas_incons_depto = []
+    fim_confirmado = False
+
+    SELETOR_CONTAINER_LISTA = "#card-content"
+
+    try:
+        container = page.wait_for_selector(SELETOR_CONTAINER_LISTA, timeout=10000)
+    except PlaywrightTimeoutError:
+        escrever_log("Não encontrei o container da lista de serviços (timeout).")
+        return [], [], False
+
+    altura_anterior = -1
+    tentativas_iguais = 0
+    limite_tentativas_iguais = 5
+
+    while True:
+        altura_atual = page.evaluate(
+            """(sel) => {
+                const el = document.querySelector(sel);
+                return el ? el.scrollHeight : 0;
+            }""",
+            SELETOR_CONTAINER_LISTA,
+        )
+
+        escrever_log(
+            f"Scroll: altura_atual={altura_atual}, altura_anterior={altura_anterior}, "
+            f"tentativas_iguais={tentativas_iguais}"
+        )
+
+        if altura_atual <= 0:
+            escrever_log("Altura do container zero ou negativa, algo estranho na página.")
+            break
+
+        if altura_atual == altura_anterior:
+            tentativas_iguais += 1
+            if tentativas_iguais >= limite_tentativas_iguais:
+                fim_confirmado = True
+                escrever_log("Altura da lista não aumenta mais, fim confirmado.")
+                break
+        else:
+            tentativas_iguais = 0
+            altura_anterior = altura_atual
+
+        page.evaluate(
+            """(sel) => {
+                const el = document.querySelector(sel);
+                if (!el) return;
+                el.scrollTop = el.scrollHeight;
+            }""",
+            SELETOR_CONTAINER_LISTA,
+        )
+        page.wait_for_timeout(1500)
+
+    escrever_log("Coletando linhas da lista após scroll máximo.")
+    try:
+        itens = page.locator(f"{SELETOR_CONTAINER_LISTA} .table-body .table-row")
+        qtd_itens = itens.count()
+        escrever_log(f"Quantidade de linhas detectadas na lista: {qtd_itens}")
+        for i in range(qtd_itens):
+            row = itens.nth(i)
+            texto_row = row.inner_text()
+            colunas = row.locator(".table-cell")
+            qtd_cols = colunas.count()
+            celulas_texto = []
+            for c in range(qtd_cols):
+                celulas_texto.append(colunas.nth(c).inner_text().strip())
+            info_aux = extrair_campos_auxiliares(texto_row, celulas_texto)
+
+            linha = {
+                "linha_index": i,
+                "texto_row": texto_row,
+                "celulas": celulas_texto,
+                "aux": info_aux,
+            }
+            linhas.append(linha)
+    except Exception as e:
+        escrever_log(f"Erro ao coletar linhas da lista: {e}")
+
+    return linhas, linhas_incons_depto, fim_confirmado
+
+
+def detectar_se_ha_balao_azul(row_element):
+    """
+    Dado o elemento de linha (row), detecta se há balão azul (ícone ou classe indicativa).
+    """
+    try:
+        icone_balao = row_element.locator(f"i.{ICONE_BOTAO_BALOES}")
+        if icone_balao.count() > 0:
+            classes = icone_balao.first.get_attribute("class") or ""
+            if "text-primary" in classes or "text-blue" in classes:
+                return True
+        return False
+    except Exception:
+        return False
+
+
+def verificar_baloes_nas_linhas(page, linhas, base_servicos, data_do_dia_str):
+    """
+    Para cada linha, verifica se há balão azul. Em caso negativo, registra inconsistencia.
+    """
+    inconsistencias = []
+
+    SELETOR_CONTAINER_LISTA = "#card-content"
+    itens = page.locator(f"{SELETOR_CONTAINER_LISTA} .table-body .table-row")
+    qtd_itens = itens.count()
+
+    for linha in linhas:
+        idx = linha["linha_index"]
+        if idx >= qtd_itens:
+            continue
+        row_element = itens.nth(idx)
+        tem_balao = detectar_se_ha_balao_azul(row_element)
+        texto_row = linha["texto_row"]
+        celulas = linha["celulas"]
+        aux = linha["aux"]
+
+        titulo_normalizado = normalizar_texto(aux.get("titulo", ""))
+        depto_encontrado = ""
+        servico_encontrado = ""
+        casou_com_csv = False
+
+        for (depto_norm, serv_norm), dados in base_servicos.items():
+            if serv_norm and serv_norm in titulo_normalizado:
+                depto_encontrado = dados["Departamento"]
+                servico_encontrado = dados["Servico"]
+                casou_com_csv = True
+                break
+
+        if not tem_balao:
+            registro = {
+                "Dia_verificado": data_do_dia_str,
+                "Departamento (CSV)": depto_encontrado,
+                "Servico (CSV)": servico_encontrado,
+                "Servico_casado_com_CSV": casou_com_csv,
+                "Linha completa (site)": texto_row,
+                "Data principal (linha Tareffa)": aux.get("data_principal", ""),
+                "Competencia detectada": aux.get("competencia", ""),
+                "Documento detectado (CNPJ/CPF)": aux.get("documento", ""),
+                "Responsavel (linha Tareffa)": aux.get("responsavel", ""),
+                "Titulo detectado (linha Tareffa)": aux.get("titulo", ""),
+            }
+            inconsistencias.append(registro)
+
+    return inconsistencias
+
+
+# =====================================================
+# FLUXO PRINCIPAL POR DIA/SERVIÇO
+# =====================================================
+
+
+def processar_dia(page, data_obj, base_servicos, df_controle, df_dias, todas_inconsistencias):
+    data_str = data_obj.strftime("%Y-%m-%d")
+    data_brasil_str = formatar_data_brasileira(data_obj)
+    escrever_log(f"Iniciando processamento do dia {data_brasil_str} ({data_str})")
+
+    df_controle = marcar_dia_status(
+        df_controle,
+        data_str,
+        "EM_ANDAMENTO",
+        observacao="Início de processamento do dia.",
+    )
+
+    limpar_filtro_data(page)
+    aplicar_filtro_data(page, data_brasil_str)
+    limpar_filtro_servico(page)
+
+    linhas, linhas_incons_depto, fim_confirmado = carregar_todos_registros_lista(page)
+
+    if not linhas and not fim_confirmado:
+        escrever_log(
+            f"Nenhuma linha foi carregada para a data {data_brasil_str}, "
+            "e o fim da lista não foi confirmado. Pode ser problema de carregamento."
+        )
+        df_controle = marcar_dia_status(
+            df_controle,
+            data_str,
+            "ERRO_CARREGAMENTO",
+            observacao="Nenhuma linha carregada e fim não confirmado.",
+        )
+        df_dias.loc[len(df_dias)] = {
+            "Data": data_str,
+            "Data_Brasil": data_brasil_str,
+            "Status_final": "ERRO_CARREGAMENTO",
+            "Qtd_inconsistencias": 0,
+        }
+        return df_controle, df_dias, todas_inconsistencias
+
+    inconsistencias_dia = verificar_baloes_nas_linhas(page, linhas, base_servicos, data_brasil_str)
+    qtd_incons = len(inconsistencias_dia)
+    escrever_log(
+        f"Dia {data_brasil_str} verificou {len(linhas)} linhas; "
+        f"inconsistências detectadas (sem balão azul): {qtd_incons}"
+    )
+
+    todas_inconsistencias.extend(inconsistencias_dia)
+
+    status_final_dia = "CONCLUIDO_SEM_INCONSISTENCIA" if qtd_incons == 0 else "COM_INCONSISTENCIA"
+    df_controle = marcar_dia_status(
+        df_controle,
+        data_str,
+        status_final_dia,
+        observacao=f"Inconsistências detectadas: {qtd_incons}",
+    )
+
+    df_dias.loc[len(df_dias)] = {
+        "Data": data_str,
+        "Data_Brasil": data_brasil_str,
+        "Status_final": status_final_dia,
+        "Qtd_inconsistencias": qtd_incons,
+    }
+
+    return df_controle, df_dias, todas_inconsistencias
+
+
+# =====================================================
+# FUNÇÃO PRINCIPAL (MAIN)
+# =====================================================
+
+
+def main():
+    base_servicos = carregar_base_servicos(CAMINHO_CSV_SERVICOS)
+    escrever_log(f"Base de serviços carregada: {len(base_servicos)} combinações depto/serviço.")
+
+    caminho_controle = os.path.join(PASTA_SAIDA, NOME_ARQ_DIAS_PROCESSADOS)
+    df_controle = ler_arquivo_controle_dias(caminho_controle)
+
+    lista_datas = gerar_lista_datas_para_verificar(dias_atras=15)
+    df_controle = atualizar_controle_para_datas(df_controle, lista_datas)
+
+    df_dias = pd.DataFrame(
+        columns=["Data", "Data_Brasil", "Status_final", "Qtd_inconsistencias"]
+    )
+
+    caminho_saida = os.path.join(PASTA_SAIDA, NOME_ARQ_INCONSISTENCIAS)
+    df_incons_existente = None
+    if os.path.exists(caminho_saida):
+        try:
+            df_incons_existente = pd.read_excel(caminho_saida, dtype=str).fillna("")
+            escrever_log(
+                f"Arquivo de inconsistências anterior carregado com "
+                f"{len(df_incons_existente)} linhas."
+            )
+        except Exception as e:
+            escrever_log(f"Não foi possível carregar o arquivo de inconsistências anterior: {e}")
+
+    todas_inconsistencias = []
+    if df_incons_existente is not None and not df_incons_existente.empty:
+        for _, row in df_incons_existente.iterrows():
+            todas_inconsistencias.append(row.to_dict())
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=False)
+        context = browser.new_context()
+        page = context.new_page()
+
+        try:
+            fazer_login(page)
+            ir_para_lista_servicos(page)
+            aplicar_filtros_iniciais(page)
+
+            for data_obj in lista_datas:
+                data_str = data_obj.strftime("%Y-%m-%d")
+                linha_controle = df_controle[df_controle["Data"].astype(str) == data_str]
+                if not linha_controle.empty:
+                    status_atual = linha_controle.iloc[0]["Status"]
+                    if status_atual in ["CONCLUIDO_SEM_INCONSISTENCIA", "COM_INCONSISTENCIA"]:
+                        escrever_log(
+                            f"Dia {data_str} já está com status final '{status_atual}', pulando..."
+                        )
+                        continue
+
+                df_controle, df_dias, todas_inconsistencias = processar_dia(
+                    page,
+                    data_obj,
+                    base_servicos,
+                    df_controle,
+                    df_dias,
+                    todas_inconsistencias,
+                )
+
+        finally:
+            browser.close()
+
+    # Salva controle final de dias
+    df_controle.to_excel(caminho_controle, index=False)
+    print(f"Arquivo de controle FINAL atualizado: {caminho_controle}")
+
+    # Lista resumida só dos dias que tiveram inconsistência
+    caminho_lista_incons = os.path.join(PASTA_SAIDA, "Lista serviços com inconsistência.xlsx")
+    df_incons = df_controle[df_controle["Status"] == "COM_INCONSISTENCIA"].copy()
+    if not df_incons.empty:
+        df_incons.to_excel(caminho_lista_incons, index=False)
+        print(f"Lista FINAL de serviços com inconsistência salva em: {caminho_lista_incons}")
+    else:
+        print("Nenhum serviço ficou marcado como 'COM INCONSISTENCIA' neste intervalo.")
+
+    # Planilha principal, enxuta, com as inconsistências linha a linha
+    salvar_excel_inconsistencias(todas_inconsistencias, caminho_saida)
+
+    # Resumo dos dias processados (arquivo separado)
+    caminho_dias_processados = os.path.join(PASTA_SAIDA, NOME_ARQ_DIAS_PROCESSADOS)
+    salvar_dias_processados(df_dias, caminho_dias_processados)
+
+
+if __name__ == "__main__":
+    main()

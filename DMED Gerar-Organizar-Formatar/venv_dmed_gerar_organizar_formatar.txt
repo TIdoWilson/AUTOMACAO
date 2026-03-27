@@ -1,0 +1,2 @@
+﻿Venv: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\Venvs Exclusivos Servidor\dmed_gerar_organizar_formatar
+Script: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\DMED Gerar-Organizar-Formatar\1 - DMED Parte 1 (resumo).py

@@ -1,0 +1,58 @@
+﻿{
+    "field_data_sistema":  {
+                               "x":  1657,
+                               "y":  108
+                           },
+    "field_processamento":  {
+                                "x":  580,
+                                "y":  200
+                            },
+    "field_mes_ano":  {
+                          "x":  580,
+                          "y":  220
+                      },
+    "field_gerar_por":  {
+                            "x":  580,
+                            "y":  240
+                        },
+    "field_grupo":  {
+                        "x":  580,
+                        "y":  260
+                    },
+    "ctx_calc_folha":  {
+                           "x":  840,
+                           "y":  320
+                       },
+    "ctx_apuracao":  {
+                         "x":  920,
+                         "y":  320
+                     },
+    "ctx_holerite":  {
+                         "x":  1040,
+                         "y":  320
+                     },
+    "ctx_extra":  {
+                      "x":  1100,
+                      "y":  320
+                  },
+    "menu_parametros":  {
+                            "x":  518,
+                            "y":  293
+                        },
+    "menu_relatorio_mensal":  {
+                                  "x":  575,
+                                  "y":  322
+                              },
+    "btn_diretorio":  {
+                          "x":  1035,
+                          "y":  810
+                      },
+    "btn_selecionar_pasta":  {
+                                 "x":  1550,
+                                 "y":  770
+                             },
+    "btn_processar":  {
+                          "x":  1420,
+                          "y":  200
+                      }
+}

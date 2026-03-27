@@ -1,0 +1,6 @@
+Funcionando 02/01/2026
+
+Rodar no modo sem janela funciona e é um pouco mais rápido, para filtrar o mês novo, substitua o arquivo do site "Exportação de serviços.csv" e escolha a data adequada antes de começar a rodar o script
+Não depende de coordenadas, somente Python e roda por um Firefox automatizado. 
+
+Demorou cerca de 90 minutos para concluir o trabalho no período de 01/11/2025 até 30/11/2025.

@@ -1,0 +1,3186 @@
+=== Controles detectados ===
+
+- [Pane] name='Espaço de trabalho'  automation_id=''  class='MDIClient'  enabled
+  bounds: (1920,-421)-(3000,1422) 1080x1843
+  dica seletor: .child_window(name='Espaço de trabalho', control_type='Pane')
+
+- [Window] name='Resumo da folha de pagamento'  automation_id='65284'  class='TfrmResFolha'  enabled
+  bounds: (2163,278)-(2757,757) 594x479
+  dica seletor: .child_window(automation_id='65284', name='Resumo da folha de pagamento', control_type='Window')
+
+- [Pane] name=''  automation_id='1903982'  class='TPanel'  enabled
+  bounds: (2734,304)-(2754,754) 20x450
+  dica seletor: .child_window(automation_id='1903982', control_type='Pane')
+
+- [Tree] name=''  automation_id='1248082'  class='TTreeView'  enabled
+  bounds: (2755,305)-(2833,753) 78x448
+  dica seletor: .child_window(automation_id='1248082', control_type='Tree')
+
+- [Button] name='Uma coluna à esquerda'  automation_id='UpButton'  class=''  enabled
+  bounds: (2757,734)-(2774,751) 17x17
+  dica seletor: .child_window(automation_id='UpButton', name='Uma coluna à esquerda', control_type='Button')
+
+- [Button] name='Uma página à direita'  automation_id='DownPageButton'  class=''  enabled
+  bounds: (2788,734)-(2814,751) 26x17
+  dica seletor: .child_window(automation_id='DownPageButton', name='Uma página à direita', control_type='Button')
+
+- [Button] name='Uma coluna à direita'  automation_id='DownButton'  class=''  enabled
+  bounds: (2814,734)-(2831,751) 17x17
+  dica seletor: .child_window(automation_id='DownButton', name='Uma coluna à direita', control_type='Button')
+
+- [TreeItem] name='Cálculo da Folha'  automation_id=''  class=''  enabled
+  bounds: (2779,307)-(2861,323) 82x16
+  dica seletor: .child_window(name='Cálculo da Folha', control_type='TreeItem')
+
+- [TreeItem] name='Resumo da Folha de Pagamento'  automation_id=''  class=''  enabled
+  bounds: (2779,323)-(2964,339) 185x16
+  dica seletor: .child_window(name='Resumo da Folha de Pagamento', control_type='TreeItem')
+
+- [Pane] name=''  automation_id='3935264'  class='TPanel'  enabled
+  bounds: (2735,305)-(2755,753) 20x448
+  dica seletor: .child_window(automation_id='3935264', control_type='Pane')
+
+- [Pane] name=''  automation_id='1770000'  class='TPanel'  enabled
+  bounds: (2642,304)-(2734,754) 92x450
+  dica seletor: .child_window(automation_id='1770000', control_type='Pane')
+
+- [Button] name='Ajuda'  automation_id='1048980'  class='TBitBtn'  enabled
+  bounds: (2649,333)-(2724,358) 75x25
+  dica seletor: .child_window(automation_id='1048980', name='Ajuda', control_type='Button')
+
+- [Button] name='Sair'  automation_id='721864'  class='TBitBtn'  enabled
+  bounds: (2649,358)-(2724,383) 75x25
+  dica seletor: .child_window(automation_id='721864', name='Sair', control_type='Button')
+
+- [Button] name='Imprimir'  automation_id='1313120'  class='TCRDPopupButton'  disabled
+  bounds: (2649,308)-(2724,333) 75x25
+  dica seletor: .child_window(automation_id='1313120', name='Imprimir', control_type='Button')
+
+- [Pane] name=''  automation_id='854512'  class='TPanel'  enabled
+  bounds: (2166,304)-(2642,754) 476x450
+  dica seletor: .child_window(automation_id='854512', control_type='Pane')
+
+- [Pane] name=''  automation_id='918734'  class='TFraEventosSeparados'  enabled
+  bounds: (2270,626)-(2625,715) 355x89
+  dica seletor: .child_window(automation_id='918734', control_type='Pane')
+
+- [CheckBox] name='Listar bases de cálculo'  automation_id='2820914'  class='TCRDCheckBox'  enabled
+  bounds: (2281,690)-(2410,707) 129x17
+  dica seletor: .child_window(automation_id='2820914', name='Listar bases de cálculo', control_type='CheckBox')
+
+- [RadioButton] name='Considerar todos os eventos'  automation_id='1441858'  class='TCRDRadioButton'  enabled
+  bounds: (2281,640)-(2441,657) 160x17
+  dica seletor: .child_window(automation_id='1441858', name='Considerar todos os eventos', control_type='RadioButton')
+
+- [RadioButton] name='Desconsiderar os eventos selecionados'  automation_id='2689266'  class='TCRDRadioButton'  enabled
+  bounds: (2281,672)-(2491,689) 210x17
+  dica seletor: .child_window(automation_id='2689266', name='Desconsiderar os eventos selecionados', control_type='RadioButton')
+
+- [RadioButton] name='Considerar somente os eventos selecionados'  automation_id='2165426'  class='TCRDRadioButton'  enabled
+  bounds: (2281,656)-(2519,673) 238x17
+  dica seletor: .child_window(automation_id='2165426', name='Considerar somente os eventos selecionados', control_type='RadioButton')
+
+- [Pane] name='Opção para geração dos eventos'  automation_id='655560'  class='TCRDRadioGroup'  enabled
+  bounds: (2272,624)-(2624,712) 352x88
+  dica seletor: .child_window(automation_id='655560', name=' Opção para geração dos eventos  ', control_type='Pane')
+
+- [CheckBox] name='Listar apenas 13º parcela única'  automation_id='2097630'  class='TCRDCheckBox'  disabled
+  bounds: (2426,430)-(2608,447) 182x17
+  dica seletor: .child_window(automation_id='2097630', name='Listar apenas 13º parcela única', control_type='CheckBox')
+
+- [CheckBox] name='Utilizar impressão otimizada'  automation_id='2033884'  class='TCRDCheckBox'  disabled
+  bounds: (2426,382)-(2587,399) 161x17
+  dica seletor: .child_window(automation_id='2033884', name='Utilizar impressão otimizada', control_type='CheckBox')
+
+- [Pane] name='Tipo de rescisão complementar'  automation_id='3082110'  class='TGroupBox'  enabled
+  bounds: (2270,538)-(2619,620) 349x82
+  dica seletor: .child_window(automation_id='3082110', name=' Tipo de rescisão complementar ', control_type='Pane')
+
+- [RadioButton] name='Todas'  automation_id='2753322'  class='TCRDRadioButton'  disabled
+  bounds: (2283,554)-(2331,571) 48x17
+  dica seletor: .child_window(automation_id='2753322', name='Todas', control_type='RadioButton')
+
+- [RadioButton] name='Complemento de valores/comissões'  automation_id='1312858'  class='TCRDRadioButton'  disabled
+  bounds: (2283,594)-(2479,611) 196x17
+  dica seletor: .child_window(automation_id='1312858', name='Complemento de valores/comissões', control_type='RadioButton')
+
+- [RadioButton] name='Acordo/convenção/dissídio'  automation_id='2165064'  class='TCRDRadioButton'  disabled
+  bounds: (2283,573)-(2435,590) 152x17
+  dica seletor: .child_window(automation_id='2165064', name='Acordo/convenção/dissídio', control_type='RadioButton')
+
+- [Edit] name=''  automation_id='721158'  class='TCRDEdit'  enabled
+  bounds: (2329,314)-(2375,335) 46x21
+  dica seletor: .child_window(automation_id='721158', control_type='Edit')
+
+- [Edit] name=''  automation_id='2492442'  class='TCRDEdit'  enabled
+  bounds: (2270,314)-(2316,335) 46x21
+  dica seletor: .child_window(automation_id='2492442', control_type='Edit')
+
+- [CheckBox] name='Imprimir dados em destaque'  automation_id='3016776'  class='TCRDCheckBox'  enabled
+  bounds: (2426,446)-(2582,463) 156x17
+  dica seletor: .child_window(automation_id='3016776', name='Imprimir dados em destaque', control_type='CheckBox')
+
+- [CheckBox] name='Listar recibos de pró-labore'  automation_id='5244710'  class='TCRDCheckBox'  disabled
+  bounds: (2426,398)-(2577,415) 151x17
+  dica seletor: .child_window(automation_id='5244710', name='Listar recibos de pró-labore', control_type='CheckBox')
+
+- [CheckBox] name='Listar recibos de autônomos'  automation_id='1182160'  class='TCRDCheckBox'  disabled
+  bounds: (2426,414)-(2585,431) 159x17
+  dica seletor: .child_window(automation_id='1182160', name='Listar recibos de autônomos', control_type='CheckBox')
+
+- [Pane] name=''  automation_id='590498'  class='TTFraSituacaoFunc'  enabled
+  bounds: (2423,488)-(2623,536) 200x48
+  dica seletor: .child_window(automation_id='590498', control_type='Pane')
+
+- [Pane] name='Situação'  automation_id='854672'  class='TGroupBox'  enabled
+  bounds: (2426,489)-(2619,532) 193x43
+  dica seletor: .child_window(automation_id='854672', name=' Situação ', control_type='Pane')
+
+- [RadioButton] name='Geral'  automation_id='655598'  class='TCRDRadioButton'  enabled
+  bounds: (2560,506)-(2608,523) 48x17
+  dica seletor: .child_window(automation_id='655598', name='Geral', control_type='RadioButton')
+
+- [RadioButton] name='Demitidos'  automation_id='2427422'  class='TCRDRadioButton'  enabled
+  bounds: (2489,505)-(2556,522) 67x17
+  dica seletor: .child_window(automation_id='2427422', name='Demitidos', control_type='RadioButton')
+
+- [RadioButton] name='Ativos'  automation_id='1444534'  class='TCRDRadioButton'  enabled
+  bounds: (2433,505)-(2484,522) 51x17
+  dica seletor: .child_window(automation_id='1444534', name='Ativos', control_type='RadioButton')
+
+- [Pane] name=''  automation_id='590082'  class='TCRHClassificacao'  enabled
+  bounds: (2190,357)-(2625,380) 435x23
+  dica seletor: .child_window(automation_id='590082', control_type='Pane')
+
+- [ComboBox] name=''  automation_id='1706180'  class='TCRDButtonLabel'  enabled
+  bounds: (2318,358)-(2623,379) 305x21
+  dica seletor: .child_window(automation_id='1706180', control_type='ComboBox')
+
+- [Button] name='Abrir'  automation_id='DropDown'  class=''  enabled
+  bounds: (2607,359)-(2622,378) 15x19
+  dica seletor: .child_window(automation_id='DropDown', name='Abrir', control_type='Button')
+
+- [Edit] name=''  automation_id='524912'  class='TEdit'  enabled
+  bounds: (2270,358)-(2316,379) 46x21
+  dica seletor: .child_window(automation_id='524912', control_type='Edit')
+
+- [Pane] name=''  automation_id='723494'  class='TfraCRHFiltroPadrao'  enabled
+  bounds: (2124,378)-(2424,536) 300x158
+  dica seletor: .child_window(automation_id='723494', control_type='Pane')
+
+- [Pane] name=''  automation_id='3082050'  class='TCRHCentroCustoLookUp'  enabled
+  bounds: (2339,445)-(2418,468) 79x23
+  dica seletor: .child_window(automation_id='3082050', control_type='Pane')
+
+- [Edit] name=''  automation_id='655820'  class='TEdit'  enabled
+  bounds: (2349,446)-(2395,467) 46x21
+  dica seletor: .child_window(automation_id='655820', control_type='Edit')
+
+- [Pane] name=''  automation_id='4654778'  class='TCRHCentroCustoLookUp'  enabled
+  bounds: (2189,445)-(2339,468) 150x23
+  dica seletor: .child_window(automation_id='4654778', control_type='Pane')
+
+- [Edit] name=''  automation_id='1048800'  class='TEdit'  enabled
+  bounds: (2270,446)-(2316,467) 46x21
+  dica seletor: .child_window(automation_id='1048800', control_type='Edit')
+
+- [Pane] name=''  automation_id='1115790'  class='TCRDEstabelecimentoLookup'  enabled
+  bounds: (2339,379)-(2418,402) 79x23
+  dica seletor: .child_window(automation_id='1115790', control_type='Pane')
+
+- [Edit] name=''  automation_id='4130810'  class='TEdit'  enabled
+  bounds: (2349,380)-(2395,401) 46x21
+  dica seletor: .child_window(automation_id='4130810', control_type='Edit')
+
+- [Pane] name=''  automation_id='2949914'  class='TCRDEstabelecimentoLookup'  enabled
+  bounds: (2188,379)-(2339,402) 151x23
+  dica seletor: .child_window(automation_id='2949914', control_type='Pane')
+
+- [Edit] name=''  automation_id='2558500'  class='TEdit'  enabled
+  bounds: (2270,380)-(2316,401) 46x21
+  dica seletor: .child_window(automation_id='2558500', control_type='Edit')
+
+- [Pane] name=''  automation_id='1245802'  class='TCRDComboLookUp'  enabled
+  bounds: (2339,423)-(2418,446) 79x23
+  dica seletor: .child_window(automation_id='1245802', control_type='Pane')
+
+- [Edit] name=''  automation_id='656414'  class='TEdit'  enabled
+  bounds: (2349,424)-(2395,445) 46x21
+  dica seletor: .child_window(automation_id='656414', control_type='Edit')
+
+- [Pane] name=''  automation_id='1575524'  class='TCRDComboLookUp'  enabled
+  bounds: (2231,423)-(2339,446) 108x23
+  dica seletor: .child_window(automation_id='1575524', control_type='Pane')
+
+- [Edit] name=''  automation_id='918160'  class='TEdit'  enabled
+  bounds: (2270,424)-(2316,445) 46x21
+  dica seletor: .child_window(automation_id='918160', control_type='Edit')
+
+- [Pane] name=''  automation_id='2034070'  class='TCRDComboLookUp'  enabled
+  bounds: (2339,511)-(2418,534) 79x23
+  dica seletor: .child_window(automation_id='2034070', control_type='Pane')
+
+- [Edit] name=''  automation_id='2361206'  class='TEdit'  enabled
+  bounds: (2349,512)-(2395,533) 46x21
+  dica seletor: .child_window(automation_id='2361206', control_type='Edit')
+
+- [Pane] name=''  automation_id='917784'  class='TCRDComboLookUp'  enabled
+  bounds: (2161,511)-(2339,534) 178x23
+  dica seletor: .child_window(automation_id='917784', control_type='Pane')
+
+- [Edit] name=''  automation_id='3081800'  class='TEdit'  enabled
+  bounds: (2270,512)-(2316,533) 46x21
+  dica seletor: .child_window(automation_id='3081800', control_type='Edit')
+
+- [Pane] name=''  automation_id='14026880'  class='TCRDComboLookUp'  enabled
+  bounds: (2339,467)-(2418,490) 79x23
+  dica seletor: .child_window(automation_id='14026880', control_type='Pane')
+
+- [Edit] name=''  automation_id='1968248'  class='TEdit'  enabled
+  bounds: (2349,468)-(2395,489) 46x21
+  dica seletor: .child_window(automation_id='1968248', control_type='Edit')
+
+- [Pane] name=''  automation_id='1640548'  class='TCRDComboLookUp'  enabled
+  bounds: (2339,489)-(2418,512) 79x23
+  dica seletor: .child_window(automation_id='1640548', control_type='Pane')
+
+- [Edit] name=''  automation_id='1116514'  class='TEdit'  enabled
+  bounds: (2349,490)-(2395,511) 46x21
+  dica seletor: .child_window(automation_id='1116514', control_type='Edit')
+
+- [Pane] name=''  automation_id='655868'  class='TCRDComboLookUp'  enabled
+  bounds: (2161,489)-(2339,512) 178x23
+  dica seletor: .child_window(automation_id='655868', control_type='Pane')
+
+- [Edit] name=''  automation_id='524544'  class='TEdit'  enabled
+  bounds: (2270,490)-(2316,511) 46x21
+  dica seletor: .child_window(automation_id='524544', control_type='Edit')
+
+- [Pane] name=''  automation_id='1573288'  class='TCRDComboLookUp'  enabled
+  bounds: (2161,467)-(2339,490) 178x23
+  dica seletor: .child_window(automation_id='1573288', control_type='Pane')
+
+- [Edit] name=''  automation_id='2754858'  class='TEdit'  enabled
+  bounds: (2270,468)-(2316,489) 46x21
+  dica seletor: .child_window(automation_id='2754858', control_type='Edit')
+
+- [Pane] name=''  automation_id='1313210'  class='TCRHFuncionarioLookUp'  enabled
+  bounds: (2339,401)-(2418,424) 79x23
+  dica seletor: .child_window(automation_id='1313210', control_type='Pane')
+
+- [Edit] name=''  automation_id='788658'  class='TEdit'  enabled
+  bounds: (2349,402)-(2395,423) 46x21
+  dica seletor: .child_window(automation_id='788658', control_type='Edit')
+
+- [Pane] name=''  automation_id='4720636'  class='TCRHFuncionarioLookUp'  enabled
+  bounds: (2211,401)-(2339,424) 128x23
+  dica seletor: .child_window(automation_id='4720636', control_type='Pane')
+
+- [Edit] name=''  automation_id='590090'  class='TEdit'  enabled
+  bounds: (2270,402)-(2316,423) 46x21
+  dica seletor: .child_window(automation_id='590090', control_type='Edit')
+
+- [Pane] name=''  automation_id='918174'  class='TCRHProcessamento'  enabled
+  bounds: (2179,335)-(2625,358) 446x23
+  dica seletor: .child_window(automation_id='918174', control_type='Pane')
+
+- [ComboBox] name=''  automation_id='852368'  class='TCRDButtonLabel'  enabled
+  bounds: (2318,336)-(2623,357) 305x21
+  dica seletor: .child_window(automation_id='852368', control_type='ComboBox')
+
+- [Button] name='Abrir'  automation_id='DropDown'  class=''  enabled
+  bounds: (2607,337)-(2622,356) 15x19
+  dica seletor: .child_window(automation_id='DropDown', name='Abrir', control_type='Button')
+
+- [Edit] name=''  automation_id='723264'  class='TEdit'  enabled
+  bounds: (2270,336)-(2316,357) 46x21
+  dica seletor: .child_window(automation_id='723264', control_type='Edit')
+
+- [MenuItem] name='Janela Documento'  automation_id=''  class=''  enabled
+  bounds: (2171,286)-(2193,308) 22x22
+  dica seletor: .child_window(name='Janela Documento', control_type='MenuItem')
+
+- [Button] name='Minimizar'  automation_id=''  class=''  enabled
+  bounds: (2652,283)-(2684,301) 32x18
+  dica seletor: .child_window(name='Minimizar', control_type='Button')
+
+- [Button] name='Maximizar'  automation_id=''  class=''  disabled
+  bounds: (2686,283)-(2718,301) 32x18
+  dica seletor: .child_window(name='Maximizar', control_type='Button')
+
+- [Button] name='Fechar'  automation_id=''  class=''  enabled
+  bounds: (2720,283)-(2752,301) 32x18
+  dica seletor: .child_window(name='Fechar', control_type='Button')
+
+- [Window] name='Barra de Atalhos'  automation_id='65280'  class='TfrmBarraSuperior'  enabled
+  bounds: (1920,-421)-(2995,-347) 1075x74
+  dica seletor: .child_window(automation_id='65280', name='Barra de Atalhos', control_type='Window')
+
+- [Pane] name=''  automation_id='3999802'  class='TPanel'  enabled
+  bounds: (1920,-421)-(2995,-347) 1075x74
+  dica seletor: .child_window(automation_id='3999802', control_type='Pane')
+
+- [Pane] name=''  automation_id='3213884'  class='TfraBarraSuperior'  enabled
+  bounds: (1921,-420)-(2994,-348) 1073x72
+  dica seletor: .child_window(automation_id='3213884', control_type='Pane')
+
+- [Pane] name=''  automation_id='5506712'  class='TPanel'  enabled
+  bounds: (1921,-420)-(2994,-348) 1073x72
+  dica seletor: .child_window(automation_id='5506712', control_type='Pane')
+
+- [Pane] name=''  automation_id='1378100'  class='TGroupBox'  enabled
+  bounds: (2474,-420)-(2592,-348) 118x72
+  dica seletor: .child_window(automation_id='1378100', control_type='Pane')
+
+- [Pane] name=''  automation_id='723684'  class='TGroupBox'  enabled
+  bounds: (2378,-420)-(2474,-348) 96x72
+  dica seletor: .child_window(automation_id='723684', control_type='Pane')
+
+- [Pane] name=''  automation_id='1509190'  class='TGroupBox'  enabled
+  bounds: (2592,-420)-(2994,-348) 402x72
+  dica seletor: .child_window(automation_id='1509190', control_type='Pane')
+
+- [Pane] name=''  automation_id='1248052'  class='TfraBarraAtalhosEmpresaTrabalho'  enabled
+  bounds: (2594,-418)-(2994,-350) 400x68
+  dica seletor: .child_window(automation_id='1248052', control_type='Pane')
+
+- [Pane] name=''  automation_id='2951026'  class='TPanel'  enabled
+  bounds: (2594,-418)-(2994,-350) 400x68
+  dica seletor: .child_window(automation_id='2951026', control_type='Pane')
+
+- [Edit] name=''  automation_id='1050362'  class='TCRDEdit'  enabled
+  bounds: (2680,-371)-(2747,-350) 67x21
+  dica seletor: .child_window(automation_id='1050362', control_type='Edit')
+
+- [Pane] name=''  automation_id='1836936'  class='TCRDEstabelecimentoLookup'  enabled
+  bounds: (2598,-395)-(2969,-372) 371x23
+  dica seletor: .child_window(automation_id='1836936', control_type='Pane')
+
+- [Edit] name=''  automation_id='1312532'  class='TEdit'  enabled
+  bounds: (2680,-394)-(2720,-373) 40x21
+  dica seletor: .child_window(automation_id='1312532', control_type='Edit')
+
+- [Pane] name=''  automation_id='1312562'  class='TCRDBaseLookUp'  enabled
+  bounds: (2635,-418)-(2969,-395) 334x23
+  dica seletor: .child_window(automation_id='1312562', control_type='Pane')
+
+- [Edit] name=''  automation_id='1247038'  class='TEdit'  enabled
+  bounds: (2680,-417)-(2720,-396) 40x21
+  dica seletor: .child_window(automation_id='1247038', control_type='Edit')
+
+- [Pane] name=''  automation_id='592984'  class='TGroupBox'  enabled
+  bounds: (2047,-420)-(2378,-348) 331x72
+  dica seletor: .child_window(automation_id='592984', control_type='Pane')
+
+- [Pane] name=''  automation_id='592990'  class='TfraBarraAtalhosAtalhosSGC'  enabled
+  bounds: (2056,-408)-(2592,-360) 536x48
+  dica seletor: .child_window(automation_id='592990', control_type='Pane')
+
+- [Pane] name=''  automation_id='1902204'  class='TGroupBox'  enabled
+  bounds: (1921,-420)-(1984,-348) 63x72
+  dica seletor: .child_window(automation_id='1902204', control_type='Pane')
+
+- [Pane] name=''  automation_id='1051722'  class='TGroupBox'  enabled
+  bounds: (1984,-420)-(2047,-348) 63x72
+  dica seletor: .child_window(automation_id='1051722', control_type='Pane')
+
+- [Window] name='Acesso Rápido'  automation_id='65283'  class='TfrmBarraAtalhosAvisosSFP'  enabled
+  bounds: (2659,853)-(2995,1153) 336x300
+  dica seletor: .child_window(automation_id='65283', name='Acesso Rápido', control_type='Window')
+
+- [Pane] name=''  automation_id='2361274'  class='TPanel'  enabled
+  bounds: (2659,853)-(2995,1153) 336x300
+  dica seletor: .child_window(automation_id='2361274', control_type='Pane')
+
+- [Pane] name=''  automation_id='788390'  class='Shell Embedding'  enabled
+  bounds: (2662,879)-(2989,1151) 327x272
+  dica seletor: .child_window(automation_id='788390', control_type='Pane')
+
+- [Pane] name=''  automation_id=''  class='Shell DocObject View'  enabled
+  bounds: (2662,879)-(2989,1151) 327x272
+  dica seletor: .child_window(control_type='Pane')
+
+- [Pane] name='about:blank'  automation_id=''  class='Internet Explorer_Server'  enabled
+  bounds: (2662,879)-(2989,1151) 327x272
+  dica seletor: .child_window(name='about:blank', control_type='Pane')
+
+- [Pane] name=''  automation_id=''  class=''  enabled
+  bounds: (2670,887)-(2981,1143) 311x256
+  dica seletor: .child_window(control_type='Pane')
+
+- [Hyperlink] name=''  automation_id=''  class=''  enabled
+  bounds: (2670,887)-(2981,1143) 311x256
+  dica seletor: .child_window(control_type='Hyperlink')
+
+- [Pane] name='Avisos'  automation_id='1051282'  class='TPanel'  enabled
+  bounds: (2661,855)-(2993,875) 332x20
+  dica seletor: .child_window(automation_id='1051282', name='Avisos', control_type='Pane')
+
+- [Pane] name=''  automation_id='1051216'  class='TPanel'  enabled
+  bounds: (2970,855)-(2993,875) 23x20
+  dica seletor: .child_window(automation_id='1051216', control_type='Pane')
+
+- [Window] name='IOB Plataforma Contábil'  automation_id='65282'  class='TfrmBarraAtalhosSGCGestaoWeb'  enabled
+  bounds: (2972,-345)-(2995,852) 23x1197
+  dica seletor: .child_window(automation_id='65282', name='IOB Plataforma Contábil', control_type='Window')
+
+- [Pane] name=''  automation_id='1902806'  class='TPanel'  enabled
+  bounds: (2993,-345)-(2995,852) 2x1197
+  dica seletor: .child_window(automation_id='1902806', control_type='Pane')
+
+- [Pane] name='IOB Plataforma Contábil'  automation_id='330362'  class='TPanel'  enabled
+  bounds: (2995,-343)-(3314,-323) 319x20
+  dica seletor: .child_window(automation_id='330362', name='IOB Plataforma Contábil  ', control_type='Pane')
+
+- [Pane] name=''  automation_id='395900'  class='TPanel'  enabled
+  bounds: (2995,-343)-(3018,-323) 23x20
+  dica seletor: .child_window(automation_id='395900', control_type='Pane')
+
+- [Pane] name=''  automation_id='1836674'  class='TfraBarraAtalhosGestaoWeb'  enabled
+  bounds: (2995,-323)-(3314,850) 319x1173
+  dica seletor: .child_window(automation_id='1836674', control_type='Pane')
+
+- [Pane] name=''  automation_id='2033420'  class='Shell Embedding'  enabled
+  bounds: (2995,-323)-(3314,850) 319x1173
+  dica seletor: .child_window(automation_id='2033420', control_type='Pane')
+
+- [Pane] name=''  automation_id=''  class='Shell DocObject View'  enabled
+  bounds: (2995,-323)-(3314,850) 319x1173
+  dica seletor: .child_window(control_type='Pane')
+
+- [Pane] name='https://wilson.minhaplataformacontabil.com.br/site/Interface/19.1/Pai…'  automation_id=''  class='Internet Explorer_Server'  enabled
+  bounds: (2995,-323)-(3314,850) 319x1173
+  dica seletor: .child_window(name='https://wilson.minhaplataformacontabil.com.br/site/Interface/19.1/PainelSoftwareContabil/AcessoPainel.aspx?Origem=MGC&CliForID=fb7b77a2d27b4c439a7b3e20c5d7f934&EmpresaID=&dados=dS0bNI0mYq4nlbveBDa1BfvFxEty8zqnHyljI2mx/qJFxtc0OliZasrBv5DZMRL542DQdszb5yNH5B7vZuJAUAcPWgXXhdJvCUOP0DF45h2M7YTwMfTF2TCKmAoBGbEkzhRBn28NPlR3E3WCtDQoPQ==', control_type='Pane')
+
+- [Pane] name='IOB Plataforma Contábil'  automation_id=''  class=''  enabled
+  bounds: (2995,-323)-(3314,60) 319x383
+  dica seletor: .child_window(name='IOB Plataforma Contábil', control_type='Pane')
+
+- [Hyperlink] name='Saiba mais!'  automation_id=''  class=''  enabled
+  bounds: (3114,-99)-(3195,-78) 81x21
+  dica seletor: .child_window(name='Saiba mais!', control_type='Hyperlink')
+
+- [Hyperlink] name='Acessar IOB Plataforma Contábil'  automation_id='hyperlinkAcessoPlataforma'  class=''  enabled
+  bounds: (3017,-43)-(3292,-5) 275x38
+  dica seletor: .child_window(automation_id='hyperlinkAcessoPlataforma', name='Acessar IOB Plataforma Contábil', control_type='Hyperlink')
+
+- [List] name=''  automation_id=''  class=''  enabled
+  bounds: (3010,814)-(3299,850) 289x36
+  dica seletor: .child_window(control_type='List')
+
+- [ListItem] name='*IOB2022. Todos os direitos reservados'  automation_id=''  class=''  enabled
+  bounds: (3010,819)-(3299,845) 289x26
+  dica seletor: .child_window(name='*IOB2022. Todos os direitos reservados', control_type='ListItem')
+
+- [Pane] name=''  automation_id='328112'  class='TPanel'  enabled
+  bounds: (2972,-345)-(2993,852) 21x1197
+  dica seletor: .child_window(automation_id='328112', control_type='Pane')
+
+- [Window] name='Acesso Rápido'  automation_id='65281'  class='TfrmBarraAtalhosSGCAcessoRapido'  enabled
+  bounds: (1920,-345)-(1943,1415) 23x1760
+  dica seletor: .child_window(automation_id='65281', name='Acesso Rápido', control_type='Window')
+
+- [Pane] name=''  automation_id='592080'  class='TPanel'  enabled
+  bounds: (1922,-345)-(1943,1415) 21x1760
+  dica seletor: .child_window(automation_id='592080', control_type='Pane')
+
+- [Pane] name=''  automation_id='4522790'  class='TPanel'  enabled
+  bounds: (1920,-345)-(1922,1415) 2x1760
+  dica seletor: .child_window(automation_id='4522790', control_type='Pane')
+
+- [Pane] name='Acesso Rápido'  automation_id='2427416'  class='TPanel'  enabled
+  bounds: (1922,-343)-(2259,-323) 337x20
+  dica seletor: .child_window(automation_id='2427416', name='  Acesso Rápido', control_type='Pane')
+
+- [Pane] name=''  automation_id='1050746'  class='TPanel'  enabled
+  bounds: (2236,-343)-(2259,-323) 23x20
+  dica seletor: .child_window(automation_id='1050746', control_type='Pane')
+
+- [Pane] name=''  automation_id='1903414'  class='TfraBarraAtalhosAcessoRapido'  enabled
+  bounds: (1922,-323)-(2259,1413) 337x1736
+  dica seletor: .child_window(automation_id='1903414', control_type='Pane')
+
+- [Pane] name=''  automation_id='985776'  class='TPanel'  enabled
+  bounds: (1922,-323)-(2259,-283) 337x40
+  dica seletor: .child_window(automation_id='985776', control_type='Pane')
+
+- [Pane] name=''  automation_id='984992'  class='TPanel'  enabled
+  bounds: (1922,-307)-(2259,-282) 337x25
+  dica seletor: .child_window(automation_id='984992', control_type='Pane')
+
+- [Edit] name=''  automation_id='788678'  class='TCRDEdit'  enabled
+  bounds: (1922,-306)-(2236,-285) 314x21
+  dica seletor: .child_window(automation_id='788678', control_type='Edit')
+
+- [Tree] name=''  automation_id='1049822'  class='TTreeView'  enabled
+  bounds: (1922,-283)-(2259,1413) 337x1696
+  dica seletor: .child_window(automation_id='1049822', control_type='Tree')
+
+- [TreeItem] name='Cadastros'  automation_id=''  class=''  enabled
+  bounds: (1965,-281)-(2018,-265) 53x16
+  dica seletor: .child_window(name='Cadastros', control_type='TreeItem')
+
+- [TreeItem] name='Empresas'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Empresas', control_type='TreeItem')
+
+- [TreeItem] name='Centro de Custo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Centro de Custo', control_type='TreeItem')
+
+- [TreeItem] name='Responsáveis'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Responsáveis', control_type='TreeItem')
+
+- [TreeItem] name='Feriados'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Feriados', control_type='TreeItem')
+
+- [TreeItem] name='Agrupamento de empresas'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Agrupamento de empresas', control_type='TreeItem')
+
+- [TreeItem] name='Parâmetros da Empresa'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Parâmetros da Empresa', control_type='TreeItem')
+
+- [TreeItem] name='Estrutura Organizacional'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Estrutura Organizacional', control_type='TreeItem')
+
+- [TreeItem] name='Bancos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Bancos', control_type='TreeItem')
+
+- [TreeItem] name='Adicional por Tempo de Serviço'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Adicional por Tempo de Serviço', control_type='TreeItem')
+
+- [TreeItem] name='Funções'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Funções', control_type='TreeItem')
+
+- [TreeItem] name='Horários'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Horários', control_type='TreeItem')
+
+- [TreeItem] name='Jornadas de Trabalho'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Jornadas de Trabalho', control_type='TreeItem')
+
+- [TreeItem] name='Tabelas de Horário'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Tabelas de Horário', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de Funcionários'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de Funcionários', control_type='TreeItem')
+
+- [TreeItem] name='Benefício Excepcional Mensal'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Benefício Excepcional Mensal', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro', control_type='TreeItem')
+
+- [TreeItem] name='Geração do Arquivo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração do Arquivo ', control_type='TreeItem')
+
+- [TreeItem] name='Relatório'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatório', control_type='TreeItem')
+
+- [TreeItem] name='Funcionários'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Funcionários', control_type='TreeItem')
+
+- [TreeItem] name='Função'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Função', control_type='TreeItem')
+
+- [TreeItem] name='Salário'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Salário', control_type='TreeItem')
+
+- [TreeItem] name='Lotação'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Lotação', control_type='TreeItem')
+
+- [TreeItem] name='Horário'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Horário', control_type='TreeItem')
+
+- [TreeItem] name='Histórico de Férias'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Histórico de Férias', control_type='TreeItem')
+
+- [TreeItem] name='Movimentação'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Movimentação', control_type='TreeItem')
+
+- [TreeItem] name='Estabilidade'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Estabilidade', control_type='TreeItem')
+
+- [TreeItem] name='Treinamentos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Treinamentos', control_type='TreeItem')
+
+- [TreeItem] name='Registro do ASO'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Registro do ASO', control_type='TreeItem')
+
+- [TreeItem] name='Eventos Fixos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Eventos Fixos', control_type='TreeItem')
+
+- [TreeItem] name='Valores Fixos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Valores Fixos', control_type='TreeItem')
+
+- [TreeItem] name='Tabela Fixa'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Tabela Fixa', control_type='TreeItem')
+
+- [TreeItem] name='Observação'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Observação', control_type='TreeItem')
+
+- [TreeItem] name='Documentos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Documentos', control_type='TreeItem')
+
+- [TreeItem] name='Relatórios Admissionais'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatórios Admissionais', control_type='TreeItem')
+
+- [TreeItem] name='IOB Abordo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='IOB Abordo', control_type='TreeItem')
+
+- [TreeItem] name='Calendário'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Calendário', control_type='TreeItem')
+
+- [TreeItem] name='Assiduidade'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Assiduidade', control_type='TreeItem')
+
+- [TreeItem] name='Textos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Textos', control_type='TreeItem')
+
+- [TreeItem] name='Genéricos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Genéricos', control_type='TreeItem')
+
+- [TreeItem] name='Eventos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Eventos', control_type='TreeItem')
+
+- [TreeItem] name='Tabelas Legais'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Tabelas Legais', control_type='TreeItem')
+
+- [TreeItem] name='Registro Ambiental e Monitoração Biológica'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Registro Ambiental e Monitoração Biológica', control_type='TreeItem')
+
+- [TreeItem] name='Sindicatos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Sindicatos', control_type='TreeItem')
+
+- [TreeItem] name='Dados Cadastrais'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Dados Cadastrais', control_type='TreeItem')
+
+- [TreeItem] name='Parâmetros'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Parâmetros', control_type='TreeItem')
+
+- [TreeItem] name='Modelos de Cheques'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Modelos de Cheques', control_type='TreeItem')
+
+- [TreeItem] name='Textos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Textos', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de Linhas para Vale-Transporte'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de Linhas para Vale-Transporte', control_type='TreeItem')
+
+- [TreeItem] name='Índices de Atualização de Comissões'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Índices de Atualização de Comissões', control_type='TreeItem')
+
+- [TreeItem] name='Cédulas para Mapa de Troco'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cédulas para Mapa de Troco', control_type='TreeItem')
+
+- [TreeItem] name='Faixas para Fórmulas de Eventos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Faixas para Fórmulas de Eventos', control_type='TreeItem')
+
+- [TreeItem] name='Entidade de Previdência Complementar'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Entidade de Previdência Complementar', control_type='TreeItem')
+
+- [TreeItem] name='Contabilização'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Contabilização', control_type='TreeItem')
+
+- [TreeItem] name='Complemento de Histórico'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Complemento de Histórico', control_type='TreeItem')
+
+- [TreeItem] name='Contas por evento'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Contas por evento', control_type='TreeItem')
+
+- [TreeItem] name='Apropriação de Impostos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Apropriação de Impostos', control_type='TreeItem')
+
+- [TreeItem] name='Caixa/Banco'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Caixa/Banco', control_type='TreeItem')
+
+- [TreeItem] name='Pagamento'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Pagamento', control_type='TreeItem')
+
+- [TreeItem] name='Tabela Fixa'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Tabela Fixa', control_type='TreeItem')
+
+- [TreeItem] name='Ano-Calendário - PLR'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Ano-Calendário - PLR', control_type='TreeItem')
+
+- [TreeItem] name='Processos Judiciais/Administrativos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Processos Judiciais/Administrativos', control_type='TreeItem')
+
+- [TreeItem] name='Sair'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Sair', control_type='TreeItem')
+
+- [TreeItem] name='Módulos'  automation_id=''  class=''  enabled
+  bounds: (1965,-265)-(2008,-249) 43x16
+  dica seletor: .child_window(name='Módulos', control_type='TreeItem')
+
+- [TreeItem] name='Digitação Turbo de Eventos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Digitação Turbo de Eventos', control_type='TreeItem')
+
+- [TreeItem] name='Adiantamento Salarial'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Adiantamento Salarial', control_type='TreeItem')
+
+- [TreeItem] name='Cálculo do Adiantamento'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cálculo do Adiantamento', control_type='TreeItem')
+
+- [TreeItem] name='Estorno de Cálculo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Estorno de Cálculo', control_type='TreeItem')
+
+- [TreeItem] name='Pagamento mensal'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Pagamento mensal', control_type='TreeItem')
+
+- [TreeItem] name='Digitação de eventos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Digitação de eventos', control_type='TreeItem')
+
+- [TreeItem] name='Digitação de listas'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Digitação de listas', control_type='TreeItem')
+
+- [TreeItem] name='Digitação diária de faltas'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Digitação diária de faltas', control_type='TreeItem')
+
+- [TreeItem] name='Digitação para múltiplos vínculos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Digitação para múltiplos vínculos', control_type='TreeItem')
+
+- [TreeItem] name='Cálculo da folha'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cálculo da folha', control_type='TreeItem')
+
+- [TreeItem] name='Estorno do cálculo da folha'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Estorno do cálculo da folha', control_type='TreeItem')
+
+- [TreeItem] name='Importação'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Importação', control_type='TreeItem')
+
+- [TreeItem] name='Tabelas de vinculação'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Tabelas de vinculação', control_type='TreeItem')
+
+- [TreeItem] name='Vinculação de funcionários'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Vinculação de funcionários', control_type='TreeItem')
+
+- [TreeItem] name='Importação de horas/valores'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Importação de horas/valores', control_type='TreeItem')
+
+- [TreeItem] name='Importação de valores do SXPIS'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Importação de valores do SXPIS', control_type='TreeItem')
+
+- [TreeItem] name='Planilha para lançamento'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Planilha para lançamento', control_type='TreeItem')
+
+- [TreeItem] name='Trabalho Intermitente'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Trabalho Intermitente', control_type='TreeItem')
+
+- [TreeItem] name='Convocação para Trabalho Intermitente'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Convocação para Trabalho Intermitente', control_type='TreeItem')
+
+- [TreeItem] name='Digitação de Eventos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Digitação de Eventos', control_type='TreeItem')
+
+- [TreeItem] name='Importação de Horas/Valores'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Importação de Horas/Valores', control_type='TreeItem')
+
+- [TreeItem] name='Cálculo de Recibos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cálculo de Recibos', control_type='TreeItem')
+
+- [TreeItem] name='Consulta de Recibos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Consulta de Recibos', control_type='TreeItem')
+
+- [TreeItem] name='Alteração de Processamento'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Alteração de Processamento', control_type='TreeItem')
+
+- [TreeItem] name='Relatórios'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatórios', control_type='TreeItem')
+
+- [TreeItem] name='Emissão de Recibos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Emissão de Recibos', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Recibos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Recibos', control_type='TreeItem')
+
+- [TreeItem] name='Rescisão de contrato'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Rescisão de contrato', control_type='TreeItem')
+
+- [TreeItem] name='Simulação'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Simulação', control_type='TreeItem')
+
+- [TreeItem] name='Individual'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Individual', control_type='TreeItem')
+
+- [TreeItem] name='Agrupada'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Agrupada', control_type='TreeItem')
+
+- [TreeItem] name='Estorno'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Estorno', control_type='TreeItem')
+
+- [TreeItem] name='Termo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Termo', control_type='TreeItem')
+
+- [TreeItem] name='Relatório de Simulação'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatório de Simulação', control_type='TreeItem')
+
+- [TreeItem] name='Aviso Prévio'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Aviso Prévio', control_type='TreeItem')
+
+- [TreeItem] name='Cálculo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cálculo', control_type='TreeItem')
+
+- [TreeItem] name='Alteração de Rescisão'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Alteração de Rescisão', control_type='TreeItem')
+
+- [TreeItem] name='Estorno do Cálculo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Estorno do Cálculo', control_type='TreeItem')
+
+- [TreeItem] name='Emissão do Termo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Emissão do Termo', control_type='TreeItem')
+
+- [TreeItem] name='Memória de Cálculo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Memória de Cálculo', control_type='TreeItem')
+
+- [TreeItem] name='Relatório de Eventos por Grupo do TRCT'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatório de Eventos por Grupo do TRCT', control_type='TreeItem')
+
+- [TreeItem] name='GRRF'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='GRRF', control_type='TreeItem')
+
+- [TreeItem] name='Resumo Seguro Desemprego'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Resumo Seguro Desemprego', control_type='TreeItem')
+
+- [TreeItem] name='Requerimento Seguro Desemprego'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Requerimento Seguro Desemprego', control_type='TreeItem')
+
+- [TreeItem] name='Arquivo Seguro Desemprego'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Arquivo Seguro Desemprego', control_type='TreeItem')
+
+- [TreeItem] name='Complementar'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Complementar', control_type='TreeItem')
+
+- [TreeItem] name='Por Acordo/Convenção/Dissídio'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Por Acordo/Convenção/Dissídio', control_type='TreeItem')
+
+- [TreeItem] name='Parâmetros'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Parâmetros', control_type='TreeItem')
+
+- [TreeItem] name='Salários retroativos para complemento'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Salários retroativos para complemento', control_type='TreeItem')
+
+- [TreeItem] name='Cálculo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cálculo', control_type='TreeItem')
+
+- [TreeItem] name='Estorno'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Estorno', control_type='TreeItem')
+
+- [TreeItem] name='Memória de cálculo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Memória de cálculo', control_type='TreeItem')
+
+- [TreeItem] name='Alteração de processamentos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Alteração de processamentos', control_type='TreeItem')
+
+- [TreeItem] name='Por complemento de Valores/Comissões/PLR'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Por complemento de Valores/Comissões/PLR', control_type='TreeItem')
+
+- [TreeItem] name='Emissão do termo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Emissão do termo', control_type='TreeItem')
+
+- [TreeItem] name='SEFIP'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='SEFIP', control_type='TreeItem')
+
+- [TreeItem] name='GRRF complementar'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='GRRF complementar', control_type='TreeItem')
+
+- [TreeItem] name='Geração de Histórico de Remunerações para FGTS Digital'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração de Histórico de Remunerações para FGTS Digital', control_type='TreeItem')
+
+- [TreeItem] name='Férias'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Férias', control_type='TreeItem')
+
+- [TreeItem] name='Provisão'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Provisão', control_type='TreeItem')
+
+- [TreeItem] name='Cálculo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cálculo', control_type='TreeItem')
+
+- [TreeItem] name='Relatório'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatório', control_type='TreeItem')
+
+- [TreeItem] name='Férias Coletivas'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Férias Coletivas', control_type='TreeItem')
+
+- [TreeItem] name='Individual'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Individual', control_type='TreeItem')
+
+- [TreeItem] name='Por Intervalo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Por Intervalo', control_type='TreeItem')
+
+- [TreeItem] name='Estorno'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Estorno', control_type='TreeItem')
+
+- [TreeItem] name='Aviso de Férias'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Aviso de Férias', control_type='TreeItem')
+
+- [TreeItem] name='Solicitação de Abono'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Solicitação de Abono', control_type='TreeItem')
+
+- [TreeItem] name='Férias Normais'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Férias Normais', control_type='TreeItem')
+
+- [TreeItem] name='Emissão de Recibos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Emissão de Recibos', control_type='TreeItem')
+
+- [TreeItem] name='Estorno do Cálculo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Estorno do Cálculo', control_type='TreeItem')
+
+- [TreeItem] name='Escala de Férias'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Escala de Férias', control_type='TreeItem')
+
+- [TreeItem] name='Manutenção'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Manutenção', control_type='TreeItem')
+
+- [TreeItem] name='Relatório'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatório', control_type='TreeItem')
+
+- [TreeItem] name='Manutenção de Férias'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Manutenção de Férias', control_type='TreeItem')
+
+- [TreeItem] name='Controle Pagamentos Férias - MP 927/2020 e MP 1046/2021'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Controle Pagamentos Férias - MP 927/2020 e MP 1046/2021', control_type='TreeItem')
+
+- [TreeItem] name='Configuração'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Configuração', control_type='TreeItem')
+
+- [TreeItem] name='Relatório'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatório', control_type='TreeItem')
+
+- [TreeItem] name='Cálculo - Competência Dezembro'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cálculo - Competência Dezembro', control_type='TreeItem')
+
+- [TreeItem] name='Alteração de Processamentos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Alteração de Processamentos', control_type='TreeItem')
+
+- [TreeItem] name='Estorno do Cálculo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Estorno do Cálculo', control_type='TreeItem')
+
+- [TreeItem] name='Memória de Cálculo Individual'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Memória de Cálculo Individual', control_type='TreeItem')
+
+- [TreeItem] name='Memória de Cálculo por Intervalo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Memória de Cálculo por Intervalo', control_type='TreeItem')
+
+- [TreeItem] name='Geração de Dados para Relatórios'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração de Dados para Relatórios', control_type='TreeItem')
+
+- [TreeItem] name='Emissão de Etiquetas'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Emissão de Etiquetas', control_type='TreeItem')
+
+- [TreeItem] name='Relatório de Férias'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatório de Férias', control_type='TreeItem')
+
+- [TreeItem] name='Relatório de Simulação'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatório de Simulação', control_type='TreeItem')
+
+- [TreeItem] name='Histórico de Férias'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Histórico de Férias', control_type='TreeItem')
+
+- [TreeItem] name='Vale Transporte'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Vale Transporte', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de Linhas'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de Linhas', control_type='TreeItem')
+
+- [TreeItem] name='Vales por Funcionário'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Vales por Funcionário', control_type='TreeItem')
+
+- [TreeItem] name='Fornecimento de Vales'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Fornecimento de Vales', control_type='TreeItem')
+
+- [TreeItem] name='Alteração de Vales Fornecidos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Alteração de Vales Fornecidos', control_type='TreeItem')
+
+- [TreeItem] name='Relação de fornecimento'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de fornecimento', control_type='TreeItem')
+
+- [TreeItem] name='Recibo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Recibo', control_type='TreeItem')
+
+- [TreeItem] name='Solicitação de Vale Transporte'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Solicitação de Vale Transporte', control_type='TreeItem')
+
+- [TreeItem] name='Relatório para Compra de VT'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatório para Compra de VT', control_type='TreeItem')
+
+- [TreeItem] name='Emissão de Etiquetas'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Emissão de Etiquetas', control_type='TreeItem')
+
+- [TreeItem] name='Cartão Transporte - URBS'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cartão Transporte - URBS', control_type='TreeItem')
+
+- [TreeItem] name='Geração de Cadastro de Usuários'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração de Cadastro de Usuários', control_type='TreeItem')
+
+- [TreeItem] name='Compra de Créditos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Compra de Créditos', control_type='TreeItem')
+
+- [TreeItem] name='Cartão Transporte - Metrocard'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cartão Transporte - Metrocard', control_type='TreeItem')
+
+- [TreeItem] name='Geração de Cadastro de Funcionários'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração de Cadastro de Funcionários', control_type='TreeItem')
+
+- [TreeItem] name='Compra de Créditos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Compra de Créditos', control_type='TreeItem')
+
+- [TreeItem] name='Cartão Transporte - RioCard'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cartão Transporte - RioCard', control_type='TreeItem')
+
+- [TreeItem] name='Geração de Cadastro de Usuários'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração de Cadastro de Usuários', control_type='TreeItem')
+
+- [TreeItem] name='Compra de Créditos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Compra de Créditos', control_type='TreeItem')
+
+- [TreeItem] name='Vale Refeição'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Vale Refeição', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de Vales'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de Vales', control_type='TreeItem')
+
+- [TreeItem] name='Vales por Funcionário'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Vales por Funcionário', control_type='TreeItem')
+
+- [TreeItem] name='Fornecimento de Vales'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Fornecimento de Vales', control_type='TreeItem')
+
+- [TreeItem] name='Alteração de Vales Fornecidos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Alteração de Vales Fornecidos', control_type='TreeItem')
+
+- [TreeItem] name='Relação de fornecimento'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de fornecimento', control_type='TreeItem')
+
+- [TreeItem] name='Recibo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Recibo', control_type='TreeItem')
+
+- [TreeItem] name='Relatório para Compra de VR'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatório para Compra de VR', control_type='TreeItem')
+
+- [TreeItem] name='Geração de Arquivo - Sodexo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração de Arquivo - Sodexo', control_type='TreeItem')
+
+- [TreeItem] name='Geração de Arquivo - Visa Vale'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração de Arquivo - Visa Vale', control_type='TreeItem')
+
+- [TreeItem] name='Geração do Arquivo - VR Benefícios'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração do Arquivo - VR Benefícios', control_type='TreeItem')
+
+- [TreeItem] name='Geração do Arquivo - Ticket'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração do Arquivo - Ticket', control_type='TreeItem')
+
+- [TreeItem] name='Plano de Assistência à Saúde'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Plano de Assistência à Saúde', control_type='TreeItem')
+
+- [TreeItem] name='Operadoras de Plano de Saúde'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Operadoras de Plano de Saúde', control_type='TreeItem')
+
+- [TreeItem] name='Planos de Saúde'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Planos de Saúde', control_type='TreeItem')
+
+- [TreeItem] name='Planos por Funcionário'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Planos por Funcionário', control_type='TreeItem')
+
+- [TreeItem] name='Manutenção de Valores'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Manutenção de Valores', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Valores Descontados'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Valores Descontados', control_type='TreeItem')
+
+- [TreeItem] name='Reajuste de Valores'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Reajuste de Valores', control_type='TreeItem')
+
+- [TreeItem] name='Manutenção de Reembolso (DIRF)'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Manutenção de Reembolso (DIRF)', control_type='TreeItem')
+
+- [TreeItem] name='Funcionário'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Funcionário', control_type='TreeItem')
+
+- [TreeItem] name='Dependente'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Dependente', control_type='TreeItem')
+
+- [TreeItem] name='Manutenção de Reembolso (eSocial)'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Manutenção de Reembolso (eSocial)', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro do Prestador de Serviço'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro do Prestador de Serviço', control_type='TreeItem')
+
+- [TreeItem] name='Manutenção de Reembolso - Plano de Saúde de Funcionário e Dependente'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Manutenção de Reembolso - Plano de Saúde de Funcionário e Dependente', control_type='TreeItem')
+
+- [TreeItem] name='Importação'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Importação', control_type='TreeItem')
+
+- [TreeItem] name='Importação da Planilha de Valores'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Importação da Planilha de Valores', control_type='TreeItem')
+
+- [TreeItem] name='Previdência Complementar'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Previdência Complementar', control_type='TreeItem')
+
+- [TreeItem] name='Entidade de Previdência Complementar'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Entidade de Previdência Complementar', control_type='TreeItem')
+
+- [TreeItem] name='Plano Previdenciário Complementar'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Plano Previdenciário Complementar', control_type='TreeItem')
+
+- [TreeItem] name='Planos de Previdência Complementar por Funcionário\Diretor'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Planos de Previdência Complementar por Funcionário\Diretor', control_type='TreeItem')
+
+- [TreeItem] name='Cargos e Salários'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cargos e Salários', control_type='TreeItem')
+
+- [TreeItem] name='Cargos e Salários'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cargos e Salários', control_type='TreeItem')
+
+- [TreeItem] name='Reajuste Salarial'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Reajuste Salarial', control_type='TreeItem')
+
+- [TreeItem] name='Enquadramento de Funcionários'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Enquadramento de Funcionários', control_type='TreeItem')
+
+- [TreeItem] name='Atualização de Funcionários'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Atualização de Funcionários', control_type='TreeItem')
+
+- [TreeItem] name='Listagem de Cargos e Salários'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Listagem de Cargos e Salários', control_type='TreeItem')
+
+- [TreeItem] name='13º Salário'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='13º Salário', control_type='TreeItem')
+
+- [TreeItem] name='Provisão'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Provisão', control_type='TreeItem')
+
+- [TreeItem] name='Cálculo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cálculo', control_type='TreeItem')
+
+- [TreeItem] name='Relatório de provisão'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatório de provisão', control_type='TreeItem')
+
+- [TreeItem] name='Relatório de saldos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatório de saldos', control_type='TreeItem')
+
+- [TreeItem] name='Solicitação de Adiantamento nas férias'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Solicitação de Adiantamento nas férias', control_type='TreeItem')
+
+- [TreeItem] name='Primeira Parcela / Parcela Única 13º Salário'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Primeira Parcela / Parcela Única 13º Salário', control_type='TreeItem')
+
+- [TreeItem] name='Segunda Parcela'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Segunda Parcela', control_type='TreeItem')
+
+- [TreeItem] name='Estorno do Cálculo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Estorno do Cálculo', control_type='TreeItem')
+
+- [TreeItem] name='Digitação para Múltiplos Vínculos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Digitação para Múltiplos Vínculos', control_type='TreeItem')
+
+- [TreeItem] name='Informação de Valores Extras'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Informação de Valores Extras', control_type='TreeItem')
+
+- [TreeItem] name='Memória de Cálculo Individual'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Memória de Cálculo Individual', control_type='TreeItem')
+
+- [TreeItem] name='Memória de Cálculo por Intervalo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Memória de Cálculo por Intervalo', control_type='TreeItem')
+
+- [TreeItem] name='Apuração do INSS'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Apuração do INSS', control_type='TreeItem')
+
+- [TreeItem] name='Retiradas/Pró-labore'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Retiradas/Pró-labore', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro', control_type='TreeItem')
+
+- [TreeItem] name='Diretores'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Diretores', control_type='TreeItem')
+
+- [TreeItem] name='Dependentes'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Dependentes', control_type='TreeItem')
+
+- [TreeItem] name='Eventos Fixos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Eventos Fixos', control_type='TreeItem')
+
+- [TreeItem] name='Movimentação'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Movimentação', control_type='TreeItem')
+
+- [TreeItem] name='Plano de Assistência à Saúde'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Plano de Assistência à Saúde', control_type='TreeItem')
+
+- [TreeItem] name='Operadoras de Plano de Saúde'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Operadoras de Plano de Saúde', control_type='TreeItem')
+
+- [TreeItem] name='Planos de Saúde'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Planos de Saúde', control_type='TreeItem')
+
+- [TreeItem] name='Planos por Diretor'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Planos por Diretor', control_type='TreeItem')
+
+- [TreeItem] name='Manutenção de Valores'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Manutenção de Valores', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Valores Descontados'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Valores Descontados', control_type='TreeItem')
+
+- [TreeItem] name='Reajuste de Valores'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Reajuste de Valores', control_type='TreeItem')
+
+- [TreeItem] name='Retiradas/Pró-labore'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Retiradas/Pró-labore', control_type='TreeItem')
+
+- [TreeItem] name='Cálculo Individual'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cálculo Individual', control_type='TreeItem')
+
+- [TreeItem] name='Cálculo Múltiplo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cálculo Múltiplo', control_type='TreeItem')
+
+- [TreeItem] name='Estorno Múltiplo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Estorno Múltiplo', control_type='TreeItem')
+
+- [TreeItem] name='Digitação para Múltiplos Vínculos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Digitação para Múltiplos Vínculos', control_type='TreeItem')
+
+- [TreeItem] name='Relatórios'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatórios', control_type='TreeItem')
+
+- [TreeItem] name='Emissão de Recibos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Emissão de Recibos', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Retiradas'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Retiradas', control_type='TreeItem')
+
+- [TreeItem] name='Informe de Rendimentos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Informe de Rendimentos', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Salários de Contribuição'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Salários de Contribuição', control_type='TreeItem')
+
+- [TreeItem] name='Declaração de Dependentes para IR'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Declaração de Dependentes para IR', control_type='TreeItem')
+
+- [TreeItem] name='Dependentes'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Dependentes', control_type='TreeItem')
+
+- [TreeItem] name='Eventos Fixos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Eventos Fixos', control_type='TreeItem')
+
+- [TreeItem] name='Autônomos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Autônomos', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de Autônomos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de Autônomos', control_type='TreeItem')
+
+- [TreeItem] name='Plano de Assistência à Saúde'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Plano de Assistência à Saúde', control_type='TreeItem')
+
+- [TreeItem] name='Operadoras de Plano de Saúde'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Operadoras de Plano de Saúde', control_type='TreeItem')
+
+- [TreeItem] name='Planos de Saúde'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Planos de Saúde', control_type='TreeItem')
+
+- [TreeItem] name='Planos por Autônomo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Planos por Autônomo', control_type='TreeItem')
+
+- [TreeItem] name='Manutenção de Valores'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Manutenção de Valores', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Valores Descontados'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Valores Descontados', control_type='TreeItem')
+
+- [TreeItem] name='Reajuste de Valores'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Reajuste de Valores', control_type='TreeItem')
+
+- [TreeItem] name='Digitação para Múltiplos Vínculos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Digitação para Múltiplos Vínculos', control_type='TreeItem')
+
+- [TreeItem] name='Pagamentos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Pagamentos', control_type='TreeItem')
+
+- [TreeItem] name='Pagamentos com Informação de Eventos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Pagamentos com Informação de Eventos', control_type='TreeItem')
+
+- [TreeItem] name='Relatórios'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatórios', control_type='TreeItem')
+
+- [TreeItem] name='Recibos de Pagamentos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Recibos de Pagamentos', control_type='TreeItem')
+
+- [TreeItem] name='Recibos de Pagamentos com Eventos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Recibos de Pagamentos com Eventos', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Pagamentos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Pagamentos', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Pagamentos com Eventos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Pagamentos com Eventos', control_type='TreeItem')
+
+- [TreeItem] name='Informe de Rendimentos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Informe de Rendimentos', control_type='TreeItem')
+
+- [TreeItem] name='Emissão de GPS Individual'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Emissão de GPS Individual', control_type='TreeItem')
+
+- [TreeItem] name='Declaração de Dependentes para IR'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Declaração de Dependentes para IR', control_type='TreeItem')
+
+- [TreeItem] name='Importação'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Importação', control_type='TreeItem')
+
+- [TreeItem] name='Crédito em Conta'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Crédito em Conta', control_type='TreeItem')
+
+- [TreeItem] name='Caixa Econômica Federal'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Caixa Econômica Federal', control_type='TreeItem')
+
+- [TreeItem] name='Caixa Econômica Federal - Padrão SICOV 150'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Caixa Econômica Federal - Padrão SICOV 150', control_type='TreeItem')
+
+- [TreeItem] name='Caixa Econômica Federal - Padrão FEBRABAN 150'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Caixa Econômica Federal - Padrão FEBRABAN 150', control_type='TreeItem')
+
+- [TreeItem] name='Caixa Econômica Federal - Padrão FEBRABAN 240'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Caixa Econômica Federal - Padrão FEBRABAN 240', control_type='TreeItem')
+
+- [TreeItem] name='HSBC'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='HSBC', control_type='TreeItem')
+
+- [TreeItem] name='Crédito em Conta'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Crédito em Conta', control_type='TreeItem')
+
+- [TreeItem] name='Cartão Salário'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cartão Salário', control_type='TreeItem')
+
+- [TreeItem] name='Contra Cheque'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Contra Cheque', control_type='TreeItem')
+
+- [TreeItem] name='Banco do Brasil'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Banco do Brasil', control_type='TreeItem')
+
+- [TreeItem] name='Padrão DEB473'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Padrão DEB473', control_type='TreeItem')
+
+- [TreeItem] name='Padrão CNAB240'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Padrão CNAB240', control_type='TreeItem')
+
+- [TreeItem] name='Geração do BB Contracheque'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração do BB Contracheque', control_type='TreeItem')
+
+- [TreeItem] name='Bradesco'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Bradesco', control_type='TreeItem')
+
+- [TreeItem] name='Crédito em Conta'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Crédito em Conta', control_type='TreeItem')
+
+- [TreeItem] name='Cartão Salário'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cartão Salário', control_type='TreeItem')
+
+- [TreeItem] name='Padrão FEBRABAN 240'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Padrão FEBRABAN 240', control_type='TreeItem')
+
+- [TreeItem] name='Padrão Multipag CNAB 240'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Padrão Multipag CNAB 240', control_type='TreeItem')
+
+- [TreeItem] name='Unibanco'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Unibanco', control_type='TreeItem')
+
+- [TreeItem] name='Padrão CNAB 240'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Padrão CNAB 240', control_type='TreeItem')
+
+- [TreeItem] name='Padrão CNAB 320'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Padrão CNAB 320', control_type='TreeItem')
+
+- [TreeItem] name='Real'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Real', control_type='TreeItem')
+
+- [TreeItem] name='Padrão CNAB 200'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Padrão CNAB 200', control_type='TreeItem')
+
+- [TreeItem] name='Padrão CNAB 240'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Padrão CNAB 240', control_type='TreeItem')
+
+- [TreeItem] name='Contra Cheque'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Contra Cheque', control_type='TreeItem')
+
+- [TreeItem] name='Itaú'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Itaú', control_type='TreeItem')
+
+- [TreeItem] name='Mercantil do Brasil'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Mercantil do Brasil', control_type='TreeItem')
+
+- [TreeItem] name='BANDEPE'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='BANDEPE', control_type='TreeItem')
+
+- [TreeItem] name='Banrisul'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Banrisul', control_type='TreeItem')
+
+- [TreeItem] name='Internet'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Internet', control_type='TreeItem')
+
+- [TreeItem] name='Santander'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Santander', control_type='TreeItem')
+
+- [TreeItem] name='Padrão 240'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Padrão 240', control_type='TreeItem')
+
+- [TreeItem] name='Crédito em Conta'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Crédito em Conta', control_type='TreeItem')
+
+- [TreeItem] name='Cartão Salário'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cartão Salário', control_type='TreeItem')
+
+- [TreeItem] name='Santander - Banespa'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Santander - Banespa', control_type='TreeItem')
+
+- [TreeItem] name='Padrão 240'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Padrão 240', control_type='TreeItem')
+
+- [TreeItem] name='Crédito em Conta'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Crédito em Conta', control_type='TreeItem')
+
+- [TreeItem] name='BankBoston'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='BankBoston', control_type='TreeItem')
+
+- [TreeItem] name='Sudameris'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Sudameris', control_type='TreeItem')
+
+- [TreeItem] name='CitiBank'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='CitiBank', control_type='TreeItem')
+
+- [TreeItem] name='Sicredi'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Sicredi', control_type='TreeItem')
+
+- [TreeItem] name='Banpará'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Banpará', control_type='TreeItem')
+
+- [TreeItem] name='Sicoob'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Sicoob', control_type='TreeItem')
+
+- [TreeItem] name='Banco Inter'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Banco Inter', control_type='TreeItem')
+
+- [TreeItem] name='Padrão FEBRABAN 240'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Padrão FEBRABAN 240', control_type='TreeItem')
+
+- [TreeItem] name='Banco Rendimento'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Banco Rendimento', control_type='TreeItem')
+
+- [TreeItem] name='BSCash'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='BSCash', control_type='TreeItem')
+
+- [TreeItem] name='VIACREDI'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='VIACREDI', control_type='TreeItem')
+
+- [TreeItem] name='Unicred'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Unicred', control_type='TreeItem')
+
+- [TreeItem] name='Cresol'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cresol', control_type='TreeItem')
+
+- [TreeItem] name='BTG Pactual'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='BTG Pactual', control_type='TreeItem')
+
+- [TreeItem] name='Safra'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Safra', control_type='TreeItem')
+
+- [TreeItem] name='Tomadores de serviço'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Tomadores de serviço', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de tomadores'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de tomadores', control_type='TreeItem')
+
+- [TreeItem] name='Cessão de mão de obra'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cessão de mão de obra', control_type='TreeItem')
+
+- [TreeItem] name='Alocação de Funcionários'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Alocação de Funcionários', control_type='TreeItem')
+
+- [TreeItem] name='Folha mensal'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Folha mensal', control_type='TreeItem')
+
+- [TreeItem] name='Valores para SEFIP'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Valores para SEFIP', control_type='TreeItem')
+
+- [TreeItem] name='Geração da SEFIP'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração da SEFIP', control_type='TreeItem')
+
+- [TreeItem] name='Demonstrativo de Valores Compensados no Mês'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Demonstrativo de Valores Compensados no Mês', control_type='TreeItem')
+
+- [TreeItem] name='Demonstrativo de Valores a Compensar'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Demonstrativo de Valores a Compensar', control_type='TreeItem')
+
+- [TreeItem] name='Obras de construção civil'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Obras de construção civil', control_type='TreeItem')
+
+- [TreeItem] name='Rateio por Dias Trabalhados'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Rateio por Dias Trabalhados', control_type='TreeItem')
+
+- [TreeItem] name='Digitação por Obra'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Digitação por Obra', control_type='TreeItem')
+
+- [TreeItem] name='Repetir Rateio Anterior'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Repetir Rateio Anterior', control_type='TreeItem')
+
+- [TreeItem] name='Cálculo do Rateio'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cálculo do Rateio', control_type='TreeItem')
+
+- [TreeItem] name='Alteração de processamento'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Alteração de processamento', control_type='TreeItem')
+
+- [TreeItem] name='Folha mensal'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Folha mensal', control_type='TreeItem')
+
+- [TreeItem] name='Consulta Holerite'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Consulta Holerite', control_type='TreeItem')
+
+- [TreeItem] name='Valores para SEFIP'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Valores para SEFIP', control_type='TreeItem')
+
+- [TreeItem] name='Geração da SEFIP'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração da SEFIP', control_type='TreeItem')
+
+- [TreeItem] name='Demonstrativo de Valores Compensados no Mês'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Demonstrativo de Valores Compensados no Mês', control_type='TreeItem')
+
+- [TreeItem] name='Demonstrativo de Valores a Compensar'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Demonstrativo de Valores a Compensar', control_type='TreeItem')
+
+- [TreeItem] name='Compensação/Dedução de INSS'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Compensação/Dedução de INSS', control_type='TreeItem')
+
+- [TreeItem] name='Retenção de INSS s/ NF'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Retenção de INSS s/ NF', control_type='TreeItem')
+
+- [TreeItem] name='Registro Informatizado de Empregados'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Registro Informatizado de Empregados', control_type='TreeItem')
+
+- [TreeItem] name='Ficha de registro de empregado'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Ficha de registro de empregado', control_type='TreeItem')
+
+- [TreeItem] name='Saúde e Segurança do Trabalho - SST'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Saúde e Segurança do Trabalho - SST', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de Responsáveis'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de Responsáveis', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de Médicos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de Médicos', control_type='TreeItem')
+
+- [TreeItem] name='Responsáveis pelo Registro Ambiental'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Responsáveis pelo Registro Ambiental', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de EPI'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de EPI', control_type='TreeItem')
+
+- [TreeItem] name='Configuração Envio SST/eSocial'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Configuração Envio SST/eSocial', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de Ambientes de Trabalho'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de Ambientes de Trabalho', control_type='TreeItem')
+
+- [TreeItem] name='Condições Ambientais de Trabalho'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Condições Ambientais de Trabalho', control_type='TreeItem')
+
+- [TreeItem] name='Comunicado de Acidente de Trabalho - CAT'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Comunicado de Acidente de Trabalho - CAT', control_type='TreeItem')
+
+- [TreeItem] name='Atestado de Saúde Ocupacional - ASO'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Atestado de Saúde Ocupacional - ASO', control_type='TreeItem')
+
+- [TreeItem] name='Registro do ASO'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Registro do ASO', control_type='TreeItem')
+
+- [TreeItem] name='Controle de Vencimentos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Controle de Vencimentos', control_type='TreeItem')
+
+- [TreeItem] name='Exame Toxicológico'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Exame Toxicológico', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de Médicos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de Médicos', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de Laboratórios Responsáveis'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de Laboratórios Responsáveis', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de Exames Toxicológicos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de Exames Toxicológicos', control_type='TreeItem')
+
+- [TreeItem] name='IOB Abordo/SST eSocial'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='IOB Abordo/SST eSocial', control_type='TreeItem')
+
+- [TreeItem] name='Convite Integração SST eSocial'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Convite Integração SST eSocial', control_type='TreeItem')
+
+- [TreeItem] name='Importação IOB Abordo/SST'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Importação IOB Abordo/SST', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Atestados'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Atestados', control_type='TreeItem')
+
+- [TreeItem] name='Perfil Profissiográfico Previdenciário'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Perfil Profissiográfico Previdenciário', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de Responsáveis'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de Responsáveis', control_type='TreeItem')
+
+- [TreeItem] name='Registro Ambiental e Monitoração Biológica'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Registro Ambiental e Monitoração Biológica', control_type='TreeItem')
+
+- [TreeItem] name='Relatório'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatório', control_type='TreeItem')
+
+- [TreeItem] name='Administração de salários'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Administração de salários', control_type='TreeItem')
+
+- [TreeItem] name='Reajuste salarial'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Reajuste salarial', control_type='TreeItem')
+
+- [TreeItem] name='Cálculo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cálculo', control_type='TreeItem')
+
+- [TreeItem] name='Estorno'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Estorno', control_type='TreeItem')
+
+- [TreeItem] name='Complemento salarial'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Complemento salarial', control_type='TreeItem')
+
+- [TreeItem] name='Parâmetros'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Parâmetros', control_type='TreeItem')
+
+- [TreeItem] name='Salários retroativos para complemento'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Salários retroativos para complemento', control_type='TreeItem')
+
+- [TreeItem] name='Cálculo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cálculo', control_type='TreeItem')
+
+- [TreeItem] name='Memória de cálculo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Memória de cálculo', control_type='TreeItem')
+
+- [TreeItem] name='Geração da SEFIP'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração da SEFIP', control_type='TreeItem')
+
+- [TreeItem] name='Alteração de processamento'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Alteração de processamento', control_type='TreeItem')
+
+- [TreeItem] name='Relatórios'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatórios', control_type='TreeItem')
+
+- [TreeItem] name='Relação por faixa salarial'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação por faixa salarial', control_type='TreeItem')
+
+- [TreeItem] name='Reajustes salariais'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Reajustes salariais', control_type='TreeItem')
+
+- [TreeItem] name='Projeção salarial'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Projeção salarial', control_type='TreeItem')
+
+- [TreeItem] name='Estimativa de custos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Estimativa de custos', control_type='TreeItem')
+
+- [TreeItem] name='Receita bruta - desoneração'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Receita bruta - desoneração', control_type='TreeItem')
+
+- [TreeItem] name='SEFIP'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='SEFIP', control_type='TreeItem')
+
+- [TreeItem] name='Geração Individual'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração Individual', control_type='TreeItem')
+
+- [TreeItem] name='Informações Extras'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Informações Extras', control_type='TreeItem')
+
+- [TreeItem] name='Alteração do Arquivo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Alteração do Arquivo', control_type='TreeItem')
+
+- [TreeItem] name='Importação'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Importação', control_type='TreeItem')
+
+- [TreeItem] name='Informações'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Informações', control_type='TreeItem')
+
+- [TreeItem] name='Manutenção'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Manutenção', control_type='TreeItem')
+
+- [TreeItem] name='Regravação'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Regravação', control_type='TreeItem')
+
+- [TreeItem] name='CAGED'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='CAGED', control_type='TreeItem')
+
+- [TreeItem] name='Geração Individual'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração Individual', control_type='TreeItem')
+
+- [TreeItem] name='Integração Contábil'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Integração Contábil', control_type='TreeItem')
+
+- [TreeItem] name='Planilha'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Planilha', control_type='TreeItem')
+
+- [TreeItem] name='Geração de Lote Contábil'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração de Lote Contábil', control_type='TreeItem')
+
+- [TreeItem] name='Geração de Lote Contábil - Agrupado/ Individual'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração de Lote Contábil - Agrupado/ Individual', control_type='TreeItem')
+
+- [TreeItem] name='Arquivo Texto'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Arquivo Texto', control_type='TreeItem')
+
+- [TreeItem] name='Arquivo de Lote Contábil (Remoto)'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Arquivo de Lote Contábil (Remoto)', control_type='TreeItem')
+
+- [TreeItem] name='Integração Contábil X3/SAP'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Integração Contábil X3/SAP', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de Contas por Evento'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de Contas por Evento', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de Contas para Apropriação de Impostos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de Contas para Apropriação de Impostos', control_type='TreeItem')
+
+- [TreeItem] name='Vínculo de Centro de Custo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Vínculo de Centro de Custo', control_type='TreeItem')
+
+- [TreeItem] name='Vínculo de Colaborador'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Vínculo de Colaborador', control_type='TreeItem')
+
+- [TreeItem] name='Planilha Contábil'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Planilha Contábil', control_type='TreeItem')
+
+- [TreeItem] name='Geração de Arquivo - Integração Contábil'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração de Arquivo - Integração Contábil', control_type='TreeItem')
+
+- [TreeItem] name='Rotinas Anuais'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Rotinas Anuais', control_type='TreeItem')
+
+- [TreeItem] name='Manutenção de RAIS/DIRF'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Manutenção de RAIS/DIRF', control_type='TreeItem')
+
+- [TreeItem] name='Manutenção de SCP para DIRF'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Manutenção de SCP para DIRF', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de SCP'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de SCP', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de Sócios da SCP'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de Sócios da SCP', control_type='TreeItem')
+
+- [TreeItem] name='Lançamento de Lucros e Dividendos do Sócio'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Lançamento de Lucros e Dividendos do Sócio', control_type='TreeItem')
+
+- [TreeItem] name='Relatório para Conferência da RAIS'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatório para Conferência da RAIS', control_type='TreeItem')
+
+- [TreeItem] name='Geração de Arquivo da RAIS'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração de Arquivo da RAIS', control_type='TreeItem')
+
+- [TreeItem] name='Geração de Arquivo da DIRF'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração de Arquivo da DIRF', control_type='TreeItem')
+
+- [TreeItem] name='Informe de Rendimentos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Informe de Rendimentos', control_type='TreeItem')
+
+- [TreeItem] name='Lançamentos Avulsos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Lançamentos Avulsos', control_type='TreeItem')
+
+- [TreeItem] name='Tipo de Lançamento'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Tipo de Lançamento', control_type='TreeItem')
+
+- [TreeItem] name='Lançamentos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Lançamentos', control_type='TreeItem')
+
+- [TreeItem] name='Resumo de Lançamentos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Resumo de Lançamentos', control_type='TreeItem')
+
+- [TreeItem] name='Extrato por Funcionário'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Extrato por Funcionário', control_type='TreeItem')
+
+- [TreeItem] name='Empréstimo crédito do trabalhador'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Empréstimo crédito do trabalhador', control_type='TreeItem')
+
+- [TreeItem] name='Contrato Inclusão/Consulta'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Contrato Inclusão/Consulta', control_type='TreeItem')
+
+- [TreeItem] name='Importação de contratos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Importação de contratos', control_type='TreeItem')
+
+- [TreeItem] name='Relação de contratos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de contratos', control_type='TreeItem')
+
+- [TreeItem] name='Fechamento Mensal'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Fechamento Mensal', control_type='TreeItem')
+
+- [TreeItem] name='Processamentos Agrupados'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Processamentos Agrupados', control_type='TreeItem')
+
+- [TreeItem] name='Painel de controle de execução de rotinas'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Painel de controle de execução de rotinas', control_type='TreeItem')
+
+- [TreeItem] name='Atividades Concomitantes'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Atividades Concomitantes', control_type='TreeItem')
+
+- [TreeItem] name='Alocação de Funcionários'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Alocação de Funcionários', control_type='TreeItem')
+
+- [TreeItem] name='Alocação de Diretores'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Alocação de Diretores', control_type='TreeItem')
+
+- [TreeItem] name='Valor de Receitas'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Valor de Receitas', control_type='TreeItem')
+
+- [TreeItem] name='Produção Rural - Pessoa Física'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Produção Rural - Pessoa Física', control_type='TreeItem')
+
+- [TreeItem] name='Aquisição de Produção Rural'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Aquisição de Produção Rural', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de Produtores'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de Produtores', control_type='TreeItem')
+
+- [TreeItem] name='Lançamento de Aquisição'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Lançamento de Aquisição', control_type='TreeItem')
+
+- [TreeItem] name='Comercialização de Produção Rural'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Comercialização de Produção Rural', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de Adquirentes'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de Adquirentes', control_type='TreeItem')
+
+- [TreeItem] name='Lançamento da Comercialização'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Lançamento da Comercialização', control_type='TreeItem')
+
+- [TreeItem] name='Consultas'  automation_id=''  class=''  enabled
+  bounds: (1965,-249)-(2016,-233) 51x16
+  dica seletor: .child_window(name='Consultas', control_type='TreeItem')
+
+- [TreeItem] name='Holerite'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Holerite', control_type='TreeItem')
+
+- [TreeItem] name='Histórico dos Tributos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Histórico dos Tributos', control_type='TreeItem')
+
+- [TreeItem] name='Tributos'  automation_id=''  class=''  enabled
+  bounds: (1965,-233)-(2008,-217) 43x16
+  dica seletor: .child_window(name='Tributos', control_type='TreeItem')
+
+- [TreeItem] name='Compensação/Dedução de INSS'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Compensação/Dedução de INSS', control_type='TreeItem')
+
+- [TreeItem] name='Apuração Mensal'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Apuração Mensal', control_type='TreeItem')
+
+- [TreeItem] name='Apuração do INSS do 13º Salário'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Apuração do INSS do 13º Salário', control_type='TreeItem')
+
+- [TreeItem] name='Resumo de Débitos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Resumo de Débitos', control_type='TreeItem')
+
+- [TreeItem] name='Memória de Cálculo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Memória de Cálculo', control_type='TreeItem')
+
+- [TreeItem] name='Guias de Recolhimento'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Guias de Recolhimento', control_type='TreeItem')
+
+- [TreeItem] name='Tributos Mensais'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Tributos Mensais', control_type='TreeItem')
+
+- [TreeItem] name='DARF para Recolhimentos Diversos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='DARF para Recolhimentos Diversos', control_type='TreeItem')
+
+- [TreeItem] name='GPS de Retenção'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='GPS de Retenção', control_type='TreeItem')
+
+- [TreeItem] name='GPS para Recolhimentos Diversos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='GPS para Recolhimentos Diversos', control_type='TreeItem')
+
+- [TreeItem] name='Manutenção de Tributos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Manutenção de Tributos', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Tributos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Tributos', control_type='TreeItem')
+
+- [TreeItem] name='Pagamento de Guias'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Pagamento de Guias', control_type='TreeItem')
+
+- [TreeItem] name='eSocial'  automation_id=''  class=''  enabled
+  bounds: (1965,-217)-(2002,-201) 37x16
+  dica seletor: .child_window(name='eSocial', control_type='TreeItem')
+
+- [TreeItem] name='IOB Diagnóstico eSocial'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='IOB Diagnóstico eSocial', control_type='TreeItem')
+
+- [TreeItem] name='IOB eSocial online'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='IOB eSocial online', control_type='TreeItem')
+
+- [TreeItem] name='Validação em Ambiente de Testes'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Validação em Ambiente de Testes', control_type='TreeItem')
+
+- [TreeItem] name='Geração da Carga Inicial (Empregador e Tabelas)'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração da Carga Inicial (Empregador e Tabelas)', control_type='TreeItem')
+
+- [TreeItem] name='Geração da Carga Inicial (Trabalhadores)'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração da Carga Inicial (Trabalhadores)', control_type='TreeItem')
+
+- [TreeItem] name='Transmissão de Não Periódicos e Tabelas'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Transmissão de Não Periódicos e Tabelas', control_type='TreeItem')
+
+- [TreeItem] name='Movimento eSocial'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Movimento eSocial', control_type='TreeItem')
+
+- [TreeItem] name='Geração e Acompanhamento de Periódicos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração e Acompanhamento de Periódicos', control_type='TreeItem')
+
+- [TreeItem] name='Manutenção de IRRF complementar anual'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Manutenção de IRRF complementar anual', control_type='TreeItem')
+
+- [TreeItem] name='Diagnóstico de Pendências'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Diagnóstico de Pendências', control_type='TreeItem')
+
+- [TreeItem] name='Fechamento de Movimento'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Fechamento de Movimento', control_type='TreeItem')
+
+- [TreeItem] name='Reabertura de Movimento'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Reabertura de Movimento', control_type='TreeItem')
+
+- [TreeItem] name='Consulta de Recibos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Consulta de Recibos', control_type='TreeItem')
+
+- [TreeItem] name='Conferência de tributos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Conferência de tributos', control_type='TreeItem')
+
+- [TreeItem] name='Trabalhadores'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Trabalhadores', control_type='TreeItem')
+
+- [TreeItem] name='Relatório de Conferência para FGTS Digital'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatório de Conferência para FGTS Digital', control_type='TreeItem')
+
+- [TreeItem] name='Empresa'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Empresa', control_type='TreeItem')
+
+- [TreeItem] name='Consulta Situação de Envio das Empresas'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Consulta Situação de Envio das Empresas', control_type='TreeItem')
+
+- [TreeItem] name='Rotinas Auxiliares'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Rotinas Auxiliares', control_type='TreeItem')
+
+- [TreeItem] name='Relacionamento de Incidência de IRRF para eSocial'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relacionamento de Incidência de IRRF para eSocial', control_type='TreeItem')
+
+- [TreeItem] name='Manutenção Matrícula e Recibos e-Social'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Manutenção Matrícula e Recibos e-Social', control_type='TreeItem')
+
+- [TreeItem] name='Inativar Funções em Lote'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Inativar Funções em Lote', control_type='TreeItem')
+
+- [TreeItem] name='Excluir Empresa do Ambiente de Testes'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Excluir Empresa do Ambiente de Testes', control_type='TreeItem')
+
+- [TreeItem] name='Ajuste de Demonstrativos dos Eventos Periódicos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Ajuste de Demonstrativos dos Eventos Periódicos', control_type='TreeItem')
+
+- [TreeItem] name='Relatório de Empresas - Grupos 3 e 4'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatório de Empresas - Grupos 3 e 4', control_type='TreeItem')
+
+- [TreeItem] name='Exportação de XML'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Exportação de XML', control_type='TreeItem')
+
+- [TreeItem] name='Log de Transmissão do eSocial'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Log de Transmissão do eSocial', control_type='TreeItem')
+
+- [TreeItem] name='Integrações'  automation_id=''  class=''  enabled
+  bounds: (1965,-201)-(2027,-185) 62x16
+  dica seletor: .child_window(name='Integrações', control_type='TreeItem')
+
+- [TreeItem] name='Integração IOB Ponto'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Integração IOB Ponto', control_type='TreeItem')
+
+- [TreeItem] name='Cadastrar token'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastrar token', control_type='TreeItem')
+
+- [TreeItem] name='Integração de Cadastros'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Integração de Cadastros', control_type='TreeItem')
+
+- [TreeItem] name='Importar Arquivo de Fechamento de Ponto'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Importar Arquivo de Fechamento de Ponto', control_type='TreeItem')
+
+- [TreeItem] name='Integração Pontomais'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Integração Pontomais', control_type='TreeItem')
+
+- [TreeItem] name='Cadastrar Token'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastrar Token', control_type='TreeItem')
+
+- [TreeItem] name='Sincronizar Dados'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Sincronizar Dados', control_type='TreeItem')
+
+- [TreeItem] name='Importar Arquivo de Fechamento do Ponto'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Importar Arquivo de Fechamento do Ponto', control_type='TreeItem')
+
+- [TreeItem] name='Integração com Swood'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Integração com Swood', control_type='TreeItem')
+
+- [TreeItem] name='Gerar Dados Cadastrais'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Gerar Dados Cadastrais', control_type='TreeItem')
+
+- [TreeItem] name='Integração com IOB Abordo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Integração com IOB Abordo', control_type='TreeItem')
+
+- [TreeItem] name='IOB Plataforma Contábil'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='IOB Plataforma Contábil', control_type='TreeItem')
+
+- [TreeItem] name='Solicitações'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Solicitações', control_type='TreeItem')
+
+- [TreeItem] name='Publicar'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Publicar', control_type='TreeItem')
+
+- [TreeItem] name='Utilitários'  automation_id=''  class=''  enabled
+  bounds: (1965,-185)-(2013,-169) 48x16
+  dica seletor: .child_window(name='Utilitários', control_type='TreeItem')
+
+- [TreeItem] name='Alteração de processamentos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Alteração de processamentos', control_type='TreeItem')
+
+- [TreeItem] name='Transferência de Funcionário'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Transferência de Funcionário', control_type='TreeItem')
+
+- [TreeItem] name='Transferência entre Estabelecimentos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Transferência entre Estabelecimentos', control_type='TreeItem')
+
+- [TreeItem] name='Transferência entre Empresas'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Transferência entre Empresas', control_type='TreeItem')
+
+- [TreeItem] name='Estorno de Transferência entre Empresas'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Estorno de Transferência entre Empresas', control_type='TreeItem')
+
+- [TreeItem] name='Informação de Eventos Retroativos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Informação de Eventos Retroativos', control_type='TreeItem')
+
+- [TreeItem] name='Seleção de Eventos para Recibo à Parte'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Seleção de Eventos para Recibo à Parte', control_type='TreeItem')
+
+- [TreeItem] name='Importação de Funcionários/Bases de Cálculo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Importação de Funcionários/Bases de Cálculo', control_type='TreeItem')
+
+- [TreeItem] name='Geração de Calendário'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração de Calendário', control_type='TreeItem')
+
+- [TreeItem] name='Exportação para Controle de Custos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Exportação para Controle de Custos', control_type='TreeItem')
+
+- [TreeItem] name='Geração de Arquivo Texto de Holerite'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração de Arquivo Texto de Holerite', control_type='TreeItem')
+
+- [TreeItem] name='Geração de Arquivo do MANAD'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração de Arquivo do MANAD', control_type='TreeItem')
+
+- [TreeItem] name='Geração do Arquivo de Coordigualdade'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração do Arquivo de Coordigualdade', control_type='TreeItem')
+
+- [TreeItem] name='Manutenção de Valores Fixos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Manutenção de Valores Fixos', control_type='TreeItem')
+
+- [TreeItem] name='Alteração Múltipla'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Alteração Múltipla', control_type='TreeItem')
+
+- [TreeItem] name='Alteração de Vínculo Sindical'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Alteração de Vínculo Sindical', control_type='TreeItem')
+
+- [TreeItem] name='Alteração da Situação da Contribuição Sindical'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Alteração da Situação da Contribuição Sindical', control_type='TreeItem')
+
+- [TreeItem] name='Alteração Múltipla do Tipo de Cálculo de IRRF'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Alteração Múltipla do Tipo de Cálculo de IRRF', control_type='TreeItem')
+
+- [TreeItem] name='Rotinas Específicas'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Rotinas Específicas', control_type='TreeItem')
+
+- [TreeItem] name='Comprovante de Pagamentos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Comprovante de Pagamentos', control_type='TreeItem')
+
+- [TreeItem] name='Exportação para E-Contábil'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Exportação para E-Contábil', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de Empresa'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de Empresa', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de Funcionário'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de Funcionário', control_type='TreeItem')
+
+- [TreeItem] name='Geração de Arquivo - Paraná Previdência'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração de Arquivo - Paraná Previdência', control_type='TreeItem')
+
+- [TreeItem] name='Guias de Recolhimento (versão Antiga)'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Guias de Recolhimento (versão Antiga)', control_type='TreeItem')
+
+- [TreeItem] name='GPS'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='GPS', control_type='TreeItem')
+
+- [TreeItem] name='DARF do IRRF'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='DARF do IRRF', control_type='TreeItem')
+
+- [TreeItem] name='DARF do IRRF - Funcionários'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='DARF do IRRF - Funcionários', control_type='TreeItem')
+
+- [TreeItem] name='DARF do IRRF - Diretores'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='DARF do IRRF - Diretores', control_type='TreeItem')
+
+- [TreeItem] name='DARF do IRRF - Autônomos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='DARF do IRRF - Autônomos', control_type='TreeItem')
+
+- [TreeItem] name='DARF do PIS'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='DARF do PIS', control_type='TreeItem')
+
+- [TreeItem] name='Exportação Contábil para Sisdia'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Exportação Contábil para Sisdia', control_type='TreeItem')
+
+- [TreeItem] name='Informações Complementares para TCE/RS'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Informações Complementares para TCE/RS', control_type='TreeItem')
+
+- [TreeItem] name='Memória de Cálculo de Complemento Salarial (Antiga)'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Memória de Cálculo de Complemento Salarial (Antiga)', control_type='TreeItem')
+
+- [TreeItem] name='Integração Contábil CM'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Integração Contábil CM', control_type='TreeItem')
+
+- [TreeItem] name='Estorno do Movimento da Folha Mensal'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Estorno do Movimento da Folha Mensal', control_type='TreeItem')
+
+- [TreeItem] name='Estorno do Cálculo da Folha Mensal'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Estorno do Cálculo da Folha Mensal', control_type='TreeItem')
+
+- [TreeItem] name='Estorno do Cálculo da Apuração Mensal'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Estorno do Cálculo da Apuração Mensal', control_type='TreeItem')
+
+- [TreeItem] name='Envio de Relatórios para o Trabalhador'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Envio de Relatórios para o Trabalhador', control_type='TreeItem')
+
+- [TreeItem] name='Holerite'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Holerite', control_type='TreeItem')
+
+- [TreeItem] name='Consulta Status de Envio de Holerite'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Consulta Status de Envio de Holerite', control_type='TreeItem')
+
+- [TreeItem] name='Informe de Rendimentos - Funcionários'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Informe de Rendimentos - Funcionários', control_type='TreeItem')
+
+- [TreeItem] name='Informe de Rendimentos - Diretores'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Informe de Rendimentos - Diretores', control_type='TreeItem')
+
+- [TreeItem] name='Informe de Rendimentos - Autônomos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Informe de Rendimentos - Autônomos', control_type='TreeItem')
+
+- [TreeItem] name='Qualificação Cadastral'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Qualificação Cadastral', control_type='TreeItem')
+
+- [TreeItem] name='Arquivo de Remessa'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Arquivo de Remessa', control_type='TreeItem')
+
+- [TreeItem] name='Arquivo de Retorno'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Arquivo de Retorno', control_type='TreeItem')
+
+- [TreeItem] name='Arquivo de Cadastramento PIS/NIS'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Arquivo de Cadastramento PIS/NIS', control_type='TreeItem')
+
+- [TreeItem] name='Geração de Arquivo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geração de Arquivo', control_type='TreeItem')
+
+- [TreeItem] name='Consulta Retorno de Arquivo'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Consulta Retorno de Arquivo', control_type='TreeItem')
+
+- [TreeItem] name='Arquivo Requerimento de Bolsa Qualificação'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Arquivo Requerimento de Bolsa Qualificação', control_type='TreeItem')
+
+- [TreeItem] name='Rotinas Anteriores - SST'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Rotinas Anteriores - SST', control_type='TreeItem')
+
+- [TreeItem] name='Comunicação de Acidente de Trabalho'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Comunicação de Acidente de Trabalho', control_type='TreeItem')
+
+- [TreeItem] name='Manutenção'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Manutenção', control_type='TreeItem')
+
+- [TreeItem] name='Emissão do CAT'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Emissão do CAT', control_type='TreeItem')
+
+- [TreeItem] name='Relação de CATs Emitidos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de CATs Emitidos', control_type='TreeItem')
+
+- [TreeItem] name='Agentes Nocivos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Agentes Nocivos', control_type='TreeItem')
+
+- [TreeItem] name='Exame Toxicológico (Motoristas)'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Exame Toxicológico (Motoristas)', control_type='TreeItem')
+
+- [TreeItem] name='Calculadora'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Calculadora', control_type='TreeItem')
+
+- [TreeItem] name='Relatórios'  automation_id=''  class=''  enabled
+  bounds: (1965,-169)-(2017,-153) 52x16
+  dica seletor: .child_window(name='Relatórios', control_type='TreeItem')
+
+- [TreeItem] name='Funcionários'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Funcionários', control_type='TreeItem')
+
+- [TreeItem] name='Admissionais'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Admissionais', control_type='TreeItem')
+
+- [TreeItem] name='Contrato de Experiência'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Contrato de Experiência', control_type='TreeItem')
+
+- [TreeItem] name='Contrato de Trabalho Temporário / por Prazo Determinado'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Contrato de Trabalho Temporário / por Prazo Determinado', control_type='TreeItem')
+
+- [TreeItem] name='Contrato de Trabalho - Aprendiz'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Contrato de Trabalho - Aprendiz', control_type='TreeItem')
+
+- [TreeItem] name='Acordo de Compensação'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Acordo de Compensação', control_type='TreeItem')
+
+- [TreeItem] name='Acordo de Prorrogação'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Acordo de Prorrogação', control_type='TreeItem')
+
+- [TreeItem] name='Recibo de Entrega de CTPS'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Recibo de Entrega de CTPS', control_type='TreeItem')
+
+- [TreeItem] name='Declaração de Salário Família e IRRF'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Declaração de Salário Família e IRRF', control_type='TreeItem')
+
+- [TreeItem] name='Solicitação de Vale Transporte'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Solicitação de Vale Transporte', control_type='TreeItem')
+
+- [TreeItem] name='Formulário de Cadastro'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Formulário de Cadastro', control_type='TreeItem')
+
+- [TreeItem] name='Cadastramento no PIS/NIS'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastramento no PIS/NIS', control_type='TreeItem')
+
+- [TreeItem] name='Autorização de Descontos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Autorização de Descontos', control_type='TreeItem')
+
+- [TreeItem] name='Cadastro de Funcionário'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cadastro de Funcionário', control_type='TreeItem')
+
+- [TreeItem] name='Lotação Organizacional'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Lotação Organizacional', control_type='TreeItem')
+
+- [TreeItem] name='Controle de Contratos de Experiência'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Controle de Contratos de Experiência', control_type='TreeItem')
+
+- [TreeItem] name='Controle de Contratos Temporários'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Controle de Contratos Temporários', control_type='TreeItem')
+
+- [TreeItem] name='Controle de Exames Médicos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Controle de Exames Médicos', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Aniversariantes'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Aniversariantes', control_type='TreeItem')
+
+- [TreeItem] name='Relatório Especial'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatório Especial', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Horas Extras'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Horas Extras', control_type='TreeItem')
+
+- [TreeItem] name='Ficha Financeira'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Ficha Financeira', control_type='TreeItem')
+
+- [TreeItem] name='Folha de Ponto'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Folha de Ponto', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Salários de Contribuição'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Salários de Contribuição', control_type='TreeItem')
+
+- [TreeItem] name='Requerimento de Benefício por Incapacidade'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Requerimento de Benefício por Incapacidade', control_type='TreeItem')
+
+- [TreeItem] name='Alerta de Vencimentos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Alerta de Vencimentos', control_type='TreeItem')
+
+- [TreeItem] name='Tempo de Função'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Tempo de Função', control_type='TreeItem')
+
+- [TreeItem] name='Geral'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Geral', control_type='TreeItem')
+
+- [TreeItem] name='Funcionários em Experiência'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Funcionários em Experiência', control_type='TreeItem')
+
+- [TreeItem] name='Relação por Faixa Salarial'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação por Faixa Salarial', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Dependentes'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Dependentes', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Reajustes Salariais'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Reajustes Salariais', control_type='TreeItem')
+
+- [TreeItem] name='Listas de Entrega'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Listas de Entrega', control_type='TreeItem')
+
+- [TreeItem] name='Advertência Disciplinar / Suspensão Disciplinar'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Advertência Disciplinar / Suspensão Disciplinar', control_type='TreeItem')
+
+- [TreeItem] name='Projeção Salarial'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Projeção Salarial', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Valores Fixos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Valores Fixos', control_type='TreeItem')
+
+- [TreeItem] name='Textos Diversos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Textos Diversos', control_type='TreeItem')
+
+- [TreeItem] name='Memória de Cálculo de Salário Maternidade'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Memória de Cálculo de Salário Maternidade', control_type='TreeItem')
+
+- [TreeItem] name='Ficha de Conferência / Alteração de Dados Cadastrais'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Ficha de Conferência / Alteração de Dados Cadastrais', control_type='TreeItem')
+
+- [TreeItem] name='Mensais'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Mensais', control_type='TreeItem')
+
+- [TreeItem] name='Holerite'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Holerite', control_type='TreeItem')
+
+- [TreeItem] name='Folha mensal'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Folha mensal', control_type='TreeItem')
+
+- [TreeItem] name='Resumo da folha mensal'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Resumo da folha mensal', control_type='TreeItem')
+
+- [TreeItem] name='Memória de Cálculo do INSS'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Memória de Cálculo do INSS', control_type='TreeItem')
+
+- [TreeItem] name='Demonstrativo de valores - SEFIP'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Demonstrativo de valores - SEFIP', control_type='TreeItem')
+
+- [TreeItem] name='Demonstrativo para o Simples Nacional'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Demonstrativo para o Simples Nacional', control_type='TreeItem')
+
+- [TreeItem] name='Demonstrativo para a DIRBI - Desoneração'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Demonstrativo para a DIRBI - Desoneração', control_type='TreeItem')
+
+- [TreeItem] name='Relação de IRRF'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de IRRF', control_type='TreeItem')
+
+- [TreeItem] name='Relação para Crédito em Conta'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação para Crédito em Conta', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Líquidos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Líquidos', control_type='TreeItem')
+
+- [TreeItem] name='Mapa de Troco'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Mapa de Troco', control_type='TreeItem')
+
+- [TreeItem] name='Cheques'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cheques', control_type='TreeItem')
+
+- [TreeItem] name='Emissão de Cheques'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Emissão de Cheques', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Cheques Emitidos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Cheques Emitidos', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Eventos no Período'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Eventos no Período', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Horas Extras do Mês'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Horas Extras do Mês', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Descontos Sindicais'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Descontos Sindicais', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Salário Maternidade/Paternidade'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Salário Maternidade/Paternidade', control_type='TreeItem')
+
+- [TreeItem] name='Relação de Admitidos e Demitidos'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relação de Admitidos e Demitidos', control_type='TreeItem')
+
+- [TreeItem] name='Relatório para Depósito a Pensionistas'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Relatório para Depósito a Pensionistas', control_type='TreeItem')
+
+- [TreeItem] name='Custo de Vale Transporte'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Custo de Vale Transporte', control_type='TreeItem')
+
+- [TreeItem] name='Custo de Vale Refeição'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Custo de Vale Refeição', control_type='TreeItem')
+
+- [TreeItem] name='Quadro de Horário de Trabalho'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Quadro de Horário de Trabalho', control_type='TreeItem')
+
+- [TreeItem] name='Etiquetas'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Etiquetas', control_type='TreeItem')
+
+- [TreeItem] name='Cartão Ponto Modo Gráfico'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cartão Ponto Modo Gráfico', control_type='TreeItem')
+
+- [TreeItem] name='Cartão Ponto Modo Texto'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cartão Ponto Modo Texto', control_type='TreeItem')
+
+- [TreeItem] name='Endereçamento Modo Gráfico'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Endereçamento Modo Gráfico', control_type='TreeItem')
+
+- [TreeItem] name='Reajuste Salarial'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Reajuste Salarial', control_type='TreeItem')
+
+- [TreeItem] name='Férias'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Férias', control_type='TreeItem')
+
+- [TreeItem] name='Registro de Empregados'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Registro de Empregados', control_type='TreeItem')
+
+- [TreeItem] name='Contrato de Experiência'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Contrato de Experiência', control_type='TreeItem')
+
+- [TreeItem] name='Compensações de INSS'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Compensações de INSS', control_type='TreeItem')
+
+- [TreeItem] name='Demonstrativo de Valores Compensados no Mês'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Demonstrativo de Valores Compensados no Mês', control_type='TreeItem')
+
+- [TreeItem] name='Demonstrativo de Valores a Compensar'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Demonstrativo de Valores a Compensar', control_type='TreeItem')
+
+- [TreeItem] name='Empresas'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Empresas', control_type='TreeItem')
+
+- [TreeItem] name='Histórico RAT/FAP'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Histórico RAT/FAP', control_type='TreeItem')
+
+- [TreeItem] name='Abrir Relatórios'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Abrir Relatórios', control_type='TreeItem')
+
+- [TreeItem] name='Janela'  automation_id=''  class=''  enabled
+  bounds: (1965,-153)-(2000,-137) 35x16
+  dica seletor: .child_window(name='Janela', control_type='TreeItem')
+
+- [TreeItem] name='Cascata'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Cascata', control_type='TreeItem')
+
+- [TreeItem] name='Lado a Lado'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Lado a Lado', control_type='TreeItem')
+
+- [TreeItem] name='Fechar Todas'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Fechar Todas', control_type='TreeItem')
+
+- [TreeItem] name='Ajuda'  automation_id=''  class=''  enabled
+  bounds: (1965,-137)-(1997,-121) 32x16
+  dica seletor: .child_window(name='Ajuda', control_type='TreeItem')
+
+- [TreeItem] name='Ajuda'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Ajuda', control_type='TreeItem')
+
+- [TreeItem] name='Acesso ao Suporte'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Acesso ao Suporte', control_type='TreeItem')
+
+- [TreeItem] name='Suporte On-Line'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Suporte On-Line', control_type='TreeItem')
+
+- [TreeItem] name='Suporte Remoto'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Suporte Remoto', control_type='TreeItem')
+
+- [TreeItem] name='Sobre'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Sobre', control_type='TreeItem')
+
+- [TreeItem] name='Aviso de privacidade'  automation_id=''  class=''  enabled
+  bounds: (0,0)-(0,0) 0x0
+  dica seletor: .child_window(name='Aviso de privacidade', control_type='TreeItem')
+
+- [MenuItem] name='Sistema'  automation_id=''  class=''  enabled
+  bounds: (1920,-464)-(1942,-442) 22x22
+  dica seletor: .child_window(name='Sistema', control_type='MenuItem')
+
+- [Button] name='Minimizar'  automation_id=''  class=''  enabled
+  bounds: (2859,-464)-(2906,-442) 47x22
+  dica seletor: .child_window(name='Minimizar', control_type='Button')
+
+- [Button] name='Restaurar'  automation_id=''  class=''  enabled
+  bounds: (2906,-464)-(2952,-442) 46x22
+  dica seletor: .child_window(name='Restaurar', control_type='Button')
+
+- [Button] name='Fechar'  automation_id=''  class=''  enabled
+  bounds: (2952,-464)-(3000,-442) 48x22
+  dica seletor: .child_window(name='Fechar', control_type='Button')
+
+- [MenuItem] name='Cadastros'  automation_id=''  class=''  enabled
+  bounds: (1920,-441)-(1986,-422) 66x19
+  dica seletor: .child_window(name='Cadastros', control_type='MenuItem')
+
+- [MenuItem] name='Módulos'  automation_id=''  class=''  enabled
+  bounds: (1986,-441)-(2047,-422) 61x19
+  dica seletor: .child_window(name='Módulos', control_type='MenuItem')
+
+- [MenuItem] name='Consultas'  automation_id=''  class=''  enabled
+  bounds: (2047,-441)-(2113,-422) 66x19
+  dica seletor: .child_window(name='Consultas', control_type='MenuItem')
+
+- [MenuItem] name='Tributos'  automation_id=''  class=''  enabled
+  bounds: (2113,-441)-(2170,-422) 57x19
+  dica seletor: .child_window(name='Tributos', control_type='MenuItem')
+
+- [MenuItem] name='eSocial'  automation_id=''  class=''  enabled
+  bounds: (2170,-441)-(2221,-422) 51x19
+  dica seletor: .child_window(name='eSocial', control_type='MenuItem')
+
+- [MenuItem] name='Integrações'  automation_id=''  class=''  enabled
+  bounds: (2221,-441)-(2296,-422) 75x19
+  dica seletor: .child_window(name='Integrações', control_type='MenuItem')
+
+- [MenuItem] name='Utilitários'  automation_id=''  class=''  enabled
+  bounds: (2296,-441)-(2360,-422) 64x19
+  dica seletor: .child_window(name='Utilitários', control_type='MenuItem')
+
+- [MenuItem] name='Relatórios'  automation_id=''  class=''  enabled
+  bounds: (2360,-441)-(2426,-422) 66x19
+  dica seletor: .child_window(name='Relatórios', control_type='MenuItem')
+
+- [MenuItem] name='Janela'  automation_id=''  class=''  enabled
+  bounds: (2426,-441)-(2472,-422) 46x19
+  dica seletor: .child_window(name='Janela', control_type='MenuItem')
+
+- [MenuItem] name='Ajuda'  automation_id=''  class=''  enabled
+  bounds: (2472,-441)-(2517,-422) 45x19
+  dica seletor: .child_window(name='Ajuda', control_type='MenuItem')
+

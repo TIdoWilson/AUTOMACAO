@@ -1,0 +1,60 @@
+Control Identifiers:
+
+Dialog - 'Gerenciador de Sistemas'    (L130, T130, R1106, B829)
+['Dialog', 'Gerenciador de Sistemas', 'Gerenciador de SistemasDialog']
+child_window(title="Gerenciador de Sistemas", control_type="Window")
+   | 
+   | Pane - ''    (L133, T221, R1103, B286)
+   | ['Pane', 'Pane0', 'Pane1']
+   | child_window(auto_id="4197416", control_type="Pane")
+   | 
+   | Pane - ''    (L133, T156, R1103, B221)
+   | ['Pane2']
+   | child_window(auto_id="5311690", control_type="Pane")
+   |    | 
+   |    | Pane - ''    (L625, T159, R1100, B218)
+   |    | ['Pane3']
+   |    | child_window(auto_id="724296", control_type="Pane")
+   | 
+   | Pane - ''    (L133, T286, R1103, B336)
+   | ['Pane4']
+   | child_window(auto_id="3673242", control_type="Pane")
+   | 
+   | Pane - ''    (L182, T398, R1054, B715)
+   | ['Pane5']
+   | child_window(auto_id="2034246", control_type="Pane")
+   |    | 
+   |    | Pane - 'GerenciadoSistemasPrincipalSemIOB360'    (L182, T398, R1054, B715)
+   |    | ['GerenciadoSistemasPrincipalSemIOB360Pane', 'GerenciadoSistemasPrincipalSemIOB360', 'Pane6']
+   |    | child_window(title="GerenciadoSistemasPrincipalSemIOB360", auto_id="724468", control_type="Pane")
+   |    |    | 
+   |    |    | Pane - 'grdPnlInicioSemIOB360'    (L182, T398, R1054, B715)
+   |    |    | ['grdPnlInicioSemIOB360', 'Pane7', 'grdPnlInicioSemIOB360Pane']
+   |    |    | child_window(title="grdPnlInicioSemIOB360", auto_id="2493700", control_type="Pane")
+   | 
+   | Pane - ''    (L287, T781, R950, B824)
+   | ['Pane8']
+   | child_window(auto_id="658738", control_type="Pane")
+   | 
+   | TitleBar - ''    (L149, T133, R1103, B156)
+   | ['TitleBar']
+   |    | 
+   |    | Menu - 'Sistema'    (L138, T138, R160, B160)
+   |    | ['Sistema', 'Menu', 'SistemaMenu', 'Sistema0', 'Sistema1']
+   |    | child_window(title="Sistema", auto_id="MenuBar", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - 'Sistema'    (L138, T138, R160, B160)
+   |    |    | ['Sistema2', 'MenuItem', 'SistemaMenuItem']
+   |    |    | child_window(title="Sistema", control_type="MenuItem")
+   |    | 
+   |    | Button - 'Minimizar'    (L964, T131, R1011, B156)
+   |    | ['Button', 'Minimizar', 'MinimizarButton', 'Button0', 'Button1']
+   |    | child_window(title="Minimizar", control_type="Button")
+   |    | 
+   |    | Button - 'Maximizar'    (L1011, T131, R1057, B156)
+   |    | ['MaximizarButton', 'Button2', 'Maximizar']
+   |    | child_window(title="Maximizar", control_type="Button")
+   |    | 
+   |    | Button - 'Fechar'    (L1057, T131, R1104, B156)
+   |    | ['Button3', 'FecharButton', 'Fechar']
+   |    | child_window(title="Fechar", control_type="Button")

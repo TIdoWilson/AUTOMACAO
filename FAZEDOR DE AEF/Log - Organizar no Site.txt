@@ -1,0 +1,111 @@
+[2026-02-09 08:11:43] Modo somente-listar.
+[2026-02-09 08:11:43] OK: 22 -> W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\Arquivos\22\final_22.xlsx
+[2026-02-09 08:18:48] Perfil de login: RIO BRANCO (usuario: HONMC30461).
+[2026-02-09 08:18:48] Iniciando automacao (tarefas: 1).
+[2026-02-09 08:18:48] [1/1] Empresa 22: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\Arquivos\22\final_22.xlsx
+[2026-02-09 08:18:48] ERRO: Fluxo do site ainda nao implementado (apos login).
+[2026-02-09 08:20:05] Perfil de login: RIO BRANCO (usuario: HONMC30461).
+[2026-02-09 08:20:08] Abrindo: https://aefhondabr.nx-services.com/hondabr/index.html#/login
+[2026-02-09 08:20:14] Login executado. Verifique se entrou no sistema.
+[2026-02-09 08:20:14] Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\login_ok_20260209_082014.png
+[2026-02-09 08:21:20] Perfil de login: RIO BRANCO (usuario: HONMC30461).
+[2026-02-09 08:21:20] Iniciando automacao (tarefas: 1).
+[2026-02-09 08:21:20] [1/1] Empresa 22: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\Arquivos\22\final_22.xlsx
+[2026-02-09 08:21:20] ERRO: Fluxo do site ainda nao implementado (apos login).
+[2026-02-09 08:21:29] Perfil de login: RIO BRANCO (usuario: HONMC30461).
+[2026-02-09 08:21:38] Abrindo: https://aefhondabr.nx-services.com/hondabr/index.html#/login
+[2026-02-09 08:21:45] Login executado. Verifique se entrou no sistema.
+[2026-02-09 08:21:46] Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\login_ok_20260209_082146.png
+[2026-02-09 08:28:57] Perfil de login: RIO BRANCO (usuario: HONMC30461).
+[2026-02-09 08:28:57] Competencia alvo: jan 2026
+[2026-02-09 08:29:16] Abrindo: https://aefhondabr.nx-services.com/hondabr/index.html#/login
+[2026-02-09 08:29:26] Login executado. Verifique se entrou no sistema.
+[2026-02-09 08:29:27] Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\login_ok_20260209_082926.png
+[2026-02-09 08:29:27] Acessando: https://aefhondabr.nx-services.com/hondabr/index.html#/submissions
+[2026-02-09 08:29:58] ERRO: Nao consegui carregar a tabela de submissions. Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\submissions_nao_carregou_20260209_082958.png
+[2026-02-09 08:33:48] Perfil de login: RIO BRANCO (usuario: HONMC30461).
+[2026-02-09 08:33:48] Iniciando automacao (tarefas: 1).
+[2026-02-09 08:33:48] [1/1] Empresa 22: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\Arquivos\22\final_22.xlsx
+[2026-02-09 08:33:48] ERRO: Fluxo do site ainda nao implementado (apos login).
+[2026-02-09 08:33:54] Perfil de login: RIO BRANCO (usuario: HONMC30461).
+[2026-02-09 08:33:54] Competencia alvo: jan 2026
+[2026-02-09 08:34:02] Abrindo: https://aefhondabr.nx-services.com/hondabr/index.html#/login
+[2026-02-09 08:34:13] Login executado. Verifique se entrou no sistema.
+[2026-02-09 08:34:13] Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\login_ok_20260209_083413.png
+[2026-02-09 08:34:13] Acessando: https://aefhondabr.nx-services.com/hondabr/index.html#/submissions
+[2026-02-09 08:35:14] ERRO: Nao consegui carregar a tabela de submissions. Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\submissions_nao_carregou_20260209_083513.png
+[2026-02-09 08:39:44] Perfil de login: RIO BRANCO (usuario: HONMC30461).
+[2026-02-09 08:39:44] Competencia alvo: jan 2026
+[2026-02-09 08:39:53] Abrindo: https://aefhondabr.nx-services.com/hondabr/index.html#/login
+[2026-02-09 08:40:04] Login executado. Verifique se entrou no sistema.
+[2026-02-09 08:40:05] Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\login_ok_20260209_084004.png
+[2026-02-09 08:40:05] Acessando: https://aefhondabr.nx-services.com/hondabr/index.html#/submissions
+[2026-02-09 08:41:35] ERRO: Nao consegui carregar a tabela de submissions. Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\submissions_nao_carregou_20260209_084135.png
+[2026-02-09 08:42:40] Perfil de login: RIO BRANCO (usuario: HONMC30461).
+[2026-02-09 08:42:40] Competencia alvo: jan 2026
+[2026-02-09 08:42:49] Abrindo: https://aefhondabr.nx-services.com/hondabr/index.html#/login
+[2026-02-09 08:42:59] Login executado. Verifique se entrou no sistema.
+[2026-02-09 08:43:00] Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\login_ok_20260209_084259.png
+[2026-02-09 08:43:00] Acessando: https://aefhondabr.nx-services.com/hondabr/index.html#/submissions
+[2026-02-09 08:43:19] Perfil de login: RIO BRANCO (usuario: HONMC30461).
+[2026-02-09 08:43:19] Competencia alvo: jan 2026
+[2026-02-09 08:43:29] Abrindo: https://aefhondabr.nx-services.com/hondabr/index.html#/login
+[2026-02-09 08:43:40] Login executado. Verifique se entrou no sistema.
+[2026-02-09 08:43:40] Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\login_ok_20260209_084340.png
+[2026-02-09 08:43:40] Acessando: https://aefhondabr.nx-services.com/hondabr/index.html#/submissions
+[2026-02-09 08:45:11] ERRO: Nao consegui carregar a tabela de submissions. Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\submissions_nao_carregou_20260209_084510.png
+[2026-02-09 08:46:35] Perfil de login: RIO BRANCO (usuario: HONMC30461).
+[2026-02-09 08:46:35] Iniciando automacao (tarefas: 1).
+[2026-02-09 08:46:35] [1/1] Empresa 22: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\Arquivos\22\final_22.xlsx
+[2026-02-09 08:46:35] ERRO: Fluxo do site ainda nao implementado (apos login).
+[2026-02-09 08:48:43] Perfil de login: RIO BRANCO (usuario: HONMC30461).
+[2026-02-09 08:48:43] Competencia alvo: jan 2026
+[2026-02-09 08:48:53] Abrindo: https://aefhondabr.nx-services.com/hondabr/index.html#/login
+[2026-02-09 08:49:03] Login executado. Verifique se entrou no sistema.
+[2026-02-09 08:49:04] Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\login_ok_20260209_084903.png
+[2026-02-09 08:49:04] Acessando: https://aefhondabr.nx-services.com/hondabr/index.html#/submissions
+[2026-02-09 08:52:28] Perfil de login: RIO BRANCO (usuario: HONMC30461).
+[2026-02-09 08:52:28] Iniciando automacao (tarefas: 1).
+[2026-02-09 08:52:28] [1/1] Empresa 22: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\Arquivos\22\final_22.xlsx
+[2026-02-09 08:52:28] ERRO: Fluxo do site ainda nao implementado (apos login).
+[2026-02-09 08:52:36] Perfil de login: RIO BRANCO (usuario: HONMC30461).
+[2026-02-09 08:52:36] Competencia alvo: jan 2026
+[2026-02-09 08:52:44] Abrindo: https://aefhondabr.nx-services.com/hondabr/index.html#/login
+[2026-02-09 08:52:54] Login executado. Verifique se entrou no sistema.
+[2026-02-09 08:52:54] Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\login_ok_20260209_085254.png
+[2026-02-09 08:52:54] Acessando: https://aefhondabr.nx-services.com/hondabr/index.html#/submissions
+[2026-02-09 08:54:25] ERRO: Nao consegui carregar a tabela de submissions. Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\submissions_nao_carregou_20260209_085425.png
+[2026-02-09 08:56:29] Perfil de login: RIO BRANCO (usuario: HONMC30461).
+[2026-02-09 08:56:29] Competencia alvo: jan 2026
+[2026-02-09 08:56:38] Abrindo: https://aefhondabr.nx-services.com/hondabr/index.html#/login
+[2026-02-09 08:56:47] Login executado. Verifique se entrou no sistema.
+[2026-02-09 08:56:48] Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\login_ok_20260209_085647.png
+[2026-02-09 08:56:48] Acessando: https://aefhondabr.nx-services.com/hondabr/index.html#/submissions
+[2026-02-09 08:57:20] Clicando em Editar da competencia: jan 2026
+[2026-02-09 08:57:20] Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\apos_clicar_editar_20260209_085720.png
+[2026-02-09 09:02:10] Perfil de login: RIO BRANCO (usuario: HONMC30461).
+[2026-02-09 09:02:10] Competencia alvo: jan 2026
+[2026-02-09 09:02:19] Abrindo: https://aefhondabr.nx-services.com/hondabr/index.html#/login
+[2026-02-09 09:02:29] Login executado. Verifique se entrou no sistema.
+[2026-02-09 09:02:29] Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\login_ok_20260209_090229.png
+[2026-02-09 09:02:29] Acessando: https://aefhondabr.nx-services.com/hondabr/index.html#/submissions
+[2026-02-09 09:03:01] Clicando em Editar da competencia: jan 2026
+[2026-02-09 09:03:02] Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\apos_clicar_editar_20260209_090302.png
+[2026-02-09 09:03:04] Selecionando dropdown 'Veiculos Novos' -> 'Ativo'
+[2026-02-09 09:03:04] Clicando em Confirmar.
+[2026-02-09 09:03:07] Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\apos_confirmar_20260209_090307.png
+[2026-02-09 09:12:19] Perfil de login: RIO BRANCO (usuario: HONMC30461).
+[2026-02-09 09:12:19] Competencia alvo: jan 2026
+[2026-02-09 09:12:19] XLSX Ativo: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\Arquivos\22\final_22.xlsx
+[2026-02-09 09:12:28] Abrindo: https://aefhondabr.nx-services.com/hondabr/index.html#/login
+[2026-02-09 09:12:46] Login executado. Verifique se entrou no sistema.
+[2026-02-09 09:12:47] Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\login_ok_20260209_091246.png
+[2026-02-09 09:12:47] Acessando: https://aefhondabr.nx-services.com/hondabr/index.html#/submissions
+[2026-02-09 09:13:20] Clicando em Editar da competencia: jan 2026
+[2026-02-09 09:13:21] Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\apos_clicar_editar_20260209_091321.png
+[2026-02-09 09:13:23] Selecionando dropdown 'Veiculos Novos' -> 'Ativo'
+[2026-02-09 09:13:24] Clicando em Confirmar.
+[2026-02-09 09:13:24] Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\apos_confirmar_20260209_091324.png
+[2026-02-09 09:13:29] Preenchendo Ativo (linhas: 85; decimal_virgula=False).
+[2026-02-09 09:13:43] Ativo preenchido: 85/85.
+[2026-02-09 09:13:43] Screenshot: W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\apos_preencher_ativo_20260209_091343.png

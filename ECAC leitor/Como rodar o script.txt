@@ -1,0 +1,21 @@
+Passo A — Abrir o Chrome com o chrome.bat
+
+1A) Execute o seu chrome.bat.
+
+2A) Confirme que ele abre o Chrome com seu perfil sincronizado e com depuração remota ativa (porta 9222).
+
+3A) No Chrome aberto, acesse o e-CAC e faça login normalmente.
+
+4A) Deixe o e-CAC aberto e logado.
+
+Observação: o script se conecta ao Chrome já aberto via CDP (http://127.0.0.1:9222). Sem isso, não consegue reutilizar a sessão logada.
+
+Passo B — Rodar o script
+
+1B) No terminal/prompt, execute o script Python.
+
+2B) Ao aparecer a mensagem “Deixe a aba do e-CAC aberta e logada, e pressione ENTER para começar”, pressione ENTER.
+
+3B) O script seguirá processando cada CNPJ/CPF automaticamente.
+
+1C)Para que o script funcione corretamente, o arquivo Excel de entrada deve obrigatoriamente se chamar "Exportacao de Empresas Simples.xlsx" e conter apenas duas colunas. A coluna A deve listar os CNPJs (um por linha, a partir da linha 2), e a coluna B deve conter o nome da empresa correspondente a cada CNPJ. Qualquer variação no nome do arquivo, na ordem das colunas ou no formato básico da planilha pode impedir a leitura correta dos dados pelo script.

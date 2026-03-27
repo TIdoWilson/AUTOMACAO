@@ -1,0 +1,1904 @@
+Control Identifiers:
+
+Dialog - 'Fiscal '    (L-7, T0, R967, B1039)
+['Fiscal Dialog', 'Fiscal ', 'Dialog', 'Dialog0', 'Dialog1']
+child_window(title="Fiscal ", control_type="Window")
+   | 
+   | StatusBar - ''    (L1, T995, R959, B1031)
+   | ['Usuário: 079 - DANIEL FAE DE CASTROStatusBar', 'StatusBar']
+   | child_window(auto_id="4983104", control_type="StatusBar")
+   |    | 
+   |    | Static - 'Usuário: 079 - DANIEL FAE DE CASTRO'    (L1, T997, R251, B1031)
+   |    | ['Usuário: 079 - DANIEL FAE DE CASTRO', 'Static', 'Usuário: 079 - DANIEL FAE DE CASTROStatic', 'Static0', 'Static1', 'Usuário: 079 - DANIEL FAE DE CASTROStatic0', 'Usuário: 079 - DANIEL FAE DE CASTROStatic1']
+   |    | child_window(title="Usuário: 079 - DANIEL FAE DE CASTRO", control_type="Text")
+   |    | 
+   |    | Static - ''    (L0, T0, R0, B0)
+   |    | ['Static2']
+   |    | 
+   |    | Static - ''    (L0, T0, R0, B0)
+   |    | ['Static3']
+   |    | 
+   |    | Static - ''    (L253, T997, R651, B1031)
+   |    | ['Static4', 'Usuário: 079 - DANIEL FAE DE CASTROStatic2']
+   |    | 
+   |    | Static - '		Módulos: '    (L653, T997, R711, B1031)
+   |    | ['\t\tMódulos: ', 'Static5', '\t\tMódulos: Static', '\t\tMódulos: Static0', '\t\tMódulos: Static1']
+   |    | child_window(title="		Módulos: ", control_type="Text")
+   |    | 
+   |    | Static - ''    (L713, T997, R751, B1031)
+   |    | ['Static6', '\t\tMódulos: Static2']
+   |    | 
+   |    | Static - ''    (L753, T997, R791, B1031)
+   |    | ['Static7', '\t\tMódulos: Static3']
+   |    | 
+   |    | Static - ''    (L793, T997, R831, B1031)
+   |    | ['Static8', '\t\tMódulos: Static4']
+   |    | 
+   |    | Static - ''    (L833, T997, R871, B1031)
+   |    | ['Static9', '\t\tMódulos: Static5']
+   |    | 
+   |    | Static - '		Links Úteis: '    (L873, T997, R936, B1031)
+   |    | ['\t\tLinks Úteis: ', 'Static10', '\t\tLinks Úteis: Static', '\t\tLinks Úteis: Static0', '\t\tLinks Úteis: Static1']
+   |    | child_window(title="		Links Úteis: ", control_type="Text")
+   |    | 
+   |    | Static - ''    (L938, T997, R943, B1031)
+   |    | ['Static11', '\t\tLinks Úteis: Static2']
+   |    | 
+   |    | Static - ''    (L0, T0, R0, B0)
+   |    | ['Static12']
+   |    | 
+   |    | Static - ''    (L0, T0, R0, B0)
+   |    | ['Static13']
+   |    | 
+   |    | Static - ''    (L0, T0, R0, B0)
+   |    | ['Static14']
+   |    | 
+   |    | Static - ''    (L0, T0, R0, B0)
+   |    | ['Static15']
+   |    | 
+   |    | Static - ''    (L0, T0, R0, B0)
+   |    | ['Static16']
+   | 
+   | Pane - 'Espaço de trabalho'    (L1, T51, R959, B995)
+   | ['Espaço de trabalho', 'Pane', 'Espaço de trabalhoPane', 'Pane0', 'Pane1']
+   | child_window(title="Espaço de trabalho", control_type="Pane")
+   |    | 
+   |    | Dialog - 'Barra de Atalhos'    (L1, T51, R954, B125)
+   |    | ['Barra de Atalhos', 'Dialog2', 'Barra de AtalhosDialog']
+   |    | child_window(title="Barra de Atalhos", auto_id="65280", control_type="Window")
+   |    |    | 
+   |    |    | Pane - ''    (L1, T51, R954, B125)
+   |    |    | ['Pane2']
+   |    |    | child_window(auto_id="2230418", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Pane - ''    (L2, T52, R953, B124)
+   |    |    |    | ['Pane3']
+   |    |    |    | child_window(auto_id="133966", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L2, T52, R953, B124)
+   |    |    |    |    | ['Pane4']
+   |    |    |    |    | child_window(auto_id="133968", control_type="Pane")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Pane - ''    (L488, T52, R551, B124)
+   |    |    |    |    |    | ['Pane5']
+   |    |    |    |    |    | child_window(auto_id="133952", control_type="Pane")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Pane - ''    (L551, T52, R953, B124)
+   |    |    |    |    |    | ['Pane6']
+   |    |    |    |    |    | child_window(auto_id="133964", control_type="Pane")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Pane - ''    (L553, T54, R953, B122)
+   |    |    |    |    |    |    | ['Pane7']
+   |    |    |    |    |    |    | child_window(auto_id="657942", control_type="Pane")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Pane - ''    (L553, T54, R953, B122)
+   |    |    |    |    |    |    |    | ['Pane8']
+   |    |    |    |    |    |    |    | child_window(auto_id="2099696", control_type="Pane")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Edit - ''    (L639, T101, R706, B122)
+   |    |    |    |    |    |    |    |    | ['Edit', 'Edit0', 'Edit1']
+   |    |    |    |    |    |    |    |    | child_window(auto_id="199486", control_type="Edit")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Pane - ''    (L557, T77, R928, B100)
+   |    |    |    |    |    |    |    |    | ['Pane9']
+   |    |    |    |    |    |    |    |    | child_window(auto_id="133946", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    | Edit - ''    (L639, T78, R679, B99)
+   |    |    |    |    |    |    |    |    |    | ['Edit2']
+   |    |    |    |    |    |    |    |    |    | child_window(auto_id="133948", control_type="Edit")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Pane - ''    (L594, T54, R928, B77)
+   |    |    |    |    |    |    |    |    | ['Pane10']
+   |    |    |    |    |    |    |    |    | child_window(auto_id="1575696", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    | Edit - ''    (L639, T55, R679, B76)
+   |    |    |    |    |    |    |    |    |    | ['Edit3']
+   |    |    |    |    |    |    |    |    |    | child_window(auto_id="1641234", control_type="Edit")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Pane - ''    (L65, T52, R488, B124)
+   |    |    |    |    |    | ['Pane11']
+   |    |    |    |    |    | child_window(auto_id="133960", control_type="Pane")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Pane - ''    (L74, T64, R610, B112)
+   |    |    |    |    |    |    | ['Pane12']
+   |    |    |    |    |    |    | child_window(auto_id="133962", control_type="Pane")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Pane - ''    (L2, T52, R65, B124)
+   |    |    |    |    |    | ['Pane13']
+   |    |    |    |    |    | child_window(auto_id="133958", control_type="Pane")
+   |    | 
+   |    | Dialog - 'Acesso Rápido'    (L618, T695, R954, B995)
+   |    | ['Acesso Rápido', 'Dialog3', 'Acesso RápidoDialog', 'Acesso Rápido0', 'Acesso Rápido1', 'Acesso RápidoDialog0', 'Acesso RápidoDialog1']
+   |    | child_window(title="Acesso Rápido", auto_id="65283", control_type="Window")
+   |    |    | 
+   |    |    | Pane - ''    (L618, T695, R954, B995)
+   |    |    | ['Pane14']
+   |    |    | child_window(auto_id="461502", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Pane - ''    (L621, T721, R948, B993)
+   |    |    |    | ['Pane15']
+   |    |    |    | child_window(auto_id="199518", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L621, T721, R948, B993)
+   |    |    |    |    | ['Pane16']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Pane - 'about:blank'    (L621, T721, R948, B993)
+   |    |    |    |    |    | ['Pane17', 'about:blank', 'about:blankPane']
+   |    |    |    |    |    | child_window(title="about:blank", control_type="Pane")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Pane - ''    (L629, T729, R940, B985)
+   |    |    |    |    |    |    | ['Pane18']
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Hyperlink - ''    (L629, T729, R940, B985)
+   |    |    |    |    |    |    |    | ['Hyperlink', 'Hyperlink0', 'Hyperlink1']
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Image - ''    (L629, T729, R940, B985)
+   |    |    |    |    |    |    |    |    | ['Image', 'Image0', 'Image1']
+   |    |    |    | 
+   |    |    |    | Pane - 'Avisos'    (L620, T697, R952, B717)
+   |    |    |    | ['Avisos', 'Pane19', 'AvisosPane']
+   |    |    |    | child_window(title="Avisos", auto_id="1509836", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L929, T697, R952, B717)
+   |    |    |    |    | ['Pane20']
+   |    |    |    |    | child_window(auto_id="592306", control_type="Pane")
+   |    | 
+   |    | Dialog - 'IOB Plataforma Contábil'    (L931, T127, R954, B696)
+   |    | ['IOB Plataforma ContábilDialog', 'Dialog4', 'IOB Plataforma Contábil', 'IOB Plataforma Contábil0', 'IOB Plataforma Contábil1']
+   |    | child_window(title="IOB Plataforma Contábil", auto_id="65282", control_type="Window")
+   |    |    | 
+   |    |    | Pane - ''    (L952, T127, R954, B696)
+   |    |    | ['Pane21']
+   |    |    | child_window(auto_id="199510", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Pane - 'IOB Plataforma Contábil  '    (L954, T129, R1273, B149)
+   |    |    |    | ['IOB Plataforma Contábil  ', 'Pane22', 'IOB Plataforma Contábil  Pane']
+   |    |    |    | child_window(title="IOB Plataforma Contábil  ", auto_id="330592", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L954, T129, R977, B149)
+   |    |    |    |    | ['Pane23']
+   |    |    |    |    | child_window(auto_id="133986", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Pane - ''    (L954, T149, R1273, B694)
+   |    |    |    | ['Pane24', 'Clique em "Acessar IOB Plataforma Contábil" para acessar todos os recursos da sua Plataforma Contábil.Pane', 'Clique em "Acessar IOB Plataforma Contábil" para acessar todos os recursos da sua Plataforma Contábil.Pane0', 'Clique em "Acessar IOB Plataforma Contábil" para acessar todos os recursos da sua Plataforma Contábil.Pane1']
+   |    |    |    | child_window(auto_id="199512", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L954, T149, R1273, B694)
+   |    |    |    |    | ['Pane25', 'Clique em "Acessar IOB Plataforma Contábil" para acessar todos os recursos da sua Plataforma Contábil.Pane2']
+   |    |    |    |    | child_window(auto_id="330480", control_type="Pane")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Pane - ''    (L954, T149, R1273, B694)
+   |    |    |    |    |    | ['Pane26', 'Clique em "Acessar IOB Plataforma Contábil" para acessar todos os recursos da sua Plataforma Contábil.Pane3']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Pane - 'https://wilson.minhaplataformacontabil.com.br/site/Interface/19.1/PainelSoftwareContabil/AcessoPainel.aspx?Origem=MGC&CliForID=fb7b77a2d27b4c439a7b3e20c5d7f934&EmpresaID=&dados=dS0bNI0mYq4nlbveBDa1BfvFxEty8zqnHyljI2mx/qJFxtc0OliZasrBv5DZMRL542DQdszb5yNH5B7vZuJAUAcPWgXXhdJvCUOP0DF45h2M7YTwMfTF2TCKmAoBGbEkzhRBn28NPlR3E3WCtDQoPQ=='    (L954, T149, R1273, B694)
+   |    |    |    |    |    |    | ['Pane27', 'https://wilson.minhaplataformacontabil.com.br/site/Interface/19.1/PainelSoftwareContabil/AcessoPainel.aspx?Origem=MGC&CliForID=fb7b77a2d27b4c439a7b3e20c5d7f934&EmpresaID=&dados=dS0bNI0mYq4nlbveBDa1BfvFxEty8zqnHyljI2mx/qJFxtc0OliZasrBv5DZMRL542DQdszb5yNH5B7vZuJAUAcPWgXXhdJvCUOP0DF45h2M7YTwMfTF2TCKmAoBGbEkzhRBn28NPlR3E3WCtDQoPQ==', 'https://wilson.minhaplataformacontabil.com.br/site/Interface/19.1/PainelSoftwareContabil/AcessoPainel.aspx?Origem=MGC&CliForID=fb7b77a2d27b4c439a7b3e20c5d7f934&EmpresaID=&dados=dS0bNI0mYq4nlbveBDa1BfvFxEty8zqnHyljI2mx/qJFxtc0OliZasrBv5DZMRL542DQdszb5yNH5B7vZuJAUAcPWgXXhdJvCUOP0DF45h2M7YTwMfTF2TCKmAoBGbEkzhRBn28NPlR3E3WCtDQoPQ==Pane']
+   |    |    |    |    |    |    | child_window(title="https://wilson.minhaplataformacontabil.com.br/site/Interface/19.1/PainelSoftwareContabil/AcessoPainel.aspx?Origem=MGC&CliForID=fb7b77a2d27b4c439a7b3e20c5d7f934&EmpresaID=&dados=dS0bNI0mYq4nlbveBDa1BfvFxEty8zqnHyljI2mx/qJFxtc0OliZasrBv5DZMRL542DQdszb5yNH5B7vZuJAUAcPWgXXhdJvCUOP0DF45h2M7YTwMfTF2TCKmAoBGbEkzhRBn28NPlR3E3WCtDQoPQ==", control_type="Pane")
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | Pane - 'IOB Plataforma Contábil'    (L954, T149, R1273, B532)
+   |    |    |    |    |    |    |    | ['IOB Plataforma Contábil2', 'Pane28', 'IOB Plataforma ContábilPane']
+   |    |    |    |    |    |    |    | child_window(title="IOB Plataforma Contábil", control_type="Pane")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Image - ''    (L985, T179, R1242, B224)
+   |    |    |    |    |    |    |    |    | ['Image2']
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Static - 'Olá! :)'    (L1093, T248, R1138, B271)
+   |    |    |    |    |    |    |    |    | ['Olá! :)', 'Olá! :)Static', 'Static17']
+   |    |    |    |    |    |    |    |    | child_window(title="Olá! :)", control_type="Text")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Static - 'Clique em "Acessar IOB Plataforma Contábil" para acessar todos os recursos da sua Plataforma Contábil.'    (L982, T287, R1249, B356)
+   |    |    |    |    |    |    |    |    | ['Clique em "Acessar IOB Plataforma Contábil" para acessar todos os recursos da sua Plataforma Contábil.Static', 'Static18', 'Clique em "Acessar IOB Plataforma Contábil" para acessar todos os recursos da sua Plataforma Contábil.']
+   |    |    |    |    |    |    |    |    | child_window(title="Clique em "Acessar IOB Plataforma Contábil" para acessar todos os recursos da sua Plataforma Contábil.", control_type="Text")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Hyperlink - 'Saiba mais!'    (L1073, T373, R1154, B394)
+   |    |    |    |    |    |    |    |    | ['Hyperlink2', 'Saiba mais!', 'Saiba mais!Hyperlink', 'Saiba mais!0', 'Saiba mais!1']
+   |    |    |    |    |    |    |    |    | child_window(title="Saiba mais!", control_type="Hyperlink")
+   |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    | Static - 'Saiba mais!'    (L1073, T372, R1154, B395)
+   |    |    |    |    |    |    |    |    |    | ['Saiba mais!Static', 'Static19', 'Saiba mais!2']
+   |    |    |    |    |    |    |    |    |    | child_window(title="Saiba mais!", control_type="Text")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | Hyperlink - 'Acessar IOB Plataforma Contábil'    (L976, T429, R1251, B467)
+   |    |    |    |    |    |    |    |    | ['Hyperlink3', 'Acessar IOB Plataforma Contábil', 'Acessar IOB Plataforma ContábilHyperlink', 'Acessar IOB Plataforma Contábil0', 'Acessar IOB Plataforma Contábil1']
+   |    |    |    |    |    |    |    |    | child_window(title="Acessar IOB Plataforma Contábil", auto_id="hyperlinkAcessoPlataforma", control_type="Hyperlink")
+   |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    | Static - 'Acessar IOB Plataforma Contábil'    (L989, T436, R1238, B460)
+   |    |    |    |    |    |    |    |    |    | ['Static20', 'Acessar IOB Plataforma Contábil2', 'Acessar IOB Plataforma ContábilStatic']
+   |    |    |    |    |    |    |    |    |    | child_window(title="Acessar IOB Plataforma Contábil", control_type="Text")
+   |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    | ListBox - ''    (L969, T658, R1258, B694)
+   |    |    |    |    |    |    |    |    | ['ListBox', '*ListBox', 'Acessar IOB Plataforma ContábilListBox']
+   |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    | ListItem - '*IOB2022. Todos os direitos reservados'    (L969, T663, R1258, B689)
+   |    |    |    |    |    |    |    |    |    | ['*IOB2022. Todos os direitos reservados', 'ListItem', '*IOB2022. Todos os direitos reservadosListItem']
+   |    |    |    |    |    |    |    |    |    | child_window(title="*IOB2022. Todos os direitos reservados", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Static - '*'    (L1007, T663, R1019, B696)
+   |    |    |    |    |    |    |    |    |    |    | ['*', 'Static21', '*Static']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="*", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Static - 'IOB'    (L1019, T668, R1039, B684)
+   |    |    |    |    |    |    |    |    |    |    | ['IOBStatic', 'Static22', 'IOB']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="IOB", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    |    |    |    | Static - '2022. Todos os direitos reservados'    (L1044, T668, R1223, B684)
+   |    |    |    |    |    |    |    |    |    |    | ['2022. Todos os direitos reservadosStatic', 'Static23', '2022. Todos os direitos reservados']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="2022. Todos os direitos reservados", control_type="Text")
+   |    |    | 
+   |    |    | Pane - ''    (L931, T127, R952, B696)
+   |    |    | ['Pane29']
+   |    |    | child_window(auto_id="133954", control_type="Pane")
+   |    | 
+   |    | Dialog - 'Acesso Rápido'    (L1, T127, R24, B990)
+   |    | ['Acesso Rápido2', 'Dialog5', 'Acesso RápidoDialog2']
+   |    | child_window(title="Acesso Rápido", auto_id="65281", control_type="Window")
+   |    |    | 
+   |    |    | Pane - ''    (L3, T127, R24, B990)
+   |    |    | ['Pane30']
+   |    |    | child_window(auto_id="3867534", control_type="Pane")
+   |    |    | 
+   |    |    | Pane - ''    (L1, T127, R3, B990)
+   |    |    | ['Pane31']
+   |    |    | child_window(auto_id="2426916", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Pane - '  Acesso Rápido'    (L3, T129, R340, B149)
+   |    |    |    | ['  Acesso Rápido', 'Pane32', '  Acesso RápidoPane']
+   |    |    |    | child_window(title="  Acesso Rápido", auto_id="1248372", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L317, T129, R340, B149)
+   |    |    |    |    | ['Pane33']
+   |    |    |    |    | child_window(auto_id="4393432", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Pane - ''    (L3, T149, R340, B988)
+   |    |    |    | ['Pane34']
+   |    |    |    | child_window(auto_id="527100", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L3, T149, R340, B189)
+   |    |    |    |    | ['Pane35']
+   |    |    |    |    | child_window(auto_id="2886174", control_type="Pane")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Pane - ''    (L3, T165, R340, B190)
+   |    |    |    |    |    | ['Pane36']
+   |    |    |    |    |    | child_window(auto_id="4786552", control_type="Pane")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Edit - ''    (L3, T166, R317, B187)
+   |    |    |    |    |    |    | ['Edit4']
+   |    |    |    |    |    |    | child_window(auto_id="1575612", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | TreeView - ''    (L3, T189, R340, B988)
+   |    |    |    |    | ['TreeView']
+   |    |    |    |    | child_window(auto_id="1903772", control_type="Tree")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Cadastros'    (L46, T191, R99, B207)
+   |    |    |    |    |    | ['Cadastros', 'CadastrosTreeItem', 'TreeItem', 'TreeItem0', 'TreeItem1', 'Cadastros0', 'Cadastros1', 'CadastrosTreeItem0', 'CadastrosTreeItem1']
+   |    |    |    |    |    | child_window(title="Cadastros", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Empresas'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Empresas', 'EmpresasTreeItem', 'TreeItem2']
+   |    |    |    |    |    | child_window(title="Empresas", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Responsáveis'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem3', 'ResponsáveisTreeItem', 'Responsáveis']
+   |    |    |    |    |    | child_window(title="Responsáveis", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Feriados'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem4', 'Feriados', 'FeriadosTreeItem']
+   |    |    |    |    |    | child_window(title="Feriados", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Agrupamento de Empresas'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem5', 'Agrupamento de Empresas', 'Agrupamento de EmpresasTreeItem']
+   |    |    |    |    |    | child_window(title="Agrupamento de Empresas", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Configurações'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['ConfiguraçõesTreeItem', 'Configurações', 'TreeItem6']
+   |    |    |    |    |    | child_window(title="Configurações", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Importação/Lançamento de Documentos Fiscais'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Importação/Lançamento de Documentos FiscaisTreeItem', 'Importação/Lançamento de Documentos Fiscais', 'TreeItem7']
+   |    |    |    |    |    | child_window(title="Importação/Lançamento de Documentos Fiscais", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Produtos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem8', 'ProdutosTreeItem', 'Produtos', 'ProdutosTreeItem0', 'ProdutosTreeItem1', 'Produtos0', 'Produtos1']
+   |    |    |    |    |    | child_window(title="Produtos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Unidades de Medida'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Unidades de Medida', 'Unidades de MedidaTreeItem', 'TreeItem9']
+   |    |    |    |    |    | child_window(title="Unidades de Medida", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Cadastro de Produtos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Cadastro de Produtos', 'Cadastro de ProdutosTreeItem', 'TreeItem10']
+   |    |    |    |    |    | child_window(title="Cadastro de Produtos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'MVA'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['MVATreeItem', 'MVA', 'TreeItem11']
+   |    |    |    |    |    | child_window(title="MVA", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Grupos de Produtos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem12', 'Grupos de ProdutosTreeItem', 'Grupos de Produtos']
+   |    |    |    |    |    | child_window(title="Grupos de Produtos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Calendário'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Calendário', 'CalendárioTreeItem', 'TreeItem13']
+   |    |    |    |    |    | child_window(title="Calendário", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Bens'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['BensTreeItem', 'Bens', 'TreeItem14']
+   |    |    |    |    |    | child_window(title="Bens", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Genéricos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Genéricos', 'GenéricosTreeItem', 'TreeItem15']
+   |    |    |    |    |    | child_window(title="Genéricos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Operações Contábeis'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Operações Contábeis', 'Operações ContábeisTreeItem', 'TreeItem16']
+   |    |    |    |    |    | child_window(title="Operações Contábeis", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Municípios'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['MunicípiosTreeItem', 'Municípios', 'TreeItem17']
+   |    |    |    |    |    | child_window(title="Municípios", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Emitentes/Destinatários'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Emitentes/DestinatáriosTreeItem', 'Emitentes/Destinatários', 'TreeItem18', 'Emitentes/DestinatáriosTreeItem0', 'Emitentes/DestinatáriosTreeItem1', 'Emitentes/Destinatários0', 'Emitentes/Destinatários1']
+   |    |    |    |    |    | child_window(title="Emitentes/Destinatários", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Tipos de Lançamento'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Tipos de Lançamento', 'Tipos de LançamentoTreeItem', 'TreeItem19']
+   |    |    |    |    |    | child_window(title="Tipos de Lançamento", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Variações da Natureza'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Variações da Natureza', 'Variações da NaturezaTreeItem', 'TreeItem20']
+   |    |    |    |    |    | child_window(title="Variações da Natureza", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Natureza de Operação'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem21', 'Natureza de Operação', 'Natureza de OperaçãoTreeItem', 'Natureza de Operação0', 'Natureza de Operação1', 'Natureza de OperaçãoTreeItem0', 'Natureza de OperaçãoTreeItem1']
+   |    |    |    |    |    | child_window(title="Natureza de Operação", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Especificações para Carta de Correção'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Especificações para Carta de Correção', 'Especificações para Carta de CorreçãoTreeItem', 'TreeItem22']
+   |    |    |    |    |    | child_window(title="Especificações para Carta de Correção", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Alíquotas de tributação ICMS'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Alíquotas de tributação ICMS', 'Alíquotas de tributação ICMSTreeItem', 'TreeItem23']
+   |    |    |    |    |    | child_window(title="Alíquotas de tributação ICMS", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Bases Extras Tributáveis/Valores Extras Tributados'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem24', 'Bases Extras Tributáveis/Valores Extras Tributados', 'Bases Extras Tributáveis/Valores Extras TributadosTreeItem']
+   |    |    |    |    |    | child_window(title="Bases Extras Tributáveis/Valores Extras Tributados", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Administradoras de Cartões'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem25', 'Administradoras de Cartões', 'Administradoras de CartõesTreeItem']
+   |    |    |    |    |    | child_window(title="Administradoras de Cartões", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Tabelas da EFD ICMS/IPI'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Tabelas da EFD ICMS/IPITreeItem', 'Tabelas da EFD ICMS/IPI', 'TreeItem26']
+   |    |    |    |    |    | child_window(title="Tabelas da EFD ICMS/IPI", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Tabelas da EFD Contribuições'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem27', 'Tabelas da EFD Contribuições', 'Tabelas da EFD ContribuiçõesTreeItem']
+   |    |    |    |    |    | child_window(title="Tabelas da EFD Contribuições", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'CST 02 - Produtos Sujeitos a Incidência Monofásica - Alíquotas Diferenciadas'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['CST 02 - Produtos Sujeitos a Incidência Monofásica - Alíquotas DiferenciadasTreeItem', 'CST 02 - Produtos Sujeitos a Incidência Monofásica - Alíquotas Diferenciadas', 'TreeItem28']
+   |    |    |    |    |    | child_window(title="CST 02 - Produtos Sujeitos a Incidência Monofásica - Alíquotas Diferenciadas", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'CST 03 - Produtos Sujeitos a Incidência Monofásica - Alíquotas por Unidade de Medida'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['CST 03 - Produtos Sujeitos a Incidência Monofásica - Alíquotas por Unidade de Medida', 'CST 03 - Produtos Sujeitos a Incidência Monofásica - Alíquotas por Unidade de MedidaTreeItem', 'TreeItem29']
+   |    |    |    |    |    | child_window(title="CST 03 - Produtos Sujeitos a Incidência Monofásica - Alíquotas por Unidade de Medida", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'CST 04 - Produtos Sujeitos a Incidência Monofásica - Revenda a Alíquota Zero'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['CST 04 - Produtos Sujeitos a Incidência Monofásica - Revenda a Alíquota ZeroTreeItem', 'CST 04 - Produtos Sujeitos a Incidência Monofásica - Revenda a Alíquota Zero', 'TreeItem30']
+   |    |    |    |    |    | child_window(title="CST 04 - Produtos Sujeitos a Incidência Monofásica - Revenda a Alíquota Zero", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'CST 05 - Produtos Sujeitos a Substituição Tributária da Contribuição Social'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['CST 05 - Produtos Sujeitos a Substituição Tributária da Contribuição SocialTreeItem', 'CST 05 - Produtos Sujeitos a Substituição Tributária da Contribuição Social', 'TreeItem31']
+   |    |    |    |    |    | child_window(title="CST 05 - Produtos Sujeitos a Substituição Tributária da Contribuição Social", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'CST 06 - Produtos Sujeitos a Alíquota Zero da Contribuição Social'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['CST 06 - Produtos Sujeitos a Alíquota Zero da Contribuição Social', 'CST 06 - Produtos Sujeitos a Alíquota Zero da Contribuição SocialTreeItem', 'TreeItem32']
+   |    |    |    |    |    | child_window(title="CST 06 - Produtos Sujeitos a Alíquota Zero da Contribuição Social", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'CST 07 - Produtos/Operações com Isenção da Contribuição Social'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['CST 07 - Produtos/Operações com Isenção da Contribuição Social', 'CST 07 - Produtos/Operações com Isenção da Contribuição SocialTreeItem', 'TreeItem33']
+   |    |    |    |    |    | child_window(title="CST 07 - Produtos/Operações com Isenção da Contribuição Social", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'CST 08 - Produtos/Operações sem Incidência da Contribuição Social'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['CST 08 - Produtos/Operações sem Incidência da Contribuição SocialTreeItem', 'CST 08 - Produtos/Operações sem Incidência da Contribuição Social', 'TreeItem34']
+   |    |    |    |    |    | child_window(title="CST 08 - Produtos/Operações sem Incidência da Contribuição Social", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'CST 09 - Produtos/Operações com Suspensão da Contribuição Social'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['CST 09 - Produtos/Operações com Suspensão da Contribuição Social', 'CST 09 - Produtos/Operações com Suspensão da Contribuição SocialTreeItem', 'TreeItem35']
+   |    |    |    |    |    | child_window(title="CST 09 - Produtos/Operações com Suspensão da Contribuição Social", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Produtos Incentivados (Contribuição Previdenciária Sobre a Receita Bruta)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Produtos Incentivados (Contribuição Previdenciária Sobre a Receita Bruta)TreeItem', 'Produtos Incentivados (Contribuição Previdenciária Sobre a Receita Bruta)', 'TreeItem36']
+   |    |    |    |    |    | child_window(title="Produtos Incentivados (Contribuição Previdenciária Sobre a Receita Bruta)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Vinculação Saída x Entrada (Emissão de Terceiros)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem37', 'Vinculação Saída x Entrada (Emissão de Terceiros)', 'Vinculação Saída x Entrada (Emissão de Terceiros)TreeItem', 'Vinculação Saída x Entrada (Emissão de Terceiros)0', 'Vinculação Saída x Entrada (Emissão de Terceiros)1', 'Vinculação Saída x Entrada (Emissão de Terceiros)TreeItem0', 'Vinculação Saída x Entrada (Emissão de Terceiros)TreeItem1']
+   |    |    |    |    |    | child_window(title="Vinculação Saída x Entrada (Emissão de Terceiros)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'CFOP de Saída x CFOP de Entrada'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['CFOP de Saída x CFOP de Entrada', 'TreeItem38', 'CFOP de Saída x CFOP de EntradaTreeItem']
+   |    |    |    |    |    | child_window(title="CFOP de Saída x CFOP de Entrada", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'CST de Saída x CST de Entrada'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['CST de Saída x CST de EntradaTreeItem', 'CST de Saída x CST de Entrada', 'TreeItem39']
+   |    |    |    |    |    | child_window(title="CST de Saída x CST de Entrada", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Beneficiário Pessoa Física (REINF)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem40', 'Beneficiário Pessoa Física (REINF)TreeItem', 'Beneficiário Pessoa Física (REINF)']
+   |    |    |    |    |    | child_window(title="Beneficiário Pessoa Física (REINF)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Cadastro de CST/CSOSN x Importação/Lançamento (Emissão Própria)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Cadastro de CST/CSOSN x Importação/Lançamento (Emissão Própria)', 'Cadastro de CST/CSOSN x Importação/Lançamento (Emissão Própria)TreeItem', 'TreeItem41']
+   |    |    |    |    |    | child_window(title="Cadastro de CST/CSOSN x Importação/Lançamento (Emissão Própria)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Contabilização'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Contabilização', 'TreeItem42', 'ContabilizaçãoTreeItem']
+   |    |    |    |    |    | child_window(title="Contabilização", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Natureza/Classificação'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Natureza/Classificação', 'Natureza/ClassificaçãoTreeItem', 'TreeItem43']
+   |    |    |    |    |    | child_window(title="Natureza/Classificação", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Emitentes/Destinatários'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Emitentes/DestinatáriosTreeItem2', 'Emitentes/Destinatários2', 'TreeItem44']
+   |    |    |    |    |    | child_window(title="Emitentes/Destinatários", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Caixa/Banco'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Caixa/Banco', 'Caixa/BancoTreeItem', 'TreeItem45']
+   |    |    |    |    |    | child_window(title="Caixa/Banco", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Apropriação de Impostos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Apropriação de Impostos', 'Apropriação de ImpostosTreeItem', 'TreeItem46']
+   |    |    |    |    |    | child_window(title="Apropriação de Impostos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Geral'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem47', 'Geral', 'GeralTreeItem']
+   |    |    |    |    |    | child_window(title="Geral", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Natureza de Operação'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem48', 'Natureza de Operação2', 'Natureza de OperaçãoTreeItem2']
+   |    |    |    |    |    | child_window(title="Natureza de Operação", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Integração X3/SAP'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Integração X3/SAPTreeItem', 'Integração X3/SAP', 'TreeItem49', 'Integração X3/SAPTreeItem0', 'Integração X3/SAPTreeItem1', 'Integração X3/SAP0', 'Integração X3/SAP1']
+   |    |    |    |    |    | child_window(title="Integração X3/SAP", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Classificação ERP'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Classificação ERP', 'Classificação ERPTreeItem', 'TreeItem50']
+   |    |    |    |    |    | child_window(title="Classificação ERP", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Prestação de Serviço'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Prestação de Serviço', 'TreeItem51', 'Prestação de ServiçoTreeItem']
+   |    |    |    |    |    | child_window(title="Prestação de Serviço", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Itens de Serviço'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Itens de ServiçoTreeItem', 'Itens de Serviço', 'TreeItem52']
+   |    |    |    |    |    | child_window(title="Itens de Serviço", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Código Fiscal'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Código FiscalTreeItem', 'Código Fiscal', 'TreeItem53']
+   |    |    |    |    |    | child_window(title="Código Fiscal", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Situação Tributária'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem54', 'Situação Tributária', 'Situação TributáriaTreeItem']
+   |    |    |    |    |    | child_window(title="Situação Tributária", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Observações nos Livros Fiscais'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem55', 'Observações nos Livros Fiscais', 'Observações nos Livros FiscaisTreeItem']
+   |    |    |    |    |    | child_window(title="Observações nos Livros Fiscais", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Observações dos Lançamentos Fiscais - EFD'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Observações dos Lançamentos Fiscais - EFD', 'Observações dos Lançamentos Fiscais - EFDTreeItem', 'TreeItem56']
+   |    |    |    |    |    | child_window(title="Observações dos Lançamentos Fiscais - EFD", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Observações de Interesse do Fisco'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Observações de Interesse do FiscoTreeItem', 'Observações de Interesse do Fisco', 'TreeItem57']
+   |    |    |    |    |    | child_window(title="Observações de Interesse do Fisco", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'SCP/ Fundo ou Clube de Investimento'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['SCP/ Fundo ou Clube de Investimento', 'SCP/ Fundo ou Clube de InvestimentoTreeItem', 'TreeItem58']
+   |    |    |    |    |    | child_window(title="SCP/ Fundo ou Clube de Investimento", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Vinculação Saída x Entrada (Emissão de Terceiros)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem59', 'Vinculação Saída x Entrada (Emissão de Terceiros)2', 'Vinculação Saída x Entrada (Emissão de Terceiros)TreeItem2']
+   |    |    |    |    |    | child_window(title="Vinculação Saída x Entrada (Emissão de Terceiros)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Vínculo de CFOP por NCM'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Vínculo de CFOP por NCMTreeItem', 'Vínculo de CFOP por NCM', 'TreeItem60']
+   |    |    |    |    |    | child_window(title="Vínculo de CFOP por NCM", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Vínculo de CFOP por Fornecedor'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Vínculo de CFOP por FornecedorTreeItem', 'Vínculo de CFOP por Fornecedor', 'TreeItem61']
+   |    |    |    |    |    | child_window(title="Vínculo de CFOP por Fornecedor", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Vínculo de CFOP de Saída x CFOP de Entrada'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Vínculo de CFOP de Saída x CFOP de Entrada', 'Vínculo de CFOP de Saída x CFOP de EntradaTreeItem', 'TreeItem62']
+   |    |    |    |    |    | child_window(title="Vínculo de CFOP de Saída x CFOP de Entrada", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Vínculo de Produtos por Fornecedor'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Vínculo de Produtos por FornecedorTreeItem', 'Vínculo de Produtos por Fornecedor', 'TreeItem63']
+   |    |    |    |    |    | child_window(title="Vínculo de Produtos por Fornecedor", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Vinculo de Tipo de Produto por NCM'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Vinculo de Tipo de Produto por NCMTreeItem', 'Vinculo de Tipo de Produto por NCM', 'TreeItem64']
+   |    |    |    |    |    | child_window(title="Vinculo de Tipo de Produto por NCM", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Processos Judiciais/Administrativos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem65', 'Processos Judiciais/Administrativos', 'Processos Judiciais/AdministrativosTreeItem']
+   |    |    |    |    |    | child_window(title="Processos Judiciais/Administrativos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Sair'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Sair', 'TreeItem66', 'SairTreeItem']
+   |    |    |    |    |    | child_window(title="Sair", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Lançamentos'    (L46, T207, R113, B223)
+   |    |    |    |    |    | ['Lançamentos', 'LançamentosTreeItem', 'TreeItem67', 'Lançamentos0', 'Lançamentos1', 'LançamentosTreeItem0', 'LançamentosTreeItem1']
+   |    |    |    |    |    | child_window(title="Lançamentos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Consulta'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['ConsultaTreeItem', 'Consulta', 'TreeItem68']
+   |    |    |    |    |    | child_window(title="Consulta", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Notas de Entrada'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem69', 'Notas de Entrada', 'Notas de EntradaTreeItem']
+   |    |    |    |    |    | child_window(title="Notas de Entrada", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Notas de Saída'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Notas de Saída', 'Notas de SaídaTreeItem', 'TreeItem70']
+   |    |    |    |    |    | child_window(title="Notas de Saída", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Cupom Fiscal'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Cupom Fiscal', 'Cupom FiscalTreeItem', 'TreeItem71']
+   |    |    |    |    |    | child_window(title="Cupom Fiscal", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Redução Z'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem72', 'Redução ZTreeItem', 'Redução Z', 'Redução ZTreeItem0', 'Redução ZTreeItem1', 'Redução Z0', 'Redução Z1']
+   |    |    |    |    |    | child_window(title="Redução Z", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Itens Vendidos (Geração do Sintegra)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Itens Vendidos (Geração do Sintegra)', 'Itens Vendidos (Geração do Sintegra)TreeItem', 'TreeItem73', 'Itens Vendidos (Geração do Sintegra)0', 'Itens Vendidos (Geração do Sintegra)1', 'Itens Vendidos (Geração do Sintegra)TreeItem0', 'Itens Vendidos (Geração do Sintegra)TreeItem1']
+   |    |    |    |    |    | child_window(title="Itens Vendidos (Geração do Sintegra)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Itens Vendidos (Geração do SPED Fiscal - Perfil A)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Itens Vendidos (Geração do SPED Fiscal - Perfil A)', 'Itens Vendidos (Geração do SPED Fiscal - Perfil A)TreeItem', 'TreeItem74', 'Itens Vendidos (Geração do SPED Fiscal - Perfil A)0', 'Itens Vendidos (Geração do SPED Fiscal - Perfil A)1', 'Itens Vendidos (Geração do SPED Fiscal - Perfil A)TreeItem0', 'Itens Vendidos (Geração do SPED Fiscal - Perfil A)TreeItem1']
+   |    |    |    |    |    | child_window(title="Itens Vendidos (Geração do SPED Fiscal - Perfil A)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Itens Vendidos (Geração do SPED Fiscal - Perfil B)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem75', 'Itens Vendidos (Geração do SPED Fiscal - Perfil B)TreeItem', 'Itens Vendidos (Geração do SPED Fiscal - Perfil B)', 'Itens Vendidos (Geração do SPED Fiscal - Perfil B)TreeItem0', 'Itens Vendidos (Geração do SPED Fiscal - Perfil B)TreeItem1', 'Itens Vendidos (Geração do SPED Fiscal - Perfil B)0', 'Itens Vendidos (Geração do SPED Fiscal - Perfil B)1']
+   |    |    |    |    |    | child_window(title="Itens Vendidos (Geração do SPED Fiscal - Perfil B)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Itens Vendidos (Geração da EFD Contribuições)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Itens Vendidos (Geração da EFD Contribuições)', 'Itens Vendidos (Geração da EFD Contribuições)TreeItem', 'TreeItem76', 'Itens Vendidos (Geração da EFD Contribuições)0', 'Itens Vendidos (Geração da EFD Contribuições)1', 'Itens Vendidos (Geração da EFD Contribuições)TreeItem0', 'Itens Vendidos (Geração da EFD Contribuições)TreeItem1']
+   |    |    |    |    |    | child_window(title="Itens Vendidos (Geração da EFD Contribuições)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Agrupamento de Itens Vendidos - Cupom Fiscal'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Agrupamento de Itens Vendidos - Cupom Fiscal', 'Agrupamento de Itens Vendidos - Cupom FiscalTreeItem', 'TreeItem77']
+   |    |    |    |    |    | child_window(title="Agrupamento de Itens Vendidos - Cupom Fiscal", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Conhecimento de Frete'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Conhecimento de Frete', 'Conhecimento de FreteTreeItem', 'TreeItem78']
+   |    |    |    |    |    | child_window(title="Conhecimento de Frete", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Bases Extras Tributáveis'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Bases Extras TributáveisTreeItem', 'Bases Extras Tributáveis', 'TreeItem79']
+   |    |    |    |    |    | child_window(title="Bases Extras Tributáveis", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Valores Extras Tributados'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Valores Extras Tributados', 'Valores Extras TributadosTreeItem', 'TreeItem80']
+   |    |    |    |    |    | child_window(title="Valores Extras Tributados", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Estoque de Abertura'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Estoque de Abertura', 'Estoque de AberturaTreeItem', 'TreeItem81']
+   |    |    |    |    |    | child_window(title="Estoque de Abertura", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Recebimentos - Regime de Caixa'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Recebimentos - Regime de Caixa', 'Recebimentos - Regime de CaixaTreeItem', 'TreeItem82', 'Recebimentos - Regime de Caixa0', 'Recebimentos - Regime de Caixa1', 'Recebimentos - Regime de CaixaTreeItem0', 'Recebimentos - Regime de CaixaTreeItem1']
+   |    |    |    |    |    | child_window(title="Recebimentos - Regime de Caixa", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Vendas com Cartão de Crédito/Débito'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Vendas com Cartão de Crédito/DébitoTreeItem', 'Vendas com Cartão de Crédito/Débito', 'TreeItem83']
+   |    |    |    |    |    | child_window(title="Vendas com Cartão de Crédito/Débito", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Operações de Pagamentos Eletrônicos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Operações de Pagamentos Eletrônicos', 'Operações de Pagamentos EletrônicosTreeItem', 'TreeItem84']
+   |    |    |    |    |    | child_window(title="Operações de Pagamentos Eletrônicos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Controle de Documentos Fiscais Utilizados'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem85', 'Controle de Documentos Fiscais Utilizados', 'Controle de Documentos Fiscais UtilizadosTreeItem']
+   |    |    |    |    |    | child_window(title="Controle de Documentos Fiscais Utilizados", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Controle de Exportação'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Controle de Exportação', 'Controle de ExportaçãoTreeItem', 'TreeItem86']
+   |    |    |    |    |    | child_window(title="Controle de Exportação", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Lançamento de Declaração de Exportação'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Lançamento de Declaração de ExportaçãoTreeItem', 'Lançamento de Declaração de Exportação', 'TreeItem87']
+   |    |    |    |    |    | child_window(title="Lançamento de Declaração de Exportação", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relatório de Conferência'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem88', 'Relatório de Conferência', 'Relatório de ConferênciaTreeItem', 'Relatório de Conferência0', 'Relatório de Conferência1', 'Relatório de ConferênciaTreeItem0', 'Relatório de ConferênciaTreeItem1']
+   |    |    |    |    |    | child_window(title="Relatório de Conferência", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Varejista de Combustíveis'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Varejista de Combustíveis', 'Varejista de CombustíveisTreeItem', 'TreeItem89', 'Varejista de Combustíveis0', 'Varejista de Combustíveis1', 'Varejista de CombustíveisTreeItem0', 'Varejista de CombustíveisTreeItem1']
+   |    |    |    |    |    | child_window(title="Varejista de Combustíveis", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Cadastro de Bombas, Lacres e Bicos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Cadastro de Bombas, Lacres e Bicos', 'Cadastro de Bombas, Lacres e BicosTreeItem', 'TreeItem90']
+   |    |    |    |    |    | child_window(title="Cadastro de Bombas, Lacres e Bicos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Movimentação de Combustíveis'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Movimentação de CombustíveisTreeItem', 'Movimentação de Combustíveis', 'TreeItem91', 'Movimentação de CombustíveisTreeItem0', 'Movimentação de CombustíveisTreeItem1', 'Movimentação de Combustíveis0', 'Movimentação de Combustíveis1']
+   |    |    |    |    |    | child_window(title="Movimentação de Combustíveis", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relatório de Conferência'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem92', 'Relatório de Conferência2', 'Relatório de ConferênciaTreeItem2']
+   |    |    |    |    |    | child_window(title="Relatório de Conferência", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Controle da Produção e Estoque (Bloco K)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem93', 'Controle da Produção e Estoque (Bloco K)', 'Controle da Produção e Estoque (Bloco K)TreeItem', 'Controle da Produção e Estoque (Bloco K)0', 'Controle da Produção e Estoque (Bloco K)1', 'Controle da Produção e Estoque (Bloco K)TreeItem0', 'Controle da Produção e Estoque (Bloco K)TreeItem1']
+   |    |    |    |    |    | child_window(title="Controle da Produção e Estoque (Bloco K)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Estoque Escriturado'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem94', 'Estoque EscrituradoTreeItem', 'Estoque Escriturado']
+   |    |    |    |    |    | child_window(title="Estoque Escriturado", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Estoque Próprio em Seu Poder (K200)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Estoque Próprio em Seu Poder (K200)', 'Estoque Próprio em Seu Poder (K200)TreeItem', 'TreeItem95']
+   |    |    |    |    |    | child_window(title="Estoque Próprio em Seu Poder (K200)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Estoque Próprio em Poder de Terceiros (K200)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Estoque Próprio em Poder de Terceiros (K200)', 'Estoque Próprio em Poder de Terceiros (K200)TreeItem', 'TreeItem96']
+   |    |    |    |    |    | child_window(title="Estoque Próprio em Poder de Terceiros (K200)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Estoque de Terceiros em Seu Poder (K200)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Estoque de Terceiros em Seu Poder (K200)', 'Estoque de Terceiros em Seu Poder (K200)TreeItem', 'TreeItem97']
+   |    |    |    |    |    | child_window(title="Estoque de Terceiros em Seu Poder (K200)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Correções do Estoque Escriturado'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Correções do Estoque Escriturado', 'Correções do Estoque EscrituradoTreeItem', 'TreeItem98']
+   |    |    |    |    |    | child_window(title="Correções do Estoque Escriturado", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Estoque Próprio em Seu Poder (K280)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Estoque Próprio em Seu Poder (K280)TreeItem', 'Estoque Próprio em Seu Poder (K280)', 'TreeItem99']
+   |    |    |    |    |    | child_window(title="Estoque Próprio em Seu Poder (K280)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Estoque Próprio em Poder de Terceiros (K280)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Estoque Próprio em Poder de Terceiros (K280)', 'Estoque Próprio em Poder de Terceiros (K280)TreeItem', 'TreeItem100']
+   |    |    |    |    |    | child_window(title="Estoque Próprio em Poder de Terceiros (K280)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Estoque de Terceiros em Seu Poder (K280)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Estoque de Terceiros em Seu Poder (K280)TreeItem', 'Estoque de Terceiros em Seu Poder (K280)', 'TreeItem101']
+   |    |    |    |    |    | child_window(title="Estoque de Terceiros em Seu Poder (K280)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Desmontagem de Mercadorias (K210 e K215)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Desmontagem de Mercadorias (K210 e K215)', 'Desmontagem de Mercadorias (K210 e K215)TreeItem', 'TreeItem102']
+   |    |    |    |    |    | child_window(title="Desmontagem de Mercadorias (K210 e K215)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Movimentações Internas (K220)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Movimentações Internas (K220)', 'Movimentações Internas (K220)TreeItem', 'TreeItem103']
+   |    |    |    |    |    | child_window(title="Movimentações Internas (K220)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Itens Produzidos e Consumidos (K230 e K235)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Itens Produzidos e Consumidos (K230 e K235)', 'TreeItem104', 'Itens Produzidos e Consumidos (K230 e K235)TreeItem']
+   |    |    |    |    |    | child_window(title="Itens Produzidos e Consumidos (K230 e K235)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Indus. Efetuada por/em Terceiros (K250 e K255)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Indus. Efetuada por/em Terceiros (K250 e K255)', 'Indus. Efetuada por/em Terceiros (K250 e K255)TreeItem', 'TreeItem105']
+   |    |    |    |    |    | child_window(title="Indus. Efetuada por/em Terceiros (K250 e K255)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Reprocessamento/Reparo (K260 e K265)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Reprocessamento/Reparo (K260 e K265)', 'Reprocessamento/Reparo (K260 e K265)TreeItem', 'TreeItem106']
+   |    |    |    |    |    | child_window(title="Reprocessamento/Reparo (K260 e K265)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Correção de Apontamento e Retorno (K270 e K275)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Correção de Apontamento e Retorno (K270 e K275)', 'Correção de Apontamento e Retorno (K270 e K275)TreeItem', 'TreeItem107']
+   |    |    |    |    |    | child_window(title="Correção de Apontamento e Retorno (K270 e K275)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Produção Conjunta'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Produção ConjuntaTreeItem', 'Produção Conjunta', 'TreeItem108']
+   |    |    |    |    |    | child_window(title="Produção Conjunta", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Ordem de Produção (K290, K291 e K292)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Ordem de Produção (K290, K291 e K292)TreeItem', 'Ordem de Produção (K290, K291 e K292)', 'TreeItem109']
+   |    |    |    |    |    | child_window(title="Ordem de Produção (K290, K291 e K292)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Industrialização por Terceiros (K300, K301 e K302)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem110', 'Industrialização por Terceiros (K300, K301 e K302)', 'Industrialização por Terceiros (K300, K301 e K302)TreeItem']
+   |    |    |    |    |    | child_window(title="Industrialização por Terceiros (K300, K301 e K302)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Lançamentos para REINF'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem111', 'Lançamentos para REINFTreeItem', 'Lançamentos para REINF']
+   |    |    |    |    |    | child_window(title="Lançamentos para REINF", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'R-2040 - Repasse a Associação Desportiva'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem112', 'R-2040 - Repasse a Associação DesportivaTreeItem', 'R-2040 - Repasse a Associação Desportiva']
+   |    |    |    |    |    | child_window(title="R-2040 - Repasse a Associação Desportiva", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'R-4010 - Pagamento/Crédito a Beneficiário Pessoa Física'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['R-4010 - Pagamento/Crédito a Beneficiário Pessoa FísicaTreeItem', 'R-4010 - Pagamento/Crédito a Beneficiário Pessoa Física', 'TreeItem113']
+   |    |    |    |    |    | child_window(title="R-4010 - Pagamento/Crédito a Beneficiário Pessoa Física", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'R-4020 - Pagamento/Crédito a Beneficiário Pessoa Jurídica'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['R-4020 - Pagamento/Crédito a Beneficiário Pessoa JurídicaTreeItem', 'R-4020 - Pagamento/Crédito a Beneficiário Pessoa Jurídica', 'TreeItem114']
+   |    |    |    |    |    | child_window(title="R-4020 - Pagamento/Crédito a Beneficiário Pessoa Jurídica", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'R-4080 - Retenção no Recebimento'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem115', 'R-4080 - Retenção no Recebimento', 'R-4080 - Retenção no RecebimentoTreeItem']
+   |    |    |    |    |    | child_window(title="R-4080 - Retenção no Recebimento", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Módulos'    (L46, T223, R89, B239)
+   |    |    |    |    |    | ['MódulosTreeItem', 'Módulos', 'TreeItem116', 'Módulos0', 'Módulos1']
+   |    |    |    |    |    | child_window(title="Módulos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Controle de Inventário'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem117', 'Controle de InventárioTreeItem', 'Controle de Inventário']
+   |    |    |    |    |    | child_window(title="Controle de Inventário", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Zeramento de Saldo'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Zeramento de Saldo', 'Zeramento de SaldoTreeItem', 'TreeItem118']
+   |    |    |    |    |    | child_window(title="Zeramento de Saldo", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Manutenção de Saldos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem119', 'Manutenção de SaldosTreeItem', 'Manutenção de Saldos']
+   |    |    |    |    |    | child_window(title="Manutenção de Saldos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Estoque próprio em seu poder'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Estoque próprio em seu poder', 'Estoque próprio em seu poderTreeItem', 'TreeItem120']
+   |    |    |    |    |    | child_window(title="Estoque próprio em seu poder", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Estoque próprio em poder de terceiros'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Estoque próprio em poder de terceiros', 'Estoque próprio em poder de terceirosTreeItem', 'TreeItem121']
+   |    |    |    |    |    | child_window(title="Estoque próprio em poder de terceiros", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Estoque de terceiros em seu poder'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Estoque de terceiros em seu poderTreeItem', 'TreeItem122', 'Estoque de terceiros em seu poder']
+   |    |    |    |    |    | child_window(title="Estoque de terceiros em seu poder", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relatório para Contagem'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Relatório para Contagem', 'Relatório para ContagemTreeItem', 'TreeItem123']
+   |    |    |    |    |    | child_window(title="Relatório para Contagem", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Integração Contábil'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Integração Contábil', 'Integração ContábilTreeItem', 'TreeItem124']
+   |    |    |    |    |    | child_window(title="Integração Contábil", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Planilha'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['PlanilhaTreeItem', 'Planilha', 'TreeItem125']
+   |    |    |    |    |    | child_window(title="Planilha", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Geração de Lote Contábil'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Geração de Lote Contábil', 'Geração de Lote ContábilTreeItem', 'TreeItem126']
+   |    |    |    |    |    | child_window(title="Geração de Lote Contábil", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Arquivo Texto'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Arquivo Texto', 'Arquivo TextoTreeItem', 'TreeItem127', 'Arquivo Texto0', 'Arquivo Texto1', 'Arquivo TextoTreeItem0', 'Arquivo TextoTreeItem1']
+   |    |    |    |    |    | child_window(title="Arquivo Texto", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Arquivo de Lote Contábil (Remoto)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem128', 'Arquivo de Lote Contábil (Remoto)', 'Arquivo de Lote Contábil (Remoto)TreeItem']
+   |    |    |    |    |    | child_window(title="Arquivo de Lote Contábil (Remoto)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Integração X3/SAP'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Integração X3/SAPTreeItem2', 'Integração X3/SAP2', 'TreeItem129']
+   |    |    |    |    |    | child_window(title="Integração X3/SAP", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Geração de Arquivo - Apropriação de Impostos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Geração de Arquivo - Apropriação de ImpostosTreeItem', 'Geração de Arquivo - Apropriação de Impostos', 'TreeItem130']
+   |    |    |    |    |    | child_window(title="Geração de Arquivo - Apropriação de Impostos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Geração de Arquivos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Geração de Arquivos', 'Geração de ArquivosTreeItem', 'TreeItem131']
+   |    |    |    |    |    | child_window(title="Geração de Arquivos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'DIRF'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['DIRFTreeItem', 'DIRF', 'TreeItem132']
+   |    |    |    |    |    | child_window(title="DIRF", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'SINTEGRA'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['SINTEGRA', 'SINTEGRATreeItem', 'TreeItem133']
+   |    |    |    |    |    | child_window(title="SINTEGRA", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'SINTEGRA - Itens'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['SINTEGRA - Itens', 'SINTEGRA - ItensTreeItem', 'TreeItem134']
+   |    |    |    |    |    | child_window(title="SINTEGRA - Itens", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'DCTF Mensal'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem135', 'DCTF MensalTreeItem', 'DCTF Mensal']
+   |    |    |    |    |    | child_window(title="DCTF Mensal", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'DCTF Mensal - Versão 2.5'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem136', 'DCTF Mensal - Versão 2.5TreeItem', 'DCTF Mensal - Versão 2.5']
+   |    |    |    |    |    | child_window(title="DCTF Mensal - Versão 2.5", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'SINCO (ADE nº 15/2001)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['SINCO (ADE nº 15/2001)TreeItem', 'TreeItem137', 'SINCO (ADE nº 15/2001)']
+   |    |    |    |    |    | child_window(title="SINCO (ADE nº 15/2001)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Arquivo Completo'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem138', 'Arquivo CompletoTreeItem', 'Arquivo Completo']
+   |    |    |    |    |    | child_window(title="Arquivo Completo", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Arquivo Simplificado'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem139', 'Arquivo Simplificado', 'Arquivo SimplificadoTreeItem']
+   |    |    |    |    |    | child_window(title="Arquivo Simplificado", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'SVA (ADE nº 25/2010)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['SVA (ADE nº 25/2010)', 'SVA (ADE nº 25/2010)TreeItem', 'TreeItem140']
+   |    |    |    |    |    | child_window(title="SVA (ADE nº 25/2010)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'SPED'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['SPED', 'SPEDTreeItem', 'TreeItem141']
+   |    |    |    |    |    | child_window(title="SPED", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Fiscal'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Fiscal', 'FiscalTreeItem', 'TreeItem142']
+   |    |    |    |    |    | child_window(title="Fiscal", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Geração do Arquivo'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Geração do Arquivo', 'Geração do ArquivoTreeItem', 'TreeItem143', 'Geração do Arquivo0', 'Geração do Arquivo1', 'Geração do ArquivoTreeItem0', 'Geração do ArquivoTreeItem1']
+   |    |    |    |    |    | child_window(title="Geração do Arquivo", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Rotinas Auxiliares'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Rotinas Auxiliares', 'Rotinas AuxiliaresTreeItem', 'TreeItem144', 'Rotinas Auxiliares0', 'Rotinas Auxiliares1', 'Rotinas AuxiliaresTreeItem0', 'Rotinas AuxiliaresTreeItem1']
+   |    |    |    |    |    | child_window(title="Rotinas Auxiliares", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relatório de Conferência - Cupom Fiscal'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Relatório de Conferência - Cupom Fiscal', 'Relatório de Conferência - Cupom FiscalTreeItem', 'TreeItem145', 'Relatório de Conferência - Cupom Fiscal0', 'Relatório de Conferência - Cupom Fiscal1', 'Relatório de Conferência - Cupom FiscalTreeItem0', 'Relatório de Conferência - Cupom FiscalTreeItem1']
+   |    |    |    |    |    | child_window(title="Relatório de Conferência - Cupom Fiscal", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'EFD Contribuições'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['EFD ContribuiçõesTreeItem', 'EFD Contribuições', 'TreeItem146']
+   |    |    |    |    |    | child_window(title="EFD Contribuições", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Geração do Arquivo'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Geração do Arquivo2', 'Geração do ArquivoTreeItem2', 'TreeItem147']
+   |    |    |    |    |    | child_window(title="Geração do Arquivo", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Rotinas Auxiliares'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Rotinas Auxiliares2', 'Rotinas AuxiliaresTreeItem2', 'TreeItem148']
+   |    |    |    |    |    | child_window(title="Rotinas Auxiliares", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relatório de Conferência dos Itens da Nota'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Relatório de Conferência dos Itens da Nota', 'Relatório de Conferência dos Itens da NotaTreeItem', 'TreeItem149', 'Relatório de Conferência dos Itens da Nota0', 'Relatório de Conferência dos Itens da Nota1', 'Relatório de Conferência dos Itens da NotaTreeItem0', 'Relatório de Conferência dos Itens da NotaTreeItem1']
+   |    |    |    |    |    | child_window(title="Relatório de Conferência dos Itens da Nota", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Alteração de Código de Município nos Emitentes/Destinatários'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem150', 'Alteração de Código de Município nos Emitentes/DestinatáriosTreeItem', 'Alteração de Código de Município nos Emitentes/Destinatários', 'Alteração de Código de Município nos Emitentes/DestinatáriosTreeItem0', 'Alteração de Código de Município nos Emitentes/DestinatáriosTreeItem1', 'Alteração de Código de Município nos Emitentes/Destinatários0', 'Alteração de Código de Município nos Emitentes/Destinatários1']
+   |    |    |    |    |    | child_window(title="Alteração de Código de Município nos Emitentes/Destinatários", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Alteração de NCM nos Produtos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Alteração de NCM nos ProdutosTreeItem', 'Alteração de NCM nos Produtos', 'TreeItem151', 'Alteração de NCM nos ProdutosTreeItem0', 'Alteração de NCM nos ProdutosTreeItem1', 'Alteração de NCM nos Produtos0', 'Alteração de NCM nos Produtos1']
+   |    |    |    |    |    | child_window(title="Alteração de NCM nos Produtos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Gera CST de PIS/COFINS nos Produtos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Gera CST de PIS/COFINS nos Produtos', 'Gera CST de PIS/COFINS nos ProdutosTreeItem', 'TreeItem152', 'Gera CST de PIS/COFINS nos Produtos0', 'Gera CST de PIS/COFINS nos Produtos1', 'Gera CST de PIS/COFINS nos ProdutosTreeItem0', 'Gera CST de PIS/COFINS nos ProdutosTreeItem1']
+   |    |    |    |    |    | child_window(title="Gera CST de PIS/COFINS nos Produtos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Alteração de CST PIS/COFINS dos Lançamentos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Alteração de CST PIS/COFINS dos LançamentosTreeItem', 'Alteração de CST PIS/COFINS dos Lançamentos', 'TreeItem153']
+   |    |    |    |    |    | child_window(title="Alteração de CST PIS/COFINS dos Lançamentos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Alteração de CST PIS/COFINS dos Itens Vendidos de ECF'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem154', 'Alteração de CST PIS/COFINS dos Itens Vendidos de ECFTreeItem', 'Alteração de CST PIS/COFINS dos Itens Vendidos de ECF']
+   |    |    |    |    |    | child_window(title="Alteração de CST PIS/COFINS dos Itens Vendidos de ECF", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relatório de Itens Isentos sem Codificação'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Relatório de Itens Isentos sem Codificação', 'Relatório de Itens Isentos sem CodificaçãoTreeItem', 'TreeItem155']
+   |    |    |    |    |    | child_window(title="Relatório de Itens Isentos sem Codificação", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relatório de Conferência - Cupom Fiscal'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Relatório de Conferência - Cupom Fiscal2', 'Relatório de Conferência - Cupom FiscalTreeItem2', 'TreeItem156']
+   |    |    |    |    |    | child_window(title="Relatório de Conferência - Cupom Fiscal", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Controle de Créditos PIS/COFINS'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Controle de Créditos PIS/COFINSTreeItem', 'Controle de Créditos PIS/COFINS', 'TreeItem157']
+   |    |    |    |    |    | child_window(title="Controle de Créditos PIS/COFINS", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Processamento Agrupado'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Processamento Agrupado', 'Processamento AgrupadoTreeItem', 'TreeItem158', 'Processamento Agrupado0', 'Processamento Agrupado1', 'Processamento AgrupadoTreeItem0', 'Processamento AgrupadoTreeItem1']
+   |    |    |    |    |    | child_window(title="Processamento Agrupado", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Parâmetros EFD ICMS/IPI'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Parâmetros EFD ICMS/IPI', 'Parâmetros EFD ICMS/IPITreeItem', 'TreeItem159']
+   |    |    |    |    |    | child_window(title="Parâmetros EFD ICMS/IPI", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Parâmetros EFD Contribuições'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Parâmetros EFD Contribuições', 'Parâmetros EFD ContribuiçõesTreeItem', 'TreeItem160']
+   |    |    |    |    |    | child_window(title="Parâmetros EFD Contribuições", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Geração das EFDs'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Geração das EFDsTreeItem', 'Geração das EFDs', 'TreeItem161']
+   |    |    |    |    |    | child_window(title="Geração das EFDs", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'DMED'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['DMED', 'DMEDTreeItem', 'TreeItem162']
+   |    |    |    |    |    | child_window(title="DMED", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'GNRE'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['GNRE', 'GNRETreeItem', 'TreeItem163']
+   |    |    |    |    |    | child_window(title="GNRE", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'PER/DCOMP'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['PER/DCOMP', 'PER/DCOMPTreeItem', 'TreeItem164']
+   |    |    |    |    |    | child_window(title="PER/DCOMP", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'GIA-ST - Versão 2'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['GIA-ST - Versão 2', 'GIA-ST - Versão 2TreeItem', 'TreeItem165']
+   |    |    |    |    |    | child_window(title="GIA-ST - Versão 2", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'GIA-ST - Versão 3'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['GIA-ST - Versão 3TreeItem', 'GIA-ST - Versão 3', 'TreeItem166']
+   |    |    |    |    |    | child_window(title="GIA-ST - Versão 3", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Geração de Arquivo para o Município'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Geração de Arquivo para o Município', 'Geração de Arquivo para o MunicípioTreeItem', 'TreeItem167']
+   |    |    |    |    |    | child_window(title="Geração de Arquivo para o Município", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Arquivo Texto'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Arquivo Texto2', 'Arquivo TextoTreeItem2', 'TreeItem168']
+   |    |    |    |    |    | child_window(title="Arquivo Texto", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Arquivo XML'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Arquivo XML', 'Arquivo XMLTreeItem', 'TreeItem169']
+   |    |    |    |    |    | child_window(title="Arquivo XML", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Maringá - PR'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Maringá - PR', 'Maringá - PRTreeItem', 'TreeItem170']
+   |    |    |    |    |    | child_window(title="Maringá - PR", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'GIA'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['GIATreeItem', 'GIA', 'TreeItem171']
+   |    |    |    |    |    | child_window(title="GIA", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'DFC'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem172', 'DFC', 'DFCTreeItem']
+   |    |    |    |    |    | child_window(title="DFC", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'GI'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['GI', 'GITreeItem', 'TreeItem173']
+   |    |    |    |    |    | child_window(title="GI", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'DeSTDA'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['DeSTDATreeItem', 'DeSTDA', 'TreeItem174']
+   |    |    |    |    |    | child_window(title="DeSTDA", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'ADRC-ST'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['ADRC-STTreeItem', 'ADRC-ST', 'TreeItem175', 'ADRC-STTreeItem0', 'ADRC-STTreeItem1', 'ADRC-ST0', 'ADRC-ST1']
+   |    |    |    |    |    | child_window(title="ADRC-ST", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Geração do Arquivo'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Geração do Arquivo3', 'Geração do ArquivoTreeItem3', 'TreeItem176']
+   |    |    |    |    |    | child_window(title="Geração do Arquivo", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Rotinas Auxiliares'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Rotinas Auxiliares3', 'Rotinas AuxiliaresTreeItem3', 'TreeItem177']
+   |    |    |    |    |    | child_window(title="Rotinas Auxiliares", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Apuração de Item - ADRC-ST'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem178', 'Apuração de Item - ADRC-ST', 'Apuração de Item - ADRC-STTreeItem', 'Apuração de Item - ADRC-ST0', 'Apuração de Item - ADRC-ST1', 'Apuração de Item - ADRC-STTreeItem0', 'Apuração de Item - ADRC-STTreeItem1']
+   |    |    |    |    |    | child_window(title="Apuração de Item - ADRC-ST", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Lançamento para Recuperação/Complementação de ICMS-ST/FECOP (ADRC-ST)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Lançamento para Recuperação/Complementação de ICMS-ST/FECOP (ADRC-ST)TreeItem', 'Lançamento para Recuperação/Complementação de ICMS-ST/FECOP (ADRC-ST)', 'TreeItem179', 'Lançamento para Recuperação/Complementação de ICMS-ST/FECOP (ADRC-ST)TreeItem0', 'Lançamento para Recuperação/Complementação de ICMS-ST/FECOP (ADRC-ST)TreeItem1', 'Lançamento para Recuperação/Complementação de ICMS-ST/FECOP (ADRC-ST)0', 'Lançamento para Recuperação/Complementação de ICMS-ST/FECOP (ADRC-ST)1']
+   |    |    |    |    |    | child_window(title="Lançamento para Recuperação/Complementação de ICMS-ST/FECOP (ADRC-ST)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relatório de Complemento/Restituição de ICMS-ST'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem180', 'Relatório de Complemento/Restituição de ICMS-ST', 'Relatório de Complemento/Restituição de ICMS-STTreeItem', 'Relatório de Complemento/Restituição de ICMS-ST0', 'Relatório de Complemento/Restituição de ICMS-ST1', 'Relatório de Complemento/Restituição de ICMS-STTreeItem0', 'Relatório de Complemento/Restituição de ICMS-STTreeItem1']
+   |    |    |    |    |    | child_window(title="Relatório de Complemento/Restituição de ICMS-ST", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Excluir Lançamentos Antigos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem181', 'Excluir Lançamentos Antigos', 'Excluir Lançamentos AntigosTreeItem']
+   |    |    |    |    |    | child_window(title="Excluir Lançamentos Antigos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Fechamento Mensal'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem182', 'Fechamento MensalTreeItem', 'Fechamento Mensal']
+   |    |    |    |    |    | child_window(title="Fechamento Mensal", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Atividade Imobiliária'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Atividade ImobiliáriaTreeItem', 'Atividade Imobiliária', 'TreeItem183', 'Atividade ImobiliáriaTreeItem0', 'Atividade ImobiliáriaTreeItem1', 'Atividade Imobiliária0', 'Atividade Imobiliária1']
+   |    |    |    |    |    | child_window(title="Atividade Imobiliária", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Cadastros'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Cadastros2', 'CadastrosTreeItem2', 'TreeItem184']
+   |    |    |    |    |    | child_window(title="Cadastros", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Cadastro de Empreendimentos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Cadastro de Empreendimentos', 'Cadastro de EmpreendimentosTreeItem', 'TreeItem185']
+   |    |    |    |    |    | child_window(title="Cadastro de Empreendimentos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Cadastro de Unidades Imobiliárias'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Cadastro de Unidades Imobiliárias', 'Cadastro de Unidades ImobiliáriasTreeItem', 'TreeItem186']
+   |    |    |    |    |    | child_window(title="Cadastro de Unidades Imobiliárias", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Lançamentos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Lançamentos2', 'LançamentosTreeItem2', 'TreeItem187']
+   |    |    |    |    |    | child_window(title="Lançamentos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Consulta de Lançamentos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Consulta de LançamentosTreeItem', 'Consulta de Lançamentos', 'TreeItem188']
+   |    |    |    |    |    | child_window(title="Consulta de Lançamentos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Lançamento de Recebimentos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Lançamento de Recebimentos', 'Lançamento de RecebimentosTreeItem', 'TreeItem189']
+   |    |    |    |    |    | child_window(title="Lançamento de Recebimentos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Lançamento de Custos Orçados '    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Lançamento de Custos Orçados ', 'Lançamento de Custos Orçados TreeItem', 'TreeItem190']
+   |    |    |    |    |    | child_window(title="Lançamento de Custos Orçados ", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Lançamento de Custos Incorridos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem191', 'Lançamento de Custos IncorridosTreeItem', 'Lançamento de Custos Incorridos']
+   |    |    |    |    |    | child_window(title="Lançamento de Custos Incorridos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relatório'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Relatório', 'RelatórioTreeItem', 'TreeItem192']
+   |    |    |    |    |    | child_window(title="Relatório", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'REINF'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem193', 'REINFTreeItem', 'REINF']
+   |    |    |    |    |    | child_window(title="REINF", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Envio da Carga Inicial (Contribuinte)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem194', 'Envio da Carga Inicial (Contribuinte)', 'Envio da Carga Inicial (Contribuinte)TreeItem']
+   |    |    |    |    |    | child_window(title="Envio da Carga Inicial (Contribuinte)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Envio da Tabela de Entidades Ligadas ao Contribuinte SCP/FCI'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Envio da Tabela de Entidades Ligadas ao Contribuinte SCP/FCI', 'Envio da Tabela de Entidades Ligadas ao Contribuinte SCP/FCITreeItem', 'TreeItem195']
+   |    |    |    |    |    | child_window(title="Envio da Tabela de Entidades Ligadas ao Contribuinte SCP/FCI", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Envio de Processos Judiciais/Administrativos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Envio de Processos Judiciais/AdministrativosTreeItem', 'Envio de Processos Judiciais/Administrativos', 'TreeItem196']
+   |    |    |    |    |    | child_window(title="Envio de Processos Judiciais/Administrativos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Envio do Movimento Mensal'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Envio do Movimento MensalTreeItem', 'Envio do Movimento Mensal', 'TreeItem197']
+   |    |    |    |    |    | child_window(title="Envio do Movimento Mensal", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Exclusão dos Eventos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Exclusão dos Eventos', 'Exclusão dos EventosTreeItem', 'TreeItem198']
+   |    |    |    |    |    | child_window(title="Exclusão dos Eventos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Fechamento do Período'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Fechamento do Período', 'Fechamento do PeríodoTreeItem', 'TreeItem199']
+   |    |    |    |    |    | child_window(title="Fechamento do Período", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Reabertura do Período'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Reabertura do Período', 'Reabertura do PeríodoTreeItem', 'TreeItem200']
+   |    |    |    |    |    | child_window(title="Reabertura do Período", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Rotinas Auxiliares'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Rotinas Auxiliares4', 'Rotinas AuxiliaresTreeItem4', 'TreeItem201']
+   |    |    |    |    |    | child_window(title="Rotinas Auxiliares", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Exportação XML'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Exportação XML', 'Exportação XMLTreeItem', 'TreeItem202']
+   |    |    |    |    |    | child_window(title="Exportação XML", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Destravar Eventos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Destravar EventosTreeItem', 'Destravar Eventos', 'TreeItem203']
+   |    |    |    |    |    | child_window(title="Destravar Eventos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Módulo de Inclusão de Tributos - MIT'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Módulo de Inclusão de Tributos - MITTreeItem', 'Módulo de Inclusão de Tributos - MIT', 'TreeItem204']
+   |    |    |    |    |    | child_window(title="Módulo de Inclusão de Tributos - MIT", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Tributos'    (L46, T239, R89, B255)
+   |    |    |    |    |    | ['TributosTreeItem', 'Tributos', 'TreeItem205', 'Tributos0', 'Tributos1']
+   |    |    |    |    |    | child_window(title="Tributos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Apuração Mensal'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem206', 'Apuração Mensal', 'Apuração MensalTreeItem', 'Apuração Mensal0', 'Apuração Mensal1', 'Apuração MensalTreeItem0', 'Apuração MensalTreeItem1']
+   |    |    |    |    |    | child_window(title="Apuração Mensal", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Apuração Mensal'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem207', 'Apuração Mensal2', 'Apuração MensalTreeItem2']
+   |    |    |    |    |    | child_window(title="Apuração Mensal", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Processamento Agrupado'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Processamento Agrupado2', 'Processamento AgrupadoTreeItem2', 'TreeItem208']
+   |    |    |    |    |    | child_window(title="Processamento Agrupado", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Parâmetros para Apuração de Tributos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Parâmetros para Apuração de Tributos', 'Parâmetros para Apuração de TributosTreeItem', 'TreeItem209']
+   |    |    |    |    |    | child_window(title="Parâmetros para Apuração de Tributos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Apuração de Tributos Agrupados'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Apuração de Tributos Agrupados', 'Apuração de Tributos AgrupadosTreeItem', 'TreeItem210']
+   |    |    |    |    |    | child_window(title="Apuração de Tributos Agrupados", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Resumo de Débitos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Resumo de Débitos', 'TreeItem211', 'Resumo de DébitosTreeItem']
+   |    |    |    |    |    | child_window(title="Resumo de Débitos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Memória de Cálculo'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Memória de Cálculo', 'Memória de CálculoTreeItem', 'TreeItem212']
+   |    |    |    |    |    | child_window(title="Memória de Cálculo", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Simples Nacional'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Simples NacionalTreeItem', 'Simples Nacional', 'TreeItem213']
+   |    |    |    |    |    | child_window(title="Simples Nacional", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Integração com o PGDAS'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem214', 'Integração com o PGDAS', 'Integração com o PGDASTreeItem']
+   |    |    |    |    |    | child_window(title="Integração com o PGDAS", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Demonstrativo para preenchimento do PGDAS'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Demonstrativo para preenchimento do PGDASTreeItem', 'Demonstrativo para preenchimento do PGDAS', 'TreeItem215']
+   |    |    |    |    |    | child_window(title="Demonstrativo para preenchimento do PGDAS", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Declaração de Faturamento'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Declaração de Faturamento', 'Declaração de FaturamentoTreeItem', 'TreeItem216', 'Declaração de Faturamento0', 'Declaração de Faturamento1', 'Declaração de FaturamentoTreeItem0', 'Declaração de FaturamentoTreeItem1']
+   |    |    |    |    |    | child_window(title="Declaração de Faturamento", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relatório de Conferência - Receitas x Notas'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Relatório de Conferência - Receitas x NotasTreeItem', 'Relatório de Conferência - Receitas x Notas', 'TreeItem217']
+   |    |    |    |    |    | child_window(title="Relatório de Conferência - Receitas x Notas", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relatório de Conferência - Notas x Receitas'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Relatório de Conferência - Notas x ReceitasTreeItem', 'Relatório de Conferência - Notas x Receitas', 'TreeItem218']
+   |    |    |    |    |    | child_window(title="Relatório de Conferência - Notas x Receitas", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Integração da DEFIS'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Integração da DEFISTreeItem', 'TreeItem219', 'Integração da DEFIS']
+   |    |    |    |    |    | child_window(title="Integração da DEFIS", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Resumo para DeSTDA'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem220', 'Resumo para DeSTDA', 'Resumo para DeSTDATreeItem']
+   |    |    |    |    |    | child_window(title="Resumo para DeSTDA", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Regime de Caixa'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Regime de CaixaTreeItem', 'Regime de Caixa', 'TreeItem221']
+   |    |    |    |    |    | child_window(title="Regime de Caixa", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Recebimentos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Recebimentos', 'RecebimentosTreeItem', 'TreeItem222']
+   |    |    |    |    |    | child_window(title="Recebimentos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Exclusão de Recebimentos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Exclusão de Recebimentos', 'TreeItem223', 'Exclusão de RecebimentosTreeItem']
+   |    |    |    |    |    | child_window(title="Exclusão de Recebimentos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relatório de Conferência'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem224', 'Relatório de Conferência3', 'Relatório de ConferênciaTreeItem3']
+   |    |    |    |    |    | child_window(title="Relatório de Conferência", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relatório de Registro de Valores a Receber'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Relatório de Registro de Valores a Receber', 'Relatório de Registro de Valores a ReceberTreeItem', 'TreeItem225']
+   |    |    |    |    |    | child_window(title="Relatório de Registro de Valores a Receber", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Geração DeSTDA'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Geração DeSTDA', 'Geração DeSTDATreeItem', 'TreeItem226']
+   |    |    |    |    |    | child_window(title="Geração DeSTDA", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Valor Folha - Fator R'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem227', 'Valor Folha - Fator R', 'Valor Folha - Fator RTreeItem']
+   |    |    |    |    |    | child_window(title="Valor Folha - Fator R", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Guias de Recolhimento'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Guias de Recolhimento', 'Guias de RecolhimentoTreeItem', 'TreeItem228']
+   |    |    |    |    |    | child_window(title="Guias de Recolhimento", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Tributos Mensais'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Tributos MensaisTreeItem', 'Tributos Mensais', 'TreeItem229']
+   |    |    |    |    |    | child_window(title="Tributos Mensais", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Resumo para GIA-ST'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Resumo para GIA-ST', 'Resumo para GIA-STTreeItem', 'TreeItem230']
+   |    |    |    |    |    | child_window(title="Resumo para GIA-ST", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'GNRE/DARE - Substituição Tributária'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['GNRE/DARE - Substituição Tributária', 'GNRE/DARE - Substituição TributáriaTreeItem', 'TreeItem231']
+   |    |    |    |    |    | child_window(title="GNRE/DARE - Substituição Tributária", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'DARF para Recolhimentos Diversos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['DARF para Recolhimentos Diversos', 'DARF para Recolhimentos DiversosTreeItem', 'TreeItem232']
+   |    |    |    |    |    | child_window(title="DARF para Recolhimentos Diversos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'GR - PR para Recolhimentos Diversos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['GR - PR para Recolhimentos DiversosTreeItem', 'GR - PR para Recolhimentos Diversos', 'TreeItem233']
+   |    |    |    |    |    | child_window(title="GR - PR para Recolhimentos Diversos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Pagamento de Guias'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem234', 'Pagamento de GuiasTreeItem', 'Pagamento de Guias']
+   |    |    |    |    |    | child_window(title="Pagamento de Guias", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relação de Tributos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem235', 'Relação de Tributos', 'Relação de TributosTreeItem']
+   |    |    |    |    |    | child_window(title="Relação de Tributos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Créditos do Ativo Permanente'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem236', 'Créditos do Ativo PermanenteTreeItem', 'Créditos do Ativo Permanente']
+   |    |    |    |    |    | child_window(title="Créditos do Ativo Permanente", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Cálculo Mensal'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem237', 'Cálculo MensalTreeItem', 'Cálculo Mensal']
+   |    |    |    |    |    | child_window(title="Cálculo Mensal", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Manutenção'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['ManutençãoTreeItem', 'Manutenção', 'TreeItem238']
+   |    |    |    |    |    | child_window(title="Manutenção", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Saldo Credor de PIS/COFINS/CSLL/IRPJ'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem239', 'Saldo Credor de PIS/COFINS/CSLL/IRPJTreeItem', 'Saldo Credor de PIS/COFINS/CSLL/IRPJ']
+   |    |    |    |    |    | child_window(title="Saldo Credor de PIS/COFINS/CSLL/IRPJ", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Saldo Credor de ICMS/IPI'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Saldo Credor de ICMS/IPI', 'Saldo Credor de ICMS/IPITreeItem', 'TreeItem240']
+   |    |    |    |    |    | child_window(title="Saldo Credor de ICMS/IPI", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Saldo Credor de ICMS-ST/DIFAL/FCP'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem241', 'Saldo Credor de ICMS-ST/DIFAL/FCP', 'Saldo Credor de ICMS-ST/DIFAL/FCPTreeItem']
+   |    |    |    |    |    | child_window(title="Saldo Credor de ICMS-ST/DIFAL/FCP", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Detalhamento de ICMS/IPI'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Detalhamento de ICMS/IPITreeItem', 'Detalhamento de ICMS/IPI', 'TreeItem242']
+   |    |    |    |    |    | child_window(title="Detalhamento de ICMS/IPI", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Informação Adicional de ICMS/IPI'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Informação Adicional de ICMS/IPITreeItem', 'Informação Adicional de ICMS/IPI', 'TreeItem243']
+   |    |    |    |    |    | child_window(title="Informação Adicional de ICMS/IPI", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Pagamento de GNRE'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Pagamento de GNRE', 'Pagamento de GNRETreeItem', 'TreeItem244']
+   |    |    |    |    |    | child_window(title="Pagamento de GNRE", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Controle de Retenção/Compensação de PIS/COFINS'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Controle de Retenção/Compensação de PIS/COFINS', 'Controle de Retenção/Compensação de PIS/COFINSTreeItem', 'TreeItem245']
+   |    |    |    |    |    | child_window(title="Controle de Retenção/Compensação de PIS/COFINS", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Importação'    (L46, T255, R105, B271)
+   |    |    |    |    |    | ['Importação', 'ImportaçãoTreeItem', 'TreeItem246', 'Importação0', 'Importação1']
+   |    |    |    |    |    | child_window(title="Importação", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'NF-e/NFC-e/CF-e (XML Saída/Entrada - Emissão Própria)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['NF-e/NFC-e/CF-e (XML Saída/Entrada - Emissão Própria)TreeItem', 'NF-e/NFC-e/CF-e (XML Saída/Entrada - Emissão Própria)', 'TreeItem247']
+   |    |    |    |    |    | child_window(title="NF-e/NFC-e/CF-e (XML Saída/Entrada - Emissão Própria)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'NF-e (XML Entrada - Emissão de Terceiros)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['NF-e (XML Entrada - Emissão de Terceiros)TreeItem', 'NF-e (XML Entrada - Emissão de Terceiros)', 'TreeItem248']
+   |    |    |    |    |    | child_window(title="NF-e (XML Entrada - Emissão de Terceiros)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'CT-e/CT-e OS/BP-e (XML Entrada/XML Saída)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem249', 'CT-e/CT-e OS/BP-e (XML Entrada/XML Saída)', 'CT-e/CT-e OS/BP-e (XML Entrada/XML Saída)TreeItem']
+   |    |    |    |    |    | child_window(title="CT-e/CT-e OS/BP-e (XML Entrada/XML Saída)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'NFS-e (Serviços Prestados/Tomados)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['NFS-e (Serviços Prestados/Tomados)', 'NFS-e (Serviços Prestados/Tomados)TreeItem', 'TreeItem250']
+   |    |    |    |    |    | child_window(title="NFS-e (Serviços Prestados/Tomados)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'NFCom (XML de Saída - Emissão Própria)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['NFCom (XML de Saída - Emissão Própria)', 'NFCom (XML de Saída - Emissão Própria)TreeItem', 'TreeItem251']
+   |    |    |    |    |    | child_window(title="NFCom (XML de Saída - Emissão Própria)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Layout Padrão'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Layout Padrão', 'Layout PadrãoTreeItem', 'TreeItem252']
+   |    |    |    |    |    | child_window(title="Layout Padrão", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Emitentes/Destinatários'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Emitentes/DestinatáriosTreeItem3', 'Emitentes/Destinatários3', 'TreeItem253']
+   |    |    |    |    |    | child_window(title="Emitentes/Destinatários", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Produtos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem254', 'ProdutosTreeItem2', 'Produtos2']
+   |    |    |    |    |    | child_window(title="Produtos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Informações Complementares dos Documentos Fiscais'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Informações Complementares dos Documentos FiscaisTreeItem', 'Informações Complementares dos Documentos Fiscais', 'TreeItem255']
+   |    |    |    |    |    | child_window(title="Informações Complementares dos Documentos Fiscais", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Lançamentos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Lançamentos3', 'LançamentosTreeItem3', 'TreeItem256']
+   |    |    |    |    |    | child_window(title="Lançamentos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Inventário'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['InventárioTreeItem', 'Inventário', 'TreeItem257', 'InventárioTreeItem0', 'InventárioTreeItem1', 'Inventário0', 'Inventário1']
+   |    |    |    |    |    | child_window(title="Inventário", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Lançamentos Cupom Fiscal'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Lançamentos Cupom FiscalTreeItem', 'Lançamentos Cupom Fiscal', 'TreeItem258']
+   |    |    |    |    |    | child_window(title="Lançamentos Cupom Fiscal", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Redução Z'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem259', 'Redução ZTreeItem2', 'Redução Z2']
+   |    |    |    |    |    | child_window(title="Redução Z", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Itens Vendidos (Geração do Sintegra)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Itens Vendidos (Geração do Sintegra)2', 'Itens Vendidos (Geração do Sintegra)TreeItem2', 'TreeItem260']
+   |    |    |    |    |    | child_window(title="Itens Vendidos (Geração do Sintegra)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Itens Vendidos (Geração do SPED Fiscal - Perfil A)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Itens Vendidos (Geração do SPED Fiscal - Perfil A)2', 'Itens Vendidos (Geração do SPED Fiscal - Perfil A)TreeItem2', 'TreeItem261']
+   |    |    |    |    |    | child_window(title="Itens Vendidos (Geração do SPED Fiscal - Perfil A)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Itens Vendidos (Geração do SPED Fiscal - Perfil B)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem262', 'Itens Vendidos (Geração do SPED Fiscal - Perfil B)TreeItem2', 'Itens Vendidos (Geração do SPED Fiscal - Perfil B)2']
+   |    |    |    |    |    | child_window(title="Itens Vendidos (Geração do SPED Fiscal - Perfil B)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Itens Vendidos (Geração da EFD Contribuições)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Itens Vendidos (Geração da EFD Contribuições)2', 'Itens Vendidos (Geração da EFD Contribuições)TreeItem2', 'TreeItem263']
+   |    |    |    |    |    | child_window(title="Itens Vendidos (Geração da EFD Contribuições)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Itens para Notas Lançadas'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem264', 'Itens para Notas Lançadas', 'Itens para Notas LançadasTreeItem']
+   |    |    |    |    |    | child_window(title="Itens para Notas Lançadas", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Lançamentos de Bases/Valores Extras Tributáveis'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Lançamentos de Bases/Valores Extras TributáveisTreeItem', 'Lançamentos de Bases/Valores Extras Tributáveis', 'TreeItem265']
+   |    |    |    |    |    | child_window(title="Lançamentos de Bases/Valores Extras Tributáveis", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Recebimentos - Regime de Caixa'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Recebimentos - Regime de Caixa2', 'Recebimentos - Regime de CaixaTreeItem2', 'TreeItem266']
+   |    |    |    |    |    | child_window(title="Recebimentos - Regime de Caixa", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Atividade Imobiliária'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Atividade ImobiliáriaTreeItem2', 'Atividade Imobiliária2', 'TreeItem267']
+   |    |    |    |    |    | child_window(title="Atividade Imobiliária", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Varejista de Combustíveis'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Varejista de Combustíveis2', 'Varejista de CombustíveisTreeItem2', 'TreeItem268']
+   |    |    |    |    |    | child_window(title="Varejista de Combustíveis", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Cadastro das Bombas, Lacres e Bicos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Cadastro das Bombas, Lacres e BicosTreeItem', 'Cadastro das Bombas, Lacres e Bicos', 'TreeItem269']
+   |    |    |    |    |    | child_window(title="Cadastro das Bombas, Lacres e Bicos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Movimentação de Combustíveis'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Movimentação de CombustíveisTreeItem2', 'Movimentação de Combustíveis2', 'TreeItem270']
+   |    |    |    |    |    | child_window(title="Movimentação de Combustíveis", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Controle da Produção e Estoque (Bloco K)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem271', 'Controle da Produção e Estoque (Bloco K)2', 'Controle da Produção e Estoque (Bloco K)TreeItem2']
+   |    |    |    |    |    | child_window(title="Controle da Produção e Estoque (Bloco K)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Layout SPED Fiscal / EFD Contribuições'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem272', 'Layout SPED Fiscal / EFD ContribuiçõesTreeItem', 'Layout SPED Fiscal / EFD Contribuições']
+   |    |    |    |    |    | child_window(title="Layout SPED Fiscal / EFD Contribuições", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Layout Convênio 115/2003'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem273', 'Layout Convênio 115/2003', 'Layout Convênio 115/2003TreeItem']
+   |    |    |    |    |    | child_window(title="Layout Convênio 115/2003", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Layout Nota Fiscal Paulista'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Layout Nota Fiscal PaulistaTreeItem', 'Layout Nota Fiscal Paulista', 'TreeItem274']
+   |    |    |    |    |    | child_window(title="Layout Nota Fiscal Paulista", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Layout Portaria CAT 52/2007 (SEFAZ/SP - Cupom Fiscal)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Layout Portaria CAT 52/2007 (SEFAZ/SP - Cupom Fiscal)TreeItem', 'Layout Portaria CAT 52/2007 (SEFAZ/SP - Cupom Fiscal)', 'TreeItem275']
+   |    |    |    |    |    | child_window(title="Layout Portaria CAT 52/2007 (SEFAZ/SP - Cupom Fiscal)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Captura de Notas Fiscais - Liberar Notas'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Captura de Notas Fiscais - Liberar NotasTreeItem', 'Captura de Notas Fiscais - Liberar Notas', 'TreeItem276']
+   |    |    |    |    |    | child_window(title="Captura de Notas Fiscais - Liberar Notas", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Lançamentos REINF (R-4010, R-4020 e R-4080)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Lançamentos REINF (R-4010, R-4020 e R-4080)', 'TreeItem277', 'Lançamentos REINF (R-4010, R-4020 e R-4080)TreeItem']
+   |    |    |    |    |    | child_window(title="Lançamentos REINF (R-4010, R-4020 e R-4080)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Inventário'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['InventárioTreeItem2', 'Inventário2', 'TreeItem278']
+   |    |    |    |    |    | child_window(title="Inventário", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Utilitários'    (L46, T271, R94, B287)
+   |    |    |    |    |    | ['UtilitáriosTreeItem', 'Utilitários', 'TreeItem279', 'Utilitários0', 'Utilitários1']
+   |    |    |    |    |    | child_window(title="Utilitários", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Alterações em Lote'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Alterações em Lote', 'Alterações em LoteTreeItem', 'TreeItem280']
+   |    |    |    |    |    | child_window(title="Alterações em Lote", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Alteração de Operação Contábil dos Lançamentos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Alteração de Operação Contábil dos Lançamentos', 'Alteração de Operação Contábil dos LançamentosTreeItem', 'TreeItem281']
+   |    |    |    |    |    | child_window(title="Alteração de Operação Contábil dos Lançamentos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Alteração de Item de Serviço dos Lançamentos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Alteração de Item de Serviço dos LançamentosTreeItem', 'Alteração de Item de Serviço dos Lançamentos', 'TreeItem282']
+   |    |    |    |    |    | child_window(title="Alteração de Item de Serviço dos Lançamentos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Alteração de Modelo e Remetente dos Lançamentos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Alteração de Modelo e Remetente dos Lançamentos', 'Alteração de Modelo e Remetente dos LançamentosTreeItem', 'TreeItem283']
+   |    |    |    |    |    | child_window(title="Alteração de Modelo e Remetente dos Lançamentos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Alteração de CST PIS/Cofins dos Lançamentos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Alteração de CST PIS/Cofins dos Lançamentos', 'Alteração de CST PIS/Cofins dos LançamentosTreeItem', 'TreeItem284']
+   |    |    |    |    |    | child_window(title="Alteração de CST PIS/Cofins dos Lançamentos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Alteração de CST PIS/Cofins dos Itens Vendidos de ECF'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Alteração de CST PIS/Cofins dos Itens Vendidos de ECFTreeItem', 'Alteração de CST PIS/Cofins dos Itens Vendidos de ECF', 'TreeItem285']
+   |    |    |    |    |    | child_window(title="Alteração de CST PIS/Cofins dos Itens Vendidos de ECF", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Alteração dos Dados de PIS/COFINS dos Itens'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Alteração dos Dados de PIS/COFINS dos ItensTreeItem', 'Alteração dos Dados de PIS/COFINS dos Itens', 'TreeItem286']
+   |    |    |    |    |    | child_window(title="Alteração dos Dados de PIS/COFINS dos Itens", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Alteração dos Dados de ICMS dos Itens'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Alteração dos Dados de ICMS dos Itens', 'TreeItem287', 'Alteração dos Dados de ICMS dos ItensTreeItem']
+   |    |    |    |    |    | child_window(title="Alteração dos Dados de ICMS dos Itens", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Alteração de NCM nos Produtos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Alteração de NCM nos ProdutosTreeItem2', 'Alteração de NCM nos Produtos2', 'TreeItem288']
+   |    |    |    |    |    | child_window(title="Alteração de NCM nos Produtos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Alteração de Código de Município nos Emitentes/Destinatários'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem289', 'Alteração de Código de Município nos Emitentes/DestinatáriosTreeItem2', 'Alteração de Código de Município nos Emitentes/Destinatários2']
+   |    |    |    |    |    | child_window(title="Alteração de Código de Município nos Emitentes/Destinatários", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Alteração das Bases de Pis/Cofins a partir dos Itens Lançados'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Alteração das Bases de Pis/Cofins a partir dos Itens LançadosTreeItem', 'Alteração das Bases de Pis/Cofins a partir dos Itens Lançados', 'TreeItem290']
+   |    |    |    |    |    | child_window(title="Alteração das Bases de Pis/Cofins a partir dos Itens Lançados", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Alteração de Tipo nos Produtos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Alteração de Tipo nos ProdutosTreeItem', 'Alteração de Tipo nos Produtos', 'TreeItem291']
+   |    |    |    |    |    | child_window(title="Alteração de Tipo nos Produtos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Alteração da Unidade de Medida dos Itens'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem292', 'Alteração da Unidade de Medida dos ItensTreeItem', 'Alteração da Unidade de Medida dos Itens']
+   |    |    |    |    |    | child_window(title="Alteração da Unidade de Medida dos Itens", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Alteração dos Itens Correlacionados aos Produtos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Alteração dos Itens Correlacionados aos Produtos', 'Alteração dos Itens Correlacionados aos ProdutosTreeItem', 'TreeItem293']
+   |    |    |    |    |    | child_window(title="Alteração dos Itens Correlacionados aos Produtos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Alteração de Data de Pagamento das Retenções (Regime de Caixa)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem294', 'Alteração de Data de Pagamento das Retenções (Regime de Caixa)', 'Alteração de Data de Pagamento das Retenções (Regime de Caixa)TreeItem']
+   |    |    |    |    |    | child_window(title="Alteração de Data de Pagamento das Retenções (Regime de Caixa)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Alteração em Cadastros e Lançamentos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem295', 'Alteração em Cadastros e Lançamentos', 'Alteração em Cadastros e LançamentosTreeItem']
+   |    |    |    |    |    | child_window(title="Alteração em Cadastros e Lançamentos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Exclusão de Lançamentos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Exclusão de Lançamentos', 'Exclusão de LançamentosTreeItem', 'TreeItem296']
+   |    |    |    |    |    | child_window(title="Exclusão de Lançamentos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Exclusão de Lançamentos de Bases/Valores Extras Tributáveis'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Exclusão de Lançamentos de Bases/Valores Extras Tributáveis', 'Exclusão de Lançamentos de Bases/Valores Extras TributáveisTreeItem', 'TreeItem297']
+   |    |    |    |    |    | child_window(title="Exclusão de Lançamentos de Bases/Valores Extras Tributáveis", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Geração de Calendário'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Geração de Calendário', 'Geração de CalendárioTreeItem', 'TreeItem298']
+   |    |    |    |    |    | child_window(title="Geração de Calendário", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Recálculo de Receitas do Simples Nacional'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Recálculo de Receitas do Simples Nacional', 'Recálculo de Receitas do Simples NacionalTreeItem', 'TreeItem299']
+   |    |    |    |    |    | child_window(title="Recálculo de Receitas do Simples Nacional", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Rotinas Específicas'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Rotinas EspecíficasTreeItem', 'Rotinas Específicas', 'TreeItem300']
+   |    |    |    |    |    | child_window(title="Rotinas Específicas", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Exportação para E-Contábil'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Exportação para E-Contábil', 'Exportação para E-ContábilTreeItem', 'TreeItem301']
+   |    |    |    |    |    | child_window(title="Exportação para E-Contábil", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Cadastro de Empresa'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Cadastro de Empresa', 'Cadastro de EmpresaTreeItem', 'TreeItem302']
+   |    |    |    |    |    | child_window(title="Cadastro de Empresa", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Recálculo do Valor Total das Mercadorias'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Recálculo do Valor Total das MercadoriasTreeItem', 'Recálculo do Valor Total das Mercadorias', 'TreeItem303']
+   |    |    |    |    |    | child_window(title="Recálculo do Valor Total das Mercadorias", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Arquivo de Exportação de Notas'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Arquivo de Exportação de Notas', 'Arquivo de Exportação de NotasTreeItem', 'TreeItem304']
+   |    |    |    |    |    | child_window(title="Arquivo de Exportação de Notas", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Gera CST de PIS/COFINS nos Produtos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Gera CST de PIS/COFINS nos Produtos2', 'Gera CST de PIS/COFINS nos ProdutosTreeItem2', 'TreeItem305']
+   |    |    |    |    |    | child_window(title="Gera CST de PIS/COFINS nos Produtos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Importar Lançamentos de RPA da Folha'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Importar Lançamentos de RPA da FolhaTreeItem', 'Importar Lançamentos de RPA da Folha', 'TreeItem306']
+   |    |    |    |    |    | child_window(title="Importar Lançamentos de RPA da Folha", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Geração da EFD com itens para modelo 55'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Geração da EFD com itens para modelo 55', 'Geração da EFD com itens para modelo 55TreeItem', 'TreeItem307']
+   |    |    |    |    |    | child_window(title="Geração da EFD com itens para modelo 55", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'NFS-e Recife - PE'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['NFS-e Recife - PE', 'NFS-e Recife - PETreeItem', 'TreeItem308']
+   |    |    |    |    |    | child_window(title="NFS-e Recife - PE", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'NFS-e São Paulo - SP'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['NFS-e São Paulo - SPTreeItem', 'NFS-e São Paulo - SP', 'TreeItem309']
+   |    |    |    |    |    | child_window(title="NFS-e São Paulo - SP", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'ADRC-ST'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['ADRC-STTreeItem2', 'ADRC-ST2', 'TreeItem310']
+   |    |    |    |    |    | child_window(title="ADRC-ST", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Apuração de Item - ADRC-ST'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem311', 'Apuração de Item - ADRC-ST2', 'Apuração de Item - ADRC-STTreeItem2']
+   |    |    |    |    |    | child_window(title="Apuração de Item - ADRC-ST", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Lançamento para Recuperação/Complementação de ICMS-ST/FECOP (ADRC-ST)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Lançamento para Recuperação/Complementação de ICMS-ST/FECOP (ADRC-ST)TreeItem2', 'Lançamento para Recuperação/Complementação de ICMS-ST/FECOP (ADRC-ST)2', 'TreeItem312']
+   |    |    |    |    |    | child_window(title="Lançamento para Recuperação/Complementação de ICMS-ST/FECOP (ADRC-ST)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Atualização das Tabelas'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem313', 'Atualização das TabelasTreeItem', 'Atualização das Tabelas']
+   |    |    |    |    |    | child_window(title="Atualização das Tabelas", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Publicar na IOB Plataforma Contábil'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem314', 'Publicar na IOB Plataforma ContábilTreeItem', 'Publicar na IOB Plataforma Contábil']
+   |    |    |    |    |    | child_window(title="Publicar na IOB Plataforma Contábil", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Calculadora'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem315', 'Calculadora', 'CalculadoraTreeItem']
+   |    |    |    |    |    | child_window(title="Calculadora", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Gerenciador de Tarefas'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem316', 'Gerenciador de Tarefas', 'Gerenciador de TarefasTreeItem']
+   |    |    |    |    |    | child_window(title="Gerenciador de Tarefas", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relatórios'    (L46, T287, R98, B303)
+   |    |    |    |    |    | ['Relatórios', 'RelatóriosTreeItem', 'TreeItem317', 'Relatórios0', 'Relatórios1']
+   |    |    |    |    |    | child_window(title="Relatórios", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Legais'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Legais', 'LegaisTreeItem', 'TreeItem318']
+   |    |    |    |    |    | child_window(title="Legais", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Livro Registro de Entradas'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem319', 'Livro Registro de Entradas', 'Livro Registro de EntradasTreeItem']
+   |    |    |    |    |    | child_window(title="Livro Registro de Entradas", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Livro Registro de Saídas'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem320', 'Livro Registro de SaídasTreeItem', 'Livro Registro de Saídas']
+   |    |    |    |    |    | child_window(title="Livro Registro de Saídas", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Livro Registro de Saídas por Itens'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Livro Registro de Saídas por ItensTreeItem', 'Livro Registro de Saídas por Itens', 'TreeItem321']
+   |    |    |    |    |    | child_window(title="Livro Registro de Saídas por Itens", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Livro de Apuração de ICMS'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Livro de Apuração de ICMS', 'Livro de Apuração de ICMSTreeItem', 'TreeItem322']
+   |    |    |    |    |    | child_window(title="Livro de Apuração de ICMS", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Livro de Apuração de ICMS por Itens'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Livro de Apuração de ICMS por ItensTreeItem', 'Livro de Apuração de ICMS por Itens', 'TreeItem323']
+   |    |    |    |    |    | child_window(title="Livro de Apuração de ICMS por Itens", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Livro de Apuração de IPI'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Livro de Apuração de IPI', 'Livro de Apuração de IPITreeItem', 'TreeItem324']
+   |    |    |    |    |    | child_window(title="Livro de Apuração de IPI", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Livro Registro de ISS'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Livro Registro de ISSTreeItem', 'Livro Registro de ISS', 'TreeItem325']
+   |    |    |    |    |    | child_window(title="Livro Registro de ISS", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Serviços Prestados - Padrão'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem326', 'Serviços Prestados - Padrão', 'Serviços Prestados - PadrãoTreeItem']
+   |    |    |    |    |    | child_window(title="Serviços Prestados - Padrão", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Serviços Tomados - Padrão'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Serviços Tomados - PadrãoTreeItem', 'Serviços Tomados - Padrão', 'TreeItem327']
+   |    |    |    |    |    | child_window(title="Serviços Tomados - Padrão", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Serviços Prestados - Sintético'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Serviços Prestados - Sintético', 'Serviços Prestados - SintéticoTreeItem', 'TreeItem328']
+   |    |    |    |    |    | child_window(title="Serviços Prestados - Sintético", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Modelo 51 (São Paulo - SP)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Modelo 51 (São Paulo - SP)TreeItem', 'Modelo 51 (São Paulo - SP)', 'TreeItem329']
+   |    |    |    |    |    | child_window(title="Modelo 51 (São Paulo - SP)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Modelo 53 (São Paulo - SP)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Modelo 53 (São Paulo - SP)', 'Modelo 53 (São Paulo - SP)TreeItem', 'TreeItem330']
+   |    |    |    |    |    | child_window(title="Modelo 53 (São Paulo - SP)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Modelo 56 (São Paulo - SP)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Modelo 56 (São Paulo - SP)TreeItem', 'Modelo 56 (São Paulo - SP)', 'TreeItem331']
+   |    |    |    |    |    | child_window(title="Modelo 56 (São Paulo - SP)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Modelo I (Florianópolis - SC)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Modelo I (Florianópolis - SC)TreeItem', 'Modelo I (Florianópolis - SC)', 'TreeItem332']
+   |    |    |    |    |    | child_window(title="Modelo I (Florianópolis - SC)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Livro Registro de Inventário'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Livro Registro de Inventário', 'Livro Registro de InventárioTreeItem', 'TreeItem333']
+   |    |    |    |    |    | child_window(title="Livro Registro de Inventário", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Listagem de Operações Interestaduais'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Listagem de Operações Interestaduais', 'Listagem de Operações InterestaduaisTreeItem', 'TreeItem334']
+   |    |    |    |    |    | child_window(title="Listagem de Operações Interestaduais", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Resumo para DFC'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Resumo para DFC', 'TreeItem335', 'Resumo para DFCTreeItem']
+   |    |    |    |    |    | child_window(title="Resumo para DFC", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Resumo para DIPJ'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Resumo para DIPJ', 'Resumo para DIPJTreeItem', 'TreeItem336']
+   |    |    |    |    |    | child_window(title="Resumo para DIPJ", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Resumo para GI/ICMS'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Resumo para GI/ICMSTreeItem', 'Resumo para GI/ICMS', 'TreeItem337']
+   |    |    |    |    |    | child_window(title="Resumo para GI/ICMS", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Termos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TermosTreeItem', 'TreeItem338', 'Termos']
+   |    |    |    |    |    | child_window(title="Termos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Mapa Resumo - ECF'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Mapa Resumo - ECF', 'Mapa Resumo - ECFTreeItem', 'TreeItem339']
+   |    |    |    |    |    | child_window(title="Mapa Resumo - ECF", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Mapa Resumo - ECF (Novo Modelo)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Mapa Resumo - ECF (Novo Modelo)', 'TreeItem340', 'Mapa Resumo - ECF (Novo Modelo)TreeItem']
+   |    |    |    |    |    | child_window(title="Mapa Resumo - ECF (Novo Modelo)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'CIAP - Modelo C  (Agrupado)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem341', 'CIAP - Modelo C  (Agrupado)', 'CIAP - Modelo C  (Agrupado)TreeItem']
+   |    |    |    |    |    | child_window(title="CIAP - Modelo C  (Agrupado)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'CIAP - Modelo D (Individual)'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['CIAP - Modelo D (Individual)', 'CIAP - Modelo D (Individual)TreeItem', 'TreeItem342']
+   |    |    |    |    |    | child_window(title="CIAP - Modelo D (Individual)", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Livro Registro de Saídas Agrupado'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Livro Registro de Saídas AgrupadoTreeItem', 'Livro Registro de Saídas Agrupado', 'TreeItem343']
+   |    |    |    |    |    | child_window(title="Livro Registro de Saídas Agrupado", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Emitentes/Destinatários'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Emitentes/DestinatáriosTreeItem4', 'Emitentes/Destinatários4', 'TreeItem344']
+   |    |    |    |    |    | child_window(title="Emitentes/Destinatários", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Comprovante Anual de Retenção'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Comprovante Anual de RetençãoTreeItem', 'Comprovante Anual de Retenção', 'TreeItem345']
+   |    |    |    |    |    | child_window(title="Comprovante Anual de Retenção", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Resumo para DACON'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Resumo para DACON', 'Resumo para DACONTreeItem', 'TreeItem346']
+   |    |    |    |    |    | child_window(title="Resumo para DACON", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Gerenciais'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Gerenciais', 'GerenciaisTreeItem', 'TreeItem347']
+   |    |    |    |    |    | child_window(title="Gerenciais", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Resumo por Alíquota de ICMS'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem348', 'Resumo por Alíquota de ICMS', 'Resumo por Alíquota de ICMSTreeItem']
+   |    |    |    |    |    | child_window(title="Resumo por Alíquota de ICMS", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Resumo por Natureza de Operação'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Resumo por Natureza de OperaçãoTreeItem', 'Resumo por Natureza de Operação', 'TreeItem349']
+   |    |    |    |    |    | child_window(title="Resumo por Natureza de Operação", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relação de Bases de Cálculo'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Relação de Bases de Cálculo', 'Relação de Bases de CálculoTreeItem', 'TreeItem350']
+   |    |    |    |    |    | child_window(title="Relação de Bases de Cálculo", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Carta de Correção'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Carta de CorreçãoTreeItem', 'Carta de Correção', 'TreeItem351']
+   |    |    |    |    |    | child_window(title="Carta de Correção", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Resumo de Sub.Tributária por UF'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem352', 'Resumo de Sub.Tributária por UFTreeItem', 'Resumo de Sub.Tributária por UF']
+   |    |    |    |    |    | child_window(title="Resumo de Sub.Tributária por UF", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relatório de Sub.Tributária por UF'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Relatório de Sub.Tributária por UF', 'Relatório de Sub.Tributária por UFTreeItem', 'TreeItem353']
+   |    |    |    |    |    | child_window(title="Relatório de Sub.Tributária por UF", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Resumo de DIFAL/FCP por UF'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Resumo de DIFAL/FCP por UF', 'Resumo de DIFAL/FCP por UFTreeItem', 'TreeItem354']
+   |    |    |    |    |    | child_window(title="Resumo de DIFAL/FCP por UF", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Itens da Nota Fiscal'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem355', 'Itens da Nota Fiscal', 'Itens da Nota FiscalTreeItem']
+   |    |    |    |    |    | child_window(title="Itens da Nota Fiscal", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Itens da Nota de Entrada - Aba Dados da Nota de Saída'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Itens da Nota de Entrada - Aba Dados da Nota de SaídaTreeItem', 'Itens da Nota de Entrada - Aba Dados da Nota de Saída', 'TreeItem356']
+   |    |    |    |    |    | child_window(title="Itens da Nota de Entrada - Aba Dados da Nota de Saída", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Resumo por Classificação'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem357', 'Resumo por Classificação', 'Resumo por ClassificaçãoTreeItem']
+   |    |    |    |    |    | child_window(title="Resumo por Classificação", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relatório de Notas por Emitentes/Destinatários'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Relatório de Notas por Emitentes/DestinatáriosTreeItem', 'Relatório de Notas por Emitentes/Destinatários', 'TreeItem358']
+   |    |    |    |    |    | child_window(title="Relatório de Notas por Emitentes/Destinatários", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Resumo por Município'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Resumo por Município', 'Resumo por MunicípioTreeItem', 'TreeItem359']
+   |    |    |    |    |    | child_window(title="Resumo por Município", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'GIA-ICMS'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['GIA-ICMS', 'GIA-ICMSTreeItem', 'TreeItem360']
+   |    |    |    |    |    | child_window(title="GIA-ICMS", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relação de Tributos Retidos'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Relação de Tributos RetidosTreeItem', 'Relação de Tributos Retidos', 'TreeItem361']
+   |    |    |    |    |    | child_window(title="Relação de Tributos Retidos", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Declaração de Faturamento'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Declaração de Faturamento2', 'Declaração de FaturamentoTreeItem2', 'TreeItem362']
+   |    |    |    |    |    | child_window(title="Declaração de Faturamento", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Resumo do Valor Adicionado - Municípios'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Resumo do Valor Adicionado - Municípios', 'Resumo do Valor Adicionado - MunicípiosTreeItem', 'TreeItem363']
+   |    |    |    |    |    | child_window(title="Resumo do Valor Adicionado - Municípios", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relatório de Conferência dos Itens da Nota'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Relatório de Conferência dos Itens da Nota2', 'Relatório de Conferência dos Itens da NotaTreeItem2', 'TreeItem364']
+   |    |    |    |    |    | child_window(title="Relatório de Conferência dos Itens da Nota", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Notas Fiscais de Saída não Lançadas ou Duplicadas'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Notas Fiscais de Saída não Lançadas ou Duplicadas', 'Notas Fiscais de Saída não Lançadas ou DuplicadasTreeItem', 'TreeItem365']
+   |    |    |    |    |    | child_window(title="Notas Fiscais de Saída não Lançadas ou Duplicadas", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Contribuição Previdenciária Sobre a Receita Bruta'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Contribuição Previdenciária Sobre a Receita BrutaTreeItem', 'Contribuição Previdenciária Sobre a Receita Bruta', 'TreeItem366']
+   |    |    |    |    |    | child_window(title="Contribuição Previdenciária Sobre a Receita Bruta", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Produtos Cadastrados x Produtos Incentivados'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Produtos Cadastrados x Produtos Incentivados', 'Produtos Cadastrados x Produtos IncentivadosTreeItem', 'TreeItem367']
+   |    |    |    |    |    | child_window(title="Produtos Cadastrados x Produtos Incentivados", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relatório de Complemento/Restituição de ICMS-ST'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem368', 'Relatório de Complemento/Restituição de ICMS-ST2', 'Relatório de Complemento/Restituição de ICMS-STTreeItem2']
+   |    |    |    |    |    | child_window(title="Relatório de Complemento/Restituição de ICMS-ST", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Resumo da Tributação de IRPJ/CSLL - Receitas'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Resumo da Tributação de IRPJ/CSLL - Receitas', 'Resumo da Tributação de IRPJ/CSLL - ReceitasTreeItem', 'TreeItem369']
+   |    |    |    |    |    | child_window(title="Resumo da Tributação de IRPJ/CSLL - Receitas", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Conferência dos Lançamentos de Entradas e Saídas'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Conferência dos Lançamentos de Entradas e SaídasTreeItem', 'Conferência dos Lançamentos de Entradas e Saídas', 'TreeItem370']
+   |    |    |    |    |    | child_window(title="Conferência dos Lançamentos de Entradas e Saídas", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Conferência de Conhecimentos de Transportes'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem371', 'Conferência de Conhecimentos de TransportesTreeItem', 'Conferência de Conhecimentos de Transportes']
+   |    |    |    |    |    | child_window(title="Conferência de Conhecimentos de Transportes", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Recebimentos - Regime de Caixa'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Recebimentos - Regime de Caixa3', 'Recebimentos - Regime de CaixaTreeItem3', 'TreeItem372']
+   |    |    |    |    |    | child_window(title="Recebimentos - Regime de Caixa", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Relatório de Conferência REINF'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem373', 'Relatório de Conferência REINFTreeItem', 'Relatório de Conferência REINF']
+   |    |    |    |    |    | child_window(title="Relatório de Conferência REINF", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Planilhas'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Planilhas', 'PlanilhasTreeItem', 'TreeItem374']
+   |    |    |    |    |    | child_window(title="Planilhas", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Listagem de Entradas'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem375', 'Listagem de EntradasTreeItem', 'Listagem de Entradas']
+   |    |    |    |    |    | child_window(title="Listagem de Entradas", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Listagem de Saídas'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Listagem de Saídas', 'Listagem de SaídasTreeItem', 'TreeItem376']
+   |    |    |    |    |    | child_window(title="Listagem de Saídas", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Abrir Relatórios'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Abrir RelatóriosTreeItem', 'Abrir Relatórios', 'TreeItem377']
+   |    |    |    |    |    | child_window(title="Abrir Relatórios", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Janela'    (L46, T303, R81, B319)
+   |    |    |    |    |    | ['JanelaTreeItem', 'Janela', 'TreeItem378', 'Janela0', 'Janela1']
+   |    |    |    |    |    | child_window(title="Janela", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Cascata'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem379', 'Cascata', 'CascataTreeItem']
+   |    |    |    |    |    | child_window(title="Cascata", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Lado a Lado'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Lado a LadoTreeItem', 'Lado a Lado', 'TreeItem380']
+   |    |    |    |    |    | child_window(title="Lado a Lado", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Fechar Todas'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Fechar TodasTreeItem', 'Fechar Todas', 'TreeItem381']
+   |    |    |    |    |    | child_window(title="Fechar Todas", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Ajuda'    (L46, T319, R78, B335)
+   |    |    |    |    |    | ['TreeItem382', 'Ajuda', 'AjudaTreeItem', 'Ajuda0', 'Ajuda1', 'AjudaTreeItem0', 'AjudaTreeItem1']
+   |    |    |    |    |    | child_window(title="Ajuda", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Ajuda'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem383', 'Ajuda2', 'AjudaTreeItem2']
+   |    |    |    |    |    | child_window(title="Ajuda", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Acesso ao Suporte'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem384', 'Acesso ao SuporteTreeItem', 'Acesso ao Suporte']
+   |    |    |    |    |    | child_window(title="Acesso ao Suporte", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Suporte On-Line'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Suporte On-Line', 'Suporte On-LineTreeItem', 'TreeItem385']
+   |    |    |    |    |    | child_window(title="Suporte On-Line", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Suporte Remoto'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem386', 'Suporte RemotoTreeItem', 'Suporte Remoto']
+   |    |    |    |    |    | child_window(title="Suporte Remoto", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Sobre'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem387', 'Sobre', 'SobreTreeItem']
+   |    |    |    |    |    | child_window(title="Sobre", control_type="TreeItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | TreeItem - 'Aviso de privacidade'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TreeItem388', 'Aviso de privacidadeTreeItem', 'Aviso de privacidade']
+   |    |    |    |    |    | child_window(title="Aviso de privacidade", control_type="TreeItem")
+   | 
+   | TitleBar - ''    (L17, T3, R959, B31)
+   | ['TitleBar']
+   |    | 
+   |    | Menu - 'Sistema'    (L1, T8, R23, B30)
+   |    | ['SistemaMenu', 'Sistema', 'Menu', 'Sistema0', 'Sistema1', 'Menu0', 'Menu1']
+   |    | child_window(title="Sistema", auto_id="MenuBar", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - 'Sistema'    (L1, T8, R23, B30)
+   |    |    | ['Sistema2', 'MenuItem', 'SistemaMenuItem', 'MenuItem0', 'MenuItem1']
+   |    |    | child_window(title="Sistema", control_type="MenuItem")
+   |    | 
+   |    | Button - 'Minimizar'    (L820, T1, R867, B31)
+   |    | ['Button', 'MinimizarButton', 'Minimizar', 'Button0', 'Button1']
+   |    | child_window(title="Minimizar", control_type="Button")
+   |    | 
+   |    | Button - 'Maximizar'    (L867, T1, R913, B31)
+   |    | ['Maximizar', 'Button2', 'MaximizarButton']
+   |    | child_window(title="Maximizar", control_type="Button")
+   |    | 
+   |    | Button - 'Fechar'    (L913, T1, R960, B31)
+   |    | ['Button3', 'FecharButton', 'Fechar']
+   |    | child_window(title="Fechar", control_type="Button")
+   | 
+   | Menu - 'Aplicativo'    (L1, T31, R959, B50)
+   | ['AplicativoMenu', 'Aplicativo', 'Menu2']
+   | child_window(title="Aplicativo", auto_id="MenuBar", control_type="MenuBar")
+   |    | 
+   |    | MenuItem - 'Cadastros'    (L1, T31, R67, B50)
+   |    | ['Cadastros3', 'CadastrosMenuItem', 'MenuItem2']
+   |    | child_window(title="Cadastros", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Lançamentos'    (L67, T31, R152, B50)
+   |    | ['Lançamentos4', 'MenuItem3', 'LançamentosMenuItem']
+   |    | child_window(title="Lançamentos", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Módulos'    (L152, T31, R213, B50)
+   |    | ['MódulosMenuItem', 'Módulos2', 'MenuItem4']
+   |    | child_window(title="Módulos", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Tributos'    (L213, T31, R270, B50)
+   |    | ['TributosMenuItem', 'MenuItem5', 'Tributos2']
+   |    | child_window(title="Tributos", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Importação'    (L270, T31, R345, B50)
+   |    | ['Importação2', 'MenuItem6', 'ImportaçãoMenuItem']
+   |    | child_window(title="Importação", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Utilitários'    (L345, T31, R409, B50)
+   |    | ['UtilitáriosMenuItem', 'MenuItem7', 'Utilitários2']
+   |    | child_window(title="Utilitários", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Relatórios'    (L409, T31, R475, B50)
+   |    | ['Relatórios2', 'RelatóriosMenuItem', 'MenuItem8']
+   |    | child_window(title="Relatórios", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Janela'    (L475, T31, R521, B50)
+   |    | ['Janela2', 'JanelaMenuItem', 'MenuItem9']
+   |    | child_window(title="Janela", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Ajuda'    (L521, T31, R566, B50)
+   |    | ['AjudaMenuItem', 'Ajuda3', 'MenuItem10']
+   |    | child_window(title="Ajuda", control_type="MenuItem")

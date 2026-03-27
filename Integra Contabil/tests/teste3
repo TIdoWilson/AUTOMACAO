@@ -1,0 +1,142 @@
+"""
+teste_integra_parcelas_sn.py
+
+Script de diagnóstico (BEM SIMPLES) para o Integra Parcelamento.
+
+- Usa o mesmo .env e auth_integra.py da pasta mãe.
+- Faz só 2 chamadas:
+    * PARCSN  -> 34718991000164
+    * RELPSN  -> 08004339000178
+- Imprime request + response na tela.
+
+Não grava nada em Excel, não mexe em mais nada.
+"""
+
+import os
+import sys
+import json
+from pathlib import Path
+
+import requests
+from dotenv import load_dotenv
+
+
+# =========================
+# Localiza PASTA MÃE (onde está auth_integra.py e .env)
+# =========================
+
+def encontrar_pasta_mae(max_niveis: int = 5) -> Path:
+    pasta = Path(__file__).resolve().parent
+    for _ in range(max_niveis):
+        if (pasta / "auth_integra.py").exists() and (pasta / ".env").exists():
+            return pasta
+        pasta = pasta.parent
+    raise FileNotFoundError(
+        "Não encontrei auth_integra.py e .env subindo pastas a partir de "
+        f"{Path(__file__).resolve().parent}"
+    )
+
+
+PASTA_MAE = encontrar_pasta_mae()
+
+if str(PASTA_MAE) not in sys.path:
+    sys.path.insert(0, str(PASTA_MAE))
+
+from auth_integra import obter_tokens  # agora vem da pasta mãe
+
+load_dotenv(PASTA_MAE / ".env")
+
+
+BASE_URL = "https://gateway.apiserpro.serpro.gov.br/integra-contador/v1"
+CNPJ_CONTRATANTE = os.getenv("CNPJ_CONTRATANTE")
+
+if not CNPJ_CONTRATANTE:
+    raise RuntimeError("Defina CNPJ_CONTRATANTE no .env (na pasta mãe).")
+
+CNPJ_CONTRATANTE = CNPJ_CONTRATANTE.strip()
+
+ID_SERVICOS_CONSULTA = {
+    "PARCSN": "PARCELASPARAGERAR162",
+    "RELPSN": "PARCELASPARAGERAR192",
+}
+
+
+def montar_payload(sistema_sn: str, cpf_cnpj: str) -> dict:
+    cpf_cnpj = cpf_cnpj.strip()
+    tipo_doc = 1 if len(cpf_cnpj) <= 11 else 2  # CPF=1, CNPJ=2
+
+    dados_consulta = {}  # se doc exigir algo aqui, depois ajustamos
+
+    return {
+        "contratante": {
+            "numero": CNPJ_CONTRATANTE,
+            "tipo": 2,
+        },
+        "autorPedidoDados": {
+            "numero": CNPJ_CONTRATANTE,
+            "tipo": 2,
+        },
+        "contribuinte": {
+            "numero": cpf_cnpj,
+            "tipo": tipo_doc,
+        },
+        "pedidoDados": {
+            "idSistema": sistema_sn,
+            "idServico": ID_SERVICOS_CONSULTA[sistema_sn],
+            "versaoSistema": "1.0",
+            "dados": json.dumps(dados_consulta, ensure_ascii=False),
+        },
+    }
+
+
+def testar_chamada(sistema_sn: str, cpf_cnpj: str) -> None:
+    print("\n" + "=" * 80)
+    print(f"TESTE {sistema_sn}  |  CPF/CNPJ: {cpf_cnpj}")
+    print("=" * 80)
+
+    access_token, jwt_token = obter_tokens()
+
+    payload = montar_payload(sistema_sn, cpf_cnpj)
+
+    print("\n--- Requisição (payload) ---")
+    print(json.dumps(payload, ensure_ascii=False, indent=2))
+
+    headers = {
+        "Authorization": f"Bearer {access_token}",
+        "jwt_token": jwt_token,
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+    }
+
+    url = f"{BASE_URL}/Consultar"
+    print(f"\nURL: {url}")
+
+    resp = requests.post(url, headers=headers, data=json.dumps(payload, ensure_ascii=False).encode("utf-8"))
+
+    print("\n--- Resposta HTTP ---")
+    print("Status:", resp.status_code, resp.reason)
+
+    print("\n--- Corpo bruto da resposta (até 4000 caracteres) ---")
+    texto = resp.text
+    if not texto:
+        print("(resposta vazia)")
+    else:
+        print(texto[:4000])
+
+    print("\n[FIM TESTE", sistema_sn, "]")
+
+
+def main():
+    print("PASTA_MAE:", PASTA_MAE)
+    print("CNPJ_CONTRATANTE:", CNPJ_CONTRATANTE)
+    print("\nIniciando testes de chamada Integra Parcelamento (modo diagnóstico)...")
+
+    # Mesmos CNPJs que o script principal está usando
+    testar_chamada("PARCSN", "34718991000164")
+    testar_chamada("RELPSN", "08004339000178")
+
+    print("\nConcluído. Copie o texto acima e envie para análise.")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,291 @@
+# -*- coding: utf-8 -*-
+import re
+import shutil
+from pathlib import Path
+
+import pandas as pd
+from bs4 import BeautifulSoup
+import docx  # usado se houver .docx
+
+
+# 🟢 PASTAS PRINCIPAIS
+PASTA_BASE = Path(r"W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\BAIXAR MTE")
+PASTA_DOWNLOADS = PASTA_BASE / "downloads"
+PASTA_ARQUIVADOS = PASTA_BASE / "Arquivados"
+ARQUIVO_EXCEL_SAIDA = PASTA_ARQUIVADOS / "relatorio_mte.xlsx"
+
+
+# -----------------------------
+# LEITURA DOS ARQUIVOS
+# -----------------------------
+def ler_texto_arquivo(caminho_arquivo: Path) -> str:
+    """
+    Lê o conteúdo do arquivo como texto.
+    - Se for .docx: usa python-docx.
+    - Se for .doc do Mediador: trata como HTML (texto da página).
+    """
+    sufixo = caminho_arquivo.suffix.lower()
+
+    if sufixo == ".docx":
+        doc = docx.Document(str(caminho_arquivo))
+        textos = []
+
+        for p in doc.paragraphs:
+            textos.append(p.text)
+
+        for tabela in doc.tables:
+            for linha in tabela.rows:
+                for celula in linha.cells:
+                    textos.append(celula.text)
+
+        return "\n".join(textos)
+
+    elif sufixo == ".doc":
+        raw = caminho_arquivo.read_bytes()
+        html = raw.decode("latin-1", errors="ignore")
+        soup = BeautifulSoup(html, "html.parser")
+        return soup.get_text(separator="\n")
+
+    else:
+        raise ValueError(f"Extensão não tratada: {sufixo}")
+
+
+# -----------------------------
+# EXTRAÇÃO DO NÚMERO DE REGISTRO
+# -----------------------------
+def extrair_numero_registro(texto: str) -> str | None:
+    """
+    Procura 'NÚMERO DE REGISTRO NO MTE:' e devolve o código (ex: PR002977/2025).
+    """
+    padrao = r"NÚMERO DE REGISTRO NO MTE:\s*([A-Z0-9/.\-]+)"
+    m = re.search(padrao, texto, flags=re.IGNORECASE)
+    if m:
+        return m.group(1).strip()
+    return None
+
+
+# -----------------------------
+# EXTRAÇÃO DOS SINDICATOS
+# -----------------------------
+def extrair_sindicatos(texto: str) -> str | None:
+    """
+    Pega o texto entre:
+    'Confira a autenticidade ...'
+    e a primeira ocorrência de 'celebram'.
+    """
+    texto_lower = texto.lower()
+
+    m_inicio = re.search("confira a autenticidade", texto_lower)
+    if not m_inicio:
+        return None
+
+    # começa logo após a linha de "Confira a autenticidade..."
+    pos_fim_linha = texto.find("\n", m_inicio.end())
+    if pos_fim_linha == -1:
+        i_inicio = m_inicio.end()
+    else:
+        i_inicio = pos_fim_linha + 1
+
+    m_fim = re.search("celebram", texto_lower[m_inicio.end():], flags=re.IGNORECASE)
+    if not m_fim:
+        return None
+    i_fim = m_inicio.end() + m_fim.start()
+
+    trecho = texto[i_inicio:i_fim].strip()
+
+    # Limpeza básica
+    trecho = re.sub(r"[ \t]+\n", "\n", trecho)
+    trecho = re.sub(r"\n[ \t]+", "\n", trecho)
+    trecho = re.sub(r"[ \t]{2,}", " ", trecho)
+
+    return trecho.strip()
+
+
+# -----------------------------
+# EXTRAÇÃO DAS DATAS DE VIGÊNCIA
+# -----------------------------
+
+MESES_PT = {
+    "janeiro": "01",
+    "fevereiro": "02",
+    "marco": "03",
+    "março": "03",
+    "abril": "04",
+    "maio": "05",
+    "junho": "06",
+    "julho": "07",
+    "agosto": "08",
+    "setembro": "09",
+    "outubro": "10",
+    "novembro": "11",
+    "dezembro": "12",
+}
+
+
+def _normalizar_data_textual(data_tuple: tuple[str, str, str]) -> str | None:
+    """
+    Converte ('01', 'setembro', '2025') -> '01/09/2025'
+    """
+    dia, mes_nome, ano = data_tuple
+    mes_nome = mes_nome.lower()
+    mes_num = MESES_PT.get(mes_nome)
+    if not mes_num:
+        return None
+    dia_int = int(dia)
+    return f"{dia_int:02d}/{mes_num}/{ano}"
+
+
+def extrair_datas_vigencia(texto: str) -> tuple[str | None, str | None]:
+    """
+    Procura a cláusula 'VIGÊNCIA E DATA-BASE' e tenta extrair:
+    - data de início da vigência
+    - data de término da vigência
+
+    1) Tenta datas no formato dd/mm/aaaa.
+    2) Se não achar, procura datas textuais:
+       '01º de setembro de 2025'.
+    """
+    texto_lower = texto.lower()
+
+    idx_clausula = -1
+    for chave in ["vigência e data-base", "vigência e data base"]:
+        idx_clausula = texto_lower.find(chave)
+        if idx_clausula != -1:
+            break
+
+    if idx_clausula == -1:
+        return None, None
+
+    # trecho em volta da cláusula
+    trecho = texto[idx_clausula: idx_clausula + 1000]
+
+    # 1) Datas no formato dd/mm/aaaa
+    m = re.search(
+        r"(\d{1,2}/\d{1,2}/\d{4}).{0,80}a.{0,80}(\d{1,2}/\d{1,2}/\d{4})",
+        trecho,
+        flags=re.DOTALL,
+    )
+    if m:
+        return m.group(1), m.group(2)
+
+    # 2) Datas textuais
+    padrao_textual = r"(\d{1,2})\s*(?:º|o)?\s*de\s+([a-zçãéêíóôú]+)\s+de\s+(\d{4})"
+    datas = re.findall(padrao_textual, trecho.lower())
+
+    if len(datas) >= 2:
+        ini = _normalizar_data_textual(datas[0])
+        fim = _normalizar_data_textual(datas[1])
+        return ini, fim
+
+    return None, None
+
+
+# -----------------------------
+# CAMINHO DE DESTINO (CNPJ + Nº REGISTRO SEM "/")
+# -----------------------------
+def caminho_destino_para_registro(
+    pasta_arquivados: Path, cnpj: str, numero_registro: str, ext: str
+) -> Path:
+    """
+    Cópia vai para: Arquivados/<CNPJ>/<NUMERO_REGISTRO_SEM_BARRA>.ext
+
+    Ex.: número_registro = 'PR002977/2025'
+    -> pasta: Arquivados\\CNPJ>\\
+    -> arquivo: PR0029772025.doc
+    """
+    pasta_cnpj = pasta_arquivados / cnpj
+    pasta_cnpj.mkdir(parents=True, exist_ok=True)
+
+    base_nome = numero_registro.replace("/", "")  # só remove a barra
+    caminho = pasta_cnpj / f"{base_nome}{ext}"
+
+    # Se já existir, acrescenta _1, _2, ...
+    contador = 1
+    while caminho.exists():
+        caminho = pasta_cnpj / f"{base_nome}_{contador}{ext}"
+        contador += 1
+
+    return caminho
+
+
+# -----------------------------
+# ROTINA PRINCIPAL
+# -----------------------------
+def processar_arquivos():
+    PASTA_ARQUIVADOS.mkdir(parents=True, exist_ok=True)
+
+    registros = []
+
+    if not PASTA_DOWNLOADS.exists():
+        print(f"Pasta de downloads não encontrada: {PASTA_DOWNLOADS}")
+        return
+
+    # Cada subpasta em downloads = CNPJ
+    for pasta_cnpj in PASTA_DOWNLOADS.iterdir():
+        if not pasta_cnpj.is_dir():
+            continue
+
+        cnpj = pasta_cnpj.name.strip()
+        print(f"\n📂 Processando CNPJ: {cnpj}")
+
+        # Procura arquivos .doc e .docx em todas as subpastas
+        for arquivo in pasta_cnpj.rglob("*"):
+            if not arquivo.is_file():
+                continue
+
+            if arquivo.suffix.lower() not in [".doc", ".docx"]:
+                continue
+
+            print(f"  ➜ Lendo arquivo: {arquivo.name}")
+
+            try:
+                texto = ler_texto_arquivo(arquivo)
+            except Exception as e:
+                print(f"    ⚠ Erro ao ler o arquivo {arquivo}: {e}")
+                continue
+
+            numero_registro = extrair_numero_registro(texto)
+            if not numero_registro:
+                print(f"    ⚠ Não encontrado 'NÚMERO DE REGISTRO NO MTE' em {arquivo.name}")
+                continue
+
+            sindicatos = extrair_sindicatos(texto) or ""
+            data_inicio, data_fim = extrair_datas_vigencia(texto)
+            data_inicio = data_inicio or ""
+            data_fim = data_fim or ""
+
+            # 🔁 Copia (ORIGINAL FICA NA DOWNLOADS)
+            caminho_destino = caminho_destino_para_registro(
+                PASTA_ARQUIVADOS, cnpj, numero_registro, arquivo.suffix
+            )
+
+            try:
+                shutil.copy2(str(arquivo), str(caminho_destino))
+                print(f"    ✅ Copiado para: {caminho_destino}")
+            except Exception as e:
+                print(f"    ⚠ Erro ao copiar {arquivo} -> {caminho_destino}: {e}")
+
+            registros.append(
+                {
+                    "CNPJ CORRESPONDENTE": cnpj,
+                    "NÚMERO DE REGISTRO": numero_registro,  # com a barra
+                    "SINDICATOS": sindicatos,
+                    "DATA INÍCIO VIGÊNCIA": data_inicio,
+                    "DATA FIM VIGÊNCIA": data_fim,
+                }
+            )
+
+    if registros:
+        df = pd.DataFrame(registros)
+        try:
+            ARQUIVO_EXCEL_SAIDA.parent.mkdir(parents=True, exist_ok=True)
+            df.to_excel(ARQUIVO_EXCEL_SAIDA, index=False)
+            print(f"\n📊 Arquivo Excel gerado em: {ARQUIVO_EXCEL_SAIDA}")
+        except Exception as e:
+            print(f"⚠ Erro ao salvar o Excel: {e}")
+    else:
+        print("\nNenhum registro foi processado. Verifique se os arquivos e os padrões de texto estão corretos.")
+
+
+if __name__ == "__main__":
+    processar_arquivos()

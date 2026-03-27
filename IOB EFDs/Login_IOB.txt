@@ -1,0 +1,119 @@
+from pywinauto import Application, mouse, Desktop
+import time
+import sys
+import subprocess
+
+USUARIO = "leonardo"
+SENHA = "12345"
+
+# Fatores do "Acessar com login tradicional" (já testados e ok)
+LOGIN_FATOR_LARGURA = 0.4791
+LOGIN_FATOR_ALTURA  = 0.6328
+
+# Fatores do botão Fiscal RELATIVOS À JANELA (medidos por você)
+FISCAL_FATOR_LARGURA = 0.4995
+FISCAL_FATOR_ALTURA  = 0.1753
+
+CAMINHO_EXE = r"C:\IOBGestaoContabil\Programas\cache.exe"
+
+# Caminho do script que gera/baixa as EFDs
+SCRIPT_DOWNLOAD_EFD = r"W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\IOB EFDs\Download EFDs"
+
+
+def abrir_programa():
+    """
+    Abre o IOB (não precisamos guardar o app aqui, só disparar o EXE).
+    """
+    print(f"Abrindo o programa: {CAMINHO_EXE}")
+    Application(backend="uia").start(CAMINHO_EXE)
+
+
+def esperar_tela_login(timeout=60):
+    """
+    Espera a tela 'Login SSO' aparecer em TODO o desktop e devolve o diálogo.
+    """
+    print("Aguardando a tela 'Login SSO' aparecer...")
+
+    end_time = time.time() + timeout
+
+    while time.time() < end_time:
+        try:
+            dlg = Desktop(backend="uia").window(title_re=".*Login.*SSO.*")
+            if dlg.exists() and dlg.is_visible():
+                print("✔ Tela de Login encontrada!")
+                return dlg
+        except Exception:
+            pass
+
+        time.sleep(0.5)
+
+    raise RuntimeError("❌ A tela 'Login SSO' não apareceu dentro do tempo limite.")
+
+
+def achar_campos_login(dlg):
+    edits = dlg.descendants(control_type="Edit")
+    if len(edits) < 2:
+        raise RuntimeError(f"Esperava pelo menos 2 campos Edit, encontrei {len(edits)}")
+
+    campo_usuario = None
+    campo_senha = None
+
+    for edit in edits:
+        try:
+            if edit.is_password():
+                campo_senha = edit
+            else:
+                if campo_usuario is None:
+                    campo_usuario = edit
+        except Exception:
+            continue
+
+    if campo_usuario is None or campo_senha is None:
+        campo_usuario = edits[0]
+        campo_senha = edits[1]
+
+    return campo_usuario, campo_senha
+
+
+def fazer_login(dlg_login):
+    print("Localizando campos de usuário e senha...")
+    campo_usuario, campo_senha = achar_campos_login(dlg_login)
+
+    pnl = campo_usuario.element_info.parent
+    rect = pnl.rectangle
+    largura = rect.right - rect.left
+    altura = rect.bottom - rect.top
+
+    print("Preenchendo usuário...")
+    campo_usuario.set_focus()
+    campo_usuario.type_keys("^a{BACKSPACE}")
+    campo_usuario.type_keys(USUARIO, with_spaces=True)
+
+    print("Preenchendo senha...")
+    campo_senha.set_focus()
+    campo_senha.type_keys("^a{BACKSPACE}")
+    campo_senha.type_keys(SENHA, with_spaces=True)
+
+    time.sleep(0.5)
+
+    x = int(rect.left + largura * LOGIN_FATOR_LARGURA)
+    y = int(rect.top + altura * LOGIN_FATOR_ALTURA)
+
+    print(f"Clicando em 'Acessar com login tradicional' em ({x}, {y})...")
+    mouse.click(button="left", coords=(x, y))
+
+    print("Aguardando pós-login...")
+    time.sleep(1)
+
+def main():
+    # 1) Abre o programa
+    abrir_programa()
+
+    # 2) Espera a tela de login aparecer (no Desktop inteiro)
+    dlg_login = esperar_tela_login()
+
+    # 3) Faz login na tela que encontramos
+    fazer_login(dlg_login)
+
+if __name__ == "__main__":
+    main()
