@@ -2,6 +2,7 @@
 *.db
 *.csv
 *.xlsx
+*.slk
 CONTA_TRANSITORIA/_assistido.log
 python backup.zip
 prints/SEM PROCURACAO/1a LINHA DISTRIBUIDORA DE BATERIAS LTDA - 36.381.557-0001-67.png
