@@ -9,6 +9,8 @@ import os
 import time
 from datetime import datetime
 import ctypes
+import re
+import unicodedata
 
 import pyautogui
 
@@ -37,6 +39,7 @@ DELAY_APOS_VOLTAR = 0.1
 
 DIR_BASE_TEMPLATE = r"W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\DMED Gerar-Organizar-Formatar\arquivos base"
 LISTA_TEMPLATE = r"W:\DECLARAÇÕES\DMED\DMED {ano}\LISTA.xlsx"
+NOME_ARQUIVO_LISTA_NEGRA = "Lista Negra.xlsx"
 # ========================================================
 
 
@@ -163,41 +166,68 @@ def _achar_aviso_sistema(timeout: float):
     if Desktop is None:
         time.sleep(timeout)
         return None
-    titulo_regex = ".*Aviso.*Sistema.*"
+    titulo_regex = r".*Aviso.*Sistema.*"
     end_time = time.time() + timeout
     while time.time() < end_time:
+        dlg = _achar_aviso_sistema_uma_varredura(titulo_regex)
+        if dlg is not None:
+            return dlg
+
+        time.sleep(0.1)
+    return None
+
+
+def _achar_aviso_sistema_uma_varredura(titulo_regex: str):
+    # Tenta localizar qualquer variacao de "Aviso ... Sistema" em UIA e win32.
+    for backend in ("uia", "win32"):
         try:
-            # Tenta por UIA direto
-            dlg = Desktop(backend="uia").window(title_re=titulo_regex)
-            if dlg.exists(timeout=0.2):
+            dlg = Desktop(backend=backend).window(title_re=titulo_regex)
+            if dlg.exists(timeout=0.1):
                 return dlg
         except Exception:
             pass
 
         try:
-            # Varre janelas visiveis (UIA)
-            for w in Desktop(backend="uia").windows():
+            for w in Desktop(backend=backend).windows():
                 try:
                     if not w.is_visible():
                         continue
-                    titulo = w.window_text() or ""
-                    if "Aviso" in titulo and "Sistema" in titulo:
+                    titulo = (w.window_text() or "").upper()
+                    if "AVISO" in titulo and "SISTEMA" in titulo:
                         return w
                 except Exception:
                     continue
         except Exception:
             pass
-
-        try:
-            # Fallback win32
-            dlg = Desktop(backend="win32").window(title_re=titulo_regex)
-            if dlg.exists(timeout=0.2):
-                return dlg
-        except Exception:
-            pass
-
-        time.sleep(0.1)
     return None
+
+
+def _normalizar_texto(texto: str) -> str:
+    sem_acentos = unicodedata.normalize("NFKD", texto or "").encode("ascii", "ignore").decode("ascii")
+    return sem_acentos.upper()
+
+
+def _obter_texto_aviso(dlg) -> str:
+    textos: list[str] = []
+    try:
+        titulo = dlg.window_text() or ""
+        if titulo:
+            textos.append(titulo)
+    except Exception:
+        pass
+
+    try:
+        for ctrl in dlg.descendants():
+            try:
+                t = (ctrl.window_text() or "").strip()
+                if t:
+                    textos.append(t)
+            except Exception:
+                continue
+    except Exception:
+        pass
+
+    return " ".join(textos).strip()
 
 
 def _confirmar_aviso(dlg) -> None:
@@ -206,6 +236,13 @@ def _confirmar_aviso(dlg) -> None:
     try:
         btn_ok = dlg.child_window(title="OK", control_type="Button")
         if btn_ok.exists(timeout=1):
+            btn_ok.click_input()
+            return
+    except Exception:
+        pass
+    try:
+        btn_ok = dlg.child_window(title="OK")
+        if btn_ok.exists(timeout=0.5):
             btn_ok.click_input()
             return
     except Exception:
@@ -221,15 +258,88 @@ def _esperar_e_confirmar_aviso(timeout: float) -> bool:
     return True
 
 
+def registrar_na_lista_negra(numero_empresa: str, justificativa: str) -> None:
+    try:
+        from openpyxl import load_workbook, Workbook
+    except Exception:
+        print("openpyxl nao encontrado para registrar lista negra.")
+        return
+
+    caminho_lista_negra = os.path.join(os.path.dirname(os.path.abspath(__file__)), NOME_ARQUIVO_LISTA_NEGRA)
+
+    try:
+        if os.path.exists(caminho_lista_negra):
+            wb = load_workbook(caminho_lista_negra)
+            ws = wb.active
+        else:
+            wb = Workbook()
+            ws = wb.active
+            ws.title = "ListaNegra"
+            ws.append(["Numero", "Justificativa"])
+
+        numero_txt = str(numero_empresa or "").strip()
+        if not numero_txt:
+            return
+
+        for row in ws.iter_rows(min_row=2, values_only=True):
+            n = str((row[0] if row else "") or "").strip()
+            if n == numero_txt:
+                return
+
+        ws.append([numero_txt, justificativa])
+        wb.save(caminho_lista_negra)
+        print(f"Adicionado na lista negra: {numero_txt} - {justificativa}")
+    except Exception as exc:
+        print(f"Falha ao registrar lista negra: {exc}")
+
+
 def _fluxo_salvar_por_coordenadas(caminho: str, nome_arquivo: str) -> None:
     clicar(*COORD_SALVAR_FLUXO_FOCO)
     clicar(*COORD_SALVAR_FLUXO_BOTAO_SALVAR)
-    time.sleep(3.0)
+    _esperar_janela_salvar()
     caminho_completo = os.path.join(caminho, nome_arquivo)
     escrever(caminho_completo)
     enter_com_delay()
     clicar(*COORD_SALVAR_FLUXO_CONFIRMAR)
     clicar(*COORD_SALVAR_FLUXO_VOLTAR)
+
+
+def _esperar_janela_salvar() -> None:
+    # Aguarda a janela/dialogo de salvar aparecer antes de digitar o caminho.
+    # Sem timeout: fica aguardando o tempo necessario.
+    if Desktop is None:
+        # Fallback minimo sem deteccao de janela.
+        time.sleep(3.0)
+        return
+
+    while True:
+        # Se aparecer aviso antes da janela de salvar, confirma e continua aguardando.
+        dlg_aviso = _achar_aviso_sistema_uma_varredura(r".*Aviso.*Sistema.*")
+        if dlg_aviso is not None:
+            _confirmar_aviso(dlg_aviso)
+            time.sleep(0.2)
+
+        try:
+            for w in Desktop(backend="win32").windows():
+                if not w.is_visible():
+                    continue
+                titulo = (w.window_text() or "").upper()
+                if "SALVAR" in titulo or "SAVE" in titulo:
+                    return
+        except Exception:
+            pass
+
+        try:
+            for w in Desktop(backend="uia").windows():
+                if not w.is_visible():
+                    continue
+                titulo = (w.window_text() or "").upper()
+                if "SALVAR" in titulo or "SAVE" in titulo:
+                    return
+        except Exception:
+            pass
+
+        time.sleep(0.2)
 
 
 def registrar_movimento(dir_dest: str, empresa: str) -> None:
@@ -242,7 +352,48 @@ def registrar_movimento(dir_dest: str, empresa: str) -> None:
         print(f"Falha ao registrar movimento em {caminho_txt}: {exc}")
 
 
-def carregar_empresas_lista(caminho_lista: str) -> list[str]:
+def _sanitizar_nome_arquivo(texto: str) -> str:
+    # Remove caracteres invalidos de nome de arquivo no Windows, sem substituicao.
+    texto = re.sub(r'[\\/:*?"<>|]+', "", str(texto or ""))
+    texto = re.sub(r"\s+", " ", texto).strip()
+    return texto.rstrip(". ")
+
+
+def montar_base_arquivo(numero_empresa: str, nome_empresa: str) -> str:
+    num = _sanitizar_nome_arquivo(numero_empresa)
+    nome = _sanitizar_nome_arquivo(nome_empresa)
+    if nome and nome != num:
+        return f"{nome} - {num}"
+    return num
+
+
+def carregar_lista_negra() -> set[str]:
+    try:
+        from openpyxl import load_workbook
+    except Exception:
+        return set()
+
+    caminho_lista_negra = os.path.join(os.path.dirname(os.path.abspath(__file__)), NOME_ARQUIVO_LISTA_NEGRA)
+    if not os.path.exists(caminho_lista_negra):
+        return set()
+
+    bloqueados: set[str] = set()
+    try:
+        wb = load_workbook(caminho_lista_negra, data_only=True)
+        ws = wb.active
+        for row in ws.iter_rows(min_row=2, values_only=True):
+            if not row:
+                continue
+            numero = str(row[0] or "").strip()
+            if numero:
+                bloqueados.add(numero)
+    except Exception as exc:
+        print(f"Falha ao ler lista negra: {exc}")
+        return set()
+    return bloqueados
+
+
+def carregar_empresas_lista(caminho_lista: str) -> list[tuple[str, str]]:
     try:
         from openpyxl import load_workbook
     except Exception:
@@ -255,27 +406,36 @@ def carregar_empresas_lista(caminho_lista: str) -> list[str]:
 
     wb = load_workbook(caminho_lista, data_only=True)
     ws = wb.active
-    empresas: list[str] = []
+    empresas: list[tuple[str, str]] = []
 
-    for row in ws.iter_rows(min_col=3, max_col=3, values_only=True):
-        val = row[0]
-        if val is None:
+    # Padrao novo: numero na coluna C e nome na coluna D (ao lado do numero).
+    # Compatibilidade: se D estiver vazio, usa coluna A como nome.
+    for row in ws.iter_rows(min_row=1, values_only=True):
+        if len(row) < 3:
             continue
-        texto = str(val).strip()
-        if not texto:
+        numero = row[2]
+        if numero is None:
             continue
-        empresas.append(texto)
+        numero_txt = str(numero).strip()
+        if not numero_txt:
+            continue
+
+        nome_lado = str(row[3]).strip() if len(row) >= 4 and row[3] is not None else ""
+        nome_col_a = str(row[0]).strip() if len(row) >= 1 and row[0] is not None else ""
+        nome = nome_lado or nome_col_a
+        empresas.append((numero_txt, nome))
 
     return empresas
 
 
-def processar_empresa(empresa: str, dir_dest: str, ano_atual: int, dlg) -> None:
-    nome_arquivo = f"{empresa}.txt"
-    nome_arquivo_slk = f"{empresa}.slk"
+def processar_empresa(numero_empresa: str, nome_empresa: str, dir_dest: str, ano_atual: int, dlg) -> None:
+    base_arquivo = montar_base_arquivo(numero_empresa, nome_empresa)
+    nome_arquivo = f"{base_arquivo}.txt"
+    nome_arquivo_slk = f"{base_arquivo}.slk"
 
     clicar(*COORD_EMPRESA_SISTEMA)
     mandar_backspaces(BACKSPACES_EMPRESA)
-    escrever(empresa)
+    escrever(numero_empresa)
     enter_com_delay(2)
     clicar(*COORD_FOCO)
 
@@ -304,9 +464,16 @@ def processar_empresa(empresa: str, dir_dest: str, ano_atual: int, dlg) -> None:
 
     _esperar_e_confirmar_aviso(TIMEOUT_AVISO_1)
     delay_pos_alt_g()
-    if _esperar_e_confirmar_aviso(TIMEOUT_AVISO_2):
-        delay_pos_alt_g()
-        return
+    dlg_aviso_2 = _achar_aviso_sistema(TIMEOUT_AVISO_2)
+    if dlg_aviso_2 is not None:
+        texto_aviso_2 = _normalizar_texto(_obter_texto_aviso(dlg_aviso_2))
+        if "RELATORIO EM BRANCO" in texto_aviso_2:
+            registrar_na_lista_negra(numero_empresa, "nao tem relatorio")
+            _confirmar_aviso(dlg_aviso_2)
+            pyautogui.press("enter")
+            print(f"Relatorio em branco para empresa {numero_empresa}. Indo para a proxima.")
+            return
+        _confirmar_aviso(dlg_aviso_2)
     delay_pos_alt_g()
     _fluxo_salvar_por_coordenadas(dir_dest, nome_arquivo_slk)
     time.sleep(DELAY_APOS_VOLTAR)
@@ -327,20 +494,29 @@ def main() -> None:
     dlg = focar_janela_fiscal()
     time.sleep(0.3)
 
-    empresas: list[str] = []
+    empresas: list[tuple[str, str]] = []
     if args.empresa:
-        empresas = [str(args.empresa).strip()]
+        numero_manual = str(args.empresa).strip()
+        empresas = [(numero_manual, "")]
     else:
         empresas = carregar_empresas_lista(caminho_lista)
+    lista_negra = carregar_lista_negra()
 
-    for empresa in empresas:
-        if not empresa:
+    for numero_empresa, nome_empresa in empresas:
+        if not numero_empresa:
             continue
-        caminho_txt = os.path.join(dir_dest, f"{empresa}.txt")
+        if numero_empresa in lista_negra:
+            print(f"Empresa na lista negra. Pulando: {numero_empresa}")
+            continue
+        base_arquivo = montar_base_arquivo(numero_empresa, nome_empresa)
+        caminho_txt = os.path.join(dir_dest, f"{base_arquivo}.txt")
+        caminho_slk = os.path.join(dir_dest, f"{base_arquivo}.slk")
+        if os.path.exists(caminho_slk):
+            print(f"Ja existe SLK para {base_arquivo}. Pulando.")
+            continue
         if os.path.exists(caminho_txt):
-            print(f"Ja existe TXT para {empresa}. Pulando.")
-            continue
-        processar_empresa(empresa, dir_dest, ano_atual, dlg)
+            print(f"TXT ja existe para {base_arquivo}. Gerando apenas o SLK.")
+        processar_empresa(numero_empresa, nome_empresa, dir_dest, ano_atual, dlg)
 
 
 if __name__ == "__main__":

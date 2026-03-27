@@ -23,6 +23,15 @@ LOG_ERROS = "DMED_Corretor_Erros_Detectados.txt"
 # ========================================================
 
 
+def _chave_base_arquivo(base: str) -> str:
+    # Novo padrao: "NOME - NUMERO". Usa o sufixo numerico como chave quando existir.
+    parte = base.rsplit(" - ", 1)[-1].strip()
+    digitos = _somente_digitos(parte)
+    if digitos:
+        return digitos
+    return parte.upper()
+
+
 def _somente_digitos(texto: str) -> str:
     return "".join(ch for ch in texto if ch.isdigit())
 
@@ -206,17 +215,50 @@ def main() -> None:
         return
 
     arquivos = os.listdir(BASE_DIR)
-    slks = {os.path.splitext(a)[0]: a for a in arquivos if a.lower().endswith(".slk")}
-    txts = {os.path.splitext(a)[0]: a for a in arquivos if a.lower().endswith(".txt")}
+    slks = sorted([a for a in arquivos if a.lower().endswith(".slk")])
+    txts = sorted(
+        [
+            a
+            for a in arquivos
+            if a.lower().endswith(".txt") and not os.path.splitext(a)[0].endswith(SUFIXO_SAIDA)
+        ]
+    )
 
-    pares = sorted(set(slks.keys()) & set(txts.keys()))
+    txt_por_base = {os.path.splitext(a)[0]: a for a in txts}
+    txt_por_chave: dict[str, list[str]] = {}
+    for txt in txts:
+        base_txt = os.path.splitext(txt)[0]
+        txt_por_chave.setdefault(_chave_base_arquivo(base_txt), []).append(txt)
+
+    pares: list[tuple[str, str]] = []
+    usados_txt: set[str] = set()
+    for slk in slks:
+        base_slk = os.path.splitext(slk)[0]
+        txt_escolhido = None
+
+        # 1) Tenta casamento exato pelo basename completo.
+        if base_slk in txt_por_base and txt_por_base[base_slk] not in usados_txt:
+            txt_escolhido = txt_por_base[base_slk]
+        else:
+            # 2) Fallback: casamento por chave (numero final de "NOME - NUMERO").
+            chave = _chave_base_arquivo(base_slk)
+            candidatos = [t for t in txt_por_chave.get(chave, []) if t not in usados_txt]
+            if len(candidatos) == 1:
+                txt_escolhido = candidatos[0]
+            elif len(candidatos) > 1:
+                print(f"Aviso: chave ambigua para {slk}. Candidatos TXT: {candidatos}. Pulando.")
+
+        if txt_escolhido:
+            pares.append((slk, txt_escolhido))
+            usados_txt.add(txt_escolhido)
+
     if not pares:
         print("Nenhum par .slk/.txt encontrado.")
         return
 
-    for base in pares:
-        slk_path = os.path.join(BASE_DIR, slks[base])
-        txt_path = os.path.join(BASE_DIR, txts[base])
+    for slk_nome, txt_nome in pares:
+        slk_path = os.path.join(BASE_DIR, slk_nome)
+        txt_path = os.path.join(BASE_DIR, txt_nome)
         mudou, logs, saida = _corrigir_txt(txt_path, slk_path)
         print(f"OK: {os.path.basename(txt_path)}")
         if mudou:

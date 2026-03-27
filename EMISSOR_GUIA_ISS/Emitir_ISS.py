@@ -94,7 +94,6 @@ def carregar_prestadores(session_http: requests.Session):
 
     return prestadores_info
 
-
 # Salva log CSV
 def salvar_log_em_csv():
     caminho_csv = os.path.join(BASE_DOWNLOAD_DIR, "log_emissao_guias.csv")

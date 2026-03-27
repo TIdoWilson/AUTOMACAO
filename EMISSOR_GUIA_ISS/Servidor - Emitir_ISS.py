@@ -5,36 +5,34 @@ import unicodedata
 import re
 from datetime import datetime
 from playwright.sync_api import sync_playwright
-import pyautogui
 
-# Diretório base dos downloads
 BASE_DOWNLOAD_DIR = r"\\192.0.0.251\arquivos\XML PREFEITURA"
-
-# Perfil persistente do Firefox (mesmo usado no buscador de notas)
 FIREFOX_PROFILE_DIR = r"W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\BUSCADOR DE NOTAS\perfil_firefox_cert_esnfs"
 
-# Lista de log dos prestadores
+ESNFS_ORIGIN = "https://www.esnfs.com.br"
+URL_TELA_CONSULTA = f"{ESNFS_ORIGIN}/nfsguiarecolhimento.load.logic"
+
+START_INDEX = 100
 log_prestadores = []
 
-# Utilitário: monta o caminho final do PDF
+
 def limpar_nome(nome: str) -> str:
     nome = unicodedata.normalize("NFKD", nome).encode("ASCII", "ignore").decode("ASCII")
     nome = re.sub(r"[^A-Za-z0-9 .]", "", nome)
     nome = re.sub(r"\s+", " ", nome).strip()
     return nome.rstrip(" .")
 
+
 def montar_caminho_download(nome_prestador, mes, ano):
     nome_limpo = nome_prestador.split(" - ", 1)[1] if " - " in nome_prestador else nome_prestador
-    nome_limpo = limpar_nome(nome_limpo)   # <<< usar a mesma limpeza
+    nome_limpo = limpar_nome(nome_limpo)
     pasta_cliente = os.path.join(BASE_DOWNLOAD_DIR, nome_limpo)
     pasta_mes_ano = os.path.join(pasta_cliente, f"{str(mes).zfill(2)}.{ano}")
     os.makedirs(pasta_mes_ano, exist_ok=True)
-    nome_arquivo_pdf = f"ISS_{str(mes).zfill(2)}.{ano}.pdf"   # padronizado
-    caminho_final_pdf = os.path.join(pasta_mes_ano, nome_arquivo_pdf)
-    return caminho_final_pdf
+    nome_arquivo_pdf = f"ISS_{str(mes).zfill(2)}.{ano}.pdf"
+    return os.path.join(pasta_mes_ano, nome_arquivo_pdf)
 
 
-# Salva log CSV
 def salvar_log_em_csv():
     caminho_csv = os.path.join(BASE_DOWNLOAD_DIR, "log_emissao_guias.csv")
     with open(caminho_csv, mode="w", newline="", encoding="utf-8") as arquivo_csv:
@@ -45,8 +43,83 @@ def salvar_log_em_csv():
             writer.writerow(linha)
     print(f"\n📝 Log salvo em: {caminho_csv}")
 
-# Emite todas as guias disponíveis para um prestador
-def emitir_guias(pagina, contexto, nome_prestador, mes, ano):
+
+def garantir_tela_consulta(contexto, pagina):
+    if pagina is None or pagina.is_closed():
+        pagina = contexto.new_page()
+
+    try:
+        pagina.keyboard.press("Escape")
+        pagina.wait_for_timeout(150)
+        pagina.keyboard.press("Escape")
+    except Exception:
+        pass
+
+    pagina.goto(URL_TELA_CONSULTA, wait_until="domcontentloaded")
+    pagina.wait_for_selector('select[name="pessoaModel.idPessoa"]', timeout=20000)
+    return pagina
+
+
+def voltar_para_consulta(contexto, pagina):
+    try:
+        if pagina is not None and not pagina.is_closed():
+            if pagina.locator('input.botaoVoltar').count() > 0:
+                pagina.click('input.botaoVoltar', timeout=8000)
+                pagina.wait_for_load_state("networkidle")
+    except Exception:
+        pass
+
+    return garantir_tela_consulta(contexto, pagina)
+
+
+def baixar_pdf_no_viewer(popup, contexto, caminho_final_pdf: str):
+    """
+    Clica no botão "Download" do viewer do Firefox (PDF.js) e captura o download.
+    """
+    # Viewer costuma ter #download. Se não tiver, tenta variações.
+    seletores = [
+        "#download",                          # comum no PDF.js
+        "button#download",
+        "button[title='Download']",
+        "button[title*='Download' i]",
+        "text=Download",
+        "text=Baixar",
+        "button:has-text('Download')",
+        "button:has-text('Baixar')",
+        "a:has-text('Download')",
+        "a:has-text('Baixar')",
+    ]
+
+    # garante que o viewer carregou
+    popup.wait_for_load_state("domcontentloaded", timeout=15000)
+    # às vezes demora para montar a toolbar
+    popup.wait_for_timeout(800)
+
+    last_err = None
+    for sel in seletores:
+        try:
+            loc = popup.locator(sel)
+            if loc.count() == 0:
+                continue
+
+            btn = loc.first
+            btn.scroll_into_view_if_needed()
+
+            # download pode ser gerado pelo popup; melhor capturar no CONTEXTO
+            with contexto.expect_download(timeout=30000) as dlinfo:
+                btn.click(force=True)
+
+            dl = dlinfo.value
+            dl.save_as(caminho_final_pdf)
+            return True
+        except Exception as e:
+            last_err = e
+            continue
+
+    raise RuntimeError(f"Não consegui clicar no botão de download do viewer. Último erro: {last_err}")
+
+
+def emitir_guias(contexto, pagina, nome_prestador, mes, ano):
     registro = {
         "Prestador": nome_prestador,
         "Pesquisa": "OK",
@@ -57,173 +130,168 @@ def emitir_guias(pagina, contexto, nome_prestador, mes, ano):
 
     links_emissao = pagina.locator('a[title="Emissão"]')
     total_links = links_emissao.count()
-
     if total_links == 0:
         print("⚠️ Nenhuma guia para emitir.")
         log_prestadores.append(registro)
-        return
+        return pagina
 
-    # Filtra pelos do mês/ano correto
-    hrefs_filtrados = []
+    # Filtra pelo mês/ano no href
+    candidatos = []
     for i in range(total_links):
         link = links_emissao.nth(i)
-        href = link.get_attribute("href")
-        if href and "viewEditGuia" in href:
+        href = link.get_attribute("href") or ""
+        if "viewEditGuia" in href:
             partes = href.split("'")
             if len(partes) >= 6:
-                mes_href = int(partes[3])
-                ano_href = int(partes[5])
+                try:
+                    mes_href = int(partes[3])
+                    ano_href = int(partes[5])
+                except Exception:
+                    continue
                 if mes_href == mes and ano_href == ano:
-                    hrefs_filtrados.append(link)
+                    candidatos.append(link)
 
-    if not hrefs_filtrados:
+    if not candidatos:
         print(f"⚠️ Nenhuma guia encontrada para {mes}/{ano}")
         registro["Mensagem de Erro"] = f"Guia(s) de {mes}/{ano} não encontrada(s)"
         log_prestadores.append(registro)
-        return
+        return pagina
 
-    while True:
+    link_alvo = candidatos[0]
+
+    try:
+        link_alvo.locator("i.fa.fa-barcode").click()
+        print("🔘 Clicando no botão de emissão...")
+        registro["Clique Emitir"] = "OK"
+
+        pagina.wait_for_selector("input#emitir", timeout=15000)
+        btn_emitir = pagina.locator("input#emitir")
+        btn_emitir.scroll_into_view_if_needed()
+        pagina.wait_for_timeout(250)
+
+        # popup "OK/Cancelar"
+        pagina.once("dialog", lambda dialog: dialog.accept())
+
+        # ✅ Impede o portal de fechar a aba automaticamente
+        # (aplica para páginas novas)
         try:
-            link = hrefs_filtrados[0]
-            href = link.get_attribute("href")
+            contexto.add_init_script("window.close = () => {};")
+        except Exception:
+            pass
 
-            if href and "viewEditGuia" in href:
-                link.locator("i.fa.fa-barcode").click()
-                print("🔘 Clicando no botão de emissão...")
-                registro["Clique Emitir"] = "OK"
+        # Clique REAL no Emitir, capturando o popup
+        popup = None
+        with pagina.expect_popup(timeout=15000) as pop:
+            btn_emitir.click()
+        popup = pop.value
 
-                pagina.wait_for_selector("input#emitir", timeout=5000)
-                pagina.locator("input#emitir").scroll_into_view_if_needed()
-                pagina.wait_for_timeout(300)
+        # se o portal tentar fechar via JS, agora não fecha
+        try:
+            popup.on("close", lambda: print("⚠️ A aba de impressão fechou (mesmo após bloquear window.close)."))
+        except Exception:
+            pass
 
-                pagina.once("dialog", lambda dialog: dialog.accept())
+        print("⬇️ Baixando pelo botão Download do viewer...")
+        caminho_final_pdf = montar_caminho_download(nome_prestador, mes, ano)
+        baixar_pdf_no_viewer(popup, contexto, caminho_final_pdf)
 
-                try:
-                    with contexto.expect_page(timeout=5000) as nova_guia_info:
-                        pagina.locator("input#emitir").click()
+        print(f"✅ PDF salvo em:\n{caminho_final_pdf}")
+        registro["Download Guia"] = "OK"
 
-                    nova_pagina = nova_guia_info.value
-                    nova_pagina.wait_for_url("**/nfsguiarecolhimento.imprimir.logic", timeout=10000)
-                    nova_pagina.wait_for_load_state("load")
-                    print("📄 PDF carregado. Tentando fazer download...")
-                    time.sleep(3)
+        try:
+            if not popup.is_closed():
+                popup.close()
+        except Exception:
+            pass
 
-                    with nova_pagina.expect_download(timeout=10000) as download_info:
-                        # Ajuste as coordenadas conforme seu viewer de PDF
-                        pyautogui.moveTo(1192, 124, duration=0.1)
-                        pyautogui.click()
-                        time.sleep(2)
+    except Exception as e:
+        print(f"❗ Erro ao emitir/baixar guia: {e}")
+        registro["Mensagem de Erro"] = str(e)
 
-                    download_pdf = download_info.value
-                    caminho_final_pdf = montar_caminho_download(nome_prestador, mes, ano)
-                    download_pdf.save_as(caminho_final_pdf)
-                    print(f"✅ PDF salvo em:\n{caminho_final_pdf}")
-                    registro["Download Guia"] = "OK"
-
-                    nova_pagina.close()
-                    pagina.bring_to_front()
-                    
-                    time.sleep(3)
-
-                    try:
-                        pyautogui.moveTo(880, 225, duration=0.1)
-                        pyautogui.click()
-                        time.sleep(2)
-                        
-                        pagina.click('input.botaoVoltar')
-                        pagina.wait_for_load_state("networkidle")
-                        pagina.wait_for_selector('select[name="pessoaModel.idPessoa"]:not([disabled])', timeout=5000)
-                        time.sleep(1)
-                    except Exception as e:
-                        registro["Mensagem de Erro"] = f"Erro ao retornar: {e}"
-                        break
-
-                    if pagina.is_visible("text=Não há registros"):
-                        print("✅ Nenhuma nova guia encontrada. Passando para o próximo prestador.")
-                        break
-
-                except Exception as e:
-                    msg = "Guia já emitida ou erro ao abrir nova aba"
-                    print(f"⚠️ {msg}: {e}")
-                    registro["Mensagem de Erro"] = msg
-
-                    try:
-                        pyautogui.moveTo(880, 225, duration=0.1)
-                        pyautogui.click()
-                        pagina.click('input.botaoVoltar')
-                        pagina.wait_for_load_state("networkidle")
-                        time.sleep(1)
-                    except Exception as e2:
-                        print(f"❌ Falha ao tentar voltar após erro: {e2}")
-                        registro["Mensagem de Erro"] += f" | Falha ao voltar: {e2}"
-                    break
-
-        except Exception as e:
-            print(f"❗ Erro inesperado ao emitir guia: {e}")
-            registro["Mensagem de Erro"] = str(e)
-            break
+    # volta sempre
+    try:
+        pagina = voltar_para_consulta(contexto, pagina)
+    except Exception as e:
+        registro["Mensagem de Erro"] += f" | Falha ao voltar: {e}"
 
     log_prestadores.append(registro)
+    return pagina
 
-# Processa todos os prestadores
-def processar_prestadores(pagina, contexto):
+
+def processar_prestadores(contexto, pagina, start_index=1):
     hoje = datetime.today()
     mes_anterior = hoje.month - 1 if hoje.month > 1 else 12
     ano_ref = hoje.year if hoje.month > 1 else hoje.year - 1
 
-    prestador_select = pagina.locator('select[name="pessoaModel.idPessoa"]')
-    prestadores = prestador_select.locator("option").all()
-    total_prestadores = len(prestadores)
+    pagina = garantir_tela_consulta(contexto, pagina)
+    total_prestadores = pagina.locator('select[name="pessoaModel.idPessoa"] option').count()
 
     if total_prestadores < 2:
         raise Exception("❌ Nenhum prestador válido encontrado.")
 
-    for index in range(1, total_prestadores):
-        nome_prestador = prestadores[index].text_content().strip()
-        print(f"\n🔍 Processando prestador: {nome_prestador}")
-
-        registro = {
-            "Prestador": nome_prestador,
-            "Pesquisa": "SEM DADOS",
-            "Clique Emitir": "-",
-            "Download Guia": "-",
-            "Mensagem de Erro": ""
-        }
-
-        prestador_select.select_option(index=index)
-        pagina.wait_for_selector('select[name="formulario.nrExercicio"]')
-        pagina.select_option('select[name="formulario.nrExercicio"]', str(ano_ref))
-        pagina.click("text=Pesquisar")
-        pagina.wait_for_timeout(1500)
-
-        if pagina.is_visible("text=Não há registros"):
-            print("❌ Nenhum registro encontrado.")
-            registro["Pesquisa"] = "SEM REGISTROS"
-            log_prestadores.append(registro)
-            continue
-
-        registro["Pesquisa"] = "OK"
+    for index in range(start_index, total_prestadores):
         try:
+            pagina = garantir_tela_consulta(contexto, pagina)
+
+            opt = pagina.locator('select[name="pessoaModel.idPessoa"] option').nth(index)
+            nome_prestador = (opt.text_content() or "").strip()
+            print(f"\n🔍 Processando prestador: {nome_prestador}")
+
+            registro = {
+                "Prestador": nome_prestador,
+                "Pesquisa": "SEM DADOS",
+                "Clique Emitir": "-",
+                "Download Guia": "-",
+                "Mensagem de Erro": ""
+            }
+
+            pagina.locator('select[name="pessoaModel.idPessoa"]').select_option(index=index)
+            pagina.wait_for_selector('select[name="formulario.nrExercicio"]', timeout=10000)
+            pagina.select_option('select[name="formulario.nrExercicio"]', str(ano_ref))
+            pagina.click("text=Pesquisar")
+            pagina.wait_for_timeout(1500)
+
+            if pagina.is_visible("text=Não há registros"):
+                print("❌ Nenhum registro encontrado.")
+                registro["Pesquisa"] = "SEM REGISTROS"
+                log_prestadores.append(registro)
+                continue
+
+            registro["Pesquisa"] = "OK"
+
             links_emissao = pagina.locator('a[title="Emissão"]')
             total_links = links_emissao.count()
 
             if total_links > 0:
                 print(f"✅ {total_links} guia(s) localizada(s)")
-                emitir_guias(pagina, contexto, nome_prestador, mes_anterior, ano_ref)
+                pagina = emitir_guias(contexto, pagina, nome_prestador, mes_anterior, ano_ref)
             else:
                 print("⚠️ Nenhum link de emissão encontrado.")
                 registro["Mensagem de Erro"] = "Sem links de emissão"
                 log_prestadores.append(registro)
-        except Exception as e:
-            registro["Mensagem de Erro"] = str(e)
-            log_prestadores.append(registro)
 
-# Fluxo principal
+        except Exception as e:
+            print(f"❗ Falha ao processar prestador no índice {index}: {e}")
+            log_prestadores.append({
+                "Prestador": f"(index={index})",
+                "Pesquisa": "ERRO",
+                "Clique Emitir": "-",
+                "Download Guia": "-",
+                "Mensagem de Erro": str(e)
+            })
+            try:
+                pagina = garantir_tela_consulta(contexto, pagina)
+            except Exception:
+                pass
+            continue
+
+    return pagina
+
+
 def main():
-# =================== INICIALIZAÇÃO (perfil Firefox + certificado) ===================
     with sync_playwright() as p:
         contexto = p.firefox.launch_persistent_context(
-            user_data_dir=r"W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\BUSCADOR DE NOTAS\perfil_firefox_cert_esnfs",
+            user_data_dir=FIREFOX_PROFILE_DIR,
             headless=False,
             accept_downloads=True,
             firefox_user_prefs={
@@ -231,37 +299,32 @@ def main():
                 "security.remember_cert_checkbox_default_setting": True,
             },
         )
-        pagina = contexto.new_page()
 
+        pagina = contexto.new_page()
         pagina.goto("https://www.esnfs.com.br/?e=35")
         pagina.wait_for_load_state("domcontentloaded")
-
         time.sleep(2)
 
-        # Fecha modal "Fechar" se aparecer
         try:
             pagina.locator("div.modal-footer button[data-dismiss='modal'], button:has-text('Fechar')").first.click()
             pagina.wait_for_load_state("domcontentloaded")
         except Exception:
             pass
 
-        # Login por CERTIFICADO DIGITAL (o perfil já lembra o certificado escolhido)
         pagina.wait_for_selector("text=Certificado digital", timeout=30000)
         pagina.click("text=Certificado digital")
 
-        # Seleciona o município
         pagina.wait_for_selector("text=Município de Francisco Beltrão", timeout=30000)
         pagina.click("text=Município de Francisco Beltrão")
         pagina.wait_for_load_state("domcontentloaded")
 
-        # Caminho até a tela de emissão/consulta
-        pagina.click("text=GUIA DE RECOLHIMENTO")
-        pagina.click("text=ISS devido / Consulta / Cancelamento")
-        time.sleep(1)
+        pagina = garantir_tela_consulta(contexto, pagina)
 
-        processar_prestadores(pagina, contexto)
+        pagina = processar_prestadores(contexto, pagina, start_index=START_INDEX)
         salvar_log_em_csv()
+
         input("\n🛑 Pressione ENTER para encerrar manualmente...")
+
 
 if __name__ == "__main__":
     main()

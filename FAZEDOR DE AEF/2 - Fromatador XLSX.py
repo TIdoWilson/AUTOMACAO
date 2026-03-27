@@ -20,11 +20,12 @@ except Exception as exc:
 
 BASE_DIR = r"W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF"
 PASTA_ARQUIVOS = os.path.join(BASE_DIR, "Arquivos")
+PASTA_TEMPLATES = os.path.join(BASE_DIR, "Templates")
 CAMINHO_EMPRESAS = os.path.join(BASE_DIR, "empresas.txt")
 CAMINHO_EMPRESAS_ALTERNATIVO = os.path.join(BASE_DIR, "7 empresas.txt")
 
-CAMINHO_MODELO = os.path.join(BASE_DIR, "PLANILHA AEF NOVEMBRO.xlsx")
-NOME_SAIDA_PREFIXO = "final"
+NOME_MODELO_CHAVE = "Modelo AEF"
+NOME_SAIDA_MODELO = "BALANCETE AEF {empresa}.xlsx"
 
 PLANILHA_DESTINO = "balancete"
 PLANILHA_ORIGEM = ""  # vazio = unica planilha do balancete baixado
@@ -33,6 +34,7 @@ COPIAR_BALANCETE_PARA_PASTA_SCRIPT = False
 REMOVER_DC_BALANCETE = True
 COLUNA_DC = "H"
 PLANILHAS_VALIDACAO = ["DRE", "Passivo", "Ativo"]
+REMOVER_ESPACOS_COLUNA_A = True
 NOME_RELATORIO_ERRO = "Erros formatação.txt"
 
 # =========================
@@ -91,11 +93,56 @@ def localizar_balancete(pasta_empresa: str, empresa: str) -> str:
     sys.exit(1)
 
 
-def copiar_modelo(destino: str) -> None:
-    if not os.path.isfile(CAMINHO_MODELO):
-        print(f"ERRO: arquivo modelo nao encontrado: {CAMINHO_MODELO}")
+def _normalizar_nome_template(nome: str) -> str:
+    base, _ = os.path.splitext(nome)
+    return base.lower().replace(" ", "").replace("-", "").replace("_", "")
+
+
+def localizar_template_empresa(empresa: str) -> str:
+    if not os.path.isdir(PASTA_TEMPLATES):
+        print(f"ERRO: pasta de templates nao encontrada: {PASTA_TEMPLATES}")
         sys.exit(1)
-    shutil.copy2(CAMINHO_MODELO, destino)
+
+    empresa_norm = _normalizar_empresa(empresa)
+    alvos = {
+        _normalizar_nome_template(f"{empresa_norm}.xlsx"),
+        _normalizar_nome_template(f"{empresa_norm}_template.xlsx"),
+        _normalizar_nome_template(f"template_{empresa_norm}.xlsx"),
+        _normalizar_nome_template(f"modelo_aef_{empresa_norm}.xlsx"),
+        _normalizar_nome_template(f"modelo_{empresa_norm}.xlsx"),
+    }
+
+    candidatos: list[str] = []
+    for nome in os.listdir(PASTA_TEMPLATES):
+        caminho = os.path.join(PASTA_TEMPLATES, nome)
+        if not os.path.isfile(caminho):
+            continue
+        if not nome.lower().endswith(".xlsx"):
+            continue
+        nome_norm = _normalizar_nome_template(nome)
+        if nome_norm in alvos:
+            candidatos.append(caminho)
+
+    if not candidatos:
+        print(
+            "ERRO: template da empresa nao encontrado. "
+            + f"Empresa: {empresa_norm}. Pasta: {PASTA_TEMPLATES}"
+        )
+        sys.exit(1)
+
+    if len(candidatos) > 1:
+        candidatos.sort(key=lambda p: os.path.getmtime(p), reverse=True)
+        print(
+            "AVISO: mais de um template encontrado para a empresa "
+            + f"{empresa_norm}. Usando o mais recente: {os.path.basename(candidatos[0])}"
+        )
+
+    return candidatos[0]
+
+
+def copiar_modelo(destino: str, empresa: str) -> None:
+    caminho_modelo = localizar_template_empresa(empresa)
+    shutil.copy2(caminho_modelo, destino)
 
 
 def copiar_balancete_para_pasta_script(caminho_balancete: str, empresa: str) -> None:
@@ -168,6 +215,44 @@ def buscar_balancete_global(empresa: str) -> list[str]:
     return encontrados
 
 
+def limpar_espacos_coluna_a(ws, linhas: int) -> None:
+    """
+    Usa o recurso Substituir do Excel na coluna A para remover espacos.
+    Evita codigo com espaco sobrando no final/inicio (e tambem no meio).
+    """
+    if linhas <= 0:
+        return
+    try:
+        rng = ws.Range(ws.Cells(1, 1), ws.Cells(linhas, 1))
+        # 1) Tentativa rapida via Replace.
+        rng.Replace(What=" ", Replacement="", LookAt=1, SearchOrder=1, MatchCase=False)
+        rng.Replace(What=chr(160), Replacement="", LookAt=1, SearchOrder=1, MatchCase=False)
+        rng.Replace(What=chr(9), Replacement="", LookAt=1, SearchOrder=1, MatchCase=False)
+
+        # 2) Garantia: limpa celula por celula qualquer whitespace remanescente no Value2.
+        valores = rng.Value2
+        if not isinstance(valores, tuple):
+            valores = ((valores,),)
+
+        novos: list[tuple] = []
+        alterou = False
+        for linha in valores:
+            atual = linha[0]
+            if isinstance(atual, str):
+                # Remove todo whitespace (espaco, tab, NBSP etc.) para evitar bug de codigo.
+                limpo = "".join(atual.replace("\u00a0", " ").split())
+                if limpo != atual:
+                    alterou = True
+                novos.append((limpo,))
+            else:
+                novos.append((atual,))
+
+        if alterou:
+            rng.Value2 = novos
+    except Exception as exc:
+        print(f"AVISO: falha ao limpar espacos na coluna A: {exc}")
+
+
 def colar_planilha(
     caminho_origem: str,
     caminho_destino: str,
@@ -231,6 +316,10 @@ def colar_planilha(
             usado.Copy()
             ws_destino.Range("A1").PasteSpecial(Paste=xl_paste_values)
             excel.CutCopyMode = False
+
+        # Importante: limpar sempre no final da colagem (inclusive apos fallback PasteSpecial).
+        if REMOVER_ESPACOS_COLUNA_A:
+            limpar_espacos_coluna_a(ws_destino, linhas)
 
         gerar_relatorio_erros_formatacao(
             wb_destino=wb_destino,
@@ -408,8 +497,11 @@ def processar_empresa(empresa: str) -> None:
     copiar_balancete_para_pasta_script(caminho_balancete, empresa)
     limpar_dc_balancete(caminho_balancete)
 
-    caminho_saida = os.path.join(pasta_empresa, f"{NOME_SAIDA_PREFIXO}_{empresa}.xlsx")
-    copiar_modelo(caminho_saida)
+    caminho_saida = os.path.join(
+        pasta_empresa,
+        NOME_SAIDA_MODELO.format(empresa=empresa),
+    )
+    copiar_modelo(caminho_saida, empresa)
 
     colar_planilha(
         caminho_origem=caminho_balancete,
@@ -470,11 +562,19 @@ def _parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def exibir_aviso_backup() -> None:
+    print(
+        "AVISO: Processo concluido. "
+        "Recomenda-se realizar o backup dos arquivos gerados na PASTA CLIENTES."
+    )
+
+
 def main() -> None:
     args = _parse_args()
     if args.conferir:
         if args.arquivo:
             conferir_arquivo(args.arquivo)
+            exibir_aviso_backup()
             return
 
         if args.empresa:
@@ -486,16 +586,18 @@ def main() -> None:
             caminho_final = os.path.join(
                 PASTA_ARQUIVOS,
                 empresa,
-                f"{NOME_SAIDA_PREFIXO}_{empresa}.xlsx",
+                NOME_SAIDA_MODELO.format(empresa=empresa),
             )
             print(f"Conferindo empresa: {empresa}")
             conferir_arquivo(caminho_final)
+        exibir_aviso_backup()
         return
 
     empresas = carregar_empresas()
     for empresa in empresas:
         print(f"Processando empresa: {empresa}")
         processar_empresa(empresa)
+    exibir_aviso_backup()
 
 
 if __name__ == "__main__":

@@ -47,6 +47,7 @@ COORD_EMPRESA_SISTEMA = (1635, 58)
 COORD_ABRIR_GERADOR = (509, 78)
 COORD_BTN_SALVAR = (436, 85)
 COORD_BTN_VOLTAR = (492, 85)
+COORD_ESTABELECIMENTO = (1033, 508)
 
 BASE_DIR_ARQUIVOS = (
     r"W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\FAZEDOR DE AEF\Arquivos"
@@ -60,10 +61,10 @@ PAUSA_APOS_ENTERS = 0.5
 INTERVALO_DIGITACAO = 0.1
 INTERVALO_TECLA = 0.1
 PAUSA_PADRAO = 0.0
-TIMEOUT_JANELA_IMPRESSAO = 30
-TIMEOUT_SALVAR_COMO = 30
-TIMEOUT_FECHAR_IMPRESSAO = 20
-TIMEOUT_DETECCAO_ARQUIVO = 60
+TIMEOUT_JANELA_IMPRESSAO = 300
+TIMEOUT_SALVAR_COMO = 300
+TIMEOUT_FECHAR_IMPRESSAO = 200
+TIMEOUT_DETECCAO_ARQUIVO = 600
 PAUSAR_APOS_DETECTAR_IMPRESSAO = False
 ENVIAR_ENTERS_ENTRE_CLIQUES = True
 PAUSAR_APOS_DIGITAR_CAMINHO = False
@@ -98,11 +99,45 @@ def _normalizar_empresa(texto: str) -> str:
     return texto.strip().lstrip("\ufeff")
 
 
+def _separar_empresa_estabelecimento(empresa: str) -> tuple[str, str | None]:
+    """
+    Regras:
+    - "143-1" => empresa sistema "143" e estabelecimento "1"
+    - "143-2" => empresa sistema "143" e estabelecimento "2"
+    - demais => usa o valor original e sem estabelecimento adicional
+    """
+    valor = _normalizar_empresa(empresa)
+    if "-" in valor:
+        base, sufixo = valor.split("-", 1)
+        base = base.strip()
+        sufixo = sufixo.strip()
+        if base == "143" and sufixo in ("1", "2"):
+            return base, sufixo
+    return valor, None
+
+
 def calcular_periodo() -> tuple[str, str]:
-    ano_base = datetime.now().year - 1
-    ano_curto = str(ano_base)[-2:]
+    """
+    Regra:
+    - Janeiro: 01/AA-1 ate 12/AA-1
+    - Fev..Dez: 01/AA ate MM-1/AA
+      Ex.: fev/2026 => 01/26 ate 01/26
+            mar/2026 => 01/26 ate 02/26
+    """
+    agora = datetime.now()
+    ano_atual = agora.year
+    mes_atual = agora.month
+
+    if mes_atual == 1:
+        ano_base = ano_atual - 1
+        data_inicio = f"01/{str(ano_base)[-2:]}"
+        data_fim = f"12/{str(ano_base)[-2:]}"
+        return data_inicio, data_fim
+
+    mes_fim = mes_atual - 1
+    ano_curto = str(ano_atual)[-2:]
     data_inicio = f"01/{ano_curto}"
-    data_fim = f"12/{ano_curto}"
+    data_fim = f"{mes_fim:02d}/{ano_curto}"
     return data_inicio, data_fim
 
 
@@ -413,6 +448,7 @@ def aguardar_arquivo(caminho_completo: str, timeout_s: int) -> tuple[bool, str]:
 def executar_fluxo(empresa: str, primeira_empresa: bool) -> None:
     data_inicio, data_fim = calcular_periodo()
     empresa_id = empresa.strip()
+    empresa_sistema, estab = _separar_empresa_estabelecimento(empresa_id)
     destino = os.path.join(BASE_DIR_ARQUIVOS, empresa_id)
     os.makedirs(destino, exist_ok=True)
     nome_arquivo = f"Balancete_{empresa_id}.xls"
@@ -430,7 +466,7 @@ def executar_fluxo(empresa: str, primeira_empresa: bool) -> None:
     pyautogui.click(*COORD_EMPRESA_SISTEMA)
     time.sleep(INTERVALO_CLIQUE)
     pyautogui.press("backspace", presses=QTDE_BACKSPACE, interval=INTERVALO_TECLA)
-    pyautogui.write(empresa, interval=INTERVALO_DIGITACAO)
+    pyautogui.write(empresa_sistema, interval=INTERVALO_DIGITACAO)
 
     if ENVIAR_ENTERS_ENTRE_CLIQUES:
         pyautogui.press("enter")
@@ -439,6 +475,12 @@ def executar_fluxo(empresa: str, primeira_empresa: bool) -> None:
 
     pyautogui.click(*COORD_ABRIR_GERADOR)
     time.sleep(INTERVALO_CLIQUE)
+
+    # Regra especifica 143-1 / 143-2:
+    # apos abrir gerador, antes do Enter, digita o estabelecimento.
+    if estab is not None:
+        pyautogui.write(estab, interval=INTERVALO_DIGITACAO)
+
     pyautogui.press("enter")
 
     pyautogui.write(data_inicio, interval=INTERVALO_DIGITACAO)
@@ -449,6 +491,9 @@ def executar_fluxo(empresa: str, primeira_empresa: bool) -> None:
     pyautogui.write("6", interval=INTERVALO_DIGITACAO)
     if hwnd_principal:
         garantir_checkbox_desmarcada(hwnd_principal)
+    # Antes de imprimir, clica no campo de estabelecimento conforme solicitado.
+    pyautogui.click(*COORD_ESTABELECIMENTO)
+    time.sleep(INTERVALO_CLIQUE)
     handles_antes = snapshot_children(hwnd_principal) if hwnd_principal else set()
     pyautogui.hotkey("alt", "i")
 

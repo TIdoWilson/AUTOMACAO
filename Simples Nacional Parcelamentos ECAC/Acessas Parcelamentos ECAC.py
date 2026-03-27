@@ -159,14 +159,40 @@ def abrir_modal_perfil(driver, wait):
 
 
 def preencher_cnpj_e_alterar(driver, wait, cnpj):
-    """Preenche o CNPJ lentamente e confirma com Enter (não usa botão)."""
+    """Preenche o CNPJ lentamente, aguarda 15s com deleção e redigitação dos últimos 3 caracteres, depois confirma com Enter."""
     cnpj_input = wait.until(EC.presence_of_element_located((By.ID, "txtNIPapel2")))
     cnpj_input.clear()
     esperar(0.3, 0.8)                     # pausa antes de começar a digitar
     digitar_como_humano(cnpj_input, cnpj)  # digitação lenta
     print(f"✅ CNPJ {cnpj} preenchido")
-    esperar(0.5, 1.0)                     # pausa antes de pressionar Enter
-    cnpj_input.send_keys(Keys.ENTER)      # confirma com Enter
+
+    total_tempo_espera = 15.0
+    # Parte 1: espera inicial de 2 segundos
+    espera_inicial = random.uniform(1.5, 2.5)
+    print(f"⏳ Aguardando {espera_inicial:.1f}s antes de deletar os últimos 3 caracteres...")
+    time.sleep(espera_inicial)
+
+    # Deleta os últimos 3 caracteres
+    for _ in range(3):
+        cnpj_input.send_keys(Keys.BACKSPACE)
+    print("🗑️ Últimos 3 caracteres deletados")
+
+    # Redigita os últimos 3 caracteres lentamente
+    ultimos_tres = cnpj[-3:]
+    print(f"✍️ Redigitando '{ultimos_tres}' lentamente...")
+    for caractere in ultimos_tres:
+        cnpj_input.send_keys(caractere)
+        time.sleep(random.uniform(0.05, 0.12))
+    print("✅ Últimos 3 caracteres redigitados")
+
+    # Calcula tempo restante
+    tempo_passado = espera_inicial + (3 * 0.08)  # aprox tempo da deleção+redigitação
+    tempo_restante = max(0.5, total_tempo_espera - tempo_passado)
+    print(f"⏳ Aguardando mais {tempo_restante:.1f}s para completar os 15 segundos...")
+    time.sleep(tempo_restante)
+
+    # Pressiona Enter
+    cnpj_input.send_keys(Keys.ENTER)
     print("✅ Enter pressionado (confirmação)")
 
 

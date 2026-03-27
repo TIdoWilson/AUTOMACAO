@@ -159,7 +159,7 @@ EMPRESAS_FORCAR_ESTAB_IGUAL_EMPRESA: set[int] = {39, 258, 91, 6, 246, 252, 4, 2,
 # Conversões pontuais (código original -> código para geração no ERP)
 # Ex.: 187-3 deve gerar como 187-2, mas nome do PDF continua 187-3.
 CONVERSOES_PONTUAIS: dict[tuple[int, int], tuple[int, int]] = {
-    (187, 3): (187, 2),
+    (187, 3): (187, 2), (660, 4): (660, 2),
 }
 
 # Lista de exclusão: empresas aqui NÃO serão geradas
