@@ -16,22 +16,29 @@ from selenium.common.exceptions import (
     WebDriverException,
 )
 
+from env_loader import load_local_env
+
 
 # =============== CONFIGURAÇÕES GERAIS ===============
 
 # >>>>>>> PREENCHA AQUI SEU LOGIN DA IOB (WEB) <<<<<<<
-# Se deixar como SEU_LOGIN_AQUI / SUA_SENHA_AQUI, o script NÃO tentará preencher automaticamente.
-IOB_USUARIO = "contabil20@wilsonlopes.com.br"
-IOB_SENHA   = "Wlopes.2024-="
+# Se deixar o .env vazio, o script não tentará preencher automaticamente.
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+load_local_env(os.path.join(BASE_DIR, ".env"))
+
+IOB_USUARIO = os.getenv("IOB_USUARIO", "").strip()
+IOB_SENHA = os.getenv("IOB_SENHA", "").strip()
 
 # URL da tela de login da IOB (ajuste se necessário)
-URL_LOGIN_IOB = "https://sso.iob.com.br/signin/?response_type=code&scope=&client_id=b89f6d4c-78bb-4995-9ac7-aa5459f5cf6d&redirect_uri=https%3A%2F%2Fapp.iob.com.br%2Fcallback%2F%3Fpath%3Dhttps%3A%2F%2Fapp.iob.com.br%2Fapp%2F&isSignUpDisable=false&showFAQ=false&isSocialLoginDisable=false"  # coloque aqui a URL correta da tela de login/sso que você já usa
+URL_LOGIN_IOB = os.getenv(
+    "IOB_LOGIN_URL",
+    "https://sso.iob.com.br/signin/?response_type=code&scope=&client_id=b89f6d4c-78bb-4995-9ac7-aa5459f5cf6d&redirect_uri=https%3A%2F%2Fapp.iob.com.br%2Fcallback%2F%3Fpath%3Dhttps%3A%2F%2Fapp.iob.com.br%2Fapp%2F&isSignUpDisable=false&showFAQ=false&isSocialLoginDisable=false",
+)
 
 # Pasta onde o Download EFDs grava os arquivos TXT (mesma usada no outro script)
 DIR_EFDS = r"C:\Users\Usuario\Desktop\teste"
 
 # Caminho do script de download das EFDs (na mesma pasta deste arquivo)
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SCRIPT_DOWNLOAD_EFDS = os.path.join(BASE_DIR, "Download EFDs v3")  # ajuste o nome se necessário
 
 

@@ -1,23 +1,35 @@
-from pywinauto import Application, mouse, Desktop
+import os
+import sys
 import time
 
-USUARIO = "leonardo"
-SENHA = "12345"
+from pywinauto import Application, mouse, Desktop
 
-# Fatores do "Acessar com login tradicional" (já testados e ok)
+from env_loader import load_local_env
+
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+load_local_env(os.path.join(BASE_DIR, ".env"))
+
+USUARIO = os.getenv("IOB_USUARIO", "").strip()
+SENHA = os.getenv("IOB_SENHA", "").strip()
+
+# Fatores do "Acessar com login tradicional" (ja testados e ok)
 LOGIN_FATOR_LARGURA = 0.4791
-LOGIN_FATOR_ALTURA  = 0.6328
+LOGIN_FATOR_ALTURA = 0.6328
 
-# Fatores do botão Fiscal RELATIVOS À JANELA (medidos por você)
+# Fatores do botao Fiscal relativos a janela (medidos por voce)
 FISCAL_FATOR_LARGURA = 0.4995
-FISCAL_FATOR_ALTURA  = 0.1753
+FISCAL_FATOR_ALTURA = 0.1753
 
 CAMINHO_EXE = r"C:\IOBGestaoContabil\Programas\cache.exe"
+
+# Caminho do script que gera/baixa as EFDs
+SCRIPT_DOWNLOAD_EFD = r"W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\IOB EFDs\Download EFDs"
 
 
 def abrir_programa():
     """
-    Abre o IOB (não precisamos guardar o app aqui, só disparar o EXE).
+    Abre o IOB.
     """
     print(f"Abrindo o programa: {CAMINHO_EXE}")
     Application(backend="uia").start(CAMINHO_EXE)
@@ -25,7 +37,7 @@ def abrir_programa():
 
 def esperar_tela_login(timeout=60):
     """
-    Espera a tela 'Login SSO' aparecer em TODO o desktop e devolve o diálogo.
+    Espera a tela Login SSO aparecer em todo o desktop.
     """
     print("Aguardando a tela 'Login SSO' aparecer...")
 
@@ -35,14 +47,14 @@ def esperar_tela_login(timeout=60):
         try:
             dlg = Desktop(backend="uia").window(title_re=".*Login.*SSO.*")
             if dlg.exists() and dlg.is_visible():
-                print("✔ Tela de Login encontrada!")
+                print("OK Tela de Login encontrada!")
                 return dlg
         except Exception:
             pass
 
         time.sleep(0.5)
 
-    raise RuntimeError("❌ A tela 'Login SSO' não apareceu dentro do tempo limite.")
+    raise RuntimeError("A tela 'Login SSO' nao apareceu dentro do tempo limite.")
 
 
 def achar_campos_login(dlg):
@@ -71,7 +83,7 @@ def achar_campos_login(dlg):
 
 
 def fazer_login(dlg_login):
-    print("Localizando campos de usuário e senha...")
+    print("Localizando campos de usuario e senha...")
     campo_usuario, campo_senha = achar_campos_login(dlg_login)
 
     pnl = campo_usuario.element_info.parent
@@ -79,7 +91,7 @@ def fazer_login(dlg_login):
     largura = rect.right - rect.left
     altura = rect.bottom - rect.top
 
-    print("Preenchendo usuário...")
+    print("Preenchendo usuario...")
     campo_usuario.set_focus()
     campo_usuario.type_keys("^a{BACKSPACE}")
     campo_usuario.type_keys(USUARIO, with_spaces=True)
@@ -97,46 +109,14 @@ def fazer_login(dlg_login):
     print(f"Clicando em 'Acessar com login tradicional' em ({x}, {y})...")
     mouse.click(button="left", coords=(x, y))
 
-    print("Aguardando pós-login...")
+    print("Aguardando pos-login...")
     time.sleep(1)
 
 
-def clicar_fiscal():
-    """
-    Clica no botão Fiscal usando coordenadas relativas à janela do Gerenciador de Sistemas.
-    """
-    print("Procurando janela 'Gerenciador de Sistemas'...")
-    dlg = Desktop(backend="uia").window(title_re=".*Gerenciador de Sistemas.*")
-    dlg.wait("visible", timeout=60)
-
-    rect = dlg.rectangle()
-    largura = rect.width()
-    altura = rect.height()
-
-    x = int(rect.left + largura * FISCAL_FATOR_LARGURA)
-    y = int(rect.top + altura * FISCAL_FATOR_ALTURA)
-
-    print(f"Clicando em 'Fiscal' em ({x}, {y}) relativo à janela...")
-    mouse.click(button="left", coords=(x, y))
-
-    print("Aguardando abertura do módulo Fiscal...")
-    time.sleep(5)
-
-
 def main():
-    # 1) Abre o programa
     abrir_programa()
-
-    # 2) Espera a tela de login aparecer (no Desktop inteiro)
     dlg_login = esperar_tela_login()
-
-    # 3) Faz login na tela que encontramos
     fazer_login(dlg_login)
-
-    # 4) Clica no Fiscal na tela do Gerenciador
-    clicar_fiscal()
-
-    print("\n=== PROGRAMA ABERTO + LOGIN + FISCAL OK ===")
 
 
 if __name__ == "__main__":

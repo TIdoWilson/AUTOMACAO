@@ -6,6 +6,7 @@ import traceback
 import unicodedata
 from html import unescape
 from datetime import datetime, timedelta
+from pathlib import Path
 from re import compile as re_compile, IGNORECASE
 
 from CHROME_9222_CAPTCHA import get_browser, PORT
@@ -14,19 +15,48 @@ from playwright.async_api import async_playwright, TimeoutError as PWTimeout, Er
 # ---------------------------
 # Configurações / Credenciais
 # ---------------------------
-USERNAME = "contabil20@wilsonlopes.com.br"
-PASSWORD = "Wlopes.2024-="
+BASE_DIR = Path(__file__).resolve().parent
+
+
+def load_local_env(*paths: Path) -> None:
+    for path in paths:
+        if not path.is_file():
+            continue
+        try:
+            with path.open("r", encoding="utf-8") as handle:
+                for line in handle:
+                    line = line.strip()
+                    if not line or line.startswith("#") or "=" not in line:
+                        continue
+                    key, value = line.split("=", 1)
+                    key = key.strip()
+                    value = value.strip()
+                    if len(value) >= 2 and value[0] == value[-1] and value[0] in ("'", '"'):
+                        value = value[1:-1]
+                    if key and key not in os.environ:
+                        os.environ[key] = value
+        except OSError:
+            continue
+
+
+load_local_env(BASE_DIR / ".env")
+
+USERNAME = os.getenv("IOB_USUARIO", "").strip()
+PASSWORD = os.getenv("IOB_SENHA", "").strip()
 
 DOWNLOAD_DIR = r"C:\Users\Usuario\Downloads\RECIBOS_SPED"
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
 
 LOG_FILE = os.path.join(DOWNLOAD_DIR, "log.txt")
 
-LOGIN_URL = (
-    "https://sso.iob.com.br/signin/?response_type=code&scope=&client_id=b89f6d4c-78bb-4995-9ac7-aa5459f5cf6d"
-    "&redirect_uri=https%3A%2F%2Fapp.iob.com.br%2Fcallback%2F%3Fpath%3Dhttps%3A%2F%2Fapp.iob.com.br%2Fapp%2F"
-    "&isSignUpDisable=false&showFAQ=false&isSocialLoginDisable=false&title=Com+um+s%C3%B3+acesso%2C+voc%C3%AA+se+conecta+%C3%A0+tecnologia+e+intelig%C3%AAncia+IOB"
-    "&subtitle=Que+bom+ter+voc%C3%AA+aqui%21"
+LOGIN_URL = os.getenv(
+    "IOB_LOGIN_URL",
+    (
+        "https://sso.iob.com.br/signin/?response_type=code&scope=&client_id=b89f6d4c-78bb-4995-9ac7-aa5459f5cf6d"
+        "&redirect_uri=https%3A%2F%2Fapp.iob.com.br%2Fcallback%2F%3Fpath%3Dhttps%3A%2F%2Fapp.iob.com.br%2Fapp%2F"
+        "&isSignUpDisable=false&showFAQ=false&isSocialLoginDisable=false&title=Com+um+s%C3%B3+acesso%2C+voc%C3%AA+se+conecta+%C3%A0+tecnologia+e+intelig%C3%AAncia+IOB"
+        "&subtitle=Que+bom+ter+voc%C3%AA+aqui%21"
+    ),
 )
 
 CAPTCHA_IFRAME_SEL = "iframe[title*='reCAPTCHA'], iframe[src*='recaptcha'], iframe[src*='hcaptcha']"

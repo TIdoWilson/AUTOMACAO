@@ -3,6 +3,7 @@ import re
 import unicodedata
 from collections import defaultdict
 from datetime import datetime, timedelta
+from pathlib import Path
 
 import pandas as pd
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
@@ -11,9 +12,32 @@ from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeo
 # CONFIGURAÇÕES GERAIS
 # =====================================================
 
+def load_local_env(*paths: Path) -> None:
+    for path in paths:
+        if not path.is_file():
+            continue
+        try:
+            with path.open("r", encoding="utf-8") as handle:
+                for line in handle:
+                    line = line.strip()
+                    if not line or line.startswith("#") or "=" not in line:
+                        continue
+                    key, value = line.split("=", 1)
+                    key = key.strip()
+                    value = value.strip()
+                    if len(value) >= 2 and value[0] == value[-1] and value[0] in ("'", '"'):
+                        value = value[1:-1]
+                    if key and key not in os.environ:
+                        os.environ[key] = value
+        except OSError:
+            continue
+
+
 # Credenciais Tareffa (usuário de robôs)
-TAREFFA_EMAIL = "robos@wilsonlopes.com.br"   # e-mail usado para login no Tareffa
-TAREFFA_SENHA = "Robos@123"                  # senha do usuário de robôs
+BASE_DIR = Path(__file__).resolve().parent
+load_local_env(BASE_DIR / ".env")
+TAREFFA_EMAIL = os.getenv("TAREFFA_EMAIL", "").strip()
+TAREFFA_SENHA = os.getenv("TAREFFA_SENHA", "").strip()
 
 # URL base do Tareffa (ajuste se precisar)
 TAREFFA_URL_BASE = "https://app.tareffa.com.br"

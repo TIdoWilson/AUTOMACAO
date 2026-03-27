@@ -109,6 +109,16 @@ RH/relatorios_pdf/relatorios_pdf.rar
 RH/Senha Tareffa.txt
 /AUTOMATIZAR RECEITA BX/BUSCAR RECIBO
 *.log
+/.env
+*/.env
+**/.env
+LOG_*.txt
+Log - *.txt
+log_*.txt
+*_log.txt
+*_resumo*.txt
+*_estado.txt
+*_debug*.txt
 /Conversor Extrato PDF para OFX/Arquivos de exemplo
 /FAZEDOR DE AEF/logs/runs/20260211_160429_rio_branco/dumps
 /FAZEDOR DE AEF/logs/runs/20260211_160429_rio_branco/html

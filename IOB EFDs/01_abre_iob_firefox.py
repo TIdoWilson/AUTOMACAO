@@ -1,21 +1,28 @@
-import time
 import json
+import os
+import time
 from pathlib import Path
 
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
 
-# URL de login SSO IOB
-IOB_LOGIN_URL = (
-    "https://sso.iob.com.br/signin/?response_type=code"
-    "&scope=&client_id=b89f6d4c-78bb-4995-9ac7-aa5459f5cf6d"
-    "&redirect_uri=https%3A%2F%2Fapp.iob.com.br%2Fcallback%2F%3Fpath%3Dhttps%3A%2F%2Fapp.iob.com.br%2Fapp%2F"
-    "&isSignUpDisable=false&showFAQ=false&isSocialLoginDisable=false"
-)
+from env_loader import load_local_env
+
 
 BASE_DIR = Path(__file__).resolve().parent
 SESSION_FILE = BASE_DIR / "iob_firefox_session.json"
+load_local_env(str(BASE_DIR / ".env"))
+
+IOB_LOGIN_URL = os.getenv(
+    "IOB_LOGIN_URL",
+    (
+        "https://sso.iob.com.br/signin/?response_type=code"
+        "&scope=&client_id=b89f6d4c-78bb-4995-9ac7-aa5459f5cf6d"
+        "&redirect_uri=https%3A%2F%2Fapp.iob.com.br%2Fcallback%2F%3Fpath%3Dhttps%3A%2F%2Fapp.iob.com.br%2Fapp%2F"
+        "&isSignUpDisable=false&showFAQ=false&isSocialLoginDisable=false"
+    ),
+)
 
 # porta fixa para o geckodriver (usada depois para reconectar)
 GECKO_PORT = 4444

@@ -15,8 +15,32 @@ URL = "https://web.tareffa.com.br/empresas"
 # Helpers de espera
 # =====================================
 
-LOGIN_EMAIL = "robos@wilsonlopes.com.br"
-LOGIN_password = "123456"
+def load_local_env(*paths: Path) -> None:
+    for path in paths:
+        if not path.is_file():
+            continue
+        try:
+            with path.open("r", encoding="utf-8") as handle:
+                for line in handle:
+                    line = line.strip()
+                    if not line or line.startswith("#") or "=" not in line:
+                        continue
+                    key, value = line.split("=", 1)
+                    key = key.strip()
+                    value = value.strip()
+                    if len(value) >= 2 and value[0] == value[-1] and value[0] in ("'", '"'):
+                        value = value[1:-1]
+                    if key and key not in os.environ:
+                        os.environ[key] = value
+        except OSError:
+            continue
+
+
+TAREFFA_ENV = Path(__file__).resolve().parent / "Tareffa Balão Azul Detector (Funcionando)" / ".env"
+load_local_env(TAREFFA_ENV)
+
+LOGIN_EMAIL = os.getenv("TAREFFA_EMAIL", "").strip()
+LOGIN_password = os.getenv("TAREFFA_SENHA", "").strip()
 
 def wait_dom(page):
     page.wait_for_load_state("domcontentloaded")
