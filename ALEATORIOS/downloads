@@ -1,0 +1,591 @@
+#!/usr/bin/env python3
+
+import argparse
+import json
+import os
+import re
+import sys
+import time
+from datetime import datetime
+from pathlib import Path
+from typing import Any
+from urllib.error import HTTPError, URLError
+from urllib.parse import urlencode, urlparse
+from urllib.request import Request, urlopen
+
+BASE_URL = "https://magalu-sellers.magalu.com/ps-maas-report/api/v1"
+DEFAULT_USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/146.0.0.0 Safari/537.36"
+)
+READY_STATUSES = {
+    "AVAILABLE",
+    "COMPLETED",
+    "DONE",
+    "FINISHED",
+    "GENERATED",
+    "READY",
+    "SUCCESS",
+}
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description=(
+            "Lista relatorios do Magalu Seller, salva o JSON bruto e processa "
+            "os downloads disponiveis."
+        )
+    )
+    parser.add_argument(
+        "--token",
+        default=os.getenv("MAGALU_TOKEN"),
+        help="Bearer token sem o prefixo 'Bearer '. Tambem pode vir de MAGALU_TOKEN.",
+    )
+    parser.add_argument(
+        "--tenant-id",
+        default=os.getenv("MAGALU_TENANT_ID", "aavariedades"),
+        help="Valor do header x-tenant-id. Padrao: aavariedades.",
+    )
+    parser.add_argument(
+        "--per-page",
+        type=int,
+        default=5000,
+        help="Quantidade por pagina na API. Padrao: 5000.",
+    )
+    parser.add_argument(
+        "--start-page",
+        type=int,
+        default=1,
+        help="Pagina inicial. Padrao: 1.",
+    )
+    parser.add_argument(
+        "--max-pages",
+        type=int,
+        default=5,
+        help="Maximo de paginas para percorrer. Padrao: 5.",
+    )
+    parser.add_argument(
+        "--order-by",
+        default="-creation_date",
+        help="Parametro order_by da API. Padrao: -creation_date.",
+    )
+    parser.add_argument(
+        "--output-dir",
+        default="magalu_downloads",
+        help="Pasta onde os JSONs e arquivos serao salvos.",
+    )
+    parser.add_argument(
+        "--input-json",
+        help=(
+            "Usa um JSON ja capturado da listagem de relatorios, sem chamar "
+            "a API /reports."
+        ),
+    )
+    parser.add_argument(
+        "--timeout",
+        type=int,
+        default=60,
+        help="Timeout em segundos para cada requisicao. Padrao: 60.",
+    )
+    parser.add_argument(
+        "--sleep",
+        type=float,
+        default=0.0,
+        help="Pausa entre downloads, em segundos. Padrao: 0.",
+    )
+    parser.add_argument(
+        "--include-not-ready",
+        action="store_true",
+        help="Tenta chamar /download mesmo para relatorios sem status pronto.",
+    )
+    parser.add_argument(
+        "--skip-file-url",
+        action="store_true",
+        help=(
+            "Quando a API de /download devolver um JSON com URL final do arquivo, "
+            "nao faz o download desse arquivo."
+        ),
+    )
+    parser.add_argument(
+        "--save-json-responses",
+        action="store_true",
+        help=(
+            "Salva os JSONs tecnicos das respostas da API. Por padrao, o script "
+            "baixa apenas os arquivos finais."
+        ),
+    )
+    return parser.parse_args()
+
+
+def build_headers(token: str, tenant_id: str) -> dict[str, str]:
+    return {
+        "accept": "application/json",
+        "authorization": f"Bearer {token}",
+        "origin": "https://seller.magalu.com",
+        "referer": "https://seller.magalu.com/",
+        "user-agent": DEFAULT_USER_AGENT,
+        "x-tenant-id": tenant_id,
+    }
+
+
+def http_get(url: str, headers: dict[str, str], timeout: int) -> tuple[bytes, dict[str, str]]:
+    request = Request(url, headers=headers, method="GET")
+    try:
+        with urlopen(request, timeout=timeout) as response:
+            return response.read(), dict(response.info())
+    except HTTPError as exc:
+        body = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"HTTP {exc.code} em {url}: {body}") from exc
+    except URLError as exc:
+        raise RuntimeError(f"Falha ao acessar {url}: {exc}") from exc
+
+
+def http_get_bytes(
+    url: str,
+    timeout: int,
+    headers: dict[str, str] | None = None,
+) -> tuple[bytes, dict[str, str]]:
+    request = Request(url, headers=headers or {}, method="GET")
+    try:
+        with urlopen(request, timeout=timeout) as response:
+            return response.read(), dict(response.info())
+    except HTTPError as exc:
+        body = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"HTTP {exc.code} ao baixar {url}: {body}") from exc
+    except URLError as exc:
+        raise RuntimeError(f"Falha ao baixar {url}: {exc}") from exc
+
+
+def load_json(raw: bytes, source: str) -> Any:
+    try:
+        return json.loads(raw.decode("utf-8"))
+    except json.JSONDecodeError as exc:
+        raise RuntimeError(f"Resposta invalida em {source}: nao era JSON.") from exc
+
+
+def write_json(path: Path, payload: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def write_bytes(path: Path, content: bytes) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(content)
+
+
+def sanitize_name(value: str) -> str:
+    clean = re.sub(r"[\\/:*?\"<>|]+", "_", value.strip())
+    clean = re.sub(r"\s+", " ", clean)
+    return clean[:180] or "arquivo"
+
+
+def extract_reports_list(payload: Any) -> list[dict[str, Any]]:
+    def looks_like_report(item: Any) -> bool:
+        if not isinstance(item, dict):
+            return False
+        known_keys = {"id", "report_id", "status", "creation_date", "name", "title"}
+        return any(key in item for key in known_keys)
+
+    def walk(node: Any) -> list[dict[str, Any]] | None:
+        if isinstance(node, list):
+            if node and all(isinstance(item, dict) for item in node):
+                score = sum(1 for item in node if looks_like_report(item))
+                if score >= max(1, len(node) // 3):
+                    return node
+            for item in node:
+                found = walk(item)
+                if found is not None:
+                    return found
+        elif isinstance(node, dict):
+            for key in ("items", "data", "reports", "results", "content"):
+                if key in node:
+                    found = walk(node[key])
+                    if found is not None:
+                        return found
+            for value in node.values():
+                found = walk(value)
+                if found is not None:
+                    return found
+        return None
+
+    found = walk(payload)
+    return found or []
+
+
+def report_id(report: dict[str, Any]) -> str:
+    for key in ("id", "report_id", "_id"):
+        value = report.get(key)
+        if value:
+            return str(value)
+    return ""
+
+
+def report_name(report: dict[str, Any]) -> str:
+    for key in ("name", "title", "report_name", "type"):
+        value = report.get(key)
+        if value:
+            return str(value)
+    return "relatorio"
+
+
+def report_file_extension(report: dict[str, Any]) -> str:
+    value = report.get("file_extension")
+    if not value:
+        return ""
+    ext = str(value).strip().lower()
+    if not ext:
+        return ""
+    if ext.startswith("."):
+        return ext
+    return f".{ext}"
+
+
+def build_report_label(report: dict[str, Any]) -> str:
+    parts: list[str] = []
+
+    type_name = report.get("type")
+    if type_name:
+        parts.append(str(type_name))
+
+    sub_type = report.get("sub_type")
+    if sub_type:
+        parts.append(str(sub_type))
+
+    parameters = report.get("parameters")
+    if isinstance(parameters, dict):
+        start_date = parameters.get("start_date")
+        end_date = parameters.get("end_date")
+        if start_date and end_date:
+            parts.append(f"{start_date}_a_{end_date}")
+        elif start_date:
+            parts.append(str(start_date))
+        elif end_date:
+            parts.append(str(end_date))
+
+    if not parts:
+        parts.append(report_name(report))
+
+    parts.append(report_id(report) or "sem_id")
+    return sanitize_name("_".join(parts))
+
+
+def report_status(report: dict[str, Any]) -> str:
+    for key in ("status", "report_status", "state"):
+        value = report.get(key)
+        if value is not None:
+            return str(value)
+    return ""
+
+
+def is_downloadable(report: dict[str, Any]) -> bool:
+    for key in (
+        "download_available",
+        "available_for_download",
+        "can_download",
+        "ready_for_download",
+    ):
+        value = report.get(key)
+        if isinstance(value, bool):
+            return value
+        if isinstance(value, str):
+            normalized = value.strip().lower()
+            if normalized in {"true", "1", "yes", "sim"}:
+                return True
+            if normalized in {"false", "0", "no", "nao"}:
+                return False
+    return report_status(report).strip().upper() in READY_STATUSES
+
+
+def extract_url(payload: Any) -> str | None:
+    url_keys = {"url", "download_url", "signed_url", "file_url", "href", "link"}
+
+    def walk(node: Any) -> str | None:
+        if isinstance(node, dict):
+            for key, value in node.items():
+                if key.lower() in url_keys and isinstance(value, str) and value.startswith("http"):
+                    return value
+            for value in node.values():
+                found = walk(value)
+                if found:
+                    return found
+        elif isinstance(node, list):
+            for item in node:
+                found = walk(item)
+                if found:
+                    return found
+        return None
+
+    return walk(payload)
+
+
+def extension_from_headers(headers: dict[str, str]) -> str:
+    content_type = headers.get("Content-Type", "").split(";")[0].strip().lower()
+    mapping = {
+        "application/json": ".json",
+        "application/pdf": ".pdf",
+        "application/zip": ".zip",
+        "text/csv": ".csv",
+        "application/csv": ".csv",
+        "application/vnd.ms-excel": ".xls",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": ".xlsx",
+    }
+    return mapping.get(content_type, "")
+
+
+def filename_from_headers(headers: dict[str, str]) -> str | None:
+    content_disposition = headers.get("Content-Disposition", "")
+    if not content_disposition:
+        return None
+
+    match = re.search(r'filename\*?=(?:UTF-8\'\')?"?([^";]+)"?', content_disposition, re.I)
+    if not match:
+        return None
+    return sanitize_name(match.group(1))
+
+
+def build_report_list_url(per_page: int, page: int, order_by: str) -> str:
+    query = urlencode(
+        {
+            "per_page": per_page,
+            "page": page,
+            "order_by": order_by,
+        }
+    )
+    return f"{BASE_URL}/reports?{query}"
+
+
+def fetch_reports(
+    headers: dict[str, str],
+    per_page: int,
+    start_page: int,
+    max_pages: int,
+    order_by: str,
+    timeout: int,
+    output_dir: Path,
+    save_json_responses: bool,
+) -> list[dict[str, Any]]:
+    all_reports: list[dict[str, Any]] = []
+    seen_ids: set[str] = set()
+    raw_dir = output_dir / "pages"
+
+    for page in range(start_page, start_page + max_pages):
+        url = build_report_list_url(per_page=per_page, page=page, order_by=order_by)
+        raw, _response_headers = http_get(url, headers=headers, timeout=timeout)
+        payload = load_json(raw, url)
+        if save_json_responses:
+            write_json(raw_dir / f"reports_page_{page}.json", payload)
+
+        page_reports = extract_reports_list(payload)
+        if not page_reports:
+            print(f"[pagina {page}] nenhuma lista de relatorios foi encontrada.")
+            break
+
+        new_items = 0
+        for report in page_reports:
+            rid = report_id(report)
+            if rid and rid in seen_ids:
+                continue
+            if rid:
+                seen_ids.add(rid)
+            all_reports.append(report)
+            new_items += 1
+
+        print(
+            f"[pagina {page}] {len(page_reports)} relatorios recebidos, "
+            f"{new_items} novos apos remover duplicados."
+        )
+
+        if len(page_reports) < per_page:
+            break
+
+    return all_reports
+
+
+def load_reports_from_json(input_json: str) -> list[dict[str, Any]]:
+    source_path = Path(input_json)
+    payload = json.loads(source_path.read_text(encoding="utf-8-sig"))
+
+    reports = extract_reports_list(payload)
+    print(f"[arquivo] {len(reports)} relatorios carregados de {source_path}")
+    return reports
+
+
+def choose_download_headers(url: str, api_headers: dict[str, str]) -> dict[str, str]:
+    host = urlparse(url).netloc.lower()
+    if "magalu-sellers.magalu.com" in host:
+        return api_headers
+    return {"user-agent": DEFAULT_USER_AGENT}
+
+
+def process_report_download(
+    report: dict[str, Any],
+    headers: dict[str, str],
+    timeout: int,
+    output_dir: Path,
+    skip_file_url: bool,
+    save_json_responses: bool,
+) -> dict[str, Any]:
+    rid = report_id(report)
+    name = build_report_label(report)
+    status = report_status(report)
+    download_endpoint = f"{BASE_URL}/reports/{rid}/download"
+
+    result: dict[str, Any] = {
+        "id": rid,
+        "name": report_name(report),
+        "status": status,
+        "download_endpoint": download_endpoint,
+    }
+
+    raw, response_headers = http_get(download_endpoint, headers=headers, timeout=timeout)
+    content_type = response_headers.get("Content-Type", "").lower()
+    target_dir = output_dir / "downloads"
+
+    if "application/json" in content_type:
+        payload = load_json(raw, download_endpoint)
+        if save_json_responses:
+            json_path = target_dir / f"{name}_download.json"
+            write_json(json_path, payload)
+            result["download_response_json"] = str(json_path)
+
+        file_url = extract_url(payload)
+        if file_url:
+            result["file_url"] = file_url
+            if not skip_file_url:
+                file_bytes, file_headers = http_get_bytes(
+                    file_url,
+                    timeout=timeout,
+                    headers=choose_download_headers(file_url, headers),
+                )
+                filename = filename_from_headers(file_headers)
+                if not filename:
+                    filename = name + extension_from_headers(file_headers)
+                if "." not in Path(filename).name:
+                    filename += report_file_extension(report)
+                final_path = output_dir / "files" / filename
+                write_bytes(final_path, file_bytes)
+                result["file_saved_as"] = str(final_path)
+            else:
+                result["skipped"] = "download da URL final desabilitado"
+        else:
+            result["error"] = "A resposta JSON do /download nao trouxe URL de arquivo."
+        return result
+
+    filename = filename_from_headers(response_headers)
+    if not filename:
+        filename = name + extension_from_headers(response_headers)
+    if "." not in Path(filename).name:
+        filename += report_file_extension(report)
+    binary_path = target_dir / filename
+    write_bytes(binary_path, raw)
+    result["download_response_file"] = str(binary_path)
+    return result
+
+
+def main() -> int:
+    args = parse_args()
+
+    if not args.token:
+        print(
+            "Informe o token em --token ou na variavel de ambiente MAGALU_TOKEN.",
+            file=sys.stderr,
+        )
+        return 1
+
+    started_at = datetime.now().strftime("%Y%m%d_%H%M%S")
+    output_dir = Path(args.output_dir) / started_at
+    headers = build_headers(token=args.token, tenant_id=args.tenant_id)
+
+    if args.input_json:
+        reports = load_reports_from_json(args.input_json)
+    else:
+        reports = fetch_reports(
+            headers=headers,
+            per_page=args.per_page,
+            start_page=args.start_page,
+            max_pages=args.max_pages,
+            order_by=args.order_by,
+            timeout=args.timeout,
+            output_dir=output_dir,
+            save_json_responses=args.save_json_responses,
+        )
+
+    if not reports:
+        print("Nenhum relatorio encontrado.")
+        return 0
+
+    manifest: dict[str, Any] = {
+        "generated_at": datetime.now().isoformat(),
+        "tenant_id": args.tenant_id,
+        "total_reports": len(reports),
+        "reports": [],
+    }
+
+    ready_reports = [report for report in reports if is_downloadable(report)]
+    pending_reports = len(reports) - len(ready_reports)
+
+    print(f"Total encontrado: {len(reports)} relatorios.")
+    print(f"Prontos para download: {len(ready_reports)}.")
+    if pending_reports:
+        print(f"Sem download pronto: {pending_reports}.")
+
+    for index, report in enumerate(reports, start=1):
+        rid = report_id(report)
+        status = report_status(report) or "SEM_STATUS"
+
+        if not rid:
+            manifest["reports"].append(
+                {
+                    "id": None,
+                    "name": report_name(report),
+                    "status": status,
+                    "skipped": "relatorio sem id",
+                }
+            )
+            continue
+
+        if not args.include_not_ready and not is_downloadable(report):
+            manifest["reports"].append(
+                {
+                    "id": rid,
+                    "name": report_name(report),
+                    "status": status,
+                    "skipped": "download nao disponivel",
+                }
+            )
+            continue
+
+        print(f"[{index}/{len(reports)}] processando {rid} ({status})...")
+
+        try:
+            item_result = process_report_download(
+                report=report,
+                headers=headers,
+                timeout=args.timeout,
+                output_dir=output_dir,
+                skip_file_url=args.skip_file_url,
+                save_json_responses=args.save_json_responses,
+            )
+            manifest["reports"].append(item_result)
+        except Exception as exc:  # noqa: BLE001
+            manifest["reports"].append(
+                {
+                    "id": rid,
+                    "name": report_name(report),
+                    "status": status,
+                    "error": str(exc),
+                }
+            )
+            print(f"  erro em {rid}: {exc}", file=sys.stderr)
+
+        if args.sleep > 0:
+            time.sleep(args.sleep)
+
+    write_json(output_dir / "manifest.json", manifest)
+    print(f"Arquivos salvos em: {output_dir}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
