@@ -32,23 +32,19 @@ ECAC_URLS = [
 
 # ========== FUNÇÕES DE COMPORTAMENTO HUMANO ==========
 def esperar(min_s=0.5, max_s=1.5):
-    """Espera aleatória entre min_s e max_s segundos."""
     time.sleep(random.uniform(min_s, max_s))
 
 
 def mover_mouse_aleatorio(driver):
-    """Move o mouse para uma posição aleatória dentro da janela."""
     largura = driver.execute_script("return window.innerWidth;")
     altura = driver.execute_script("return window.innerHeight;")
     x = random.randint(100, largura - 100)
     y = random.randint(100, altura - 100)
     ActionChains(driver).move_by_offset(x, y).perform()
-    # Move de volta para o canto (opcional)
     ActionChains(driver).move_by_offset(-x, -y).perform()
 
 
 def rolar_aleatorio(driver):
-    """Rola a página para cima/baixo de forma aleatória."""
     altura = driver.execute_script("return document.body.scrollHeight")
     if altura > 0:
         pos = random.randint(0, altura)
@@ -57,25 +53,17 @@ def rolar_aleatorio(driver):
 
 
 def clicar_humano(elemento, driver, mover_antes=True):
-    """
-    Clica em um elemento simulando movimento humano:
-    - Move o mouse até o elemento com aceleração aleatória.
-    - Aguarda um pequeno intervalo.
-    - Clica.
-    """
     actions = ActionChains(driver)
     if mover_antes:
-        # Move o mouse para o centro do elemento com um offset aleatório
         actions.move_to_element(elemento).perform()
         esperar(0.1, 0.3)
     actions.click(elemento).perform()
 
 
 def digitar_como_humano(campo, texto):
-    """Digita o texto caractere por caractere com pausas aleatórias (mais lento)."""
     for caractere in texto:
         campo.send_keys(caractere)
-        time.sleep(random.uniform(0.05, 0.12))  # pausa mais longa entre caracteres
+        time.sleep(random.uniform(0.05, 0.12))
 # =========================================
 
 
@@ -85,7 +73,7 @@ def carregar_cnpjs():
     if CNPJ_FILE_PATH and os.path.exists(CNPJ_FILE_PATH):
         with open(CNPJ_FILE_PATH, "r", encoding="utf-8") as arquivo:
             return [linha.strip() for linha in arquivo if linha.strip()]
-    return ["12345678000199"]  # exemplo
+    return ["12345678000199"]
 
 
 def abrir_fluxo_ecac(driver):
@@ -114,7 +102,6 @@ def abrir_fluxo_ecac(driver):
 
 
 def executar_login_automatico(driver, wait):
-    # Pequeno movimento antes de clicar no botão Gov BR
     mover_mouse_aleatorio(driver)
     esperar(0.5, 1.0)
 
@@ -148,7 +135,6 @@ def aguardar_login_manual(wait):
 
 
 def abrir_modal_perfil(driver, wait):
-    # Scroll aleatório antes de clicar
     rolar_aleatorio(driver)
     esperar(0.5, 1.2)
 
@@ -159,25 +145,21 @@ def abrir_modal_perfil(driver, wait):
 
 
 def preencher_cnpj_e_alterar(driver, wait, cnpj):
-    """Preenche o CNPJ lentamente, aguarda 15s com deleção e redigitação dos últimos 3 caracteres, depois confirma com Enter."""
     cnpj_input = wait.until(EC.presence_of_element_located((By.ID, "txtNIPapel2")))
     cnpj_input.clear()
-    esperar(0.3, 0.8)                     # pausa antes de começar a digitar
-    digitar_como_humano(cnpj_input, cnpj)  # digitação lenta
+    esperar(0.3, 0.8)
+    digitar_como_humano(cnpj_input, cnpj)
     print(f"✅ CNPJ {cnpj} preenchido")
 
     total_tempo_espera = 15.0
-    # Parte 1: espera inicial de 2 segundos
     espera_inicial = random.uniform(1.5, 2.5)
     print(f"⏳ Aguardando {espera_inicial:.1f}s antes de deletar os últimos 3 caracteres...")
     time.sleep(espera_inicial)
 
-    # Deleta os últimos 3 caracteres
     for _ in range(3):
         cnpj_input.send_keys(Keys.BACKSPACE)
     print("🗑️ Últimos 3 caracteres deletados")
 
-    # Redigita os últimos 3 caracteres lentamente
     ultimos_tres = cnpj[-3:]
     print(f"✍️ Redigitando '{ultimos_tres}' lentamente...")
     for caractere in ultimos_tres:
@@ -185,28 +167,26 @@ def preencher_cnpj_e_alterar(driver, wait, cnpj):
         time.sleep(random.uniform(0.05, 0.12))
     print("✅ Últimos 3 caracteres redigitados")
 
-    # Calcula tempo restante
-    tempo_passado = espera_inicial + (3 * 0.08)  # aprox tempo da deleção+redigitação
+    tempo_passado = espera_inicial + (3 * 0.08)
     tempo_restante = max(0.5, total_tempo_espera - tempo_passado)
     print(f"⏳ Aguardando mais {tempo_restante:.1f}s para completar os 15 segundos...")
     time.sleep(tempo_restante)
 
-    # Pressiona Enter
     cnpj_input.send_keys(Keys.ENTER)
     print("✅ Enter pressionado (confirmação)")
 
 
 def resolver_hcaptcha_perfil(driver, timeout):
-    """Resolve o hCaptcha utilizando o módulo importado."""
     if not resolver_hcaptcha(driver, timeout=timeout):
         print("⚠️ Captcha não resolvido via iframe – verifique se o captcha foi resolvido manualmente.")
+        return False
     else:
         print("✅ Captcha resolvido")
-    esperar(2, 3)
+        esperar(2, 3)
+        return True
 
 
 def navegar_ate_emissao_parcela(driver, wait):
-    # Scroll aleatório antes de cada clique
     rolar_aleatorio(driver)
     esperar(0.5, 1.2)
 
@@ -230,7 +210,6 @@ def navegar_ate_emissao_parcela(driver, wait):
 
 
 def retornar_para_tela_perfil(driver):
-    # Retorna três níveis com pausas aleatórias
     driver.back()
     esperar(1, 2)
     driver.back()
@@ -241,11 +220,39 @@ def retornar_para_tela_perfil(driver):
 
 def processar_cnpj(driver, wait, cnpj, index, total):
     print(f"\n===== ({index}/{total}) Processando CNPJ: {cnpj} =====")
-    preencher_cnpj_e_alterar(driver, wait, cnpj)
-    resolver_hcaptcha_perfil(driver, timeout=20)
-    navegar_ate_emissao_parcela(driver, wait)
-    resolver_hcaptcha_perfil(driver, timeout=25)
-    print(f"✅ Fluxo atingiu a etapa 'Emissão de Parcela' para {cnpj}.")
+    max_retries = 3
+    for tentativa in range(1, max_retries + 1):
+        if tentativa > 1:
+            print(f"🔄 Recarregando página e tentando novamente (tentativa {tentativa})...")
+            driver.refresh()
+            esperar(3, 5)
+            # Re-abrir modal de perfil após reload
+            abrir_modal_perfil(driver, wait)
+
+        try:
+            preencher_cnpj_e_alterar(driver, wait, cnpj)
+            if resolver_hcaptcha_perfil(driver, timeout=20):
+                # Captcha resolvido, então sai do loop de tentativas
+                break
+            else:
+                # Captcha não resolvido, continua para próxima tentativa
+                print(f"⚠️ Captcha não resolvido na tentativa {tentativa}. Tentando novamente...")
+                continue
+        except Exception as e:
+            print(f"⚠️ Falha na tentativa {tentativa}: {e}")
+            if tentativa == max_retries:
+                print(f"❌ Não foi possível alterar o perfil para CNPJ {cnpj} após {max_retries} tentativas. Pulando...")
+                return
+            continue
+
+    # Se chegou aqui, conseguiu alterar o perfil, agora navega até emissão
+    try:
+        navegar_ate_emissao_parcela(driver, wait)
+        resolver_hcaptcha_perfil(driver, timeout=25)
+        print(f"✅ Fluxo atingiu a etapa 'Emissão de Parcela' para {cnpj}.")
+    except Exception as e:
+        print(f"⚠️ Falha durante a navegação para emissão de parcela: {e}. Continuando para próximo CNPJ.")
+
     retornar_para_tela_perfil(driver)
 
 
