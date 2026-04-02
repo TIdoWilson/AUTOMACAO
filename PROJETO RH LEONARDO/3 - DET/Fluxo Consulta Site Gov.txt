@@ -1,7 +1,0 @@
-Acessa https://servicos.mte.gov.br/empregador/#/selecao-empresa-vinculada
-espera  usuário logar e confirmar o login
-prenche o nome da empresa no excel "W:\DOCUMENTOS ESCRITORIO\INSTALACAO SISTEMA\python\PROJETO RH LEONARDO\3 - DET\Empresas\Empresas Lista.slk" um de cada vez
-acessa https://servicos.mte.gov.br/empregador/#/credito-do-trabalhador/arquivo-emprestimo
-prenche o ano atual, o mês atual e baixa o csv v1.4
-volta para https://servicos.mte.gov.br/empregador/#/selecao-empresa-vinculada 
-prenche o próximo nome de empresa e repete o processo até acabar a lista

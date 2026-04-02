@@ -10,7 +10,7 @@ from urllib.parse import quote
 from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeoutError
 
 # Mantém as dependências do relatório original
-from decimal import Decimal, InvalidOperation
+from decimal import Decimal, InvalidOperation, ROUND_HALF_UP
 from xml.etree import ElementTree as ET
 import pandas as pd
 from openpyxl import load_workbook
@@ -45,6 +45,8 @@ SOBRESCREVER_ARQUIVOS = False
 HEADLESS = False
 TIMEOUT_MS = 60_000
 TIMEOUT_LOGIN_MS = 10 * 60_000  # 10 min
+TIMEOUT_SEM_NOTAS_MS = 10_000
+LIMITE_ULTIMA_PAGINA = 14
 
 
 # ===================== UTILITÁRIOS =====================
@@ -80,7 +82,7 @@ def build_list_url(base: str, pg: int, executar, data_inicio: str, data_fim: str
     Monta a URL do portal com:
       pg, executar (pode repetir), busca, datainicio, datafim
 
-    - 'executar' pode ser str ou lista[str]. Se lista, repete o parâmetro:
+    - 'executar' pode ser str ou lista[str]. Se lista, repete o parÃ¢metro:
         executar=["1","1"]  -> ...&executar=1&executar=1
     - Mantém vírgula em valores (ex.: '1,1')
     - Escapa '/' nas datas (vira %2F)
@@ -115,10 +117,17 @@ def build_list_url(base: str, pg: int, executar, data_inicio: str, data_fim: str
     )
 
 
-async def wait_table_or_empty(page):
-    """Espera a tabela carregar (linhas ou estado vazio)."""
-    await page.wait_for_selector("table.table", timeout=TIMEOUT_MS)
-    await page.wait_for_selector("table.table tbody", timeout=TIMEOUT_MS)
+async def wait_table_or_empty(page) -> bool:
+    """Espera a tabela carregar (linhas ou estado vazio).
+
+    Retorna False quando a tabela nao aparece dentro do timeout curto,
+    para que a paginação encerre sem estourar erro.
+    """
+    try:
+        await page.wait_for_selector("table.table", timeout=TIMEOUT_SEM_NOTAS_MS)
+        await page.wait_for_selector("table.table tbody", timeout=TIMEOUT_SEM_NOTAS_MS)
+    except PlaywrightTimeoutError:
+        return False
 
     # Aguarda o corpo popular (linhas) ou algum sinal de conteúdo.
     # Não usamos `networkidle` porque o site pode manter requisições em background.
@@ -131,11 +140,13 @@ async def wait_table_or_empty(page):
                 const hasDownload = tbody.querySelector("a[href*='/Notas/Download/']") !== null;
                 return hasRow || hasDownload;
             }""",
-            timeout=3_000,
+            timeout=TIMEOUT_SEM_NOTAS_MS,
         )
     except PlaywrightTimeoutError:
         # Se não detectar, segue com o que já carregou
         pass
+
+    return True
 
 
 async def get_last_page_number(page) -> int:
@@ -216,7 +227,7 @@ async def baixar_binario(request, url: str, out_path: str, sem: asyncio.Semaphor
                 return True
             except Exception as e:
                 if tent == max_retries:
-                    print(f"❌ Falhou ({tent}/{max_retries}): {url} -> {e}")
+                    print(f"[ERRO] Falhou ({tent}/{max_retries}): {url} -> {e}")
                     return False
                 await asyncio.sleep(0.6 * tent)
     return False
@@ -227,7 +238,8 @@ async def processa_pagina_download(page, request, pasta_destino: str, prefixo: s
     Baixa todos os XMLs/PDFs da página atual (sem filtrar por data — o filtro já vem na URL).
     Retorna o número de downloads disparados.
     """
-    await wait_table_or_empty(page)
+    if not await wait_table_or_empty(page):
+        return 0
 
     rows = page.locator("table.table tbody tr")
     n = await rows.count()
@@ -304,22 +316,17 @@ async def baixar_todas_paginas(page, request, base_url: str, executar: str, past
 
         await page.goto(url, wait_until="domcontentloaded", timeout=TIMEOUT_MS)
 
-        try:
-            await wait_table_or_empty(page)
-        except PlaywrightTimeoutError:
-            print("❌ Timeout ao carregar a tabela.")
-            break
-
-        rows = page.locator("table.table tbody tr")
-        if await rows.count() == 0:
-            print("✔ Lista vazia. Encerrando paginação.")
-            break
-
         qtd = await processa_pagina_download(page, request, pasta_destino, prefixo=prefixo, sem=sem)
-        print(f"✔ Downloads disparados nesta página: {qtd}")
+        rows = page.locator("table.table tbody tr")
+        n = await rows.count()
+        print(f"✔ Notas nesta página: {n} | arquivos baixados: {qtd}")
 
-        if qtd == 0:
-            print("✔ Nenhuma nota detectada nesta página (sem links de download). Encerrando paginação.")
+        if n == 0:
+            print("✔ Lista vazia após aguardar 10 segundos. Encerrando paginação.")
+            break
+
+        if n <= LIMITE_ULTIMA_PAGINA:
+            print(f"✔ Página com {n} notas. Considerando como última página e encerrando paginação.")
             break
 
         pg += 1
@@ -339,6 +346,70 @@ def to_decimal(s: str) -> Decimal:
         return Decimal(s)
     except InvalidOperation:
         return Decimal("0")
+
+
+def format_decimal(value: Decimal) -> str:
+    return format(value.quantize(Decimal("0.01"), rounding=ROUND_HALF_UP), "f")
+
+
+def replace_or_insert_tag(text: str, tag: str, value: str, anchors: tuple[str, ...]) -> tuple[str, bool]:
+    pattern = rf"<{tag}>.*?</{tag}>"
+    if re.search(pattern, text, flags=re.S):
+        new_text, count = re.subn(pattern, f"<{tag}>{value}</{tag}>", text, count=1, flags=re.S)
+        return new_text, count > 0
+
+    for anchor in anchors:
+        if anchor in text:
+            return text.replace(anchor, anchor + f"<{tag}>{value}</{tag}>", 1), True
+    return text, False
+
+
+def corrigir_xmls_retencoes(target_dir: Path) -> int:
+    """
+    Corrige os XMLs no formato novo antes da geração do relatório.
+    Quando encontrar tpRetPisCofins=3 com CSLL consolidado, recalcula
+    PIS, COFINS e CSLL no formato esperado pelo ERP.
+    """
+    ajustados = 0
+    for fp in sorted(target_dir.glob("*.xml")):
+        try:
+            original = fp.read_text(encoding="utf-8")
+        except Exception as e:
+            print(f"[AVISO] Não consegui ler '{fp.name}' para correção: {e}")
+            continue
+
+        if "<tpRetPisCofins>3</tpRetPisCofins>" not in original:
+            continue
+
+        m_base = re.search(r"<vBCPisCofins>(.*?)</vBCPisCofins>", original, flags=re.S)
+        if m_base:
+            base = to_decimal(m_base.group(1))
+        else:
+            m_vserv = re.search(r"<vServ>(.*?)</vServ>", original, flags=re.S)
+            base = to_decimal(m_vserv.group(1)) if m_vserv else Decimal("0")
+
+        m_csll = re.search(r"<vRetCSLL>(.*?)</vRetCSLL>", original, flags=re.S)
+        if not m_csll:
+            continue
+
+        current_csll = to_decimal(m_csll.group(1))
+        if base <= 0 or current_csll <= 0:
+            continue
+
+        pis = format_decimal(base * Decimal("0.0065"))
+        cofins = format_decimal(base * Decimal("0.03"))
+        csll = format_decimal(base * Decimal("0.01"))
+
+        text, _ = replace_or_insert_tag(original, "vPis", pis, ("</CST>", "</vBCPisCofins>"))
+        text, _ = replace_or_insert_tag(text, "vCofins", cofins, ("</vPis>", "</CST>", "</vBCPisCofins>"))
+        text, _ = replace_or_insert_tag(text, "tpRetPisCofins", "1", ("</vCofins>", "</piscofins>"))
+        text, _ = replace_or_insert_tag(text, "vRetCSLL", csll, ("</vRetIRRF>", "</tribFed>"))
+
+        if text != original:
+            fp.write_text(text, encoding="utf-8", newline="")
+            ajustados += 1
+
+    return ajustados
 
 def get_text(root: ET.Element, path: str):
     el = root.find(path, NS)
@@ -396,9 +467,6 @@ def parse_xml(fp: Path) -> dict | None:
     inss = to_decimal(get_text(root, ".//n:DPS/n:infDPS/n:valores/n:trib/n:tribFed/n:vRetCP") or "0")
     issqn = to_decimal(get_text(root, ".//n:DPS/n:infDPS/n:valores/n:trib/n:tribMun/n:tpRetISSQN") or "0")
 
-    # por compatibilidade, mantemos um líquido "calculado"
-    v_liq_calc = v_serv - (irrf + pis + cofins + csll + inss + issqn)
-
     # identificar notas canceladas/substituídas pelo nome do arquivo
     stem_l = fp.stem.lower()  # nome sem extensão
     situacao = ""
@@ -417,7 +485,6 @@ def parse_xml(fp: Path) -> dict | None:
         inss = Decimal("0")
         issqn = Decimal("0")
         v_liq_xml = Decimal("0")
-        v_liq_calc = Decimal("0")
 
     return {
         "numero_nfse": n_nfse,
@@ -463,6 +530,10 @@ def gerar_relatorio(target_dir: Path):
     if not target_dir.exists() or not target_dir.is_dir():
         print(f"[ERRO] Pasta não encontrada para gerar relatório: {target_dir}")
         return
+
+    ajustados = corrigir_xmls_retencoes(target_dir)
+    if ajustados:
+        print(f"[OK] XMLs corrigidos antes do relatório: {ajustados}")
 
     xml_files = [p for p in target_dir.iterdir() if p.is_file() and p.suffix.lower() == ".xml"]
     if not xml_files:

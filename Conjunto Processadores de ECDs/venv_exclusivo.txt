@@ -1,2 +1,0 @@
-﻿VENV: W:\python\Venvs Exclusivos Servidor\conjunto_processadores_ecd
-SCRIPT: Conjunto Processadores de ECDs

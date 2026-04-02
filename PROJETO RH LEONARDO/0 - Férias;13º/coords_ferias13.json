@@ -1,9 +1,0 @@
-﻿{
-  "field_processamento": { "x": 580, "y": 200 },
-  "field_mes_ano": { "x": 580, "y": 220 },
-  "field_gerar_por": { "x": 580, "y": 240 },
-  "field_grupo": { "x": 580, "y": 260 },
-  "col_calc_prov_ferias": { "x": 917, "y": 321 },
-  "col_calc_prov_13": { "x": 1010, "y": 320 },
-  "btn_processar": { "x": 1420, "y": 200 }
-}

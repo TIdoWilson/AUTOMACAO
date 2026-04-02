@@ -1,4 +1,4 @@
-﻿import os
+import os
 import re
 import sys
 import asyncio
@@ -9,20 +9,20 @@ from urllib.parse import quote
 
 from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeoutError
 
-# MantÃ©m as dependÃªncias do relatÃ³rio original
-from decimal import Decimal, InvalidOperation
+# Mantém as dependências do relatório original
+from decimal import Decimal, InvalidOperation, ROUND_HALF_UP
 from xml.etree import ElementTree as ET
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
 
 
-# ===================== CONFIGURAÃ‡ÃƒO =====================
+# ===================== CONFIGURAÇÃO =====================
 
 # Pasta base para salvar: W:\XML PREFEITURA\<EMPRESA>\<PASTA_PERIODO>\
 BASE_DOWNLOAD_DIR = r"W:\XML PREFEITURA"
 
-# PerÃ­odo (DD/MM/AAAA) â€” sempre do 1Âº ao Ãºltimo dia do mÃªs anterior ao corrente
+# Período (DD/MM/AAAA) — sempre do 1º ao último dia do mês anterior ao corrente
 def periodo_mes_anterior(hoje: Optional[date] = None) -> Tuple[str, str]:
     hoje = hoje or date.today()
     primeiro_dia_mes_atual = hoje.replace(day=1)
@@ -36,22 +36,24 @@ def periodo_mes_anterior(hoje: Optional[date] = None) -> Tuple[str, str]:
 DATA_INICIO: Optional[str] = None
 DATA_FIM: Optional[str] = None
 
-# ConcorrÃªncia de downloads (XML/PDF) por pÃ¡gina
+# Concorrência de downloads (XML/PDF) por página
 MAX_CONCORRENCIA_DOWNLOADS = 15
 
-# Se True, rebaixa arquivo mesmo se jÃ¡ existir
+# Se True, rebaixa arquivo mesmo se já existir
 SOBRESCREVER_ARQUIVOS = False
 
 # Playwright
 HEADLESS = False
 TIMEOUT_MS = 60_000
 TIMEOUT_LOGIN_MS = 10 * 60_000  # 10 min
+TIMEOUT_SEM_NOTAS_MS = 10_000
+LIMITE_ULTIMA_PAGINA = 14
 
 
-# ===================== UTILITÃRIOS =====================
+# ===================== UTILITÁRIOS =====================
 
 def sanitize_folder(name: str) -> str:
-    """Remove caracteres invÃ¡lidos em nomes de pasta no Windows e normaliza espaÃ§os."""
+    """Remove caracteres inválidos em nomes de pasta no Windows e normaliza espaços."""
     name = re.sub(r'[<>:"/\\|?*]+', ' ', name)
     name = re.sub(r'\s+', ' ', name).strip()
     return name if name else "Empresa_Desconhecida"
@@ -63,11 +65,11 @@ def _try_parse_date(s: str) -> datetime:
             return datetime.strptime(s, fmt)
         except ValueError:
             pass
-    raise ValueError(f"Data invÃ¡lida: {s!r} (use DD/MM/AAAA)")
+    raise ValueError(f"Data inválida: {s!r} (use DD/MM/AAAA)")
 
 
 def pasta_periodo(data_inicio: str, data_fim: str) -> str:
-    """Nomeia a pasta do perÃ­odo. Se for o mesmo mÃªs/ano -> 'MM-AAAA', senÃ£o -> 'PERIODO_YYYYMMDD_YYYYMMDD'."""
+    """Nomeia a pasta do período. Se for o mesmo mês/ano -> 'MM-AAAA', senão -> 'PERIODO_YYYYMMDD_YYYYMMDD'."""
     di = _try_parse_date(data_inicio)
     df = _try_parse_date(data_fim)
 
@@ -103,7 +105,7 @@ def build_list_url(base: str, pg: int, executar, data_inicio: str, data_fim: str
 
     - 'executar' pode ser str ou lista[str]. Se lista, repete o parÃ¢metro:
         executar=["1","1"]  -> ...&executar=1&executar=1
-    - MantÃ©m vÃ­rgula em valores (ex.: '1,1')
+    - Mantém vírgula em valores (ex.: '1,1')
     - Escapa '/' nas datas (vira %2F)
     """
     if isinstance(executar, (list, tuple)):
@@ -136,13 +138,20 @@ def build_list_url(base: str, pg: int, executar, data_inicio: str, data_fim: str
     )
 
 
-async def wait_table_or_empty(page):
-    """Espera a tabela carregar (linhas ou estado vazio)."""
-    await page.wait_for_selector("table.table", timeout=TIMEOUT_MS)
-    await page.wait_for_selector("table.table tbody", timeout=TIMEOUT_MS)
+async def wait_table_or_empty(page) -> bool:
+    """Espera a tabela carregar (linhas ou estado vazio).
 
-    # Aguarda o corpo popular (linhas) ou algum sinal de conteÃºdo.
-    # NÃ£o usamos `networkidle` porque o site pode manter requisiÃ§Ãµes em background.
+    Retorna False quando a tabela nao aparece dentro do timeout curto,
+    para que a paginação encerre sem estourar erro.
+    """
+    try:
+        await page.wait_for_selector("table.table", timeout=TIMEOUT_SEM_NOTAS_MS)
+        await page.wait_for_selector("table.table tbody", timeout=TIMEOUT_SEM_NOTAS_MS)
+    except PlaywrightTimeoutError:
+        return False
+
+    # Aguarda o corpo popular (linhas) ou algum sinal de conteúdo.
+    # Não usamos `networkidle` porque o site pode manter requisições em background.
     try:
         await page.wait_for_function(
             """() => {
@@ -152,17 +161,19 @@ async def wait_table_or_empty(page):
                 const hasDownload = tbody.querySelector("a[href*='/Notas/Download/']") !== null;
                 return hasRow || hasDownload;
             }""",
-            timeout=3_000,
+            timeout=TIMEOUT_SEM_NOTAS_MS,
         )
     except PlaywrightTimeoutError:
-        # Se nÃ£o detectar, segue com o que jÃ¡ carregou
+        # Se não detectar, segue com o que já carregou
         pass
+
+    return True
 
 
 async def get_last_page_number(page) -> int:
     """
-    LÃª o mÃ¡ximo nÃºmero de pÃ¡gina no componente de paginaÃ§Ã£o.
-    Se nÃ£o encontrar, assume 1.
+    Lê o máximo número de página no componente de paginação.
+    Se não encontrar, assume 1.
     """
     try:
         texts = await page.eval_on_selector_all(
@@ -180,8 +191,8 @@ async def get_last_page_number(page) -> int:
 
 async def obter_empresa_no_dashboard(page) -> str:
     """
-    LÃª o parÃ¡grafo que contÃ©m 'Nome:' no bloco 'Meus dados' do Dashboard
-    e retorna o texto apÃ³s 'Nome:' (o nome da empresa).
+    Lê o parágrafo que contém 'Nome:' no bloco 'Meus dados' do Dashboard
+    e retorna o texto após 'Nome:' (o nome da empresa).
     """
     candidatos = [
         "section:has-text('Meus dados') p:has-text('Nome')",
@@ -202,7 +213,7 @@ async def obter_empresa_no_dashboard(page) -> str:
             pass
 
     # Fallbacks
-    for label in ["RazÃ£o Social", "Razao Social", "Empresa"]:
+    for label in ["Razão Social", "Razao Social", "Empresa"]:
         try:
             p = page.locator(f"p:has-text('{label}')").first
             if await p.count() > 0:
@@ -219,7 +230,7 @@ async def obter_empresa_no_dashboard(page) -> str:
 # ===================== DOWNLOAD CONCORRENTE =====================
 
 async def baixar_binario(request, url: str, out_path: str, sem: asyncio.Semaphore, max_retries: int = 3) -> bool:
-    """Baixa um arquivo via request.get (mesma sessÃ£o/cookies do navegador) com retries e limite de concorrÃªncia."""
+    """Baixa um arquivo via request.get (mesma sessão/cookies do navegador) com retries e limite de concorrência."""
     if (not SOBRESCREVER_ARQUIVOS) and os.path.exists(out_path):
         return True
 
@@ -237,7 +248,7 @@ async def baixar_binario(request, url: str, out_path: str, sem: asyncio.Semaphor
                 return True
             except Exception as e:
                 if tent == max_retries:
-                    print(f"âŒ Falhou ({tent}/{max_retries}): {url} -> {e}")
+                    print(f"[ERRO] Falhou ({tent}/{max_retries}): {url} -> {e}")
                     return False
                 await asyncio.sleep(0.6 * tent)
     return False
@@ -245,10 +256,11 @@ async def baixar_binario(request, url: str, out_path: str, sem: asyncio.Semaphor
 
 async def processa_pagina_download(page, request, pasta_destino: str, prefixo: str, sem: asyncio.Semaphore) -> int:
     """
-    Baixa todos os XMLs/PDFs da pÃ¡gina atual (sem filtrar por data â€” o filtro jÃ¡ vem na URL).
-    Retorna o nÃºmero de downloads disparados.
+    Baixa todos os XMLs/PDFs da página atual (sem filtrar por data — o filtro já vem na URL).
+    Retorna o número de downloads disparados.
     """
-    await wait_table_or_empty(page)
+    if not await wait_table_or_empty(page):
+        return 0
 
     rows = page.locator("table.table tbody tr")
     n = await rows.count()
@@ -261,7 +273,7 @@ async def processa_pagina_download(page, request, pasta_destino: str, prefixo: s
     for i in range(n):
         row = rows.nth(i)
 
-        # SituaÃ§Ã£o (cancelada / substituida) pelo tooltip do Ã­cone na coluna de situaÃ§Ã£o
+        # Situação (cancelada / substituida) pelo tooltip do ícone na coluna de situação
         status_suf = ""
         try:
             img = row.locator("td.td-situacao img").first
@@ -314,33 +326,28 @@ async def processa_pagina_download(page, request, pasta_destino: str, prefixo: s
 async def baixar_todas_paginas(page, request, base_url: str, executar: str, pasta_destino: str, prefixo: str):
     """
     Percorre pg=1..N alterando a URL (sem clicar em 'fa-angle-right'),
-    baixa tudo de cada pÃ¡gina e para quando a pÃ¡gina nÃ£o tiver nenhuma nota (sem links de download).
+    baixa tudo de cada página e para quando a página não tiver nenhuma nota (sem links de download).
     """
     sem = asyncio.Semaphore(MAX_CONCORRENCIA_DOWNLOADS)
     pg = 1
     while True:
         url = build_list_url(base_url, pg, executar, DATA_INICIO, DATA_FIM, busca="")
-        print(f"\n--- {prefixo} | PÃGINA {pg} ---")
+        print(f"\n--- {prefixo} | PÁGINA {pg} ---")
         print(url)
 
         await page.goto(url, wait_until="domcontentloaded", timeout=TIMEOUT_MS)
 
-        try:
-            await wait_table_or_empty(page)
-        except PlaywrightTimeoutError:
-            print("âŒ Timeout ao carregar a tabela.")
-            break
-
-        rows = page.locator("table.table tbody tr")
-        if await rows.count() == 0:
-            print("âœ” Lista vazia. Encerrando paginaÃ§Ã£o.")
-            break
-
         qtd = await processa_pagina_download(page, request, pasta_destino, prefixo=prefixo, sem=sem)
-        print(f"âœ” Downloads disparados nesta pÃ¡gina: {qtd}")
+        rows = page.locator("table.table tbody tr")
+        n = await rows.count()
+        print(f"✔ Notas nesta página: {n} | arquivos baixados: {qtd}")
 
-        if qtd == 0:
-            print("âœ” Nenhuma nota detectada nesta pÃ¡gina (sem links de download). Encerrando paginaÃ§Ã£o.")
+        if n == 0:
+            print("✔ Lista vazia após aguardar 10 segundos. Encerrando paginação.")
+            break
+
+        if n <= LIMITE_ULTIMA_PAGINA:
+            print(f"✔ Página com {n} notas. Considerando como última página e encerrando paginação.")
             break
 
         pg += 1
@@ -436,6 +443,16 @@ def decimal_or_zero(value: str) -> float:
         return 0.0
 
 
+def recalcular_retencoes_por_base(v_serv: float, pis: float, cofins: float, csll: float) -> tuple[float, float, float]:
+    """Quando o XML novo só traz CSLL consolidado, recalcula as retenções pela base da nota."""
+    if csll > 0:
+        base = Decimal(str(v_serv))
+        pis = float((base * Decimal("0.0065")).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP))
+        cofins = float((base * Decimal("0.03")).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP))
+        csll = float((base * Decimal("0.01")).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP))
+    return pis, cofins, csll
+
+
 def parse_date(value: str):
     if not value:
         return ""
@@ -460,12 +477,23 @@ def get_tax_amounts(inf_nfse: ET.Element | None, inf_dps: ET.Element | None) -> 
     issqn_value = decimal_or_zero(descendant_text(nf_values, "vISSQN"))
     issqn_retido = issqn_value if tp_ret_issqn == "2" else 0.0
 
+    valor_total_servicos = decimal_or_zero(descendant_text(dps_values, "vServ"))
+    pis_retido = decimal_or_zero(descendant_text(pis_cofins, "vPis"))
+    cofins_retido = decimal_or_zero(descendant_text(pis_cofins, "vCofins"))
+    csll_retido = decimal_or_zero(descendant_text(trib_fed, "vRetCSLL"))
+    pis_retido, cofins_retido, csll_retido = recalcular_retencoes_por_base(
+        valor_total_servicos,
+        pis_retido,
+        cofins_retido,
+        csll_retido,
+    )
+
     return {
-        "valor_total_servicos": decimal_or_zero(descendant_text(dps_values, "vServ")),
+        "valor_total_servicos": valor_total_servicos,
         "irrf_retido": decimal_or_zero(descendant_text(trib_fed, "vRetIRRF")),
-        "pis_retido": decimal_or_zero(descendant_text(pis_cofins, "vPis")),
-        "cofins_retido": decimal_or_zero(descendant_text(pis_cofins, "vCofins")),
-        "csll_retido": decimal_or_zero(descendant_text(trib_fed, "vRetCSLL")),
+        "pis_retido": pis_retido,
+        "cofins_retido": cofins_retido,
+        "csll_retido": csll_retido,
         "inss_retido": decimal_or_zero(descendant_text(trib_fed, "vRetCP")),
         "issqn_retido": issqn_retido,
         "valor_liquido_servico": decimal_or_zero(descendant_text(nf_values, "vLiq")),
@@ -651,8 +679,8 @@ async def main():
 
         await browser.close()
 
-    # RelatÃ³rio (usa os XMLs do perÃ­odo recÃ©m baixado)
-    print(f"\nIniciando processamento do relatÃ³rio na pasta: {pasta_destino}")
+    # Relatório (usa os XMLs do período recém baixado)
+    print(f"\nIniciando processamento do relatório na pasta: {pasta_destino}")
     gerar_relatorio(Path(pasta_destino))
 
 
@@ -661,4 +689,3 @@ if __name__ == "__main__":
         asyncio.run(main())
     except KeyboardInterrupt:
         sys.exit(0)
-

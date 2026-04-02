@@ -1,6 +1,0 @@
-PONTO DE RETOMADA
-Pendentes (backup): empresas_pendentes_script_2_backup.csv
-Total pendentes: 123
-Primeira pendente: 1;PLAST'BEL LTDA;2;Informe de Rendimentos
-Ultima pendente: 1182;MYLLA SMS COSMETICOS LIMITADA;1;Informe de Rendimentos
-Ultimo erro: 2026-01-28 08:04:24;660;1;CAP - COM. DE ASFALTO E PETROLEO LTDA;Não há dados para listar.
