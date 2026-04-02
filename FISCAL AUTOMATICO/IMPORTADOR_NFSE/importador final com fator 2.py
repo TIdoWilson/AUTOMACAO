@@ -27,6 +27,10 @@ except Exception:
     pass
 
 CAMINHO_LOG = r"\\192.0.0.251\arquivos\XML PREFEITURA\log_importacao.txt"
+try:
+    CAMINHO_CHECKPOINT_WATCHDOG = os.path.join(os.path.dirname(os.path.abspath(__file__)), "watchdog_importador_checkpoint.txt")
+except Exception:
+    CAMINHO_CHECKPOINT_WATCHDOG = "watchdog_importador_checkpoint.txt"
 
 # Palavras-chave de UI / títulos
 FISCAL_TITLE_EXATO = "Fiscal"
@@ -122,6 +126,26 @@ def _to_str(x):
     if re.fullmatch(r"\d+\.0", s):
         s = s[:-2]
     return s.strip()
+
+def salvar_checkpoint_watchdog(codigo, estab):
+    """
+    Salva a empresa atual para retomada externa pelo watchdog.
+    """
+    cod = _to_str(codigo)
+    est = _to_str(estab)
+    linha = f"{cod}|{est}|{int(time.time())}"
+    try:
+        with open(CAMINHO_CHECKPOINT_WATCHDOG, "w", encoding="utf-8") as f:
+            f.write(linha + "\n")
+    except Exception as e:
+        print(f"[WATCHDOG][WARN] Falha ao salvar checkpoint: {e}")
+
+def limpar_checkpoint_watchdog():
+    try:
+        if os.path.exists(CAMINHO_CHECKPOINT_WATCHDOG):
+            os.remove(CAMINHO_CHECKPOINT_WATCHDOG)
+    except Exception as e:
+        print(f"[WATCHDOG][WARN] Falha ao limpar checkpoint: {e}")
 
 def carregar_mapa_por_cnpj() -> dict:
     caminho = _primeiro_caminho_existente(CAMINHOS_PLANILHA_POSSIVEIS)
@@ -260,6 +284,35 @@ def uia_activate_fast(ctrl, name_for_log="(controle)") -> bool:
         pass
     return False
 
+
+def uia_activate_sem_mouse(ctrl, name_for_log="(controle)") -> bool:
+    if not ctrl:
+        return False
+    ok = uia_activate(ctrl, name_for_log=name_for_log, prefer_invoke=True)
+    if not ok:
+        ok = uia_activate_fast(ctrl, name_for_log=name_for_log)
+
+    if not ok:
+        try:
+            ctrl.SetFocus()
+            ok = True
+        except Exception:
+            return False
+
+    try:
+        ctype = _tipo(ctrl)
+        if ctype in ("TreeItemControl", "ListItemControl", "MenuItemControl", "TabItemControl"):
+            ctrl.SetFocus()
+            uia.SendKeys("{Enter}")
+            time.sleep(0.1)
+        elif ctype == "ButtonControl":
+            ctrl.SetFocus()
+            uia.SendKeys("{Space}")
+            time.sleep(0.1)
+    except Exception:
+        pass
+    return True
+
 # ===================== UIA Helpers =====================
 def normalize(s):
     try: return (s or "").strip().casefold()
@@ -283,14 +336,14 @@ def wait_until(fn, timeout=20.0, interval=0.25, on_wait=None):
 def bfs_find(root_ctrl, name_substr,
              types=('WindowControl','PaneControl','GroupControl','DocumentControl','ButtonControl','EditControl','MenuItemControl','ListItemControl','TreeItemControl','TabItemControl'),
              max_depth=6):
-    target = normalize(name_substr)
+    target = name_substr or ""
     q = deque([(root_ctrl, 0)])
     while q:
         node, depth = q.popleft()
         if depth > max_depth:
             continue
         try:
-            if target and target in normalize(getattr(node, 'Name', None)):
+            if target and _contains_canon(target, getattr(node, 'Name', None) or ""):
                 if not types or node.ControlTypeName in types:
                     return node
             for child in node.GetChildren():
@@ -342,6 +395,14 @@ def uia_activate(ctrl, name_for_log="(controle)", prefer_invoke=True):
                 return True
         except:
             pass
+        try:
+            lg = ctrl.GetLegacyIAccessiblePattern()
+            if lg:
+                lg.DoDefaultAction()
+                print(f"[OK] LegacyIAccessible.DoDefaultAction -> {name_for_log}")
+                return True
+        except:
+            pass
     except Exception as e:
         print(f"[ERRO] uia_activate({name_for_log}): {e}")
     print(f"[FALHA] Não foi possível ativar {name_for_log} por UIA.")
@@ -353,6 +414,84 @@ def find_first_by_subname(scopes, subname, types, max_depth=6):
         if c:
             return c
     return None
+
+
+def find_best_by_subname(scopes, subname, types, max_depth=6):
+    """Prefere nome exato/canônico para evitar falsos positivos por substring."""
+    target = _canon(subname)
+    candidatos = []
+
+    for scope in scopes:
+        if not scope:
+            continue
+        q = deque([(scope, 0)])
+        while q:
+            node, depth = q.popleft()
+            if depth > max_depth:
+                continue
+            try:
+                name = getattr(node, 'Name', None) or ""
+                ctype = getattr(node, "ControlTypeName", "")
+                if (not types or ctype in types) and _contains_canon(subname, name):
+                    candidatos.append(node)
+                for ch in node.GetChildren():
+                    q.append((ch, depth + 1))
+            except Exception:
+                continue
+
+    if not candidatos:
+        return None
+
+    exatos = [c for c in candidatos if _canon(getattr(c, 'Name', '') or "") == target]
+    if exatos:
+        return exatos[0]
+
+    comeca = [c for c in candidatos if _canon(getattr(c, 'Name', '') or "").startswith(target)]
+    if comeca:
+        return sorted(comeca, key=lambda c: len(_canon(getattr(c, 'Name', '') or "")))[0]
+
+    return sorted(candidatos, key=lambda c: len(_canon(getattr(c, 'Name', '') or "")))[0]
+
+
+class _WindowRectAdapter:
+    """Adapter para manter left/top/width/height sem depender do pygetwindow."""
+    def __init__(self, left, top, width, height, title="Fiscal"):
+        self.left = int(left)
+        self.top = int(top)
+        self.width = int(width)
+        self.height = int(height)
+        self.title = title
+        self.isActive = True
+        self.isMaximized = False
+
+
+def _localizar_fiscal_uia():
+    root = uia.GetRootControl()
+    for w in root.GetChildren():
+        try:
+            if _tipo(w) == "WindowControl" and _contains_canon(FISCAL_TITLE_EXATO, _nome(w)):
+                return w
+        except Exception:
+            continue
+    return None
+
+
+def _focar_fiscal_sem_mouse():
+    fiscal = _localizar_fiscal_uia()
+    if not fiscal:
+        return None
+    try:
+        fiscal.SetFocus()
+    except Exception:
+        pass
+    try:
+        wp = fiscal.GetWindowPattern()
+        if wp:
+            # 3 = Maximized (UIA WindowVisualState_Maximized)
+            wp.SetWindowVisualState(3)
+    except Exception:
+        pass
+    return fiscal
 
 def rect_of(ctrl):
     try:
@@ -411,17 +550,39 @@ def is_date_like(s):
 # ===================== ERP: ativar / troca empresa =====================
 def ativar_e_maximizar():
     wins = [w for w in gw.getWindowsWithTitle(FISCAL_TITLE_EXATO) if w.visible]
-    if not wins:
-        print("❌ Janela do Fiscal não localizada.")
-        return None
-    w = max(wins, key=lambda x: x.width * x.height)
-    if not w.isActive:
-        w.activate()
-    if not w.isMaximized:
-        w.maximize()
-    time.sleep(1.2)
-    return w
+    w = max(wins, key=lambda x: x.width * x.height) if wins else None
 
+    if w:
+        if not w.isActive:
+            try:
+                w.activate()
+            except Exception as e:
+                print(f"[AVISO] Falha ao ativar Fiscal via pygetwindow: {e}. Tentando UIA...")
+                _focar_fiscal_sem_mouse()
+        if not w.isMaximized:
+            try:
+                w.maximize()
+            except Exception as e:
+                print(f"[AVISO] Falha ao maximizar Fiscal via pygetwindow: {e}.")
+        time.sleep(1.2)
+        return w
+
+    fiscal_uia = _focar_fiscal_sem_mouse()
+    if not fiscal_uia:
+        print("Janela do Fiscal nao localizada.")
+        return None
+
+    try:
+        r = fiscal_uia.BoundingRectangle
+        left, top, right, bottom = int(r.left), int(r.top), int(r.right), int(r.bottom)
+        time.sleep(1.2)
+        return _WindowRectAdapter(
+            left, top, max(1, right - left), max(1, bottom - top),
+            title=_nome(fiscal_uia) or "Fiscal"
+        )
+    except Exception:
+        print("[ERRO] Nao consegui obter retangulo da janela Fiscal via UIA.")
+        return None
 def set_text(control: uia.Control, text: str):
     try:
         vp = control.GetValuePattern()
@@ -832,6 +993,146 @@ def fechar_aviso_do_sistema(ctrl_aviso):
                     return True
     except: pass
     uia.SendKeys("{Enter}")
+    return True
+
+
+def confirmar_aviso_priorizando_sim(ctrl_aviso):
+    """Confirma aviso tentando primeiro 'Sim', depois 'OK', sem uso de mouse."""
+    try:
+        ctrl_aviso.SetFocus()
+    except Exception:
+        pass
+    time.sleep(0.05)
+
+    prioridades = ("sim", "ok", "yes", "confirmar")
+    for alvo in prioridades:
+        try:
+            for btn in _iter_buttons(ctrl_aviso):
+                nome_btn = _nome(btn).lower()
+                if alvo in nome_btn:
+                    try:
+                        inv = btn.GetInvokePattern()
+                        if inv:
+                            inv.Invoke()
+                            print(f"[FATOR][AVISO] Confirmado com botao: {_nome(btn) or alvo}")
+                            return True
+                    except Exception:
+                        try:
+                            btn.SetFocus()
+                        except Exception:
+                            pass
+                        uia.SendKeys("{Enter}")
+                        print(f"[FATOR][AVISO] Confirmado via Enter no botao: {_nome(btn) or alvo}")
+                        return True
+        except Exception:
+            pass
+
+    print("[FATOR][AVISO] Nenhum botao Sim/OK encontrado, aplicando fallback Enter.")
+    return focus_and_dismiss_alert(ctrl_aviso)
+
+
+def wait_aviso_com_opcao_confirmacao(fiscal_win, timeout=12, interval=0.25):
+    """
+    Espera o 'Aviso do Sistema' e, de preferencia, aguarda aparecer botao Sim/OK
+    para evitar confirmar cedo demais.
+    """
+    end = time.time() + timeout
+    ultimo_aviso, ultimo_texto = (None, None)
+    while time.time() < end:
+        aviso, texto = wait_aviso_do_sistema(fiscal_win, timeout=interval, interval=0.05)
+        if aviso:
+            ultimo_aviso, ultimo_texto = aviso, texto
+            try:
+                nomes = [(_nome(b) or "").lower() for b in _iter_buttons(aviso)]
+            except Exception:
+                nomes = []
+            if any(("sim" in n) or ("ok" in n) or ("yes" in n) or ("confirmar" in n) for n in nomes):
+                return aviso, texto
+        time.sleep(interval)
+    return ultimo_aviso, ultimo_texto
+
+
+def acionar_botao_na_janela_com_retry(janela, nome_botao, rotulo_log, tentativas=6, intervalo=0.4):
+    """
+    Re-localiza o botao a cada tentativa (evita handle stale) e aciona sem mouse.
+    """
+    for tentativa in range(1, tentativas + 1):
+        btn = bfs_find(janela, nome_botao, types=('ButtonControl',), max_depth=8)
+        if not btn:
+            time.sleep(intervalo)
+            continue
+
+        try:
+            if hasattr(btn, "IsEnabled") and not btn.IsEnabled:
+                time.sleep(intervalo)
+                continue
+        except Exception:
+            pass
+
+        if uia_activate_sem_mouse(btn, f"{rotulo_log} (tentativa {tentativa}/{tentativas})"):
+            return True
+        time.sleep(intervalo)
+    return False
+
+
+def wait_botao_habilitado_na_janela(janela, nome_botao, timeout=20, interval=0.25):
+    """Espera um botao existir e ficar habilitado na janela alvo."""
+    end = time.time() + timeout
+    while time.time() < end:
+        btn = bfs_find(janela, nome_botao, types=('ButtonControl',), max_depth=8)
+        if btn:
+            try:
+                if not hasattr(btn, "IsEnabled") or btn.IsEnabled:
+                    return btn
+            except Exception:
+                return btn
+        time.sleep(interval)
+    return None
+
+
+def confirmar_avisos_sistema_globais(timeout_total=20, interval=0.2, quiet_after=1.0):
+    """
+    Detecta globalmente 'Aviso do Sistema' e confirma priorizando 'Sim'.
+    Continua até ficar um tempo sem novos avisos.
+    """
+    inicio = time.time()
+    ultimo_evento = None
+    confirmou_algo = False
+
+    while (time.time() - inicio) < timeout_total:
+        dlg, txt = wait_global_aviso_do_sistema(timeout=0.6, interval=0.1, max_depth=10)
+        if dlg:
+            confirmou_algo = True
+            ultimo_evento = time.time()
+            print("\n[FATOR][AVISO DO SISTEMA - detectado globalmente]")
+            print((txt or "").strip() if txt else "(sem texto)")
+            confirmar_aviso_priorizando_sim(dlg)
+            time.sleep(0.35)
+            continue
+
+        if confirmou_algo and ultimo_evento and (time.time() - ultimo_evento) >= quiet_after:
+            break
+        time.sleep(interval)
+
+    return confirmou_algo
+
+def aguardar_e_confirmar_aviso_obrigatorio_pos_gravar_fator(timeout_espera=40):
+    """
+    Apos clicar em Gravar no Fator R, aguarda obrigatoriamente um aviso
+    e confirma todos os avisos em sequencia (Sim/OK).
+    """
+    dlg, txt = wait_global_aviso_do_sistema(timeout=timeout_espera, interval=0.2, max_depth=10)
+    if not dlg:
+        print("[FATOR][ERRO] Aviso obrigatorio apos Gravar nao apareceu no tempo esperado.")
+        return False
+
+    print("\n[FATOR][AVISO OBRIGATORIO APOS GRAVAR]")
+    print((txt or "").strip() if txt else "(sem texto)")
+    confirmar_aviso_priorizando_sim(dlg)
+    time.sleep(0.35)
+
+    # Drena avisos em cascata para nao deixar modal pendente.
+    confirmar_avisos_sistema_globais(timeout_total=25, interval=0.2, quiet_after=1.2)
     return True
 
 def fechar_todas_as_janelas():
@@ -1305,34 +1606,38 @@ def processar_empresa_com_fator(fatorR: str):
                         types=("PaneControl", "GroupControl", "DocumentControl"),
                         max_depth=4) or root
 
+    tipos_menu = ("MenuItemControl", "ButtonControl", "TreeItemControl", "ListItemControl", "TabItemControl")
+
     trib = wait_until(
-        lambda: find_first_by_subname([root, workspace], MENU_TRIBUTOS, ("MenuItemControl", "ButtonControl"), 6),
+        lambda: find_best_by_subname([workspace, root], MENU_TRIBUTOS, tipos_menu, 7),
         timeout=5, interval=0.1
     )
     if trib:
-        uia_activate_fast(trib)
+        uia_activate_sem_mouse(trib, "menu 'Tributos'")
         time.sleep(0.1)
     else:
         print("[AVISO] Menu 'Tributos' não encontrado")
         return
 
     simples = wait_until(
-        lambda: find_first_by_subname([root, workspace], SUB_SIMPLES_NACIONAL, ("MenuItemControl", "ButtonControl"), 6),
+        lambda: find_best_by_subname([workspace, root], SUB_SIMPLES_NACIONAL, tipos_menu, 7),
         timeout=5, interval=0.1
     )
     if simples:
-        uia_activate_fast(simples)
+        uia_activate_sem_mouse(simples, "submenu 'Simples Nacional'")
         time.sleep(0.1)
     else:
         print("[AVISO] Submenu 'Simples Nacional' não encontrado")
         return
 
     ITEM_FATOR_R = wait_until(
-        lambda: find_first_by_subname([root, workspace], MENU_FATOR_R, ("MenuItemControl", "ButtonControl"), 6),
+        lambda: find_best_by_subname([workspace, root], MENU_FATOR_R, tipos_menu, 7),
         timeout=5, interval=0.1
     )
     if ITEM_FATOR_R:
-        uia_activate_fast(ITEM_FATOR_R)
+        ok_fator_item = uia_activate_sem_mouse(ITEM_FATOR_R, "item 'Valor Folha - Fator R'")
+        if not ok_fator_item:
+            raise RuntimeError("Nao foi possivel acionar o item 'Valor Folha - Fator R'.")
         time.sleep(0.1)
     else:
         print("[AVISO] Item 'Fator R' não encontrado")
@@ -1349,24 +1654,69 @@ def processar_empresa_com_fator(fatorR: str):
     
     pag.press('alt+f'); pag.press('enter')
     
-    btn_apuracao, btn_gravar = encontrar_botoes_fator(janela_fator)
-    if not btn_apuracao:
-        raise RuntimeError("Botão 'Apuração' não apareceu.")
-    
+    btn_apuracao, btn_carregar, btn_gravar = encontrar_botoes_fator(janela_fator)
+    btn_acao = btn_apuracao or btn_carregar
+    if not btn_acao:
+        raise RuntimeError("Botão de processamento ('Apuração' ou 'Carregar') não apareceu.")
+
     if not btn_gravar:
         raise RuntimeError("Botão 'Gravar' não encontrado.")
-    
-    # CARREGAR
-    uia_activate(btn_apuracao, "botão 'Apuração'")
-    time.sleep(0.2)
-    
-    pag.press('alt+g'); time.sleep(1); pag.press('space')
-    
-    time.sleep(3)
-        
-    uia_activate(btn_gravar, "botão 'Gravar'")
 
-    print(f"[FATOR] ✓ Processamento com fator finalizado")
+    # ERP novo usa 'Carregar'; ERP antigo pode usar 'Apuração'
+    if btn_apuracao:
+        if not acionar_botao_na_janela_com_retry(janela_fator, BTN_APURACAO, "botao 'Apuracao'"):
+            raise RuntimeError("Falha ao acionar o botao 'Apuracao'.")
+    else:
+        if not acionar_botao_na_janela_com_retry(janela_fator, BTN_CARREGAR, "botao 'Carregar'"):
+            raise RuntimeError("Falha ao acionar o botao 'Carregar'.")
+
+    # Aguarda o aviso modal aparecer e confirma com 'Sim' quando detectado.
+    time.sleep(1.2)
+    confirmar_avisos_sistema_globais(timeout_total=20, interval=0.2, quiet_after=1.1)
+
+    # Só tenta gravar quando o botão estiver habilitado.
+    btn_gravar_ready = wait_botao_habilitado_na_janela(janela_fator, BTN_GRAVAR, timeout=20, interval=0.25)
+    if not btn_gravar_ready:
+        raise RuntimeError("Botao 'Gravar' nao habilitou apos confirmar aviso do sistema.")
+
+    if not acionar_botao_na_janela_com_retry(janela_fator, BTN_GRAVAR, "botao 'Gravar'", tentativas=10, intervalo=0.5):
+        raise RuntimeError("Falha ao acionar o botao 'Gravar'.")
+
+    # Alguns ambientes ainda mostram confirmacao após Gravar.
+    if not aguardar_e_confirmar_aviso_obrigatorio_pos_gravar_fator(timeout_espera=40):
+        raise RuntimeError("Aviso obrigatorio apos Gravar no Fator R nao foi confirmado.")
+
+    print("[FATOR] Processamento com fator finalizado")
+
+# ===================== Retomada por ambiente (watchdog) =====================
+def _chave_empresa(codigo, estab) -> tuple[str, str]:
+    cod = _to_str(codigo).strip().lower()
+    est = _to_str(estab).strip().lower()
+    return cod, est
+
+def _indice_inicio_por_ambiente(empresas: list[tuple[str, str, str, str]]) -> int:
+    """
+    Permite ao watchdog retomar em uma empresa especifica.
+    Variaveis de ambiente:
+      - IMPORTADOR_START_CODIGO
+      - IMPORTADOR_START_ESTAB (opcional)
+    """
+    start_codigo = _to_str(os.environ.get("IMPORTADOR_START_CODIGO", ""))
+    start_estab = _to_str(os.environ.get("IMPORTADOR_START_ESTAB", ""))
+
+    if not start_codigo:
+        return 0
+
+    alvo_cod, alvo_est = _chave_empresa(start_codigo, start_estab)
+    for idx, (codigo_erp, estab, _, _) in enumerate(empresas):
+        cod_cmp, est_cmp = _chave_empresa(codigo_erp, estab)
+        if cod_cmp == alvo_cod and (not alvo_est or est_cmp == alvo_est):
+            print(f"[WATCHDOG] Retomando em Empresa {codigo_erp} / Estab {estab}.")
+            return idx
+
+    print(f"[WATCHDOG][WARN] Empresa alvo nao encontrada no LOG: codigo={start_codigo} estab={start_estab or '-'}")
+    print("[WATCHDOG][WARN] Fluxo sera iniciado do comeco.")
+    return 0
 
 # ===================== PIPELINE PRINCIPAL =====================
 def main():
@@ -1381,6 +1731,11 @@ def main():
         return
 
     print(">>> (3) Ativando e maximizando o ERP…")
+    idx_inicio = _indice_inicio_por_ambiente(empresas)
+    if idx_inicio > 0:
+        empresas = empresas[idx_inicio:]
+        print(f"[WATCHDOG] Empresas anteriores ignoradas: {idx_inicio}")
+
     win_pyget = ativar_e_maximizar()
     if not win_pyget:
         print("[ERRO] Não consegui ativar a janela do Fiscal. Encerrando.")
@@ -1392,6 +1747,7 @@ def main():
 
     for codigo_erp, estab, fatorR, pasta_xml in empresas:
         print(f"\n=== Empresa {codigo_erp} / Estab {estab} ===")
+        salvar_checkpoint_watchdog(codigo_erp, estab)
 
         print(">>> (5) Trocando empresa…")
         trocar_empresa(
@@ -1548,6 +1904,8 @@ def main():
 
 
         print("\n>>> Fluxo finalizado para esta empresa.")
+
+    limpar_checkpoint_watchdog()
 
 if __name__ == "__main__":
     main()
