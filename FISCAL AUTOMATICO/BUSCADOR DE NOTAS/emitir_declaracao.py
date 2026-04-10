@@ -245,7 +245,7 @@ with sync_playwright() as p:
 
     contexto = p.firefox.launch_persistent_context(
         user_data_dir=perfil_firefox,
-        headless=False,
+        headless=True,
         accept_downloads=False,
         firefox_user_prefs=firefox_prefs,
     )

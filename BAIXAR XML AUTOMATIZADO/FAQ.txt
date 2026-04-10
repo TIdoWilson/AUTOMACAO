@@ -1,0 +1,4 @@
+roda o watchdog
+seleciona planilha e onde salvar os XML
+apos passar pelo não sou um robo e acessar a pagina da nota fiscal, baixar a primeira manualmente
+o script vai baixar o restante das notas
