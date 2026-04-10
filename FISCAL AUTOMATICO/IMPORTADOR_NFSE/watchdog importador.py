@@ -8,6 +8,8 @@ from collections import deque
 
 import tkinter as tk
 from tkinter import filedialog
+from tkinter import messagebox
+from tkinter import simpledialog
 
 import pyautogui as pag
 import uiautomation as uia
@@ -20,6 +22,17 @@ MAX_RESTARTS = 40
 RESTART_DELAY = 2.0
 CHECKPOINT_NOME_ARQUIVO = "watchdog_importador_checkpoint.txt"
 CODIGO_RECUPERADO_CRASH_FISCAL = -998
+CRASH_CHECK_INTERVAL = 4.0
+CRASH_CONFIRMACOES_NECESSARIAS = 2
+MODULOS_CRASH_FISCAL = ("sef.exe", "msado15.dll")
+PALAVRAS_CHAVE_OLE_CRASH = (
+    "ole",
+    "ole error",
+    "erro ole",
+    "class not registered",
+    "coinitialize",
+    "eole",
+)
 
 # Coordenada validada manualmente pelo usuario para o botao "Fiscal" no Gerenciador.
 BOTAO_FISCAL_ABS_X = 954
@@ -75,6 +88,53 @@ def escolher_script_importador() -> str:
         return caminho_padrao
 
     return ""
+
+
+def escolher_empresa_inicial_watchdog():
+    """
+    Permite escolher manualmente a empresa inicial antes de iniciar o watchdog.
+    Retorna (codigo, estab) ou None para iniciar do comeco.
+    """
+    root = None
+    try:
+        root = tk.Tk()
+        root.withdraw()
+        root.attributes("-topmost", True)
+
+        usar_inicio_manual = messagebox.askyesno(
+            "Empresa inicial",
+            "Deseja escolher empresa inicial para o processamento?",
+            parent=root,
+        )
+        if not usar_inicio_manual:
+            return None
+
+        codigo = simpledialog.askstring(
+            "Empresa inicial",
+            "Informe o CODIGO da empresa inicial:",
+            parent=root,
+        )
+        if not codigo or not str(codigo).strip():
+            return None
+
+        estab = simpledialog.askstring(
+            "Estabelecimento inicial",
+            "Informe o estabelecimento inicial:",
+            initialvalue="1",
+            parent=root,
+        )
+        estab = (str(estab).strip() if estab is not None else "") or "1"
+
+        return (str(codigo).strip(), estab)
+    except Exception as e:
+        _log(f"Falha ao abrir popup de empresa inicial: {e}")
+        return None
+    finally:
+        try:
+            if root is not None:
+                root.destroy()
+        except Exception:
+            pass
 
 
 def caminho_checkpoint(caminho_script: str) -> str:
@@ -226,10 +286,6 @@ def _janela_parece_crash_fiscal(win) -> bool:
     if FISCAL_TITLE not in _normalizar_txt(_nome(win)):
         return False
 
-    txt_norm = _normalizar_txt("\n".join(_collect_texts(win, max_depth=8)))
-    if ("access violation" in txt_norm) or ("sef.exe" in txt_norm) or ("read of address" in txt_norm):
-        return True
-
     rect = _window_rect(win)
     if not rect:
         return False
@@ -237,11 +293,31 @@ def _janela_parece_crash_fiscal(win) -> bool:
     largura = max(1, right - left)
     altura = max(1, bottom - top)
 
-    # Dialogo de erro costuma ser pequeno e com botao OK unico.
-    if largura <= 1200 and altura <= 700:
-        for btn in _iter_buttons(win):
-            if _normalizar_txt(_nome(btn)) == "ok":
-                return True
+    # Evita custo alto/falso positivo: somente dialogs pequenos.
+    if largura > 1200 or altura > 700:
+        return False
+
+    txt_norm = _normalizar_txt("\n".join(_collect_texts(win, max_depth=7)))
+    tem_modulo_conhecido = any(mod in txt_norm for mod in MODULOS_CRASH_FISCAL)
+    tem_assinatura_access_violation = (
+        ("access violation" in txt_norm)
+        and tem_modulo_conhecido
+        and ("read of address" in txt_norm)
+    )
+
+    # Alguns travamentos no Fiscal aparecem como erro OLE sem 'access violation'.
+    tem_assinatura_ole = (
+        ("erro" in txt_norm or "error" in txt_norm)
+        and any(chave in txt_norm for chave in PALAVRAS_CHAVE_OLE_CRASH)
+    )
+
+    if not (tem_assinatura_access_violation or tem_assinatura_ole):
+        return False
+
+    # Confirma presença de botão OK no dialogo de crash.
+    for btn in _iter_buttons(win):
+        if _normalizar_txt(_nome(btn)) == "ok":
+            return True
     return False
 
 
@@ -452,7 +528,7 @@ def reabrir_fiscal_via_gerenciador(motivo: str) -> bool:
 def tratar_crash_access_violation_fiscal() -> bool:
     """
     Trata o erro:
-      Access violation at address ... in module 'sef.exe' ...
+      Access violation ... (sef.exe/msado15.dll) e tambem erros OLE.
     Fluxo:
       1) fecha dialogo/janelas Fiscal
       2) ativa Gerenciador de Sistemas
@@ -577,22 +653,38 @@ def iniciar_importador(caminho_script: str, empresa):
 
 
 def aguardar_termino(proc: subprocess.Popen) -> int:
-    while True:
-        if tratar_crash_access_violation_fiscal():
-            try:
-                if proc.poll() is None:
-                    proc.terminate()
-                    time.sleep(1.0)
-                    if proc.poll() is None:
-                        proc.kill()
-            except Exception:
-                pass
-            return CODIGO_RECUPERADO_CRASH_FISCAL
+    proxima_verificacao_crash = time.time() + CRASH_CHECK_INTERVAL
+    confirmacoes_crash = 0
 
+    while True:
         codigo = proc.poll()
         if codigo is not None:
             return codigo
-        time.sleep(0.6)
+
+        agora = time.time()
+        if agora >= proxima_verificacao_crash:
+            proxima_verificacao_crash = agora + CRASH_CHECK_INTERVAL
+            if _detectar_dialogo_crash_fiscal():
+                confirmacoes_crash += 1
+                _log(f"Assinatura de crash detectada ({confirmacoes_crash}/{CRASH_CONFIRMACOES_NECESSARIAS}).")
+            else:
+                confirmacoes_crash = 0
+
+            if confirmacoes_crash >= CRASH_CONFIRMACOES_NECESSARIAS:
+                if tratar_crash_access_violation_fiscal():
+                    try:
+                        if proc.poll() is None:
+                            proc.terminate()
+                            time.sleep(1.0)
+                            if proc.poll() is None:
+                                proc.kill()
+                    except Exception:
+                        pass
+                    return CODIGO_RECUPERADO_CRASH_FISCAL
+                # Falha em recuperar; reseta contador e segue aguardando.
+                confirmacoes_crash = 0
+
+        time.sleep(0.4)
 
 
 def main():
@@ -606,7 +698,11 @@ def main():
         return
 
     _log(f"Script monitorado: {caminho_script}")
-    empresa_retomada = None
+    empresa_retomada = escolher_empresa_inicial_watchdog()
+    if empresa_retomada:
+        _log(f"Inicio manual selecionado: Empresa {empresa_retomada[0]} / Estab {empresa_retomada[1]}")
+    else:
+        _log("Inicio sem empresa manual (do comeco).")
     proc = None
 
     try:

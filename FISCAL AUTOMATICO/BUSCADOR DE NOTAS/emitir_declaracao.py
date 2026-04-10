@@ -9,6 +9,85 @@ from datetime import datetime
 from playwright.sync_api import sync_playwright
 import shutil
 
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    pass
+
+
+def _stdin_interativo() -> bool:
+    try:
+        return bool(sys.stdin) and sys.stdin.isatty()
+    except Exception:
+        return False
+
+
+def _input_seguro(prompt: str, default: str = "") -> str:
+    try:
+        return input(prompt)
+    except EOFError:
+        if default:
+            print(f"\nEntrada indisponível. Usando padrão: {default}")
+        else:
+            print("\nEntrada indisponível. Seguindo com valor vazio.")
+        return default
+
+
+def fechar_modais_bloqueantes(pagina, timeout_segundos: float = 6.0) -> None:
+    fim = time.time() + timeout_segundos
+    botoes_fechamento = [
+        "#avisosDoSistemaModal button[data-dismiss='modal']",
+        "#avisosDoSistemaModal button:has-text('Fechar')",
+        "#avisosDoSistemaModal button:has-text('OK')",
+        "#avisosDoSistemaModal button:has-text('Ok')",
+        "#avisosDoSistemaModal button:has-text('Entendi')",
+        "div.modal.in button[data-dismiss='modal']",
+        "div.modal.show button[data-dismiss='modal']",
+    ]
+
+    while time.time() < fim:
+        houve_acao = False
+
+        for seletor in botoes_fechamento:
+            try:
+                botao = pagina.locator(seletor).first
+                if botao.count() > 0 and botao.is_visible():
+                    botao.click(timeout=800)
+                    houve_acao = True
+                    time.sleep(0.15)
+            except Exception:
+                pass
+
+        # Limpeza defensiva para backdrop que continua bloqueando clique.
+        try:
+            pagina.evaluate(
+                """
+                () => {
+                    document.querySelectorAll('.modal-backdrop').forEach((el) => el.remove());
+                    document.querySelectorAll('.modal.in, .modal.show').forEach((m) => {
+                        m.classList.remove('in', 'show');
+                        m.style.display = 'none';
+                        m.setAttribute('aria-hidden', 'true');
+                    });
+                    document.body.classList.remove('modal-open');
+                }
+                """
+            )
+        except Exception:
+            pass
+
+        try:
+            modais_visiveis = pagina.locator("div.modal.in, div.modal.show").count()
+            backdrops = pagina.locator("div.modal-backdrop").count()
+            if modais_visiveis == 0 and backdrops == 0:
+                return
+        except Exception:
+            pass
+
+        if not houve_acao:
+            time.sleep(0.2)
+
 
 def emitir_declaracoes_disponiveis(pagina, nome_prestador, mes, ano):
     """
@@ -111,14 +190,14 @@ def escolher_perfil_firefox(perfil_padrao: str) -> tuple[str, bool]:
       Também é recomendado forçar a seleção de certificado (Ask Every Time).
     """
     # Em execuções sem terminal interativo (agendador/serviço), não pergunta.
-    if not sys.stdin.isatty():
+    if not _stdin_interativo():
         os.makedirs(perfil_padrao, exist_ok=True)
         return perfil_padrao, False
 
     print("\n=== PERFIL FIREFOX ===")
     print("1) Usar perfil existente (mantém certificado previamente selecionado)")
     print("2) Criar NOVO perfil (apaga o perfil antigo e força seleção de certificado)\n")
-    opcao = (input("Escolha [1/2] (padrão=1): ").strip() or "1")
+    opcao = (_input_seguro("Escolha [1/2] (padrão=1): ", default="1").strip() or "1")
 
     if opcao == "2":
         # Apaga o perfil antigo (o que fica salvo na pasta padrão)
@@ -133,7 +212,10 @@ def escolher_perfil_firefox(perfil_padrao: str) -> tuple[str, bool]:
         return perfil_padrao, True
 
     if opcao == "1":
-        caminho = input(f"Caminho do perfil (Enter para usar o padrão: {perfil_padrao}): ").strip()
+        caminho = _input_seguro(
+            f"Caminho do perfil (Enter para usar o padrão: {perfil_padrao}): ",
+            default=perfil_padrao,
+        ).strip()
         caminho = caminho or perfil_padrao
         os.makedirs(caminho, exist_ok=True)
         return caminho, False
@@ -163,7 +245,7 @@ with sync_playwright() as p:
 
     contexto = p.firefox.launch_persistent_context(
         user_data_dir=perfil_firefox,
-        headless=True,
+        headless=False,
         accept_downloads=False,
         firefox_user_prefs=firefox_prefs,
     )
@@ -173,19 +255,15 @@ with sync_playwright() as p:
     pagina.goto("https://www.esnfs.com.br/?e=35")
     time.sleep(3)
 
-    # Fecha modal "Fechar" se aparecer
-    try:
-        fechar_btn = pagina.locator("div.modal-footer button[data-dismiss='modal'], button:has-text('Fechar')").first
-        fechar_btn.wait_for(state="visible", timeout=1000)
-        fechar_btn.click()
-    except Exception:
-        pass
+    # Fecha modais de aviso que possam bloquear a tela inicial
+    fechar_modais_bloqueantes(pagina)
 
 
     # Login por CERTIFICADO DIGITAL
     botao_cert = pagina.locator('button[onclick*="useDigitalCertificate=true"]')
     botao_cert.wait_for(state="visible", timeout=1000)
     botao_cert.click()
+    fechar_modais_bloqueantes(pagina)
 
 
     # Seleciona o município
@@ -208,13 +286,18 @@ with sync_playwright() as p:
 
     print("✅ Login efetuado com sucesso, prosseguindo...")
 
+    # Garante navegação para a tela correta antes de buscar selects de exercício/prestador.
+    pagina.goto("https://www.esnfs.com.br/nfsdeclaracao.list.logic")
+    pagina.wait_for_load_state("domcontentloaded")
+    fechar_modais_bloqueantes(pagina)
+
     # Preenche o ano
-    pagina.wait_for_selector('select[name="formulario.nrExercicio"]')
+    pagina.wait_for_selector('select[name="formulario.nrExercicio"]', timeout=60000)
     ano_select = pagina.locator('select[name="formulario.nrExercicio"]')
     ano_select.select_option(value=str(ano_ref))
 
     # Coleta lista de prestadores a partir da própria tela de DECLARAÇÃO
-    pagina.wait_for_selector('select[name="formulario.pessoa.idPessoa"]')
+    pagina.wait_for_selector('select[name="formulario.pessoa.idPessoa"]', timeout=60000)
     prestador_select = pagina.locator('select[name="formulario.pessoa.idPessoa"]')
     prestadores = prestador_select.locator("option").all()
     prestadores_info = [
@@ -241,7 +324,10 @@ with sync_playwright() as p:
         "  • Ou Enter para iniciar a partir do ID 0 (se existir).\n"
     )
 
-    entrada = input("Digite aqui qual empresa deseja iniciar (ou Enter): ").strip()
+    if _stdin_interativo():
+        entrada = _input_seguro("Digite aqui qual empresa deseja iniciar (ou Enter): ", default="").strip()
+    else:
+        entrada = ""
     if entrada:
         entrada_digits = re.sub(r"\D", "", entrada)
         indice_inicio = None
