@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 Processa arquivos Excel da aba 'baixa CSV', usando a coluna 'Competência' para separar por ano
 e gerar arquivos CSV de até 50 linhas, na mesma pasta do arquivo original.
@@ -16,11 +16,10 @@ import sys
 import tkinter as tk
 from pathlib import Path
 from tkinter import filedialog
-from typing import List, Optional, Tuple, Dict
+from typing import Optional, Tuple, Dict
 import pandas as pd
 
 # --------- CONFIG FIXA --------- #
-PASTA_ORIGEM = Path(r"W:\PASTA CLIENTES\TAXCO EDUCAÇÃO LTDA\CONCILIACAO\2026")
 SHEET_NAME = "BAIXAS"
 YEAR_SOURCE_COLUMN = "DATA EMISSÃO"
 MAX_LINHAS_POR_ARQUIVO = 50
@@ -35,14 +34,30 @@ DECIMAL_COLS = [5, 7, 8, 9, 10, 11, 12, 13]  # F,H,I,J,K,L,M,N (0-based)
 def log(msg: str) -> None:
     print(msg, file=sys.stdout, flush=True)
 
-def is_hidden_excel_temp(p: Path) -> bool:
-    return p.name.startswith("~$")
-
-def find_excel_files(root: Path) -> List[Path]:
-    return sorted([p for p in root.glob("*") if p.is_file() and p.suffix.lower() in VALID_EXTS and not is_hidden_excel_temp(p)])
-
 def normalize_colname(name: str) -> str:
     return str(name).strip().lower()
+
+def normalize_sheetname(name: str) -> str:
+    return str(name).strip().casefold()
+
+def choose_sheet_name(sheet_names: list[str], preferred: str) -> Tuple[str, bool]:
+    if not sheet_names:
+        raise ValueError("Arquivo sem abas para leitura.")
+
+    if preferred in sheet_names:
+        return preferred, False
+
+    preferred_norm = normalize_sheetname(preferred)
+    for name in sheet_names:
+        if normalize_sheetname(name) == preferred_norm:
+            return name, False
+
+    if len(sheet_names) >= 2:
+        return sheet_names[1], True
+
+    raise ValueError(
+        f"A aba '{preferred}' não foi encontrada e o arquivo não possui segunda aba para fallback."
+    )
 
 def _series_to_year(series: pd.Series) -> Optional[pd.Series]:
     s = pd.to_numeric(series, errors="coerce").astype("Int64")
@@ -121,7 +136,13 @@ def process_excel(path: Path) -> Dict[str, int]:
     log(f"\n>>> Lendo: {path.name}")
     engine = "openpyxl" if path.suffix.lower() in {".xlsx", ".xlsm"} else None
     try:
-        df = pd.read_excel(path, sheet_name=SHEET_NAME, engine=engine, dtype=object)
+        with pd.ExcelFile(path, engine=engine) as xls:
+            sheet_to_read, used_fallback = choose_sheet_name(xls.sheet_names, SHEET_NAME)
+            df = pd.read_excel(xls, sheet_name=sheet_to_read, dtype=object)
+            if used_fallback:
+                log(f"   [AVISO] Aba '{SHEET_NAME}' não encontrada. Usando fallback: '{sheet_to_read}' (2ª aba).")
+            else:
+                log(f"   Aba utilizada: {sheet_to_read}")
     except Exception as e:
         log(f"   [ERRO] Falha ao ler '{path.name}' (aba: {SHEET_NAME}). Motivo: {e}")
         return {}
@@ -165,7 +186,7 @@ def main():
         log("[AVISO] Nenhum arquivo selecionado.")
         sys.exit(0)
     if arquivo.suffix.lower() not in VALID_EXTS:
-        log(f"[ERRO] Arquivo inválido. Selecione um Excel: {arquivo.name}")
+        log(f"[ERRO] Arquivo inválido.")
         sys.exit(1)
     total_resumo = process_excel(arquivo)
     if total_resumo:
@@ -177,4 +198,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
 

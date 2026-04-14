@@ -1,0 +1,49 @@
+{
+  "name": "Umbler Talk",
+  "short_name": "Umbler Talk",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#191D21",
+  "theme_color": "#557CF2",
+  "description": "Cliente para conversas do Umbler Talk",
+  "icons": [
+    {
+      "src": "_content/Umbler.Common.Full/icons/app/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
+    },
+    {
+      "src": "_content/Umbler.Common.Full/icons/app/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Conversas",
+      "url": "/"
+    },
+    {
+      "name": "Contatos",
+      "url": "/contacts"
+    },
+    {
+      "name": "Chatbots",
+      "url": "/chatbots"
+    },
+    {
+      "name": "Envio de campanhas de marketing",
+      "url": "/bulksend"
+    },
+    {
+      "name": "Relatórios",
+      "url": "/dashboard"
+    },
+    {
+      "name": "Configurações",
+      "url": "/settings"
+    }
+  ]
+}

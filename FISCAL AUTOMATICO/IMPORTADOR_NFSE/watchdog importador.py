@@ -41,6 +41,11 @@ BOTAO_FISCAL_ABS_Y = 179
 BOTAO_FISCAL_RATIO_X = 0.497
 BOTAO_FISCAL_RATIO_Y = 0.175
 
+# Execucao sem operador (RDP -> console via tscon) pode disparar canto de tela.
+# No watchdog, manter FAILSAFE desativado para nao abortar o processo.
+pag.PAUSE = 0.05
+pag.FAILSAFE = False
+
 
 def _agora() -> str:
     return time.strftime("%H:%M:%S")
@@ -385,22 +390,25 @@ def _janela_tem_contexto_de_erro_ou_aviso(win) -> bool:
     if any(chave in nm for chave in (NOME_ALERTA, "erro", "error", "mensagem", "aviso")):
         return True
 
-    if FISCAL_TITLE in nm:
-        rect = _window_rect(win)
-        if rect:
-            left, top, right, bottom = rect
-            largura = max(1, right - left)
-            altura = max(1, bottom - top)
-            # Dialogos do Fiscal costumam ser menores que a janela principal.
-            if largura <= 1300 and altura <= 800:
-                return True
-
     txt = _normalizar_txt("\n".join(_collect_texts(win, max_depth=8)))
-    return any(chave in txt for chave in ("access violation", "read of address", "sef.exe", "erro", "error", "aviso"))
+    return any(
+        chave in txt
+        for chave in (
+            "access violation",
+            "read of address",
+            "sef.exe",
+            "msado15.dll",
+            "ole",
+            "ole error",
+            "erro ole",
+            "class not registered",
+            "eole",
+        )
+    )
 
 
 def _confirmar_janela_por_botoes(win) -> bool:
-    prioridades = ("sim", "ok", "yes", "confirmar", "fechar", "close", "encerrar")
+    prioridades = ("sim", "ok", "yes", "confirmar")
     btns = _botoes_confirmacao_em_janela(win)
     if not btns:
         return False
@@ -457,36 +465,85 @@ def _acionar_botao_fiscal_no_gerenciador() -> bool:
     except Exception:
         pass
     time.sleep(0.2)
+    try:
+        wp = ger.GetWindowPattern()
+        if wp:
+            wp.SetWindowVisualState(3)  # maximizado
+            time.sleep(0.2)
+    except Exception:
+        pass
 
     rect = _window_rect(ger)
+    candidatos = []
     if rect:
         left, top, right, bottom = rect
         width = max(1, right - left)
         height = max(1, bottom - top)
-        x = left + int(round(width * BOTAO_FISCAL_RATIO_X))
-        y = top + int(round(height * BOTAO_FISCAL_RATIO_Y))
-    else:
-        x, y = BOTAO_FISCAL_ABS_X, BOTAO_FISCAL_ABS_Y
+        xr = left + int(round(width * BOTAO_FISCAL_RATIO_X))
+        yr = top + int(round(height * BOTAO_FISCAL_RATIO_Y))
+        candidatos.extend(
+            [
+                (xr, yr),
+                (xr + 40, yr),
+                (xr - 40, yr),
+                (xr, yr + 20),
+                (xr, yr - 20),
+            ]
+        )
+    candidatos.extend(
+        [
+            (BOTAO_FISCAL_ABS_X, BOTAO_FISCAL_ABS_Y),
+            (BOTAO_FISCAL_ABS_X + 40, BOTAO_FISCAL_ABS_Y),
+            (BOTAO_FISCAL_ABS_X - 40, BOTAO_FISCAL_ABS_Y),
+        ]
+    )
 
-    # Primeiro clique simples; fallback duplo.
-    pag.moveTo(x, y, duration=0.12)
-    pag.click(x, y)
-    for _ in range(8):
-        time.sleep(1)
-        fiscais = [w for w in _iter_top_windows() if FISCAL_TITLE in _normalizar_txt(_nome(w))]
-        if fiscais:
-            _log(f"Botao 'Fiscal' acionado no Gerenciador em {x},{y}.")
-            return True
+    # remove repetidos preservando ordem
+    seen = set()
+    unicos = []
+    for pt in candidatos:
+        if pt in seen:
+            continue
+        seen.add(pt)
+        unicos.append(pt)
 
-    pag.doubleClick(x, y)
-    for _ in range(6):
-        time.sleep(1)
-        fiscais = [w for w in _iter_top_windows() if FISCAL_TITLE in _normalizar_txt(_nome(w))]
-        if fiscais:
-            _log(f"Botao 'Fiscal' acionado com duplo clique em {x},{y}.")
-            return True
+    def fiscal_principal_aberto():
+        for w in _iter_top_windows():
+            if FISCAL_TITLE not in _normalizar_txt(_nome(w)):
+                continue
+            r = _window_rect(w)
+            if not r:
+                continue
+            wdt = max(1, r[2] - r[0])
+            hgt = max(1, r[3] - r[1])
+            if wdt >= 900 and hgt >= 600:
+                return True
+        return False
 
-    _log(f"Nao foi possivel abrir o Fiscal pelo Gerenciador (coord {x},{y}).")
+    for (x, y) in unicos:
+        try:
+            pag.moveTo(x, y, duration=0.12)
+            pag.click(x, y)
+        except Exception:
+            continue
+
+        for _ in range(5):
+            time.sleep(1)
+            if fiscal_principal_aberto():
+                _log(f"Botao 'Fiscal' acionado no Gerenciador em {x},{y}.")
+                return True
+
+        try:
+            pag.doubleClick(x, y)
+        except Exception:
+            continue
+        for _ in range(4):
+            time.sleep(1)
+            if fiscal_principal_aberto():
+                _log(f"Botao 'Fiscal' acionado com duplo clique em {x},{y}.")
+                return True
+
+    _log("Nao foi possivel abrir o Fiscal pelo Gerenciador (coordenadas testadas sem sucesso).")
     return False
 
 
@@ -737,12 +794,11 @@ def main():
 
             if avisos_confirmados > 0:
                 _log(f"Avisos confirmados apos falha: {avisos_confirmados}")
+                if not reabrir_fiscal_via_gerenciador("falha do importador com aviso"):
+                    _log("Nao foi possivel concluir a reabertura padrao do Fiscal. Encerrando watchdog.")
+                    return
             else:
-                _log("Nenhum aviso confirmavel apos a falha, mas watchdog fara reabertura padrao do Fiscal.")
-
-            if not reabrir_fiscal_via_gerenciador("falha do importador"):
-                _log("Nao foi possivel concluir a reabertura padrao do Fiscal. Encerrando watchdog.")
-                return
+                _log("Falha sem aviso/crash. Reiniciando importador sem fechar/reabrir Fiscal.")
 
             empresa_checkpoint = ler_checkpoint(caminho_script)
             if empresa_checkpoint:

@@ -1,0 +1,131 @@
+/* _content/Umbler.UTalk.UIShared/Components/Flowchart/CardDiagram.razor.rz.scp.css */
+.block-root[b-3iv5g7m72w]{
+    cursor: auto;
+}
+
+.block-root:hover .floating-menu .menu-option-bot[b-3iv5g7m72w] {
+    display: inline-flex !important;
+}
+
+.card-diagram-header[b-3iv5g7m72w], .card-diagram-header *[b-3iv5g7m72w], .card-body.movable[b-3iv5g7m72w] {
+    cursor: move;
+}
+/* _content/Umbler.UTalk.UIShared/Components/Flowchart/NodeDescriptionIcon.razor.rz.scp.css */
+.node-description-image[b-4euutm4p6p] {
+    height: 24px;
+}
+
+[data-bs-theme=dark] .node-description-image[b-4euutm4p6p] {
+    filter: invert(1);
+}
+/* _content/Umbler.UTalk.UIShared/Components/Search/UseCompleteTermsExample.razor.rz.scp.css */
+.block[b-p1zdw2nnee] {
+    font-family: monospace;
+    padding: 4px 8px;
+    background-color: var(--bs-form-control-bg);
+    border: solid 1px #8882;
+    border-radius: 3px;
+    white-space: pre;
+}
+
+.cursor[b-p1zdw2nnee] {
+    display: inline-block;
+    width: 1px;
+    height: 1em;
+    background-color: currentColor;
+    margin-left: 1px;
+    margin-bottom: -2px;
+}
+/* _content/Umbler.UTalk.UIShared/Components/Tags/TagsSelect.razor.rz.scp.css */
+.tag-tabs[b-d9aqe0l2ip]  .nav-tabs {
+    padding: 0 !important;
+    margin: 0 !important;
+    justify-content: space-around;
+}
+    .tag-tabs[b-d9aqe0l2ip]  .nav-tabs .nav-item {
+        margin: 0;
+        padding: 0 !important;
+    }
+
+    .tag-tabs[b-d9aqe0l2ip]  .nav-tabs .nav-link {
+        font-size: small;
+    }
+/* _content/Umbler.UTalk.UIShared/Shared/Components/NotificationDot.razor.rz.scp.css */
+div[b-nckqu867zu]{
+    position:relative;
+}
+
+span[b-nckqu867zu] {
+    height: 12px;
+    width: 12px;
+    right:0;
+    position: absolute;
+    border: 2px solid #dfe4f2;
+    border-radius: 50%;
+}
+/* _content/Umbler.UTalk.UIShared/Shared/Components/ReportChart.razor.rz.scp.css */
+.parent-chart[b-z0llzgsjc1] {
+    height: 500px;
+    max-height: 295px;
+    overflow-y: scroll;
+}
+/* _content/Umbler.UTalk.UIShared/Shared/Components/TruncateText.razor.rz.scp.css */
+span[b-mct9n1idc2] {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+/* _content/Umbler.UTalk.UIShared/Shared/Components/VerticalSeparator.razor.rz.scp.css */
+div[b-32hqfdq8pp] {
+	height: 75%;
+	width: 2px;
+	margin: 0 .5rem;
+	border-radius: 1px;
+}
+
+[data-bs-theme=dark] div[b-32hqfdq8pp] {
+	background-color: #2D353C;
+}
+
+[data-bs-theme=light] div[b-32hqfdq8pp] {
+	background-color: #D4D4D4;
+}
+/* _content/Umbler.UTalk.UIShared/Shared/Sidebar/BarButton.razor.rz.scp.css */
+/*::deep a {
+    width:46px;
+    height:46px;
+    font-size: larger;
+    color: #D9E2FF;
+}
+
+::deep a:hover, ::deep a.active {
+    background-color: #3961D7;
+    color: white;
+}*/
+
+[b-o90ok75cw2] [data-bs-theme=dark] a:hover,
+[b-o90ok75cw2] [data-bs-theme=dark] a.active {
+  background: #31343b;
+}
+
+[b-o90ok75cw2] a.text-danger:hover,
+[b-o90ok75cw2] a.text-danger.active {
+  color: white;
+}
+/* _content/Umbler.UTalk.UIShared/Shared/Startup/CenterLoader.razor.rz.scp.css */
+.linear-progress[b-ighyuxnegx] {
+    background: #00000033;
+    width: 100%;
+    max-width: 25rem;
+    height: .5rem;
+    border-radius: 10rem;
+    margin-top: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.linear-progress-bar[b-ighyuxnegx] {
+    height: 100%;
+    background: var(--primary);
+    width: calc(var(--blazor-load-percentage, 0%) * .8);
+}

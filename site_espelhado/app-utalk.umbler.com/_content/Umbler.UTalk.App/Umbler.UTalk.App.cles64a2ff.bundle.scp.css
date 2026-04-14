@@ -1,0 +1,909 @@
+/* _content/Umbler.UTalk.App/Pages/BulkSend/BulkSendCore.razor.rz.scp.css */
+@media (min-width: 600px) {
+    .padding-body[b-34uox0y82i] {
+        padding: 32px 32px 0 32px;
+    }
+}
+
+@media (max-width: 600px) {
+    .padding-body[b-34uox0y82i] {
+        padding: 32px 16px;
+    }
+}
+/* _content/Umbler.UTalk.App/Pages/Chat/Chat/ConversationBubble/Bubble.razor.rz.scp.css */
+.msg-bubble-root.blink[b-xodt4k0saq] {
+    animation: opacity-blink-b-xodt4k0saq .25s ease-in-out 3;
+}
+
+@keyframes opacity-blink-b-xodt4k0saq {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .25;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.msg-options-dropdown[b-xodt4k0saq]  .dropdown-anchor {
+    opacity: 0;
+    transition: opacity .1s ease-in-out;
+}
+
+.msg-bubble-root:hover .msg-options-dropdown[b-xodt4k0saq]  .dropdown-anchor {
+    opacity: 1;
+}
+/* _content/Umbler.UTalk.App/Pages/Chat/Chat/ConversationBubble/Picture.razor.rz.scp.css */
+[b-xiqm1ooo5i] .modal-content{
+    background: transparent;
+}
+/* _content/Umbler.UTalk.App/Pages/Chat/Chat/ConversationBubble/ReplySummary.razor.rz.scp.css */
+.summary-bg[b-gy5j0ihrp6] {
+    position: relative;
+    padding: 6px 6px 6px 12px;
+    background: rgba(0, 0, 0, 0.06);
+    border-left: 4px solid var(--primary);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.02), 0px 1px 6px -1px rgba(0, 0, 0, 0.02), 0px 1px 2px rgba(0, 0, 0, 0.03);
+    border-radius: 6px;
+    gap: 10px;
+}
+
+.summary-content[b-gy5j0ihrp6] {
+    overflow: hidden;
+    max-height: 3em;
+    word-break: break-all;
+}
+
+.summary-image[b-gy5j0ihrp6] {
+    height: 3rem;
+    width: auto;
+    max-width: 6rem;
+    box-shadow: 0px 5px 12px 4px rgba(0, 0, 0, 0.09), 0px 1px 2px -2px rgba(0, 0, 0, 0.16);
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.12));
+    border-radius: 4px;
+}
+
+[b-gy5j0ihrp6] .summary-body {
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+    [b-gy5j0ihrp6] .summary-body > b {
+        color: var(--primary);
+    }
+
+.summary-type[b-gy5j0ihrp6] {
+    padding-left: 30px;
+}
+
+   [b-gy5j0ihrp6] .summary-type > .summary-body > b {
+            margin-left: -30px;
+        }
+
+.summary-member[b-gy5j0ihrp6] {
+    line-height: 20px;
+    color: var(--primary);
+    font-size: 12px;
+    font-weight: 600;
+}
+/* _content/Umbler.UTalk.App/Pages/Chat/Chat/ConversationBubble/StickerImage.razor.rz.scp.css */
+img[b-6ieu98tfum] {
+    width: 7rem;
+    height: 7rem;
+    cursor: pointer;
+}
+
+[b-6ieu98tfum] .chat-img {
+    width: 7rem;
+    height: 7rem;
+}
+/* _content/Umbler.UTalk.App/Pages/Chat/Chat/ConversationNavigation.razor.rz.scp.css */
+.chat-nav[b-lfuennc6gr] {
+    transition: all 0.25s;
+    transition-behavior: allow-discrete;
+    opacity: 0;
+    display: none;
+}
+
+.chat-nav.visible[b-lfuennc6gr] {
+    opacity: 1;
+    display: flex;
+}
+/* _content/Umbler.UTalk.App/Pages/Chat/Chat/InvalidChatAlertComponent.razor.rz.scp.css */
+[data-bs-theme=light] .chat-icon-theme[b-kpr0afepr4] {
+    color: var(--gray-lighter);
+}
+
+[data-bs-theme=dark] .chat-icon-theme[b-kpr0afepr4] {
+    color: #3D4047;
+}
+/* _content/Umbler.UTalk.App/Pages/Chat/ChatWindow.razor.rz.scp.css */
+.chat-instances[b-z17nocbf7h] {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: .5rem;
+}
+
+[b-z17nocbf7h] .chat-instances .item-deferred-purge {
+    max-width: 100%;
+    flex: 1 1 0;
+    width: 0;
+}
+
+[b-z17nocbf7h] .chat-instances .item-deferred-purge-first .chat-instance {
+    border-start-start-radius: 0 !important;
+}
+
+[b-z17nocbf7h] .chat-instances .item-deferred-purge-last .chat-instance {
+    border-start-end-radius: 0 !important;
+}
+
+[b-z17nocbf7h] .chat-instances .item-deferred-purge:not(.item-deferred-purge-first) .expand-button {
+    display: none;
+}
+
+.chat-conversation-select[b-z17nocbf7h] {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+[data-bs-theme=light] .chat-conversation-select[b-z17nocbf7h],
+[data-bs-theme=light-emerald] .chat-conversation-select[b-z17nocbf7h] {
+    background-image: url('https://static-umbler.s3.us-east-2.amazonaws.com/utalk/assets/select_conversation_light.svg');
+}
+
+[data-bs-theme=dark] .chat-conversation-select[b-z17nocbf7h],
+[data-bs-theme=dark-emerald] .chat-conversation-select[b-z17nocbf7h] {
+    background-image: url('https://static-umbler.s3.us-east-2.amazonaws.com/utalk/assets/select_conversation_dark.svg');
+}
+/* _content/Umbler.UTalk.App/Pages/Chat/InternalWidget/ChatInstanceWidget.razor.rz.scp.css */
+.widget-root[b-3kbr6ncb5f] {
+    position: fixed;
+    inset: 20px;
+    pointer-events: none;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    z-index: 100;
+}
+
+@media (max-width: 576px) {
+    .widget-root.open[b-3kbr6ncb5f] {
+        inset: 0
+    }
+
+        .widget-root.open .widget-inner[b-3kbr6ncb5f] {
+            width: 100%;
+            height: 100%;
+            border-radius: 0
+        }
+
+    [b-3kbr6ncb5f] .widget-inner .chat-instance .compose-bar-default {
+        border-radius: 0 0 0 0 !important;
+    }
+}
+
+.widget-inner[b-3kbr6ncb5f] {
+    width: 500px;
+    height: 800px;
+    max-width: 100%;
+    max-height: 100%;
+    pointer-events: all;
+    box-shadow: 0 0 12px 0 #6668;
+    overflow: hidden;
+}
+
+[b-3kbr6ncb5f] .widget-inner .compose-bar-default {
+    border-radius: 0 0 1.1rem 1.1rem !important;
+}
+
+[b-3kbr6ncb5f] .chat-body {
+    background: url(https://assets.umbler.com/utalk/assets/bg_whats_sample.png);
+}
+
+[data-bs-theme=dark] .card[b-3kbr6ncb5f] {
+    --bs-card-bg: #0a1b23;
+}
+
+[data-bs-theme=dark] .widget-root[b-3kbr6ncb5f]  .compose-bar-default {
+    background-color: #2d383e;
+}
+
+[data-bs-theme=light] .widget-root[b-3kbr6ncb5f]  .chat-header {
+    background-color: #017b6b;
+}
+
+    [data-bs-theme=light] .widget-root[b-3kbr6ncb5f]  .chat-header .contact-header-name,
+    [data-bs-theme=light] .widget-root[b-3kbr6ncb5f]  .chat-actions .btn-icon .ph {
+        color: white;
+    }
+
+[data-bs-theme=light] .widget-root[b-3kbr6ncb5f]  .chat-body {
+    background-color: #e5ddd5;
+}
+
+.widget-root[b-3kbr6ncb5f]  .chat-instance {
+    border-radius: 0 !important;
+}
+
+.widget-root[b-3kbr6ncb5f]  .btn-primary {
+    --bs-btn-bg: #02b099;
+    --bs-btn-hover-bg: #22b9a5;
+    --bs-btn-active-bg: #22b9a5;
+}
+
+.bubble-btn[b-3kbr6ncb5f] {
+    padding: 0;
+    border: none;
+    background: none;
+    pointer-events: all;
+    box-shadow: 0 0 12px 0 #666a;
+    border-radius: 100%;
+}
+/* _content/Umbler.UTalk.App/Pages/Chat/List/ChatCard.razor.rz.scp.css */
+.profile-picture[b-9pyvl1sr38] {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%
+}
+
+.scheduled-message-info i[b-9pyvl1sr38] {
+    padding-top: 10px;
+}
+
+.scheduled-message-info span[b-9pyvl1sr38] {
+    position: relative;
+    left: -5px;
+    padding: 0.4em 0.5em !important;
+    top: -12px;
+    font-weight: bold;
+    font-size: 7px;
+}
+
+.chat-card:hover .dropdown-anchor-icon[b-9pyvl1sr38], .dropdown-anchor-icon.active[b-9pyvl1sr38] {
+    display: block !important;
+}
+
+.chat-card:hover .assign-to-me[b-9pyvl1sr38] {
+    display: block !important;
+}
+/* _content/Umbler.UTalk.App/Pages/Chat/List/ChatFilters.razor.rz.scp.css */
+[b-uvrvcty5zx] .chat-filter-search {
+    border-color: #515151;
+    border-width: 2px;
+    height: 100%;
+}
+
+[b-uvrvcty5zx] .chat-filter-search input {
+    width: 100% !important;
+}
+
+    [b-uvrvcty5zx] .chat-filter-search .dropdown-menu {
+        max-height:300px;
+    }
+    
+    [b-uvrvcty5zx] .chat-filter-search .dropdown-menu .dropdown-item {
+        white-space: normal;
+    }
+
+[b-uvrvcty5zx] .badge-close {
+    padding-left: .4rem;
+}
+/* _content/Umbler.UTalk.App/Pages/Chat/List/ChatList.razor.rz.scp.css */
+[b-npd8kcnrad] .sector-dd .dropdown-item .b-tooltip {
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: auto;
+}
+
+[b-npd8kcnrad] .btn-new-conversation-floating {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  z-index: 1;
+}
+/* _content/Umbler.UTalk.App/Pages/Contacts/Board/BoardCard.razor.rz.scp.css */
+.card[b-utjknyzppt]  .dropdown-anchor {
+    opacity: 0;
+}
+
+.card:hover[b-utjknyzppt]  .dropdown-anchor {
+    opacity: 1;
+}
+/* _content/Umbler.UTalk.App/Pages/Contacts/Board/BoardsPage.razor.rz.scp.css */
+[b-8iw0vbout4] .column{
+    max-width: 16rem;
+    min-width: 16rem;
+}
+
+[b-8iw0vbout4] .column-error {
+    max-width: 20rem;
+    min-width: 20rem;
+}
+/* _content/Umbler.UTalk.App/Pages/Contacts/Board/Sidebar.razor.rz.scp.css */
+[b-mq22epcnl5] .btn-item .dropdown-anchor {
+    opacity: 0;
+}
+
+[b-mq22epcnl5] .btn-item:hover .dropdown-anchor {
+    opacity: 1;
+}
+
+[b-mq22epcnl5] .btn-item {
+    --bs-btn-border-color: #8883;
+    --bs-btn-hover-border-color: var(--bs-btn-border-color);
+    --bs-btn-active-border-color: var(--bs-btn-border-color);
+}
+
+    [b-mq22epcnl5] .btn-item.active {
+        --bs-btn-active-border-color: var(--blue-primary);
+        background-color: #0040ff11;
+    }
+/* _content/Umbler.UTalk.App/Pages/Contacts/Details/ContactDetailsLayout.razor.rz.scp.css */
+[b-jlhsavfgst] .tab-body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* _content/Umbler.UTalk.App/Pages/Settings/Agents/MemberPermissionDropdown.razor.rz.scp.css */
+[b-qx1x8lnf9r] .anchor-btn {
+    border-color: transparent !important;
+}
+/* _content/Umbler.UTalk.App/Pages/Settings/Agents/ReassignDropdown.razor.rz.scp.css */
+[b-q584rqs4ln] .anchor-btn {
+    border-color: transparent !important;
+}
+/* _content/Umbler.UTalk.App/Pages/Settings/AIAgents/Behavior/BehaviorPreviewCard.razor.rz.scp.css */
+.behavior-preview[b-5y40kxk3es] {
+    min-height: 100%;
+}
+
+.behavior-preview__header[b-5y40kxk3es] {
+    padding: 1.5rem 1.5rem 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.behavior-preview__body[b-5y40kxk3es] {
+    padding: 1.75rem 1.5rem 2.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.behavior-preview__message[b-5y40kxk3es] {
+    max-width: 85%;
+    padding: 1rem 1rem 0.75rem;
+    border-radius: 1.25rem;
+}
+
+.behavior-preview__message--contact[b-5y40kxk3es] {
+    align-self: flex-start;
+    background: #34363f;
+}
+
+.behavior-preview__message--agent[b-5y40kxk3es] {
+    align-self: flex-end;
+    background: #243327;
+}
+
+.behavior-preview__message--short[b-5y40kxk3es] {
+    max-width: 74%;
+}
+
+.behavior-preview__text[b-5y40kxk3es] {
+    font-size: 1rem;
+    line-height: 1.45;
+}
+
+.behavior-preview__time[b-5y40kxk3es] {
+    margin-top: 0.35rem;
+    text-align: right;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+/* _content/Umbler.UTalk.App/Pages/Settings/AIAgents/Behavior/BehaviorStep.razor.rz.scp.css */
+.agent-profile[b-hffchadht4]  .upp-buttons {
+    left: 0;
+    bottom: -2rem;
+    transform: scale(1) !important;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.agent-profile[b-hffchadht4]  .upp-buttons button {
+    margin: 0 .25rem 0 .25rem !important;
+}
+/* _content/Umbler.UTalk.App/Pages/Settings/AIAgents/EditAIAgent.razor.rz.scp.css */
+.container[b-f2js39mzbr]  div.tab-body {
+    background: transparent;
+}
+
+.container[b-f2js39mzbr]  .card.dotted {
+    border: dashed 1px #8888;
+}
+
+.container[b-f2js39mzbr]  .card.card-hover:hover {
+    background-color: #8882;
+}
+
+.container[b-f2js39mzbr]  .steps-content {
+    margin: 0;
+}
+
+.container[b-f2js39mzbr]  .bottom-buttons {
+    border-radius: .25rem;
+    background-color: var(--bs-card-bg);
+}
+
+.container[b-f2js39mzbr]  .step-tabs-selector {
+    align-self: center;
+    width: 95%;
+}
+
+.container[b-f2js39mzbr]  .main-title {
+    margin: 40px 0;
+}
+
+.container > .card[b-f2js39mzbr] {
+    border-radius: .25rem;
+    border: none;
+}
+
+.container[b-f2js39mzbr]  .ratings-badge {
+    background-color: #b4e58e7a !important;
+    padding: 0.25rem 0.75rem;
+    border: none;
+    border-radius: .35rem;
+}
+
+.container[b-f2js39mzbr]  .table-bulk-actions {
+    bottom: 106px !important;
+}
+
+[data-bs-theme=light] .container[b-f2js39mzbr]  .ratings-badge {
+    color: black;
+}
+
+[data-bs-theme=light] .container[b-f2js39mzbr]  .btn.btn-secondary:disabled {
+    background-color: #f5f5f5;
+    border-color: #dcdcdc;
+    color: #c2c2c2;
+}
+
+.container[b-f2js39mzbr]  .stages-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+}
+
+
+
+.container[b-f2js39mzbr]  .stages-grid .stage-card-item {
+    width: 100%;
+}
+
+.container[b-f2js39mzbr]  .ai-agent-preview-shell {
+    border: none;
+    overflow: hidden;
+}
+
+.container[b-f2js39mzbr]  .behavior-step-header .steps-collection {
+    width: fit-content;
+    max-width: 100%;
+}
+
+.container[b-f2js39mzbr]  .behavior-step-header .step-item {
+    flex: 0 0 auto;
+}
+
+@media (min-width: 1200px) {
+    .container[b-f2js39mzbr]  .ai-agent-preview-shell {
+        position: sticky;
+        top: 1rem;
+    }
+}
+/* _content/Umbler.UTalk.App/Pages/Settings/AIAgents/Profile/ChooseLLM.razor.rz.scp.css */
+@media (min-width: 992px) {
+    .llm-options[b-x80azvljya]  .llm-option:not(:first-child) {
+        border-left: solid 1px #8882;
+    }
+}
+
+@media (max-width: 991px) {
+    .llm-options[b-x80azvljya]  .llm-option:not(:first-child) {
+        border-top: solid 1px #8882;
+    }
+}
+/* _content/Umbler.UTalk.App/Pages/Settings/AIAgents/Profile/LLMOption.razor.rz.scp.css */
+.free-credits-badge[b-700gwdjmz4] {
+    background-color: #b4e58e7a !important;
+    padding: 0.25rem 0.75rem;
+    border: none;
+    border-radius: .35rem;
+}
+
+.gpt3p5_turbo .llm-description[b-700gwdjmz4] {
+    color: #3b9e27;
+}
+
+.gpt4_o .llm-description[b-700gwdjmz4] {
+    color: #722fcc;
+}
+
+[data-bs-theme=dark] .gpt4_o .llm-description[b-700gwdjmz4] {
+    color: #a35fff;
+}
+/* _content/Umbler.UTalk.App/Pages/Settings/AIAgents/Training/QAndATraining.razor.rz.scp.css */
+.inputs-spread[b-oxjvfekfyd]  .form-group {
+    height: 100%;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.inputs-spread[b-oxjvfekfyd]  .form-group textarea{
+    flex-grow: 1;
+    resize: none;
+}
+/* _content/Umbler.UTalk.App/Pages/Settings/Channels/Edit/WebsiteWidget/ColorPicker.razor.rz.scp.css */
+.presets[b-aahxqjuwmv] {
+    overflow-x: auto;
+    width: 100%;
+    padding: 16px;
+}
+
+.preset[b-aahxqjuwmv] {
+    min-width: 48px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 0 8px 0 #8885;
+}
+
+.preset.active[b-aahxqjuwmv] {
+    outline: 2px solid #6076eb;
+    outline-offset: 8px;
+}
+
+@media (max-width: 768px) {
+    .preset[b-aahxqjuwmv] {
+        min-width: 32px;
+        width: 32px;
+        height: 32px;
+    }
+
+        .preset.active[b-aahxqjuwmv] {
+            outline: 2px solid #6076eb;
+            outline-offset: 4px;
+        }
+}
+
+[data-bs-theme=dark] *[b-aahxqjuwmv]  .bulb-light {
+    font-family: "Phosphor-Fill" !important;
+}
+
+[data-bs-theme=light] *[b-aahxqjuwmv]  .bulb-dark {
+    font-family: "Phosphor-Fill" !important;
+}
+/* _content/Umbler.UTalk.App/Pages/Settings/Channels/Edit/WebsiteWidget/EditWebsiteWidgetChannel.razor.rz.scp.css */
+.container[b-pmaynyxy7k] {
+    max-width: 826px !important;
+}
+/* _content/Umbler.UTalk.App/Pages/Settings/Channels/Edit/WebsiteWidget/WidgetProfile.razor.rz.scp.css */
+.profile-image[b-6yy9bxqw2f] {
+    overflow-x: auto;
+    height: 72px;
+}
+
+.preset[b-6yy9bxqw2f] {
+    min-width: 32px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px 0 #8885;
+}
+
+[b-6yy9bxqw2f] .upp-buttons {
+    right: -16px;
+    bottom: -6px;
+}
+
+    [b-6yy9bxqw2f] .upp-buttons button.btn {
+        width: 32px;
+        height: 32px;
+    }
+/* _content/Umbler.UTalk.App/Pages/Settings/ScheduledMessages/Calendar/ScheduledMessagesCalendar.razor.rz.scp.css */
+[b-teo3mwqtk4].badge-appointment {
+    display: inline-flex;
+    height: 16px;
+    min-width: 16px;
+    padding: 0px 4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid #FFF;
+    background: rgba(0, 0, 0, 0.45);
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+[b-teo3mwqtk4].appointment-name-ellipsis {
+    text-overflow: ellipsis;
+    max-width: 72px;
+    overflow: hidden;
+    display: inline-block;
+}
+/* _content/Umbler.UTalk.App/Shared/Components/FeatureList.razor.rz.scp.css */
+div[b-t325acqpea] {
+    align-self: stretch;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
+ul[b-t325acqpea] {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+/* _content/Umbler.UTalk.App/Shared/Components/FloatingContent.razor.rz.scp.css */
+div[b-d1ow015yva] {
+    position: fixed;
+    top: 10vh;
+    right: 5vw;
+    left: 5vw;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+[b-d1ow015yva] * {
+    pointer-events: auto;
+}
+/* _content/Umbler.UTalk.App/Shared/Components/FreeTrialProgress.razor.rz.scp.css */
+.progress[b-1jnuspzvkq] {
+  font-size: 0;
+}
+
+.progress[b-1jnuspzvkq]::after {
+  content: attr(data-progress);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 4px;
+  border-radius: 50%;
+  text-align: center;
+  line-height:normal;
+}
+
+.font-progress-normal[b-1jnuspzvkq]::after {
+    font-size: 1rem;
+}
+
+.font-progress-small[b-1jnuspzvkq]::after {
+    font-size: 8px;
+}
+.base-circle[b-1jnuspzvkq] {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.circle-complet-sucess[b-1jnuspzvkq] {
+  border: 4px solid #389e0d;
+}
+
+[data-bs-theme=dark] .progress[b-1jnuspzvkq] {
+    background: conic-gradient(#389e0d var(--progress), #222222 0deg);
+    color: #389e0d;
+    font-weight: 600;
+}
+
+[data-bs-theme=light] .progress[b-1jnuspzvkq] {
+    background: conic-gradient(#389e0d var(--progress), rgba(0, 0, 0, 0.06) 0deg);
+    color: #389e0d;
+    font-weight: 600;
+}
+
+[data-bs-theme=dark] .progress[b-1jnuspzvkq]::after {
+  background: #2a2e32;
+}
+
+[data-bs-theme=light] .progress[b-1jnuspzvkq]::after {
+  background: white;
+}
+
+[b-1jnuspzvkq] .text-success-dark {
+  color: #389e0d;
+}
+/* _content/Umbler.UTalk.App/Shared/Components/MemberList.razor.rz.scp.css */
+[b-s9rhqaie0u] img, .extra-members[b-s9rhqaie0u] {
+    margin-left: -3px;
+}
+
+.extra-members[b-s9rhqaie0u] {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+[data-bs-theme=dark] .extra-members[b-s9rhqaie0u] {
+    background-color: #7A7A7A;
+}
+
+[data-bs-theme=light] .extra-members[b-s9rhqaie0u] {
+    
+    background-color: #f0f4ff;
+}
+
+[b-s9rhqaie0u] .extra-members i {
+    font-size: .5rem;
+}
+/* _content/Umbler.UTalk.App/Shared/MainLayout.razor.rz.scp.css */
+.page[b-iqzekqnlgu] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.main[b-iqzekqnlgu] {
+    flex: 1;
+}
+
+.sidebar[b-iqzekqnlgu] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-iqzekqnlgu] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-iqzekqnlgu]  a, .top-row .btn-link[b-iqzekqnlgu] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-iqzekqnlgu] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-iqzekqnlgu] {
+        display: none;
+    }
+
+    .top-row.auth[b-iqzekqnlgu] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-iqzekqnlgu], .top-row .btn-link[b-iqzekqnlgu] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-iqzekqnlgu] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-iqzekqnlgu] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-iqzekqnlgu] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .main > div[b-iqzekqnlgu] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* _content/Umbler.UTalk.App/Shared/Sidebar/Notifications/AnnouncementNotification.razor.rz.scp.css */
+.embedded-html[b-fnqd7u5rdx]  img {
+    width: 100%;
+    height: auto;
+    border-radius: .5rem;
+}
+
+.embedded-html[b-fnqd7u5rdx]  img[title] {
+    height: 24px;
+    width: auto;
+}
+
+.embedded-html[b-fnqd7u5rdx]  div strong a div {
+    display: none;
+}
+
+.embedded-html[b-fnqd7u5rdx]  table {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.embedded-html[b-fnqd7u5rdx]  table tbody tr {
+    border-top: 1px solid #8883;
+}
+
+.embedded-html[b-fnqd7u5rdx]  aside {
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    background: #557cf229;
+}
+
+.embedded-html[b-fnqd7u5rdx]  aside header {
+    margin-bottom: .5rem;
+}
+
+.embedded-html[b-fnqd7u5rdx]  aside header img {
+    width: 16px;
+    height: auto;
+    border-radius: 3px;
+}
+
+.embedded-html[b-fnqd7u5rdx]  aside article p {
+    margin: 0;
+}
+
+.embedded-html[b-fnqd7u5rdx]  aside article h3 {
+    font-size: 1.25rem;
+}
+
+.embedded-html[b-fnqd7u5rdx]  aside article img {
+    max-width: 128px;
+    max-height: 128px;
+    float: left;
+    margin-right: 1rem;
+}
+/* _content/Umbler.UTalk.App/Shared/Sidebar/ProfileMenu.razor.rz.scp.css */
+.profile-dropdown[b-9wq9qzk9by]  .dropdown-content {
+    max-width: 21rem;
+    max-height: 95%;
+
+    @media (min-width: 765px) {
+        border-radius: 1rem;[b-9wq9qzk9by]
+    }
+}
+/* _content/Umbler.UTalk.App/Shared/Sidebar/SideBar.razor.rz.scp.css */
+figure[b-9q7gfgppsr] {
+    width: 41.95px;
+    height: 24.52px;
+    margin: 15px 10px 20px 6px;
+}
+/* _content/Umbler.UTalk.App/Shared/Sidebar/SupportOffcanvas.razor.rz.scp.css */
+[b-4yvuab5dnb] .accordion-button h5 {
+    width: 100%;
+}

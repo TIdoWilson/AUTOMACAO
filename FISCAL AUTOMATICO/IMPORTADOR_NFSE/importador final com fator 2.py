@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 import re
 import time
@@ -66,7 +66,7 @@ BOTAO_VIS_APOS_SALVAR_IDX = 13
 
 # pyautogui
 pag.PAUSE = 0.05
-pag.FAILSAFE = True
+pag.FAILSAFE = False
 
 # ======= CONFIG da detecção de campos (topo-direito) =======
 ROI_RIGHT_WIDTH = 560
@@ -597,66 +597,177 @@ def set_text(control: uia.Control, text: str):
     except Exception as e:
         raise RuntimeError(f'Não foi possível escrever no controle {control}: {e}')
 
-def trocar_empresa(win_window, codigo: str, estabelecimento: str, data_ddmmaa: str):
-    if not win_window:
-        raise RuntimeError("Janela do Fiscal não está ativa.")
 
-    L = win_window.left + max(0, win_window.width - ROI_RIGHT_WIDTH)
-    T = win_window.top + ROI_TOP_OFFSET
-    R = win_window.left + win_window.width - 8
-    B = T + ROI_HEIGHT
+def _coletar_campos_por_roi(win_window):
+    """
+    Estrategia estrutural (sem ROI fixa):
+    - varre EditControl com ValuePattern dentro do workspace do Fiscal;
+    - filtra a faixa superior/direita onde ficam empresa, estab e data.
+    """
+    fiscal = _localizar_fiscal_uia()
+    if not fiscal:
+        return []
 
-    xs = [int(L + (R - L) * (i + 0.5) / GRID_COLS) for i in range(GRID_COLS)]
-    ys = [int(T + (B - T) * (j + 0.5) / GRID_ROWS) for j in range(GRID_ROWS)]
+    workspace = bfs_find(
+        fiscal,
+        WORKSPACE_NAME,
+        types=('PaneControl', 'GroupControl', 'DocumentControl'),
+        max_depth=6,
+    ) or fiscal
+
+    right_min = win_window.left + int(win_window.width * 0.55)
+    top_min = win_window.top
+    top_max = win_window.top + max(180, int(win_window.height * 0.22))
 
     candidatos, seen = [], set()
-    for y in ys:
-        for x in xs:
-            try:
-                el = uia.ControlFromPoint(x, y)
-                for _ in range(5):
-                    if not el:
-                        break
-                    if is_edit_candidate(el):
-                        unique_add(candidatos, seen, el)
-                        break
-                    el = el.GetParentControl()
-            except Exception:
-                continue
+    fila = deque([(workspace, 0)])
+    while fila:
+        node, depth = fila.popleft()
+        if depth > 14:
+            continue
+        try:
+            if _tipo(node) == "EditControl" and has_valuepattern(node):
+                r = rect_of(node)
+                if r:
+                    w = max(1, r[2] - r[0])
+                    h = max(1, r[3] - r[1])
+                    if (
+                        r[0] >= right_min
+                        and top_min <= r[1] <= top_max
+                        and 18 <= w <= 180
+                        and 14 <= h <= 44
+                    ):
+                        unique_add(candidatos, seen, node)
+        except Exception:
+            pass
+
+        try:
+            for ch in node.GetChildren():
+                fila.append((ch, depth + 1))
+        except Exception:
+            pass
+
+    return candidatos
+
+
+def _coletar_campos_fallback_sem_roi(win_window):
+    """
+    Fallback para ambiente servidor/console quando a ROI nao encontra campos.
+    """
+    fiscal = _localizar_fiscal_uia()
+    if not fiscal:
+        return []
+
+    left_bound = win_window.left + int(win_window.width * 0.30)
+    top_bound = win_window.top
+    bottom_bound = win_window.top + max(220, int(win_window.height * 0.38))
+
+    candidatos, seen = [], set()
+    fila = deque([(fiscal, 0)])
+    while fila:
+        node, depth = fila.popleft()
+        if depth > 10:
+            continue
+
+        try:
+            if has_valuepattern(node):
+                r = rect_of(node)
+                if r:
+                    w = max(1, r[2] - r[0])
+                    h = max(1, r[3] - r[1])
+                    if (
+                        r[0] >= left_bound
+                        and top_bound <= r[1] <= bottom_bound
+                        and 18 <= w <= 260
+                        and 14 <= h <= 52
+                    ):
+                        unique_add(candidatos, seen, node)
+        except Exception:
+            pass
+
+        try:
+            for ch in node.GetChildren():
+                fila.append((ch, depth + 1))
+        except Exception:
+            pass
+
+    return candidatos
+
+
+def trocar_empresa(win_window, codigo: str, estabelecimento: str, data_ddmmaa: str):
+    if not win_window:
+        raise RuntimeError("Janela do Fiscal nao esta ativa.")
+
+    candidatos = _coletar_campos_por_roi(win_window)
+    if not candidatos:
+        print("[AVISO] Busca estrutural nao encontrou campos; tentando fallback amplo...")
+        candidatos = _coletar_campos_fallback_sem_roi(win_window)
 
     if not candidatos:
-        raise RuntimeError("Não encontrei campos na ROI. Ajuste ROI_*.")
+        raise RuntimeError("Nao encontrei campos para troca de empresa (ROI e fallback falharam).")
 
     filtrados, seen2 = [], set()
     for c in candidatos:
-        if is_edit_candidate(c):
+        if has_valuepattern(c):
             unique_add(filtrados, seen2, c)
 
     filtrados.sort(key=lambda c: (rect_of(c)[1], rect_of(c)[0]))
     if len(filtrados) < 2:
         raise RuntimeError("Poucos campos encontrados para empresa/estab/data.")
 
-    campo_data = None
-    restantes = []
+    # Prioridade: detectar coluna vertical com 3 campos (empresa, estab, data).
+    campo_codigo, campo_estab, campo_data = (None, None, None)
+    tolerancia_x = 30
+    colunas = {}
     for c in filtrados:
-        v = read_value(c)
-        if is_date_like(v):
-            campo_data = c
-        else:
-            restantes.append(c)
-    if not campo_data:
-        mesma_linha = [c for c in filtrados if abs(rect_of(c)[1]-rect_of(filtrados[0])[1]) <= 10]
-        campo_data = sorted(mesma_linha, key=lambda c: rect_of(c)[0])[-1]
+        r = rect_of(c)
+        if not r:
+            continue
+        x = r[0]
+        chave = None
+        for k in colunas.keys():
+            if abs(x - k) <= tolerancia_x:
+                chave = k
+                break
+        if chave is None:
+            chave = x
+            colunas[chave] = []
+        colunas[chave].append(c)
 
-    if len(restantes) < 2:
-        restantes = [c for c in filtrados if c is not campo_data]
-    restantes.sort(key=lambda c: (rect_of(c)[1], rect_of(c)[0]))
-    campo_codigo, campo_estab = restantes[0], (restantes[1] if len(restantes) > 1 else None)
+    if colunas:
+        chave_principal = max(colunas.keys(), key=lambda k: len(colunas[k]))
+        pilha = sorted(colunas[chave_principal], key=lambda c: rect_of(c)[1])
+        if len(pilha) >= 3:
+            campo_codigo = pilha[0]
+            campo_estab = pilha[1]
+            campo_data = pilha[2]
 
-    # preencher + ENTERs entre empresa e estab
+    # Fallback: heurística por valor de data e ordenação.
+    if not campo_data or not campo_codigo:
+        campo_data = None
+        restantes = []
+        for c in filtrados:
+            v = read_value(c)
+            if is_date_like(v):
+                campo_data = c
+            else:
+                restantes.append(c)
+
+        if not campo_data:
+            mesma_linha = [c for c in filtrados if abs(rect_of(c)[1] - rect_of(filtrados[0])[1]) <= 12]
+            campo_data = sorted(mesma_linha, key=lambda c: rect_of(c)[0])[-1]
+
+        if len(restantes) < 2:
+            restantes = [c for c in filtrados if c is not campo_data]
+        restantes.sort(key=lambda c: (rect_of(c)[1], rect_of(c)[0]))
+        campo_codigo = restantes[0]
+        campo_estab = restantes[1] if len(restantes) > 1 else None
+
     set_text(campo_codigo, codigo)
-    try: campo_codigo.SetFocus()
-    except: pass
+    try:
+        campo_codigo.SetFocus()
+    except Exception:
+        pass
     uia.SendKeys('{Enter}')
     uia.SendKeys('{Enter}')
     time.sleep(1.0)
@@ -1909,3 +2020,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+

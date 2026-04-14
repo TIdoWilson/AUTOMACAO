@@ -1,27 +1,50 @@
 from __future__ import annotations
 
 import argparse
+from datetime import date
+from difflib import SequenceMatcher
+from itertools import combinations
 import re
 import unicodedata
 from pathlib import Path
 
 import pandas as pd
+from openpyxl import Workbook
+from openpyxl.styles import Alignment, Font, PatternFill
+from openpyxl.utils import get_column_letter
 
 
-MONTHS_PT = {
-    "janeiro": 1,
-    "fevereiro": 2,
-    "marco": 3,
-    "abril": 4,
-    "maio": 5,
-    "junho": 6,
-    "julho": 7,
-    "agosto": 8,
-    "setembro": 9,
-    "outubro": 10,
-    "novembro": 11,
-    "dezembro": 12,
-}
+SHEET_BANCOS = "somente bancos"
+SHEET_RECEBIMENTOS = "somente recebimentos"
+
+OUTPUT_COLUMNS_BANCOS = [
+    "data referencial",
+    "valor referencial",
+    "bancos origem",
+    "bancos conta contrapartida",
+    "bancos detalhes",
+]
+
+OUTPUT_COLUMNS_RECEB = [
+    "data referencial",
+    "valor referencial",
+    "receb banco",
+    "receb numero nf",
+    "receb clientes",
+    "receb valor liquido",
+]
+
+DATE_NUMBER_FORMAT = "dd/mm/yyyy"
+VALUE_NUMBER_FORMAT = "#,##0.00"
+VALUE_TOLERANCE = 0.05
+MULTI_PERNA_MAX_SIZE = 10
+MULTI_PERNA_MAX_CANDIDATES = 20
+SIMILARITY_THRESHOLD = 0.50
+
+HEADER_FILL = PatternFill("solid", fgColor="1F4E78")
+HEADER_FONT = Font(color="FFFFFF", bold=True)
+YELLOW_FILL = PatternFill("solid", fgColor="FFF2CC")
+GRAY_FILL = PatternFill("solid", fgColor="E7E6E6")
 
 
 def normalize_text(value: object) -> str:
@@ -29,42 +52,85 @@ def normalize_text(value: object) -> str:
     text = unicodedata.normalize("NFKD", text)
     text = "".join(ch for ch in text if not unicodedata.combining(ch))
     text = text.lower().strip()
-    return " ".join(text.split())
+    text = " ".join(text.split())
+    return "" if text in {"nan", "none", "nat", "null"} else text
 
 
 def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
     return df.rename(columns={c: normalize_text(c) for c in df.columns})
 
 
-def extract_period_from_filename(path: Path) -> tuple[int, int]:
-    normalized_name = normalize_text(path.stem).replace("-", ".").replace("_", ".")
+def series_or_empty(df: pd.DataFrame, column: str) -> pd.Series:
+    if column in df.columns:
+        return df[column]
+    return pd.Series("", index=df.index)
 
-    month = None
-    for month_name, month_number in MONTHS_PT.items():
-        if re.search(rf"\b{month_name}\b", normalized_name):
-            month = month_number
-            break
 
-    if month is not None:
-        date_match = re.search(r"\b\d{1,2}[./]\d{1,2}[./](20\d{2})\b", normalized_name)
-        if date_match:
-            year = int(date_match.group(1))
-            return year, month
+def normalize_match_text(value: object) -> str:
+    text = normalize_text(value)
+    return re.sub(r"[^a-z0-9]+", " ", text).strip()
 
-        years = re.findall(r"\b(20\d{2})\b", normalized_name)
-        if years:
-            return int(years[-1]), month
 
-        raise ValueError(f"Nao foi possivel identificar o ano no nome do arquivo: {path.name}")
+def join_text_parts(*parts: object) -> str:
+    normalized_parts = [normalize_text(part) for part in parts if normalize_text(part)]
+    return " ".join(normalized_parts).strip()
 
-    num_match = re.search(r"(?<!\d)(0?[1-9]|1[0-2])[./](20\d{2})(?!\d)", normalized_name)
-    if num_match:
-        month = int(num_match.group(1))
-        year = int(num_match.group(2))
-        return year, month
 
-    raise ValueError(f"Nao foi possivel identificar o mes/ano no nome do arquivo: {path.name}")
+def join_display_parts(*parts: object) -> str:
+    display_parts = []
+    for part in parts:
+        text = "" if part is None else str(part).strip()
+        if normalize_text(text):
+            display_parts.append(text)
+    return " ".join(display_parts).strip()
 
+
+def fallback_text(primary: object, *parts: object) -> str:
+    primary_text = normalize_text(primary)
+    if primary_text:
+        return str(primary).strip()
+    fallback = join_display_parts(*parts)
+    return fallback
+
+
+def text_similarity(left: object, right: object) -> float:
+    left_text = normalize_match_text(left)
+    right_text = normalize_match_text(right)
+    if not left_text or not right_text:
+        return 0.0
+
+    ratio = SequenceMatcher(None, left_text, right_text).ratio()
+
+    if left_text in right_text or right_text in left_text:
+        ratio = max(ratio, 0.90)
+
+    left_tokens = {token for token in left_text.split() if len(token) >= 3}
+    right_tokens = {token for token in right_text.split() if len(token) >= 3}
+    if left_tokens and right_tokens:
+        token_score = len(left_tokens & right_tokens) / len(left_tokens | right_tokens)
+        ratio = max(ratio, token_score)
+
+    return ratio
+
+
+def text_matches_receita_reembolsavel(text: object) -> bool:
+    normalized = normalize_match_text(text)
+    if not normalized:
+        return False
+
+    if "receit" in normalized and "reembols" in normalized:
+        return True
+
+    return SequenceMatcher(None, normalized, "receitas reembolsaveis").ratio() >= 0.72
+
+
+def looks_like_account_only(text: object) -> bool:
+    normalized = normalize_text(text)
+    if not normalized:
+        return False
+
+    compact = re.sub(r"[\s\-]+", "", normalized)
+    return bool(re.fullmatch(r"\d+(?:\.\d+){3,}", compact))
 
 
 def select_input_file(title: str, initial_dir: Path, filetypes: list[tuple[str, str]]) -> Path:
@@ -85,6 +151,44 @@ def select_input_file(title: str, initial_dir: Path, filetypes: list[tuple[str, 
         raise SystemExit("Selecao de arquivo cancelada pelo usuario.")
 
     return Path(selected)
+
+
+def select_processing_period() -> tuple[int, int]:
+    import tkinter as tk
+    from tkinter import simpledialog
+
+    today = date.today()
+
+    root = tk.Tk()
+    root.withdraw()
+    root.attributes("-topmost", True)
+
+    try:
+        month = simpledialog.askinteger(
+            title="Periodo de processamento",
+            prompt="Informe o mes de processamento (1-12):",
+            parent=root,
+            minvalue=1,
+            maxvalue=12,
+            initialvalue=today.month,
+        )
+        if month is None:
+            raise SystemExit("Selecao do mes de processamento cancelada pelo usuario.")
+
+        year = simpledialog.askinteger(
+            title="Periodo de processamento",
+            prompt="Informe o ano de processamento (AAAA):",
+            parent=root,
+            minvalue=2000,
+            maxvalue=2100,
+            initialvalue=today.year,
+        )
+        if year is None:
+            raise SystemExit("Selecao do ano de processamento cancelada pelo usuario.")
+    finally:
+        root.destroy()
+
+    return year, month
 
 
 def select_output_file(title: str, initial_dir: Path, default_filename: str) -> Path:
@@ -149,11 +253,11 @@ def prepare_bancos_itau(path: Path, year: int, month: int) -> pd.DataFrame:
 
     df["data_lancamento"] = pd.to_datetime(df["data de lancamento"], errors="coerce")
     df["valor"] = pd.to_numeric(df["c/d (ml)"], errors="coerce").round(2)
-    df["detalhes"] = df.get("detalhes", "")
-    df["origem"] = df.get("origem", "")
-    df["no_transacao"] = df.get("no transacao", "")
-    df["no_origem"] = df.get("no origem", "")
-    df["conta_contrapartida"] = df.get("conta de contrapartida", "")
+    df["detalhes"] = series_or_empty(df, "detalhes")
+    df["origem"] = series_or_empty(df, "origem")
+    df["no_transacao"] = series_or_empty(df, "no transacao")
+    df["no_origem"] = series_or_empty(df, "no origem")
+    df["conta_contrapartida"] = series_or_empty(df, "conta de contrapartida")
 
     filtered = df[
         (df["data_lancamento"].dt.year == year)
@@ -161,18 +265,53 @@ def prepare_bancos_itau(path: Path, year: int, month: int) -> pd.DataFrame:
         & (df["valor"] > 0)
     ].copy()
 
-    filtered["data"] = filtered["data_lancamento"].dt.normalize()
-    filtered["valor"] = filtered["valor"].round(2)
+    filtered["data referencial"] = filtered["data_lancamento"].dt.normalize()
+    filtered["valor referencial"] = filtered["valor"].round(2)
+    filtered["bancos origem"] = filtered["origem"].fillna("").astype(str)
+    filtered["bancos conta contrapartida"] = filtered["conta_contrapartida"].fillna("").astype(str)
+    filtered["bancos detalhes"] = filtered["detalhes"].fillna("").astype(str)
+    filtered["bancos no transacao"] = filtered["no_transacao"].fillna("").astype(str)
+    filtered["bancos no origem"] = filtered["no_origem"].fillna("").astype(str)
+    filtered["bancos detalhes"] = filtered.apply(
+        lambda row: fallback_text(
+            row["bancos detalhes"],
+            row["bancos origem"],
+            f"Nº transacao {row['bancos no transacao']}" if normalize_text(row["bancos no transacao"]) else "",
+            f"Nº origem {row['bancos no origem']}" if normalize_text(row["bancos no origem"]) else "",
+            row["bancos conta contrapartida"],
+        ),
+        axis=1,
+    )
+    filtered["bancos historico"] = (
+        filtered["bancos origem"]
+        + " "
+        + filtered["bancos conta contrapartida"]
+        + " "
+        + filtered["bancos detalhes"]
+        + " "
+        + filtered["bancos no transacao"]
+        + " "
+        + filtered["bancos no origem"]
+    ).map(normalize_match_text)
+    filtered["bancos match_text"] = (
+        filtered["bancos origem"] + " " + filtered["bancos detalhes"] + " " + filtered["bancos no origem"]
+    ).map(normalize_match_text)
+    filtered["bancos reembolsavel"] = filtered["bancos detalhes"].map(text_matches_receita_reembolsavel)
+    filtered["bancos conta numerica"] = filtered["bancos conta contrapartida"].map(looks_like_account_only)
 
     return filtered[
         [
-            "data",
-            "valor",
-            "no_transacao",
-            "no_origem",
-            "origem",
-            "conta_contrapartida",
-            "detalhes",
+            "data referencial",
+            "valor referencial",
+            "bancos origem",
+            "bancos conta contrapartida",
+            "bancos detalhes",
+            "bancos no transacao",
+            "bancos no origem",
+            "bancos historico",
+            "bancos match_text",
+            "bancos reembolsavel",
+            "bancos conta numerica",
         ]
     ]
 
@@ -191,157 +330,272 @@ def prepare_recebimentos(path: Path, year: int, month: int) -> pd.DataFrame:
     if missing:
         raise ValueError(f"Colunas obrigatorias ausentes em {path.name}: {missing}")
 
-    df["data"] = parse_excel_date_column(df["data recebimento"]).dt.normalize()
-    df["valor"] = pd.to_numeric(df["valor recebido (r$)"], errors="coerce").round(2)
+    df["data referencial"] = parse_excel_date_column(df["data recebimento"]).dt.normalize()
+    df["valor referencial"] = pd.to_numeric(df["valor recebido (r$)"], errors="coerce").round(2)
     df["banco"] = df["banco"].astype(str)
 
     filtered = df[
-        (df["data"].dt.year == year)
-        & (df["data"].dt.month == month)
-        & (df["valor"].notna())
+        (df["data referencial"].dt.year == year)
+        & (df["data referencial"].dt.month == month)
+        & (df["valor referencial"].notna())
         & (df["banco"].str.contains("itau", case=False, na=False))
     ].copy()
 
-    filtered["numero_nf"] = filtered.get("numero nf", "")
-    filtered["clientes"] = filtered.get("clientes", "")
-    filtered["valor_liquido"] = pd.to_numeric(filtered.get("valor liquido (r$)"), errors="coerce")
+    filtered["receb banco"] = filtered["banco"].fillna("").astype(str)
+    filtered["receb numero nf"] = series_or_empty(filtered, "numero nf").fillna("").astype(str)
+    filtered["receb clientes"] = series_or_empty(filtered, "clientes").fillna("").astype(str)
+    filtered["receb clientes"] = filtered.apply(
+        lambda row: fallback_text(
+            row["receb clientes"],
+            row["receb numero nf"],
+            row["receb banco"],
+        ),
+        axis=1,
+    )
+    filtered["receb valor liquido"] = pd.to_numeric(series_or_empty(filtered, "valor liquido (r$)"), errors="coerce")
+    filtered["receb historico"] = (
+        filtered["receb banco"] + " " + filtered["receb numero nf"] + " " + filtered["receb clientes"]
+    ).map(normalize_match_text)
+    filtered["receb match_text"] = (
+        filtered["receb clientes"] + " " + filtered["receb numero nf"] + " " + filtered["receb banco"]
+    ).map(normalize_match_text)
 
     return filtered[
         [
-            "data",
-            "valor",
-            "banco",
-            "numero_nf",
-            "clientes",
-            "valor_liquido",
+            "data referencial",
+            "valor referencial",
+            "receb banco",
+            "receb numero nf",
+            "receb clientes",
+            "receb valor liquido",
+            "receb historico",
+            "receb match_text",
         ]
     ]
 
 
-def conciliate(
-    bancos_df: pd.DataFrame, receb_df: pd.DataFrame, year: int, month: int
-) -> tuple[pd.DataFrame, pd.DataFrame]:
-    bancos = bancos_df.copy()
-    receb = receb_df.copy()
+def mark_exact_matches(bancos: pd.DataFrame, receb: pd.DataFrame) -> None:
+    bancos_sorted = bancos.sort_values(["data referencial", "valor referencial"], na_position="last").copy()
+    receb_sorted = receb.sort_values(["data referencial", "valor referencial"], na_position="last").copy()
 
-    bancos = bancos.sort_values(["data", "valor", "no_transacao"], na_position="last").reset_index(drop=True)
-    receb = receb.sort_values(["data", "valor", "numero_nf"], na_position="last").reset_index(drop=True)
-
-    bancos["_chave"] = bancos["data"].dt.strftime("%Y-%m-%d") + "|" + bancos["valor"].map(lambda x: f"{x:.2f}")
-    receb["_chave"] = receb["data"].dt.strftime("%Y-%m-%d") + "|" + receb["valor"].map(lambda x: f"{x:.2f}")
-
-    bancos["_ord"] = bancos.groupby("_chave").cumcount()
-    receb["_ord"] = receb.groupby("_chave").cumcount()
-
-    bancos_pref = bancos.add_prefix("bancos_")
-    receb_pref = receb.add_prefix("receb_")
-
-    merged = bancos_pref.merge(
-        receb_pref,
-        left_on=["bancos__chave", "bancos__ord"],
-        right_on=["receb__chave", "receb__ord"],
-        how="outer",
-        indicator=True,
+    bancos_sorted["_key"] = bancos_sorted["data referencial"].dt.strftime("%Y-%m-%d") + "|" + bancos_sorted[
+        "valor referencial"
+    ].map(
+        lambda value: f"{value:.2f}"
+    )
+    receb_sorted["_key"] = receb_sorted["data referencial"].dt.strftime("%Y-%m-%d") + "|" + receb_sorted[
+        "valor referencial"
+    ].map(
+        lambda value: f"{value:.2f}"
     )
 
-    merged["status"] = merged["_merge"].map(
-        {
-            "both": "EM AMBAS",
-            "left_only": "SOMENTE BANCOS SW",
-            "right_only": "SOMENTE STURMER RECEBIMENTOS",
-        }
+    bancos_sorted["_ord"] = bancos_sorted.groupby("_key").cumcount()
+    receb_sorted["_ord"] = receb_sorted.groupby("_key").cumcount()
+
+    matches = bancos_sorted.reset_index().merge(
+        receb_sorted.reset_index(),
+        on=["_key", "_ord"],
+        suffixes=("_b", "_r"),
+        how="inner",
     )
 
-    merged["data_referencia"] = merged["bancos_data"].fillna(merged["receb_data"])
-    merged["valor_referencia"] = merged["bancos_valor"].fillna(merged["receb_valor"])
-    merged["periodo"] = f"{year:04d}-{month:02d}"
+    bancos.loc[matches["index_b"], "_matched"] = True
+    receb.loc[matches["index_r"], "_matched"] = True
 
-    ordered_columns = [
-        "periodo",
-        "status",
-        "data_referencia",
-        "valor_referencia",
-        "bancos_no_transacao",
-        "bancos_no_origem",
-        "bancos_origem",
-        "bancos_conta_contrapartida",
-        "bancos_detalhes",
-        "receb_banco",
-        "receb_numero_nf",
-        "receb_clientes",
-        "receb_valor_liquido",
-    ]
 
-    comparison = merged[ordered_columns].sort_values(
-        ["status", "data_referencia", "valor_referencia"], na_position="last"
-    )
+def find_best_multi_perna_match(
+    bank_row: pd.Series, candidate_receb: pd.DataFrame
+) -> tuple[list[int], float] | None:
+    if candidate_receb.shape[0] < 2:
+        return None
 
-    summary = pd.DataFrame(
+    bank_value = float(bank_row["valor referencial"])
+    bank_history = bank_row["bancos match_text"]
+
+    candidate_receb = candidate_receb.copy()
+    candidate_receb["_similaridade"] = candidate_receb["receb match_text"].map(lambda text: text_similarity(bank_history, text))
+    candidate_receb = candidate_receb.sort_values(
+        ["_similaridade", "valor referencial"], ascending=[False, False], na_position="last"
+    ).head(MULTI_PERNA_MAX_CANDIDATES)
+
+    best_indices: list[int] | None = None
+    best_score = 0.0
+    best_diff = None
+
+    max_size = min(MULTI_PERNA_MAX_SIZE, candidate_receb.shape[0])
+    for size in range(2, max_size + 1):
+        for combo in combinations(candidate_receb.index.tolist(), size):
+            combo_total = float(candidate_receb.loc[list(combo), "valor referencial"].sum())
+            diff = abs(combo_total - bank_value)
+            if diff > VALUE_TOLERANCE:
+                continue
+
+            combo_text = " ".join(candidate_receb.loc[list(combo), "receb match_text"].astype(str).tolist())
+            score = max(text_similarity(bank_history, combo_text), float(candidate_receb.loc[list(combo), "_similaridade"].mean()))
+            if score < SIMILARITY_THRESHOLD:
+                continue
+
+            if best_indices is None:
+                best_indices = list(combo)
+                best_score = score
+                best_diff = diff
+                continue
+
+            assert best_diff is not None
+            if score > best_score or (score == best_score and (diff < best_diff or (diff == best_diff and len(combo) < len(best_indices)))):
+                best_indices = list(combo)
+                best_score = score
+                best_diff = diff
+
+    if best_indices is None:
+        return None
+
+    return best_indices, best_score
+
+
+def conciliate(bancos_df: pd.DataFrame, receb_df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
+    bancos = bancos_df.copy().reset_index(drop=True)
+    receb = receb_df.copy().reset_index(drop=True)
+
+    bancos["_matched"] = False
+    receb["_matched"] = False
+
+    mark_exact_matches(bancos, receb)
+
+    changed = True
+    while changed:
+        changed = False
+        bancos_unmatched = bancos[~bancos["_matched"]].sort_values(
+            ["data referencial", "valor referencial"], ascending=[True, False], na_position="last"
+        )
+
+        for bank_idx, bank_row in bancos_unmatched.iterrows():
+            if bancos.at[bank_idx, "_matched"]:
+                continue
+
+            same_day_receb = receb[
+                (~receb["_matched"])
+                & (receb["data referencial"] == bank_row["data referencial"])
+                & (receb["valor referencial"] <= float(bank_row["valor referencial"]) + VALUE_TOLERANCE)
+            ]
+
+            best = find_best_multi_perna_match(bank_row, same_day_receb)
+            if best is None:
+                continue
+
+            matched_receb_indices, _ = best
+            bancos.at[bank_idx, "_matched"] = True
+            receb.loc[matched_receb_indices, "_matched"] = True
+            changed = True
+
+    bancos_unmatched = bancos[~bancos["_matched"]].copy()
+    receb_unmatched = receb[~receb["_matched"]].copy()
+
+    bancos_output = bancos_unmatched[
         [
-            {
-                "periodo": f"{year:04d}-{month:02d}",
-                "status": status,
-                "quantidade": int(group.shape[0]),
-                "soma_valor": float(group["valor_referencia"].fillna(0).sum()),
-            }
-            for status, group in comparison.groupby("status", dropna=False, observed=False)
+            "data referencial",
+            "valor referencial",
+            "bancos origem",
+            "bancos conta contrapartida",
+            "bancos detalhes",
+            "bancos reembolsavel",
+            "bancos conta numerica",
         ]
-    ).sort_values("status")
+    ].sort_values(["data referencial", "valor referencial"], na_position="last")
 
-    return comparison, summary
+    receb_output = receb_unmatched[
+        [
+            "data referencial",
+            "valor referencial",
+            "receb banco",
+            "receb numero nf",
+            "receb clientes",
+            "receb valor liquido",
+        ]
+    ].sort_values(["data referencial", "valor referencial"], na_position="last")
+
+    return bancos_output, receb_output
 
 
-def save_output(
-    output_path: Path,
-    comparison: pd.DataFrame,
-    summary: pd.DataFrame,
-    bancos_file: Path,
-    receb_file: Path,
+def write_sheet(
+    workbook: Workbook,
+    sheet_name: str,
+    headers: list[str],
+    rows: pd.DataFrame,
+    highlight_mode: str | None = None,
 ) -> None:
-    metadata = pd.DataFrame(
-        [
-            {"campo": "arquivo_bancos_sw", "valor": str(bancos_file)},
-            {"campo": "arquivo_sturmer_recebimentos", "valor": str(receb_file)},
-        ]
-    )
+    worksheet = workbook.create_sheet(title=sheet_name)
+    worksheet.append(headers)
 
-    with pd.ExcelWriter(output_path, engine="openpyxl") as writer:
-        comparison.to_excel(writer, index=False, sheet_name="comparativo")
-        comparison[comparison["status"] == "EM AMBAS"].to_excel(
-            writer, index=False, sheet_name="em_ambas"
-        )
-        comparison[comparison["status"] == "SOMENTE BANCOS SW"].to_excel(
-            writer, index=False, sheet_name="somente_bancos_sw"
-        )
-        comparison[comparison["status"] == "SOMENTE STURMER RECEBIMENTOS"].to_excel(
-            writer, index=False, sheet_name="somente_sturmer"
-        )
-        summary.to_excel(writer, index=False, sheet_name="resumo")
-        metadata.to_excel(writer, index=False, sheet_name="origem_arquivos")
+    for cell in worksheet[1]:
+        cell.fill = HEADER_FILL
+        cell.font = HEADER_FONT
+        cell.alignment = Alignment(horizontal="center", vertical="center")
+
+    for row in rows.to_dict(orient="records"):
+        worksheet.append([row.get(header, "") for header in headers])
+
+    worksheet.freeze_panes = "A2"
+    worksheet.auto_filter.ref = worksheet.dimensions
+
+    for row_cells in worksheet.iter_rows(min_row=2, max_row=worksheet.max_row):
+        for index, header in enumerate(headers, start=1):
+            cell = row_cells[index - 1]
+            if "data referencial" == header:
+                cell.number_format = DATE_NUMBER_FORMAT
+            elif "valor referencial" == header or header == "receb valor liquido":
+                cell.number_format = VALUE_NUMBER_FORMAT
+            cell.alignment = Alignment(vertical="top")
+
+        if highlight_mode == "bancos":
+            row_index = row_cells[0].row - 2
+            source_row = rows.iloc[row_index]
+            fill = None
+            if bool(source_row.get("bancos conta numerica", False)):
+                fill = GRAY_FILL
+            elif bool(source_row.get("bancos reembolsavel", False)):
+                fill = YELLOW_FILL
+
+            if fill is not None:
+                for cell in row_cells:
+                    cell.fill = fill
+
+    widths = {
+        "data referencial": 15,
+        "valor referencial": 16,
+        "bancos origem": 28,
+        "bancos conta contrapartida": 24,
+        "bancos detalhes": 40,
+        "receb banco": 24,
+        "receb numero nf": 18,
+        "receb clientes": 32,
+        "receb valor liquido": 18,
+    }
+    for index, header in enumerate(headers, start=1):
+        worksheet.column_dimensions[get_column_letter(index)].width = widths.get(header, 18)
 
 
-def run(bancos_path: Path, recebimentos_path: Path, output_path: Path | None) -> Path:
-    period_bancos = extract_period_from_filename(bancos_path)
-    period_receb = extract_period_from_filename(recebimentos_path)
+def save_output(output_path: Path, bancos_output: pd.DataFrame, receb_output: pd.DataFrame) -> None:
+    workbook = Workbook()
+    default_sheet = workbook.active
+    workbook.remove(default_sheet)
 
-    if period_bancos != period_receb:
-        raise ValueError(
-            "Os arquivos tem periodos diferentes no nome. "
-            f"Bancos SW: {period_bancos[1]:02d}/{period_bancos[0]} | "
-            f"Sturmer: {period_receb[1]:02d}/{period_receb[0]}"
-        )
+    write_sheet(workbook, SHEET_BANCOS, OUTPUT_COLUMNS_BANCOS, bancos_output, highlight_mode="bancos")
+    write_sheet(workbook, SHEET_RECEBIMENTOS, OUTPUT_COLUMNS_RECEB, receb_output)
 
-    year, month = period_bancos
+    workbook.save(output_path)
 
+
+def run(bancos_path: Path, recebimentos_path: Path, output_path: Path | None, year: int, month: int) -> Path:
     bancos_df = prepare_bancos_itau(bancos_path, year, month)
     receb_df = prepare_recebimentos(recebimentos_path, year, month)
 
-    comparison, summary = conciliate(bancos_df, receb_df, year, month)
+    bancos_output, receb_output = conciliate(bancos_df, receb_df)
 
     if output_path is None:
         output_path = bancos_path.parent / f"COMPARATIVO_ITAU_RECEBIMENTOS_{year:04d}-{month:02d}.xlsx"
 
-    save_output(output_path, comparison, summary, bancos_path, recebimentos_path)
+    save_output(output_path, bancos_output, receb_output)
     return output_path
 
 
@@ -387,18 +641,16 @@ def main() -> None:
     recebimentos_path = args.recebimentos
     if recebimentos_path is None:
         recebimentos_path = select_input_file(
-            title="Selecione a planilha STURMER RECEBIMENTOS",
+            title="Selecione a planilha de recebimentos",
             initial_dir=bancos_path.parent,
             filetypes=[("Planilhas Excel Binarias", "*.xlsb"), ("Todos os arquivos", "*.*")],
         )
 
+    year, month = select_processing_period()
+
     output_path = args.saida
     if output_path is None:
-        try:
-            year, month = extract_period_from_filename(bancos_path)
-            default_name = f"COMPARATIVO_ITAU_RECEBIMENTOS_{year:04d}-{month:02d}.xlsx"
-        except Exception:
-            default_name = "COMPARATIVO_ITAU_RECEBIMENTOS.xlsx"
+        default_name = f"COMPARATIVO_ITAU_RECEBIMENTOS_{year:04d}-{month:02d}.xlsx"
 
         output_path = select_output_file(
             title="Salvar comparativo como",
@@ -406,7 +658,7 @@ def main() -> None:
             default_filename=default_name,
         )
 
-    output_path = run(bancos_path, recebimentos_path, output_path)
+    output_path = run(bancos_path, recebimentos_path, output_path, year, month)
     print(f"Comparativo gerado em: {output_path}")
 
 
