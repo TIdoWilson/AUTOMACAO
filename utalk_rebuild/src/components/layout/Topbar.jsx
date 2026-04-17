@@ -1,6 +1,6 @@
 import { Glyph } from '../shared/Glyph'
 
-export function Topbar({ currentLabel, pathname }) {
+export function Topbar({ currentLabel, pathname, userInitial = 'U' }) {
   return (
     <header className="topbar">
       <div className="topbar-brand">
@@ -11,7 +11,7 @@ export function Topbar({ currentLabel, pathname }) {
         <button className="icon-button"><Glyph name="search" /></button>
         <button className="icon-button"><Glyph name="chat" /></button>
         <button className="icon-button"><Glyph name="send" /></button>
-        <div className="topbar-avatar">M</div>
+        <div className="topbar-avatar">{userInitial}</div>
       </div>
     </header>
   )

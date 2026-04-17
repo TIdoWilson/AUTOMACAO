@@ -5,6 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:web": "vite",
+    "dev:api": "npm --prefix apps/api run dev",
+    "api:start": "npm --prefix apps/api run start",
+    "api:migrate": "npm --prefix apps/api run migrate",
+    "infra:up": "docker compose up -d",
+    "infra:down": "docker compose down",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"

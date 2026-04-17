@@ -3,8 +3,14 @@ import { navItems } from '../../lib/appData'
 import { navigate } from '../../lib/navigation'
 import { Glyph } from '../shared/Glyph'
 
-export function Sidebar({ pathname }) {
+function userInitial(name = '') {
+  const text = String(name).trim()
+  return text ? text[0].toUpperCase() : 'U'
+}
+
+export function Sidebar({ pathname, user, onLogout, isLogoutLoading }) {
   const [showProfileMenu, setShowProfileMenu] = useState(false)
+  const initial = userInitial(user?.name)
 
   return (
     <aside className="sidebar">
@@ -28,19 +34,20 @@ export function Sidebar({ pathname }) {
       <div className="sidebar-footer">
         <button className="sidebar-link muted"><Glyph name="bell" /></button>
         <button className="sidebar-link muted"><Glyph name="spark" /></button>
-        <button className="presence-avatar profile-trigger" onClick={() => setShowProfileMenu((current) => !current)}>M</button>
+        <button className="presence-avatar profile-trigger" onClick={() => setShowProfileMenu((current) => !current)}>{initial}</button>
         {showProfileMenu && (
           <div className="profile-menu-card">
             <div className="profile-menu-header">
-              <div className="presence-avatar large-profile">M</div>
-              <strong>Operador atual</strong>
-              <span>Minha conta</span>
+              <div className="presence-avatar large-profile">{initial}</div>
+              <strong>{user?.name ?? 'Usuario'}</strong>
+              <span>{user?.email ?? 'Minha conta'}</span>
             </div>
             <div className="profile-menu-tabs">
               <button className="active">Minha conta</button>
               <button>Preferencias</button>
             </div>
             <div className="profile-menu-links">
+              <button>{user?.role === 'admin' ? 'Perfil administrador' : 'Perfil operador'}</button>
               <button>Meu perfil</button>
               <button>Assinaturas e planos</button>
               <button>Indique e ganhe</button>
@@ -49,7 +56,9 @@ export function Sidebar({ pathname }) {
               <strong>Minhas organizacoes</strong>
               <button className="org-pill">Empresa interna principal</button>
             </div>
-            <button className="profile-menu-logout">Sair</button>
+            <button className="profile-menu-logout" onClick={onLogout} disabled={isLogoutLoading}>
+              {isLogoutLoading ? 'Saindo...' : 'Sair'}
+            </button>
           </div>
         )}
       </div>

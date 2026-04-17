@@ -35,6 +35,11 @@ button {
   cursor: pointer;
 }
 
+button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
 input,
 textarea {
   border: 0;
@@ -219,6 +224,11 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+}
+
+.login-form {
+  display: grid;
+  gap: 16px;
 }
 
 .checkbox-line {

@@ -1,10 +1,13 @@
+# -*- coding: utf-8 -*-
 from __future__ import annotations
 
-import argparse
 import re
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
+
+import tkinter as tk
+from tkinter import filedialog
 
 from openpyxl import Workbook
 from openpyxl.styles import Font
@@ -106,29 +109,33 @@ def salvar_excel(registros: Iterable[RegistroFerias], destino: Path) -> None:
     wb.save(destino)
 
 
-def construir_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(
-        description="Extrai resumo de recibos de adiantamento de ferias (RTF) e gera Excel."
+def selecionar_arquivo_rtf() -> Path | None:
+    root = tk.Tk()
+    root.withdraw()
+    root.attributes("-topmost", True)
+    arquivo = filedialog.askopenfilename(
+        title="Selecione o arquivo RTF",
+        filetypes=[
+            ("Arquivos RTF", "*.rtf"),
+            ("Todos os arquivos", "*.*"),
+        ],
     )
-    parser.add_argument("arquivo_rtf", type=Path, help="Caminho do arquivo .rtf de entrada.")
-    parser.add_argument(
-        "-o",
-        "--saida",
-        type=Path,
-        help="Caminho do Excel (.xlsx) de saida. Se omitido, usa o nome do RTF com sufixo.",
-    )
-    return parser
+    root.destroy()
+    if not arquivo:
+        return None
+    return Path(arquivo)
 
 
 def main() -> None:
-    parser = construir_parser()
-    args = parser.parse_args()
+    arquivo_rtf = selecionar_arquivo_rtf()
+    if arquivo_rtf is None:
+        print("Nenhum arquivo selecionado.")
+        return
 
-    arquivo_rtf: Path = args.arquivo_rtf
     if not arquivo_rtf.exists():
         raise FileNotFoundError(f"Arquivo nao encontrado: {arquivo_rtf}")
 
-    saida: Path = args.saida or arquivo_rtf.with_name(f"{arquivo_rtf.stem}_resumo_ferias.xlsx")
+    saida: Path = arquivo_rtf.with_name(f"{arquivo_rtf.stem}_resumo_ferias.xlsx")
 
     texto = arquivo_rtf.read_text(encoding="latin-1", errors="ignore")
     registros = extrair_registros(texto)
